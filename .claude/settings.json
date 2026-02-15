@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": ["Read:*", "Edit:*", "Write:*", "Bash:python3 scripts/*"],
+    "defaultMode": "acceptEdits"
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "CAREFUL NOT CLEVER VERIFICATION\n\nFile modified: $TOOL_INPUT\n\nBefore proceeding, verify:\n1. Are ALL sheep relationships (sire/dam/offspring) verified against source images?\n2. Are ALL tag numbers confirmed against the spiral notebook (primary source)?\n3. Are ALL breed composition percentages consistent with parent percentages?\n4. Were any assumptions made without source verification?\n\nIf ANY unverified data was added, respond {\"decision\": \"block\", \"reason\": \"Unverified content: [specify what needs checking]\"}\n\nIf all content was verified OR the edit contains no sheep data, respond {\"decision\": \"approve\"}"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "IMAGE SAFETY CHECK\n\nFile being read: $TOOL_INPUT\n\nIf this is an image file (JPG, PNG, JPEG) NOT in data/processed/, check:\n- Is the file in the data/processed/ directory? If YES, approve.\n- Is the file an original (in root directory)? If YES, warn that processed version should be used instead.\n\nFor non-image files, always approve.\n\nRespond {\"decision\": \"approve\"} or {\"decision\": \"block\", \"reason\": \"Use data/processed/ version instead\"}"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "skills": [
+    {
+      "name": "careful-not-clever",
+      "description": "Integrity guardrail for sheep flock management. Enforces careful, verified work over clever shortcuts. Activates on every file modification to ensure sheep records, pedigrees, and health data are verified before committing.",
+      "type": "guardrail",
+      "priority": "critical",
+      "enforcement": "block",
+      "triggers": {
+        "keywords": ["flock", "sheep", "breed", "pedigree", "sire", "dam", "lambing", "FAMACHA", "treatment", "pen assignment"],
+        "file_paths": ["data/*.json", "*.md"]
+      },
+      "skill_file": ".claude/skills/careful-not-clever/SKILL.md",
+      "guardrails": {
+        "must": [
+          "Cross-reference data against spiral notebook images (primary source)",
+          "Verify tag numbers match across sources",
+          "Mark uncertain data with [UNCLEAR] and confidence: low",
+          "Preserve all original images",
+          "Commit after each logical unit of work"
+        ],
+        "must_not": [
+          "Invent pedigree relationships",
+          "Guess tag numbers or breed compositions",
+          "Delete any image files",
+          "Read oversized images directly (use data/processed/)",
+          "Make changes without source verification"
+        ]
+      }
+    },
+    {
+      "name": "image-transcription",
+      "description": "Transcribe sheep records from spiral notebook photos and handwritten notes. Handle OCR of handwritten records, photo identification of individual sheep, and extraction of treatment/measurement data from notebook pages.",
+      "type": "domain",
+      "priority": "high",
+      "enforcement": "suggest",
+      "triggers": {
+        "keywords": ["transcribe", "read image", "notebook", "handwritten", "extract", "OCR", "photo"],
+        "file_paths": ["data/processed/*.jpeg", "*.JPG", "*.PNG"],
+        "intent_patterns": ["(transcribe|read|extract).*?(notebook|image|photo|record)"]
+      },
+      "skill_file": ".claude/skills/image-transcription/SKILL.md",
+      "guardrails": {
+        "must": [
+          "Use processed images (data/processed/) not originals",
+          "Mark unclear text as [UNCLEAR]",
+          "Preserve original spellings in notes",
+          "Note which image the data came from"
+        ],
+        "must_not": [
+          "Read images >2000px directly",
+          "Guess unclear text",
+          "Invent data not visible in the image"
+        ]
+      }
+    },
+    {
+      "name": "flock-validation",
+      "description": "Validate flock database integrity including pedigree consistency, breed composition math, pen assignments, and tag number uniqueness.",
+      "type": "guardrail",
+      "priority": "high",
+      "enforcement": "suggest",
+      "triggers": {
+        "keywords": ["validate", "check", "verify", "audit", "inconsistency"],
+        "file_paths": ["data/flock_database.json"]
+      },
+      "skill_file": ".claude/skills/flock-validation/SKILL.md",
+      "guardrails": {
+        "must": [
+          "Verify breed percentages sum to 100%",
+          "Verify sire/dam references point to existing sheep",
+          "Verify tag numbers are unique among living animals",
+          "Flag deceased animals still listed in active pens"
+        ],
+        "must_not": [
+          "Auto-fix data without user approval",
+          "Remove records for deceased animals",
+          "Ignore validation warnings"
+        ]
+      }
+    }
+  ],
+  "global": {
+    "enableAutoActivation": true,
+    "verboseLogging": false,
+    "cacheSkillContext": true,
+    "maxConcurrentSkills": 2
+  },
+  "philosophy": {
+    "priority_order": [
+      "Accuracy-First — Never guess or invent flock data",
+      "Source-Fidelity — Spiral notebook is the primary authority",
+      "Preservation-First — All images are irreplaceable primary sources",
+      "Pedigree-Integrity — Every relationship must be verifiable"
+    ],
+    "core_principle": "Accuracy is more important than speed",
+    "breeding_goals": [
+      "Parasite resistance (FAMACHA-driven selection)",
+      "Hair coat selection (reduce maintenance for Florida climate)",
+      "Meat quality (maintain body condition and growth rates)",
+      "Milk production (Awassi influence valued)",
+      "Hybrid vigor through strategic crossbreeding"
+    ],
+    "ethos": "Soli Deo Gloria"
+  }
+}
