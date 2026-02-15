@@ -109,7 +109,7 @@ db["sheep"].append(sheep("sir-loin", "Sir Loin", "ram", "alive",
     measurements={"girth": 43.25, "length": 49.5, "calculated_weight": 308.6, "date": "2023-2024"},
     notes="Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook.",
     confidence="high", csv_row=1,
-    offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1", "dodge", "daisy", "oliver", "spicy"]))
+    offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1", "dodge", "daisy", "oliver", "spicy", "fm-lamb-2023", "abg-twin1-2024", "abg-twin2-2024"]))
 
 # Kelsier = OAV 2223 = UF Ram Test — Katahdin ram, MOST parasite resistant
 # Breeding page (OAV 2223): 100%K, tag 2223, DOB 12-21-22. Born as twin. Birth weight 10lbs, ADG 0.36.
@@ -198,17 +198,24 @@ db["sheep"].append(sheep("sam", "Sam", "ram", "alive",
 # NOTE: Living Kaladin (tag 014) is S'More x Serendipity. The deceased Kaladin (tag 24)
 # was S'More x Anna = 50Cr/50K. Breeding page math for Merrie confirms this Kaladin
 # has Babydoll and Jacob from Serendipity's side (via Shaggy).
+# Extension Service 2023: Lamb ID 14, SR × SM, born 5/11/2023, sex 2 (ewe), single, birth wt 6lbs.
+#   Weaned 7/18/2023 at 52lbs (68 days). ADG 0.68. Adj WW 100 (ratio 137 — highest!).
+#   NOTE: Extension service lists sex as "2" (ewe), but all other records say ram.
+#   This is likely a data entry error — kept as ram per all other sources.
 db["sheep"].append(sheep("kaladin", "Kaladin", "ram", "alive",
     tag="014",
     aliases=["Kal"],
     pen="Pen 1",
     breed_composition={"primary": "Cracker/St Augustine/Babydoll/Jacob/Katahdin", "percentages": {"Cracker": 50, "St Augustine": 18.75, "Babydoll": 12.5, "Jacob": 12.5, "Katahdin": 6.25}, "coat_type": "mixed", "hair_percentage": 56},
     color_markings="White w black ears",
+    dob="2023-05-11",
     sire_id="smore", dam_id="serendipity",
     is_breeding_animal=True,
+    birth_weight=6,
     weight_lbs=52,
     measurements={"girth": 26, "length": 23, "calculated_weight": 51.8, "date": "2023-2024"},
-    notes="Living Kaladin tag 014. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Weight calculator: 51.8lbs. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K — different animal. With Eclipse, Merrie, Abg, Fm.",
+    extension_service={"lamb_id": 14, "birth_date": "2023-05-11", "birth_weight": 6, "birth_rearing_type": 1, "sex_code": 2, "weaning_date": "2023-07-18", "weaning_weight": 52, "weaning_age_days": 68, "age_group": 60, "wda": 2.00, "adg": 0.68, "age_corrected_ww": 96, "adjusted_ww": 100, "adj_ww_ratio": 137},
+    notes="Living Kaladin tag 014. DOB 5/11/2023 per extension service. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Birth weight 6lbs (single). Weaned 7/18/2023 at 52lbs (68 days). ADG 0.68. Adjusted WW 100 (ratio 137 — HIGHEST in 2023 class). Extension service lists sex as ewe (code 2) — likely data entry error, all other sources say ram. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K — different animal. With Merrie, Gertrude Moon (Abg), Fm in Pen 1.",
     confidence="high",
     notebook_image=["IMG_8624.PNG", "IMG_8630.PNG"]))
 
@@ -219,8 +226,8 @@ db["sheep"].append(sheep("smore", "S'More", "ram", "deceased",
     color_markings="Red",
     weight_lbs=200, dob="2021-01-14", dob_approximate=True,
     is_breeding_animal=True,
-    offspring_ids=["kaladin", "merrie"],
-    notes="Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2023 lambs including Pippen, Merrie (by Half Tail), Danny's Girl, Circle Tail, BK1, BK2, HT1, anna1, BT1/BT2, Shaggy1, Shaggy2, BSOE1, BSOE2, Boots1, and Kaladin (by Serendipity). The deceased Kaladin (tag 24) was S'More x Anna.",
+    offspring_ids=["kaladin", "merrie", "pippin", "trouble-lamb-2023", "bsoed-lamb-2023", "bt-lamb-2023", "ht-ext-lamb-2023", "shaggy-1", "shaggy-2", "bk1", "bk2", "circle-tail"],
+    notes="Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2023 lambs including Pippen/BSOE1 (by BSOE), Merrie (by Half Tail), Danny's Girl, Circle Tail (by Brown Knee), BK1, BK2 (by Brown Knee), HT1 (by Half Tail), anna1, BT1/BT2 (by Broken Tail), Shaggy1, Shaggy2 (by Shaggy), BSOE2, Boots1, Trouble's lamb, Bsoed's lamb, and Kaladin (by Serendipity). The deceased Kaladin (tag 24) was S'More x Anna.",
     confidence="high", csv_row=2))
 
 # Well Done - Katahdin ram from CSV (parents: Big Daddy x Gulf, off-farm)
@@ -264,13 +271,22 @@ db["sheep"].append(sheep("charlies-ram", "Charlie's Ram", "ram", "alive",
     confidence="high",
     notebook_image=["IMG_8624.PNG", "IMG_8631.PNG"]))
 
-# Pippin - ram, tag 015
+# Pippin / BSOE1 - ram, tag 015 (S'More x BSOE)
+# Extension Service 2023: Lamb ID 4, BSOE × SM, born 1/29/2023, ram, single (type 1), birth wt 9lbs.
+#   Weaned 5/23/2023 at 59lbs (114 days). ADG 0.44. Adj WW 62 (ratio 77).
+# Breed: avg(100%Cr, 56K/44SA) = 50%Cr/28%K/22%SA
 db["sheep"].append(sheep("pippin", "Pippin", "ram", "alive",
     tag="015",
+    aliases=["BSOE1", "Pippen"],
+    dob="2023-01-29",
+    sire_id="smore", dam_id="bsoe",
+    breed_composition={"primary": "Cracker/Katahdin/St Augustine", "percentages": {"Cracker": 50, "Katahdin": 28, "St Augustine": 22}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=9,
     weight_lbs=80,
     measurements={"girth": 28, "length": 30.75, "calculated_weight": 80.4, "date": "2023-2024"},
-    notes="Ram from measurement list. Weight calculator: 80.4lbs (girth 28, length 30.75).",
-    confidence="medium",
+    extension_service={"lamb_id": 4, "birth_date": "2023-01-29", "birth_weight": 9, "birth_rearing_type": 1, "sex_code": 1, "weaning_date": "2023-05-23", "weaning_weight": 59, "weaning_age_days": 114, "age_group": 120, "wda": 0.52, "adg": 0.44, "age_corrected_ww": 62, "adjusted_ww": 62, "adj_ww_ratio": 77},
+    notes="Pippin/BSOE1. Tag 015. S'More (100%Cr) x BSOE (56K/44SA). DOB 1/29/2023 per extension service. Birth weight 9lbs (single). Weaned 5/23/2023 at 59lbs (114 days). ADG 0.44. Adj WW 62 (ratio 77). Weight calculator: 80.4lbs. 50%Cr/28%K/22%SA.",
+    confidence="high",
     notebook_image=["IMG_8622.PNG"]))
 
 # New black belly ram 018
@@ -522,22 +538,26 @@ db["sheep"].append(sheep("broken-tail", "Broken Tail", "ewe", "alive",
     color_markings="White",
     weight_lbs=225, dob="2018-01-18", dob_approximate=True,
     sire_id="sir-loin", dam_id="half-tail",
-    offspring_ids=["bt1-lamb", "bt2-lamb", "dodge"],
+    offspring_ids=["bt-lamb-2023", "dodge"],
     notes="Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin — inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook.",
     confidence="high",
     csv_row=17,
     notebook_image=["IMG_8629.PNG", "IMG_8642.PNG"]))
 
 # Trouble - ewe, tag 33 (Sir Loin x Haylee Lawson)
+# Extension Service 2023: Lamb ID 17, T × SM, born 2/22/2023, ram, single (type 1), birth wt 8lbs.
+#   Weaned 5/23/2023 at 84lbs (90 days). ADG 0.84. Adj WW 84 (ratio 104).
 db["sheep"].append(sheep("trouble", "Trouble", "ewe", "alive",
     tag="033",
-    aliases=["Tr"],
+    aliases=["Tr", "T"],
     pen="Pen 5",
     breed_composition={"primary": "Katahdin/St Augustine/Dorper", "percentages": {"Katahdin": 37.5, "St Augustine": 37.5, "Dorper": 25}, "coat_type": "hair", "hair_percentage": 62},
     color_markings="White",
     weight_lbs=180, dob="2021-01-01", dob_approximate=True,
     sire_id="sir-loin", dam_id="haylee-lawson",
-    notes="Flock spreadsheet: Tag 9/retagged 33, 25% Dorper / 37.5% Katahdin / 37.5% St Augustine, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). In pen 5 per notebook.",
+    is_breeding_animal=True,
+    offspring_ids=["trouble-lamb-2023"],
+    notes="Flock spreadsheet: Tag 9/retagged 33, 25%Dorper/37.5%K/37.5%SA, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). 2023 offspring: ram lamb (ID 17) by S'More born 2/22/2023 (8lb birth wt, single, weaned 84lbs at 90 days — 2nd best male lamb). In pen 5 per notebook.",
     confidence="high",
     notebook_image=["IMG_8642.PNG"]))
 
@@ -559,27 +579,34 @@ db["sheep"].append(sheep("bsoe", "Bsoe", "ewe", "alive",
     notebook_image=["IMG_8642.PNG"]))
 
 # Bsoed (Black Spot Daughter) - ewe, tag 31 (Sir Loin x BSOE)
+# Extension Service 2023: Lamb ID 1, BSOE D × SM, born 2/22/2023, ram, type 4, birth wt 8lbs.
+#   Weaned 5/23/2023 at 64lbs (90 days). ADG 0.62. Adj WW 77 (ratio 96).
 db["sheep"].append(sheep("bsoed", "Bsoed", "ewe", "alive",
     tag="031",
-    aliases=["Black Spot Daughter", "BSOED"],
+    aliases=["Black Spot Daughter", "BSOED", "BSOE D"],
     pen="Pen 5",
     breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"Katahdin": 40.5, "St Augustine": 59.5}, "coat_type": "mixed", "hair_percentage": 40},
     color_markings="White",
     weight_lbs=175, dob="2020-01-18", dob_approximate=True,
     sire_id="sir-loin", dam_id="bsoe",
-    notes="Flock spreadsheet: ~40.5% Katahdin / ~59.5% St Augustine, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). In pen 5 per notebook.",
+    is_breeding_animal=True,
+    offspring_ids=["bsoed-lamb-2023"],
+    notes="Flock spreadsheet: ~40.5%K/~59.5%SA, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). 2023 offspring: ram lamb (ID 1) by S'More born 2/22/2023 (8lb birth wt, type 4, weaned 64lbs at 90 days). In pen 5 per notebook.",
     confidence="high",
     notebook_image=["IMG_8642.PNG"]))
 
 # FM - ewe (purchased, GA tag 1568-011)
+# Extension Service 2023: Lamb ID 9, FM × SL, born 4/1/2023, ram, single (type 1), birth wt 12lbs.
+#   Weaned 5/23/2023 at 67lbs (52 days). ADG 1.06. Adj WW 80 (ratio 110).
 db["sheep"].append(sheep("fm", "FM", "ewe", "alive",
     pen="Pen 1",
     weak_resistance=True,
     breed_composition={"primary": "Cotswold/Tunis", "percentages": {"Cotswold": 50, "Tunis": 50}, "coat_type": "wool", "hair_percentage": 0},
     color_markings="Red",
     weight_lbs=200, dob="2021-01-10", dob_approximate=True,
-    offspring_ids=["flan"],
-    notes="Flock spreadsheet: Tag GA1568-011, 50% Cotswold / 50% Tunis, Red, 200lbs. DOB 1/10/2021. Purchased (Sire: Annie 1, Dam: Annie 2). Mother of Flan (by Sir Loin). In Pen 1 (Kaladin group). On weak resistance list. Lambed 2026-02-01.",
+    is_breeding_animal=True,
+    offspring_ids=["fm-lamb-2023", "flan"],
+    notes="Flock spreadsheet: Tag GA1568-011, 50% Cotswold / 50% Tunis, Red, 200lbs. DOB 1/10/2021. Purchased (Sire: Annie 1, Dam: Annie 2). 2023: ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days — heavy!). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list.",
     confidence="high",
     csv_row=15,
     notebook_image=["IMG_8628.PNG", "IMG_8630.PNG", "IMG_8636.PNG", "IMG_8641.PNG"]))
@@ -606,16 +633,62 @@ db["sheep"].append(sheep("eclipse", "Eclipse", "ewe", "deceased",
     confidence="high",
     notebook_image=["IMG_8624.PNG", "IMG_8630.PNG"]))
 
-# Abg - ewe, tag 22 (ABB ewe per weight calculator)
-db["sheep"].append(sheep("abg", "Abg", "ewe", "alive",
+# Abg = Gertrude Moon aka Bitch Face (BF) - ewe, tag 22, 100% American Black Belly
+# Breeding page: 100%ABB. DOB 2020. Sire: ABB Ram, Dam: ABB Ewe. Acquired 5-4-23.
+# Formerly "unnamed". Owner's mother calls her "Bitch Face" / "BF".
+# 2023: Bred to Sir Loin 5-4-23, due 10-4-23. Twins born 1-2-24 (2 lambs by Sir Loin).
+# Medical: FAMACHA 4 on 9-6-23 (Ivermectin), FAMACHA 2 on 9-18-23 (no treatment).
+# Extension service: Lamb ID 8, ABG × SL, born 1/24/2023, ram, type 3, 8lb birth wt
+#   (but acquired 5-4-23 — possible earlier acquisition or age/date discrepancy).
+db["sheep"].append(sheep("abg", "Gertrude Moon", "ewe", "alive",
     tag="022",
-    aliases=["ABB ewe"],
+    aliases=["ABB ewe", "Abg", "ABG", "Bitch Face", "BF", "Unnamed"],
     pen="Pen 1",
-    weight_lbs=144,
+    breed_composition={"primary": "American Black Belly", "percentages": {"American Blackbelly": 100}, "coat_type": "hair", "hair_percentage": 100},
+    weight_lbs=144, dob="2020-01-01", dob_approximate=True,
+    sire_id="abg-sire", dam_id="abg-dam",
+    born_as_multiple=True,
+    received_from="unknown",
+    date_acquired="2023-05-04",
+    famacha_scores=[{"score": 4, "date": "2023-09-06", "notes": "Ivermectin"}, {"score": 2, "date": "2023-09-18", "notes": "no treatment"}],
+    treatments=[{"date": "2023-09-06", "treatment": "Ivermectin"}],
     measurements={"girth": 36.75, "length": 32, "calculated_weight": 144.1, "date": "2023-2024"},
-    notes="Tag 22. Called 'Abb ewe' in weight calculator. Weight calculator: 144.1lbs. In Pen 1 (Kaladin group).",
+    offspring_ids=["abg-twin1-2024", "abg-twin2-2024"],
+    is_breeding_animal=True,
+    notes="Gertrude Moon aka Bitch Face (BF). Tag 22. 100%ABB per breeding page. DOB 2020. Sire: ABB Ram, Dam: ABB Ewe (both off-farm). Acquired 5-4-23. Formerly 'unnamed.' Ewe weight 144.06lbs, ram weight projection 169.29lbs. Multiple: Y. 2023: bred to Sir Loin 5-4-23, due 10-4-23. Twins born 1-2-24 (unnamed, by Sir Loin). FAMACHA 4 on 9-6-23 (Ivermectin), FAMACHA 2 on 9-18-23. Extension service also shows lamb ID 8 (ABG × SL, born 1/24/2023, ram, triplet-type, 8lb) — timing conflicts with 5-4-23 acquisition date. In Pen 1 (Kaladin group).",
     confidence="high",
     notebook_image=["IMG_8630.PNG", "IMG_8641.PNG"]))
+
+# ABG's sire - ABB Ram (off-farm)
+db["sheep"].append(sheep("abg-sire", "ABG's Sire", "ram", "unknown",
+    breed_composition={"primary": "American Black Belly", "percentages": {"American Blackbelly": 100}, "coat_type": "hair", "hair_percentage": 100},
+    offspring_ids=["abg"],
+    notes="Gertrude Moon's sire per breeding page. 'ABB Ram.' Off-farm.",
+    confidence="medium"))
+
+# ABG's dam - ABB Ewe (off-farm)
+db["sheep"].append(sheep("abg-dam", "ABG's Dam", "ewe", "unknown",
+    breed_composition={"primary": "American Black Belly", "percentages": {"American Blackbelly": 100}, "coat_type": "hair", "hair_percentage": 100},
+    offspring_ids=["abg"],
+    notes="Gertrude Moon's dam per breeding page. 'ABB Ewe.' Off-farm.",
+    confidence="medium"))
+
+# ABG's 2024 twin 1 (Sir Loin x Gertrude Moon, born 1-2-24)
+# Breed: avg(25K/75SA, 100ABB) = 50%ABB/12.5%K/37.5%SA
+db["sheep"].append(sheep("abg-twin1-2024", "ABG Twin 1 (2024)", "unknown", "unknown",
+    sire_id="sir-loin", dam_id="abg",
+    dob="2024-01-02",
+    breed_composition={"primary": "ABB/St Augustine/Katahdin", "percentages": {"American Blackbelly": 50, "St Augustine": 37.5, "Katahdin": 12.5}, "coat_type": "hair", "hair_percentage": 62},
+    notes="Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin with ABG Twin 2. 50%ABB/37.5%SA/12.5%K. From Gertrude Moon breeding page.",
+    confidence="high"))
+
+# ABG's 2024 twin 2 (Sir Loin x Gertrude Moon, born 1-2-24)
+db["sheep"].append(sheep("abg-twin2-2024", "ABG Twin 2 (2024)", "unknown", "unknown",
+    sire_id="sir-loin", dam_id="abg",
+    dob="2024-01-02",
+    breed_composition={"primary": "ABB/St Augustine/Katahdin", "percentages": {"American Blackbelly": 50, "St Augustine": 37.5, "Katahdin": 12.5}, "coat_type": "hair", "hair_percentage": 62},
+    notes="Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin with ABG Twin 1. 50%ABB/37.5%SA/12.5%K. From Gertrude Moon breeding page.",
+    confidence="high"))
 
 # NOTE: "Banana" in the notebook is the same animal as "Anna's Big One" (spreadsheet abbreviation "B").
 # Removed duplicate - see annas-big-one entry in ADDITIONAL FROM CSV section.
@@ -854,11 +927,8 @@ db["sheep"].append(sheep("daisys-daughter-2", "Daisy's Daughter 2", "ewe", "aliv
     notebook_image=[]))
 
 # Gertude - from Google Sheet Pen 5
-db["sheep"].append(sheep("gertrude", "Gertrude", "ewe", "unknown",
-    pen="Pen 5",
-    breed_composition={"primary": "ABB/St Augustine/Katahdin/Wiltshire", "percentages": {"American Blackbelly": 25, "St Augustine": 37.5, "Katahdin": 12.5, "Wiltshire Horn": 25}, "coat_type": "hair", "hair_percentage": 62},
-    notes="From Google Sheet Pen 5 breed data. NoriSon's group.",
-    confidence="low"))
+# REMOVED: "gertrude" entry from Google Sheet had wrong breed data (25ABB/37.5SA/12.5K/25WH = Eclipse's breed, not Gertrude Moon's).
+# Gertrude Moon = ABG (tag 22, 100% ABB) — see "abg" entry above. The Google Sheet "Gertrude" in Pen 5 was a misattribution.
 
 # OAV 2222 - 100% Katahdin, Kelsier's sister — from OAV Sam Mushko
 # Breeding page: Pen 6 (but notebook has her in Pen 5 — notebook is authoritative for current pen).
@@ -946,6 +1016,147 @@ db["sheep"].append(sheep("fl51870-0502", "Fl51870-0502", "ewe", "alive",
     is_breeding_animal=True,
     notes="Florida scrapie tag Fl51870-0502. 50%Hampshire/50%Suffolk. Ewe weight 285.61lbs, ram weight prediction 385lbs. Bred to Sam (8-21-23) and Sir Loin (8-30-23, due February). Docile, not flighty. FAMACHA 4→2 Sept 2023. Breeding page name shows '(Pen 1-2)' and '(Pen 3)' notations. [UNCLEAR] which flock name this corresponds to, if any.",
     confidence="medium"))
+
+# ============================================================
+# 2023 EXTENSION SERVICE LAMB RECORDS — Manatee Creek, Ken Baker
+# Farm: Manatee Creek. Owner: Ken Baker. Lamb Year: 2023. Weaning date: 5/23/2023 (most).
+# 15 lambs tracked. Age group averages: 60-day N=3 avg=73, 90-day N=2 avg=81, 120-day N=10 avg=87.
+# Overall averages: WDA 0.79, ADG 0.63, Age Corr WW 74, Adj WW 84, ratio 106.
+# ============================================================
+
+# FM's 2023 ram lamb (ID 9) — Sir Loin × FM, born 4/1/2023
+# Breed: avg(25K/75SA, 50Cotswold/50Tunis) = 25%Cotswold/12.5%K/37.5%SA/25%Tunis
+db["sheep"].append(sheep("fm-lamb-2023", "FM's Lamb (2023)", "ram", "unknown",
+    sire_id="sir-loin", dam_id="fm",
+    dob="2023-04-01",
+    breed_composition={"primary": "St Augustine/Cotswold/Tunis/Katahdin", "percentages": {"St Augustine": 37.5, "Cotswold": 25, "Tunis": 25, "Katahdin": 12.5}, "coat_type": "mixed", "hair_percentage": 12},
+    birth_weight=12,
+    extension_service={"lamb_id": 9, "birth_date": "2023-04-01", "birth_weight": 12, "birth_rearing_type": 1, "sex_code": 1, "weaning_date": "2023-05-23", "weaning_weight": 67, "weaning_age_days": 52, "age_group": 60, "wda": 1.29, "adg": 1.06, "age_corrected_ww": 75, "adjusted_ww": 80, "adj_ww_ratio": 110},
+    notes="FM × Sir Loin ram lamb. Born 4/1/2023. Birth weight 12lbs (single — heaviest birth weight in class!). Weaned 5/23/2023 at 67lbs (52 days). ADG 1.06. Adj WW 80 (ratio 110). 25%Cotswold/12.5%K/37.5%SA/25%Tunis.",
+    confidence="high"))
+
+# Trouble's 2023 ram lamb (ID 17) — S'More × Trouble, born 2/22/2023
+# Breed: avg(100Cr, 37.5K/37.5SA/25D) = 50%Cr/18.75%K/18.75%SA/12.5%Dorper
+db["sheep"].append(sheep("trouble-lamb-2023", "Trouble's Lamb (2023)", "ram", "unknown",
+    sire_id="smore", dam_id="trouble",
+    dob="2023-02-22",
+    breed_composition={"primary": "Cracker/Katahdin/St Augustine/Dorper", "percentages": {"Cracker": 50, "Katahdin": 18.75, "St Augustine": 18.75, "Dorper": 12.5}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=8,
+    extension_service={"lamb_id": 17, "birth_date": "2023-02-22", "birth_weight": 8, "birth_rearing_type": 1, "sex_code": 1, "weaning_date": "2023-05-23", "weaning_weight": 84, "weaning_age_days": 90, "age_group": 90, "wda": 0.93, "adg": 0.84, "age_corrected_ww": 84, "adjusted_ww": 84, "adj_ww_ratio": 104},
+    notes="Trouble × S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (single). Weaned 5/23/2023 at 84lbs (90 days). ADG 0.84 — excellent growth. Adj WW 84 (ratio 104). 50%Cr/18.75%K/18.75%SA/12.5%D.",
+    confidence="high"))
+
+# Bsoed's 2023 ram lamb (ID 1) — S'More × Bsoed, born 2/22/2023
+# Breed: avg(100Cr, 40.5K/59.5SA) = 50%Cr/20.25%K/29.75%SA
+db["sheep"].append(sheep("bsoed-lamb-2023", "Bsoed's Lamb (2023)", "ram", "unknown",
+    sire_id="smore", dam_id="bsoed",
+    dob="2023-02-22",
+    breed_composition={"primary": "Cracker/St Augustine/Katahdin", "percentages": {"Cracker": 50, "St Augustine": 29.75, "Katahdin": 20.25}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=8,
+    extension_service={"lamb_id": 1, "birth_date": "2023-02-22", "birth_weight": 8, "birth_rearing_type": 4, "sex_code": 1, "weaning_date": "2023-05-23", "weaning_weight": 64, "weaning_age_days": 90, "age_group": 90, "wda": 0.71, "adg": 0.62, "age_corrected_ww": 64, "adjusted_ww": 77, "adj_ww_ratio": 96},
+    notes="Bsoed × S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (type 4). Weaned 5/23/2023 at 64lbs (90 days). ADG 0.62. Adj WW 77 (ratio 96). 50%Cr/29.75%SA/20.25%K.",
+    confidence="high"))
+
+# BT's 2023 ram lamb (ID 5) — S'More × Broken Tail, born 12/12/2022
+# Breed: avg(100Cr, 6.25BBB/28.125K/65.625SA) = 50%Cr/3.125%BBB/14.0625%K/32.8125%SA
+db["sheep"].append(sheep("bt-lamb-2023", "BT's Lamb (2023)", "ram", "unknown",
+    sire_id="smore", dam_id="broken-tail",
+    dob="2022-12-12",
+    breed_composition={"primary": "Cracker/St Augustine/Katahdin/BBB", "percentages": {"Cracker": 50, "St Augustine": 32.8125, "Katahdin": 14.0625, "Barbados Blackbelly": 3.125}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=9,
+    extension_service={"lamb_id": 5, "birth_date": "2022-12-12", "birth_weight": 9, "birth_rearing_type": 4, "sex_code": 1, "weaning_date": "2023-05-23", "weaning_weight": 118, "weaning_age_days": 162, "age_group": 120, "wda": 0.73, "adg": 0.67, "age_corrected_ww": 90, "adjusted_ww": 108, "adj_ww_ratio": 134},
+    notes="Broken Tail × S'More ram lamb (BT1 or BT2). Born 12/12/2022 (counted in 2023 class). Birth weight 9lbs (type 4). Weaned 5/23/2023 at 118lbs (162 days) — heaviest weaning weight in class! ADG 0.67. Adj WW 108 (ratio 134). 50%Cr/32.8%SA/14%K/3.1%BBB.",
+    confidence="high"))
+
+# HT's 2023 ram lamb (ID 7) — S'More × Half Tail, born 2/4/2023
+# Could be HT1 or possibly Merrie (DOB discrepancy: spreadsheet says Merrie born 1/14/2023).
+# Extension service says single birth (type 1), so HT only had one lamb weighed.
+# Breed: avg(100Cr, 12.5BBB/31.25K/56.25SA) = 50%Cr/6.25%BBB/15.625%K/28.125%SA
+db["sheep"].append(sheep("ht-ext-lamb-2023", "HT's Extension Lamb (2023)", "ram", "unknown",
+    sire_id="smore", dam_id="half-tail",
+    dob="2023-02-04",
+    breed_composition={"primary": "Cracker/St Augustine/Katahdin/BBB", "percentages": {"Cracker": 50, "St Augustine": 28.125, "Katahdin": 15.625, "Barbados Blackbelly": 6.25}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=7,
+    extension_service={"lamb_id": 7, "birth_date": "2023-02-04", "birth_weight": 7, "birth_rearing_type": 1, "sex_code": 1, "weaning_date": "2023-05-23", "weaning_weight": 69, "weaning_age_days": 108, "age_group": 120, "wda": 0.64, "adg": 0.57, "age_corrected_ww": 76, "adjusted_ww": 76, "adj_ww_ratio": 94},
+    notes="Half Tail × S'More ram lamb. Born 2/4/2023 (single birth). May be HT1 or Merrie (Merrie DOB from spreadsheet is 1/14/2023 vs 2/4/2023 here — 3 week discrepancy). Weaned 5/23/2023 at 69lbs (108 days). ADG 0.57. Adj WW 76 (ratio 94). 50%Cr/28.125%SA/15.625%K/6.25%BBB.",
+    confidence="medium"))
+
+# Shaggy's 2023 ram lamb 1 (ID 2) — S'More × Shaggy, born 1/29/2023
+# Breed: avg(100Cr, 50Babydoll/50Jacob) = 50%Cr/25%Babydoll/25%Jacob
+db["sheep"].append(sheep("shaggy-1", "Shaggy1", "ram", "unknown",
+    sire_id="smore", dam_id="shaggy",
+    dob="2023-01-29",
+    breed_composition={"primary": "Cracker/Babydoll/Jacob", "percentages": {"Cracker": 50, "Babydoll": 25, "Jacob": 25}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=6,
+    extension_service={"lamb_id": 2, "birth_date": "2023-01-29", "birth_weight": 6, "birth_rearing_type": 4, "sex_code": 1, "weaning_date": "2023-05-23", "weaning_weight": 68, "weaning_age_days": 114, "age_group": 120, "wda": 0.60, "adg": 0.54, "age_corrected_ww": 71, "adjusted_ww": 86, "adj_ww_ratio": 106},
+    notes="Shaggy × S'More ram lamb (Shaggy1). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 68lbs (114 days). ADG 0.54. Adj WW 86 (ratio 106). 50%Cr/25%Babydoll/25%Jacob.",
+    confidence="high"))
+
+# Shaggy's 2023 ram lamb 2 (ID 3) — S'More × Shaggy, born 1/29/2023
+db["sheep"].append(sheep("shaggy-2", "Shaggy2", "ram", "unknown",
+    sire_id="smore", dam_id="shaggy",
+    dob="2023-01-29",
+    breed_composition={"primary": "Cracker/Babydoll/Jacob", "percentages": {"Cracker": 50, "Babydoll": 25, "Jacob": 25}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=6,
+    extension_service={"lamb_id": 3, "birth_date": "2023-01-29", "birth_weight": 6, "birth_rearing_type": 4, "sex_code": 1, "weaning_date": "2023-05-23", "weaning_weight": 59, "weaning_age_days": 114, "age_group": 120, "wda": 0.52, "adg": 0.46, "age_corrected_ww": 62, "adjusted_ww": 74, "adj_ww_ratio": 92},
+    notes="Shaggy × S'More ram lamb (Shaggy2). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 59lbs (114 days). ADG 0.46. Adj WW 74 (ratio 92). 50%Cr/25%Babydoll/25%Jacob.",
+    confidence="high"))
+
+# BK's 2023 ewe lamb 1 (ID 16) — S'More × Brown Knee, born 1/24/2023
+# Breed: avg(100Cr, 43.75K/56.25SA) = 50%Cr/21.875%K/28.125%SA
+db["sheep"].append(sheep("bk1", "BK1", "ewe", "unknown",
+    sire_id="smore", dam_id="brown-knee",
+    dob="2023-01-24",
+    breed_composition={"primary": "Cracker/St Augustine/Katahdin", "percentages": {"Cracker": 50, "St Augustine": 28.125, "Katahdin": 21.875}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=8,
+    extension_service={"lamb_id": 16, "birth_date": "2023-01-24", "birth_weight": 8, "birth_rearing_type": 4, "sex_code": 2, "weaning_date": "2023-05-23", "weaning_weight": 99, "weaning_age_days": 119, "age_group": 120, "wda": 0.83, "adg": 0.76, "age_corrected_ww": 100, "adjusted_ww": 109, "adj_ww_ratio": 135},
+    notes="Brown Knee × S'More ewe lamb (BK1). Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 99lbs (119 days) — BEST ewe lamb! ADG 0.76. Adj WW 109 (ratio 135). 50%Cr/28.125%SA/21.875%K.",
+    confidence="high"))
+
+# BK's 2023 ewe lamb 2 (ID 15) — S'More × Brown Knee, born 1/24/2023
+db["sheep"].append(sheep("bk2", "BK2", "ewe", "unknown",
+    sire_id="smore", dam_id="brown-knee",
+    dob="2023-01-24",
+    breed_composition={"primary": "Cracker/St Augustine/Katahdin", "percentages": {"Cracker": 50, "St Augustine": 28.125, "Katahdin": 21.875}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=8,
+    extension_service={"lamb_id": 15, "birth_date": "2023-01-24", "birth_weight": 8, "birth_rearing_type": 4, "sex_code": 2, "weaning_date": "2023-05-23", "weaning_weight": 80, "weaning_age_days": 119, "age_group": 120, "wda": 0.67, "adg": 0.61, "age_corrected_ww": 81, "adjusted_ww": 88, "adj_ww_ratio": 109},
+    notes="Brown Knee × S'More ewe lamb (BK2). Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 80lbs (119 days). ADG 0.61. Adj WW 88 (ratio 109). 50%Cr/28.125%SA/21.875%K.",
+    confidence="high"))
+
+# Unknown 7yo ewe's ram lamb (ID 35) — likely Anna (age ~7 in 2023), born 2/1/2023
+# No sire listed in extension service. Type 4, birth weight 7lbs.
+db["sheep"].append(sheep("ext-lamb-35", "Ext Lamb 35", "ram", "unknown",
+    dob="2023-02-01",
+    birth_weight=7,
+    extension_service={"lamb_id": 35, "birth_date": "2023-02-01", "birth_weight": 7, "birth_rearing_type": 4, "sex_code": 1, "ewe_age": 7, "weaning_date": "2023-05-23", "weaning_weight": 81, "weaning_age_days": 111, "age_group": 120, "wda": 0.73, "adg": 0.67, "age_corrected_ww": 87, "adjusted_ww": 109, "adj_ww_ratio": 135},
+    notes="Extension service lamb ID 35. Ram, born 2/1/2023 (type 4). Ewe age 7 — likely Anna (DOB ~2016). No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 81lbs (111 days). ADG 0.67. Adj WW 109 (ratio 135 — tied for best). May be anna1 (S'More offspring).",
+    confidence="medium"))
+
+# Unknown 3yo ewe's ram lamb (ID 27) — born 2/1/2023
+db["sheep"].append(sheep("ext-lamb-27", "Ext Lamb 27", "ram", "unknown",
+    dob="2023-02-01",
+    birth_weight=7,
+    extension_service={"lamb_id": 27, "birth_date": "2023-02-01", "birth_weight": 7, "birth_rearing_type": 4, "sex_code": 1, "ewe_age": 3, "weaning_date": "2023-05-23", "weaning_weight": 66, "weaning_age_days": 111, "age_group": 120, "wda": 0.59, "adg": 0.53, "age_corrected_ww": 71, "adjusted_ww": 85, "adj_ww_ratio": 106},
+    notes="Extension service lamb ID 27. Ram, born 2/1/2023 (type 4). Ewe age 3 — unknown dam. No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 66lbs (111 days). ADG 0.53. Adj WW 85 (ratio 106).",
+    confidence="low"))
+
+# Unknown 3yo ewe's ewe lamb (ID 10) — born 3/23/2023
+db["sheep"].append(sheep("ext-lamb-10", "Ext Lamb 10", "ewe", "unknown",
+    dob="2023-03-23",
+    birth_weight=5,
+    extension_service={"lamb_id": 10, "birth_date": "2023-03-23", "birth_weight": 5, "birth_rearing_type": 4, "sex_code": 2, "ewe_age": 3, "weaning_date": "2023-05-23", "weaning_weight": 36, "weaning_age_days": 61, "age_group": 60, "wda": 0.59, "adg": 0.51, "age_corrected_ww": 35, "adjusted_ww": 39, "adj_ww_ratio": 53},
+    notes="Extension service lamb ID 10. Ewe, born 3/23/2023 (type 4). Ewe age 3 — unknown dam. No sire listed. Birth weight 5lbs. Weaned 5/23/2023 at 36lbs (61 days). ADG 0.51. Adj WW 39 (ratio 53 — lowest). Smallest/youngest lamb in class.",
+    confidence="low"))
+
+# Extension Service: ABG (ID 8) — may be Gertrude Moon × Sir Loin, born 1/24/2023
+# Ewe listed as age 1 but Gertrude Moon was ~3 in 2023. Acquired 5-4-23 per breeding page.
+# Type 3 (triplet?) — anomalous. Possible earlier acquisition date or different ewe.
+db["sheep"].append(sheep("ext-lamb-8", "Ext Lamb 8 (ABG)", "ram", "unknown",
+    dob="2023-01-24",
+    birth_weight=8,
+    extension_service={"lamb_id": 8, "birth_date": "2023-01-24", "birth_weight": 8, "birth_rearing_type": 3, "sex_code": 1, "ewe_id": "ABG", "ewe_age": 1, "sire_id": "SL", "weaning_date": "2023-05-23", "weaning_weight": 60, "weaning_age_days": 119, "age_group": 120, "wda": 0.50, "adg": 0.44, "age_corrected_ww": 60, "adjusted_ww": 77, "adj_ww_ratio": 95},
+    notes="Extension service lamb ID 8. Ram, born 1/24/2023 (type 3). Ewe: ABG age 1, Sire: SL (Sir Loin). Birth weight 8lbs. Weaned 5/23/2023 at 60lbs (119 days). ADG 0.44. Adj WW 77 (ratio 95). Note: ABG/Gertrude Moon was acquired 5-4-23 and was ~3 years old, not 1 — possible data entry errors or earlier acquisition.",
+    confidence="low"))
 
 # ============================================================
 # DECEASED / SOLD

@@ -13,12 +13,12 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
-    "total_sheep": 113,
+    "total_sheep": 129,
     "active_sheep": 62,
     "deceased_count": 26,
     "culled_count": 1,
     "sold_count": 6,
-    "unknown_count": 18
+    "unknown_count": 34
   },
   "sheep": [
     {
@@ -79,7 +79,10 @@
           "dodge",
           "daisy",
           "oliver",
-          "spicy"
+          "spicy",
+          "fm-lamb-2023",
+          "abg-twin1-2024",
+          "abg-twin2-2024"
         ],
         "lambing_records": []
       },
@@ -515,7 +518,7 @@
       },
       "color_markings": "White w black ears",
       "weight_lbs": 52,
-      "dob": null,
+      "dob": "2023-05-11",
       "dob_approximate": true,
       "sire_id": "smore",
       "dam_id": "serendipity",
@@ -549,7 +552,7 @@
           "IMG_8630.PNG"
         ]
       },
-      "notes": "Living Kaladin tag 014. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Weight calculator: 51.8lbs. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K \u2014 different animal. With Eclipse, Merrie, Abg, Fm.",
+      "notes": "Living Kaladin tag 014. DOB 5/11/2023 per extension service. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Birth weight 6lbs (single). Weaned 7/18/2023 at 52lbs (68 days). ADG 0.68. Adjusted WW 100 (ratio 137 \u2014 HIGHEST in 2023 class). Extension service lists sex as ewe (code 2) \u2014 likely data entry error, all other sources say ram. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K \u2014 different animal. With Merrie, Gertrude Moon (Abg), Fm in Pen 1.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -591,7 +594,17 @@
         "breeding_group": "",
         "offspring_ids": [
           "kaladin",
-          "merrie"
+          "merrie",
+          "pippin",
+          "trouble-lamb-2023",
+          "bsoed-lamb-2023",
+          "bt-lamb-2023",
+          "ht-ext-lamb-2023",
+          "shaggy-1",
+          "shaggy-2",
+          "bk1",
+          "bk2",
+          "circle-tail"
         ],
         "lambing_records": []
       },
@@ -599,7 +612,7 @@
         "csv_row": 2,
         "notebook_image": []
       },
-      "notes": "Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2023 lambs including Pippen, Merrie (by Half Tail), Danny's Girl, Circle Tail, BK1, BK2, HT1, anna1, BT1/BT2, Shaggy1, Shaggy2, BSOE1, BSOE2, Boots1, and Kaladin (by Serendipity). The deceased Kaladin (tag 24) was S'More x Anna.",
+      "notes": "Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2023 lambs including Pippen/BSOE1 (by BSOE), Merrie (by Half Tail), Danny's Girl, Circle Tail (by Brown Knee), BK1, BK2 (by Brown Knee), HT1 (by Half Tail), anna1, BT1/BT2 (by Broken Tail), Shaggy1, Shaggy2 (by Shaggy), BSOE2, Boots1, Trouble's lamb, Bsoed's lamb, and Kaladin (by Serendipity). The deceased Kaladin (tag 24) was S'More x Anna.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -802,17 +815,29 @@
     {
       "id": "pippin",
       "name": "Pippin",
-      "aliases": [],
+      "aliases": [
+        "BSOE1",
+        "Pippen"
+      ],
       "tag": "015",
       "mc_tag": null,
       "sex": "ram",
-      "breed_composition": {},
+      "breed_composition": {
+        "primary": "Cracker/Katahdin/St Augustine",
+        "percentages": {
+          "Cracker": 50,
+          "Katahdin": 28,
+          "St Augustine": 22
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
       "color_markings": "",
       "weight_lbs": 80,
-      "dob": null,
+      "dob": "2023-01-29",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "smore",
+      "dam_id": "bsoe",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -842,8 +867,8 @@
           "IMG_8622.PNG"
         ]
       },
-      "notes": "Ram from measurement list. Weight calculator: 80.4lbs (girth 28, length 30.75).",
-      "confidence": "medium",
+      "notes": "Pippin/BSOE1. Tag 015. S'More (100%Cr) x BSOE (56K/44SA). DOB 1/29/2023 per extension service. Birth weight 9lbs (single). Weaned 5/23/2023 at 59lbs (114 days). ADG 0.44. Adj WW 62 (ratio 77). Weight calculator: 80.4lbs. 50%Cr/28%K/22%SA.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -2010,8 +2035,7 @@
         "is_breeding_animal": false,
         "breeding_group": "",
         "offspring_ids": [
-          "bt1-lamb",
-          "bt2-lamb",
+          "bt-lamb-2023",
           "dodge"
         ],
         "lambing_records": []
@@ -2031,7 +2055,8 @@
       "id": "trouble",
       "name": "Trouble",
       "aliases": [
-        "Tr"
+        "Tr",
+        "T"
       ],
       "tag": "033",
       "mc_tag": null,
@@ -2065,9 +2090,11 @@
         "notes": []
       },
       "breeding": {
-        "is_breeding_animal": false,
+        "is_breeding_animal": true,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "trouble-lamb-2023"
+        ],
         "lambing_records": []
       },
       "source_refs": {
@@ -2076,7 +2103,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: Tag 9/retagged 33, 25% Dorper / 37.5% Katahdin / 37.5% St Augustine, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). In pen 5 per notebook.",
+      "notes": "Flock spreadsheet: Tag 9/retagged 33, 25%Dorper/37.5%K/37.5%SA, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). 2023 offspring: ram lamb (ID 17) by S'More born 2/22/2023 (8lb birth wt, single, weaned 84lbs at 90 days \u2014 2nd best male lamb). In pen 5 per notebook.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -2143,7 +2170,8 @@
       "name": "Bsoed",
       "aliases": [
         "Black Spot Daughter",
-        "BSOED"
+        "BSOED",
+        "BSOE D"
       ],
       "tag": "031",
       "mc_tag": null,
@@ -2176,9 +2204,11 @@
         "notes": []
       },
       "breeding": {
-        "is_breeding_animal": false,
+        "is_breeding_animal": true,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "bsoed-lamb-2023"
+        ],
         "lambing_records": []
       },
       "source_refs": {
@@ -2187,7 +2217,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: ~40.5% Katahdin / ~59.5% St Augustine, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). In pen 5 per notebook.",
+      "notes": "Flock spreadsheet: ~40.5%K/~59.5%SA, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). 2023 offspring: ram lamb (ID 1) by S'More born 2/22/2023 (8lb birth wt, type 4, weaned 64lbs at 90 days). In pen 5 per notebook.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -2226,9 +2256,10 @@
         "notes": []
       },
       "breeding": {
-        "is_breeding_animal": false,
+        "is_breeding_animal": true,
         "breeding_group": "",
         "offspring_ids": [
+          "fm-lamb-2023",
           "flan"
         ],
         "lambing_records": []
@@ -2242,7 +2273,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: Tag GA1568-011, 50% Cotswold / 50% Tunis, Red, 200lbs. DOB 1/10/2021. Purchased (Sire: Annie 1, Dam: Annie 2). Mother of Flan (by Sir Loin). In Pen 1 (Kaladin group). On weak resistance list. Lambed 2026-02-01.",
+      "notes": "Flock spreadsheet: Tag GA1568-011, 50% Cotswold / 50% Tunis, Red, 200lbs. DOB 1/10/2021. Purchased (Sire: Annie 1, Dam: Annie 2). 2023: ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days \u2014 heavy!). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -2356,20 +2387,32 @@
     },
     {
       "id": "abg",
-      "name": "Abg",
+      "name": "Gertrude Moon",
       "aliases": [
-        "ABB ewe"
+        "ABB ewe",
+        "Abg",
+        "ABG",
+        "Bitch Face",
+        "BF",
+        "Unnamed"
       ],
       "tag": "022",
       "mc_tag": null,
       "sex": "ewe",
-      "breed_composition": {},
+      "breed_composition": {
+        "primary": "American Black Belly",
+        "percentages": {
+          "American Blackbelly": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
       "color_markings": "",
       "weight_lbs": 144,
-      "dob": null,
+      "dob": "2020-01-01",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "abg-sire",
+      "dam_id": "abg-dam",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -2380,6 +2423,175 @@
         "calculated_weight": 144.1,
         "date": "2023-2024"
       },
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 4,
+            "date": "2023-09-06",
+            "notes": "Ivermectin"
+          },
+          {
+            "score": 2,
+            "date": "2023-09-18",
+            "notes": "no treatment"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [
+          {
+            "date": "2023-09-06",
+            "treatment": "Ivermectin"
+          }
+        ],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "abg-twin1-2024",
+          "abg-twin2-2024"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8630.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Gertrude Moon aka Bitch Face (BF). Tag 22. 100%ABB per breeding page. DOB 2020. Sire: ABB Ram, Dam: ABB Ewe (both off-farm). Acquired 5-4-23. Formerly 'unnamed.' Ewe weight 144.06lbs, ram weight projection 169.29lbs. Multiple: Y. 2023: bred to Sir Loin 5-4-23, due 10-4-23. Twins born 1-2-24 (unnamed, by Sir Loin). FAMACHA 4 on 9-6-23 (Ivermectin), FAMACHA 2 on 9-18-23. Extension service also shows lamb ID 8 (ABG \u00d7 SL, born 1/24/2023, ram, triplet-type, 8lb) \u2014 timing conflicts with 5-4-23 acquisition date. In Pen 1 (Kaladin group).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "abg-sire",
+      "name": "ABG's Sire",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "American Black Belly",
+        "percentages": {
+          "American Blackbelly": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "abg"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Gertrude Moon's sire per breeding page. 'ABB Ram.' Off-farm.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "abg-dam",
+      "name": "ABG's Dam",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "American Black Belly",
+        "percentages": {
+          "American Blackbelly": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "abg"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Gertrude Moon's dam per breeding page. 'ABB Ewe.' Off-farm.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "abg-twin1-2024",
+      "name": "ABG Twin 1 (2024)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "ABB/St Augustine/Katahdin",
+        "percentages": {
+          "American Blackbelly": 50,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2024-01-02",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "abg",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
       "health": {
         "famacha_scores": [],
         "weak_resistance": false,
@@ -2395,12 +2607,58 @@
       },
       "source_refs": {
         "csv_row": null,
-        "notebook_image": [
-          "IMG_8630.PNG",
-          "IMG_8641.PNG"
-        ]
+        "notebook_image": []
       },
-      "notes": "Tag 22. Called 'Abb ewe' in weight calculator. Weight calculator: 144.1lbs. In Pen 1 (Kaladin group).",
+      "notes": "Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin with ABG Twin 2. 50%ABB/37.5%SA/12.5%K. From Gertrude Moon breeding page.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "abg-twin2-2024",
+      "name": "ABG Twin 2 (2024)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "ABB/St Augustine/Katahdin",
+        "percentages": {
+          "American Blackbelly": 50,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2024-01-02",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "abg",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin with ABG Twin 1. 50%ABB/37.5%SA/12.5%K. From Gertrude Moon breeding page.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -3608,56 +3866,6 @@
       "last_verified": "2026-02-15"
     },
     {
-      "id": "gertrude",
-      "name": "Gertrude",
-      "aliases": [],
-      "tag": null,
-      "mc_tag": null,
-      "sex": "ewe",
-      "breed_composition": {
-        "primary": "ABB/St Augustine/Katahdin/Wiltshire",
-        "percentages": {
-          "American Blackbelly": 25,
-          "St Augustine": 37.5,
-          "Katahdin": 12.5,
-          "Wiltshire Horn": 25
-        },
-        "coat_type": "hair",
-        "hair_percentage": 62
-      },
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
-      "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
-      "status": "unknown",
-      "status_date": null,
-      "status_notes": "",
-      "pen": "Pen 5",
-      "measurements": {},
-      "health": {
-        "famacha_scores": [],
-        "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [],
-        "notes": []
-      },
-      "breeding": {
-        "is_breeding_animal": false,
-        "breeding_group": "",
-        "offspring_ids": [],
-        "lambing_records": []
-      },
-      "source_refs": {
-        "csv_row": null,
-        "notebook_image": []
-      },
-      "notes": "From Google Sheet Pen 5 breed data. NoriSon's group.",
-      "confidence": "low",
-      "last_verified": "2026-02-15"
-    },
-    {
       "id": "oav-2222",
       "name": "OAV 2222",
       "aliases": [
@@ -4113,6 +4321,611 @@
       },
       "notes": "Florida scrapie tag Fl51870-0502. 50%Hampshire/50%Suffolk. Ewe weight 285.61lbs, ram weight prediction 385lbs. Bred to Sam (8-21-23) and Sir Loin (8-30-23, due February). Docile, not flighty. FAMACHA 4\u21922 Sept 2023. Breeding page name shows '(Pen 1-2)' and '(Pen 3)' notations. [UNCLEAR] which flock name this corresponds to, if any.",
       "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "fm-lamb-2023",
+      "name": "FM's Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "St Augustine/Cotswold/Tunis/Katahdin",
+        "percentages": {
+          "St Augustine": 37.5,
+          "Cotswold": 25,
+          "Tunis": 25,
+          "Katahdin": 12.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 12
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-04-01",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "fm",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "FM \u00d7 Sir Loin ram lamb. Born 4/1/2023. Birth weight 12lbs (single \u2014 heaviest birth weight in class!). Weaned 5/23/2023 at 67lbs (52 days). ADG 1.06. Adj WW 80 (ratio 110). 25%Cotswold/12.5%K/37.5%SA/25%Tunis.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "trouble-lamb-2023",
+      "name": "Trouble's Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/Katahdin/St Augustine/Dorper",
+        "percentages": {
+          "Cracker": 50,
+          "Katahdin": 18.75,
+          "St Augustine": 18.75,
+          "Dorper": 12.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-22",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "trouble",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Trouble \u00d7 S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (single). Weaned 5/23/2023 at 84lbs (90 days). ADG 0.84 \u2014 excellent growth. Adj WW 84 (ratio 104). 50%Cr/18.75%K/18.75%SA/12.5%D.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bsoed-lamb-2023",
+      "name": "Bsoed's Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 29.75,
+          "Katahdin": 20.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-22",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "bsoed",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Bsoed \u00d7 S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (type 4). Weaned 5/23/2023 at 64lbs (90 days). ADG 0.62. Adj WW 77 (ratio 96). 50%Cr/29.75%SA/20.25%K.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bt-lamb-2023",
+      "name": "BT's Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin/BBB",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 32.8125,
+          "Katahdin": 14.0625,
+          "Barbados Blackbelly": 3.125
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2022-12-12",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "broken-tail",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Broken Tail \u00d7 S'More ram lamb (BT1 or BT2). Born 12/12/2022 (counted in 2023 class). Birth weight 9lbs (type 4). Weaned 5/23/2023 at 118lbs (162 days) \u2014 heaviest weaning weight in class! ADG 0.67. Adj WW 108 (ratio 134). 50%Cr/32.8%SA/14%K/3.1%BBB.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ht-ext-lamb-2023",
+      "name": "HT's Extension Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin/BBB",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 15.625,
+          "Barbados Blackbelly": 6.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-04",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "half-tail",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Half Tail \u00d7 S'More ram lamb. Born 2/4/2023 (single birth). May be HT1 or Merrie (Merrie DOB from spreadsheet is 1/14/2023 vs 2/4/2023 here \u2014 3 week discrepancy). Weaned 5/23/2023 at 69lbs (108 days). ADG 0.57. Adj WW 76 (ratio 94). 50%Cr/28.125%SA/15.625%K/6.25%BBB.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "shaggy-1",
+      "name": "Shaggy1",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/Babydoll/Jacob",
+        "percentages": {
+          "Cracker": 50,
+          "Babydoll": 25,
+          "Jacob": 25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-29",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "shaggy",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Shaggy \u00d7 S'More ram lamb (Shaggy1). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 68lbs (114 days). ADG 0.54. Adj WW 86 (ratio 106). 50%Cr/25%Babydoll/25%Jacob.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "shaggy-2",
+      "name": "Shaggy2",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/Babydoll/Jacob",
+        "percentages": {
+          "Cracker": 50,
+          "Babydoll": 25,
+          "Jacob": 25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-29",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "shaggy",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Shaggy \u00d7 S'More ram lamb (Shaggy2). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 59lbs (114 days). ADG 0.46. Adj WW 74 (ratio 92). 50%Cr/25%Babydoll/25%Jacob.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bk1",
+      "name": "BK1",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 21.875
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-24",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "brown-knee",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Brown Knee \u00d7 S'More ewe lamb (BK1). Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 99lbs (119 days) \u2014 BEST ewe lamb! ADG 0.76. Adj WW 109 (ratio 135). 50%Cr/28.125%SA/21.875%K.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bk2",
+      "name": "BK2",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 21.875
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-24",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "brown-knee",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Brown Knee \u00d7 S'More ewe lamb (BK2). Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 80lbs (119 days). ADG 0.61. Adj WW 88 (ratio 109). 50%Cr/28.125%SA/21.875%K.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ext-lamb-35",
+      "name": "Ext Lamb 35",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Extension service lamb ID 35. Ram, born 2/1/2023 (type 4). Ewe age 7 \u2014 likely Anna (DOB ~2016). No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 81lbs (111 days). ADG 0.67. Adj WW 109 (ratio 135 \u2014 tied for best). May be anna1 (S'More offspring).",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ext-lamb-27",
+      "name": "Ext Lamb 27",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Extension service lamb ID 27. Ram, born 2/1/2023 (type 4). Ewe age 3 \u2014 unknown dam. No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 66lbs (111 days). ADG 0.53. Adj WW 85 (ratio 106).",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ext-lamb-10",
+      "name": "Ext Lamb 10",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-03-23",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Extension service lamb ID 10. Ewe, born 3/23/2023 (type 4). Ewe age 3 \u2014 unknown dam. No sire listed. Birth weight 5lbs. Weaned 5/23/2023 at 36lbs (61 days). ADG 0.51. Adj WW 39 (ratio 53 \u2014 lowest). Smallest/youngest lamb in class.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ext-lamb-8",
+      "name": "Ext Lamb 8 (ABG)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-24",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Extension service lamb ID 8. Ram, born 1/24/2023 (type 3). Ewe: ABG age 1, Sire: SL (Sir Loin). Birth weight 8lbs. Weaned 5/23/2023 at 60lbs (119 days). ADG 0.44. Adj WW 77 (ratio 95). Note: ABG/Gertrude Moon was acquired 5-4-23 and was ~3 years old, not 1 \u2014 possible data entry errors or earlier acquisition.",
+      "confidence": "low",
       "last_verified": "2026-02-15"
     },
     {
