@@ -104,9 +104,10 @@ db["sheep"].append(sheep("sir-loin", "Sir Loin", "ram", "alive",
     aliases=["Sirloin", "SL"],
     breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 75, "Katahdin": 25}, "coat_type": "mixed", "hair_percentage": 25},
     color_markings="White",
-    weight_lbs=300, dob="2012-01-01", dob_approximate=True,
+    weight_lbs=309, dob="2012-01-01", dob_approximate=True,
     pen="Pen 2", is_breeding_animal=True,
-    notes="Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin, White, 300lbs. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. In Pen 1 per spreadsheet but Pen 2 per notebook - using notebook as authoritative.",
+    measurements={"girth": 43.25, "length": 49.5, "calculated_weight": 308.6, "date": "2023-2024"},
+    notes="Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook.",
     confidence="high", csv_row=1,
     offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1"]))
 
@@ -176,8 +177,9 @@ db["sheep"].append(sheep("kaladin", "Kaladin", "ram", "alive",
     color_markings="White w black ears",
     sire_id="smore", dam_id="serendipity",
     is_breeding_animal=True,
-    measurements={"measurement_1": 19, "measurement_2": 20, "date": "2025"},
-    notes="Living Kaladin tag 014. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K — different animal. With Eclipse, Merrie, Abg, Fm.",
+    weight_lbs=52,
+    measurements={"girth": 26, "length": 23, "calculated_weight": 51.8, "date": "2023-2024"},
+    notes="Living Kaladin tag 014. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Weight calculator: 51.8lbs. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K — different animal. With Eclipse, Merrie, Abg, Fm.",
     confidence="high",
     notebook_image=["IMG_8624.PNG", "IMG_8630.PNG"]))
 
@@ -227,16 +229,18 @@ db["sheep"].append(sheep("nori-son", "NoriSon", "ram", "alive",
 db["sheep"].append(sheep("charlies-ram", "Charlie's Ram", "ram", "alive",
     tag="012", mc_tag="Mc11",
     aliases=["Mc 11 ram", "Charlie's ram 12"],
-    measurements={"measurement_1": 26, "measurement_2": 22, "date": "2025"},
-    notes="Photos from March 18, 2024. Also called Mc11 or tag 12. White lamb with yellow ear tag in photos.",
+    weight_lbs=36,
+    measurements={"girth": 22, "length": 22.5, "calculated_weight": 36.3, "date": "2023-2024"},
+    notes="Photos from March 18, 2024. Also called Mc11 or tag 12. White lamb with yellow ear tag in photos. Weight calculator: 36.3lbs.",
     confidence="high",
     notebook_image=["IMG_8624.PNG", "IMG_8631.PNG"]))
 
 # Pippin - ram, tag 015
 db["sheep"].append(sheep("pippin", "Pippin", "ram", "alive",
     tag="015",
-    measurements={"measurement_1": 28, "measurement_2": 30.75, "date": "2025"},
-    notes="Ram from measurement list.",
+    weight_lbs=80,
+    measurements={"girth": 28, "length": 30.75, "calculated_weight": 80.4, "date": "2023-2024"},
+    notes="Ram from measurement list. Weight calculator: 80.4lbs (girth 28, length 30.75).",
     confidence="medium",
     notebook_image=["IMG_8622.PNG"]))
 
@@ -258,6 +262,14 @@ db["sheep"].append(sheep("charlies-lamb-0017", "Charlie's Lamb", "ram", "alive",
     confidence="medium",
     notebook_image=["IMG_8625.PNG"]))
 
+# Buck - Nori's 2024 offspring (born 1-6-25)
+db["sheep"].append(sheep("buck-nori", "Buck", "ram", "alive",
+    dam_id="nori",
+    dob="2025-01-06",
+    weight_lbs=12,
+    notes="Nori's 2024 offspring. Born 1-6-25, birth weight 12lbs. From Nori breeding page.",
+    confidence="high"))
+
 # Big free male 005
 db["sheep"].append(sheep("big-free-male", "Big Free Male", "ram", "alive",
     tag="005",
@@ -270,40 +282,41 @@ db["sheep"].append(sheep("big-free-male", "Big Free Male", "ram", "alive",
 # EWES - Current Flock
 # ============================================================
 
-# Azure (Amure) - ewe
+# Azure (Amure) - ewe — NOT "Amber" in weight calc (that was Skitters/Karakul)
 db["sheep"].append(sheep("azure", "Azure", "ewe", "alive",
     tag="024", aliases=["Amure", "Amber 24"],
     breed_composition={"primary": "Suffolk Cross", "percentages": {"Suffolk": 50, "Cracker": 50}, "coat_type": "wool", "hair_percentage": 6},
     pen="Pen 5",
     weak_resistance=True,
     famacha_scores=[{"score": 4, "date": "2025-tag-day", "notes": "treated with iron"}],
-    notes="Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 under Rocky. Also listed in Pen 2 sirloin at different time.",
+    notes="Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 / also in Pen 2 at different time. NOTE: 'Amber' in weight calculator is Skitters (Karakul), not Azure.",
     confidence="high",
     notebook_image=["IMG_8628.PNG", "IMG_8629.PNG", "IMG_8630.PNG"]))
 
-# Elsie - ewe, tag 26 (Well Done x Half Tail)
+# Elsie - ewe, tag 25 (Well Done x Half Tail)
 db["sheep"].append(sheep("elsie", "Elsie", "ewe", "alive",
-    tag="026",
+    tag="025",
     pen="Pen 6",
-    famacha_scores=[{"score": 1, "date": "2025-tag-day", "notes": "no treat needed"}],
+    famacha_scores=[{"score": 1, "date": "2023-09-06"}, {"score": 1, "date": "2023-09-18"}],
     breed_composition={"primary": "Katahdin/St Augustine/BBB", "percentages": {"Katahdin": 65.625, "St Augustine": 28.125, "Barbados Blackbelly": 6.25}, "coat_type": "hair", "hair_percentage": 72},
-    color_markings="Black/White",
-    weight_lbs=110, dob="2022-02-14",
+    color_markings="Black w White",
+    weight_lbs=140, dob="2022-02-08",
     sire_id="well-done", dam_id="half-tail",
-    notes="Flock spreadsheet: Tag 26, 6.25% BBB / 65.625% Katahdin / 28.125% St Augustine, 110lbs. DOB 2/14/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). FAMACHA 1 (excellent). Was in pen 4 (Samson group). Now in Pen 6 with triplets per owner. Lambed 2026-01-23 (triplets).",
+    offspring_ids=["rorshach", "rorshach-sister"],
+    notes="Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets).",
     confidence="high",
     notebook_image=["IMG_8639.PNG", "IMG_8641.PNG"]))
 
-# Nori - ewe, retagged 29 (BBB x Wiltshire Horn)
+# Nori - ewe, tag 21 (tag lost) — 50%ABB/50%WH per breeding page
 db["sheep"].append(sheep("nori", "Nori", "ewe", "alive",
-    tag="029", aliases=["Tag 29", "No"],
+    tag="021", aliases=["Tag 29", "No", "Tag 21"],
     pen="Pen 4",
     is_breeding_animal=True,
-    offspring_ids=["nori-son"],
-    breed_composition={"primary": "BBB/Wiltshire Horn", "percentages": {"Barbados Blackbelly": 50, "Wiltshire Horn": 50}, "coat_type": "hair", "hair_percentage": 100},
+    offspring_ids=["nori-son", "eclipse", "buck-nori"],
+    breed_composition={"primary": "ABB/Wiltshire Horn", "percentages": {"American Blackbelly": 50, "Wiltshire Horn": 50}, "coat_type": "hair", "hair_percentage": 100},
     color_markings="Badger",
-    weight_lbs=125, dob="2023-02-01",
-    notes="Flock spreadsheet: Tag 26/retagged 29, 50% BBB / 50% Wiltshire Horn, Badger, 125lbs. DOB 2/1/2023. Sire: BBB, Dam: Wiltshire Horn (breed parents). Mother of NoriSon (tag 54). In pen 4 (Samson group).",
+    weight_lbs=139, dob="2023-02-01",
+    notes="Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54) and Buck (born 1-6-25). Eclipse (2022 offspring) died after Hurricane Idalia. In pen 4.",
     confidence="high",
     notebook_image=["IMG_8641.PNG", "IMG_8642.PNG"]))
 
@@ -315,10 +328,11 @@ db["sheep"].append(sheep("merrie", "Merrie", "ram", "alive",
     color_markings="Brown and Tan",
     dob="2023-01-14",
     sire_id="smore", dam_id="half-tail",
+    weight_lbs=99,
     famacha_scores=[{"score": 3, "date": "2025-tag-day", "notes": "treated"}],
-    measurements={"measurement_1": 30, "measurement_2": 31, "date": "2025"},
+    measurements={"girth": 31.5, "length": 30, "calculated_weight": 99.2, "date": "2023-2024", "prev_measurement_1": 30, "prev_measurement_2": 31, "prev_date": "2025"},
     is_breeding_animal=True,
-    notes="Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. In Pen 1.",
+    notes="Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1.",
     confidence="high",
     notebook_image=["IMG_8622.PNG", "IMG_8630.PNG", "IMG_8641.PNG"]))
 
@@ -345,14 +359,14 @@ db["sheep"].append(sheep("cinderella", "Cinderella", "ewe", "alive",
 db["sheep"].append(sheep("serendipity", "Serendipity", "ewe", "alive",
     tag="030",
     aliases=["SE", "Seren"],
-    pen="Pen 6",
+    pen="Pen 4",
     breed_composition={"primary": "St Augustine/Babydoll/Jacob/Katahdin", "percentages": {"St Augustine": 37.5, "Babydoll": 25, "Jacob": 25, "Katahdin": 12.5}, "coat_type": "mixed", "hair_percentage": 75},
     color_markings="Black",
     weight_lbs=140, dob="2022-01-12",
     sire_id="sir-loin", dam_id="shaggy",
     offspring_ids=["serendipitys-baby-036", "kaladin"],
     health_notes=["Low FAMACHA score 7-24-25 along with GG and Lara"],
-    notes="Flock spreadsheet: 25% Babydoll / 25% Jacob / 12.5% Katahdin / 37.5% St Augustine, Black, 140lbs. DOB 1/12/2022. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Mother of Mc12/036 baby ewe and Kaladin (by S'More). In pen 6 (no ram).",
+    notes="Flock spreadsheet: 25% Babydoll / 25% Jacob / 12.5% Katahdin / 37.5% St Augustine, Black, 140lbs. DOB 1/12/2022. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Mother of Mc12/036 baby ewe and Kaladin (by S'More). Now in Pen 4 with twins per owner.",
     confidence="high",
     notebook_image=["IMG_8629.PNG", "IMG_8632.PNG", "IMG_8640.PNG", "IMG_8642.PNG"]))
 
@@ -399,13 +413,17 @@ db["sheep"].append(sheep("baby-momma", "Baby Momma", "ewe", "alive",
     confidence="medium",
     notebook_image=["IMG_8629.PNG"]))
 
-# Zara - ewe
-db["sheep"].append(sheep("zara", "Zara", "ewe", "alive",
+# Zara - ewe, tag 25 = Dorper 25 — DECEASED
+db["sheep"].append(sheep("zara", "Zara", "ewe", "deceased",
+    tag="025",
+    aliases=["Dorper 25"],
     pen="Pen 3",
     breed_composition={"primary": "Dorper", "percentages": {"Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
-    notes="In pen 3 (Sam group). Pure Dorper per Google Sheet Pen 4.",
-    confidence="medium",
-    notebook_image=["IMG_8629.PNG"]))
+    weak_resistance=True,
+    treatments=[{"date": "2024-10-24", "treatment": "iron and vitamin B"}],
+    notes="Tag 25. Zara = Dorper 25 (same animal). 100% Dorper. Deceased per owner. Was in pen 3 (Sam group). On weak resistance list. Lambed 2026-01-28.",
+    confidence="high",
+    notebook_image=["IMG_8626.PNG", "IMG_8628.PNG", "IMG_8629.PNG", "IMG_8641.PNG"]))
 
 # Half Tail - ewe
 db["sheep"].append(sheep("half-tail", "Half Tail", "ewe", "alive",
@@ -493,26 +511,32 @@ db["sheep"].append(sheep("fm1", "FM1", "ewe", "alive",
     tag="009",
     pen="Pen 6",
     weak_resistance=True,
-    measurements={"measurement_1": 23, "measurement_2": 29.5, "date": "2025"},
-    notes="Different from FM. Tag 009. In pen 6 (no ram). On weak resistance list.",
+    weight_lbs=67,
+    measurements={"girth": 29.5, "length": 23, "calculated_weight": 66.7, "date": "2023-2024"},
+    notes="Different from FM. Tag 009. In pen 6 (no ram). On weak resistance list. On 'Ewes to Upgrade' list. Half wool. Weight calculator: 66.7lbs.",
     confidence="medium",
     notebook_image=["IMG_8624.PNG", "IMG_8628.PNG", "IMG_8629.PNG", "IMG_8642.PNG"]))
 
-# Eclipse - ewe (25%ABB/12.5%K/37.5%SA/25%WH)
-db["sheep"].append(sheep("eclipse", "Eclipse", "ewe", "alive",
-    pen="Pen 1",
+# Eclipse - ewe (Nori's 2022 offspring) - DECEASED after Hurricane Idalia
+db["sheep"].append(sheep("eclipse", "Eclipse", "ewe", "deceased",
+    dam_id="nori",
     breed_composition={"primary": "St Augustine/ABB/Wiltshire Horn/Katahdin", "percentages": {"American Blackbelly": 25, "Katahdin": 12.5, "St Augustine": 37.5, "Wiltshire Horn": 25}, "coat_type": "hair", "hair_percentage": 62},
-    measurements={"measurement_1": 22.5, "measurement_2": 22, "date": "2025"},
-    notes="25%ABB/12.5%K/37.5%SA/25%WH per Merrie breeding page prospective offspring data. In Pen 1 (Kaladin group).",
+    weight_lbs=42,
+    measurements={"girth": 22, "length": 26, "calculated_weight": 41.9, "date": "2023-2024"},
+    status_notes="Died after Hurricane Idalia (Aug 2023)",
+    notes="25%ABB/12.5%K/37.5%SA/25%WH per Merrie breeding page. Nori's 2022 offspring (only one Eclipse per owner). Weight calculator: 41.9lbs. Died after Hurricane Idalia (Aug/Sep 2023). Was in Pen 1 (Kaladin group) before death.",
     confidence="high",
     notebook_image=["IMG_8624.PNG", "IMG_8630.PNG"]))
 
-# Abg - ewe, tag 22
+# Abg - ewe, tag 22 (ABB ewe per weight calculator)
 db["sheep"].append(sheep("abg", "Abg", "ewe", "alive",
     tag="022",
+    aliases=["ABB ewe"],
     pen="Pen 1",
-    notes="Tag 22 per treatment list (struck thru no treat). In Pen 1 (Kaladin group).",
-    confidence="medium",
+    weight_lbs=144,
+    measurements={"girth": 36.75, "length": 32, "calculated_weight": 144.1, "date": "2023-2024"},
+    notes="Tag 22. Called 'Abb ewe' in weight calculator. Weight calculator: 144.1lbs. In Pen 1 (Kaladin group).",
+    confidence="high",
     notebook_image=["IMG_8630.PNG", "IMG_8641.PNG"]))
 
 # NOTE: "Banana" in the notebook is the same animal as "Anna's Big One" (spreadsheet abbreviation "B").
@@ -526,15 +550,19 @@ db["sheep"].append(sheep("circle-tail", "Circle Tail", "ewe", "alive",
     breed_composition={"primary": "Cracker/St Augustine/Katahdin", "percentages": {"Cracker": 50, "St Augustine": 28.125, "Katahdin": 21.875}, "coat_type": "mixed", "hair_percentage": 50},
     dob="2023-01-22",
     sire_id="smore", dam_id="brown-knee",
+    weight_lbs=64,
     famacha_scores=[{"score": 5, "date": "2025-tag-day", "notes": "treated with iron also"}],
-    notes="Flock spreadsheet: 50% Cracker / 21.875% Katahdin / 28.125% St Augustine. DOB 1/22/2023. S'More (100Cr) x Brown Knee (43.75K/56.25SA). In pen 6 (no ram). On weak resistance list. FAMACHA 5.",
+    measurements={"girth": 27.5, "length": 25.5, "calculated_weight": 64.3, "date": "2023-2024"},
+    notes="Flock spreadsheet: 50% Cracker / 21.875% Katahdin / 28.125% St Augustine. DOB 1/22/2023. S'More (100Cr) x Brown Knee (43.75K/56.25SA). In pen 6 (no ram). On weak resistance list. FAMACHA 5. Weight calculator: 64.3lbs.",
     confidence="high",
     notebook_image=["IMG_8628.PNG", "IMG_8629.PNG", "IMG_8641.PNG"]))
 
 # Fox Tail - ewe
 db["sheep"].append(sheep("fox-tail", "Fox Tail", "ewe", "alive",
     pen="Pen 6",
-    notes="In pen 6 (no ram).",
+    weight_lbs=118,
+    measurements={"girth": 35, "length": 29, "calculated_weight": 118.4, "date": "2023-2024"},
+    notes="In pen 6 (no ram). Weight calculator: 118.4lbs. On 'Ewes to Upgrade' list.",
     confidence="medium",
     notebook_image=["IMG_8629.PNG"]))
 
@@ -552,13 +580,20 @@ db["sheep"].append(sheep("s2", "S2", "ewe", "alive",
     confidence="low",
     notebook_image=["IMG_8630.PNG"]))
 
-# Lara - ewe
+# Lara - ewe, tag 23 = Dorper 23 from weak resistance list
 db["sheep"].append(sheep("lara", "Lara", "ewe", "alive",
+    tag="023",
+    aliases=["Dorper 23"],
     pen="Pen 2",
-    health_notes=["One of Dorper 23 & 25 from sick sheep note", "Low score 7-24-25"],
-    notes="In pen 2 (sirloin group). From sick sheep note: 'one of these is Lara'. Low FAMACHA score 7-24-25.",
-    confidence="medium",
-    notebook_image=["IMG_8626.PNG", "IMG_8630.PNG", "IMG_8636.PNG", "IMG_8640.PNG"]))
+    breed_composition={"primary": "Dorper", "percentages": {"Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
+    weight_lbs=160,
+    weak_resistance=True,
+    measurements={"girth": 36.75, "length": 35.5, "calculated_weight": 159.8, "date": "2023-2024"},
+    treatments=[{"date": "2024-10-24", "treatment": "iron and vitamin B"}],
+    health_notes=["Sick sheep note: one of Dorper 23/25 is Lara", "Low score 7-24-25"],
+    notes="Tag 23. Lara = Dorper 23 (same animal). 100% Dorper. In pen 2 (sirloin group). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' list and weak resistance list.",
+    confidence="high",
+    notebook_image=["IMG_8626.PNG", "IMG_8628.PNG", "IMG_8630.PNG", "IMG_8636.PNG", "IMG_8640.PNG", "IMG_8641.PNG"]))
 
 # Pebbles - ewe
 db["sheep"].append(sheep("pebbles", "Pebbles", "ewe", "alive",
@@ -593,8 +628,9 @@ db["sheep"].append(sheep("boots", "Boots", "ewe", "culled",
 
 # Patches - ewe
 db["sheep"].append(sheep("patches", "Patches", "ewe", "alive",
-    measurements={"outer": 27, "inner": 29, "measurement_1": 43.5, "measurement_2": 27, "date": "2025"},
-    notes="From measurement list. Two sets of measurements recorded.",
+    weight_lbs=66,
+    measurements={"girth": 27, "length": 27, "calculated_weight": 65.6, "date": "2023-2024"},
+    notes="Weight calculator: 65.6lbs (girth 27, length 27). Weight calc shows tag 27 but Bella is also tag 27 — [UNCLEAR] if same animal or tag conflict.",
     confidence="medium",
     notebook_image=["IMG_8624.PNG"]))
 
@@ -606,8 +642,9 @@ db["sheep"].append(sheep("little-song", "Little Song", "ewe", "alive",
     color_markings="White",
     dob="2023-01-24",
     sire_id="sir-loin", dam_id="annas-big-one",
-    measurements={"measurement_1": 23, "measurement_2": 28, "date": "2025"},
-    notes="Flock spreadsheet: Tag 8/retagged 008, 43.75% Katahdin / 56.25% St Augustine, White. DOB 1/24/2023. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). In Pen 1 per spreadsheet.",
+    weight_lbs=60,
+    measurements={"girth": 28, "length": 23, "calculated_weight": 60.1, "date": "2023-2024"},
+    notes="Flock spreadsheet: Tag 8/retagged 008, 43.75% Katahdin / 56.25% St Augustine, White. DOB 1/24/2023. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Weight calculator: 60.1lbs.",
     confidence="high",
     notebook_image=["IMG_8624.PNG"]))
 
@@ -646,8 +683,9 @@ db["sheep"].append(sheep("half-tails-baby", "Half Tail's Baby", "ewe", "alive",
 # Sb1 (crown) - tag 002
 db["sheep"].append(sheep("sb1-crown", "Sb1 (Crown)", "ewe", "alive",
     tag="002",
-    measurements={"measurement_1": 25.25, "measurement_2": 32, "date": "2025"},
-    notes="Tag 002. Called 'Sb1 (crown)' in measurements.",
+    weight_lbs=68,
+    measurements={"girth": 25.25, "length": 32, "calculated_weight": 68.0, "date": "2023-2024"},
+    notes="Tag 002. Called 'Sb1 (crown)' in measurements. Weight calculator: 68.0lbs.",
     confidence="medium",
     notebook_image=["IMG_8623.PNG"]))
 
@@ -655,8 +693,9 @@ db["sheep"].append(sheep("sb1-crown", "Sb1 (Crown)", "ewe", "alive",
 db["sheep"].append(sheep("sb2-all-black", "Sb2 (All Black)", "ewe", "alive",
     tag="003",
     color_markings="all black",
-    measurements={"measurement_1": 25, "measurement_2": 31.5, "date": "2025"},
-    notes="Tag 003. Called 'Sb2 (all black)' in measurements.",
+    weight_lbs=66,
+    measurements={"girth": 25, "length": 31.5, "calculated_weight": 65.6, "date": "2023-2024"},
+    notes="Tag 003. Called 'Sb2 (all black)' in measurements. Weight calculator: 65.6lbs.",
     confidence="medium",
     notebook_image=["IMG_8623.PNG"]))
 
@@ -724,12 +763,14 @@ db["sheep"].append(sheep("tag-35-ewe", "Tag 35", "ewe", "unknown",
     notes="From Google Sheet Pen 3. Broken Tail x Buck. Had Awassi(22%)/EF(3%) overlay in Google Sheet but removing as those were Sir Loin era calculations. Status unknown - Google Sheet only, may be same as Little Daisy (tag 35).",
     confidence="low"))
 
-# Bambi - tag 37
+# Bambi - tag 37 (weight calculator listed as 35 but that's Little Daisy's tag)
 db["sheep"].append(sheep("bambi", "Bambi", "ewe", "alive",
     tag="037",
     pen="Pen 3",
+    weight_lbs=81,
     breed_composition={"primary": "Katahdin/Dorper", "percentages": {"Katahdin": 50, "Dorper": 50}, "coat_type": "hair", "hair_percentage": 100},
-    notes="Tag 37. Google Sheet Pen 3 shows 3/4 hair. Broken Tail x Buck. Also appears in pen 2 sirloin notebook list.",
+    measurements={"girth": 29, "length": 29, "calculated_weight": 81.3, "date": "2023-2024"},
+    notes="Weight calculator: tag 35, 81.3lbs (girth 29, length 29). Google Sheet Pen 3 shows 3/4 hair. Broken Tail x Buck. Also appears in pen 2 sirloin notebook list.",
     confidence="medium",
     notebook_image=["IMG_8624.PNG", "IMG_8630.PNG"]))
 
@@ -773,9 +814,12 @@ db["sheep"].append(sheep("bambii", "Bambii", "ewe", "alive",
     notebook_image=["IMG_8630.PNG", "IMG_8641.PNG"]))
 
 db["sheep"].append(sheep("skitters", "Skitters", "ewe", "deceased",
+    aliases=["Amber"],
     breed_composition={"primary": "Karakul", "percentages": {"Karakul": 100}, "coat_type": "wool", "hair_percentage": 0},
+    weight_lbs=176,
+    measurements={"girth": 38, "length": 36.5, "calculated_weight": 175.7, "date": "2023-2024"},
     weak_resistance=True,
-    notes="Deceased. 100% Karakul per Rocky breeding page. On weak resistance list. Was on 'Ewes to Keep anyway' list before death. Wool sheep.",
+    notes="Deceased. 100% Karakul per Rocky breeding page. Also called 'Amber' per owner. Weight calculator: 175.7lbs (from 2023-2024 when alive). On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
     confidence="high",
     notebook_image=["IMG_8628.PNG"]))
 
@@ -969,24 +1013,9 @@ db["sheep"].append(sheep("stew", "Stew", "ram", "unknown",
     notes="From CSV. 75% Katahdin, 25% Dorper. Well Done (sire) x Fleecity (dam) - CSV had sire/dam columns swapped. Status unknown - not in recent notebook.",
     confidence="low", csv_row=12))
 
-# Dorper 23 and 25 from weak resistance list
-db["sheep"].append(sheep("dorper-23", "Dorper 23", "ewe", "alive",
-    tag="023",
-    breed_composition={"primary": "Dorper", "percentages": {"Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
-    weak_resistance=True,
-    treatments=[{"date": "2024-10-24", "treatment": "iron and vitamin B"}],
-    notes="From weak resistance list and sick sheep note. Dorper ewe. Tag 23. Struck thru in treatment list.",
-    confidence="medium",
-    notebook_image=["IMG_8626.PNG", "IMG_8628.PNG", "IMG_8641.PNG"]))
+# NOTE: Dorper 23 = Lara (tag 23) — merged into "lara" entry above.
 
-db["sheep"].append(sheep("dorper-25", "Dorper 25", "ewe", "alive",
-    tag="025",
-    breed_composition={"primary": "Dorper", "percentages": {"Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
-    weak_resistance=True,
-    treatments=[{"date": "2024-10-24", "treatment": "iron and vitamin B"}],
-    notes="From weak resistance list and sick sheep note. Dorper ewe. Tag 25 (no tag per treatment list). Struck thru.",
-    confidence="medium",
-    notebook_image=["IMG_8626.PNG", "IMG_8628.PNG", "IMG_8641.PNG"]))
+# NOTE: Dorper 25 = Zara (tag 25) — merged into "zara" entry above.
 
 # FM2 from Google Sheet
 db["sheep"].append(sheep("fm2", "FM2", "ewe", "unknown",
@@ -1014,8 +1043,8 @@ db["pens"] = {
     "pen_1": {
         "ram": "kaladin",
         "other_rams": ["merrie"],
-        "ewes": ["eclipse", "abg", "fm"],
-        "notes": "Kaladin's group. Merrie (tag 016) is also a ram in this pen. May 14 2025: vaccinated pen 1 lambs."
+        "ewes": ["abg", "fm"],
+        "notes": "Kaladin's group. Merrie (tag 016) is also a ram in this pen. Eclipse was here but is deceased (Hurricane Idalia). May 14 2025: vaccinated pen 1 lambs."
     },
     "pen_2": {
         "ram": "sir-loin",
@@ -1025,13 +1054,13 @@ db["pens"] = {
     },
     "pen_3": {
         "ram": "sam",
-        "ewes": ["baby", "baby-momma", "zara", "half-tail", "new-big-girl-2"],
-        "notes": "Sam's group. Bella (tag 27) and Cinderella (tag 28) also in pen 3 per treatment notes."
+        "ewes": ["baby", "baby-momma", "half-tail", "new-big-girl-2"],
+        "notes": "Sam's group. Zara was here but is deceased. Bella (tag 27) and Cinderella (tag 28) also in pen 3 per treatment notes."
     },
     "pen_4": {
         "ram": "samson",
-        "ewes": ["nori", "trouble", "bsoe", "bsoed", "annas-big-one"],
-        "notes": "Samson's group (Samson deceased — pen may have new ram). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet. Elsie moved to Pen 6 with triplets."
+        "ewes": ["nori", "trouble", "bsoe", "bsoed", "annas-big-one", "serendipity"],
+        "notes": "Samson's group (Samson deceased — pen may have new ram). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet. Elsie moved to Pen 6 with triplets. Serendipity now here with twins per owner."
     },
     "pen_5": {
         "ram": "nori-son",
@@ -1040,8 +1069,8 @@ db["pens"] = {
     },
     "pen_6": {
         "ram": None,
-        "ewes": ["elsie", "serendipity", "s1", "fm1", "fox-tail", "circle-tail"],
-        "notes": "No ram. Elsie moved here with her triplets. Shaggy was here but is deceased (killed after Hurricane Helene). Serendipity's current pen uncertain per owner — listed here from notebook but may have moved."
+        "ewes": ["elsie", "s1", "fm1", "fox-tail", "circle-tail"],
+        "notes": "No ram. Elsie here with triplets. Shaggy was here but is deceased (killed after Hurricane Helene). Serendipity moved to Pen 4 with twins."
     },
     "goose_pen": {
         "ram": None,
@@ -1064,7 +1093,7 @@ db["lambing_records_2026"] = [
     {"date": "2026-01-30", "dam": "Dorpy", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "Dorper/Katahdin cross", "pen": "Pen 4"},
     {"date": "2026-02-01", "dam": "FM", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "", "pen": "Pen 4"},
     {"date": "2026-02-02", "dam": "Tag 34", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "Fm2", "pen": "Pen 4"},
-    {"date": "2026-02-03", "dam": "Serendipity", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "", "pen": "Pen 5"},
+    {"date": "2026-02-03", "dam": "Serendipity", "sire": "[UNCLEAR]", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins per owner. Serendipity now in Pen 4 with twins.", "pen": "Pen 4"},
     {"date": "2026-02-05", "dam": "Gigi", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "GG's lamb (Ew)", "pen": ""},
     {"date": "2026-02-07", "dam": "Daisy's Daughter 2", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "", "pen": "Pen 5"},
     {"date": "2026-02-10", "dam": "OAV 2222", "sire": "[UNCLEAR]", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins", "pen": "Pen 5"},
