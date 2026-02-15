@@ -13,8 +13,8 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
-    "total_sheep": 106,
-    "active_sheep": 61,
+    "total_sheep": 107,
+    "active_sheep": 62,
     "deceased_count": 26,
     "culled_count": 1,
     "sold_count": 6,
@@ -304,7 +304,9 @@
       "breeding": {
         "is_breeding_animal": true,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "serendipity-ram-2024"
+        ],
         "lambing_records": []
       },
       "source_refs": {
@@ -314,7 +316,7 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Note: OAV 2222 breeding page lists Samson as 100% Southdown \u2014 likely data entry error (all other pages say Hampshire).",
+      "notes": "Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Sired Serendipity's 2024 ram lamb. Note: OAV 2222 and Serendipity breeding pages list Samson as 100% Southdown \u2014 possible data entry error (other pages say Hampshire). Serendipity page also shows Samson with Sam's weights (165/125) instead of his actual weights (400/340).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -1393,7 +1395,7 @@
         "hair_percentage": 75
       },
       "color_markings": "Black",
-      "weight_lbs": 140,
+      "weight_lbs": 138,
       "dob": "2022-01-12",
       "dob_approximate": true,
       "sire_id": "sir-loin",
@@ -1404,7 +1406,13 @@
       "pen": "Pen 4",
       "measurements": {},
       "health": {
-        "famacha_scores": [],
+        "famacha_scores": [
+          {
+            "score": 1,
+            "date": "2023-09-20",
+            "notes": "no treatment needed"
+          }
+        ],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -1413,11 +1421,12 @@
         ]
       },
       "breeding": {
-        "is_breeding_animal": false,
+        "is_breeding_animal": true,
         "breeding_group": "",
         "offspring_ids": [
           "serendipitys-baby-036",
-          "kaladin"
+          "kaladin",
+          "serendipity-ram-2024"
         ],
         "lambing_records": []
       },
@@ -1430,7 +1439,58 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 25% Babydoll / 25% Jacob / 12.5% Katahdin / 37.5% St Augustine, Black, 140lbs. DOB 1/12/2022. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Mother of Mc12/036 baby ewe and Kaladin (by S'More). Now in Pen 4 with twins per owner.",
+      "notes": "Breeding page: 25%Babydoll/25%Jacob/12.5%K/37.5%SA. Tag 30 (may have had multiple tag numbers). Ewe weight 137.5lbs, ram weight prediction 222.75lbs. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Not flighty, Good Mother, Attentive, Protective, Docile, Heat Tolerant. FAMACHA 1 (9-20-23). 2022 offspring: Kaladin (by S'More). 2024 offspring: ram (by Samson). Also mother of Mc12/036 baby ewe. Breeding page says Pen 2 but user said Pen 4 with twins (2026) \u2014 keeping Pen 4. Lambed 2026-02-03 (twins).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "serendipity-ram-2024",
+      "name": "Serendipity's Ram (2024)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Hampshire/St Augustine/Babydoll/Jacob/Katahdin",
+        "percentages": {
+          "Hampshire": 50,
+          "St Augustine": 18.75,
+          "Babydoll": 12.5,
+          "Jacob": 12.5,
+          "Katahdin": 6.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 19
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "samson",
+      "dam_id": "serendipity",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Serendipity's 2024 ram lamb by Samson (100% Hampshire). Breed: 50%Hampshire/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. From Serendipity breeding page 2024 section.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },

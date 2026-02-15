@@ -158,7 +158,8 @@ db["sheep"].append(sheep("samson", "Samson", "ram", "deceased",
     weight_lbs=400,
     weak_resistance=True,
     is_breeding_animal=True,
-    notes="Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Note: OAV 2222 breeding page lists Samson as 100% Southdown — likely data entry error (all other pages say Hampshire).",
+    offspring_ids=["serendipity-ram-2024"],
+    notes="Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Sired Serendipity's 2024 ram lamb. Note: OAV 2222 and Serendipity breeding pages list Samson as 100% Southdown — possible data entry error (other pages say Hampshire). Serendipity page also shows Samson with Sam's weights (165/125) instead of his actual weights (400/340).",
     confidence="high",
     notebook_image=["IMG_8628.PNG", "IMG_8629.PNG"]))
 
@@ -389,19 +390,33 @@ db["sheep"].append(sheep("cinderella", "Cinderella", "ewe", "alive",
     notebook_image=["IMG_8641.PNG"]))
 
 # Serendipity - ewe, tag 30 (Sir Loin x Shaggy)
+# Breeding page: 25%Babydoll/25%Jacob/12.5%K/37.5%SA. Tag 30. Ewe weight 137.5lbs.
+# 2022 offspring: Kaladin (by S'More). 2024 offspring: Ram (by Samson).
+# FAMACHA 1 (9-20-23). Not flighty, Good Mother, Attentive, Protective, Docile, Heat Tolerant.
+# Breeding page says Pen 2, but user said Pen 4 with twins — user/notebook is authoritative.
 db["sheep"].append(sheep("serendipity", "Serendipity", "ewe", "alive",
     tag="030",
     aliases=["SE", "Seren"],
     pen="Pen 4",
     breed_composition={"primary": "St Augustine/Babydoll/Jacob/Katahdin", "percentages": {"St Augustine": 37.5, "Babydoll": 25, "Jacob": 25, "Katahdin": 12.5}, "coat_type": "mixed", "hair_percentage": 75},
     color_markings="Black",
-    weight_lbs=140, dob="2022-01-12",
+    weight_lbs=138, dob="2022-01-12",
     sire_id="sir-loin", dam_id="shaggy",
-    offspring_ids=["serendipitys-baby-036", "kaladin"],
+    famacha_scores=[{"score": 1, "date": "2023-09-20", "notes": "no treatment needed"}],
+    offspring_ids=["serendipitys-baby-036", "kaladin", "serendipity-ram-2024"],
     health_notes=["Low FAMACHA score 7-24-25 along with GG and Lara"],
-    notes="Flock spreadsheet: 25% Babydoll / 25% Jacob / 12.5% Katahdin / 37.5% St Augustine, Black, 140lbs. DOB 1/12/2022. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Mother of Mc12/036 baby ewe and Kaladin (by S'More). Now in Pen 4 with twins per owner.",
+    is_breeding_animal=True,
+    notes="Breeding page: 25%Babydoll/25%Jacob/12.5%K/37.5%SA. Tag 30 (may have had multiple tag numbers). Ewe weight 137.5lbs, ram weight prediction 222.75lbs. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Not flighty, Good Mother, Attentive, Protective, Docile, Heat Tolerant. FAMACHA 1 (9-20-23). 2022 offspring: Kaladin (by S'More). 2024 offspring: ram (by Samson). Also mother of Mc12/036 baby ewe. Breeding page says Pen 2 but user said Pen 4 with twins (2026) — keeping Pen 4. Lambed 2026-02-03 (twins).",
     confidence="high",
     notebook_image=["IMG_8629.PNG", "IMG_8632.PNG", "IMG_8640.PNG", "IMG_8642.PNG"]))
+
+# Serendipity's 2024 ram lamb (by Samson)
+# Breed: avg(25Babydoll/25Jacob/12.5K/37.5SA, 100Hampshire) = 12.5Babydoll/12.5Jacob/6.25K/50Hampshire/18.75SA
+db["sheep"].append(sheep("serendipity-ram-2024", "Serendipity's Ram (2024)", "ram", "alive",
+    sire_id="samson", dam_id="serendipity",
+    breed_composition={"primary": "Hampshire/St Augustine/Babydoll/Jacob/Katahdin", "percentages": {"Hampshire": 50, "St Augustine": 18.75, "Babydoll": 12.5, "Jacob": 12.5, "Katahdin": 6.25}, "coat_type": "mixed", "hair_percentage": 19},
+    notes="Serendipity's 2024 ram lamb by Samson (100% Hampshire). Breed: 50%Hampshire/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. From Serendipity breeding page 2024 section.",
+    confidence="high"))
 
 # Serendipity's baby - 036, Mc12
 db["sheep"].append(sheep("serendipitys-baby-036", "Serendipity's Baby", "ewe", "alive",
