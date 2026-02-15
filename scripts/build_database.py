@@ -109,16 +109,20 @@ db["sheep"].append(sheep("sir-loin", "Sir Loin", "ram", "alive",
     measurements={"girth": 43.25, "length": 49.5, "calculated_weight": 308.6, "date": "2023-2024"},
     notes="Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook.",
     confidence="high", csv_row=1,
-    offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1"]))
+    offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1", "dodge", "daisy"]))
 
-# Kelsier - Katahdin ram, MOST parasite resistant
-# "UF Ram Test" in breeding pages = Kelsier. Ram weight 250lbs, ewe weight 150lbs.
+# Kelsier = OAV 2223 = UF Ram Test — Katahdin ram, MOST parasite resistant
+# Breeding page (OAV 2223): 100%K, tag 2223, DOB 12-21-22. Born as twin. Birth weight 10lbs, ADG 0.36.
+# NSIP ID: 640301-2022-222223. Received from OAV Sam Mushko on 10-5-23.
+# UF RAM TEST DATA. Parasite Resistance Y, Breed All Year Y.
+# FEC avg 138.9 (tested 2-18-23 through 8-24-23). CDT 10-23-23.
 db["sheep"].append(sheep("kelsier", "Kelsier", "ram", "alive",
-    tag="22", aliases=["Tag 22", "UF Ram Test"],
+    tag="2223", aliases=["Tag 22", "UF Ram Test", "OAV 2223"],
     breed_composition={"primary": "Katahdin", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
     weight_lbs=250,
+    dob="2022-12-21",
     pen="Pen 4", is_breeding_animal=True,
-    notes="Most parasite resistant sheep in the flock. Pure Katahdin. From Google Sheet Pen 4 data. Listed as 'UF Ram Test' in breeding pages. Ram weight 250lbs, ewe weight prediction 150lbs. Sister (tag 2241, also 100%K) is deceased.",
+    notes="Most parasite resistant sheep in the flock. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. FEC average 138.9 (2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased).",
     confidence="high"))
 
 # GG (tag 23) - ram from Google Sheet
@@ -135,7 +139,7 @@ db["sheep"].append(sheep("gg", "GG", "ram", "alive",
 # Rocky / Rock / Jerkface - 44%Awassi/50%BHD/6%EF ram — Pen 2 per owner
 # CLAUDE.md confirms: "Rock" = "Jerkface" = Awassi ram. These are the same animal.
 db["sheep"].append(sheep("rocky", "Rocky", "ram", "alive",
-    aliases=["Rock", "Jerkface", "Awassi ram", "Awassi cross rock"],
+    aliases=["Rock", "Jerkface", "Awassi ram", "Awassi cross rock", "Louise's Ram"],
     breed_composition={"primary": "Black Headed Dorper/Awassi/East Friesian", "percentages": {"Awassi": 44, "Black Headed Dorper": 50, "East Friesian": 6}, "coat_type": "mixed", "hair_percentage": 50},
     weight_lbs=300,
     pen="Pen 2",
@@ -154,7 +158,7 @@ db["sheep"].append(sheep("samson", "Samson", "ram", "deceased",
     weight_lbs=400,
     weak_resistance=True,
     is_breeding_animal=True,
-    notes="Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck and tag-2241 breeding pages. Ram weight 400lbs, ewe weight prediction 340lbs.",
+    notes="Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Note: OAV 2222 breeding page lists Samson as 100% Southdown — likely data entry error (all other pages say Hampshire).",
     confidence="high",
     notebook_image=["IMG_8628.PNG", "IMG_8629.PNG"]))
 
@@ -162,9 +166,10 @@ db["sheep"].append(sheep("samson", "Samson", "ram", "deceased",
 db["sheep"].append(sheep("sam", "Sam", "ram", "alive",
     pen="Pen 3",
     breed_composition={"primary": "Gulf Coast Native", "percentages": {"Gulf Coast Native": 100}, "coat_type": "wool", "hair_percentage": 0},
+    weight_lbs=165,
     is_breeding_animal=True,
     treatments=[{"date": "2025-tag-day", "treatment": "iron (FAMACHA 3)"}],
-    notes="Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Given iron treatment. Pen 3 includes: Baby, Baby momma, Zara, Half tail, New big girl 2.",
+    notes="Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Ram weight 165lbs, ewe weight prediction 125lbs (from multiple breeding pages). Given iron treatment. Pen 3 includes: Baby, Baby momma, Zara, Half tail, New big girl 2.",
     confidence="high",
     notebook_image=["IMG_8641.PNG"]))
 
@@ -288,6 +293,16 @@ db["sheep"].append(sheep("buck", "Buck", "ram", "alive",
     notes="Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).",
     confidence="high"))
 
+# Dodge - ram (Sir Loin x Broken Tail) — Little Daisy's sire
+# Inbred: Sir Loin is both sire and grandsire (Broken Tail's sire).
+# Breed: avg(25K/75SA, 28.125K/65.625SA/6.25BBB) = 26.5625K/70.3125SA/3.125BBB
+db["sheep"].append(sheep("dodge", "Dodge", "ram", "unknown",
+    sire_id="sir-loin", dam_id="broken-tail",
+    breed_composition={"primary": "St Augustine/Katahdin/BBB", "percentages": {"St Augustine": 70.3125, "Katahdin": 26.5625, "Barbados Blackbelly": 3.125}, "coat_type": "mixed", "hair_percentage": 27},
+    offspring_ids=["little-daisy"],
+    notes="Little Daisy's sire. Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB). Inbred: Sir Loin is Broken Tail's sire. Status unknown — from Little Daisy breeding page pedigree.",
+    confidence="high"))
+
 # Big free male 005
 db["sheep"].append(sheep("big-free-male", "Big Free Male", "ram", "alive",
     tag="005",
@@ -396,14 +411,21 @@ db["sheep"].append(sheep("serendipitys-baby-036", "Serendipity's Baby", "ewe", "
     confidence="high",
     notebook_image=["IMG_8632.PNG"]))
 
-# Little Daisy - ewe, tag 35 (12.5%BHD/50%Cr/18.75%K/18.75%SA)
+# Little Daisy - ewe, tag 35 — Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail)
+# Breeding page: 4.6875%BBB / 27.325%K / 67.9625%SA. DOB 3-23-23. Pen 3 on breeding page.
+# Previously had incorrect breed (12.5%BHD/50%Cr/18.75%K/18.75%SA) from misidentified data.
+# Corrected from Little Daisy breeding page which shows full pedigree.
 db["sheep"].append(sheep("little-daisy", "Little Daisy", "ewe", "alive",
-    tag="035", aliases=["Daisy"],
+    tag="035",
     pen="Pen 5",
-    breed_composition={"primary": "Cracker/Katahdin/St Augustine/Black Headed Dorper", "percentages": {"Black Headed Dorper": 12.5, "Cracker": 50, "Katahdin": 18.75, "St Augustine": 18.75}, "coat_type": "hair", "hair_percentage": 81},
+    dob="2023-03-23",
+    sire_id="dodge", dam_id="daisy",
+    breed_composition={"primary": "St Augustine/Katahdin/BBB", "percentages": {"St Augustine": 67.9625, "Katahdin": 27.325, "Barbados Blackbelly": 4.6875}, "coat_type": "mixed", "hair_percentage": 30},
+    weight_lbs=145,
     offspring_ids=["little-daisys-baby-mc01"],
+    is_breeding_animal=True,
     health_notes=["Needed parasite treatment April 13 2025 - eyes were white (tag 35)"],
-    notes="Tag 35. 12.5%BHD/50%Cr/18.75%K/18.75%SA per Rocky breeding page. In pen 5 (Rocky group). Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Hair sheep.",
+    notes="Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 — notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides.",
     confidence="high",
     notebook_image=["IMG_8625.PNG", "IMG_8627.PNG", "IMG_8629.PNG", "IMG_8635.PNG"]))
 
@@ -450,7 +472,7 @@ db["sheep"].append(sheep("half-tail", "Half Tail", "ewe", "alive",
     color_markings="White",
     weight_lbs=180, dob="2017-01-01", dob_approximate=True,
     sire_id="sir-loin", dam_id="hersheys",
-    offspring_ids=["broken-tail", "half-tails-baby", "elsie", "ht1", "merrie"],
+    offspring_ids=["broken-tail", "half-tails-baby", "elsie", "ht1", "merrie", "daisy"],
     notes="Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Mother of Broken Tail, Elsie (by Well Done), HT1 (by S'More), Merrie (by S'More). In pen 3 (Sam group) per notebook.",
     confidence="high",
     csv_row=16,
@@ -465,8 +487,8 @@ db["sheep"].append(sheep("broken-tail", "Broken Tail", "ewe", "alive",
     color_markings="White",
     weight_lbs=225, dob="2018-01-18", dob_approximate=True,
     sire_id="sir-loin", dam_id="half-tail",
-    offspring_ids=["bt1-lamb", "bt2-lamb"],
-    notes="Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook.",
+    offspring_ids=["bt1-lamb", "bt2-lamb", "dodge"],
+    notes="Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin — inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook.",
     confidence="high",
     csv_row=17,
     notebook_image=["IMG_8629.PNG", "IMG_8642.PNG"]))
@@ -724,16 +746,28 @@ db["sheep"].append(sheep("new-big-girl-2", "New Big Girl 2", "ewe", "alive",
     confidence="low",
     notebook_image=["IMG_8629.PNG"]))
 
+# Daisy - ewe (Sir Loin x Half Tail) — Little Daisy's dam
+# Breed: avg(25K/75SA, 31.25K/56.25SA/12.5BBB) = 28.125K/65.625SA/6.25BBB
+# Mother of Little Daisy (by Dodge), and likely mother of Daisy's Daughter 1 and 2.
+db["sheep"].append(sheep("daisy", "Daisy", "ewe", "unknown",
+    sire_id="sir-loin", dam_id="half-tail",
+    breed_composition={"primary": "St Augustine/Katahdin/BBB", "percentages": {"St Augustine": 65.625, "Katahdin": 28.125, "Barbados Blackbelly": 6.25}, "coat_type": "mixed", "hair_percentage": 34},
+    offspring_ids=["little-daisy", "daisys-daughter-1", "daisys-daughter-2"],
+    notes="Little Daisy's dam. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of Little Daisy (by Dodge), and likely Daisy's Daughter 1 and 2. Status unknown — from Little Daisy breeding page pedigree.",
+    confidence="high"))
+
 # Daisy's Daughter (1 and 2 - from Google Sheet)
 db["sheep"].append(sheep("daisys-daughter-1", "Daisy's Daughter 1", "ewe", "unknown",
+    dam_id="daisy",
     breed_composition={"primary": "St Augustine/Katahdin/BBB", "percentages": {"St Augustine": 67.9625, "Katahdin": 27.325, "Barbados Blackbelly": 4.7}, "coat_type": "mixed", "hair_percentage": 30},
-    notes="From Google Sheet Pen 6 breed calculations. Different from Daisy's Daughter 2.",
+    notes="From Google Sheet Pen 6 breed calculations. Different from Daisy's Daughter 2. Mother is Daisy (Sir Loin x Half Tail).",
     confidence="low"))
 
 db["sheep"].append(sheep("daisys-daughter-2", "Daisy's Daughter 2", "ewe", "alive",
+    dam_id="daisy",
     breed_composition={"primary": "St Augustine/Katahdin/BBB/Wiltshire", "percentages": {"St Augustine": 67.9625, "Katahdin": 27.325, "Barbados Blackbelly": 4.7, "Wiltshire Horn": 0}, "coat_type": "mixed", "hair_percentage": 30},
     pen="Pen 5",
-    notes="From Google Sheet Pen 5 and 6. In NoriSon's group. Different from Daisy's Daughter 1.",
+    notes="From Google Sheet Pen 5 and 6. In NoriSon's group. Different from Daisy's Daughter 1. Mother is Daisy (Sir Loin x Half Tail).",
     confidence="low",
     notebook_image=[]))
 
@@ -744,14 +778,25 @@ db["sheep"].append(sheep("gertrude", "Gertrude", "ewe", "unknown",
     notes="From Google Sheet Pen 5 breed data. NoriSon's group.",
     confidence="low"))
 
-# OAV 2222 - confirmed 100% Katahdin per Rocky breeding page
+# OAV 2222 - 100% Katahdin, Kelsier's sister — from OAV Sam Mushko
+# Breeding page: Pen 6 (but notebook has her in Pen 5 — notebook is authoritative for current pen).
+# 2024 offspring: 2 lambs by "Spotted Katahdin x Dorper from OAV", born 3-13-24, 7lbs each.
+# Medical: Thiamine deficiency 3-13-24, dosed with B-complex. FAMACHA "Good".
+# Docile Yes, Flighty No.
 db["sheep"].append(sheep("oav-2222", "OAV 2222", "ewe", "alive",
     tag="2222", aliases=["2222"],
     pen="Pen 5",
     breed_composition={"primary": "Katahdin", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
-    notes="100% Katahdin confirmed by Rocky breeding page. Tag 2222. In pen 5 (NoriSon group). Lambed 2026-02-10 (twins).",
+    weight_lbs=140,
+    is_breeding_animal=True,
+    famacha_scores=[{"score": "Good", "date": "2024-03-13"}],
+    treatments=[{"date": "2024-03-13", "treatment": "B-complex (thiamine deficiency)"}],
+    offspring_ids=["oav-2222-lamb-1", "oav-2222-lamb-2"],
+    notes="Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 — notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Lambed 2026-02-10 (twins). Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko.",
     confidence="high",
     notebook_image=["IMG_8639.PNG"]))
+
+# NOTE: OAV 2223 = Kelsier (same animal). See Kelsier entry above.
 
 # Heather Oaks - from Google Sheet Pen 5
 db["sheep"].append(sheep("heather-oaks", "Heather Oaks", "ewe", "unknown",
@@ -806,6 +851,19 @@ db["sheep"].append(sheep("unnamed-pen2", "Unnamed (Pen 2)", "ewe", "alive",
     notes="Unnamed ewe in pen 2 (sirloin group). Not the same as the deceased 'Unnamed' on the weak resistance list.",
     confidence="low",
     notebook_image=["IMG_8630.PNG"]))
+
+# Fl51870-0502 - ewe, 50% Hampshire / 50% Suffolk, Florida scrapie tag
+# Breeding page: 285.61lbs. Bred to Sam (8-21-23) and Sir Loin (8-30-23, due Feb).
+# FAMACHA 4 (9-6-23, Ivermectin) then 2 (9-18-23, no treatment). Docile, not flighty.
+# Name in breeding page includes "(Pen 1-2)" and "(Pen 3)" notations.
+db["sheep"].append(sheep("fl51870-0502", "Fl51870-0502", "ewe", "alive",
+    tag="Fl51870-0502",
+    breed_composition={"primary": "Hampshire/Suffolk", "percentages": {"Hampshire": 50, "Suffolk": 50}, "coat_type": "wool", "hair_percentage": 0},
+    weight_lbs=286,
+    famacha_scores=[{"score": 4, "date": "2023-09-06", "notes": "Ivermectin"}, {"score": 2, "date": "2023-09-18", "notes": "no treatment"}],
+    is_breeding_animal=True,
+    notes="Florida scrapie tag Fl51870-0502. 50%Hampshire/50%Suffolk. Ewe weight 285.61lbs, ram weight prediction 385lbs. Bred to Sam (8-21-23) and Sir Loin (8-30-23, due February). Docile, not flighty. FAMACHA 4→2 Sept 2023. Breeding page name shows '(Pen 1-2)' and '(Pen 3)' notations. [UNCLEAR] which flock name this corresponds to, if any.",
+    confidence="medium"))
 
 # ============================================================
 # DECEASED / SOLD
@@ -884,6 +942,22 @@ db["sheep"].append(sheep("gg-son-094", "GG's Son", "ram", "deceased",
     notes="GG's son. Tag 094. Deceased.",
     confidence="high",
     notebook_image=["IMG_8634.PNG"]))
+
+# 430-2079 - ewe, 25%Hampshire/75%Suffolk, DECEASED
+# Breeding page: Pen 5, DOB 2017, acquired 8-21-23, weight 335.15lbs.
+# Bred to Rocky (8-21-23) and Samson (8-30-23). Docile, not flighty. Breed All Year Y.
+# Medical: foot rot from previous owner (kept near swamp), treated with Terramycin.
+db["sheep"].append(sheep("tag-430-2079", "430-2079", "ewe", "deceased",
+    tag="430-2079",
+    breed_composition={"primary": "Suffolk/Hampshire", "percentages": {"Suffolk": 75, "Hampshire": 25}, "coat_type": "wool", "hair_percentage": 0},
+    weight_lbs=335,
+    dob="2017-01-01", dob_approximate=True,
+    pen="Pen 5",
+    is_breeding_animal=True,
+    status_date="2023-08-21",
+    treatments=[{"date": "2023", "treatment": "Terramycin (foot rot)"}],
+    notes="Tag 430-2079 (pen 5). 25%Hampshire/75%Suffolk. Ewe weight 335.15lbs, ram weight prediction 400lbs. DOB 2017. Acquired 8-21-23 from guy who kept her near a swamp — had foot rot, treated with Terramycin. Bred to Rocky (8-21-23) and Samson (8-30-23). Docile, not flighty. Breed All Year Y, Wet Tolerant No. Multiple: Y (has had multiples). Deceased per owner.",
+    confidence="high"))
 
 # Kelsier's Sister - tag 2241, 100% Katahdin, deceased
 # Breeding page: 100%K, weight 150lbs, FAMACHA 3 (10-5-23).
