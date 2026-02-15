@@ -109,7 +109,7 @@ db["sheep"].append(sheep("sir-loin", "Sir Loin", "ram", "alive",
     measurements={"girth": 43.25, "length": 49.5, "calculated_weight": 308.6, "date": "2023-2024"},
     notes="Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook.",
     confidence="high", csv_row=1,
-    offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1", "dodge", "daisy", "oliver", "spicy", "fm-lamb-2023", "gm-twin1-2024", "gm-twin2-2024"]))
+    offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1", "dodge", "daisy", "oliver", "spicy", "fm-lamb-2023", "gm-twin1-2024", "gm-twin2-2024", "nori-son"]))
 
 # Kelsier = OAV 2223 = UF Ram Test — Katahdin ram, MOST parasite resistant
 # Breeding page (OAV 2223): 100%K, tag 2223, DOB 12-21-22. Born as twin. Birth weight 10lbs, ADG 0.36.
@@ -125,14 +125,15 @@ db["sheep"].append(sheep("sir-loin", "Sir Loin", "ram", "alive",
 #   but breeding page says 100%K. OAV 2223 was not in the sale catalog
 #   (possibly retained or sold privately). Breed % left as 100% per breeding page.
 # Sister OAV 2222 (alive, in flock). Sister tag 2241 (deceased).
-db["sheep"].append(sheep("kelsier", "Kelsier", "ram", "alive",
+db["sheep"].append(sheep("kelsier", "Kelsier", "ram", "deceased",
     tag="2223", aliases=["Tag 22", "UF Ram Test", "OAV 2223", "NSIP 640301-2022-222223"],
     breed_composition={"primary": "Katahdin", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
     weight_lbs=250,
     dob="2022-12-21",
     pen="Pen 4", is_breeding_animal=True,
     vaccinations=[{"date": "2023-10-23", "vaccine": "CDT"}],
-    notes="Most parasite resistant sheep in the flock. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko, DVM (Oakvale Farm, DeLeon Springs FL) on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. UF Ram Test 2023: Ranked 5th of 40 rams, never dewormed (Tx=0), ADG=0.07 (test period), WDA=0.51, Avg FEC=157 (FEC Ratio=446.65), Overall Index=257.10. Individual FEC readings: 2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200 (avg 138.9). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased).",
+    offspring_ids=["serendipitys-baby-036"],
+    notes="Most parasite resistant sheep in the flock. Deceased. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko, DVM (Oakvale Farm, DeLeon Springs FL) on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. UF Ram Test 2023: Ranked 5th of 40 rams, never dewormed (Tx=0), ADG=0.07 (test period), WDA=0.51, Avg FEC=157 (FEC Ratio=446.65), Overall Index=257.10. Individual FEC readings: 2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200 (avg 138.9). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased). Sire of all pen 4 lambs (2026 lambing: Nori 1/25, Dorpy 1/30, FM 2/1, Tag 34 2/2, Serendipity twins 2/3). Also sire of Serendipity's Baby (036/Mc12).",
     confidence="high"))
 
 # GG (tag 23) - ram from Google Sheet
@@ -262,12 +263,14 @@ db["sheep"].append(sheep("butter-ball", "Butter Ball", "ram", "deceased",
     notebook_image=["IMG_8628.PNG"]))
 
 # NoriSon - ram in pen 5, tag 54
+# NoriSon - tag 54, was also tag 22 per owner. Sir Loin son confirmed by owner.
 db["sheep"].append(sheep("nori-son", "NoriSon", "ram", "alive",
-    tag="054", aliases=["Nori's Son"],
+    tag="054", aliases=["Nori's Son", "Tag 22"],
     pen="Pen 5",
+    sire_id="sir-loin",
     dam_id="nori",
     is_breeding_animal=True,
-    notes="Ram in pen 5 currently. Tag 54. Nori's son. Notebook lists associated tags: 47, Red ewe Lamb in 4, Little daisy (41 or 42), Tag 31, 2222, Elsie.",
+    notes="Ram in pen 5 currently. Tag 54. Also was tag 22. Sir Loin son (confirmed by owner). Nori's son. Notebook lists associated tags: 47, Red ewe Lamb in 4, Little daisy (41 or 42), Tag 31, 2222, Elsie.",
     confidence="high",
     notebook_image=["IMG_8639.PNG"]))
 
@@ -467,10 +470,12 @@ db["sheep"].append(sheep("serendipity-ram-2024", "Serendipity's Ram (2024)", "ra
     confidence="high"))
 
 # Serendipity's baby - 036, Mc12
+# Serendipity's Baby — sired by Kelsier (pen 4 ram). Photo March 2024.
 db["sheep"].append(sheep("serendipitys-baby-036", "Serendipity's Baby", "ewe", "alive",
     tag="036", mc_tag="Mc12",
+    sire_id="kelsier",
     dam_id="serendipity",
-    notes="036, Mc12. Serendipity's baby ewe. Photo from March 18, 2024 shows white lamb with yellow MC12 ear tag.",
+    notes="036, Mc12. Serendipity's baby ewe. Sire: Kelsier (pen 4 ram). Photo from March 18, 2024 shows white lamb with yellow MC12 ear tag.",
     confidence="high",
     notebook_image=["IMG_8632.PNG"]))
 
@@ -1576,18 +1581,18 @@ db["pens"] = {
 
 db["lambing_records_2026"] = [
     {"date": "2026-01-20", "dam": "Broken Tail", "sire": "[UNCLEAR]", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins", "pen": "Pen 2"},
-    {"date": "2026-01-23", "dam": "Elsie", "sire": "[UNCLEAR]", "lambs_born": 3, "lambs_alive": 3, "notes": "Triplets per owner. Elsie now in Pen 6 with lambs.", "pen": "Pen 6"},
-    {"date": "2026-01-25", "dam": "Nori", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "EH", "pen": "Pen 4"},
+    {"date": "2026-01-23", "dam": "Elsie", "sire": "NoriSon", "lambs_born": 3, "lambs_alive": 3, "notes": "Triplets per owner. Elsie now in Pen 6 with lambs. Sire confirmed by owner (NoriSon was pen 5 ram).", "pen": "Pen 6"},
+    {"date": "2026-01-25", "dam": "Nori", "sire": "Kelsier", "lambs_born": 1, "lambs_alive": 1, "notes": "EH. Sire confirmed by owner (Kelsier was pen 4 ram).", "pen": "Pen 4"},
     {"date": "2026-01-27", "dam": "Tag 33", "sire": "[UNCLEAR]", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins (Ew = ewe)", "pen": "Pen 1"},
     {"date": "2026-01-28", "dam": "Zara", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "EH", "pen": "Pen 3"},
     {"date": "2026-01-29", "dam": "Azure", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "Renamed Amure in notes", "pen": "Pen 2"},
-    {"date": "2026-01-30", "dam": "Dorpy", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "Dorper/Katahdin cross", "pen": "Pen 4"},
-    {"date": "2026-02-01", "dam": "FM", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "", "pen": "Pen 4"},
-    {"date": "2026-02-02", "dam": "Tag 34", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "Fm2", "pen": "Pen 4"},
-    {"date": "2026-02-03", "dam": "Serendipity", "sire": "[UNCLEAR]", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins per owner. Serendipity now in Pen 4 with twins.", "pen": "Pen 4"},
+    {"date": "2026-01-30", "dam": "Dorpy", "sire": "Kelsier", "lambs_born": 1, "lambs_alive": 1, "notes": "Dorper/Katahdin cross. Sire confirmed by owner (Kelsier was pen 4 ram).", "pen": "Pen 4"},
+    {"date": "2026-02-01", "dam": "FM", "sire": "Kelsier", "lambs_born": 1, "lambs_alive": 1, "notes": "Sire confirmed by owner (Kelsier was pen 4 ram).", "pen": "Pen 4"},
+    {"date": "2026-02-02", "dam": "Tag 34", "sire": "Kelsier", "lambs_born": 1, "lambs_alive": 1, "notes": "Fm2. Sire confirmed by owner (Kelsier was pen 4 ram).", "pen": "Pen 4"},
+    {"date": "2026-02-03", "dam": "Serendipity", "sire": "Kelsier", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins per owner. Serendipity now in Pen 4 with twins. Sire confirmed by owner (Kelsier was pen 4 ram).", "pen": "Pen 4"},
     {"date": "2026-02-05", "dam": "Gigi", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "GG's lamb (Ew)", "pen": ""},
-    {"date": "2026-02-07", "dam": "Daisy's Daughter 2", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "", "pen": "Pen 5"},
-    {"date": "2026-02-10", "dam": "OAV 2222", "sire": "[UNCLEAR]", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins", "pen": "Pen 5"},
+    {"date": "2026-02-07", "dam": "Daisy's Daughter 2", "sire": "NoriSon", "lambs_born": 1, "lambs_alive": 1, "notes": "Sire confirmed by owner (NoriSon was pen 5 ram).", "pen": "Pen 5"},
+    {"date": "2026-02-10", "dam": "OAV 2222", "sire": "NoriSon", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins. Sire confirmed by owner (NoriSon was pen 5 ram).", "pen": "Pen 5"},
     {"date": "2026-02-13", "dam": "Tag 31", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "FM", "pen": ""}
 ]
 
