@@ -91,7 +91,8 @@
       "id": "kelsier",
       "name": "Kelsier",
       "aliases": [
-        "Tag 22"
+        "Tag 22",
+        "UF Ram Test"
       ],
       "tag": "22",
       "mc_tag": null,
@@ -105,7 +106,7 @@
         "hair_percentage": 100
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 250,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -132,7 +133,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Most parasite resistant sheep in the flock. Pure Katahdin. From Google Sheet Pen 4 data.",
+      "notes": "Most parasite resistant sheep in the flock. Pure Katahdin. From Google Sheet Pen 4 data. Listed as 'UF Ram Test' in breeding pages. Ram weight 250lbs, ewe weight prediction 150lbs. Sister (tag 2241, also 100%K) is deceased.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -867,7 +868,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Original Buck ram in chicken coop. Came from Windlestone. 48%Awassi/2%EF/50%Katahdin confirmed by Buck breeding page. Ram weight 212lbs, ewe weight prediction 155.2lbs. Deceased per breeding page ('deceased helene'). Replaced by his brother (also named Buck). Not related to Nori \u2014 listed as prospective breeding option only. Prospective breedings calculated with: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), UF Ram Test (100%Katahdin).",
+      "notes": "Original Buck ram in chicken coop. Came from Windlestone. 48%Awassi/2%EF/50%Katahdin confirmed by Buck breeding page. Ram weight 212lbs, ewe weight prediction 155.2lbs. Deceased per breeding page ('deceased helene'). Replaced by his brother (also named Buck). Not related to Nori \u2014 listed as prospective breeding option only. Prospective breedings calculated with: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), Kelsier (listed as 'UF Ram Test', 100%Katahdin).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },

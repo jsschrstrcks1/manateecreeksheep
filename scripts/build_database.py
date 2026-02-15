@@ -112,11 +112,13 @@ db["sheep"].append(sheep("sir-loin", "Sir Loin", "ram", "alive",
     offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1"]))
 
 # Kelsier - Katahdin ram, MOST parasite resistant
+# "UF Ram Test" in breeding pages = Kelsier. Ram weight 250lbs, ewe weight 150lbs.
 db["sheep"].append(sheep("kelsier", "Kelsier", "ram", "alive",
-    tag="22", aliases=["Tag 22"],
+    tag="22", aliases=["Tag 22", "UF Ram Test"],
     breed_composition={"primary": "Katahdin", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
+    weight_lbs=250,
     pen="Pen 4", is_breeding_animal=True,
-    notes="Most parasite resistant sheep in the flock. Pure Katahdin. From Google Sheet Pen 4 data.",
+    notes="Most parasite resistant sheep in the flock. Pure Katahdin. From Google Sheet Pen 4 data. Listed as 'UF Ram Test' in breeding pages. Ram weight 250lbs, ewe weight prediction 150lbs. Sister (tag 2241, also 100%K) is deceased.",
     confidence="high"))
 
 # GG (tag 23) - ram from Google Sheet
@@ -274,7 +276,7 @@ db["sheep"].append(sheep("buck-original", "Buck (Original)", "ram", "deceased",
     weight_lbs=212,
     is_breeding_animal=True,
     status_notes="Deceased - Hurricane Helene",
-    notes="Original Buck ram in chicken coop. Came from Windlestone. 48%Awassi/2%EF/50%Katahdin confirmed by Buck breeding page. Ram weight 212lbs, ewe weight prediction 155.2lbs. Deceased per breeding page ('deceased helene'). Replaced by his brother (also named Buck). Not related to Nori — listed as prospective breeding option only. Prospective breedings calculated with: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), UF Ram Test (100%Katahdin).",
+    notes="Original Buck ram in chicken coop. Came from Windlestone. 48%Awassi/2%EF/50%Katahdin confirmed by Buck breeding page. Ram weight 212lbs, ewe weight prediction 155.2lbs. Deceased per breeding page ('deceased helene'). Replaced by his brother (also named Buck). Not related to Nori — listed as prospective breeding option only. Prospective breedings calculated with: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), Kelsier (listed as 'UF Ram Test', 100%Katahdin).",
     confidence="high"))
 
 # Buck (Current) - brother of original Buck, now in chicken coop
