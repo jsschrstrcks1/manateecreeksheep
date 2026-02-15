@@ -195,20 +195,6 @@ db["sheep"].append(sheep("well-done", "Well Done", "ram", "deceased",
     notes="From CSV. Katahdin ram, 100lbs. Sire: Big Daddy, Dam: Golf (off-farm). Father of Stew (by Fleecity). Culled (C) per Breeding DB: did not pass on his parasite resistance well.",
     confidence="high", csv_row=3))
 
-# BlackRock - ram from Breeding DB
-db["sheep"].append(sheep("black-rock-ram", "BlackRock", "ram", "unknown",
-    breed_composition={"primary": "Katahdin/St Augustine", "percentages": {"Katahdin": 78, "St Augustine": 22}, "coat_type": "hair", "hair_percentage": 78},
-    is_breeding_animal=True,
-    notes="From Breeding DB. 78% Katahdin, 22% St Augustine. Listed as a 2022 ram. May be same as 'Black Rock' tag 010 from notebook measurements.",
-    confidence="low"))
-
-# Chipotle Spicy Boi - ram from Breeding DB
-db["sheep"].append(sheep("chipotle-spicy-boi", "Chipotle Spicy Boi", "ram", "unknown",
-    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 65.625, "Katahdin": 34.375}, "coat_type": "mixed", "hair_percentage": 34},
-    is_breeding_animal=True,
-    notes="From Breeding DB. 65.625% St Augustine, 34.375% Katahdin. Listed as a ram in '2021 and Before' column.",
-    confidence="low"))
-
 # Butter Ball - Dorper ram (deceased)
 db["sheep"].append(sheep("butter-ball", "Butter Ball", "ram", "deceased",
     aliases=["Butterball"],

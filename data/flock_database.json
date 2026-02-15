@@ -12,11 +12,11 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current and authoritative. When sources conflict, notebook wins. Mom writes Azure as 'Amure'.",
-    "total_sheep": 100,
+    "total_sheep": 98,
     "active_sheep": 64,
     "deceased_count": 19,
     "sold_count": 1,
-    "unknown_count": 16
+    "unknown_count": 14
   },
   "sheep": [
     {
@@ -527,102 +527,6 @@
       },
       "notes": "From CSV. Katahdin ram, 100lbs. Sire: Big Daddy, Dam: Golf (off-farm). Father of Stew (by Fleecity). Culled (C) per Breeding DB: did not pass on his parasite resistance well.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
-    },
-    {
-      "id": "black-rock-ram",
-      "name": "BlackRock",
-      "aliases": [],
-      "tag": null,
-      "mc_tag": null,
-      "sex": "ram",
-      "breed_composition": {
-        "primary": "Katahdin/St Augustine",
-        "percentages": {
-          "Katahdin": 78,
-          "St Augustine": 22
-        },
-        "coat_type": "hair",
-        "hair_percentage": 78
-      },
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
-      "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
-      "status": "unknown",
-      "status_date": null,
-      "status_notes": "",
-      "pen": null,
-      "measurements": {},
-      "health": {
-        "famacha_scores": [],
-        "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [],
-        "notes": []
-      },
-      "breeding": {
-        "is_breeding_animal": true,
-        "breeding_group": "",
-        "offspring_ids": [],
-        "lambing_records": []
-      },
-      "source_refs": {
-        "csv_row": null,
-        "notebook_image": []
-      },
-      "notes": "From Breeding DB. 78% Katahdin, 22% St Augustine. Listed as a 2022 ram. May be same as 'Black Rock' tag 010 from notebook measurements.",
-      "confidence": "low",
-      "last_verified": "2026-02-15"
-    },
-    {
-      "id": "chipotle-spicy-boi",
-      "name": "Chipotle Spicy Boi",
-      "aliases": [],
-      "tag": null,
-      "mc_tag": null,
-      "sex": "ram",
-      "breed_composition": {
-        "primary": "St Augustine/Katahdin",
-        "percentages": {
-          "St Augustine": 65.625,
-          "Katahdin": 34.375
-        },
-        "coat_type": "mixed",
-        "hair_percentage": 34
-      },
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
-      "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
-      "status": "unknown",
-      "status_date": null,
-      "status_notes": "",
-      "pen": null,
-      "measurements": {},
-      "health": {
-        "famacha_scores": [],
-        "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [],
-        "notes": []
-      },
-      "breeding": {
-        "is_breeding_animal": true,
-        "breeding_group": "",
-        "offspring_ids": [],
-        "lambing_records": []
-      },
-      "source_refs": {
-        "csv_row": null,
-        "notebook_image": []
-      },
-      "notes": "From Breeding DB. 65.625% St Augustine, 34.375% Katahdin. Listed as a ram in '2021 and Before' column.",
-      "confidence": "low",
       "last_verified": "2026-02-15"
     },
     {
