@@ -981,6 +981,40 @@ db["sheep"].append(sheep("dorper-ram-deceased", "Dorper Ram (Deceased)", "ram", 
     notebook_image=["IMG_8626.PNG"]))
 
 # ============================================================
+# SOLD 2026-02-15
+# ============================================================
+
+db["sheep"].append(sheep("tag-240002", "Tag 240002", "unknown", "sold",
+    tag="240002",
+    status_date="2026-02-15",
+    notes="Sold 2026-02-15.",
+    confidence="high"))
+
+db["sheep"].append(sheep("tag-0049", "Tag 0049", "unknown", "sold",
+    tag="0049",
+    status_date="2026-02-15",
+    notes="Sold 2026-02-15.",
+    confidence="high"))
+
+db["sheep"].append(sheep("tag-240001", "Tag 240001", "unknown", "sold",
+    tag="240001",
+    status_date="2026-02-15",
+    notes="Sold 2026-02-15.",
+    confidence="high"))
+
+db["sheep"].append(sheep("mc06", "Mc06", "unknown", "sold",
+    mc_tag="Mc06",
+    status_date="2026-02-15",
+    notes="Sold 2026-02-15. MC tag Mc06.",
+    confidence="high"))
+
+db["sheep"].append(sheep("tag-0050", "Tag 0050", "unknown", "sold",
+    tag="0050",
+    status_date="2026-02-15",
+    notes="Sold 2026-02-15. Possibly one of the goose pen auction lambs (tag 50).",
+    confidence="high"))
+
+# ============================================================
 # INACTIVE / CULLED (from Sheep_Breeding_DB)
 # ============================================================
 

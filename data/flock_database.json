@@ -13,11 +13,11 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
-    "total_sheep": 101,
+    "total_sheep": 106,
     "active_sheep": 61,
     "deceased_count": 26,
     "culled_count": 1,
-    "sold_count": 1,
+    "sold_count": 6,
     "unknown_count": 12
   },
   "sheep": [
@@ -4302,6 +4302,206 @@
       },
       "notes": "Dorper ram from sick sheep note. Given iron and B on 10-24. Deceased.",
       "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-240002",
+      "name": "Tag 240002",
+      "aliases": [],
+      "tag": "240002",
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-0049",
+      "name": "Tag 0049",
+      "aliases": [],
+      "tag": "0049",
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-240001",
+      "name": "Tag 240001",
+      "aliases": [],
+      "tag": "240001",
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "mc06",
+      "name": "Mc06",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": "Mc06",
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15. MC tag Mc06.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-0050",
+      "name": "Tag 0050",
+      "aliases": [],
+      "tag": "0050",
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15. Possibly one of the goose pen auction lambs (tag 50).",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
