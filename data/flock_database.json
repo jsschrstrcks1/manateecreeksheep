@@ -1,0 +1,6832 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "farm_name": "Manatee Creek Sheep",
+    "last_updated": "2026-02-15",
+    "data_sources": [
+      "spiral_notebook (IMG_8616-8643)",
+      "flock_record_v2.xlsx",
+      "data.csv",
+      "google_sheet",
+      "Sheep_Breeding_DB_CURRENT_COPY.xlsx",
+      "comprehensive_flock_spreadsheet (Feb 2026)"
+    ],
+    "primary_source": "spiral_notebook",
+    "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
+    "total_sheep": 129,
+    "active_sheep": 61,
+    "deceased_count": 30,
+    "culled_count": 1,
+    "sold_count": 6,
+    "unknown_count": 31
+  },
+  "sheep": [
+    {
+      "id": "sir-loin",
+      "name": "Sir Loin",
+      "aliases": [
+        "Sirloin",
+        "SL"
+      ],
+      "tag": "2",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "St Augustine": 75,
+          "Katahdin": 25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 25
+      },
+      "color_markings": "White",
+      "weight_lbs": 309,
+      "dob": "2012-01-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 2",
+      "measurements": {
+        "girth": 43.25,
+        "length": 49.5,
+        "calculated_weight": 308.6,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "annas-big-one",
+          "half-tail",
+          "broken-tail",
+          "hersheys",
+          "bsoe",
+          "bsoed",
+          "elsie",
+          "little-song",
+          "ab1",
+          "dodge",
+          "daisy",
+          "oliver",
+          "spicy",
+          "fm-lamb-2023",
+          "abg-twin1-2024",
+          "abg-twin2-2024"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 1,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "kelsier",
+      "name": "Kelsier",
+      "aliases": [
+        "Tag 22",
+        "UF Ram Test",
+        "OAV 2223"
+      ],
+      "tag": "2223",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": 250,
+      "dob": "2022-12-21",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 4",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Most parasite resistant sheep in the flock. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. FEC average 138.9 (2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "gg",
+      "name": "GG",
+      "aliases": [
+        "Gigi",
+        "Gg"
+      ],
+      "tag": "23",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin/Hampshire",
+        "percentages": {
+          "Katahdin": 50,
+          "Hampshire": 50
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 4",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "gg-daughter-45",
+          "lara-daughter-46",
+          "gg-son-094"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG",
+          "IMG_8634.PNG"
+        ]
+      },
+      "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "rocky",
+      "name": "Rocky",
+      "aliases": [
+        "Rock",
+        "Jerkface",
+        "Awassi ram",
+        "Awassi cross rock",
+        "Louise's Ram"
+      ],
+      "tag": "140",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Black Headed Dorper/Awassi/East Friesian",
+        "percentages": {
+          "Awassi": 44,
+          "Black Headed Dorper": 50,
+          "East Friesian": 6
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": 300,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "teaser",
+      "dam_id": "dorper-ewe-198",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 2",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 3,
+            "date": "unknown",
+            "notes": "BPW condition, Ivermectin"
+          },
+          {
+            "score": 4.5,
+            "date": "2023-09-20",
+            "notes": "BPW condition, Ivermectin and iron x nutridrench"
+          },
+          {
+            "score": 5,
+            "date": "2023-10-23",
+            "notes": "sick episode"
+          }
+        ],
+        "weak_resistance": true,
+        "treatments": [
+          {
+            "date": "2023-09-20",
+            "treatment": "Ivermectin and iron x nutridrench"
+          },
+          {
+            "date": "2024-10-24",
+            "treatment": "iron and vitamin B"
+          }
+        ],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8626.PNG",
+          "IMG_8628.PNG",
+          "IMG_8629.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "teaser",
+      "name": "Teaser",
+      "aliases": [
+        "Awassi Ram Teaser"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Awassi/East Friesian",
+        "percentages": {
+          "Awassi": 88,
+          "East Friesian": 12
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "rocky"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Rocky's sire per Rocky breeding page. 88%Awassi/12%East Friesian. Called 'Awassi Ram Teaser'. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "dorper-ewe-198",
+      "name": "Dorper Ewe 198",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Black Headed Dorper",
+        "percentages": {
+          "Black Headed Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "rocky"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Rocky's dam per Rocky breeding page. 100% black face dorper. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "samson",
+      "name": "Samson",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Hampshire",
+        "percentages": {
+          "Hampshire": 100
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
+      "color_markings": "",
+      "weight_lbs": 400,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 4",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "serendipity-ram-2024"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG",
+          "IMG_8629.PNG"
+        ]
+      },
+      "notes": "Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Sired Serendipity's 2024 ram lamb. Note: OAV 2222 and Serendipity breeding pages list Samson as 100% Southdown \u2014 possible data entry error (other pages say Hampshire). Serendipity page also shows Samson with Sam's weights (165/125) instead of his actual weights (400/340).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Gulf Coast Native",
+        "percentages": {
+          "Gulf Coast Native": 100
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
+      "color_markings": "",
+      "weight_lbs": 165,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [
+          {
+            "date": "2025-tag-day",
+            "treatment": "iron (FAMACHA 3)"
+          }
+        ],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Ram weight 165lbs, ewe weight prediction 125lbs (from multiple breeding pages). Given iron treatment. Pen 3 includes: Baby, Baby momma, Zara, Half tail, New big girl 2.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "kaladin",
+      "name": "Kaladin",
+      "aliases": [
+        "Kal"
+      ],
+      "tag": "014",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Babydoll/Jacob/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 18.75,
+          "Babydoll": 12.5,
+          "Jacob": 12.5,
+          "Katahdin": 6.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 56
+      },
+      "color_markings": "White w black ears",
+      "weight_lbs": 52,
+      "dob": "2023-05-11",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "serendipity",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 1",
+      "measurements": {
+        "girth": 26,
+        "length": 23,
+        "calculated_weight": 51.8,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8624.PNG",
+          "IMG_8630.PNG"
+        ]
+      },
+      "notes": "Living Kaladin tag 014. DOB 5/11/2023 per extension service. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Birth weight 6lbs (single). Weaned 7/18/2023 at 52lbs (68 days). ADG 0.68. Adjusted WW 100 (ratio 137 \u2014 HIGHEST in 2023 class). Extension service lists sex as ewe (code 2) \u2014 likely data entry error, all other sources say ram. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K \u2014 different animal. With Merrie, Gertrude Moon (Abg), Fm in Pen 1.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "smore",
+      "name": "S'More",
+      "aliases": [],
+      "tag": "22",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker",
+        "percentages": {
+          "Cracker": 100
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "Red",
+      "weight_lbs": 200,
+      "dob": "2021-01-14",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "kaladin",
+          "merrie",
+          "pippin",
+          "trouble-lamb-2023",
+          "bsoed-lamb-2023",
+          "bt-lamb-2023",
+          "ht-ext-lamb-2023",
+          "shaggy-1",
+          "shaggy-2",
+          "bk1",
+          "bk2",
+          "circle-tail"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 2,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2023 lambs including Pippen/BSOE1 (by BSOE), Merrie (by Half Tail), Danny's Girl, Circle Tail (by Brown Knee), BK1, BK2 (by Brown Knee), HT1 (by Half Tail), anna1, BT1/BT2 (by Broken Tail), Shaggy1, Shaggy2 (by Shaggy), BSOE2, Boots1, Trouble's lamb, Bsoed's lamb, and Kaladin (by Serendipity). The deceased Kaladin (tag 24) was S'More x Anna.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "well-done",
+      "name": "Well Done",
+      "aliases": [],
+      "tag": "8",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Black",
+      "weight_lbs": 175,
+      "dob": "2021-02-14",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Culled - did not pass on his parasite resistance well",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "stew",
+          "elsie"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 3,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 8, 100% Katahdin, 175lbs. Sire: Big Daddy, Dam: Gulf (off-farm). Father of Stew (by Fleecity) and Elsie (by Half Tail). Culled per Breeding DB.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "butter-ball",
+      "name": "Butter Ball",
+      "aliases": [
+        "Butterball"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Dorper",
+        "percentages": {
+          "Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG"
+        ]
+      },
+      "notes": "Dorper ram. Deceased per weak resistance list.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "nori-son",
+      "name": "NoriSon",
+      "aliases": [
+        "Nori's Son"
+      ],
+      "tag": "054",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": "nori",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8639.PNG"
+        ]
+      },
+      "notes": "Ram in pen 5 currently. Tag 54. Nori's son. Notebook lists associated tags: 47, Red ewe Lamb in 4, Little daisy (41 or 42), Tag 31, 2222, Elsie.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "charlies-ram",
+      "name": "Charlie's Ram",
+      "aliases": [
+        "Mc 11 ram",
+        "Charlie's ram 12"
+      ],
+      "tag": "012",
+      "mc_tag": "Mc11",
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": 36,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "girth": 22,
+        "length": 22.5,
+        "calculated_weight": 36.3,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8624.PNG",
+          "IMG_8631.PNG"
+        ]
+      },
+      "notes": "Photos from March 18, 2024. Also called Mc11 or tag 12. White lamb with yellow ear tag in photos. Weight calculator: 36.3lbs.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "pippin",
+      "name": "Pippin",
+      "aliases": [
+        "BSOE1",
+        "Pippen"
+      ],
+      "tag": "015",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/Katahdin/St Augustine",
+        "percentages": {
+          "Cracker": 50,
+          "Katahdin": 28,
+          "St Augustine": 22
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": 80,
+      "dob": "2023-01-29",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "bsoe",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "girth": 28,
+        "length": 30.75,
+        "calculated_weight": 80.4,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8622.PNG"
+        ]
+      },
+      "notes": "Pippin/BSOE1. Tag 015. S'More (100%Cr) x BSOE (56K/44SA). DOB 1/29/2023 per extension service. Birth weight 9lbs (single). Weaned 5/23/2023 at 59lbs (114 days). ADG 0.44. Adj WW 62 (ratio 77). Weight calculator: 80.4lbs. 50%Cr/28%K/22%SA.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "new-black-belly-ram",
+      "name": "New Black Belly Ram",
+      "aliases": [],
+      "tag": "018",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "American Blackbelly",
+        "percentages": {
+          "American Blackbelly": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "measurement_1": 18,
+        "measurement_2": 19.5,
+        "date": "2025"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8625.PNG"
+        ]
+      },
+      "notes": "New ABB ram from measurement list.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "charlies-lamb-0017",
+      "name": "Charlie's Lamb",
+      "aliases": [],
+      "tag": "0017",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "charlies-ram",
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "measurement_1": 29.5,
+        "measurement_2": 29,
+        "date": "2025"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8625.PNG"
+        ]
+      },
+      "notes": "Charlie's ram's lamb. Tag 0017.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "buck-original",
+      "name": "Buck (Original)",
+      "aliases": [
+        "Buck"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin/Awassi/East Friesian",
+        "percentages": {
+          "Katahdin": 50,
+          "Awassi": 48,
+          "East Friesian": 2
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": 212,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Deceased - Hurricane Helene",
+      "pen": "Chicken Coop",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Original Buck ram in chicken coop. Came from Windlestone. 48%Awassi/2%EF/50%Katahdin confirmed by Buck breeding page. Ram weight 212lbs, ewe weight prediction 155.2lbs. Deceased per breeding page ('deceased helene'). Replaced by his brother (also named Buck). Not related to Nori \u2014 listed as prospective breeding option only. Prospective breedings calculated with: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), Kelsier (listed as 'UF Ram Test', 100%Katahdin).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "buck",
+      "name": "Buck",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin/Awassi/East Friesian",
+        "percentages": {
+          "Katahdin": 50,
+          "Awassi": 48,
+          "East Friesian": 2
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Chicken Coop",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "dodge",
+      "name": "Dodge",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin/BBB",
+        "percentages": {
+          "St Augustine": 70.3125,
+          "Katahdin": 26.5625,
+          "Barbados Blackbelly": 3.125
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 27
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "broken-tail",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "little-daisy"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Little Daisy's sire. Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB). Inbred: Sir Loin is Broken Tail's sire. Status unknown \u2014 from Little Daisy breeding page pedigree.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "big-free-male",
+      "name": "Big Free Male",
+      "aliases": [],
+      "tag": "005",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "measurement_1": 29,
+        "measurement_2": 35,
+        "date": "2025"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8623.PNG"
+        ]
+      },
+      "notes": "Large free-roaming male from measurement list.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "azure",
+      "name": "Azure",
+      "aliases": [
+        "Amure",
+        "Amber 24"
+      ],
+      "tag": "024",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Suffolk Cross",
+        "percentages": {
+          "Suffolk": 50,
+          "Cracker": 50
+        },
+        "coat_type": "wool",
+        "hair_percentage": 6
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 4,
+            "date": "2025-tag-day",
+            "notes": "treated with iron"
+          }
+        ],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG",
+          "IMG_8629.PNG",
+          "IMG_8630.PNG"
+        ]
+      },
+      "notes": "Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 / also in Pen 2 at different time. NOTE: 'Amber' in weight calculator is Skitters (Karakul), not Azure.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "elsie",
+      "name": "Elsie",
+      "aliases": [],
+      "tag": "025",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine/BBB",
+        "percentages": {
+          "Katahdin": 65.625,
+          "St Augustine": 28.125,
+          "Barbados Blackbelly": 6.25
+        },
+        "coat_type": "hair",
+        "hair_percentage": 72
+      },
+      "color_markings": "Black w White",
+      "weight_lbs": 140,
+      "dob": "2022-02-08",
+      "dob_approximate": true,
+      "sire_id": "well-done",
+      "dam_id": "half-tail",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 6",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 1,
+            "date": "2023-09-06"
+          },
+          {
+            "score": 1,
+            "date": "2023-09-18"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "rorshach",
+          "rorshach-sister"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8639.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "nori",
+      "name": "Nori",
+      "aliases": [
+        "Tag 29",
+        "No",
+        "Tag 21"
+      ],
+      "tag": "021",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "ABB/Wiltshire Horn",
+        "percentages": {
+          "American Blackbelly": 50,
+          "Wiltshire Horn": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Badger",
+      "weight_lbs": 139,
+      "dob": "2023-02-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 4",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "nori-son",
+          "eclipse"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8641.PNG",
+          "IMG_8642.PNG"
+        ]
+      },
+      "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54) and Eclipse (2022, deceased Hurricane Idalia). In pen 4.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "merrie",
+      "name": "Merrie",
+      "aliases": [],
+      "tag": "016",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin/BBB/White Dorper",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 12.5,
+          "Barbados Blackbelly": 6.25,
+          "White Dorper": 3.125
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 72
+      },
+      "color_markings": "Brown and Tan",
+      "weight_lbs": 99,
+      "dob": "2023-01-14",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "half-tail",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 1",
+      "measurements": {
+        "girth": 31.5,
+        "length": 30,
+        "calculated_weight": 99.2,
+        "date": "2023-2024",
+        "prev_measurement_1": 30,
+        "prev_measurement_2": 31,
+        "prev_date": "2025"
+      },
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 3,
+            "date": "2025-tag-day",
+            "notes": "treated"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8622.PNG",
+          "IMG_8630.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bella",
+      "name": "Bella",
+      "aliases": [],
+      "tag": "027",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": "good",
+            "date": "2025-tag-day",
+            "notes": "eyes good"
+          }
+        ],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Tagged 27. Eyes good at tag day. In Pen 3. On weak resistance list.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "cinderella",
+      "name": "Cinderella",
+      "aliases": [],
+      "tag": "028",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": "good",
+            "date": "2025-tag-day",
+            "notes": "eyes good"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Tagged 28. Eyes good at tag day. In Pen 3.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "serendipity",
+      "name": "Serendipity",
+      "aliases": [
+        "SE",
+        "Seren"
+      ],
+      "tag": "030",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Babydoll/Jacob/Katahdin",
+        "percentages": {
+          "St Augustine": 37.5,
+          "Babydoll": 25,
+          "Jacob": 25,
+          "Katahdin": 12.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 75
+      },
+      "color_markings": "Black",
+      "weight_lbs": 138,
+      "dob": "2022-01-12",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "shaggy",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 4",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 1,
+            "date": "2023-09-20",
+            "notes": "no treatment needed"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": [
+          "Low FAMACHA score 7-24-25 along with GG and Lara"
+        ]
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "serendipitys-baby-036",
+          "kaladin",
+          "serendipity-ram-2024"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8629.PNG",
+          "IMG_8632.PNG",
+          "IMG_8640.PNG",
+          "IMG_8642.PNG"
+        ]
+      },
+      "notes": "Breeding page: 25%Babydoll/25%Jacob/12.5%K/37.5%SA. Tag 30 (may have had multiple tag numbers). Ewe weight 137.5lbs, ram weight prediction 222.75lbs. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Not flighty, Good Mother, Attentive, Protective, Docile, Heat Tolerant. FAMACHA 1 (9-20-23). 2022 offspring: Kaladin (by S'More). 2024 offspring: ram (by Samson). Also mother of Mc12/036 baby ewe. Breeding page says Pen 2 but user said Pen 4 with twins (2026) \u2014 keeping Pen 4. Lambed 2026-02-03 (twins).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "serendipity-ram-2024",
+      "name": "Serendipity's Ram (2024)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Hampshire/St Augustine/Babydoll/Jacob/Katahdin",
+        "percentages": {
+          "Hampshire": 50,
+          "St Augustine": 18.75,
+          "Babydoll": 12.5,
+          "Jacob": 12.5,
+          "Katahdin": 6.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 19
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "samson",
+      "dam_id": "serendipity",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Serendipity's 2024 ram lamb by Samson (100% Hampshire). Breed: 50%Hampshire/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. From Serendipity breeding page 2024 section.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "serendipitys-baby-036",
+      "name": "Serendipity's Baby",
+      "aliases": [],
+      "tag": "036",
+      "mc_tag": "Mc12",
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": "serendipity",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8632.PNG"
+        ]
+      },
+      "notes": "036, Mc12. Serendipity's baby ewe. Photo from March 18, 2024 shows white lamb with yellow MC12 ear tag.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "little-daisy",
+      "name": "Little Daisy",
+      "aliases": [],
+      "tag": "035",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin/BBB",
+        "percentages": {
+          "St Augustine": 67.9625,
+          "Katahdin": 27.325,
+          "Barbados Blackbelly": 4.6875
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 30
+      },
+      "color_markings": "",
+      "weight_lbs": 145,
+      "dob": "2023-03-23",
+      "dob_approximate": true,
+      "sire_id": "dodge",
+      "dam_id": "daisy",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": [
+          "Needed parasite treatment April 13 2025 - eyes were white (tag 35)"
+        ]
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "little-daisys-baby-mc01"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8625.PNG",
+          "IMG_8627.PNG",
+          "IMG_8629.PNG",
+          "IMG_8635.PNG"
+        ]
+      },
+      "notes": "Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 \u2014 notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "little-daisys-baby-mc01",
+      "name": "Little Daisy's Baby (Mc01)",
+      "aliases": [
+        "Baby's baby"
+      ],
+      "tag": null,
+      "mc_tag": "Mc01",
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": "little-daisy",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8627.PNG"
+        ]
+      },
+      "notes": "Mc01. Called 'baby's baby' in notebook. Little Daisy #35's offspring.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "baby",
+      "name": "Baby",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Suffolk Cross",
+        "percentages": {
+          "Suffolk": 50,
+          "Cracker": 25,
+          "Katahdin": 18.75,
+          "Gulf Coast Native": 6.25
+        },
+        "coat_type": "wool",
+        "hair_percentage": 25
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG",
+          "IMG_8629.PNG"
+        ]
+      },
+      "notes": "In pen 3 (Sam group). On weak resistance list. Google Sheet Pen 2 shows her as Suffolk Cross ewe offspring calculation parent.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "baby-momma",
+      "name": "Baby Momma",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8629.PNG"
+        ]
+      },
+      "notes": "In pen 3 (Sam group).",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "zara",
+      "name": "Zara",
+      "aliases": [
+        "Dorper 25"
+      ],
+      "tag": "025",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Dorper",
+        "percentages": {
+          "Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [
+          {
+            "date": "2024-10-24",
+            "treatment": "iron and vitamin B"
+          }
+        ],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8626.PNG",
+          "IMG_8628.PNG",
+          "IMG_8629.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Tag 25. Zara = Dorper 25 (same animal). 100% Dorper. Deceased per owner. Was in pen 3 (Sam group). On weak resistance list. Lambed 2026-01-28.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "half-tail",
+      "name": "Half Tail",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin/BBB",
+        "percentages": {
+          "St Augustine": 56.25,
+          "Katahdin": 31.25,
+          "Barbados Blackbelly": 12.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 44
+      },
+      "color_markings": "White",
+      "weight_lbs": 180,
+      "dob": "2017-01-01",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "hersheys",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "broken-tail",
+          "half-tails-baby",
+          "elsie",
+          "ht1",
+          "merrie",
+          "daisy"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 16,
+        "notebook_image": [
+          "IMG_8629.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Mother of Broken Tail, Elsie (by Well Done), HT1 (by S'More), Merrie (by S'More). In pen 3 (Sam group) per notebook.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "broken-tail",
+      "name": "Broken Tail",
+      "aliases": [
+        "Bt",
+        "BT"
+      ],
+      "tag": "034",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin/BBB",
+        "percentages": {
+          "St Augustine": 65.625,
+          "Katahdin": 28.125,
+          "Barbados Blackbelly": 6.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 34
+      },
+      "color_markings": "White",
+      "weight_lbs": 225,
+      "dob": "2018-01-18",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "half-tail",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "bt-lamb-2023",
+          "dodge"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 17,
+        "notebook_image": [
+          "IMG_8629.PNG",
+          "IMG_8642.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin \u2014 inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "trouble",
+      "name": "Trouble",
+      "aliases": [
+        "Tr",
+        "T"
+      ],
+      "tag": "033",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine/Dorper",
+        "percentages": {
+          "Katahdin": 37.5,
+          "St Augustine": 37.5,
+          "Dorper": 25
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "White",
+      "weight_lbs": 180,
+      "dob": "2021-01-01",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "haylee-lawson",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "trouble-lamb-2023"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8642.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: Tag 9/retagged 33, 25%Dorper/37.5%K/37.5%SA, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). 2023 offspring: ram lamb (ID 17) by S'More born 2/22/2023 (8lb birth wt, single, weaned 84lbs at 90 days \u2014 2nd best male lamb). In pen 5 per notebook.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bsoe",
+      "name": "Bsoe",
+      "aliases": [
+        "Black Spot on Ear",
+        "BSOE"
+      ],
+      "tag": "032",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine",
+        "percentages": {
+          "Katahdin": 56,
+          "St Augustine": 44
+        },
+        "coat_type": "hair",
+        "hair_percentage": 56
+      },
+      "color_markings": "White",
+      "weight_lbs": 185,
+      "dob": "2019-01-01",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "two-pence",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "bsoe1",
+          "bsoe2",
+          "pippen",
+          "merrie-bs2"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8642.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: 56%K/44%SA, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOE1/Pippen and BSOE2/Merrie (by S'More). Tag 32 (switched with Bsoed). Breeding page: Pen 4 (now Pen 5 per notebook). Ram weight projection 241.6lbs, ewe weight projection 144.4lbs. 2023 bred to Merrie (tag 016, ram). Breeding page offspring section has label glitch: 'Southdown' = Katahdin and 'St Croix' = St Augustine (percentages correct, breed names offset).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bsoed",
+      "name": "Bsoed",
+      "aliases": [
+        "Black Spot Daughter",
+        "BSOED",
+        "BSOE D"
+      ],
+      "tag": "031",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "Katahdin": 40.5,
+          "St Augustine": 59.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 40
+      },
+      "color_markings": "White",
+      "weight_lbs": 175,
+      "dob": "2020-01-18",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "bsoe",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "bsoed-lamb-2023"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8642.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: ~40.5%K/~59.5%SA, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). 2023 offspring: ram lamb (ID 1) by S'More born 2/22/2023 (8lb birth wt, type 4, weaned 64lbs at 90 days). In pen 5 per notebook.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "fm",
+      "name": "FM",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Cotswold/Tunis",
+        "percentages": {
+          "Cotswold": 50,
+          "Tunis": 50
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
+      "color_markings": "Red",
+      "weight_lbs": 200,
+      "dob": "2021-01-10",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 1",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "fm-lamb-2023",
+          "flan"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 15,
+        "notebook_image": [
+          "IMG_8628.PNG",
+          "IMG_8630.PNG",
+          "IMG_8636.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: Tag GA1568-011, 50% Cotswold / 50% Tunis, Red, 200lbs. DOB 1/10/2021. Purchased (Sire: Annie 1, Dam: Annie 2). 2023: ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days \u2014 heavy!). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "fm1",
+      "name": "FM1",
+      "aliases": [],
+      "tag": "009",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": 67,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 6",
+      "measurements": {
+        "girth": 29.5,
+        "length": 23,
+        "calculated_weight": 66.7,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8624.PNG",
+          "IMG_8628.PNG",
+          "IMG_8629.PNG",
+          "IMG_8642.PNG"
+        ]
+      },
+      "notes": "Different from FM. Tag 009. In pen 6 (no ram). On weak resistance list. On 'Ewes to Upgrade' list. Half wool. Weight calculator: 66.7lbs.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "eclipse",
+      "name": "Eclipse",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/ABB/Wiltshire Horn/Katahdin",
+        "percentages": {
+          "American Blackbelly": 25,
+          "Katahdin": 12.5,
+          "St Augustine": 37.5,
+          "Wiltshire Horn": 25
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "",
+      "weight_lbs": 42,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": "nori",
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Died after Hurricane Idalia (Aug 2023)",
+      "pen": null,
+      "measurements": {
+        "girth": 22,
+        "length": 26,
+        "calculated_weight": 41.9,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8624.PNG",
+          "IMG_8630.PNG"
+        ]
+      },
+      "notes": "25%ABB/12.5%K/37.5%SA/25%WH per Merrie breeding page. Nori's 2022 offspring (only one Eclipse per owner). Weight calculator: 41.9lbs. Died after Hurricane Idalia (Aug/Sep 2023). Was in Pen 1 (Kaladin group) before death.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "abg",
+      "name": "Gertrude Moon",
+      "aliases": [
+        "ABB ewe",
+        "Abg",
+        "ABG",
+        "Bitch Face",
+        "BF",
+        "Unnamed"
+      ],
+      "tag": "022",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "American Black Belly",
+        "percentages": {
+          "American Blackbelly": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": 144,
+      "dob": "2020-01-01",
+      "dob_approximate": true,
+      "sire_id": "abg-sire",
+      "dam_id": "abg-dam",
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Deceased. Awful mother \u2014 no offspring kept.",
+      "pen": null,
+      "measurements": {
+        "girth": 36.75,
+        "length": 32,
+        "calculated_weight": 144.1,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 4,
+            "date": "2023-09-06",
+            "notes": "Ivermectin"
+          },
+          {
+            "score": 2,
+            "date": "2023-09-18",
+            "notes": "no treatment"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [
+          {
+            "date": "2023-09-06",
+            "treatment": "Ivermectin"
+          }
+        ],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "abg-twin1-2024",
+          "abg-twin2-2024"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8630.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Gertrude Moon aka Bitch Face (BF). Tag 22. 100%ABB per breeding page. DOB 2020. Sire: ABB Ram, Dam: ABB Ewe (both off-farm). Acquired 5-4-23. Formerly 'unnamed.' DECEASED \u2014 awful mother, none of her offspring were kept. Ewe weight 144.06lbs. 2023: bred to Sir Loin 5-4-23, due 10-4-23. Twins born 1-2-24 (not kept). FAMACHA 4\u21922 (Sept 2023).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "abg-sire",
+      "name": "ABG's Sire",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "American Black Belly",
+        "percentages": {
+          "American Blackbelly": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "abg"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Gertrude Moon's sire per breeding page. 'ABB Ram.' Off-farm.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "abg-dam",
+      "name": "ABG's Dam",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "American Black Belly",
+        "percentages": {
+          "American Blackbelly": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "abg"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Gertrude Moon's dam per breeding page. 'ABB Ewe.' Off-farm.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "abg-twin1-2024",
+      "name": "ABG Twin 1 (2024)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "ABB/St Augustine/Katahdin",
+        "percentages": {
+          "American Blackbelly": 50,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2024-01-02",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "abg",
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Not kept \u2014 Gertrude Moon was an awful mother.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin. Not kept per owner.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "abg-twin2-2024",
+      "name": "ABG Twin 2 (2024)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "ABB/St Augustine/Katahdin",
+        "percentages": {
+          "American Blackbelly": 50,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2024-01-02",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "abg",
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Not kept \u2014 Gertrude Moon was an awful mother.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin. Not kept per owner.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "circle-tail",
+      "name": "Circle Tail",
+      "aliases": [
+        "CT1"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 21.875
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": 64,
+      "dob": "2023-01-22",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "brown-knee",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 6",
+      "measurements": {
+        "girth": 27.5,
+        "length": 25.5,
+        "calculated_weight": 64.3,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 5,
+            "date": "2025-tag-day",
+            "notes": "treated with iron also"
+          }
+        ],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG",
+          "IMG_8629.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: 50% Cracker / 21.875% Katahdin / 28.125% St Augustine. DOB 1/22/2023. S'More (100Cr) x Brown Knee (43.75K/56.25SA). In pen 6 (no ram). On weak resistance list. FAMACHA 5. Weight calculator: 64.3lbs.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "fox-tail",
+      "name": "Fox Tail",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": 118,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 6",
+      "measurements": {
+        "girth": 35,
+        "length": 29,
+        "calculated_weight": 118.4,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8629.PNG"
+        ]
+      },
+      "notes": "In pen 6 (no ram). Weight calculator: 118.4lbs. On 'Ewes to Upgrade' list.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "s1",
+      "name": "S1",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 6",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8629.PNG"
+        ]
+      },
+      "notes": "In pen 6 (no ram).",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "s2",
+      "name": "S2",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 2",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8630.PNG"
+        ]
+      },
+      "notes": "In pen 2 (sirloin group).",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "lara",
+      "name": "Lara",
+      "aliases": [
+        "Dorper 23"
+      ],
+      "tag": "023",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Black Headed Dorper",
+        "percentages": {
+          "Black Headed Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": 160,
+      "dob": "2018-01-01",
+      "dob_approximate": true,
+      "sire_id": "lara-sire",
+      "dam_id": "lara-dam",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 2",
+      "measurements": {
+        "girth": 36.75,
+        "length": 35.5,
+        "calculated_weight": 159.8,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 3,
+            "date": "2023-09-06",
+            "notes": "Ivermectin after Idalia, probably stress induced"
+          },
+          {
+            "score": 2,
+            "date": "2023-09-18",
+            "notes": "no treatment"
+          }
+        ],
+        "weak_resistance": true,
+        "treatments": [
+          {
+            "date": "2023-09-06",
+            "treatment": "Ivermectin (post-Hurricane Idalia stress)"
+          },
+          {
+            "date": "2024-10-24",
+            "treatment": "iron and vitamin B"
+          }
+        ],
+        "vaccinations": [],
+        "notes": [
+          "Sick sheep note: one of Dorper 23/25 is Lara",
+          "Low score 7-24-25"
+        ]
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "oliver",
+          "spicy"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8626.PNG",
+          "IMG_8628.PNG",
+          "IMG_8630.PNG",
+          "IMG_8636.PNG",
+          "IMG_8640.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Tag 23. 100% Black Headed Dorper per breeding page (previously listed as generic Dorper). DOB 2018. Sire: dorper ram, Dam: dorper ewe (both off-farm). Received from Charles Elingham. Multiple: Y. Ewe weight 159.82lbs, ram weight projection 300lbs. 2023: bred to Sir Loin 7-4-23, due Nov 23. Born 12-30-23: Oliver (3.75lbs) and Spicy (5.8lbs) \u2014 twins by Sir Loin. FAMACHA 3 on 9-6-23 (Ivermectin, post-Idalia stress), FAMACHA 2 on 9-18-23 (no treatment). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' and weak resistance list.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "lara-sire",
+      "name": "Lara's Sire",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Dorper",
+        "percentages": {
+          "Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "lara"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Lara's sire per Lara breeding page. 'Dorper ram.' Off-farm, from Charles Elingham.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "lara-dam",
+      "name": "Lara's Dam",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Dorper",
+        "percentages": {
+          "Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "lara"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Lara's dam per Lara breeding page. 'Dorper ewe.' Off-farm, from Charles Elingham.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "oliver",
+      "name": "Oliver",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "Black Headed Dorper/St Augustine/Katahdin",
+        "percentages": {
+          "Black Headed Dorper": 50,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-12-30",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "lara",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Spicy. Birth weight 3.75lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "spicy",
+      "name": "Spicy",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "Black Headed Dorper/St Augustine/Katahdin",
+        "percentages": {
+          "Black Headed Dorper": 50,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-12-30",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "lara",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Oliver. Birth weight 5.8lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "pebbles",
+      "name": "Pebbles",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 2",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 3,
+            "date": "2025-tag-day",
+            "notes": "treated (struck thru)"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8630.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "In pen 2 (sirloin group). FAMACHA 3, treated. Entry struck through in treatment list.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "anna",
+      "name": "Anna",
+      "aliases": [],
+      "tag": "1",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "White",
+      "weight_lbs": 175,
+      "dob": "2012-01-12",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "annas-big-one"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 4,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 1, 100% Katahdin, 175lbs. DOB 1/12/2012. Sire: Show King, Dam: Show Queen (off-farm). Mother of Anna's Big One (by Sir Loin). The deceased Kaladin (tag 24) was also S'More x Anna, but that is a different animal from the living Kaladin (tag 014, S'More x Serendipity). Deceased per flock spreadsheet.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "boots",
+      "name": "Boots",
+      "aliases": [],
+      "tag": "7",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Dorper/Katahdin",
+        "percentages": {
+          "Dorper": 50,
+          "Katahdin": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "White/Tan",
+      "weight_lbs": 130,
+      "dob": "2020-02-14",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "culled",
+      "status_date": null,
+      "status_notes": "Culled per flock spreadsheet",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "dannys-girl",
+          "boots-1"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 11,
+        "notebook_image": [
+          "IMG_8623.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: Tag 7, 50% Dorper / 50% Katahdin, 130lbs. DOB 2/14/2020. Purchased from Maria (Sire: Maria 1, Dam: Maria 2). Mother of Danny's Girl and Boots 1 (both by S'More). Culled.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "patches",
+      "name": "Patches",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": 66,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "girth": 27,
+        "length": 27,
+        "calculated_weight": 65.6,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8624.PNG"
+        ]
+      },
+      "notes": "Weight calculator: 65.6lbs (girth 27, length 27). Weight calc shows tag 27 but Bella is also tag 27 \u2014 [UNCLEAR] if same animal or tag conflict.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "little-song",
+      "name": "Little Song",
+      "aliases": [
+        "LS"
+      ],
+      "tag": "008",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "Katahdin": 43.75,
+          "St Augustine": 56.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 44
+      },
+      "color_markings": "White",
+      "weight_lbs": 60,
+      "dob": "2023-01-24",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "annas-big-one",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "girth": 28,
+        "length": 23,
+        "calculated_weight": 60.1,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8624.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: Tag 8/retagged 008, 43.75% Katahdin / 56.25% St Augustine, White. DOB 1/24/2023. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Weight calculator: 60.1lbs.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "black-rock",
+      "name": "Black Rock",
+      "aliases": [],
+      "tag": "010",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8624.PNG"
+        ]
+      },
+      "notes": "Tag 010. From measurement list. No measurements recorded yet.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "question-tail",
+      "name": "Question Tail",
+      "aliases": [],
+      "tag": "001",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "measurement_1": 25,
+        "measurement_2": 32,
+        "date": "2025"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8622.PNG"
+        ]
+      },
+      "notes": "Tag 001. From measurement list.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "female-004",
+      "name": "Female 004",
+      "aliases": [],
+      "tag": "004",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "measurement_1": 27.5,
+        "measurement_2": 25.5,
+        "date": "2025"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8622.PNG"
+        ]
+      },
+      "notes": "Tag 004. From measurement list.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "half-tails-baby",
+      "name": "Half Tail's Baby",
+      "aliases": [],
+      "tag": "007",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": "half-tail",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "measurement_1": 27.5,
+        "measurement_2": 27.5,
+        "date": "2025"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8622.PNG"
+        ]
+      },
+      "notes": "Tag 007. Half Tail's baby. From measurement list.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "sb1-crown",
+      "name": "Sb1 (Crown)",
+      "aliases": [],
+      "tag": "002",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": 68,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "girth": 25.25,
+        "length": 32,
+        "calculated_weight": 68.0,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8623.PNG"
+        ]
+      },
+      "notes": "Tag 002. Called 'Sb1 (crown)' in measurements. Weight calculator: 68.0lbs.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "sb2-all-black",
+      "name": "Sb2 (All Black)",
+      "aliases": [],
+      "tag": "003",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "all black",
+      "weight_lbs": 66,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "girth": 25,
+        "length": 31.5,
+        "calculated_weight": 65.6,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8623.PNG"
+        ]
+      },
+      "notes": "Tag 003. Called 'Sb2 (all black)' in measurements. Weight calculator: 65.6lbs.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "new-big-girl-2",
+      "name": "New Big Girl 2",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8629.PNG"
+        ]
+      },
+      "notes": "In pen 3 (Sam group).",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "daisy",
+      "name": "Daisy",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin/BBB",
+        "percentages": {
+          "St Augustine": 65.625,
+          "Katahdin": 28.125,
+          "Barbados Blackbelly": 6.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 34
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "half-tail",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "little-daisy",
+          "daisys-daughter-1",
+          "daisys-daughter-2"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Little Daisy's dam. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of Little Daisy (by Dodge), and likely Daisy's Daughter 1 and 2. Status unknown \u2014 from Little Daisy breeding page pedigree.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "daisys-daughter-1",
+      "name": "Daisy's Daughter 1",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin/BBB",
+        "percentages": {
+          "St Augustine": 67.9625,
+          "Katahdin": 27.325,
+          "Barbados Blackbelly": 4.7
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 30
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": "daisy",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Google Sheet Pen 6 breed calculations. Different from Daisy's Daughter 2. Mother is Daisy (Sir Loin x Half Tail).",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "daisys-daughter-2",
+      "name": "Daisy's Daughter 2",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin/BBB/Wiltshire",
+        "percentages": {
+          "St Augustine": 67.9625,
+          "Katahdin": 27.325,
+          "Barbados Blackbelly": 4.7,
+          "Wiltshire Horn": 0
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 30
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": "daisy",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Google Sheet Pen 5 and 6. In NoriSon's group. Different from Daisy's Daughter 1. Mother is Daisy (Sir Loin x Half Tail).",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "oav-2222",
+      "name": "OAV 2222",
+      "aliases": [
+        "2222"
+      ],
+      "tag": "2222",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": 140,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": "Good",
+            "date": "2024-03-13"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [
+          {
+            "date": "2024-03-13",
+            "treatment": "B-complex (thiamine deficiency)"
+          }
+        ],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "oav-2222-lamb-1",
+          "oav-2222-lamb-2"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8639.PNG"
+        ]
+      },
+      "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 \u2014 notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Lambed 2026-02-10 (twins). Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "heather-oaks",
+      "name": "Heather Oaks",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/Dorper/ABB/St Augustine/Wiltshire",
+        "percentages": {
+          "Katahdin": 37.5,
+          "Dorper": 25,
+          "American Blackbelly": 12.5,
+          "St Augustine": 12.5,
+          "Wiltshire Horn": 12.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 75
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Google Sheet Pen 5 breed data.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-31-ewe",
+      "name": "Tag 31",
+      "aliases": [],
+      "tag": "031-pen2",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine/Dorper/BBB",
+        "percentages": {
+          "Katahdin": 28.125,
+          "St Augustine": 49.625,
+          "Dorper": 16,
+          "Barbados Blackbelly": 6.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 31
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Google Sheet Pen 2. 69.25% wool. Different from Bsoed tag 31 in pen 5. Lambed 2026-02-13.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-33",
+      "name": "Tag 33",
+      "aliases": [],
+      "tag": "033-pen1",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine/BBB/Cracker/White Dorper/Suffolk/GCN",
+        "coat_type": "mixed",
+        "hair_percentage": 25
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Google Sheet Pen 1. 3/4 hair. Has twins.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-35-ewe",
+      "name": "Tag 35",
+      "aliases": [],
+      "tag": "035-pen3",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine",
+        "percentages": {
+          "Katahdin": 29.75,
+          "St Augustine": 70.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 30
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Google Sheet Pen 3. Broken Tail x Buck. Had Awassi(22%)/EF(3%) overlay in Google Sheet but removing as those were Sir Loin era calculations. Status unknown - Google Sheet only, may be same as Little Daisy (tag 35).",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bambi",
+      "name": "Bambi",
+      "aliases": [],
+      "tag": "037",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/Dorper",
+        "percentages": {
+          "Katahdin": 50,
+          "Dorper": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": 81,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {
+        "girth": 29,
+        "length": 29,
+        "calculated_weight": 81.3,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8624.PNG",
+          "IMG_8630.PNG"
+        ]
+      },
+      "notes": "Weight calculator: tag 35, 81.3lbs (girth 29, length 29). Google Sheet Pen 3 shows 3/4 hair. Broken Tail x Buck. Also appears in pen 2 sirloin notebook list.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "irish",
+      "name": "Irish",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": "little-daisy",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": [
+          "Needed parasite treatment April 13 2025 - eyes better but still worthy of treating, maybe a 2"
+        ]
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8635.PNG"
+        ]
+      },
+      "notes": "Little Daisy's daughter. Needed parasite treatment April 13, 2025. Eyes better than Daisy but still scored ~2.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "unnamed-pen2",
+      "name": "Unnamed (Pen 2)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 2",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8630.PNG"
+        ]
+      },
+      "notes": "Unnamed ewe in pen 2 (sirloin group). Not the same as the deceased 'Unnamed' on the weak resistance list.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "fl51870-0502",
+      "name": "Fl51870-0502",
+      "aliases": [],
+      "tag": "Fl51870-0502",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Hampshire/Suffolk",
+        "percentages": {
+          "Hampshire": 50,
+          "Suffolk": 50
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
+      "color_markings": "",
+      "weight_lbs": 286,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 4,
+            "date": "2023-09-06",
+            "notes": "Ivermectin"
+          },
+          {
+            "score": 2,
+            "date": "2023-09-18",
+            "notes": "no treatment"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Florida scrapie tag Fl51870-0502. 50%Hampshire/50%Suffolk. Ewe weight 285.61lbs, ram weight prediction 385lbs. Bred to Sam (8-21-23) and Sir Loin (8-30-23, due February). Docile, not flighty. FAMACHA 4\u21922 Sept 2023. Breeding page name shows '(Pen 1-2)' and '(Pen 3)' notations. [UNCLEAR] which flock name this corresponds to, if any.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "fm-lamb-2023",
+      "name": "FM's Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "St Augustine/Cotswold/Tunis/Katahdin",
+        "percentages": {
+          "St Augustine": 37.5,
+          "Cotswold": 25,
+          "Tunis": 25,
+          "Katahdin": 12.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 12
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-04-01",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "fm",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "FM \u00d7 Sir Loin ram lamb. Born 4/1/2023. Birth weight 12lbs (single \u2014 heaviest birth weight in class!). Weaned 5/23/2023 at 67lbs (52 days). ADG 1.06. Adj WW 80 (ratio 110). 25%Cotswold/12.5%K/37.5%SA/25%Tunis.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "trouble-lamb-2023",
+      "name": "Trouble's Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/Katahdin/St Augustine/Dorper",
+        "percentages": {
+          "Cracker": 50,
+          "Katahdin": 18.75,
+          "St Augustine": 18.75,
+          "Dorper": 12.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-22",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "trouble",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Trouble \u00d7 S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (single). Weaned 5/23/2023 at 84lbs (90 days). ADG 0.84 \u2014 excellent growth. Adj WW 84 (ratio 104). 50%Cr/18.75%K/18.75%SA/12.5%D.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bsoed-lamb-2023",
+      "name": "Bsoed's Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 29.75,
+          "Katahdin": 20.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-22",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "bsoed",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Bsoed \u00d7 S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (type 4). Weaned 5/23/2023 at 64lbs (90 days). ADG 0.62. Adj WW 77 (ratio 96). 50%Cr/29.75%SA/20.25%K.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bt-lamb-2023",
+      "name": "BT's Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin/BBB",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 32.8125,
+          "Katahdin": 14.0625,
+          "Barbados Blackbelly": 3.125
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2022-12-12",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "broken-tail",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Broken Tail \u00d7 S'More ram lamb (BT1 or BT2). Born 12/12/2022 (counted in 2023 class). Birth weight 9lbs (type 4). Weaned 5/23/2023 at 118lbs (162 days) \u2014 heaviest weaning weight in class! ADG 0.67. Adj WW 108 (ratio 134). 50%Cr/32.8%SA/14%K/3.1%BBB.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ht-ext-lamb-2023",
+      "name": "HT's Extension Lamb (2023)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin/BBB",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 15.625,
+          "Barbados Blackbelly": 6.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-04",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "half-tail",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Half Tail \u00d7 S'More ram lamb. Born 2/4/2023 (single birth). May be HT1 or Merrie (Merrie DOB from spreadsheet is 1/14/2023 vs 2/4/2023 here \u2014 3 week discrepancy). Weaned 5/23/2023 at 69lbs (108 days). ADG 0.57. Adj WW 76 (ratio 94). 50%Cr/28.125%SA/15.625%K/6.25%BBB.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "shaggy-1",
+      "name": "Shaggy1",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/Babydoll/Jacob",
+        "percentages": {
+          "Cracker": 50,
+          "Babydoll": 25,
+          "Jacob": 25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-29",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "shaggy",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Shaggy \u00d7 S'More ram lamb (Shaggy1). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 68lbs (114 days). ADG 0.54. Adj WW 86 (ratio 106). 50%Cr/25%Babydoll/25%Jacob.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "shaggy-2",
+      "name": "Shaggy2",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Cracker/Babydoll/Jacob",
+        "percentages": {
+          "Cracker": 50,
+          "Babydoll": 25,
+          "Jacob": 25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-29",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "shaggy",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Shaggy \u00d7 S'More ram lamb (Shaggy2). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 59lbs (114 days). ADG 0.46. Adj WW 74 (ratio 92). 50%Cr/25%Babydoll/25%Jacob.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bk1",
+      "name": "BK1",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 21.875
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-24",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "brown-knee",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Brown Knee \u00d7 S'More ewe lamb (BK1). Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 99lbs (119 days) \u2014 BEST ewe lamb! ADG 0.76. Adj WW 109 (ratio 135). 50%Cr/28.125%SA/21.875%K.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bk2",
+      "name": "BK2",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Cracker/St Augustine/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 21.875
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-24",
+      "dob_approximate": true,
+      "sire_id": "smore",
+      "dam_id": "brown-knee",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Brown Knee \u00d7 S'More ewe lamb (BK2). Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 80lbs (119 days). ADG 0.61. Adj WW 88 (ratio 109). 50%Cr/28.125%SA/21.875%K.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ext-lamb-35",
+      "name": "Ext Lamb 35",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Extension service lamb ID 35. Ram, born 2/1/2023 (type 4). Ewe age 7 \u2014 likely Anna (DOB ~2016). No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 81lbs (111 days). ADG 0.67. Adj WW 109 (ratio 135 \u2014 tied for best). May be anna1 (S'More offspring).",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ext-lamb-27",
+      "name": "Ext Lamb 27",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-02-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Extension service lamb ID 27. Ram, born 2/1/2023 (type 4). Ewe age 3 \u2014 unknown dam. No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 66lbs (111 days). ADG 0.53. Adj WW 85 (ratio 106).",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ext-lamb-10",
+      "name": "Ext Lamb 10",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-03-23",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Extension service lamb ID 10. Ewe, born 3/23/2023 (type 4). Ewe age 3 \u2014 unknown dam. No sire listed. Birth weight 5lbs. Weaned 5/23/2023 at 36lbs (61 days). ADG 0.51. Adj WW 39 (ratio 53 \u2014 lowest). Smallest/youngest lamb in class.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ext-lamb-8",
+      "name": "Ext Lamb 8 (ABG)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-01-24",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Not kept \u2014 Gertrude Moon was an awful mother, no offspring kept per owner.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Extension service lamb ID 8. Ram, born 1/24/2023 (type 3). Ewe: ABG age 1, Sire: SL (Sir Loin). Not kept. Birth weight 8lbs. Weaned 5/23/2023 at 60lbs (119 days). ADG 0.44. Adj WW 77 (ratio 95).",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "shaggy",
+      "name": "Shaggy",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Babydoll/Jacob",
+        "percentages": {
+          "Babydoll": 50,
+          "Jacob": 50
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
+      "color_markings": "Black",
+      "weight_lbs": 140,
+      "dob": "2019-01-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Killed by humans after Hurricane Helene",
+      "pen": "Pen 6",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 4,
+            "date": "2025-tag-day",
+            "notes": "no treat (struck thru)"
+          }
+        ],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "serendipity",
+          "shaggy-1",
+          "shaggy-2"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 14,
+        "notebook_image": [
+          "IMG_8628.PNG",
+          "IMG_8629.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "Flock spreadsheet: 50% Babydoll / 50% Jacob, Black, 140lbs. DOB ~1/1/2019. Purchased (Sire: Jacob 1, Dam: Baby Doll 1). Mother of Serendipity (by Sir Loin), Shaggy 1 and Shaggy 2 (by S'More). Deceased \u2014 killed by humans after Hurricane Helene. Was in Pen 6. On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "bambii",
+      "name": "Bambii",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 2",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8630.PNG",
+          "IMG_8641.PNG"
+        ]
+      },
+      "notes": "In Pen 2 (Sir Loin group) per spiral notebook (authoritative). Was struck through in treatment list but notebook roster is definitive for alive/active status.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "skitters",
+      "name": "Skitters",
+      "aliases": [
+        "Amber"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Karakul",
+        "percentages": {
+          "Karakul": 100
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
+      "color_markings": "",
+      "weight_lbs": 176,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {
+        "girth": 38,
+        "length": 36.5,
+        "calculated_weight": 175.7,
+        "date": "2023-2024"
+      },
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG"
+        ]
+      },
+      "notes": "Deceased. 100% Karakul per Rocky breeding page. Also called 'Amber' per owner. Weight calculator: 175.7lbs (from 2023-2024 when alive). On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "w136",
+      "name": "W136",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG"
+        ]
+      },
+      "notes": "Deceased. On weak resistance list.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "unnamed-deceased",
+      "name": "Unnamed (Deceased)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG"
+        ]
+      },
+      "notes": "Deceased. On weak resistance list as 'Unnamed (deceased)'.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "hersheys",
+      "name": "Hersheys",
+      "aliases": [],
+      "tag": "3",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "BBB/Katahdin/St Augustine",
+        "percentages": {
+          "Barbados Blackbelly": 25,
+          "Katahdin": 37.5,
+          "St Augustine": 37.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 62
+      },
+      "color_markings": "Black",
+      "weight_lbs": 150,
+      "dob": "2015-02-01",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "sugar",
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "half-tail"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 18,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 3, 25% BBB / 37.5% Katahdin / 37.5% St Augustine, 150lbs. DOB 2/1/2015. Sir Loin (25K/75SA) x Sugar (50BBB/50K). Mother of Half Tail. Deceased.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "gg-daughter-45",
+      "name": "GG's Daughter",
+      "aliases": [],
+      "tag": "045",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "gg",
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8634.PNG"
+        ]
+      },
+      "notes": "GG's daughter (GG is sire). Tag 45. Deceased.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "lara-daughter-46",
+      "name": "Lara's Daughter",
+      "aliases": [],
+      "tag": "046",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "gg",
+      "dam_id": "lara",
+      "status": "sold",
+      "status_date": null,
+      "status_notes": "Sold - prone to Coccidia",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8634.PNG"
+        ]
+      },
+      "notes": "GG (sire) x Lara (dam) daughter. Tag 46. Sold because prone to Coccidia.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "gg-son-094",
+      "name": "GG's Son",
+      "aliases": [],
+      "tag": "094",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "gg",
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8634.PNG"
+        ]
+      },
+      "notes": "GG's son. Tag 094. Deceased.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-430-2079",
+      "name": "430-2079",
+      "aliases": [],
+      "tag": "430-2079",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Suffolk/Hampshire",
+        "percentages": {
+          "Suffolk": 75,
+          "Hampshire": 25
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
+      "color_markings": "",
+      "weight_lbs": 335,
+      "dob": "2017-01-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": "2023-08-21",
+      "status_notes": "",
+      "pen": "Pen 5",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [
+          {
+            "date": "2023",
+            "treatment": "Terramycin (foot rot)"
+          }
+        ],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Tag 430-2079 (pen 5). 25%Hampshire/75%Suffolk. Ewe weight 335.15lbs, ram weight prediction 400lbs. DOB 2017. Acquired 8-21-23 from guy who kept her near a swamp \u2014 had foot rot, treated with Terramycin. Bred to Rocky (8-21-23) and Samson (8-30-23). Docile, not flighty. Breed All Year Y, Wet Tolerant No. Multiple: Y (has had multiples). Deceased per owner.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "kelsiers-sister",
+      "name": "Kelsier's Sister",
+      "aliases": [],
+      "tag": "2241",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": 150,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 3,
+            "date": "2023-10-05"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Kelsier's sister. Tag 2241. 100% Katahdin. Weight 150lbs. Breeding page attributes: Flighty?, Good Mother?, Attentive, Protective, Milky, Docile, Strong Flocking, Parasite Resistant, Heat/Cold/Wet Tolerant. Bred to Sir Loin 10-5-23 (due Feb 27th). FAMACHA 3 on 10-5-23. Deceased.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "dorper-ram-deceased",
+      "name": "Dorper Ram (Deceased)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Dorper",
+        "percentages": {
+          "Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [
+          {
+            "date": "2024-10-24",
+            "treatment": "iron and vitamin B"
+          }
+        ],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8626.PNG"
+        ]
+      },
+      "notes": "Dorper ram from sick sheep note. Given iron and B on 10-24. Deceased.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-240002",
+      "name": "Tag 240002",
+      "aliases": [],
+      "tag": "240002",
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-0049",
+      "name": "Tag 0049",
+      "aliases": [],
+      "tag": "0049",
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-240001",
+      "name": "Tag 240001",
+      "aliases": [],
+      "tag": "240001",
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "mc06",
+      "name": "Mc06",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": "Mc06",
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15. MC tag Mc06.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-0050",
+      "name": "Tag 0050",
+      "aliases": [],
+      "tag": "0050",
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Sold 2026-02-15. Possibly one of the goose pen auction lambs (tag 50).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "razzle",
+      "name": "Razzle",
+      "aliases": [],
+      "tag": "5",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Barbados Blackbelly",
+        "percentages": {
+          "Barbados Blackbelly": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Badger",
+      "weight_lbs": 125,
+      "dob": "2014-03-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Culled - temperament",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "sugar"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 5, 100% BBB ram, Badger color, 125lbs. DOB 3/1/2014. Purchased from auction (Sire: Auction 1, Dam: Auction 2). Father of Sugar (by Frazzle). Culled for temperament.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "frazzle",
+      "name": "Frazzle",
+      "aliases": [],
+      "tag": "6",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Black",
+      "weight_lbs": 175,
+      "dob": "2013-02-27",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Died - age",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "sugar"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 6, 100% Katahdin ewe, Black, 175lbs. DOB 2/27/2013. Purchased from auction (Sire: Auction 2, Dam: Auction 3). Mother of Sugar (by Razzle). Died of old age.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "almond-joy",
+      "name": "Almond Joy",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Culled - cryptorchid",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Sheep Breeding DB. Ram culled (C) for being cryptorchid.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "aliases": [],
+      "tag": "4",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "BBB/Katahdin",
+        "percentages": {
+          "Barbados Blackbelly": 50,
+          "Katahdin": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Tan",
+      "weight_lbs": 224,
+      "dob": "2014-02-14",
+      "dob_approximate": true,
+      "sire_id": "razzle",
+      "dam_id": "frazzle",
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Culled - mastitis",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "hersheys"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 4, 50% BBB / 50% Katahdin, Tan, 224lbs. DOB 2/14/2014. Razzle (100BBB) x Frazzle (100K). Mother of Hersheys (by Sir Loin). Culled for mastitis.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "penny",
+      "name": "Penny",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Culled - poor shedder",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Sheep Breeding DB. Ewe culled (C) for poor shedding.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "two-pence",
+      "name": "Two Pence",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine",
+        "percentages": {
+          "Katahdin": 87,
+          "St Augustine": 13
+        },
+        "coat_type": "hair",
+        "hair_percentage": 87
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Culled - daughter of cryptorchid",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "bsoe"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Sheep Breeding DB. Ewe culled as daughter of cryptorchid (Almond Joy). Mother of BSOE (by Sir Loin). Breed estimated from BSOE's composition: if BSOE=56K/44SA and Sir Loin=25K/75SA, Two Pence ~87K/13SA.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "haylee-lawson",
+      "name": "Haylee Lawson",
+      "aliases": [],
+      "tag": "14",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Dorper/Katahdin",
+        "percentages": {
+          "Dorper": 50,
+          "Katahdin": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "White",
+      "weight_lbs": 175,
+      "dob": "2019-01-01",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "trouble"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 14, 50% Dorper / 50% Katahdin, White, 175lbs. DOB ~1/1/2019. Purchased (Sire: HL1, Dam: HL2). Mother of Trouble (by Sir Loin). Deceased.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "pretzel",
+      "name": "Pretzel",
+      "aliases": [],
+      "tag": "13",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Dorper/Katahdin",
+        "percentages": {
+          "Dorper": 75,
+          "Katahdin": 25
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Black/White",
+      "weight_lbs": 130,
+      "dob": "2022-01-20",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Deceased per flock spreadsheet",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 13, 75% Dorper / 25% Katahdin, Black/White, 130lbs. DOB 1/20/2022. Purchased from Maria (Sire: Maria 3, Dam: Maria 4). Deceased.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "w140",
+      "name": "W140",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": true,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8628.PNG"
+        ]
+      },
+      "notes": "On weak resistance list. Status alive but weak.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "brown-knee",
+      "name": "Brown Knee",
+      "aliases": [
+        "BK"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "Katahdin": 43.75,
+          "St Augustine": 56.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 44
+      },
+      "color_markings": "",
+      "weight_lbs": 150,
+      "dob": "2016-02-14",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "annas-big-one",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "circle-tail",
+          "bk1",
+          "bk2"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 6,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: 43.75% Katahdin / 56.25% St Augustine, 150lbs. DOB 2/14/2016. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Mother of Circle Tail, BK1, and BK2 (by S'More). Note: BSOE's dam is Two Pence, not Brown Knee (corrected from earlier CSV).",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "banana-split",
+      "name": "Banana Split",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "St Augustine": 70.3125,
+          "Katahdin": 29.6875
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 30
+      },
+      "color_markings": "",
+      "weight_lbs": 235,
+      "dob": "2015-11-14",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "bsoe",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "banana-split-baby"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 8,
+        "notebook_image": []
+      },
+      "notes": "From CSV & Breeding DB. 70.3% St Augustine, 29.7% Katahdin (calculated: Sir Loin x BSOE). Mother of Banana Split Baby. Status unknown - not in recent notebook. Note: old CSV had dam as 'Black Spot on Ear' which is the same as BSOE.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "fleecity",
+      "name": "Fleecity",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/Dorper",
+        "percentages": {
+          "Katahdin": 50,
+          "Dorper": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": 100,
+      "dob": "2021-01-14",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "stew"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 13,
+        "notebook_image": []
+      },
+      "notes": "From CSV. 50% Katahdin, 50% Dorper. Same parents as Boots (Boots Dad x Boots Mom) - they are siblings. Mother of Stew (by Well Done). Status unknown - not in recent notebook.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "banana-split-baby",
+      "name": "Banana Split Baby",
+      "aliases": [],
+      "tag": "8",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "St Augustine": 72.656,
+          "Katahdin": 27.344
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 27
+      },
+      "color_markings": "",
+      "weight_lbs": 12.3,
+      "dob": "2022-02-23",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "banana-split",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 9,
+        "notebook_image": []
+      },
+      "notes": "From CSV & Breeding DB. ~72.7% St Augustine, ~27.3% Katahdin (calculated: Sir Loin x Banana Split). Status unknown - not in recent notebook.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "annas-big-one",
+      "name": "Anna's Big One",
+      "aliases": [
+        "Banana",
+        "B"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine",
+        "percentages": {
+          "Katahdin": 62.5,
+          "St Augustine": 37.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "White",
+      "weight_lbs": 200,
+      "dob": "2014-12-01",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "anna",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 4",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "brown-knee",
+          "little-song",
+          "ab1"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 10,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: 62.5% Katahdin / 37.5% St Augustine, 200lbs. DOB 12/1/2014. Sir Loin x Anna. Called 'Banana' in notebook. In Pen 4 (Samson group) per notebook. Mother of Brown Knee (by Sir Loin), Little Song (by Sir Loin), and AB1 (by Sir Loin).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "stew",
+      "name": "Stew",
+      "aliases": [],
+      "tag": "11",
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin/Dorper",
+        "percentages": {
+          "Katahdin": 75,
+          "Dorper": 25
+        },
+        "coat_type": "hair",
+        "hair_percentage": 75
+      },
+      "color_markings": "Black w White Markings",
+      "weight_lbs": 11.3,
+      "dob": "2022-02-08",
+      "dob_approximate": true,
+      "sire_id": "well-done",
+      "dam_id": "fleecity",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": 12,
+        "notebook_image": []
+      },
+      "notes": "From CSV. 75% Katahdin, 25% Dorper. Well Done (sire) x Fleecity (dam) - CSV had sire/dam columns swapped. Status unknown - not in recent notebook.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "fm2",
+      "name": "FM2",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine/Cotswold/Tunis",
+        "percentages": {
+          "Katahdin": 12.5,
+          "St Augustine": 37.5,
+          "Cotswold": 25,
+          "Tunis": 25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 25
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Google Sheet Pen 4. FM2 Baby is 75% hair.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "dorpy",
+      "name": "Dorpy",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/Dorper/Babydoll",
+        "percentages": {
+          "Katahdin": 50,
+          "Dorper": 25,
+          "Babydoll": 25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 75
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Google Sheet Pen 4. Tag 34 offspring row.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "tag-34-pen4",
+      "name": "Tag 34 (Pen 4)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine",
+        "percentages": {
+          "Katahdin": 43.75,
+          "St Augustine": 56.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "From Google Sheet Pen 4. 100% hair.",
+      "confidence": "low",
+      "last_verified": "2026-02-15"
+    }
+  ],
+  "pens": {
+    "pen_1": {
+      "ram": "kaladin",
+      "other_rams": [
+        "merrie"
+      ],
+      "ewes": [
+        "fm"
+      ],
+      "notes": "Kaladin's group. Merrie (tag 016) is also a ram in this pen. Gertrude Moon (ABG) deceased \u2014 removed. Eclipse also deceased (Hurricane Idalia). May 14 2025: vaccinated pen 1 lambs."
+    },
+    "pen_2": {
+      "ram": "sir-loin",
+      "other_rams": [
+        "rocky"
+      ],
+      "ewes": [
+        "azure",
+        "s2",
+        "lara",
+        "bambii",
+        "unnamed-pen2",
+        "pebbles"
+      ],
+      "notes": "Sirloin's group per spiral notebook. Rocky/Jerkface also in Pen 2 per owner."
+    },
+    "pen_3": {
+      "ram": "sam",
+      "ewes": [
+        "baby",
+        "baby-momma",
+        "half-tail",
+        "new-big-girl-2"
+      ],
+      "notes": "Sam's group. Zara was here but is deceased. Bella (tag 27) and Cinderella (tag 28) also in pen 3 per treatment notes."
+    },
+    "pen_4": {
+      "ram": "samson",
+      "ewes": [
+        "nori",
+        "trouble",
+        "bsoe",
+        "bsoed",
+        "annas-big-one",
+        "serendipity"
+      ],
+      "notes": "Samson's group (Samson deceased \u2014 pen may have new ram). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet. Elsie moved to Pen 6 with triplets. Serendipity now here with twins per owner."
+    },
+    "pen_5": {
+      "ram": "nori-son",
+      "ewes": [
+        "broken-tail",
+        "little-daisy"
+      ],
+      "notes": "NoriSon (tag 54) is the pen 5 ram. Rocky moved to Pen 2. Notebook lists Amber 24, Broken tail, Little daisy. Amber 24 = Azure (also listed in pen 2)."
+    },
+    "pen_6": {
+      "ram": null,
+      "ewes": [
+        "elsie",
+        "s1",
+        "fm1",
+        "fox-tail",
+        "circle-tail"
+      ],
+      "notes": "No ram. Elsie here with triplets. Shaggy was here but is deceased (killed after Hurricane Helene). Serendipity moved to Pen 4 with twins."
+    },
+    "goose_pen": {
+      "ram": null,
+      "ewes": [],
+      "notes": "Auction lambs: tags 09, 50, 06, L19, and others."
+    },
+    "chicken_coop": {
+      "ram": "buck",
+      "ewes": [],
+      "notes": "Buck (Katahdin/Awassi/EF ram) housed in chicken coop. Current Buck is brother of original Buck who died in Hurricane Helene. Both from Windlestone."
+    }
+  },
+  "lambing_records_2026": [
+    {
+      "date": "2026-01-20",
+      "dam": "Broken Tail",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 2,
+      "lambs_alive": 2,
+      "notes": "Twins",
+      "pen": "Pen 2"
+    },
+    {
+      "date": "2026-01-23",
+      "dam": "Elsie",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 3,
+      "lambs_alive": 3,
+      "notes": "Triplets per owner. Elsie now in Pen 6 with lambs.",
+      "pen": "Pen 6"
+    },
+    {
+      "date": "2026-01-25",
+      "dam": "Nori",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 1,
+      "lambs_alive": 1,
+      "notes": "EH",
+      "pen": "Pen 4"
+    },
+    {
+      "date": "2026-01-27",
+      "dam": "Tag 33",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 2,
+      "lambs_alive": 2,
+      "notes": "Twins (Ew = ewe)",
+      "pen": "Pen 1"
+    },
+    {
+      "date": "2026-01-28",
+      "dam": "Zara",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 1,
+      "lambs_alive": 1,
+      "notes": "EH",
+      "pen": "Pen 3"
+    },
+    {
+      "date": "2026-01-29",
+      "dam": "Azure",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 1,
+      "lambs_alive": 1,
+      "notes": "Renamed Amure in notes",
+      "pen": "Pen 2"
+    },
+    {
+      "date": "2026-01-30",
+      "dam": "Dorpy",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 1,
+      "lambs_alive": 1,
+      "notes": "Dorper/Katahdin cross",
+      "pen": "Pen 4"
+    },
+    {
+      "date": "2026-02-01",
+      "dam": "FM",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 1,
+      "lambs_alive": 1,
+      "notes": "",
+      "pen": "Pen 4"
+    },
+    {
+      "date": "2026-02-02",
+      "dam": "Tag 34",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 1,
+      "lambs_alive": 1,
+      "notes": "Fm2",
+      "pen": "Pen 4"
+    },
+    {
+      "date": "2026-02-03",
+      "dam": "Serendipity",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 2,
+      "lambs_alive": 2,
+      "notes": "Twins per owner. Serendipity now in Pen 4 with twins.",
+      "pen": "Pen 4"
+    },
+    {
+      "date": "2026-02-05",
+      "dam": "Gigi",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 1,
+      "lambs_alive": 1,
+      "notes": "GG's lamb (Ew)",
+      "pen": ""
+    },
+    {
+      "date": "2026-02-07",
+      "dam": "Daisy's Daughter 2",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 1,
+      "lambs_alive": 1,
+      "notes": "",
+      "pen": "Pen 5"
+    },
+    {
+      "date": "2026-02-10",
+      "dam": "OAV 2222",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 2,
+      "lambs_alive": 2,
+      "notes": "Twins",
+      "pen": "Pen 5"
+    },
+    {
+      "date": "2026-02-13",
+      "dam": "Tag 31",
+      "sire": "[UNCLEAR]",
+      "lambs_born": 1,
+      "lambs_alive": 1,
+      "notes": "FM",
+      "pen": ""
+    }
+  ],
+  "breed_reference": {
+    "hair_breeds": [
+      "Katahdin",
+      "Dorper",
+      "White Dorper",
+      "St Croix",
+      "Barbados Blackbelly",
+      "American Blackbelly",
+      "Wiltshire Horn"
+    ],
+    "wool_breeds": [
+      "Suffolk",
+      "Hampshire",
+      "Cotswold",
+      "Tunis",
+      "Gulf Coast Native"
+    ],
+    "dual_purpose": [
+      "St Augustine",
+      "Cracker",
+      "Awassi",
+      "East Friesian"
+    ],
+    "other": [
+      "Jacob",
+      "Babydoll",
+      "Karakul"
+    ]
+  },
+  "breeding_goals": {
+    "primary": "Parasite resistance via FAMACHA-driven selection",
+    "secondary": [
+      "Meat quality (Dorper influence)",
+      "Milk production (Awassi influence)",
+      "Hair coat selection"
+    ],
+    "key_observations": {
+      "most_parasite_resistant": "Kelsier (Katahdin)",
+      "most_milky": "Awassi and Awassi crosses",
+      "meatiest": "Dorper-Awassi cross",
+      "total_breeds_in_flock": 22
+    }
+  }
+}

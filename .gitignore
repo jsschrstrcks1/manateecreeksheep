@@ -1,0 +1,18 @@
+# Processed images (generated from originals, don't commit)
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
