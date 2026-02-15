@@ -22,6 +22,8 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
+from parasite_resistance import score_all
+
 # ── Paths ──────────────────────────────────────────────────────────
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(SCRIPT_DIR, "..", "data", "flock_database.json")
@@ -200,7 +202,7 @@ def safe_sheet_name(name, idx):
     return f"{clean} ({idx})"
 
 
-def write_sheep_sheet(wb, db, sheep_record, idx):
+def write_sheep_sheet(wb, db, sheep_record, idx, parasite_scores=None):
     """Write one sheep's breeding page as a worksheet."""
     sid = sheep_record["id"]
     name = sheep_record["name"]
@@ -472,6 +474,105 @@ def write_sheep_sheet(wb, db, sheep_record, idx):
 
     row += 1
 
+    # ── PARASITE RESISTANCE ───────────────────────────────────
+    RESIST_FILL = PatternFill(start_color="E8F5E9", end_color="E8F5E9", fill_type="solid")
+    RESIST_WARN_FILL = PatternFill(start_color="FFF3E0", end_color="FFF3E0", fill_type="solid")
+    RESIST_BAD_FILL = PatternFill(start_color="FFEBEE", end_color="FFEBEE", fill_type="solid")
+
+    ws.merge_cells(f"A{row}:E{row}")
+    cell = ws.cell(row=row, column=1, value="PARASITE RESISTANCE")
+    cell.font = SECTION_FONT
+    cell.fill = SECTION_FILL
+    for c in range(2, 6):
+        ws.cell(row=row, column=c).fill = SECTION_FILL
+    row += 1
+
+    if parasite_scores and sid in parasite_scores:
+        pr = parasite_scores[sid]
+        score_val = pr["score"]
+        grade = pr["grade"]
+        conf = pr["confidence"]
+
+        # Grade color
+        if grade in ("A", "B"):
+            grade_color = "006600"
+            grade_fill = RESIST_FILL
+        elif grade == "C":
+            grade_color = "996600"
+            grade_fill = RESIST_WARN_FILL
+        else:
+            grade_color = "CC0000"
+            grade_fill = RESIST_BAD_FILL
+
+        # Overall score + grade
+        ws.cell(row=row, column=1, value="Resistance Score").font = LABEL_FONT
+        ws.cell(row=row, column=1).border = THIN_BORDER
+        ws.cell(row=row, column=1).fill = grade_fill
+        score_cell = ws.cell(row=row, column=2, value=f"{score_val:.1f} / 100")
+        score_cell.font = Font(name="Calibri", bold=True, size=12, color=grade_color)
+        score_cell.border = THIN_BORDER
+        score_cell.fill = grade_fill
+        row += 1
+
+        ws.cell(row=row, column=1, value="Grade").font = LABEL_FONT
+        ws.cell(row=row, column=1).border = THIN_BORDER
+        ws.cell(row=row, column=1).fill = grade_fill
+        grade_cell = ws.cell(row=row, column=2, value=grade)
+        grade_cell.font = Font(name="Calibri", bold=True, size=14, color=grade_color)
+        grade_cell.border = THIN_BORDER
+        grade_cell.alignment = CENTER
+        grade_cell.fill = grade_fill
+        row += 1
+
+        ws.cell(row=row, column=1, value="Confidence").font = LABEL_FONT
+        ws.cell(row=row, column=1).border = THIN_BORDER
+        ws.cell(row=row, column=2, value=conf.title()).font = DATA_FONT
+        ws.cell(row=row, column=2).border = THIN_BORDER
+        row += 1
+
+        ws.cell(row=row, column=1, value="Data Source").font = LABEL_FONT
+        ws.cell(row=row, column=1).border = THIN_BORDER
+        source = "Direct (FAMACHA/treatments)" if pr["has_direct_data"] else "Inferred (lineage/breed)"
+        ws.cell(row=row, column=2, value=source).font = DATA_FONT
+        ws.cell(row=row, column=2).border = THIN_BORDER
+        row += 1
+
+        # Sub-scores breakdown
+        subs = pr["subscores"]
+        ws.cell(row=row, column=1, value="Sub-scores:").font = LABEL_FONT
+        row += 1
+
+        sub_labels = [
+            ("FAMACHA", subs.get("famacha")),
+            ("Treatment", subs.get("treatment")),
+            ("Weakness", subs.get("weakness")),
+            ("Breed Baseline", subs.get("breed")),
+            ("Lineage Inherited", subs.get("lineage")),
+            ("Owner Observation Bonus", subs.get("owner_obs") if subs.get("owner_obs") else None),
+        ]
+        for label, val in sub_labels:
+            if val is not None:
+                ws.cell(row=row, column=1, value=f"  {label}").font = DATA_FONT
+                ws.cell(row=row, column=1).border = THIN_BORDER
+                ws.cell(row=row, column=2, value=f"{val}").font = DATA_FONT
+                ws.cell(row=row, column=2).border = THIN_BORDER
+                row += 1
+
+        # Explanation
+        if pr.get("explanation"):
+            ws.cell(row=row, column=1, value="Notes").font = LABEL_FONT
+            ws.cell(row=row, column=1).border = THIN_BORDER
+            ws.merge_cells(f"B{row}:E{row}")
+            ws.cell(row=row, column=2, value=pr["explanation"]).font = SMALL_FONT
+            ws.cell(row=row, column=2).border = THIN_BORDER
+            ws.cell(row=row, column=2).alignment = LEFT
+            row += 1
+    else:
+        ws.cell(row=row, column=1, value="[score not calculated]").font = SMALL_FONT
+        row += 1
+
+    row += 1
+
     # ── OFFSPRING ──────────────────────────────────────────────
     offspring_ids = sheep_record.get("breeding", {}).get("offspring_ids", [])
 
@@ -676,6 +777,10 @@ def main():
 
     print(f"Generating breeding pages for {len(sheep_list)} sheep...")
 
+    # Compute parasite resistance scores for all sheep
+    print("Computing parasite resistance scores...")
+    parasite_scores = score_all(db)
+
     wb = Workbook()
 
     # ── INDEX SHEET ────────────────────────────────────────────
@@ -688,8 +793,11 @@ def main():
     ws_index.column_dimensions["E"].width = 10
     ws_index.column_dimensions["F"].width = 12
     ws_index.column_dimensions["G"].width = 40
+    ws_index.column_dimensions["H"].width = 10
+    ws_index.column_dimensions["I"].width = 6
+    ws_index.column_dimensions["J"].width = 9
 
-    ws_index.merge_cells("A1:G1")
+    ws_index.merge_cells("A1:J1")
     c = ws_index.cell(row=1, column=1, value="Manatee Creek Sheep — Breeding Pages")
     c.font = HEADER_FONT_WHITE
     c.fill = HEADER_FILL
@@ -697,7 +805,7 @@ def main():
 
     ws_index.cell(row=2, column=1, value=f"Generated {datetime.now().strftime('%Y-%m-%d %H:%M')}").font = SMALL_FONT
 
-    headers = ["#", "Name", "Tag", "Sex", "Status", "Pen", "Primary Breed"]
+    headers = ["#", "Name", "Tag", "Sex", "Status", "Pen", "Primary Breed", "Parasite R", "Grade", "Conf"]
     for col, h in enumerate(headers, 1):
         c = ws_index.cell(row=4, column=col, value=h)
         c.font = LABEL_FONT
@@ -707,15 +815,28 @@ def main():
     for i, s in enumerate(sheep_list):
         r = 5 + i
         primary = s.get("breed_composition", {}).get("primary", "[unknown]")
-        vals = [i + 1, s["name"], s.get("tag", ""), s.get("sex", "?"), s.get("status", "?"), s.get("pen", ""), primary]
+        pr = parasite_scores.get(s["id"], {})
+        pr_score = pr.get("score", "")
+        pr_grade = pr.get("grade", "")
+        pr_conf = pr.get("confidence", "")
+        vals = [i + 1, s["name"], s.get("tag", ""), s.get("sex", "?"), s.get("status", "?"), s.get("pen", ""), primary, pr_score, pr_grade, pr_conf]
         for col, val in enumerate(vals, 1):
             c = ws_index.cell(row=r, column=col, value=val)
             c.font = DATA_FONT
             c.border = THIN_BORDER
+            # Color the grade cell
+            if col == 9 and pr_grade:
+                c.alignment = CENTER
+                if pr_grade in ("A", "B"):
+                    c.fill = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")
+                elif pr_grade == "C":
+                    c.fill = PatternFill(start_color="FFF2CC", end_color="FFF2CC", fill_type="solid")
+                else:
+                    c.fill = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
 
     # ── INDIVIDUAL SHEETS ──────────────────────────────────────
     for i, s in enumerate(sheep_list):
-        write_sheep_sheet(wb, db, s, i + 1)
+        write_sheep_sheet(wb, db, s, i + 1, parasite_scores=parasite_scores)
         if (i + 1) % 20 == 0:
             print(f"  ... {i + 1}/{len(sheep_list)} sheets created")
 
