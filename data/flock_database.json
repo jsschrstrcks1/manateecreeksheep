@@ -14,11 +14,11 @@
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
     "total_sheep": 129,
-    "active_sheep": 62,
-    "deceased_count": 26,
+    "active_sheep": 61,
+    "deceased_count": 30,
     "culled_count": 1,
     "sold_count": 6,
-    "unknown_count": 34
+    "unknown_count": 31
   },
   "sheep": [
     {
@@ -2413,10 +2413,10 @@
       "dob_approximate": true,
       "sire_id": "abg-sire",
       "dam_id": "abg-dam",
-      "status": "alive",
+      "status": "deceased",
       "status_date": null,
-      "status_notes": "",
-      "pen": "Pen 1",
+      "status_notes": "Deceased. Awful mother \u2014 no offspring kept.",
+      "pen": null,
       "measurements": {
         "girth": 36.75,
         "length": 32,
@@ -2447,7 +2447,7 @@
         "notes": []
       },
       "breeding": {
-        "is_breeding_animal": true,
+        "is_breeding_animal": false,
         "breeding_group": "",
         "offspring_ids": [
           "abg-twin1-2024",
@@ -2462,7 +2462,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Gertrude Moon aka Bitch Face (BF). Tag 22. 100%ABB per breeding page. DOB 2020. Sire: ABB Ram, Dam: ABB Ewe (both off-farm). Acquired 5-4-23. Formerly 'unnamed.' Ewe weight 144.06lbs, ram weight projection 169.29lbs. Multiple: Y. 2023: bred to Sir Loin 5-4-23, due 10-4-23. Twins born 1-2-24 (unnamed, by Sir Loin). FAMACHA 4 on 9-6-23 (Ivermectin), FAMACHA 2 on 9-18-23. Extension service also shows lamb ID 8 (ABG \u00d7 SL, born 1/24/2023, ram, triplet-type, 8lb) \u2014 timing conflicts with 5-4-23 acquisition date. In Pen 1 (Kaladin group).",
+      "notes": "Gertrude Moon aka Bitch Face (BF). Tag 22. 100%ABB per breeding page. DOB 2020. Sire: ABB Ram, Dam: ABB Ewe (both off-farm). Acquired 5-4-23. Formerly 'unnamed.' DECEASED \u2014 awful mother, none of her offspring were kept. Ewe weight 144.06lbs. 2023: bred to Sir Loin 5-4-23, due 10-4-23. Twins born 1-2-24 (not kept). FAMACHA 4\u21922 (Sept 2023).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -2587,9 +2587,9 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "abg",
-      "status": "unknown",
+      "status": "deceased",
       "status_date": null,
-      "status_notes": "",
+      "status_notes": "Not kept \u2014 Gertrude Moon was an awful mother.",
       "pen": null,
       "measurements": {},
       "health": {
@@ -2609,7 +2609,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin with ABG Twin 2. 50%ABB/37.5%SA/12.5%K. From Gertrude Moon breeding page.",
+      "notes": "Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin. Not kept per owner.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -2636,9 +2636,9 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "abg",
-      "status": "unknown",
+      "status": "deceased",
       "status_date": null,
-      "status_notes": "",
+      "status_notes": "Not kept \u2014 Gertrude Moon was an awful mother.",
       "pen": null,
       "measurements": {},
       "health": {
@@ -2658,7 +2658,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin with ABG Twin 1. 50%ABB/37.5%SA/12.5%K. From Gertrude Moon breeding page.",
+      "notes": "Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin. Not kept per owner.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -4902,9 +4902,9 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "unknown",
+      "status": "deceased",
       "status_date": null,
-      "status_notes": "",
+      "status_notes": "Not kept \u2014 Gertrude Moon was an awful mother, no offspring kept per owner.",
       "pen": null,
       "measurements": {},
       "health": {
@@ -4924,7 +4924,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Extension service lamb ID 8. Ram, born 1/24/2023 (type 3). Ewe: ABG age 1, Sire: SL (Sir Loin). Birth weight 8lbs. Weaned 5/23/2023 at 60lbs (119 days). ADG 0.44. Adj WW 77 (ratio 95). Note: ABG/Gertrude Moon was acquired 5-4-23 and was ~3 years old, not 1 \u2014 possible data entry errors or earlier acquisition.",
+      "notes": "Extension service lamb ID 8. Ram, born 1/24/2023 (type 3). Ewe: ABG age 1, Sire: SL (Sir Loin). Not kept. Birth weight 8lbs. Weaned 5/23/2023 at 60lbs (119 days). ADG 0.44. Adj WW 77 (ratio 95).",
       "confidence": "low",
       "last_verified": "2026-02-15"
     },
@@ -6587,10 +6587,9 @@
         "merrie"
       ],
       "ewes": [
-        "abg",
         "fm"
       ],
-      "notes": "Kaladin's group. Merrie (tag 016) is also a ram in this pen. Eclipse was here but is deceased (Hurricane Idalia). May 14 2025: vaccinated pen 1 lambs."
+      "notes": "Kaladin's group. Merrie (tag 016) is also a ram in this pen. Gertrude Moon (ABG) deceased \u2014 removed. Eclipse also deceased (Hurricane Idalia). May 14 2025: vaccinated pen 1 lambs."
     },
     "pen_2": {
       "ram": "sir-loin",

@@ -640,10 +640,9 @@ db["sheep"].append(sheep("eclipse", "Eclipse", "ewe", "deceased",
 # Medical: FAMACHA 4 on 9-6-23 (Ivermectin), FAMACHA 2 on 9-18-23 (no treatment).
 # Extension service: Lamb ID 8, ABG × SL, born 1/24/2023, ram, type 3, 8lb birth wt
 #   (but acquired 5-4-23 — possible earlier acquisition or age/date discrepancy).
-db["sheep"].append(sheep("abg", "Gertrude Moon", "ewe", "alive",
+db["sheep"].append(sheep("abg", "Gertrude Moon", "ewe", "deceased",
     tag="022",
     aliases=["ABB ewe", "Abg", "ABG", "Bitch Face", "BF", "Unnamed"],
-    pen="Pen 1",
     breed_composition={"primary": "American Black Belly", "percentages": {"American Blackbelly": 100}, "coat_type": "hair", "hair_percentage": 100},
     weight_lbs=144, dob="2020-01-01", dob_approximate=True,
     sire_id="abg-sire", dam_id="abg-dam",
@@ -654,8 +653,8 @@ db["sheep"].append(sheep("abg", "Gertrude Moon", "ewe", "alive",
     treatments=[{"date": "2023-09-06", "treatment": "Ivermectin"}],
     measurements={"girth": 36.75, "length": 32, "calculated_weight": 144.1, "date": "2023-2024"},
     offspring_ids=["abg-twin1-2024", "abg-twin2-2024"],
-    is_breeding_animal=True,
-    notes="Gertrude Moon aka Bitch Face (BF). Tag 22. 100%ABB per breeding page. DOB 2020. Sire: ABB Ram, Dam: ABB Ewe (both off-farm). Acquired 5-4-23. Formerly 'unnamed.' Ewe weight 144.06lbs, ram weight projection 169.29lbs. Multiple: Y. 2023: bred to Sir Loin 5-4-23, due 10-4-23. Twins born 1-2-24 (unnamed, by Sir Loin). FAMACHA 4 on 9-6-23 (Ivermectin), FAMACHA 2 on 9-18-23. Extension service also shows lamb ID 8 (ABG × SL, born 1/24/2023, ram, triplet-type, 8lb) — timing conflicts with 5-4-23 acquisition date. In Pen 1 (Kaladin group).",
+    status_notes="Deceased. Awful mother — no offspring kept.",
+    notes="Gertrude Moon aka Bitch Face (BF). Tag 22. 100%ABB per breeding page. DOB 2020. Sire: ABB Ram, Dam: ABB Ewe (both off-farm). Acquired 5-4-23. Formerly 'unnamed.' DECEASED — awful mother, none of her offspring were kept. Ewe weight 144.06lbs. 2023: bred to Sir Loin 5-4-23, due 10-4-23. Twins born 1-2-24 (not kept). FAMACHA 4→2 (Sept 2023).",
     confidence="high",
     notebook_image=["IMG_8630.PNG", "IMG_8641.PNG"]))
 
@@ -673,21 +672,22 @@ db["sheep"].append(sheep("abg-dam", "ABG's Dam", "ewe", "unknown",
     notes="Gertrude Moon's dam per breeding page. 'ABB Ewe.' Off-farm.",
     confidence="medium"))
 
-# ABG's 2024 twin 1 (Sir Loin x Gertrude Moon, born 1-2-24)
-# Breed: avg(25K/75SA, 100ABB) = 50%ABB/12.5%K/37.5%SA
-db["sheep"].append(sheep("abg-twin1-2024", "ABG Twin 1 (2024)", "unknown", "unknown",
+# ABG's 2024 twin 1 (Sir Loin x Gertrude Moon, born 1-2-24) — NOT KEPT
+db["sheep"].append(sheep("abg-twin1-2024", "ABG Twin 1 (2024)", "unknown", "deceased",
     sire_id="sir-loin", dam_id="abg",
     dob="2024-01-02",
     breed_composition={"primary": "ABB/St Augustine/Katahdin", "percentages": {"American Blackbelly": 50, "St Augustine": 37.5, "Katahdin": 12.5}, "coat_type": "hair", "hair_percentage": 62},
-    notes="Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin with ABG Twin 2. 50%ABB/37.5%SA/12.5%K. From Gertrude Moon breeding page.",
+    status_notes="Not kept — Gertrude Moon was an awful mother.",
+    notes="Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin. Not kept per owner.",
     confidence="high"))
 
-# ABG's 2024 twin 2 (Sir Loin x Gertrude Moon, born 1-2-24)
-db["sheep"].append(sheep("abg-twin2-2024", "ABG Twin 2 (2024)", "unknown", "unknown",
+# ABG's 2024 twin 2 (Sir Loin x Gertrude Moon, born 1-2-24) — NOT KEPT
+db["sheep"].append(sheep("abg-twin2-2024", "ABG Twin 2 (2024)", "unknown", "deceased",
     sire_id="sir-loin", dam_id="abg",
     dob="2024-01-02",
     breed_composition={"primary": "ABB/St Augustine/Katahdin", "percentages": {"American Blackbelly": 50, "St Augustine": 37.5, "Katahdin": 12.5}, "coat_type": "hair", "hair_percentage": 62},
-    notes="Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin with ABG Twin 1. 50%ABB/37.5%SA/12.5%K. From Gertrude Moon breeding page.",
+    status_notes="Not kept — Gertrude Moon was an awful mother.",
+    notes="Born 1-2-24. Sir Loin (25K/75SA) x Gertrude Moon (100%ABB). Twin. Not kept per owner.",
     confidence="high"))
 
 # NOTE: "Banana" in the notebook is the same animal as "Anna's Big One" (spreadsheet abbreviation "B").
@@ -1151,11 +1151,12 @@ db["sheep"].append(sheep("ext-lamb-10", "Ext Lamb 10", "ewe", "unknown",
 # Extension Service: ABG (ID 8) — may be Gertrude Moon × Sir Loin, born 1/24/2023
 # Ewe listed as age 1 but Gertrude Moon was ~3 in 2023. Acquired 5-4-23 per breeding page.
 # Type 3 (triplet?) — anomalous. Possible earlier acquisition date or different ewe.
-db["sheep"].append(sheep("ext-lamb-8", "Ext Lamb 8 (ABG)", "ram", "unknown",
+db["sheep"].append(sheep("ext-lamb-8", "Ext Lamb 8 (ABG)", "ram", "deceased",
     dob="2023-01-24",
     birth_weight=8,
     extension_service={"lamb_id": 8, "birth_date": "2023-01-24", "birth_weight": 8, "birth_rearing_type": 3, "sex_code": 1, "ewe_id": "ABG", "ewe_age": 1, "sire_id": "SL", "weaning_date": "2023-05-23", "weaning_weight": 60, "weaning_age_days": 119, "age_group": 120, "wda": 0.50, "adg": 0.44, "age_corrected_ww": 60, "adjusted_ww": 77, "adj_ww_ratio": 95},
-    notes="Extension service lamb ID 8. Ram, born 1/24/2023 (type 3). Ewe: ABG age 1, Sire: SL (Sir Loin). Birth weight 8lbs. Weaned 5/23/2023 at 60lbs (119 days). ADG 0.44. Adj WW 77 (ratio 95). Note: ABG/Gertrude Moon was acquired 5-4-23 and was ~3 years old, not 1 — possible data entry errors or earlier acquisition.",
+    status_notes="Not kept — Gertrude Moon was an awful mother, no offspring kept per owner.",
+    notes="Extension service lamb ID 8. Ram, born 1/24/2023 (type 3). Ewe: ABG age 1, Sire: SL (Sir Loin). Not kept. Birth weight 8lbs. Weaned 5/23/2023 at 60lbs (119 days). ADG 0.44. Adj WW 77 (ratio 95).",
     confidence="low"))
 
 # ============================================================
@@ -1476,8 +1477,8 @@ db["pens"] = {
     "pen_1": {
         "ram": "kaladin",
         "other_rams": ["merrie"],
-        "ewes": ["abg", "fm"],
-        "notes": "Kaladin's group. Merrie (tag 016) is also a ram in this pen. Eclipse was here but is deceased (Hurricane Idalia). May 14 2025: vaccinated pen 1 lambs."
+        "ewes": ["fm"],
+        "notes": "Kaladin's group. Merrie (tag 016) is also a ram in this pen. Gertrude Moon (ABG) deceased — removed. Eclipse also deceased (Hurricane Idalia). May 14 2025: vaccinated pen 1 lambs."
     },
     "pen_2": {
         "ram": "sir-loin",
