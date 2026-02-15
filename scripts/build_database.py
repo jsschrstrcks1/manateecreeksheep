@@ -178,8 +178,8 @@ db["sheep"].append(sheep("samson", "Samson", "ram", "deceased",
     weight_lbs=400,
     weak_resistance=True,
     is_breeding_animal=True,
-    offspring_ids=["serendipity-ram-2024"],
-    notes="Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Sired Serendipity's 2024 ram lamb. Note: OAV 2222 and Serendipity breeding pages list Samson as 100% Southdown — possible data entry error (other pages say Hampshire). Serendipity page also shows Samson with Sam's weights (165/125) instead of his actual weights (400/340).",
+    offspring_ids=["serendipity-ram-2024", "ht-samson-2024"],
+    notes="Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Sired Serendipity's 2024 ram lamb and Half Tail's 2024 lamb (born 2/12/24, 10lbs). Note: OAV 2222 and Serendipity breeding pages list Samson as 100% Southdown — possible data entry error (other pages say Hampshire). Serendipity page also shows Samson with Sam's weights (165/125) instead of his actual weights (400/340).",
     confidence="high",
     notebook_image=["IMG_8628.PNG", "IMG_8629.PNG"]))
 
@@ -525,11 +525,22 @@ db["sheep"].append(sheep("half-tail", "Half Tail", "ewe", "alive",
     color_markings="White",
     weight_lbs=180, dob="2017-01-01", dob_approximate=True,
     sire_id="sir-loin", dam_id="hersheys",
-    offspring_ids=["broken-tail", "half-tails-baby", "elsie", "ht-ext-lamb-2023", "merrie", "daisy"],
-    notes="Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Mother of Broken Tail, Elsie (by Well Done), HT ext lamb (by S'More), Merrie (by S'More), Daisy. In pen 3 (Sam group) per notebook.",
+    offspring_ids=["broken-tail", "half-tails-baby", "elsie", "ht-ext-lamb-2023", "merrie", "daisy", "ht-samson-2024"],
+    notes="Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Born as twin. 25% inbreeding (Sir Loin is both sire and maternal grandsire). Grandparents: Auction Sheep 1 & 2 (via Chip), Razzle & Frazzle (via Sugar). Mother of Broken Tail, Elsie (by Well Done, DOB 2/8/2022, ADG 0.56), HT ext lamb (by S'More), Merrie (by S'More), Daisy, and 2024 lamb (by Samson, born 2/12/2024, 10lb birth wt). Ewe weight prediction 140lbs (breeding page). In pen 3 (Sam group) per notebook.",
     confidence="high",
     csv_row=16,
     notebook_image=["IMG_8629.PNG"]))
+
+# Half Tail's 2024 lamb (Samson x Half Tail, born 2/12/2024)
+# Per Half Tail breeding page. Bred 8-31-23, born 2-12-24. Birth wt 10lbs.
+# Breed: Samson(100%Hampshire) x HT(12.5BBB/31.25K/56.25SA) = 50%H/6.25%BBB/15.625%K/28.125%SA
+db["sheep"].append(sheep("ht-samson-2024", "Half Tail's Lamb (2024)", "unknown", "unknown",
+    sire_id="samson", dam_id="half-tail",
+    dob="2024-02-12",
+    breed_composition={"primary": "Hampshire/St Augustine/Katahdin/BBB", "percentages": {"Hampshire": 50, "St Augustine": 28.125, "Katahdin": 15.625, "Barbados Blackbelly": 6.25}, "coat_type": "mixed", "hair_percentage": 50},
+    birth_weight=10,
+    notes="Samson (100%H) x Half Tail (12.5BBB/31.25K/56.25SA). Born 2/12/2024. Bred 8/31/2023. Birth weight 10lbs. 50%Hampshire/28.125%SA/15.625%K/6.25%BBB. Sex unknown. Per Half Tail breeding page.",
+    confidence="high"))
 
 # Broken Tail - ewe
 db["sheep"].append(sheep("broken-tail", "Broken Tail", "ewe", "alive",

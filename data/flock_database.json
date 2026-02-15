@@ -13,12 +13,12 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
-    "total_sheep": 131,
+    "total_sheep": 132,
     "active_sheep": 60,
     "deceased_count": 31,
     "culled_count": 1,
     "sold_count": 7,
-    "unknown_count": 32
+    "unknown_count": 33
   },
   "sheep": [
     {
@@ -426,7 +426,8 @@
         "is_breeding_animal": true,
         "breeding_group": "",
         "offspring_ids": [
-          "serendipity-ram-2024"
+          "serendipity-ram-2024",
+          "ht-samson-2024"
         ],
         "lambing_records": []
       },
@@ -437,7 +438,7 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Sired Serendipity's 2024 ram lamb. Note: OAV 2222 and Serendipity breeding pages list Samson as 100% Southdown \u2014 possible data entry error (other pages say Hampshire). Serendipity page also shows Samson with Sam's weights (165/125) instead of his actual weights (400/340).",
+      "notes": "Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Sired Serendipity's 2024 ram lamb and Half Tail's 2024 lamb (born 2/12/24, 10lbs). Note: OAV 2222 and Serendipity breeding pages list Samson as 100% Southdown \u2014 possible data entry error (other pages say Hampshire). Serendipity page also shows Samson with Sam's weights (165/125) instead of his actual weights (400/340).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -1981,7 +1982,8 @@
           "elsie",
           "ht-ext-lamb-2023",
           "merrie",
-          "daisy"
+          "daisy",
+          "ht-samson-2024"
         ],
         "lambing_records": []
       },
@@ -1991,7 +1993,57 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Mother of Broken Tail, Elsie (by Well Done), HT ext lamb (by S'More), Merrie (by S'More), Daisy. In pen 3 (Sam group) per notebook.",
+      "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Born as twin. 25% inbreeding (Sir Loin is both sire and maternal grandsire). Grandparents: Auction Sheep 1 & 2 (via Chip), Razzle & Frazzle (via Sugar). Mother of Broken Tail, Elsie (by Well Done, DOB 2/8/2022, ADG 0.56), HT ext lamb (by S'More), Merrie (by S'More), Daisy, and 2024 lamb (by Samson, born 2/12/2024, 10lb birth wt). Ewe weight prediction 140lbs (breeding page). In pen 3 (Sam group) per notebook.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "ht-samson-2024",
+      "name": "Half Tail's Lamb (2024)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "Hampshire/St Augustine/Katahdin/BBB",
+        "percentages": {
+          "Hampshire": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 15.625,
+          "Barbados Blackbelly": 6.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2024-02-12",
+      "dob_approximate": true,
+      "sire_id": "samson",
+      "dam_id": "half-tail",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Samson (100%H) x Half Tail (12.5BBB/31.25K/56.25SA). Born 2/12/2024. Bred 8/31/2023. Birth weight 10lbs. 50%Hampshire/28.125%SA/15.625%K/6.25%BBB. Sex unknown. Per Half Tail breeding page.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
