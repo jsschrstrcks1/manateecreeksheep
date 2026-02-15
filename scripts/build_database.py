@@ -129,27 +129,21 @@ db["sheep"].append(sheep("gg", "GG", "ram", "alive",
     offspring_ids=["gg-daughter-45", "lara-daughter-46", "gg-son-094"],
     notebook_image=["IMG_8628.PNG", "IMG_8634.PNG"]))
 
-# Rocky - ram for Pen 5
+# Rocky / Rock / Jerkface - 44%Awassi/50%BHD/6%EF ram — Pen 5 per notebook
+# CLAUDE.md confirms: "Rock" = "Jerkface" = Awassi ram. These are the same animal.
+# Notebook is authoritative: Rocky is the Pen 5 ram. Pen 6 has no ram.
 db["sheep"].append(sheep("rocky", "Rocky", "ram", "alive",
-    aliases=["Rock"],
-    pen="Pen 5", is_breeding_animal=True,
-    weak_resistance=True,
-    notes="Ram for pen 5 group. On weak resistance list.",
-    confidence="medium",
-    notebook_image=["IMG_8628.PNG", "IMG_8629.PNG"]))
-
-# Rock / Jerkface - 44%Awassi/50%BHD/6%EF ram
-db["sheep"].append(sheep("jerkface", "Rock (Jerkface)", "ram", "alive",
-    aliases=["Rock", "Jerkface", "Awassi ram", "Awassi cross rock", "Rocky"],
+    aliases=["Rock", "Jerkface", "Awassi ram", "Awassi cross rock"],
     breed_composition={"primary": "Black Headed Dorper/Awassi/East Friesian", "percentages": {"Awassi": 44, "Black Headed Dorper": 50, "East Friesian": 6}, "coat_type": "mixed", "hair_percentage": 50},
     weight_lbs=300,
-    pen="Pen 6",
+    pen="Pen 2",
     is_breeding_animal=True,
+    weak_resistance=True,
     famacha_scores=[{"score": 5, "date": "2025-10-23"}],
     treatments=[{"date": "2024-10-24", "treatment": "iron and vitamin B"}],
-    notes="Also called Jerkface/Rocky. 44%Awassi/50%BHD/6%EF per Rocky breeding page. Ram weight 300lbs, ewe weight prediction 200lbs. Had sick episode 10-23-23. Treated with iron. In pen 6. On 'Rams to Upgrade' list.",
+    notes="Also called Jerkface/Rock. 44%Awassi/50%BHD/6%EF per Rocky breeding page. Ram weight 300lbs, ewe weight prediction 200lbs. Had sick episode 10-23-23. Treated with iron. Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool.",
     confidence="high",
-    notebook_image=["IMG_8626.PNG", "IMG_8641.PNG"]))
+    notebook_image=["IMG_8626.PNG", "IMG_8628.PNG", "IMG_8629.PNG", "IMG_8641.PNG"]))
 
 # Samson - ram (deceased per weak resistance list)
 db["sheep"].append(sheep("samson", "Samson", "ram", "deceased",
@@ -766,15 +760,16 @@ db["sheep"].append(sheep("shaggy", "Shaggy", "ewe", "deceased",
     color_markings="Black",
     weight_lbs=140, dob="2019-01-01", dob_approximate=True,
     offspring_ids=["serendipity", "shaggy-1", "shaggy-2"],
-    notes="Flock spreadsheet: 50% Babydoll / 50% Jacob, Black, 140lbs. DOB ~1/1/2019. Purchased (Sire: Jacob 1, Dam: Baby Doll 1). Mother of Serendipity (by Sir Loin), Shaggy 1 and Shaggy 2 (by S'More). Deceased per weak resistance list.",
+    status_notes="Killed by humans after Hurricane Helene",
+    notes="Flock spreadsheet: 50% Babydoll / 50% Jacob, Black, 140lbs. DOB ~1/1/2019. Purchased (Sire: Jacob 1, Dam: Baby Doll 1). Mother of Serendipity (by Sir Loin), Shaggy 1 and Shaggy 2 (by S'More). Deceased — killed by humans after Hurricane Helene. Was in Pen 6. On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
     confidence="high",
     csv_row=14,
     notebook_image=["IMG_8628.PNG", "IMG_8629.PNG", "IMG_8641.PNG"]))
 
-db["sheep"].append(sheep("bambii", "Bambii", "ewe", "deceased",
+db["sheep"].append(sheep("bambii", "Bambii", "ewe", "alive",
     pen="Pen 2",
-    notes="Struck through in treatment list, indicating deceased or removed. Was in pen 2 sirloin group.",
-    confidence="medium",
+    notes="In Pen 2 (Sir Loin group) per spiral notebook (authoritative). Was struck through in treatment list but notebook roster is definitive for alive/active status.",
+    confidence="high",
     notebook_image=["IMG_8630.PNG", "IMG_8641.PNG"]))
 
 db["sheep"].append(sheep("skitters", "Skitters", "ewe", "deceased",
@@ -1024,8 +1019,9 @@ db["pens"] = {
     },
     "pen_2": {
         "ram": "sir-loin",
-        "ewes": ["azure", "s2", "lara", "unnamed-pen2", "pebbles"],
-        "notes": "Sirloin's group. Azure also listed in pen 5 at different time. Bambii was here but is now deceased."
+        "other_rams": ["rocky"],
+        "ewes": ["azure", "s2", "lara", "bambii", "unnamed-pen2", "pebbles"],
+        "notes": "Sirloin's group per spiral notebook. Rocky/Jerkface also in Pen 2 per owner."
     },
     "pen_3": {
         "ram": "sam",
@@ -1038,14 +1034,14 @@ db["pens"] = {
         "notes": "Samson's group (Samson may be deceased - replaced?). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet."
     },
     "pen_5": {
-        "ram": "rocky",
-        "ewes": ["azure", "broken-tail", "little-daisy"],
-        "notes": "Rocky's group. NoriSon (tag 54) also in pen 5. Notebook shows this is current arrangement."
+        "ram": "nori-son",
+        "ewes": ["broken-tail", "little-daisy"],
+        "notes": "NoriSon (tag 54) is the pen 5 ram. Rocky moved to Pen 2. Notebook lists Amber 24, Broken tail, Little daisy. Amber 24 = Azure (also listed in pen 2)."
     },
     "pen_6": {
         "ram": None,
         "ewes": ["serendipity", "s1", "fm1", "fox-tail", "circle-tail"],
-        "notes": "No ram. Shaggy was here but is now deceased. Jerkface (Awassi ram) was here for treatment."
+        "notes": "No ram. Shaggy was here but is deceased (killed after Hurricane Helene)."
     },
     "goose_pen": {
         "ram": None,

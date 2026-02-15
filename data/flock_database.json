@@ -13,9 +13,9 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
-    "total_sheep": 97,
+    "total_sheep": 96,
     "active_sheep": 63,
-    "deceased_count": 22,
+    "deceased_count": 21,
     "culled_count": 1,
     "sold_count": 1,
     "unknown_count": 10
@@ -193,56 +193,10 @@
       "id": "rocky",
       "name": "Rocky",
       "aliases": [
-        "Rock"
-      ],
-      "tag": null,
-      "mc_tag": null,
-      "sex": "ram",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
-      "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
-      "status": "alive",
-      "status_date": null,
-      "status_notes": "",
-      "pen": "Pen 5",
-      "measurements": {},
-      "health": {
-        "famacha_scores": [],
-        "weak_resistance": true,
-        "treatments": [],
-        "vaccinations": [],
-        "notes": []
-      },
-      "breeding": {
-        "is_breeding_animal": true,
-        "breeding_group": "",
-        "offspring_ids": [],
-        "lambing_records": []
-      },
-      "source_refs": {
-        "csv_row": null,
-        "notebook_image": [
-          "IMG_8628.PNG",
-          "IMG_8629.PNG"
-        ]
-      },
-      "notes": "Ram for pen 5 group. On weak resistance list.",
-      "confidence": "medium",
-      "last_verified": "2026-02-15"
-    },
-    {
-      "id": "jerkface",
-      "name": "Rock (Jerkface)",
-      "aliases": [
         "Rock",
         "Jerkface",
         "Awassi ram",
-        "Awassi cross rock",
-        "Rocky"
+        "Awassi cross rock"
       ],
       "tag": null,
       "mc_tag": null,
@@ -266,7 +220,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": "Pen 2",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -275,7 +229,7 @@
             "date": "2025-10-23"
           }
         ],
-        "weak_resistance": false,
+        "weak_resistance": true,
         "treatments": [
           {
             "date": "2024-10-24",
@@ -295,10 +249,12 @@
         "csv_row": null,
         "notebook_image": [
           "IMG_8626.PNG",
+          "IMG_8628.PNG",
+          "IMG_8629.PNG",
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Also called Jerkface/Rocky. 44%Awassi/50%BHD/6%EF per Rocky breeding page. Ram weight 300lbs, ewe weight prediction 200lbs. Had sick episode 10-23-23. Treated with iron. In pen 6. On 'Rams to Upgrade' list.",
+      "notes": "Also called Jerkface/Rock. 44%Awassi/50%BHD/6%EF per Rocky breeding page. Ram weight 300lbs, ewe weight prediction 200lbs. Had sick episode 10-23-23. Treated with iron. Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -3426,7 +3382,7 @@
       "dam_id": null,
       "status": "deceased",
       "status_date": null,
-      "status_notes": "",
+      "status_notes": "Killed by humans after Hurricane Helene",
       "pen": "Pen 6",
       "measurements": {},
       "health": {
@@ -3460,7 +3416,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 50% Babydoll / 50% Jacob, Black, 140lbs. DOB ~1/1/2019. Purchased (Sire: Jacob 1, Dam: Baby Doll 1). Mother of Serendipity (by Sir Loin), Shaggy 1 and Shaggy 2 (by S'More). Deceased per weak resistance list.",
+      "notes": "Flock spreadsheet: 50% Babydoll / 50% Jacob, Black, 140lbs. DOB ~1/1/2019. Purchased (Sire: Jacob 1, Dam: Baby Doll 1). Mother of Serendipity (by Sir Loin), Shaggy 1 and Shaggy 2 (by S'More). Deceased \u2014 killed by humans after Hurricane Helene. Was in Pen 6. On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -3478,7 +3434,7 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "deceased",
+      "status": "alive",
       "status_date": null,
       "status_notes": "",
       "pen": "Pen 2",
@@ -3503,8 +3459,8 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Struck through in treatment list, indicating deceased or removed. Was in pen 2 sirloin group.",
-      "confidence": "medium",
+      "notes": "In Pen 2 (Sir Loin group) per spiral notebook (authoritative). Was struck through in treatment list but notebook roster is definitive for alive/active status.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -4869,14 +4825,18 @@
     },
     "pen_2": {
       "ram": "sir-loin",
+      "other_rams": [
+        "rocky"
+      ],
       "ewes": [
         "azure",
         "s2",
         "lara",
+        "bambii",
         "unnamed-pen2",
         "pebbles"
       ],
-      "notes": "Sirloin's group. Azure also listed in pen 5 at different time. Bambii was here but is now deceased."
+      "notes": "Sirloin's group per spiral notebook. Rocky/Jerkface also in Pen 2 per owner."
     },
     "pen_3": {
       "ram": "sam",
@@ -4902,13 +4862,12 @@
       "notes": "Samson's group (Samson may be deceased - replaced?). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet."
     },
     "pen_5": {
-      "ram": "rocky",
+      "ram": "nori-son",
       "ewes": [
-        "azure",
         "broken-tail",
         "little-daisy"
       ],
-      "notes": "Rocky's group. NoriSon (tag 54) also in pen 5. Notebook shows this is current arrangement."
+      "notes": "NoriSon (tag 54) is the pen 5 ram. Rocky moved to Pen 2. Notebook lists Amber 24, Broken tail, Little daisy. Amber 24 = Azure (also listed in pen 2)."
     },
     "pen_6": {
       "ram": null,
@@ -4919,7 +4878,7 @@
         "fox-tail",
         "circle-tail"
       ],
-      "notes": "No ram. Shaggy was here but is now deceased. Jerkface (Awassi ram) was here for treatment."
+      "notes": "No ram. Shaggy was here but is deceased (killed after Hurricane Helene)."
     },
     "goose_pen": {
       "ram": null,
