@@ -13,12 +13,12 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
-    "total_sheep": 107,
+    "total_sheep": 113,
     "active_sheep": 62,
     "deceased_count": 26,
     "culled_count": 1,
     "sold_count": 6,
-    "unknown_count": 12
+    "unknown_count": 18
   },
   "sheep": [
     {
@@ -77,7 +77,9 @@
           "little-song",
           "ab1",
           "dodge",
-          "daisy"
+          "daisy",
+          "oliver",
+          "spicy"
         ],
         "lambing_records": []
       },
@@ -208,7 +210,7 @@
         "Awassi cross rock",
         "Louise's Ram"
       ],
-      "tag": null,
+      "tag": "140",
       "mc_tag": null,
       "sex": "ram",
       "breed_composition": {
@@ -225,8 +227,8 @@
       "weight_lbs": 300,
       "dob": null,
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "teaser",
+      "dam_id": "dorper-ewe-198",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -235,12 +237,27 @@
       "health": {
         "famacha_scores": [
           {
+            "score": 3,
+            "date": "unknown",
+            "notes": "BPW condition, Ivermectin"
+          },
+          {
+            "score": 4.5,
+            "date": "2023-09-20",
+            "notes": "BPW condition, Ivermectin and iron x nutridrench"
+          },
+          {
             "score": 5,
-            "date": "2025-10-23"
+            "date": "2023-10-23",
+            "notes": "sick episode"
           }
         ],
         "weak_resistance": true,
         "treatments": [
+          {
+            "date": "2023-09-20",
+            "treatment": "Ivermectin and iron x nutridrench"
+          },
           {
             "date": "2024-10-24",
             "treatment": "iron and vitamin B"
@@ -264,7 +281,108 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Also called Jerkface/Rock. 44%Awassi/50%BHD/6%EF per Rocky breeding page. Ram weight 300lbs, ewe weight prediction 200lbs. Had sick episode 10-23-23. Treated with iron. Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool.",
+      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "teaser",
+      "name": "Teaser",
+      "aliases": [
+        "Awassi Ram Teaser"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Awassi/East Friesian",
+        "percentages": {
+          "Awassi": 88,
+          "East Friesian": 12
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "rocky"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Rocky's sire per Rocky breeding page. 88%Awassi/12%East Friesian. Called 'Awassi Ram Teaser'. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "dorper-ewe-198",
+      "name": "Dorper Ewe 198",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Black Headed Dorper",
+        "percentages": {
+          "Black Headed Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "rocky"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Rocky's dam per Rocky breeding page. 100% black face dorper. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -2000,7 +2118,7 @@
         "notes": []
       },
       "breeding": {
-        "is_breeding_animal": false,
+        "is_breeding_animal": true,
         "breeding_group": "",
         "offspring_ids": [
           "bsoe1",
@@ -2016,7 +2134,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 56% Katahdin / 44% St Augustine, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOE1/Pippen and BSOE2/Merrie (by S'More). Tag 32 (switched with Bsoed). In pen 5 per notebook.",
+      "notes": "Flock spreadsheet: 56%K/44%SA, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOE1/Pippen and BSOE2/Merrie (by S'More). Tag 32 (switched with Bsoed). Breeding page: Pen 4 (now Pen 5 per notebook). Ram weight projection 241.6lbs, ewe weight projection 144.4lbs. 2023 bred to Merrie (tag 016, ram). Breeding page offspring section has label glitch: 'Southdown' = Katahdin and 'St Croix' = St Augustine (percentages correct, breed names offset).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -2493,19 +2611,19 @@
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Dorper",
+        "primary": "Black Headed Dorper",
         "percentages": {
-          "Dorper": 100
+          "Black Headed Dorper": 100
         },
         "coat_type": "hair",
         "hair_percentage": 100
       },
       "color_markings": "",
       "weight_lbs": 160,
-      "dob": null,
+      "dob": "2018-01-01",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "lara-sire",
+      "dam_id": "lara-dam",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -2517,9 +2635,24 @@
         "date": "2023-2024"
       },
       "health": {
-        "famacha_scores": [],
+        "famacha_scores": [
+          {
+            "score": 3,
+            "date": "2023-09-06",
+            "notes": "Ivermectin after Idalia, probably stress induced"
+          },
+          {
+            "score": 2,
+            "date": "2023-09-18",
+            "notes": "no treatment"
+          }
+        ],
         "weak_resistance": true,
         "treatments": [
+          {
+            "date": "2023-09-06",
+            "treatment": "Ivermectin (post-Hurricane Idalia stress)"
+          },
           {
             "date": "2024-10-24",
             "treatment": "iron and vitamin B"
@@ -2532,9 +2665,12 @@
         ]
       },
       "breeding": {
-        "is_breeding_animal": false,
+        "is_breeding_animal": true,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "oliver",
+          "spicy"
+        ],
         "lambing_records": []
       },
       "source_refs": {
@@ -2548,7 +2684,203 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Tag 23. Lara = Dorper 23 (same animal). 100% Dorper. In pen 2 (sirloin group). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' list and weak resistance list.",
+      "notes": "Tag 23. 100% Black Headed Dorper per breeding page (previously listed as generic Dorper). DOB 2018. Sire: dorper ram, Dam: dorper ewe (both off-farm). Received from Charles Elingham. Multiple: Y. Ewe weight 159.82lbs, ram weight projection 300lbs. 2023: bred to Sir Loin 7-4-23, due Nov 23. Born 12-30-23: Oliver (3.75lbs) and Spicy (5.8lbs) \u2014 twins by Sir Loin. FAMACHA 3 on 9-6-23 (Ivermectin, post-Idalia stress), FAMACHA 2 on 9-18-23 (no treatment). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' and weak resistance list.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "lara-sire",
+      "name": "Lara's Sire",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Dorper",
+        "percentages": {
+          "Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "lara"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Lara's sire per Lara breeding page. 'Dorper ram.' Off-farm, from Charles Elingham.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "lara-dam",
+      "name": "Lara's Dam",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Dorper",
+        "percentages": {
+          "Dorper": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "lara"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Lara's dam per Lara breeding page. 'Dorper ewe.' Off-farm, from Charles Elingham.",
+      "confidence": "medium",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "oliver",
+      "name": "Oliver",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "Black Headed Dorper/St Augustine/Katahdin",
+        "percentages": {
+          "Black Headed Dorper": 50,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-12-30",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "lara",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Spicy. Birth weight 3.75lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "spicy",
+      "name": "Spicy",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "Black Headed Dorper/St Augustine/Katahdin",
+        "percentages": {
+          "Black Headed Dorper": 50,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2023-12-30",
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": "lara",
+      "status": "unknown",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Oliver. Birth weight 5.8lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },

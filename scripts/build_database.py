@@ -109,7 +109,7 @@ db["sheep"].append(sheep("sir-loin", "Sir Loin", "ram", "alive",
     measurements={"girth": 43.25, "length": 49.5, "calculated_weight": 308.6, "date": "2023-2024"},
     notes="Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook.",
     confidence="high", csv_row=1,
-    offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1", "dodge", "daisy"]))
+    offspring_ids=["annas-big-one", "half-tail", "broken-tail", "hersheys", "bsoe", "bsoed", "elsie", "little-song", "ab1", "dodge", "daisy", "oliver", "spicy"]))
 
 # Kelsier = OAV 2223 = UF Ram Test — Katahdin ram, MOST parasite resistant
 # Breeding page (OAV 2223): 100%K, tag 2223, DOB 12-21-22. Born as twin. Birth weight 10lbs, ADG 0.36.
@@ -136,20 +136,40 @@ db["sheep"].append(sheep("gg", "GG", "ram", "alive",
     offspring_ids=["gg-daughter-45", "lara-daughter-46", "gg-son-094"],
     notebook_image=["IMG_8628.PNG", "IMG_8634.PNG"]))
 
-# Rocky / Rock / Jerkface - 44%Awassi/50%BHD/6%EF ram — Pen 2 per owner
+# Rocky / Rock / Jerkface / Louise's Ram - 44%Awassi/50%BHD/6%EF ram, tag 140
 # CLAUDE.md confirms: "Rock" = "Jerkface" = Awassi ram. These are the same animal.
+# Breeding page: Pen 5, tag 140. Sire: Awassi Ram "Teaser" (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD).
+# Born as multiple. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 on 9-20-23 (BPW, Ivermectin+iron+nutridrench).
 db["sheep"].append(sheep("rocky", "Rocky", "ram", "alive",
+    tag="140",
     aliases=["Rock", "Jerkface", "Awassi ram", "Awassi cross rock", "Louise's Ram"],
     breed_composition={"primary": "Black Headed Dorper/Awassi/East Friesian", "percentages": {"Awassi": 44, "Black Headed Dorper": 50, "East Friesian": 6}, "coat_type": "mixed", "hair_percentage": 50},
     weight_lbs=300,
     pen="Pen 2",
+    sire_id="teaser", dam_id="dorper-ewe-198",
     is_breeding_animal=True,
     weak_resistance=True,
-    famacha_scores=[{"score": 5, "date": "2025-10-23"}],
-    treatments=[{"date": "2024-10-24", "treatment": "iron and vitamin B"}],
-    notes="Also called Jerkface/Rock. 44%Awassi/50%BHD/6%EF per Rocky breeding page. Ram weight 300lbs, ewe weight prediction 200lbs. Had sick episode 10-23-23. Treated with iron. Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool.",
+    born_as_multiple=True,
+    famacha_scores=[{"score": 3, "date": "unknown", "notes": "BPW condition, Ivermectin"}, {"score": 4.5, "date": "2023-09-20", "notes": "BPW condition, Ivermectin and iron x nutridrench"}, {"score": 5, "date": "2023-10-23", "notes": "sick episode"}],
+    treatments=[{"date": "2023-09-20", "treatment": "Ivermectin and iron x nutridrench"}, {"date": "2024-10-24", "treatment": "iron and vitamin B"}],
+    notes="Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool.",
     confidence="high",
     notebook_image=["IMG_8626.PNG", "IMG_8628.PNG", "IMG_8629.PNG", "IMG_8641.PNG"]))
+
+# Teaser - Awassi ram, Rocky's sire (88%Awassi/12%East Friesian)
+db["sheep"].append(sheep("teaser", "Teaser", "ram", "unknown",
+    aliases=["Awassi Ram Teaser"],
+    breed_composition={"primary": "Awassi/East Friesian", "percentages": {"Awassi": 88, "East Friesian": 12}, "coat_type": "wool", "hair_percentage": 0},
+    offspring_ids=["rocky"],
+    notes="Rocky's sire per Rocky breeding page. 88%Awassi/12%East Friesian. Called 'Awassi Ram Teaser'. Off-farm.",
+    confidence="high"))
+
+# Dorper Ewe 198 - Rocky's dam (100% Black Headed Dorper)
+db["sheep"].append(sheep("dorper-ewe-198", "Dorper Ewe 198", "ewe", "unknown",
+    breed_composition={"primary": "Black Headed Dorper", "percentages": {"Black Headed Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
+    offspring_ids=["rocky"],
+    notes="Rocky's dam per Rocky breeding page. 100% black face dorper. Off-farm.",
+    confidence="high"))
 
 # Samson - ram (deceased per weak resistance list) — 100% Hampshire per Buck breeding page
 db["sheep"].append(sheep("samson", "Samson", "ram", "deceased",
@@ -522,6 +542,8 @@ db["sheep"].append(sheep("trouble", "Trouble", "ewe", "alive",
     notebook_image=["IMG_8642.PNG"]))
 
 # Bsoe (Black Spot on Ear) - ewe, tag 32 (Sir Loin x Two Pence)
+# Breeding page: 56K/44SA, Pen 4 (now Pen 5 per notebook). Ram weight 241.6, ewe weight 144.4.
+# 2023 bred to Merrie (ram). Prospective breeding offspring have label glitch: shows "Southdown" for Katahdin and "St Croix" for St Augustine — numbers correct, names wrong.
 db["sheep"].append(sheep("bsoe", "Bsoe", "ewe", "alive",
     tag="032",
     aliases=["Black Spot on Ear", "BSOE"],
@@ -530,8 +552,9 @@ db["sheep"].append(sheep("bsoe", "Bsoe", "ewe", "alive",
     color_markings="White",
     weight_lbs=185, dob="2019-01-01", dob_approximate=True,
     sire_id="sir-loin", dam_id="two-pence",
+    is_breeding_animal=True,
     offspring_ids=["bsoe1", "bsoe2", "pippen", "merrie-bs2"],
-    notes="Flock spreadsheet: 56% Katahdin / 44% St Augustine, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOE1/Pippen and BSOE2/Merrie (by S'More). Tag 32 (switched with Bsoed). In pen 5 per notebook.",
+    notes="Flock spreadsheet: 56%K/44%SA, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOE1/Pippen and BSOE2/Merrie (by S'More). Tag 32 (switched with Bsoed). Breeding page: Pen 4 (now Pen 5 per notebook). Ram weight projection 241.6lbs, ewe weight projection 144.4lbs. 2023 bred to Merrie (tag 016, ram). Breeding page offspring section has label glitch: 'Southdown' = Katahdin and 'St Croix' = St Augustine (percentages correct, breed names offset).",
     confidence="high",
     notebook_image=["IMG_8642.PNG"]))
 
@@ -636,19 +659,63 @@ db["sheep"].append(sheep("s2", "S2", "ewe", "alive",
     notebook_image=["IMG_8630.PNG"]))
 
 # Lara - ewe, tag 23 = Dorper 23 from weak resistance list
+# Breeding page: 100% Black Headed Dorper. DOB 2018. Received from Charles Elingham.
+# Sire: dorper ram, Dam: dorper ewe. Multiple: Y. Ewe weight 159.82lbs, Ram weight 300lbs.
+# 2023: Bred to Sir Loin 7-4-23, due Nov 23. Born 12-30-23: Oliver (3.75lbs) and Spicy (5.8lbs).
+# Medical: FAMACHA 3 on 9-6-23 (Ivermectin, post-Idalia stress); FAMACHA 2 on 9-18-23 (no treatment).
 db["sheep"].append(sheep("lara", "Lara", "ewe", "alive",
     tag="023",
     aliases=["Dorper 23"],
     pen="Pen 2",
-    breed_composition={"primary": "Dorper", "percentages": {"Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
-    weight_lbs=160,
+    breed_composition={"primary": "Black Headed Dorper", "percentages": {"Black Headed Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
+    weight_lbs=160, dob="2018-01-01", dob_approximate=True,
+    sire_id="lara-sire", dam_id="lara-dam",
     weak_resistance=True,
+    born_as_multiple=True,
     measurements={"girth": 36.75, "length": 35.5, "calculated_weight": 159.8, "date": "2023-2024"},
-    treatments=[{"date": "2024-10-24", "treatment": "iron and vitamin B"}],
+    famacha_scores=[{"score": 3, "date": "2023-09-06", "notes": "Ivermectin after Idalia, probably stress induced"}, {"score": 2, "date": "2023-09-18", "notes": "no treatment"}],
+    treatments=[{"date": "2023-09-06", "treatment": "Ivermectin (post-Hurricane Idalia stress)"}, {"date": "2024-10-24", "treatment": "iron and vitamin B"}],
     health_notes=["Sick sheep note: one of Dorper 23/25 is Lara", "Low score 7-24-25"],
-    notes="Tag 23. Lara = Dorper 23 (same animal). 100% Dorper. In pen 2 (sirloin group). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' list and weak resistance list.",
+    received_from="Charles Elingham",
+    offspring_ids=["oliver", "spicy"],
+    is_breeding_animal=True,
+    notes="Tag 23. 100% Black Headed Dorper per breeding page (previously listed as generic Dorper). DOB 2018. Sire: dorper ram, Dam: dorper ewe (both off-farm). Received from Charles Elingham. Multiple: Y. Ewe weight 159.82lbs, ram weight projection 300lbs. 2023: bred to Sir Loin 7-4-23, due Nov 23. Born 12-30-23: Oliver (3.75lbs) and Spicy (5.8lbs) — twins by Sir Loin. FAMACHA 3 on 9-6-23 (Ivermectin, post-Idalia stress), FAMACHA 2 on 9-18-23 (no treatment). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' and weak resistance list.",
     confidence="high",
     notebook_image=["IMG_8626.PNG", "IMG_8628.PNG", "IMG_8630.PNG", "IMG_8636.PNG", "IMG_8640.PNG", "IMG_8641.PNG"]))
+
+# Lara's sire - dorper ram (off-farm, received from Charles Elingham)
+db["sheep"].append(sheep("lara-sire", "Lara's Sire", "ram", "unknown",
+    breed_composition={"primary": "Dorper", "percentages": {"Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
+    offspring_ids=["lara"],
+    notes="Lara's sire per Lara breeding page. 'Dorper ram.' Off-farm, from Charles Elingham.",
+    confidence="medium"))
+
+# Lara's dam - dorper ewe (off-farm, received from Charles Elingham)
+db["sheep"].append(sheep("lara-dam", "Lara's Dam", "ewe", "unknown",
+    breed_composition={"primary": "Dorper", "percentages": {"Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
+    offspring_ids=["lara"],
+    notes="Lara's dam per Lara breeding page. 'Dorper ewe.' Off-farm, from Charles Elingham.",
+    confidence="medium"))
+
+# Oliver - ram/ewe lamb, born 12-30-23 (Sir Loin x Lara)
+# Breed: avg(25K/75SA, 100BHD) = 50%BHD/12.5%K/37.5%SA
+db["sheep"].append(sheep("oliver", "Oliver", "unknown", "unknown",
+    sire_id="sir-loin", dam_id="lara",
+    dob="2023-12-30",
+    breed_composition={"primary": "Black Headed Dorper/St Augustine/Katahdin", "percentages": {"Black Headed Dorper": 50, "St Augustine": 37.5, "Katahdin": 12.5}, "coat_type": "hair", "hair_percentage": 62},
+    birth_weight=3.75,
+    notes="Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Spicy. Birth weight 3.75lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
+    confidence="high"))
+
+# Spicy - ram/ewe lamb, born 12-30-23 (Sir Loin x Lara)
+# Breed: avg(25K/75SA, 100BHD) = 50%BHD/12.5%K/37.5%SA
+db["sheep"].append(sheep("spicy", "Spicy", "unknown", "unknown",
+    sire_id="sir-loin", dam_id="lara",
+    dob="2023-12-30",
+    breed_composition={"primary": "Black Headed Dorper/St Augustine/Katahdin", "percentages": {"Black Headed Dorper": 50, "St Augustine": 37.5, "Katahdin": 12.5}, "coat_type": "hair", "hair_percentage": 62},
+    birth_weight=5.8,
+    notes="Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Oliver. Birth weight 5.8lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
+    confidence="high"))
 
 # Pebbles - ewe
 db["sheep"].append(sheep("pebbles", "Pebbles", "ewe", "alive",
