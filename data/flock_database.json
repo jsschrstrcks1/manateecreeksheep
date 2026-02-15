@@ -13,9 +13,9 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
-    "total_sheep": 95,
+    "total_sheep": 97,
     "active_sheep": 60,
-    "deceased_count": 23,
+    "deceased_count": 25,
     "culled_count": 1,
     "sold_count": 1,
     "unknown_count": 10
@@ -270,9 +270,16 @@
       "tag": null,
       "mc_tag": null,
       "sex": "ram",
-      "breed_composition": {},
+      "breed_composition": {
+        "primary": "Hampshire",
+        "percentages": {
+          "Hampshire": 100
+        },
+        "coat_type": "wool",
+        "hair_percentage": 0
+      },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 400,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -302,8 +309,8 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'.",
-      "confidence": "medium",
+      "notes": "Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck and tag-2241 breeding pages. Ram weight 400lbs, ewe weight prediction 340lbs.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -814,6 +821,57 @@
       "last_verified": "2026-02-15"
     },
     {
+      "id": "buck-original",
+      "name": "Buck (Original)",
+      "aliases": [
+        "Buck"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin/Awassi/East Friesian",
+        "percentages": {
+          "Katahdin": 50,
+          "Awassi": 48,
+          "East Friesian": 2
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "",
+      "weight_lbs": 212,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Deceased - Hurricane Helene",
+      "pen": "Chicken Coop",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Original Buck ram in chicken coop. Came from Windlestone. 48%Awassi/2%EF/50%Katahdin confirmed by Buck breeding page. Ram weight 212lbs, ewe weight prediction 155.2lbs. Deceased per breeding page ('deceased helene'). Replaced by his brother (also named Buck). Not related to Nori \u2014 listed as prospective breeding option only. Prospective breedings calculated with: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), UF Ram Test (100%Katahdin).",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
       "id": "buck",
       "name": "Buck",
       "aliases": [],
@@ -858,7 +916,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Ram in chicken coop. Came from Windlestone. Katahdin/Awassi/EF. Breed derived from Nori breeding page prospective offspring math (~50K/48Awassi/2EF). Not related to Nori \u2014 listed as prospective breeding option only.",
+      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -3908,6 +3966,58 @@
       "last_verified": "2026-02-15"
     },
     {
+      "id": "kelsiers-sister",
+      "name": "Kelsier's Sister",
+      "aliases": [],
+      "tag": "2241",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": 150,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 3,
+            "date": "2023-10-05"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Kelsier's sister. Tag 2241. 100% Katahdin. Weight 150lbs. Breeding page attributes: Flighty?, Good Mother?, Attentive, Protective, Milky, Docile, Strong Flocking, Parasite Resistant, Heat/Cold/Wet Tolerant. Bred to Sir Loin 10-5-23 (due Feb 27th). FAMACHA 3 on 10-5-23. Deceased.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
       "id": "dorper-ram-deceased",
       "name": "Dorper Ram (Deceased)",
       "aliases": [],
@@ -4908,7 +5018,7 @@
     "chicken_coop": {
       "ram": "buck",
       "ewes": [],
-      "notes": "Buck (Katahdin/Awassi/EF ram) housed in chicken coop."
+      "notes": "Buck (Katahdin/Awassi/EF ram) housed in chicken coop. Current Buck is brother of original Buck who died in Hurricane Helene. Both from Windlestone."
     }
   },
   "lambing_records_2026": [

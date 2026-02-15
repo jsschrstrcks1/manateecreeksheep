@@ -145,13 +145,15 @@ db["sheep"].append(sheep("rocky", "Rocky", "ram", "alive",
     confidence="high",
     notebook_image=["IMG_8626.PNG", "IMG_8628.PNG", "IMG_8629.PNG", "IMG_8641.PNG"]))
 
-# Samson - ram (deceased per weak resistance list)
+# Samson - ram (deceased per weak resistance list) — 100% Hampshire per Buck breeding page
 db["sheep"].append(sheep("samson", "Samson", "ram", "deceased",
     pen="Pen 4",
+    breed_composition={"primary": "Hampshire", "percentages": {"Hampshire": 100}, "coat_type": "wool", "hair_percentage": 0},
+    weight_lbs=400,
     weak_resistance=True,
     is_breeding_animal=True,
-    notes="Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'.",
-    confidence="medium",
+    notes="Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck and tag-2241 breeding pages. Ram weight 400lbs, ewe weight prediction 340lbs.",
+    confidence="high",
     notebook_image=["IMG_8628.PNG", "IMG_8629.PNG"]))
 
 # Sam - ram for Pen 3 (100% Gulf Coast Native)
@@ -261,13 +263,27 @@ db["sheep"].append(sheep("charlies-lamb-0017", "Charlie's Lamb", "ram", "alive",
     confidence="medium",
     notebook_image=["IMG_8625.PNG"]))
 
-# Buck - ram in chicken coop (Katahdin/Awassi/East Friesian) — from Windlestone
-# Not related to Nori. Breed derived from Nori breeding page prospective offspring math.
+# Buck (Original) - ram, was in chicken coop — from Windlestone
+# Breed confirmed by Buck breeding page: 48%Awassi/2%EF/50%Katahdin.
+# DECEASED — "deceased helene" noted on breeding page attributes.
+# Replaced by his brother, also named Buck (see buck-current).
+db["sheep"].append(sheep("buck-original", "Buck (Original)", "ram", "deceased",
+    aliases=["Buck"],
+    breed_composition={"primary": "Katahdin/Awassi/East Friesian", "percentages": {"Katahdin": 50, "Awassi": 48, "East Friesian": 2}, "coat_type": "mixed", "hair_percentage": 50},
+    pen="Chicken Coop",
+    weight_lbs=212,
+    is_breeding_animal=True,
+    status_notes="Deceased - Hurricane Helene",
+    notes="Original Buck ram in chicken coop. Came from Windlestone. 48%Awassi/2%EF/50%Katahdin confirmed by Buck breeding page. Ram weight 212lbs, ewe weight prediction 155.2lbs. Deceased per breeding page ('deceased helene'). Replaced by his brother (also named Buck). Not related to Nori — listed as prospective breeding option only. Prospective breedings calculated with: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), UF Ram Test (100%Katahdin).",
+    confidence="high"))
+
+# Buck (Current) - brother of original Buck, now in chicken coop
+# Same breed as his brother (Katahdin/Awassi/EF from Windlestone).
 db["sheep"].append(sheep("buck", "Buck", "ram", "alive",
     breed_composition={"primary": "Katahdin/Awassi/East Friesian", "percentages": {"Katahdin": 50, "Awassi": 48, "East Friesian": 2}, "coat_type": "mixed", "hair_percentage": 50},
     pen="Chicken Coop",
     is_breeding_animal=True,
-    notes="Ram in chicken coop. Came from Windlestone. Katahdin/Awassi/EF. Breed derived from Nori breeding page prospective offspring math (~50K/48Awassi/2EF). Not related to Nori — listed as prospective breeding option only.",
+    notes="Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).",
     confidence="high"))
 
 # Big free male 005
@@ -867,6 +883,20 @@ db["sheep"].append(sheep("gg-son-094", "GG's Son", "ram", "deceased",
     confidence="high",
     notebook_image=["IMG_8634.PNG"]))
 
+# Kelsier's Sister - tag 2241, 100% Katahdin, deceased
+# Breeding page: 100%K, weight 150lbs, FAMACHA 3 (10-5-23).
+# Bred to Sir Loin 10-5-23 (due Feb 27th). Then deceased.
+# Attributes noted: Good Mother?, Attentive, Protective, Milky, Docile, Strong Flocking,
+# Parasite Resistance, Heat/Cold/Wet Tolerant.
+db["sheep"].append(sheep("kelsiers-sister", "Kelsier's Sister", "ewe", "deceased",
+    tag="2241",
+    breed_composition={"primary": "Katahdin", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
+    weight_lbs=150,
+    famacha_scores=[{"score": 3, "date": "2023-10-05"}],
+    is_breeding_animal=True,
+    notes="Kelsier's sister. Tag 2241. 100% Katahdin. Weight 150lbs. Breeding page attributes: Flighty?, Good Mother?, Attentive, Protective, Milky, Docile, Strong Flocking, Parasite Resistant, Heat/Cold/Wet Tolerant. Bred to Sir Loin 10-5-23 (due Feb 27th). FAMACHA 3 on 10-5-23. Deceased.",
+    confidence="high"))
+
 db["sheep"].append(sheep("dorper-ram-deceased", "Dorper Ram (Deceased)", "ram", "deceased",
     breed_composition={"primary": "Dorper", "percentages": {"Dorper": 100}, "coat_type": "hair", "hair_percentage": 100},
     treatments=[{"date": "2024-10-24", "treatment": "iron and vitamin B"}],
@@ -1080,7 +1110,7 @@ db["pens"] = {
     "chicken_coop": {
         "ram": "buck",
         "ewes": [],
-        "notes": "Buck (Katahdin/Awassi/EF ram) housed in chicken coop."
+        "notes": "Buck (Katahdin/Awassi/EF ram) housed in chicken coop. Current Buck is brother of original Buck who died in Hurricane Helene. Both from Windlestone."
     }
 }
 
