@@ -138,15 +138,16 @@ db["sheep"].append(sheep("rocky", "Rocky", "ram", "alive",
     confidence="medium",
     notebook_image=["IMG_8628.PNG", "IMG_8629.PNG"]))
 
-# Rock / Jerkface - Awassi cross ram (Pen 6)
+# Rock / Jerkface - 44%Awassi/50%BHD/6%EF ram
 db["sheep"].append(sheep("jerkface", "Rock (Jerkface)", "ram", "alive",
-    aliases=["Rock", "Jerkface", "Awassi ram", "Awassi cross rock"],
-    breed_composition={"primary": "Awassi cross", "percentages": {"Awassi": 50, "Unknown": 50}, "coat_type": "mixed", "hair_percentage": 50},
+    aliases=["Rock", "Jerkface", "Awassi ram", "Awassi cross rock", "Rocky"],
+    breed_composition={"primary": "Black Headed Dorper/Awassi/East Friesian", "percentages": {"Awassi": 44, "Black Headed Dorper": 50, "East Friesian": 6}, "coat_type": "mixed", "hair_percentage": 50},
+    weight_lbs=300,
     pen="Pen 6",
     is_breeding_animal=True,
     famacha_scores=[{"score": 5, "date": "2025-10-23"}],
     treatments=[{"date": "2024-10-24", "treatment": "iron and vitamin B"}],
-    notes="Also called Jerkface. Awassi cross. Had sick episode 10-23-23. Treated with iron. In pen 6.",
+    notes="Also called Jerkface/Rocky. 44%Awassi/50%BHD/6%EF per Rocky breeding page. Ram weight 300lbs, ewe weight prediction 200lbs. Had sick episode 10-23-23. Treated with iron. In pen 6. On 'Rams to Upgrade' list.",
     confidence="high",
     notebook_image=["IMG_8626.PNG", "IMG_8641.PNG"]))
 
@@ -159,26 +160,30 @@ db["sheep"].append(sheep("samson", "Samson", "ram", "deceased",
     confidence="medium",
     notebook_image=["IMG_8628.PNG", "IMG_8629.PNG"]))
 
-# Sam - ram for Pen 3
+# Sam - ram for Pen 3 (100% Gulf Coast Native)
 db["sheep"].append(sheep("sam", "Sam", "ram", "alive",
     pen="Pen 3",
+    breed_composition={"primary": "Gulf Coast Native", "percentages": {"Gulf Coast Native": 100}, "coat_type": "wool", "hair_percentage": 0},
     is_breeding_animal=True,
     treatments=[{"date": "2025-tag-day", "treatment": "iron (FAMACHA 3)"}],
-    notes="Ram for pen 3 group. Given iron treatment. Pen 3 includes: Baby, Baby momma, Zara, Half tail, New big girl 2.",
-    confidence="medium",
+    notes="Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Given iron treatment. Pen 3 includes: Baby, Baby momma, Zara, Half tail, New big girl 2.",
+    confidence="high",
     notebook_image=["IMG_8641.PNG"]))
 
-# Kaladin - ram for Pen 1 (S'More x Anna)
+# Kaladin - ram for Pen 1 (S'More x Serendipity)
+# NOTE: Living Kaladin (tag 014) is S'More x Serendipity. The deceased Kaladin (tag 24)
+# was S'More x Anna = 50Cr/50K. Breeding page math for Merrie confirms this Kaladin
+# has Babydoll and Jacob from Serendipity's side (via Shaggy).
 db["sheep"].append(sheep("kaladin", "Kaladin", "ram", "alive",
     tag="014",
     aliases=["Kal"],
     pen="Pen 1",
-    breed_composition={"primary": "Cracker/Katahdin", "percentages": {"Cracker": 50, "Katahdin": 50}, "coat_type": "mixed", "hair_percentage": 50},
+    breed_composition={"primary": "Cracker/St Augustine/Babydoll/Jacob/Katahdin", "percentages": {"Cracker": 50, "St Augustine": 18.75, "Babydoll": 12.5, "Jacob": 12.5, "Katahdin": 6.25}, "coat_type": "mixed", "hair_percentage": 56},
     color_markings="White w black ears",
-    sire_id="smore", dam_id="anna",
+    sire_id="smore", dam_id="serendipity",
     is_breeding_animal=True,
     measurements={"measurement_1": 19, "measurement_2": 20, "date": "2025"},
-    notes="Flock spreadsheet: 50% Cracker / 50% Katahdin. S'More (100% Cracker) x Anna (100% Katahdin). White w black ears. Alive per notebook (Pen 1 ram) - spreadsheet may be outdated on status. With Eclipse, Merrie, Abg, Fm.",
+    notes="Living Kaladin tag 014. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K — different animal. With Eclipse, Merrie, Abg, Fm.",
     confidence="high",
     notebook_image=["IMG_8624.PNG", "IMG_8630.PNG"]))
 
@@ -189,8 +194,8 @@ db["sheep"].append(sheep("smore", "S'More", "ram", "deceased",
     color_markings="Red",
     weight_lbs=200, dob="2021-01-14", dob_approximate=True,
     is_breeding_animal=True,
-    offspring_ids=["kaladin"],
-    notes="Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2023 lambs including Pippen, Merrie, Danny's Girl, Circle Tail, BK1, BK2, HT1, anna1, BT1/BT2, Shaggy1, Shaggy2, BSOE1, BSOE2, Boots1, and Kaladin (by Anna).",
+    offspring_ids=["kaladin", "merrie"],
+    notes="Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2023 lambs including Pippen, Merrie (by Half Tail), Danny's Girl, Circle Tail, BK1, BK2, HT1, anna1, BT1/BT2, Shaggy1, Shaggy2, BSOE1, BSOE2, Boots1, and Kaladin (by Serendipity). The deceased Kaladin (tag 24) was S'More x Anna.",
     confidence="high", csv_row=2))
 
 # Well Done - Katahdin ram from CSV (parents: Big Daddy x Gulf, off-farm)
@@ -308,13 +313,18 @@ db["sheep"].append(sheep("nori", "Nori", "ewe", "alive",
     confidence="high",
     notebook_image=["IMG_8641.PNG", "IMG_8642.PNG"]))
 
-# Merrie - ewe, tag 016
-db["sheep"].append(sheep("merrie", "Merrie", "ewe", "alive",
+# Merrie - ram, tag 016 (S'More x Half Tail)
+db["sheep"].append(sheep("merrie", "Merrie", "ram", "alive",
     tag="016",
     pen="Pen 1",
+    breed_composition={"primary": "Cracker/St Augustine/Katahdin/BBB/White Dorper", "percentages": {"Cracker": 50, "St Augustine": 28.125, "Katahdin": 12.5, "Barbados Blackbelly": 6.25, "White Dorper": 3.125}, "coat_type": "mixed", "hair_percentage": 72},
+    color_markings="Brown and Tan",
+    dob="2023-01-14",
+    sire_id="smore", dam_id="half-tail",
     famacha_scores=[{"score": 3, "date": "2025-tag-day", "notes": "treated"}],
     measurements={"measurement_1": 30, "measurement_2": 31, "date": "2025"},
-    notes="Tag 016. FAMACHA 3, treated. In Pen 1 under Kaladin.",
+    is_breeding_animal=True,
+    notes="Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. In Pen 1.",
     confidence="high",
     notebook_image=["IMG_8622.PNG", "IMG_8630.PNG", "IMG_8641.PNG"]))
 
@@ -346,9 +356,9 @@ db["sheep"].append(sheep("serendipity", "Serendipity", "ewe", "alive",
     color_markings="Black",
     weight_lbs=140, dob="2022-01-12",
     sire_id="sir-loin", dam_id="shaggy",
-    offspring_ids=["serendipitys-baby-036"],
+    offspring_ids=["serendipitys-baby-036", "kaladin"],
     health_notes=["Low FAMACHA score 7-24-25 along with GG and Lara"],
-    notes="Flock spreadsheet: 25% Babydoll / 25% Jacob / 12.5% Katahdin / 37.5% St Augustine, Black, 140lbs. DOB 1/12/2022. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Mother of Mc12/036 baby ewe. In pen 6 (no ram).",
+    notes="Flock spreadsheet: 25% Babydoll / 25% Jacob / 12.5% Katahdin / 37.5% St Augustine, Black, 140lbs. DOB 1/12/2022. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Mother of Mc12/036 baby ewe and Kaladin (by S'More). In pen 6 (no ram).",
     confidence="high",
     notebook_image=["IMG_8629.PNG", "IMG_8632.PNG", "IMG_8640.PNG", "IMG_8642.PNG"]))
 
@@ -360,13 +370,14 @@ db["sheep"].append(sheep("serendipitys-baby-036", "Serendipity's Baby", "ewe", "
     confidence="high",
     notebook_image=["IMG_8632.PNG"]))
 
-# Little Daisy - ewe, tag 35
+# Little Daisy - ewe, tag 35 (12.5%BHD/50%Cr/18.75%K/18.75%SA)
 db["sheep"].append(sheep("little-daisy", "Little Daisy", "ewe", "alive",
     tag="035", aliases=["Daisy"],
     pen="Pen 5",
+    breed_composition={"primary": "Cracker/Katahdin/St Augustine/Black Headed Dorper", "percentages": {"Black Headed Dorper": 12.5, "Cracker": 50, "Katahdin": 18.75, "St Augustine": 18.75}, "coat_type": "hair", "hair_percentage": 81},
     offspring_ids=["little-daisys-baby-mc01"],
     health_notes=["Needed parasite treatment April 13 2025 - eyes were white (tag 35)"],
-    notes="Tag 35. In pen 5 (Rocky group). Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes.",
+    notes="Tag 35. 12.5%BHD/50%Cr/18.75%K/18.75%SA per Rocky breeding page. In pen 5 (Rocky group). Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Hair sheep.",
     confidence="high",
     notebook_image=["IMG_8625.PNG", "IMG_8627.PNG", "IMG_8629.PNG", "IMG_8635.PNG"]))
 
@@ -409,8 +420,8 @@ db["sheep"].append(sheep("half-tail", "Half Tail", "ewe", "alive",
     color_markings="White",
     weight_lbs=180, dob="2017-01-01", dob_approximate=True,
     sire_id="sir-loin", dam_id="hersheys",
-    offspring_ids=["broken-tail", "half-tails-baby", "elsie", "ht1"],
-    notes="Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Mother of Broken Tail, Elsie (by Well Done), HT1 (by S'More). In pen 3 (Sam group) per notebook.",
+    offspring_ids=["broken-tail", "half-tails-baby", "elsie", "ht1", "merrie"],
+    notes="Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Mother of Broken Tail, Elsie (by Well Done), HT1 (by S'More), Merrie (by S'More). In pen 3 (Sam group) per notebook.",
     confidence="high",
     csv_row=16,
     notebook_image=["IMG_8629.PNG"]))
@@ -493,12 +504,13 @@ db["sheep"].append(sheep("fm1", "FM1", "ewe", "alive",
     confidence="medium",
     notebook_image=["IMG_8624.PNG", "IMG_8628.PNG", "IMG_8629.PNG", "IMG_8642.PNG"]))
 
-# Eclipse - ewe
+# Eclipse - ewe (25%ABB/12.5%K/37.5%SA/25%WH)
 db["sheep"].append(sheep("eclipse", "Eclipse", "ewe", "alive",
     pen="Pen 1",
+    breed_composition={"primary": "St Augustine/ABB/Wiltshire Horn/Katahdin", "percentages": {"American Blackbelly": 25, "Katahdin": 12.5, "St Augustine": 37.5, "Wiltshire Horn": 25}, "coat_type": "hair", "hair_percentage": 62},
     measurements={"measurement_1": 22.5, "measurement_2": 22, "date": "2025"},
-    notes="In Pen 1 (Kaladin group).",
-    confidence="medium",
+    notes="25%ABB/12.5%K/37.5%SA/25%WH per Merrie breeding page prospective offspring data. In Pen 1 (Kaladin group).",
+    confidence="high",
     notebook_image=["IMG_8624.PNG", "IMG_8630.PNG"]))
 
 # Abg - ewe, tag 22
@@ -568,8 +580,8 @@ db["sheep"].append(sheep("anna", "Anna", "ewe", "deceased",
     breed_composition={"primary": "Katahdin", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
     color_markings="White",
     weight_lbs=175, dob="2012-01-12", dob_approximate=True,
-    offspring_ids=["annas-big-one", "kaladin"],
-    notes="Flock spreadsheet: Tag 1, 100% Katahdin, 175lbs. DOB 1/12/2012. Sire: Show King, Dam: Show Queen (off-farm). Mother of Anna's Big One (by Sir Loin) and Kaladin (by S'More). Deceased per flock spreadsheet.",
+    offspring_ids=["annas-big-one"],
+    notes="Flock spreadsheet: Tag 1, 100% Katahdin, 175lbs. DOB 1/12/2012. Sire: Show King, Dam: Show Queen (off-farm). Mother of Anna's Big One (by Sir Loin). The deceased Kaladin (tag 24) was also S'More x Anna, but that is a different animal from the living Kaladin (tag 014, S'More x Serendipity). Deceased per flock spreadsheet.",
     confidence="high", csv_row=4))
 
 # Boots - ewe (purchased from Maria, culled per spreadsheet)
@@ -681,13 +693,13 @@ db["sheep"].append(sheep("gertrude", "Gertrude", "ewe", "unknown",
     notes="From Google Sheet Pen 5 breed data. NoriSon's group.",
     confidence="low"))
 
-# OAV 2222 - from Google Sheet Pen 5
+# OAV 2222 - confirmed 100% Katahdin per Rocky breeding page
 db["sheep"].append(sheep("oav-2222", "OAV 2222", "ewe", "alive",
     tag="2222", aliases=["2222"],
     pen="Pen 5",
-    breed_composition={"primary": "Katahdin/St Augustine/ABB/Wiltshire/BBB", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
-    notes="From Google Sheet Pen 5. Tag 2222. Also mentioned in NoriSon's notebook page.",
-    confidence="low",
+    breed_composition={"primary": "Katahdin", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
+    notes="100% Katahdin confirmed by Rocky breeding page. Tag 2222. In pen 5 (NoriSon group). Lambed 2026-02-10 (twins).",
+    confidence="high",
     notebook_image=["IMG_8639.PNG"]))
 
 # Heather Oaks - from Google Sheet Pen 5
@@ -766,9 +778,9 @@ db["sheep"].append(sheep("bambii", "Bambii", "ewe", "deceased",
     notebook_image=["IMG_8630.PNG", "IMG_8641.PNG"]))
 
 db["sheep"].append(sheep("skitters", "Skitters", "ewe", "deceased",
-    breed_composition={"primary": "Karakul cross", "percentages": {"Karakul": 50, "Unknown": 50}, "coat_type": "mixed"},
+    breed_composition={"primary": "Karakul", "percentages": {"Karakul": 100}, "coat_type": "wool", "hair_percentage": 0},
     weak_resistance=True,
-    notes="Deceased. Karakul cross. On weak resistance list.",
+    notes="Deceased. 100% Karakul per Rocky breeding page. On weak resistance list. Was on 'Ewes to Keep anyway' list before death. Wool sheep.",
     confidence="high",
     notebook_image=["IMG_8628.PNG"]))
 
@@ -1006,8 +1018,9 @@ db["sheep"].append(sheep("tag-34-pen4", "Tag 34 (Pen 4)", "ewe", "alive",
 db["pens"] = {
     "pen_1": {
         "ram": "kaladin",
-        "ewes": ["eclipse", "merrie", "abg", "fm"],
-        "notes": "Kaladin's group. May 14 2025: vaccinated pen 1 lambs."
+        "other_rams": ["merrie"],
+        "ewes": ["eclipse", "abg", "fm"],
+        "notes": "Kaladin's group. Merrie (tag 016) is also a ram in this pen. May 14 2025: vaccinated pen 1 lambs."
     },
     "pen_2": {
         "ram": "sir-loin",
