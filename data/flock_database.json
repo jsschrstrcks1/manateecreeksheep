@@ -13,8 +13,8 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
-    "total_sheep": 96,
-    "active_sheep": 61,
+    "total_sheep": 95,
+    "active_sheep": 60,
     "deceased_count": 23,
     "culled_count": 1,
     "sold_count": 1,
@@ -858,47 +858,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Ram in chicken coop per owner. Katahdin/Awassi/EF. Breed derived from Nori breeding page prospective offspring (25ABB/24Awassi/1EF/25K/25WH offspring with Nori means Buck ~50K/48Awassi/2EF). Bred to Nori in 2024 \u2014 Nori's lamb born 1-6-25, birth weight 12lbs.",
-      "confidence": "high",
-      "last_verified": "2026-02-15"
-    },
-    {
-      "id": "nori-2024-lamb",
-      "name": "Nori's 2024 Lamb",
-      "aliases": [],
-      "tag": null,
-      "mc_tag": null,
-      "sex": "unknown",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": "2025-01-06",
-      "dob_approximate": true,
-      "sire_id": "buck",
-      "dam_id": "nori",
-      "status": "alive",
-      "status_date": null,
-      "status_notes": "",
-      "pen": null,
-      "measurements": {},
-      "health": {
-        "famacha_scores": [],
-        "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [],
-        "notes": []
-      },
-      "breeding": {
-        "is_breeding_animal": false,
-        "breeding_group": "",
-        "offspring_ids": [],
-        "lambing_records": []
-      },
-      "source_refs": {
-        "csv_row": null,
-        "notebook_image": []
-      },
-      "notes": "Born 1-6-25, birth weight 12lbs. Sired by Buck. From Nori breeding page.",
+      "notes": "Ram in chicken coop. Came from Windlestone. Katahdin/Awassi/EF. Breed derived from Nori breeding page prospective offspring math (~50K/48Awassi/2EF). Not related to Nori \u2014 listed as prospective breeding option only.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -1116,8 +1076,7 @@
         "breeding_group": "",
         "offspring_ids": [
           "nori-son",
-          "eclipse",
-          "nori-2024-lamb"
+          "eclipse"
         ],
         "lambing_records": []
       },
@@ -1128,7 +1087,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54), Eclipse (2022, deceased Hurricane Idalia), and 2024 lamb (by Buck, born 1-6-25, birth weight 12lbs). In pen 4.",
+      "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54) and Eclipse (2022, deceased Hurricane Idalia). In pen 4.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
