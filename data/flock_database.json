@@ -100,7 +100,8 @@
       "aliases": [
         "Tag 22",
         "UF Ram Test",
-        "OAV 2223"
+        "OAV 2223",
+        "NSIP 640301-2022-222223"
       ],
       "tag": "2223",
       "mc_tag": null,
@@ -128,7 +129,12 @@
         "famacha_scores": [],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
+        "vaccinations": [
+          {
+            "date": "2023-10-23",
+            "vaccine": "CDT"
+          }
+        ],
         "notes": []
       },
       "breeding": {
@@ -141,7 +147,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Most parasite resistant sheep in the flock. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. FEC average 138.9 (2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased).",
+      "notes": "Most parasite resistant sheep in the flock. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko, DVM (Oakvale Farm, DeLeon Springs FL) on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. UF Ram Test 2023: Ranked 5th of 40 rams, never dewormed (Tx=0), ADG=0.07 (test period), WDA=0.51, Avg FEC=157 (FEC Ratio=446.65), Overall Index=257.10. Individual FEC readings: 2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200 (avg 138.9). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },

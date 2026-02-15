@@ -543,6 +543,8 @@ def write_sheep_sheet(wb, db, sheep_record, idx, parasite_scores=None):
         row += 1
 
         sub_labels = [
+            ("FEC Score", subs.get("fec")),
+            ("FEC Avg (epg)", subs.get("fec_avg_epg")),
             ("FAMACHA", subs.get("famacha")),
             ("Treatment", subs.get("treatment")),
             ("Weakness", subs.get("weakness")),

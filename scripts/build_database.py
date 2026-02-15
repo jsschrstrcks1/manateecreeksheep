@@ -116,13 +116,23 @@ db["sheep"].append(sheep("sir-loin", "Sir Loin", "ram", "alive",
 # NSIP ID: 640301-2022-222223. Received from OAV Sam Mushko on 10-5-23.
 # UF RAM TEST DATA. Parasite Resistance Y, Breed All Year Y.
 # FEC avg 138.9 (tested 2-18-23 through 8-24-23). CDT 10-23-23.
+# UF Ram Test 2023 Official Results (from 230907-UF-Ram-Test_Index-FINAL PDF):
+#   Tx=0, ADG=0.07, ADG Ratio=25.73, WDA=0.51, WDA Ratio=109.37,
+#   ADGxWDA Ratio=67.55, Avg FEC=157, FEC Ratio=446.65, Overall Index=257.10
+#   Ranked 5th of 40 rams. Never dewormed. 5th lowest FEC of all test rams.
+# Consigner: Oakvale Farm - Samantha Musho, DVM - DeLeon Springs, FL
+# Note: Other OAV 22xx rams in the sale catalog listed as 87.5% Katahdin,
+#   but breeding page says 100%K. OAV 2223 was not in the sale catalog
+#   (possibly retained or sold privately). Breed % left as 100% per breeding page.
+# Sister OAV 2222 (alive, in flock). Sister tag 2241 (deceased).
 db["sheep"].append(sheep("kelsier", "Kelsier", "ram", "alive",
-    tag="2223", aliases=["Tag 22", "UF Ram Test", "OAV 2223"],
+    tag="2223", aliases=["Tag 22", "UF Ram Test", "OAV 2223", "NSIP 640301-2022-222223"],
     breed_composition={"primary": "Katahdin", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
     weight_lbs=250,
     dob="2022-12-21",
     pen="Pen 4", is_breeding_animal=True,
-    notes="Most parasite resistant sheep in the flock. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. FEC average 138.9 (2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased).",
+    vaccinations=[{"date": "2023-10-23", "vaccine": "CDT"}],
+    notes="Most parasite resistant sheep in the flock. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko, DVM (Oakvale Farm, DeLeon Springs FL) on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. UF Ram Test 2023: Ranked 5th of 40 rams, never dewormed (Tx=0), ADG=0.07 (test period), WDA=0.51, Avg FEC=157 (FEC Ratio=446.65), Overall Index=257.10. Individual FEC readings: 2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200 (avg 138.9). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased).",
     confidence="high"))
 
 # GG (tag 23) - ram from Google Sheet

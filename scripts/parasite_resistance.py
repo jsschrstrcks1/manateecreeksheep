@@ -99,6 +99,64 @@ FAMACHA_TO_SCORE = {
 }
 
 
+# ── FEC (Fecal Egg Count) interpretation ──────────────────────────
+# FEC is the gold-standard parasite burden measurement from UF Ram Test.
+# Lower FEC = more resistant. Measured in eggs per gram (epg).
+# Reference: UF Ram Test 2023 — 40 rams, FEC range 21-4114 epg.
+# We convert average FEC to a 0-100 resistance score.
+FEC_THRESHOLDS = [
+    (0,    100),   # Zero FEC = perfect resistance
+    (50,    95),   # Very low
+    (150,   90),   # Low — excellent (Kelsier's range)
+    (300,   75),   # Below average
+    (500,   60),   # Average
+    (700,   50),   # Above average
+    (1000,  35),   # High burden
+    (2000,  15),   # Very high
+    (3000,   5),   # Critical
+    (5000,   0),   # Overwhelmed
+]
+
+# ── Known FEC data (from UF Ram Test or owner records) ────────────
+# Sheep with quantitative FEC data that isn't in FAMACHA fields.
+# Format: {sheep_id: {"avg_fec": float, "readings": [...], "source": str}}
+KNOWN_FEC_DATA = {
+    "kelsier": {
+        "avg_fec": 138.9,
+        "uf_test_avg_fec": 157,
+        "readings": [100, 300, 350, 0, 0, 50, 200, 50, 200],
+        "uf_test_rank": 5,
+        "uf_test_total": 40,
+        "uf_test_index": 257.10,
+        "never_dewormed": True,
+        "source": "UF Ram Test 2023 + breeding page FEC log",
+    },
+}
+
+
+def _fec_subscore(avg_fec):
+    """
+    Convert average FEC (eggs per gram) to a 0-100 resistance score.
+    Uses linear interpolation between threshold breakpoints.
+    """
+    if avg_fec is None:
+        return None
+
+    if avg_fec <= 0:
+        return 100
+    if avg_fec >= 5000:
+        return 0
+
+    for i in range(len(FEC_THRESHOLDS) - 1):
+        fec1, score1 = FEC_THRESHOLDS[i]
+        fec2, score2 = FEC_THRESHOLDS[i + 1]
+        if fec1 <= avg_fec <= fec2:
+            t = (avg_fec - fec1) / (fec2 - fec1)
+            return round(score1 + t * (score2 - score1), 1)
+
+    return 0
+
+
 def _parse_famacha(score_val):
     """Parse a FAMACHA score value to float, handling 'good' etc."""
     if isinstance(score_val, (int, float)):
@@ -314,6 +372,14 @@ def score_individual(sheep_record, db_by_id):
     sire_id = sheep_record.get("sire_id")
     dam_id = sheep_record.get("dam_id")
 
+    # Check for FEC data (more precise than FAMACHA when available)
+    fec_data = KNOWN_FEC_DATA.get(sid)
+    fec_score = None
+    if fec_data:
+        # Use the individual readings average (owner's breeding page data)
+        avg_fec = fec_data.get("avg_fec")
+        fec_score = _fec_subscore(avg_fec)
+
     # Calculate all sub-scores
     fam_score = _famacha_subscore(famacha)
     tx_score = _treatment_subscore(treatments, famacha)
@@ -322,37 +388,53 @@ def score_individual(sheep_record, db_by_id):
     owner_bonus = _owner_observation_bonus(sid, sire_id, dam_id)
 
     # Determine if we have direct phenotypic data
-    has_direct = bool(famacha or treatments or weak_resistance or health_notes)
+    has_direct = bool(famacha or treatments or weak_resistance or health_notes or fec_data)
 
     explanations = []
 
     if has_direct:
         # ── DIRECT DATA PATH ──────────────────────────────────
-        # Weight: 40% FAMACHA, 25% treatment, 20% weakness, 15% breed
+        # FEC data is the gold standard — if we have it, it gets top weight.
+        # With FEC: 45% FEC, 20% treatment, 15% weakness, 10% breed, 10% FAMACHA
+        # Without FEC: 40% FAMACHA, 25% treatment, 20% weakness, 15% breed
         components = []
         weights = []
 
-        if fam_score is not None:
+        if fec_score is not None:
+            components.append(fec_score)
+            weights.append(0.45)
+            fec_avg = fec_data.get("avg_fec")
+            rank_str = ""
+            if fec_data.get("uf_test_rank"):
+                rank_str = f", rank {fec_data['uf_test_rank']}/{fec_data['uf_test_total']}"
+            explanations.append(f"FEC avg {fec_avg} epg→{fec_score}{rank_str}")
+
+            if fam_score is not None:
+                components.append(fam_score)
+                weights.append(0.10)
+                explanations.append(f"FAMACHA avg→{fam_score}")
+        elif fam_score is not None:
             components.append(fam_score)
             weights.append(0.40)
             explanations.append(f"FAMACHA avg→{fam_score}")
         else:
-            # Redistribute FAMACHA weight to treatment and weakness
+            # No FEC or FAMACHA — redistribute weight
             pass
 
         if tx_score is not None:
             components.append(tx_score)
-            weights.append(0.25)
+            tx_weight = 0.20 if fec_score is not None else 0.25
+            weights.append(tx_weight)
             if tx_score < 70:
                 explanations.append(f"Treatment history→{tx_score}")
 
         components.append(weak_score)
-        weights.append(0.20)
+        weights.append(0.15 if fec_score is not None else 0.20)
         if weak_resistance:
             explanations.append("On weak resistance list")
 
         components.append(breed_score)
-        weights.append(0.15)
+        weights.append(0.10 if fec_score is not None else 0.15)
 
         # Normalize weights
         total_w = sum(weights)
@@ -361,7 +443,7 @@ def score_individual(sheep_record, db_by_id):
         # Apply owner observation bonus (capped)
         composite = min(100, composite + owner_bonus)
 
-        confidence = "high" if fam_score is not None else "medium"
+        confidence = "high" if (fam_score is not None or fec_score is not None) else "medium"
 
     else:
         # ── LINEAGE-INHERITED PATH ────────────────────────────
@@ -427,6 +509,8 @@ def score_individual(sheep_record, db_by_id):
         "confidence": confidence,
         "has_direct_data": has_direct,
         "subscores": {
+            "fec": fec_score,
+            "fec_avg_epg": fec_data.get("avg_fec") if fec_data else None,
             "famacha": fam_score,
             "treatment": tx_score,
             "weakness": weak_score,
