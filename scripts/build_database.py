@@ -262,12 +262,20 @@ db["sheep"].append(sheep("charlies-lamb-0017", "Charlie's Lamb", "ram", "alive",
     confidence="medium",
     notebook_image=["IMG_8625.PNG"]))
 
-# Buck - Nori's 2024 offspring (born 1-6-25)
-db["sheep"].append(sheep("buck-nori", "Buck", "ram", "alive",
-    dam_id="nori",
+# Buck - ram in chicken coop (Katahdin/Awassi/East Friesian)
+# From Nori breeding page prospective offspring: Buck contributes ~48%Awassi/50%K/2%EF
+db["sheep"].append(sheep("buck", "Buck", "ram", "alive",
+    breed_composition={"primary": "Katahdin/Awassi/East Friesian", "percentages": {"Katahdin": 50, "Awassi": 48, "East Friesian": 2}, "coat_type": "mixed", "hair_percentage": 50},
+    pen="Chicken Coop",
+    is_breeding_animal=True,
+    notes="Ram in chicken coop per owner. Katahdin/Awassi/EF. Breed derived from Nori breeding page prospective offspring (25ABB/24Awassi/1EF/25K/25WH offspring with Nori means Buck ~50K/48Awassi/2EF). Bred to Nori in 2024 — Nori's lamb born 1-6-25, birth weight 12lbs.",
+    confidence="high"))
+
+# Nori's 2024 lamb (by Buck, born 1-6-25)
+db["sheep"].append(sheep("nori-2024-lamb", "Nori's 2024 Lamb", "unknown", "alive",
     dob="2025-01-06",
-    weight_lbs=12,
-    notes="Nori's 2024 offspring. Born 1-6-25, birth weight 12lbs. From Nori breeding page.",
+    sire_id="buck", dam_id="nori",
+    notes="Born 1-6-25, birth weight 12lbs. Sired by Buck. From Nori breeding page.",
     confidence="high"))
 
 # Big free male 005
@@ -312,11 +320,11 @@ db["sheep"].append(sheep("nori", "Nori", "ewe", "alive",
     tag="021", aliases=["Tag 29", "No", "Tag 21"],
     pen="Pen 4",
     is_breeding_animal=True,
-    offspring_ids=["nori-son", "eclipse", "buck-nori"],
+    offspring_ids=["nori-son", "eclipse", "nori-2024-lamb"],
     breed_composition={"primary": "ABB/Wiltshire Horn", "percentages": {"American Blackbelly": 50, "Wiltshire Horn": 50}, "coat_type": "hair", "hair_percentage": 100},
     color_markings="Badger",
     weight_lbs=139, dob="2023-02-01",
-    notes="Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54) and Buck (born 1-6-25). Eclipse (2022 offspring) died after Hurricane Idalia. In pen 4.",
+    notes="Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54), Eclipse (2022, deceased Hurricane Idalia), and 2024 lamb (by Buck, born 1-6-25, birth weight 12lbs). In pen 4.",
     confidence="high",
     notebook_image=["IMG_8641.PNG", "IMG_8642.PNG"]))
 
@@ -1076,6 +1084,11 @@ db["pens"] = {
         "ram": None,
         "ewes": [],
         "notes": "Auction lambs: tags 09, 50, 06, L19, and others."
+    },
+    "chicken_coop": {
+        "ram": "buck",
+        "ewes": [],
+        "notes": "Buck (Katahdin/Awassi/EF ram) housed in chicken coop."
     }
 }
 
