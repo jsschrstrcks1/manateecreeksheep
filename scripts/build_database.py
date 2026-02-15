@@ -100,10 +100,10 @@ def sheep(id, name, sex, status, **kwargs):
 # Sir Loin - the main herd ram from CSV
 db["sheep"].append(sheep("sir-loin", "Sir Loin", "ram", "alive",
     aliases=["Sirloin"],
-    breed_composition={"primary": "St Augustine", "percentages": {"St Augustine": 100}, "coat_type": "mixed", "hair_percentage": 50},
+    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 75, "Katahdin": 25}, "coat_type": "mixed", "hair_percentage": 25},
     weight_lbs=300, dob="2012-01-01", dob_approximate=True,
     pen="Pen 2", is_breeding_animal=True,
-    notes="Large ram, 300lbs. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire across most pens. Father of Banana, Brown Knee, Black Spot on Ear, Banana Split, Half Tail, Broken Tail, Banana Split Baby, Anna's Big One.",
+    notes="Large ram, 300lbs. 75% St Augustine, 25% Katahdin per Breeding DB calculations. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire across most pens.",
     confidence="high", csv_row=1,
     offspring_ids=["banana", "brown-knee", "black-spot-on-ear", "banana-split", "half-tail", "broken-tail", "banana-split-baby", "annas-big-one"]))
 
@@ -185,14 +185,29 @@ db["sheep"].append(sheep("smore", "S'More", "ram", "unknown",
     confidence="low", csv_row=2))
 
 # Well Done - Katahdin ram from CSV (parents: Big Daddy x Golf, off-farm)
-db["sheep"].append(sheep("well-done", "Well Done", "ram", "unknown",
+db["sheep"].append(sheep("well-done", "Well Done", "ram", "deceased",
     breed_composition={"primary": "Katahdin", "percentages": {"Katahdin": 100}, "coat_type": "hair", "hair_percentage": 100},
     color_markings="Black",
     weight_lbs=100, dob="2021-02-14", dob_approximate=True,
     is_breeding_animal=True,
     offspring_ids=["stew"],
-    notes="From CSV. Katahdin ram, 100lbs. Sire: Big Daddy, Dam: Golf (off-farm). Father of Stew (by Fleecity). Breeding DB notes: did not pass on his parasite resistance well. Status unknown - not in recent notebook.",
-    confidence="low", csv_row=3))
+    status_notes="Culled - did not pass on his parasite resistance well",
+    notes="From CSV. Katahdin ram, 100lbs. Sire: Big Daddy, Dam: Golf (off-farm). Father of Stew (by Fleecity). Culled (C) per Breeding DB: did not pass on his parasite resistance well.",
+    confidence="high", csv_row=3))
+
+# BlackRock - ram from Breeding DB
+db["sheep"].append(sheep("black-rock-ram", "BlackRock", "ram", "unknown",
+    breed_composition={"primary": "Katahdin/St Augustine", "percentages": {"Katahdin": 78, "St Augustine": 22}, "coat_type": "hair", "hair_percentage": 78},
+    is_breeding_animal=True,
+    notes="From Breeding DB. 78% Katahdin, 22% St Augustine. Listed as a 2022 ram. May be same as 'Black Rock' tag 010 from notebook measurements.",
+    confidence="low"))
+
+# Chipotle Spicy Boi - ram from Breeding DB
+db["sheep"].append(sheep("chipotle-spicy-boi", "Chipotle Spicy Boi", "ram", "unknown",
+    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 65.625, "Katahdin": 34.375}, "coat_type": "mixed", "hair_percentage": 34},
+    is_breeding_animal=True,
+    notes="From Breeding DB. 65.625% St Augustine, 34.375% Katahdin. Listed as a ram in '2021 and Before' column.",
+    confidence="low"))
 
 # Butter Ball - Dorper ram (deceased)
 db["sheep"].append(sheep("butter-ball", "Butter Ball", "ram", "deceased",
@@ -276,8 +291,8 @@ db["sheep"].append(sheep("elsie", "Elsie", "ewe", "alive",
     tag="026",
     pen="Pen 4",
     famacha_scores=[{"score": 1, "date": "2025-tag-day", "notes": "no treat needed"}],
-    breed_composition={"primary": "Katahdin cross", "percentages": {"Katahdin": 65.625, "Awassi": 22, "East Friesian": 3, "St Augustine": 6.25, "ABB": 3.125}, "coat_type": "mixed", "hair_percentage": 65},
-    notes="Tag 26. FAMACHA 1 (excellent). In Samson/pen 4 group per notebook. Google Sheet shows her in Pen 2 offspring calculations.",
+    breed_composition={"primary": "Katahdin/St Augustine", "percentages": {"Katahdin": 72, "St Augustine": 28}, "coat_type": "hair", "hair_percentage": 72},
+    notes="Tag 26. FAMACHA 1 (excellent). 72% Katahdin, 28% St Augustine per Breeding DB. In Samson/pen 4 group per notebook. Lambed 2026-01-23 (twins).",
     confidence="high",
     notebook_image=["IMG_8639.PNG", "IMG_8641.PNG"]))
 
@@ -385,11 +400,11 @@ db["sheep"].append(sheep("zara", "Zara", "ewe", "alive",
 # Half Tail - ewe
 db["sheep"].append(sheep("half-tail", "Half Tail", "ewe", "alive",
     pen="Pen 3",
-    breed_composition={"primary": "Katahdin/St Augustine", "percentages": {"Katahdin": 44, "St Augustine": 56}, "coat_type": "mixed", "hair_percentage": 44},
+    breed_composition={"primary": "Katahdin/St Augustine", "percentages": {"Katahdin": 43.75, "St Augustine": 56.25}, "coat_type": "mixed", "hair_percentage": 44},
     weight_lbs=200, dob="2016-01-01", dob_approximate=True,
     sire_id="sir-loin", dam_id="hersheys",
     offspring_ids=["broken-tail", "half-tails-baby"],
-    notes="In pen 3 (Sam group). 44% Katahdin, 56% St Augustine. Sir Loin x Hersheys. Mother of Broken Tail and Half Tail's Baby (tag 007).",
+    notes="In pen 3 (Sam group). 43.75% Katahdin, 56.25% St Augustine (Sir Loin 25K/75SA x Hersheys 62.5K/37.5SA). Mother of Broken Tail and Half Tail's Baby (tag 007).",
     confidence="high",
     csv_row=16,
     notebook_image=["IMG_8629.PNG"]))
@@ -399,10 +414,10 @@ db["sheep"].append(sheep("broken-tail", "Broken Tail", "ewe", "alive",
     aliases=["Bt", "BT"],
     tag="034",
     pen="Pen 5",
-    breed_composition={"primary": "Katahdin/St Augustine", "percentages": {"Katahdin": 34.5, "St Augustine": 65.5}, "coat_type": "mixed", "hair_percentage": 35},
+    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 65.625, "Katahdin": 34.375}, "coat_type": "mixed", "hair_percentage": 34},
     weight_lbs=200, dob="2017-01-01", dob_approximate=True,
     sire_id="sir-loin", dam_id="half-tail",
-    notes="In pen 5 (Rocky group). Tag 34. 65.5% St Augustine, 34.5% Katahdin. Sir Loin x Half Tail. Lambed 2026-01-20 (twins, Pen 2).",
+    notes="In pen 5 (Rocky group). Tag 34. 65.625% St Augustine, 34.375% Katahdin (Sir Loin x Half Tail). Lambed 2026-01-20 (twins, Pen 2).",
     confidence="high",
     csv_row=17,
     notebook_image=["IMG_8629.PNG", "IMG_8642.PNG"]))
@@ -822,27 +837,27 @@ db["sheep"].append(sheep("w140", "W140", "ewe", "alive",
 # ============================================================
 
 db["sheep"].append(sheep("brown-knee", "Brown Knee", "ewe", "unknown",
-    breed_composition={"primary": "Katahdin/St Augustine", "percentages": {"Katahdin": 56, "St Augustine": 44}, "coat_type": "hair", "hair_percentage": 56},
+    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"Katahdin": 43.75, "St Augustine": 56.25}, "coat_type": "mixed", "hair_percentage": 44},
     weight_lbs=250, dob="2014-12-01", dob_approximate=True,
     sire_id="sir-loin", dam_id="banana",
     offspring_ids=["black-spot-on-ear"],
-    notes="From CSV. 56% Katahdin, 44% St Augustine. Sir Loin x Banana. Mother of Black Spot on Ear. Also in breeding DB. Status unknown - not in recent notebook.",
+    notes="From CSV & Breeding DB. 43.75% Katahdin, 56.25% St Augustine (calculated: Sir Loin 25K/75SA x Banana 62.5K/37.5SA). CSV originally said 56K/44SA but Breeding DB math is more accurate. Mother of Black Spot on Ear. Status unknown - not in recent notebook.",
     confidence="low", csv_row=6))
 
 db["sheep"].append(sheep("black-spot-on-ear", "Black Spot on Ear", "ewe", "unknown",
-    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 65.5, "Katahdin": 34.5}, "coat_type": "mixed", "hair_percentage": 35},
+    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 65.625, "Katahdin": 34.375}, "coat_type": "mixed", "hair_percentage": 34},
     weight_lbs=225, dob="2015-11-25", dob_approximate=True,
     sire_id="sir-loin", dam_id="brown-knee",
     offspring_ids=["banana-split"],
-    notes="From CSV. 65.5% St Augustine, 34.5% Katahdin. Sir Loin x Brown Knee. Mother of Banana Split. Status unknown - not in recent notebook.",
+    notes="From CSV & Breeding DB. 65.625% St Augustine, 34.375% Katahdin (calculated: Sir Loin 25K/75SA x Brown Knee 43.75K/56.25SA). Mother of Banana Split. Status unknown - not in recent notebook.",
     confidence="low", csv_row=7))
 
 db["sheep"].append(sheep("banana-split", "Banana Split", "ewe", "unknown",
-    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 70.25, "Katahdin": 29.75}, "coat_type": "mixed", "hair_percentage": 30},
+    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 70.3125, "Katahdin": 29.6875}, "coat_type": "mixed", "hair_percentage": 30},
     weight_lbs=235, dob="2015-11-14", dob_approximate=True,
     sire_id="sir-loin", dam_id="black-spot-on-ear",
     offspring_ids=["banana-split-baby"],
-    notes="From CSV. 70.25% St Augustine, 29.75% Katahdin. Sir Loin x Black Spot on Ear. Mother of Banana Split Baby. Status unknown - not in recent notebook.",
+    notes="From CSV & Breeding DB. 70.3% St Augustine, 29.7% Katahdin (calculated: Sir Loin x Black Spot on Ear). Mother of Banana Split Baby. Status unknown - not in recent notebook.",
     confidence="low", csv_row=8))
 
 db["sheep"].append(sheep("fleecity", "Fleecity", "ewe", "unknown",
@@ -855,10 +870,10 @@ db["sheep"].append(sheep("fleecity", "Fleecity", "ewe", "unknown",
 # Banana Split Baby - ram from CSV (Sir Loin x Banana Split)
 db["sheep"].append(sheep("banana-split-baby", "Banana Split Baby", "ram", "unknown",
     tag="8",
-    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 72.625, "Katahdin": 27.375}, "coat_type": "mixed", "hair_percentage": 27},
+    breed_composition={"primary": "St Augustine/Katahdin", "percentages": {"St Augustine": 72.656, "Katahdin": 27.344}, "coat_type": "mixed", "hair_percentage": 27},
     weight_lbs=12.3, dob="2022-02-23",
     sire_id="sir-loin", dam_id="banana-split",
-    notes="From CSV. 72.625% St Augustine, 27.375% Katahdin. Sir Loin x Banana Split. Status unknown - not in recent notebook.",
+    notes="From CSV & Breeding DB. ~72.7% St Augustine, ~27.3% Katahdin (calculated: Sir Loin x Banana Split). Status unknown - not in recent notebook.",
     confidence="low", csv_row=9))
 
 # Anna's Big One - ewe from CSV (Sir Loin x Anna)
