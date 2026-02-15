@@ -8,24 +8,27 @@
       "flock_record_v2.xlsx",
       "data.csv",
       "google_sheet",
-      "Sheep_Breeding_DB_CURRENT_COPY.xlsx"
+      "Sheep_Breeding_DB_CURRENT_COPY.xlsx",
+      "comprehensive_flock_spreadsheet (Feb 2026)"
     ],
     "primary_source": "spiral_notebook",
-    "notes": "Spiral notebook images are the most current and authoritative. When sources conflict, notebook wins. Mom writes Azure as 'Amure'.",
-    "total_sheep": 98,
-    "active_sheep": 64,
-    "deceased_count": 19,
+    "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
+    "total_sheep": 97,
+    "active_sheep": 63,
+    "deceased_count": 22,
+    "culled_count": 1,
     "sold_count": 1,
-    "unknown_count": 14
+    "unknown_count": 10
   },
   "sheep": [
     {
       "id": "sir-loin",
       "name": "Sir Loin",
       "aliases": [
-        "Sirloin"
+        "Sirloin",
+        "SL"
       ],
-      "tag": null,
+      "tag": "2",
       "mc_tag": null,
       "sex": "ram",
       "breed_composition": {
@@ -37,7 +40,7 @@
         "coat_type": "mixed",
         "hair_percentage": 25
       },
-      "color_markings": "",
+      "color_markings": "White",
       "weight_lbs": 300,
       "dob": "2012-01-01",
       "dob_approximate": true,
@@ -59,14 +62,15 @@
         "is_breeding_animal": true,
         "breeding_group": "",
         "offspring_ids": [
-          "banana",
-          "brown-knee",
-          "black-spot-on-ear",
-          "banana-split",
+          "annas-big-one",
           "half-tail",
           "broken-tail",
-          "banana-split-baby",
-          "annas-big-one"
+          "hersheys",
+          "bsoe",
+          "bsoed",
+          "elsie",
+          "little-song",
+          "ab1"
         ],
         "lambing_records": []
       },
@@ -74,7 +78,7 @@
         "csv_row": 1,
         "notebook_image": []
       },
-      "notes": "Large ram, 300lbs. 75% St Augustine, 25% Katahdin per Breeding DB calculations. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire across most pens.",
+      "notes": "Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin, White, 300lbs. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. In Pen 1 per spreadsheet but Pen 2 per notebook - using notebook as authoritative.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -389,17 +393,27 @@
     {
       "id": "kaladin",
       "name": "Kaladin",
-      "aliases": [],
+      "aliases": [
+        "Kal"
+      ],
       "tag": "014",
       "mc_tag": null,
       "sex": "ram",
-      "breed_composition": {},
-      "color_markings": "",
+      "breed_composition": {
+        "primary": "Cracker/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "Katahdin": 50
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50
+      },
+      "color_markings": "White w black ears",
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "smore",
+      "dam_id": "anna",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -429,7 +443,7 @@
           "IMG_8630.PNG"
         ]
       },
-      "notes": "Ram for pen 1. With Eclipse, Merrie, Abg, Fm.",
+      "notes": "Flock spreadsheet: 50% Cracker / 50% Katahdin. S'More (100% Cracker) x Anna (100% Katahdin). White w black ears. Alive per notebook (Pen 1 ram) - spreadsheet may be outdated on status. With Eclipse, Merrie, Abg, Fm.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -437,7 +451,7 @@
       "id": "smore",
       "name": "S'More",
       "aliases": [],
-      "tag": null,
+      "tag": "22",
       "mc_tag": null,
       "sex": "ram",
       "breed_composition": {
@@ -449,12 +463,12 @@
         "hair_percentage": 50
       },
       "color_markings": "Red",
-      "weight_lbs": 180,
+      "weight_lbs": 200,
       "dob": "2021-01-14",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "unknown",
+      "status": "deceased",
       "status_date": null,
       "status_notes": "",
       "pen": null,
@@ -469,22 +483,24 @@
       "breeding": {
         "is_breeding_animal": true,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "kaladin"
+        ],
         "lambing_records": []
       },
       "source_refs": {
         "csv_row": 2,
         "notebook_image": []
       },
-      "notes": "From CSV. Cracker ram, 180lbs, Red. Sire: Gigantus, Dam: Minnie (off-farm). Also appears in Breeding DB as a ram. Status unknown - not in recent notebook.",
-      "confidence": "low",
+      "notes": "Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2023 lambs including Pippen, Merrie, Danny's Girl, Circle Tail, BK1, BK2, HT1, anna1, BT1/BT2, Shaggy1, Shaggy2, BSOE1, BSOE2, Boots1, and Kaladin (by Anna).",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
       "id": "well-done",
       "name": "Well Done",
       "aliases": [],
-      "tag": null,
+      "tag": "8",
       "mc_tag": null,
       "sex": "ram",
       "breed_composition": {
@@ -496,7 +512,7 @@
         "hair_percentage": 100
       },
       "color_markings": "Black",
-      "weight_lbs": 100,
+      "weight_lbs": 175,
       "dob": "2021-02-14",
       "dob_approximate": true,
       "sire_id": null,
@@ -517,7 +533,8 @@
         "is_breeding_animal": true,
         "breeding_group": "",
         "offspring_ids": [
-          "stew"
+          "stew",
+          "elsie"
         ],
         "lambing_records": []
       },
@@ -525,7 +542,7 @@
         "csv_row": 3,
         "notebook_image": []
       },
-      "notes": "From CSV. Katahdin ram, 100lbs. Sire: Big Daddy, Dam: Golf (off-farm). Father of Stew (by Fleecity). Culled (C) per Breeding DB: did not pass on his parasite resistance well.",
+      "notes": "Flock spreadsheet: Tag 8, 100% Katahdin, 175lbs. Sire: Big Daddy, Dam: Gulf (off-farm). Father of Stew (by Fleecity) and Elsie (by Half Tail). Culled per Breeding DB.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -934,20 +951,21 @@
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Katahdin/St Augustine",
+        "primary": "Katahdin/St Augustine/BBB",
         "percentages": {
-          "Katahdin": 72,
-          "St Augustine": 28
+          "Katahdin": 65.625,
+          "St Augustine": 28.125,
+          "Barbados Blackbelly": 6.25
         },
         "coat_type": "hair",
         "hair_percentage": 72
       },
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "color_markings": "Black/White",
+      "weight_lbs": 110,
+      "dob": "2022-02-14",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "well-done",
+      "dam_id": "half-tail",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -979,7 +997,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Tag 26. FAMACHA 1 (excellent). 72% Katahdin, 28% St Augustine per Breeding DB. In Samson/pen 4 group per notebook. Lambed 2026-01-23 (twins).",
+      "notes": "Flock spreadsheet: Tag 26, 6.25% BBB / 65.625% Katahdin / 28.125% St Augustine, 110lbs. DOB 2/14/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). FAMACHA 1 (excellent). In Samson/pen 4 group per notebook. Lambed 2026-01-23 (twins).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -987,24 +1005,24 @@
       "id": "nori",
       "name": "Nori",
       "aliases": [
-        "Tag 29"
+        "Tag 29",
+        "No"
       ],
       "tag": "029",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Cracker/ABB/Wiltshire",
+        "primary": "BBB/Wiltshire Horn",
         "percentages": {
-          "Cracker": 50,
-          "American Blackbelly": 25,
-          "Wiltshire Horn": 25
+          "Barbados Blackbelly": 50,
+          "Wiltshire Horn": 50
         },
         "coat_type": "hair",
-        "hair_percentage": 75
+        "hair_percentage": 100
       },
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "color_markings": "Badger",
+      "weight_lbs": 125,
+      "dob": "2023-02-01",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
@@ -1035,7 +1053,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Retagged to 29. Mother of NoriSon (tag 54). In pen 4 (Samson group). From Google Sheet Pen 6 breed data.",
+      "notes": "Flock spreadsheet: Tag 26/retagged 29, 50% BBB / 50% Wiltshire Horn, Badger, 125lbs. DOB 2/1/2023. Sire: BBB, Dam: Wiltshire Horn (breed parents). Mother of NoriSon (tag 54). In pen 4 (Samson group).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -1193,27 +1211,29 @@
     {
       "id": "serendipity",
       "name": "Serendipity",
-      "aliases": [],
+      "aliases": [
+        "SE"
+      ],
       "tag": "030",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Katahdin/St Augustine/Babydoll/Jacob",
+        "primary": "St Augustine/Babydoll/Jacob/Katahdin",
         "percentages": {
-          "Katahdin": 12.5,
           "St Augustine": 37.5,
           "Babydoll": 25,
-          "Jacob": 25
+          "Jacob": 25,
+          "Katahdin": 12.5
         },
         "coat_type": "mixed",
         "hair_percentage": 75
       },
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "color_markings": "Black",
+      "weight_lbs": 140,
+      "dob": "2022-01-12",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "sir-loin",
+      "dam_id": "shaggy",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -1245,7 +1265,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Tag 30. In pen 6 (no ram). 75% hair per Google Sheet. Mother of Mc12/036 baby ewe. Low score noted 7-24-25.",
+      "notes": "Flock spreadsheet: 25% Babydoll / 25% Jacob / 12.5% Katahdin / 37.5% St Augustine, Black, 140lbs. DOB 1/12/2022. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Mother of Mc12/036 baby ewe. In pen 6 (no ram).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -1538,17 +1558,18 @@
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Katahdin/St Augustine",
+        "primary": "St Augustine/Katahdin/BBB",
         "percentages": {
-          "Katahdin": 43.75,
-          "St Augustine": 56.25
+          "St Augustine": 56.25,
+          "Katahdin": 31.25,
+          "Barbados Blackbelly": 12.5
         },
         "coat_type": "mixed",
         "hair_percentage": 44
       },
-      "color_markings": "",
-      "weight_lbs": 200,
-      "dob": "2016-01-01",
+      "color_markings": "White",
+      "weight_lbs": 180,
+      "dob": "2017-01-01",
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "hersheys",
@@ -1569,7 +1590,9 @@
         "breeding_group": "",
         "offspring_ids": [
           "broken-tail",
-          "half-tails-baby"
+          "half-tails-baby",
+          "elsie",
+          "ht1"
         ],
         "lambing_records": []
       },
@@ -1579,7 +1602,7 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "In pen 3 (Sam group). 43.75% Katahdin, 56.25% St Augustine (Sir Loin 25K/75SA x Hersheys 62.5K/37.5SA). Mother of Broken Tail and Half Tail's Baby (tag 007).",
+      "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Mother of Broken Tail, Elsie (by Well Done), HT1 (by S'More). In pen 3 (Sam group) per notebook.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -1594,17 +1617,18 @@
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "St Augustine/Katahdin",
+        "primary": "St Augustine/Katahdin/BBB",
         "percentages": {
           "St Augustine": 65.625,
-          "Katahdin": 34.375
+          "Katahdin": 28.125,
+          "Barbados Blackbelly": 6.25
         },
         "coat_type": "mixed",
         "hair_percentage": 34
       },
-      "color_markings": "",
-      "weight_lbs": 200,
-      "dob": "2017-01-01",
+      "color_markings": "White",
+      "weight_lbs": 225,
+      "dob": "2018-01-18",
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "half-tail",
@@ -1623,7 +1647,10 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "bt1-lamb",
+          "bt2-lamb"
+        ],
         "lambing_records": []
       },
       "source_refs": {
@@ -1633,24 +1660,35 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "In pen 5 (Rocky group). Tag 34. 65.625% St Augustine, 34.375% Katahdin (Sir Loin x Half Tail). Lambed 2026-01-20 (twins, Pen 2).",
+      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
       "id": "trouble",
       "name": "Trouble",
-      "aliases": [],
+      "aliases": [
+        "Tr"
+      ],
       "tag": "033",
       "mc_tag": null,
       "sex": "ewe",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine/Dorper",
+        "percentages": {
+          "Katahdin": 37.5,
+          "St Augustine": 37.5,
+          "Dorper": 25
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62
+      },
+      "color_markings": "White",
+      "weight_lbs": 180,
+      "dob": "2021-01-01",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "sir-loin",
+      "dam_id": "haylee-lawson",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -1675,24 +1713,35 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Tag 33. In pen 5 treatment list.",
-      "confidence": "medium",
+      "notes": "Flock spreadsheet: Tag 9/retagged 33, 25% Dorper / 37.5% Katahdin / 37.5% St Augustine, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). In pen 5 per notebook.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
       "id": "bsoe",
       "name": "Bsoe",
-      "aliases": [],
+      "aliases": [
+        "Black Spot on Ear",
+        "BSOE"
+      ],
       "tag": "032",
       "mc_tag": null,
       "sex": "ewe",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine",
+        "percentages": {
+          "Katahdin": 56,
+          "St Augustine": 44
+        },
+        "coat_type": "hair",
+        "hair_percentage": 56
+      },
+      "color_markings": "White",
+      "weight_lbs": 185,
+      "dob": "2019-01-01",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "sir-loin",
+      "dam_id": "two-pence",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -1708,7 +1757,12 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "bsoe1",
+          "bsoe2",
+          "pippen",
+          "merrie-bs2"
+        ],
         "lambing_records": []
       },
       "source_refs": {
@@ -1717,24 +1771,35 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Tag 32 (switched with Bsoed's 31). In pen 5.",
-      "confidence": "medium",
+      "notes": "Flock spreadsheet: 56% Katahdin / 44% St Augustine, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOE1/Pippen and BSOE2/Merrie (by S'More). Tag 32 (switched with Bsoed). In pen 5 per notebook.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
       "id": "bsoed",
       "name": "Bsoed",
-      "aliases": [],
+      "aliases": [
+        "Black Spot Daughter",
+        "BSOED"
+      ],
       "tag": "031",
       "mc_tag": null,
       "sex": "ewe",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "Katahdin": 40.5,
+          "St Augustine": 59.5
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 40
+      },
+      "color_markings": "White",
+      "weight_lbs": 175,
+      "dob": "2020-01-18",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "sir-loin",
+      "dam_id": "bsoe",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -1759,8 +1824,8 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Tag 31 (switched with Bsoe's 32). In pen 5.",
-      "confidence": "medium",
+      "notes": "Flock spreadsheet: ~40.5% Katahdin / ~59.5% St Augustine, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). In pen 5 per notebook.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -1779,9 +1844,9 @@
         "coat_type": "wool",
         "hair_percentage": 0
       },
-      "color_markings": "",
-      "weight_lbs": 225,
-      "dob": "2021-01-01",
+      "color_markings": "Red",
+      "weight_lbs": 200,
+      "dob": "2021-01-10",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
@@ -1800,7 +1865,9 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "flan"
+        ],
         "lambing_records": []
       },
       "source_refs": {
@@ -1812,7 +1879,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "In Pen 1 (Kaladin group). On weak resistance list. No treat at tag day. From CSV: 50% Cotswold, 50% Tunis. Parents: FM's Dad x FM's Mom (off-farm). Lambed 2026-02-01.",
+      "notes": "Flock spreadsheet: Tag GA1568-011, 50% Cotswold / 50% Tunis, Red, 200lbs. DOB 1/10/2021. Purchased (Sire: Annie 1, Dam: Annie 2). Mother of Flan (by Sir Loin). In Pen 1 (Kaladin group). On weak resistance list. Lambed 2026-02-01.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -1956,71 +2023,30 @@
       "last_verified": "2026-02-15"
     },
     {
-      "id": "banana",
-      "name": "Banana",
-      "aliases": [],
+      "id": "circle-tail",
+      "name": "Circle Tail",
+      "aliases": [
+        "CT1"
+      ],
       "tag": null,
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Katahdin/St Augustine",
+        "primary": "Cracker/St Augustine/Katahdin",
         "percentages": {
-          "Katahdin": 62.5,
-          "St Augustine": 37.5
+          "Cracker": 50,
+          "St Augustine": 28.125,
+          "Katahdin": 21.875
         },
-        "coat_type": "hair",
-        "hair_percentage": 62
+        "coat_type": "mixed",
+        "hair_percentage": 50
       },
-      "color_markings": "",
-      "weight_lbs": 250,
-      "dob": "2014-12-01",
-      "dob_approximate": true,
-      "sire_id": "sir-loin",
-      "dam_id": "anna",
-      "status": "alive",
-      "status_date": null,
-      "status_notes": "",
-      "pen": "Pen 4",
-      "measurements": {},
-      "health": {
-        "famacha_scores": [],
-        "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [],
-        "notes": []
-      },
-      "breeding": {
-        "is_breeding_animal": false,
-        "breeding_group": "",
-        "offspring_ids": [
-          "brown-knee"
-        ],
-        "lambing_records": []
-      },
-      "source_refs": {
-        "csv_row": 5,
-        "notebook_image": [
-          "IMG_8629.PNG"
-        ]
-      },
-      "notes": "In pen 4 (Samson group). 62.5% Katahdin, 37.5% St Augustine. Sir Loin x Anna. Mother of Brown Knee.",
-      "confidence": "high",
-      "last_verified": "2026-02-15"
-    },
-    {
-      "id": "circle-tail",
-      "name": "Circle Tail",
-      "aliases": [],
-      "tag": null,
-      "mc_tag": null,
-      "sex": "ewe",
-      "breed_composition": {},
       "color_markings": "",
       "weight_lbs": null,
-      "dob": null,
+      "dob": "2023-01-22",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "smore",
+      "dam_id": "brown-knee",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -2053,8 +2079,8 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "In pen 6 (no ram). On weak resistance list. FAMACHA 5, treated with iron.",
-      "confidence": "medium",
+      "notes": "Flock spreadsheet: 50% Cracker / 21.875% Katahdin / 28.125% St Augustine. DOB 1/22/2023. S'More (100Cr) x Brown Knee (43.75K/56.25SA). In pen 6 (no ram). On weak resistance list. FAMACHA 5.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -2284,7 +2310,7 @@
       "id": "anna",
       "name": "Anna",
       "aliases": [],
-      "tag": null,
+      "tag": "1",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
@@ -2295,13 +2321,13 @@
         "coat_type": "hair",
         "hair_percentage": 100
       },
-      "color_markings": "",
-      "weight_lbs": 250,
-      "dob": "2010-01-01",
+      "color_markings": "White",
+      "weight_lbs": 175,
+      "dob": "2012-01-12",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "unknown",
+      "status": "deceased",
       "status_date": null,
       "status_notes": "",
       "pen": null,
@@ -2317,8 +2343,8 @@
         "is_breeding_animal": false,
         "breeding_group": "",
         "offspring_ids": [
-          "banana",
-          "annas-big-one"
+          "annas-big-one",
+          "kaladin"
         ],
         "lambing_records": []
       },
@@ -2326,35 +2352,35 @@
         "csv_row": 4,
         "notebook_image": []
       },
-      "notes": "From CSV. Katahdin ewe, 250lbs. DOB ~2010. Sire: Show King, Dam: Queen (off-farm). Mother of Banana and Anna's Big One (both by Sir Loin). Status unknown - not in recent notebook.",
-      "confidence": "low",
+      "notes": "Flock spreadsheet: Tag 1, 100% Katahdin, 175lbs. DOB 1/12/2012. Sire: Show King, Dam: Show Queen (off-farm). Mother of Anna's Big One (by Sir Loin) and Kaladin (by S'More). Deceased per flock spreadsheet.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
       "id": "boots",
       "name": "Boots",
       "aliases": [],
-      "tag": "006",
+      "tag": "7",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Katahdin/Dorper",
+        "primary": "Dorper/Katahdin",
         "percentages": {
-          "Katahdin": 50,
-          "Dorper": 50
+          "Dorper": 50,
+          "Katahdin": 50
         },
         "coat_type": "hair",
         "hair_percentage": 100
       },
-      "color_markings": "White x Tan Markings",
-      "weight_lbs": 125,
-      "dob": "2021-01-14",
+      "color_markings": "White/Tan",
+      "weight_lbs": 130,
+      "dob": "2020-02-14",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
+      "status": "culled",
       "status_date": null,
-      "status_notes": "",
+      "status_notes": "Culled per flock spreadsheet",
       "pen": null,
       "measurements": {},
       "health": {
@@ -2367,7 +2393,10 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "dannys-girl",
+          "boots-1"
+        ],
         "lambing_records": []
       },
       "source_refs": {
@@ -2376,8 +2405,8 @@
           "IMG_8623.PNG"
         ]
       },
-      "notes": "Tag 006. From CSV: 50% Katahdin, 50% Dorper. Parents: Boots Dad x Boots Mom (off-farm). Sibling of Fleecity (same parents). Also in breeding DB as active ewe.",
-      "confidence": "medium",
+      "notes": "Flock spreadsheet: Tag 7, 50% Dorper / 50% Katahdin, 130lbs. DOB 2/14/2020. Purchased from Maria (Sire: Maria 1, Dam: Maria 2). Mother of Danny's Girl and Boots 1 (both by S'More). Culled.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -2431,17 +2460,27 @@
     {
       "id": "little-song",
       "name": "Little Song",
-      "aliases": [],
+      "aliases": [
+        "LS"
+      ],
       "tag": "008",
       "mc_tag": null,
       "sex": "ewe",
-      "breed_composition": {},
-      "color_markings": "",
+      "breed_composition": {
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "Katahdin": 43.75,
+          "St Augustine": 56.25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 44
+      },
+      "color_markings": "White",
       "weight_lbs": null,
-      "dob": null,
+      "dob": "2023-01-24",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "sir-loin",
+      "dam_id": "annas-big-one",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -2470,8 +2509,8 @@
           "IMG_8624.PNG"
         ]
       },
-      "notes": "Tag 008. From measurement list.",
-      "confidence": "medium",
+      "notes": "Flock spreadsheet: Tag 8/retagged 008, 43.75% Katahdin / 56.25% St Augustine, White. DOB 1/24/2023. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). In Pen 1 per spreadsheet.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -3335,8 +3374,8 @@
         "hair_percentage": 0
       },
       "color_markings": "Black",
-      "weight_lbs": 100,
-      "dob": "2021-02-15",
+      "weight_lbs": 140,
+      "dob": "2019-01-01",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
@@ -3361,7 +3400,11 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "serendipity",
+          "shaggy-1",
+          "shaggy-2"
+        ],
         "lambing_records": []
       },
       "source_refs": {
@@ -3372,7 +3415,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Deceased per weak resistance list. Was in pen 6. From CSV: 50% Babydoll, 50% Jacob. Parents: Shaggys Dad x Shaggys Mom (off-farm).",
+      "notes": "Flock spreadsheet: 50% Babydoll / 50% Jacob, Black, 140lbs. DOB ~1/1/2019. Purchased (Sire: Jacob 1, Dam: Baby Doll 1). Mother of Serendipity (by Sir Loin), Shaggy 1 and Shaggy 2 (by S'More). Deceased per weak resistance list.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -3556,24 +3599,25 @@
       "id": "hersheys",
       "name": "Hersheys",
       "aliases": [],
-      "tag": null,
+      "tag": "3",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Katahdin/St Augustine",
+        "primary": "BBB/Katahdin/St Augustine",
         "percentages": {
-          "Katahdin": 62.5,
+          "Barbados Blackbelly": 25,
+          "Katahdin": 37.5,
           "St Augustine": 37.5
         },
-        "coat_type": "hair",
+        "coat_type": "mixed",
         "hair_percentage": 62
       },
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "color_markings": "Black",
+      "weight_lbs": 150,
+      "dob": "2015-02-01",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "sir-loin",
+      "dam_id": "sugar",
       "status": "deceased",
       "status_date": null,
       "status_notes": "",
@@ -3598,7 +3642,7 @@
         "csv_row": 18,
         "notebook_image": []
       },
-      "notes": "From CSV. Deceased. Katahdin/St Augustine mix. Mother of Half Tail (by Sir Loin).",
+      "notes": "Flock spreadsheet: Tag 3, 25% BBB / 37.5% Katahdin / 37.5% St Augustine, 150lbs. DOB 2/1/2015. Sir Loin (25K/75SA) x Sugar (50BBB/50K). Mother of Half Tail. Deceased.",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -3786,13 +3830,20 @@
       "id": "razzle",
       "name": "Razzle",
       "aliases": [],
-      "tag": null,
+      "tag": "5",
       "mc_tag": null,
-      "sex": "unknown",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Barbados Blackbelly",
+        "percentages": {
+          "Barbados Blackbelly": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Badger",
+      "weight_lbs": 125,
+      "dob": "2014-03-01",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
@@ -3811,34 +3862,43 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "sugar"
+        ],
         "lambing_records": []
       },
       "source_refs": {
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Sheep Breeding DB. Culled (C) for temperament issues.",
-      "confidence": "medium",
+      "notes": "Flock spreadsheet: Tag 5, 100% BBB ram, Badger color, 125lbs. DOB 3/1/2014. Purchased from auction (Sire: Auction 1, Dam: Auction 2). Father of Sugar (by Frazzle). Culled for temperament.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
       "id": "frazzle",
       "name": "Frazzle",
       "aliases": [],
-      "tag": null,
+      "tag": "6",
       "mc_tag": null,
-      "sex": "unknown",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Black",
+      "weight_lbs": 175,
+      "dob": "2013-02-27",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
       "status": "deceased",
       "status_date": null,
-      "status_notes": "Culled - age",
+      "status_notes": "Died - age",
       "pen": null,
       "measurements": {},
       "health": {
@@ -3851,15 +3911,17 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "sugar"
+        ],
         "lambing_records": []
       },
       "source_refs": {
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Sheep Breeding DB. Culled (D) for age.",
-      "confidence": "medium",
+      "notes": "Flock spreadsheet: Tag 6, 100% Katahdin ewe, Black, 175lbs. DOB 2/27/2013. Purchased from auction (Sire: Auction 2, Dam: Auction 3). Mother of Sugar (by Razzle). Died of old age.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -3906,16 +3968,24 @@
       "id": "sugar",
       "name": "Sugar",
       "aliases": [],
-      "tag": null,
+      "tag": "4",
       "mc_tag": null,
       "sex": "ewe",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "breed_composition": {
+        "primary": "BBB/Katahdin",
+        "percentages": {
+          "Barbados Blackbelly": 50,
+          "Katahdin": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Tan",
+      "weight_lbs": 224,
+      "dob": "2014-02-14",
       "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "razzle",
+      "dam_id": "frazzle",
       "status": "deceased",
       "status_date": null,
       "status_notes": "Culled - mastitis",
@@ -3931,15 +4001,17 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "hersheys"
+        ],
         "lambing_records": []
       },
       "source_refs": {
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Sheep Breeding DB. Ewe culled (C) for mastitis.",
-      "confidence": "medium",
+      "notes": "Flock spreadsheet: Tag 4, 50% BBB / 50% Katahdin, Tan, 224lbs. DOB 2/14/2014. Razzle (100BBB) x Frazzle (100K). Mother of Hersheys (by Sir Loin). Culled for mastitis.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -3989,7 +4061,15 @@
       "tag": null,
       "mc_tag": null,
       "sex": "ewe",
-      "breed_composition": {},
+      "breed_composition": {
+        "primary": "Katahdin/St Augustine",
+        "percentages": {
+          "Katahdin": 87,
+          "St Augustine": 13
+        },
+        "coat_type": "hair",
+        "hair_percentage": 87
+      },
       "color_markings": "",
       "weight_lbs": null,
       "dob": null,
@@ -4011,34 +4091,94 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "bsoe"
+        ],
         "lambing_records": []
       },
       "source_refs": {
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Sheep Breeding DB. Ewe culled (C) as daughter of cryptorchid (Almond Joy).",
+      "notes": "From Sheep Breeding DB. Ewe culled as daughter of cryptorchid (Almond Joy). Mother of BSOE (by Sir Loin). Breed estimated from BSOE's composition: if BSOE=56K/44SA and Sir Loin=25K/75SA, Two Pence ~87K/13SA.",
       "confidence": "medium",
       "last_verified": "2026-02-15"
     },
     {
-      "id": "pretzal",
-      "name": "Pretzal",
+      "id": "haylee-lawson",
+      "name": "Haylee Lawson",
       "aliases": [],
-      "tag": null,
+      "tag": "14",
       "mc_tag": null,
-      "sex": "unknown",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
-      "dob": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Dorper/Katahdin",
+        "percentages": {
+          "Dorper": 50,
+          "Katahdin": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "White",
+      "weight_lbs": 175,
+      "dob": "2019-01-01",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
       "status": "deceased",
       "status_date": null,
       "status_notes": "",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [
+          "trouble"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Flock spreadsheet: Tag 14, 50% Dorper / 50% Katahdin, White, 175lbs. DOB ~1/1/2019. Purchased (Sire: HL1, Dam: HL2). Mother of Trouble (by Sir Loin). Deceased.",
+      "confidence": "high",
+      "last_verified": "2026-02-15"
+    },
+    {
+      "id": "pretzel",
+      "name": "Pretzel",
+      "aliases": [],
+      "tag": "13",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Dorper/Katahdin",
+        "percentages": {
+          "Dorper": 75,
+          "Katahdin": 25
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "Black/White",
+      "weight_lbs": 130,
+      "dob": "2022-01-20",
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "deceased",
+      "status_date": null,
+      "status_notes": "Deceased per flock spreadsheet",
       "pen": null,
       "measurements": {},
       "health": {
@@ -4058,8 +4198,8 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Sheep Breeding DB. Inactive/culled.",
-      "confidence": "low",
+      "notes": "Flock spreadsheet: Tag 13, 75% Dorper / 25% Katahdin, Black/White, 130lbs. DOB 1/20/2022. Purchased from Maria (Sire: Maria 3, Dam: Maria 4). Deceased.",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -4107,7 +4247,9 @@
     {
       "id": "brown-knee",
       "name": "Brown Knee",
-      "aliases": [],
+      "aliases": [
+        "BK"
+      ],
       "tag": null,
       "mc_tag": null,
       "sex": "ewe",
@@ -4121,11 +4263,11 @@
         "hair_percentage": 44
       },
       "color_markings": "",
-      "weight_lbs": 250,
-      "dob": "2014-12-01",
+      "weight_lbs": 150,
+      "dob": "2016-02-14",
       "dob_approximate": true,
       "sire_id": "sir-loin",
-      "dam_id": "banana",
+      "dam_id": "annas-big-one",
       "status": "unknown",
       "status_date": null,
       "status_notes": "",
@@ -4142,7 +4284,9 @@
         "is_breeding_animal": false,
         "breeding_group": "",
         "offspring_ids": [
-          "black-spot-on-ear"
+          "circle-tail",
+          "bk1",
+          "bk2"
         ],
         "lambing_records": []
       },
@@ -4150,58 +4294,8 @@
         "csv_row": 6,
         "notebook_image": []
       },
-      "notes": "From CSV & Breeding DB. 43.75% Katahdin, 56.25% St Augustine (calculated: Sir Loin 25K/75SA x Banana 62.5K/37.5SA). CSV originally said 56K/44SA but Breeding DB math is more accurate. Mother of Black Spot on Ear. Status unknown - not in recent notebook.",
-      "confidence": "low",
-      "last_verified": "2026-02-15"
-    },
-    {
-      "id": "black-spot-on-ear",
-      "name": "Black Spot on Ear",
-      "aliases": [],
-      "tag": null,
-      "mc_tag": null,
-      "sex": "ewe",
-      "breed_composition": {
-        "primary": "St Augustine/Katahdin",
-        "percentages": {
-          "St Augustine": 65.625,
-          "Katahdin": 34.375
-        },
-        "coat_type": "mixed",
-        "hair_percentage": 34
-      },
-      "color_markings": "",
-      "weight_lbs": 225,
-      "dob": "2015-11-25",
-      "dob_approximate": true,
-      "sire_id": "sir-loin",
-      "dam_id": "brown-knee",
-      "status": "unknown",
-      "status_date": null,
-      "status_notes": "",
-      "pen": null,
-      "measurements": {},
-      "health": {
-        "famacha_scores": [],
-        "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [],
-        "notes": []
-      },
-      "breeding": {
-        "is_breeding_animal": false,
-        "breeding_group": "",
-        "offspring_ids": [
-          "banana-split"
-        ],
-        "lambing_records": []
-      },
-      "source_refs": {
-        "csv_row": 7,
-        "notebook_image": []
-      },
-      "notes": "From CSV & Breeding DB. 65.625% St Augustine, 34.375% Katahdin (calculated: Sir Loin 25K/75SA x Brown Knee 43.75K/56.25SA). Mother of Banana Split. Status unknown - not in recent notebook.",
-      "confidence": "low",
+      "notes": "Flock spreadsheet: 43.75% Katahdin / 56.25% St Augustine, 150lbs. DOB 2/14/2016. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Mother of Circle Tail, BK1, and BK2 (by S'More). Note: BSOE's dam is Two Pence, not Brown Knee (corrected from earlier CSV).",
+      "confidence": "medium",
       "last_verified": "2026-02-15"
     },
     {
@@ -4225,7 +4319,7 @@
       "dob": "2015-11-14",
       "dob_approximate": true,
       "sire_id": "sir-loin",
-      "dam_id": "black-spot-on-ear",
+      "dam_id": "bsoe",
       "status": "unknown",
       "status_date": null,
       "status_notes": "",
@@ -4250,7 +4344,7 @@
         "csv_row": 8,
         "notebook_image": []
       },
-      "notes": "From CSV & Breeding DB. 70.3% St Augustine, 29.7% Katahdin (calculated: Sir Loin x Black Spot on Ear). Mother of Banana Split Baby. Status unknown - not in recent notebook.",
+      "notes": "From CSV & Breeding DB. 70.3% St Augustine, 29.7% Katahdin (calculated: Sir Loin x BSOE). Mother of Banana Split Baby. Status unknown - not in recent notebook. Note: old CSV had dam as 'Black Spot on Ear' which is the same as BSOE.",
       "confidence": "low",
       "last_verified": "2026-02-15"
     },
@@ -4355,8 +4449,11 @@
     {
       "id": "annas-big-one",
       "name": "Anna's Big One",
-      "aliases": [],
-      "tag": "9",
+      "aliases": [
+        "Banana",
+        "B"
+      ],
+      "tag": null,
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
@@ -4368,16 +4465,16 @@
         "coat_type": "hair",
         "hair_percentage": 62
       },
-      "color_markings": "",
-      "weight_lbs": 120,
-      "dob": "2021-11-20",
+      "color_markings": "White",
+      "weight_lbs": 200,
+      "dob": "2014-12-01",
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "anna",
-      "status": "unknown",
+      "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": null,
+      "pen": "Pen 4",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -4389,15 +4486,19 @@
       "breeding": {
         "is_breeding_animal": false,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "brown-knee",
+          "little-song",
+          "ab1"
+        ],
         "lambing_records": []
       },
       "source_refs": {
         "csv_row": 10,
         "notebook_image": []
       },
-      "notes": "From CSV. 62.5% Katahdin, 37.5% St Augustine. Sir Loin x Anna. Status unknown - not in recent notebook.",
-      "confidence": "low",
+      "notes": "Flock spreadsheet: 62.5% Katahdin / 37.5% St Augustine, 200lbs. DOB 12/1/2014. Sir Loin x Anna. Called 'Banana' in notebook. In Pen 4 (Samson group) per notebook. Mother of Brown Knee (by Sir Loin), Little Song (by Sir Loin), and AB1 (by Sir Loin).",
+      "confidence": "high",
       "last_verified": "2026-02-15"
     },
     {
@@ -4749,9 +4850,9 @@
         "trouble",
         "bsoe",
         "bsoed",
-        "banana"
+        "annas-big-one"
       ],
-      "notes": "Samson's group (Samson may be deceased - replaced?). Pen 4 also home to Kelsier and GG per Google Sheet."
+      "notes": "Samson's group (Samson may be deceased - replaced?). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet."
     },
     "pen_5": {
       "ram": "rocky",
