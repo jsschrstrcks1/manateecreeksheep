@@ -284,13 +284,13 @@ db["sheep"].append(sheep("azure", "Azure", "ewe", "alive",
 # Elsie - ewe, tag 26 (Well Done x Half Tail)
 db["sheep"].append(sheep("elsie", "Elsie", "ewe", "alive",
     tag="026",
-    pen="Pen 4",
+    pen="Pen 6",
     famacha_scores=[{"score": 1, "date": "2025-tag-day", "notes": "no treat needed"}],
     breed_composition={"primary": "Katahdin/St Augustine/BBB", "percentages": {"Katahdin": 65.625, "St Augustine": 28.125, "Barbados Blackbelly": 6.25}, "coat_type": "hair", "hair_percentage": 72},
     color_markings="Black/White",
     weight_lbs=110, dob="2022-02-14",
     sire_id="well-done", dam_id="half-tail",
-    notes="Flock spreadsheet: Tag 26, 6.25% BBB / 65.625% Katahdin / 28.125% St Augustine, 110lbs. DOB 2/14/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). FAMACHA 1 (excellent). In Samson/pen 4 group per notebook. Lambed 2026-01-23 (twins).",
+    notes="Flock spreadsheet: Tag 26, 6.25% BBB / 65.625% Katahdin / 28.125% St Augustine, 110lbs. DOB 2/14/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). FAMACHA 1 (excellent). Was in pen 4 (Samson group). Now in Pen 6 with triplets per owner. Lambed 2026-01-23 (triplets).",
     confidence="high",
     notebook_image=["IMG_8639.PNG", "IMG_8641.PNG"]))
 
@@ -1030,8 +1030,8 @@ db["pens"] = {
     },
     "pen_4": {
         "ram": "samson",
-        "ewes": ["elsie", "nori", "trouble", "bsoe", "bsoed", "annas-big-one"],
-        "notes": "Samson's group (Samson may be deceased - replaced?). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet."
+        "ewes": ["nori", "trouble", "bsoe", "bsoed", "annas-big-one"],
+        "notes": "Samson's group (Samson deceased — pen may have new ram). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet. Elsie moved to Pen 6 with triplets."
     },
     "pen_5": {
         "ram": "nori-son",
@@ -1040,8 +1040,8 @@ db["pens"] = {
     },
     "pen_6": {
         "ram": None,
-        "ewes": ["serendipity", "s1", "fm1", "fox-tail", "circle-tail"],
-        "notes": "No ram. Shaggy was here but is deceased (killed after Hurricane Helene)."
+        "ewes": ["elsie", "serendipity", "s1", "fm1", "fox-tail", "circle-tail"],
+        "notes": "No ram. Elsie moved here with her triplets. Shaggy was here but is deceased (killed after Hurricane Helene). Serendipity's current pen uncertain per owner — listed here from notebook but may have moved."
     },
     "goose_pen": {
         "ram": None,
@@ -1056,7 +1056,7 @@ db["pens"] = {
 
 db["lambing_records_2026"] = [
     {"date": "2026-01-20", "dam": "Broken Tail", "sire": "[UNCLEAR]", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins", "pen": "Pen 2"},
-    {"date": "2026-01-23", "dam": "Elsie", "sire": "[UNCLEAR]", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins (EH = ewe healthy)", "pen": "Pen 4"},
+    {"date": "2026-01-23", "dam": "Elsie", "sire": "[UNCLEAR]", "lambs_born": 3, "lambs_alive": 3, "notes": "Triplets per owner. Elsie now in Pen 6 with lambs.", "pen": "Pen 6"},
     {"date": "2026-01-25", "dam": "Nori", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "EH", "pen": "Pen 4"},
     {"date": "2026-01-27", "dam": "Tag 33", "sire": "[UNCLEAR]", "lambs_born": 2, "lambs_alive": 2, "notes": "Twins (Ew = ewe)", "pen": "Pen 1"},
     {"date": "2026-01-28", "dam": "Zara", "sire": "[UNCLEAR]", "lambs_born": 1, "lambs_alive": 1, "notes": "EH", "pen": "Pen 3"},

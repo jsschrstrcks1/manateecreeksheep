@@ -938,7 +938,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": "Pen 6",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -966,7 +966,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: Tag 26, 6.25% BBB / 65.625% Katahdin / 28.125% St Augustine, 110lbs. DOB 2/14/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). FAMACHA 1 (excellent). In Samson/pen 4 group per notebook. Lambed 2026-01-23 (twins).",
+      "notes": "Flock spreadsheet: Tag 26, 6.25% BBB / 65.625% Katahdin / 28.125% St Augustine, 110lbs. DOB 2/14/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). FAMACHA 1 (excellent). Was in pen 4 (Samson group). Now in Pen 6 with triplets per owner. Lambed 2026-01-23 (triplets).",
       "confidence": "high",
       "last_verified": "2026-02-15"
     },
@@ -1192,7 +1192,8 @@
       "id": "serendipity",
       "name": "Serendipity",
       "aliases": [
-        "SE"
+        "SE",
+        "Seren"
       ],
       "tag": "030",
       "mc_tag": null,
@@ -4852,14 +4853,13 @@
     "pen_4": {
       "ram": "samson",
       "ewes": [
-        "elsie",
         "nori",
         "trouble",
         "bsoe",
         "bsoed",
         "annas-big-one"
       ],
-      "notes": "Samson's group (Samson may be deceased - replaced?). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet."
+      "notes": "Samson's group (Samson deceased \u2014 pen may have new ram). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet. Elsie moved to Pen 6 with triplets."
     },
     "pen_5": {
       "ram": "nori-son",
@@ -4872,13 +4872,14 @@
     "pen_6": {
       "ram": null,
       "ewes": [
+        "elsie",
         "serendipity",
         "s1",
         "fm1",
         "fox-tail",
         "circle-tail"
       ],
-      "notes": "No ram. Shaggy was here but is deceased (killed after Hurricane Helene)."
+      "notes": "No ram. Elsie moved here with her triplets. Shaggy was here but is deceased (killed after Hurricane Helene). Serendipity's current pen uncertain per owner \u2014 listed here from notebook but may have moved."
     },
     "goose_pen": {
       "ram": null,
@@ -4900,10 +4901,10 @@
       "date": "2026-01-23",
       "dam": "Elsie",
       "sire": "[UNCLEAR]",
-      "lambs_born": 2,
-      "lambs_alive": 2,
-      "notes": "Twins (EH = ewe healthy)",
-      "pen": "Pen 4"
+      "lambs_born": 3,
+      "lambs_alive": 3,
+      "notes": "Triplets per owner. Elsie now in Pen 6 with lambs.",
+      "pen": "Pen 6"
     },
     {
       "date": "2026-01-25",
