@@ -344,7 +344,7 @@ db["sheep"].append(sheep("cinderella", "Cinderella", "ewe", "alive",
 # Serendipity - ewe, tag 30 (Sir Loin x Shaggy)
 db["sheep"].append(sheep("serendipity", "Serendipity", "ewe", "alive",
     tag="030",
-    aliases=["SE"],
+    aliases=["SE", "Seren"],
     pen="Pen 6",
     breed_composition={"primary": "St Augustine/Babydoll/Jacob/Katahdin", "percentages": {"St Augustine": 37.5, "Babydoll": 25, "Jacob": 25, "Katahdin": 12.5}, "coat_type": "mixed", "hair_percentage": 75},
     color_markings="Black",
