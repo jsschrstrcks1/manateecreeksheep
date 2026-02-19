@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manatee Creek Sheep</title>
+
+<!-- ═══ ANTI-INDEXING: Block everything ═══ -->
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate, noodp">
+<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="bingbot" content="noindex, nofollow">
+<meta name="GPTBot" content="noindex, nofollow">
+<meta name="CCBot" content="noindex, nofollow">
+<meta name="Google-Extended" content="noindex, nofollow">
+<meta name="ChatGPT-User" content="noindex, nofollow">
+<meta name="anthropic-ai" content="noindex, nofollow">
+<meta name="ClaudeBot" content="noindex, nofollow">
+<meta name="Bytespider" content="noindex, nofollow">
+<meta name="PerplexityBot" content="noindex, nofollow">
+<meta name="Amazonbot" content="noindex, nofollow">
+<meta name="FacebookBot" content="noindex, nofollow">
+<meta name="Applebot-Extended" content="noindex, nofollow">
+<meta name="Diffbot" content="noindex, nofollow">
+<meta name="cohere-ai" content="noindex, nofollow">
+<meta name="ia_archiver" content="noindex, nofollow">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&display=swap" rel="stylesheet">
+
+<style>
+/* ═══════════════════════════════════════════════════════════════
+   MANATEE CREEK SHEEP — Heritage Ranch Aesthetic
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --bg-deep:    #100e0c;
+  --bg-base:    #171412;
+  --bg-surface: #1f1b17;
+  --bg-card:    #272119;
+  --bg-raised:  #302920;
+  --border:     #3d3429;
+  --border-light:#50453a;
+
+  --text-primary:   #f0e8dc;
+  --text-secondary: #a89880;
+  --text-muted:     #7a6e60;
+
+  --accent:       #c8956c;
+  --accent-bright:#daa87a;
+  --accent-dim:   #96714f;
+
+  --green:       #6b9e6b;
+  --green-bg:    #1a2e1a;
+  --yellow:      #c8a04c;
+  --yellow-bg:   #2e2a14;
+  --red:         #b85a4a;
+  --red-bg:      #2e1714;
+
+  --radius:      8px;
+  --radius-lg:   12px;
+  --shadow:      0 2px 12px rgba(0,0,0,0.4);
+  --shadow-lg:   0 8px 32px rgba(0,0,0,0.5);
+
+  --font-display: 'Bitter', Georgia, 'Times New Roman', serif;
+  --font-body:    'Nunito Sans', 'Segoe UI', system-ui, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 15px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Grain texture overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 256px;
+}
+
+/* ─── Top Navigation ─── */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg-base);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.nav-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  gap: 2rem;
+}
+
+.nav-brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--accent-bright);
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+}
+
+.nav-brand span {
+  color: var(--text-muted);
+  font-weight: 400;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 0;
+  height: 100%;
+}
+
+.nav-tab {
+  display: flex;
+  align-items: center;
+  padding: 0 1.25rem;
+  height: 100%;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+  user-select: none;
+}
+
+.nav-tab:hover { color: var(--text-secondary); }
+.nav-tab.active {
+  color: var(--accent-bright);
+  border-bottom-color: var(--accent);
+}
+
+/* ─── Layout ─── */
+.page { display: none; }
+.page.active { display: block; }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.page-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+/* ─── Cards ─── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  border-color: var(--border-light);
+}
+
+.card-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent-bright);
+  margin-bottom: 0.75rem;
+}
+
+/* ─── Pen Grid ─── */
+.pen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.pen-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color 0.25s, transform 0.2s;
+  cursor: pointer;
+}
+
+.pen-card:hover {
+  border-color: var(--accent-dim);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.pen-card.selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent), var(--shadow-lg);
+}
+
+.pen-header {
+  padding: 1rem 1.25rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pen-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--accent-bright);
+}
+
+.pen-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background: var(--bg-raised);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+.pen-body {
+  padding: 0 1.25rem 1.25rem;
+}
+
+.pen-section-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.pen-section-label:first-child { margin-top: 0; }
+
+.sheep-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.65rem;
+  margin: 0.15rem 0.15rem;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  transition: background 0.15s;
+}
+
+.sheep-chip.ram {
+  border-color: rgba(107, 158, 107, 0.3);
+  background: rgba(107, 158, 107, 0.08);
+}
+
+.sheep-chip.ewe {
+  border-color: rgba(200, 149, 108, 0.2);
+}
+
+/* ─── Cross Builder ─── */
+.cross-builder {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.cross-builder-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+}
+
+.cross-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cross-field {
+  flex: 1;
+  min-width: 200px;
+}
+
+.cross-field label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.cross-field select,
+.cross-field input {
+  width: 100%;
+  padding: 0.6rem 0.85rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.cross-field select:focus,
+.cross-field input:focus {
+  border-color: var(--accent);
+}
+
+.cross-field select option {
+  background: var(--bg-card);
+  color: var(--text-primary);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.4rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-deep);
+}
+
+.btn-primary:hover {
+  background: var(--accent-bright);
+  border-color: var(--accent-bright);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+}
+
+.btn-ghost:hover {
+  background: var(--bg-raised);
+  color: var(--text-primary);
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ─── Custom Sheep Builder ─── */
+.custom-builder {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+  display: none;
+}
+
+.custom-builder.visible { display: block; }
+
+.breed-rows { margin-top: 0.75rem; }
+
+.breed-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.breed-row select {
+  flex: 2;
+  padding: 0.5rem 0.7rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+}
+
+.breed-row input[type="number"] {
+  flex: 1;
+  max-width: 90px;
+  padding: 0.5rem 0.7rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+.breed-row .remove-breed {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.15s;
+}
+
+.breed-row .remove-breed:hover {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.breed-total {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+.breed-total.valid { color: var(--green); }
+.breed-total.invalid { color: var(--red); }
+
+/* ─── Results ─── */
+.results-container {
+  display: none;
+}
+
+.results-container.visible {
+  display: block;
+}
+
+.result-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  animation: fadeSlideIn 0.4s ease;
+}
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-header {
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-raised);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.result-cross-label {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.result-cross-label .x {
+  color: var(--text-muted);
+  margin: 0 0.4rem;
+  font-weight: 400;
+}
+
+.result-body {
+  padding: 1.5rem;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+.result-section {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+
+.result-section-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* ─── Breed Composition Bar ─── */
+.breed-bar-container {
+  margin: 0.75rem 0;
+}
+
+.breed-bar {
+  display: flex;
+  height: 24px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--bg-deep);
+}
+
+.breed-bar-segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: rgba(0,0,0,0.7);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 4px;
+  transition: flex 0.5s ease;
+}
+
+.breed-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.breed-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.breed-legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+/* Breed colors — warm earth palette */
+.breed-color-0  { background: #c8956c; }
+.breed-color-1  { background: #7aab7a; }
+.breed-color-2  { background: #9bafc4; }
+.breed-color-3  { background: #c4a05a; }
+.breed-color-4  { background: #b07aab; }
+.breed-color-5  { background: #7ac4b8; }
+.breed-color-6  { background: #c47a7a; }
+.breed-color-7  { background: #a0b87a; }
+.breed-color-8  { background: #c49a7a; }
+.breed-color-9  { background: #7a8fc4; }
+.breed-color-10 { background: #c4c47a; }
+
+/* ─── Confidence Badges ─── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge-green  { background: var(--green-bg); color: var(--green); border: 1px solid rgba(107,158,107,0.3); }
+.badge-yellow { background: var(--yellow-bg); color: var(--yellow); border: 1px solid rgba(200,160,76,0.3); }
+.badge-red    { background: var(--red-bg); color: var(--red); border: 1px solid rgba(184,90,74,0.3); }
+
+/* ─── Stat Rows ─── */
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(61, 52, 41, 0.5);
+}
+
+.stat-row:last-child { border-bottom: none; }
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.stat-value {
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stat-bar-track {
+  width: 100px;
+  height: 6px;
+  background: var(--bg-deep);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.stat-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+
+.stat-bonus {
+  font-size: 0.75rem;
+  color: var(--green);
+}
+
+.stat-penalty {
+  font-size: 0.75rem;
+  color: var(--red);
+}
+
+/* ─── Trait Table ─── */
+.trait-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trait-table th {
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.trait-table td {
+  padding: 0.55rem 0.5rem;
+  font-size: 0.85rem;
+  border-bottom: 1px solid rgba(61,52,41,0.3);
+}
+
+.trait-table tr:last-child td { border-bottom: none; }
+
+.trait-table .trait-name { color: var(--text-secondary); }
+.trait-table .trait-val { font-weight: 600; }
+.trait-table .trait-parent { color: var(--text-muted); font-size: 0.8rem; }
+
+/* ─── Flock Records Table ─── */
+.records-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 0.6rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.search-box:focus { border-color: var(--accent); }
+
+.filter-group {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.filter-btn {
+  padding: 0.45rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-body);
+}
+
+.filter-btn:hover { color: var(--text-secondary); background: var(--bg-raised); }
+.filter-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-deep);
+}
+
+.flock-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.flock-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.flock-table th {
+  position: sticky;
+  top: 0;
+  background: var(--bg-raised);
+  text-align: left;
+  padding: 0.75rem 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+
+.flock-table th:hover { color: var(--accent-bright); }
+
+.flock-table th.sorted-asc::after { content: ' \u25B2'; font-size: 0.6rem; }
+.flock-table th.sorted-desc::after { content: ' \u25BC'; font-size: 0.6rem; }
+
+.flock-table td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid rgba(61,52,41,0.25);
+  color: var(--text-primary);
+  vertical-align: top;
+}
+
+.flock-table tr:hover td {
+  background: rgba(200, 149, 108, 0.04);
+}
+
+.flock-table .cell-name {
+  font-weight: 600;
+  color: var(--accent-bright);
+}
+
+.flock-table .cell-muted {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 0.35rem;
+}
+
+.status-dot.alive  { background: var(--green); }
+.status-dot.deceased { background: var(--red); }
+.status-dot.sold   { background: var(--yellow); }
+.status-dot.culled { background: var(--red); opacity: 0.6; }
+.status-dot.unknown { background: var(--text-muted); }
+
+.tag-chip {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-family: 'Courier New', monospace;
+  color: var(--text-secondary);
+}
+
+/* ─── Loading ─── */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  color: var(--text-muted);
+  gap: 0.75rem;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ─── Empty state ─── */
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-muted);
+}
+
+.empty-state p {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.empty-state .hint {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  .nav-inner { padding: 0 1rem; }
+  .container { padding: 1rem; }
+  .pen-grid { grid-template-columns: 1fr; }
+  .result-grid { grid-template-columns: 1fr; }
+  .cross-row { flex-direction: column; }
+  .cross-field { min-width: unset; }
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-light); }
+
+/* ─── Tabs toggle for custom builder ─── */
+.toggle-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ─── Inbreeding warning ─── */
+.inbreeding-warning {
+  padding: 0.75rem 1rem;
+  background: var(--red-bg);
+  border: 1px solid rgba(184,90,74,0.3);
+  border-radius: var(--radius);
+  color: var(--red);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+/* ─── Lambing Records ─── */
+.lambing-section {
+  margin-top: 2rem;
+}
+
+</style>
+</head>
+<body>
+
+<!-- ═══ Navigation ═══ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-brand">
+      Manatee Creek Sheep <span>Florida</span>
+    </div>
+    <div class="nav-tabs">
+      <div class="nav-tab active" data-page="projector">Breeding Projector</div>
+      <div class="nav-tab" data-page="records">Flock Records</div>
+      <div class="nav-tab" data-page="lambing">Lambing 2026</div>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE 1: BREEDING PROJECTOR
+     ═══════════════════════════════════════════════════════ -->
+<div id="page-projector" class="page active">
+  <div class="container">
+
+    <div class="page-header">
+      <h1 class="page-title">Breeding Projector</h1>
+      <p class="page-subtitle">Select a pen to see projected offspring traits, or build a custom cross</p>
+    </div>
+
+    <!-- Cross Builder -->
+    <div class="cross-builder">
+      <div class="cross-builder-title">Quick Cross</div>
+      <div class="cross-row">
+        <div class="cross-field">
+          <label>Sire (Ram)</label>
+          <select id="sire-select"><option value="">Loading...</option></select>
+        </div>
+        <div class="cross-field">
+          <label>Dam (Ewe)</label>
+          <select id="dam-select"><option value="">Loading...</option></select>
+        </div>
+        <div style="display:flex;gap:0.5rem;align-items:flex-end;padding-bottom:1px;">
+          <button class="btn btn-primary" onclick="runCross()">Project</button>
+          <button class="btn btn-ghost" onclick="toggleCustomBuilder()">Custom Sheep</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Custom Sheep Builder -->
+    <div id="custom-builder" class="custom-builder">
+      <div class="cross-builder-title">Custom Sheep</div>
+      <div class="cross-row" style="margin-bottom:1rem;">
+        <div class="cross-field">
+          <label>Name</label>
+          <input type="text" id="custom-name" value="Custom Ram" placeholder="Sheep name">
+        </div>
+        <div class="cross-field" style="max-width:140px;">
+          <label>Sex</label>
+          <select id="custom-sex">
+            <option value="ram">Ram</option>
+            <option value="ewe">Ewe</option>
+          </select>
+        </div>
+        <div class="cross-field">
+          <label>Mate</label>
+          <select id="custom-mate"><option value="">Loading...</option></select>
+        </div>
+      </div>
+      <label style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);">Breed Composition</label>
+      <div id="breed-rows" class="breed-rows"></div>
+      <div style="display:flex;gap:0.5rem;margin-top:0.75rem;align-items:center;">
+        <button class="btn btn-ghost" onclick="addBreedRow()">+ Add Breed</button>
+        <div id="breed-total" class="breed-total">Total: 0%</div>
+      </div>
+      <div style="margin-top:1rem;">
+        <button class="btn btn-primary" onclick="runCustomCross()">Project Custom Cross</button>
+      </div>
+    </div>
+
+    <!-- Pen Overview -->
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">
+      <h2 style="font-family:var(--font-display);font-size:1.2rem;font-weight:600;color:var(--text-secondary);">
+        Pen Overview
+      </h2>
+      <span style="font-size:0.8rem;color:var(--text-muted);">Click a pen to project all crosses</span>
+    </div>
+    <div id="pen-grid" class="pen-grid">
+      <div class="loading"><div class="spinner"></div> Loading pens...</div>
+    </div>
+
+    <!-- Results Area -->
+    <div id="results" class="results-container"></div>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE 2: FLOCK RECORDS
+     ═══════════════════════════════════════════════════════ -->
+<div id="page-records" class="page">
+  <div class="container">
+
+    <div class="page-header">
+      <h1 class="page-title">Flock Records</h1>
+      <p class="page-subtitle">Complete flock database &mdash; read only</p>
+    </div>
+
+    <div class="records-controls">
+      <input type="text" class="search-box" id="flock-search" placeholder="Search by name, tag, breed...">
+      <div class="filter-group">
+        <button class="filter-btn active" data-filter="alive">Alive</button>
+        <button class="filter-btn" data-filter="deceased">Deceased</button>
+        <button class="filter-btn" data-filter="sold">Sold</button>
+        <button class="filter-btn" data-filter="all">All</button>
+      </div>
+      <div class="filter-group">
+        <button class="filter-btn" data-sex="all">All</button>
+        <button class="filter-btn" data-sex="ram">Rams</button>
+        <button class="filter-btn" data-sex="ewe">Ewes</button>
+      </div>
+    </div>
+
+    <div id="flock-table-wrap" class="flock-table-wrap">
+      <div class="loading"><div class="spinner"></div> Loading flock data...</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     PAGE 3: LAMBING 2026
+     ═══════════════════════════════════════════════════════ -->
+<div id="page-lambing" class="page">
+  <div class="container">
+
+    <div class="page-header">
+      <h1 class="page-title">Lambing Records 2026</h1>
+      <p class="page-subtitle">Current season lambing data</p>
+    </div>
+
+    <div id="lambing-table-wrap" class="flock-table-wrap">
+      <div class="loading"><div class="spinner"></div> Loading lambing data...</div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     JAVASCRIPT
+     ═══════════════════════════════════════════════════════ -->
+<script>
+// ─── State ───
+let allSheep = [];
+let allPens = {};
+let allBreeds = [];
+let flockData = [];
+let lambingData = [];
+let flockSortCol = 'name';
+let flockSortAsc = true;
+let flockFilter = 'alive';
+let flockSexFilter = 'all';
+let flockSearch = '';
+
+// ─── Navigation ───
+document.querySelectorAll('.nav-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('page-' + tab.dataset.page).classList.add('active');
+
+    // Lazy-load data
+    if (tab.dataset.page === 'records' && flockData.length === 0) loadFlockData();
+    if (tab.dataset.page === 'lambing' && lambingData.length === 0) loadLambingData();
+  });
+});
+
+// ─── Breed Colors ───
+const BREED_COLORS = {};
+let colorIdx = 0;
+function breedColor(breed) {
+  if (!BREED_COLORS[breed]) {
+    BREED_COLORS[breed] = colorIdx++;
+  }
+  return 'breed-color-' + (BREED_COLORS[breed] % 11);
+}
+
+// ─── Initialization ───
+async function init() {
+  try {
+    const [pensRes, sheepRes, breedsRes] = await Promise.all([
+      fetch('/api/pens'),
+      fetch('/api/sheep'),
+      fetch('/api/breeds'),
+    ]);
+    allPens = await pensRes.json();
+    allSheep = await sheepRes.json();
+    allBreeds = await breedsRes.json();
+
+    renderPenGrid();
+    populateSelects();
+    addBreedRow();
+    addBreedRow();
+  } catch (e) {
+    document.getElementById('pen-grid').innerHTML =
+      '<div class="empty-state"><p>Failed to load data</p><p class="hint">' + e.message + '</p></div>';
+  }
+}
+
+// ─── Pen Grid ───
+function renderPenGrid() {
+  const grid = document.getElementById('pen-grid');
+  const penNames = Object.keys(allPens).sort();
+  if (penNames.length === 0) {
+    grid.innerHTML = '<div class="empty-state"><p>No pens found</p></div>';
+    return;
+  }
+
+  grid.innerHTML = penNames.map(name => {
+    const pen = allPens[name];
+    const totalCount = pen.rams.length + pen.ewes.length;
+    return `
+      <div class="pen-card" onclick="projectPen('${name}')">
+        <div class="pen-header">
+          <div class="pen-name">${esc(name)}</div>
+          <div class="pen-count">${totalCount} head</div>
+        </div>
+        <div class="pen-body">
+          ${pen.rams.length ? `
+            <div class="pen-section-label">Ram${pen.rams.length > 1 ? 's' : ''}</div>
+            <div>${pen.rams.map(r => `<span class="sheep-chip ram">${esc(r.name)}</span>`).join('')}</div>
+          ` : ''}
+          ${pen.ewes.length ? `
+            <div class="pen-section-label">Ewe${pen.ewes.length > 1 ? 's' : ''}</div>
+            <div>${pen.ewes.map(e => `<span class="sheep-chip ewe">${esc(e.name)}</span>`).join('')}</div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+// ─── Selects ───
+function populateSelects() {
+  const sireSelect = document.getElementById('sire-select');
+  const damSelect = document.getElementById('dam-select');
+  const mateSelect = document.getElementById('custom-mate');
+
+  const rams = allSheep.filter(s => s.sex === 'ram' && s.status === 'alive');
+  const ewes = allSheep.filter(s => s.sex === 'ewe' && s.status === 'alive');
+
+  sireSelect.innerHTML = '<option value="">Select a ram...</option>' +
+    rams.map(r => `<option value="${r.id}">${esc(r.name)}${r.pen ? ' (' + r.pen + ')' : ''}</option>`).join('');
+
+  damSelect.innerHTML = '<option value="">Select a ewe...</option>' +
+    ewes.map(e => `<option value="${e.id}">${esc(e.name)}${e.pen ? ' (' + e.pen + ')' : ''}</option>`).join('');
+
+  mateSelect.innerHTML = '<option value="">Select a mate...</option>' +
+    allSheep.filter(s => s.status === 'alive').map(s =>
+      `<option value="${s.id}">${esc(s.name)} (${s.sex})${s.pen ? ' - ' + s.pen : ''}</option>`
+    ).join('');
+}
+
+// ─── Cross ───
+async function runCross() {
+  const sireId = document.getElementById('sire-select').value;
+  const damId = document.getElementById('dam-select').value;
+  if (!sireId || !damId) return;
+
+  showLoading();
+  try {
+    const res = await fetch('/api/cross', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ sire_id: sireId, dam_id: damId }),
+    });
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+    renderResults([data]);
+  } catch (e) {
+    renderError(e.message);
+  }
+}
+
+async function projectPen(penName) {
+  // Highlight selected pen
+  document.querySelectorAll('.pen-card').forEach(c => c.classList.remove('selected'));
+  event.currentTarget.classList.add('selected');
+
+  showLoading();
+  try {
+    const res = await fetch('/api/pen-projections/' + encodeURIComponent(penName));
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+    renderResults(data, penName);
+  } catch (e) {
+    renderError(e.message);
+  }
+}
+
+// ─── Custom Sheep ───
+function toggleCustomBuilder() {
+  const el = document.getElementById('custom-builder');
+  el.classList.toggle('visible');
+}
+
+function addBreedRow() {
+  const container = document.getElementById('breed-rows');
+  const row = document.createElement('div');
+  row.className = 'breed-row';
+  row.innerHTML = `
+    <select onchange="updateBreedTotal()">
+      <option value="">Select breed...</option>
+      ${allBreeds.map(b => `<option value="${b}">${b}</option>`).join('')}
+    </select>
+    <input type="number" min="0" max="100" value="50" placeholder="%" onchange="updateBreedTotal()" oninput="updateBreedTotal()">
+    <button class="remove-breed" onclick="this.parentElement.remove();updateBreedTotal();">x</button>
+  `;
+  container.appendChild(row);
+  updateBreedTotal();
+}
+
+function updateBreedTotal() {
+  const rows = document.querySelectorAll('#breed-rows .breed-row');
+  let total = 0;
+  rows.forEach(r => {
+    const val = parseFloat(r.querySelector('input').value) || 0;
+    total += val;
+  });
+  const el = document.getElementById('breed-total');
+  el.textContent = `Total: ${total}%`;
+  el.className = 'breed-total ' + (Math.abs(total - 100) < 0.1 ? 'valid' : 'invalid');
+}
+
+async function runCustomCross() {
+  const name = document.getElementById('custom-name').value || 'Custom';
+  const sex = document.getElementById('custom-sex').value;
+  const mateId = document.getElementById('custom-mate').value;
+  if (!mateId) return;
+
+  const breeds = {};
+  document.querySelectorAll('#breed-rows .breed-row').forEach(row => {
+    const breed = row.querySelector('select').value;
+    const pct = parseFloat(row.querySelector('input').value) || 0;
+    if (breed && pct > 0) breeds[breed] = pct;
+  });
+
+  showLoading();
+  try {
+    const res = await fetch('/api/custom-cross', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, sex, breeds, mate_id: mateId }),
+    });
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+    renderResults([data]);
+  } catch (e) {
+    renderError(e.message);
+  }
+}
+
+// ─── Results Rendering ───
+function showLoading() {
+  const el = document.getElementById('results');
+  el.className = 'results-container visible';
+  el.innerHTML = '<div class="loading"><div class="spinner"></div> Projecting offspring traits...</div>';
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function renderError(msg) {
+  const el = document.getElementById('results');
+  el.className = 'results-container visible';
+  el.innerHTML = `<div class="empty-state"><p>Error: ${esc(msg)}</p></div>`;
+}
+
+function renderResults(predictions, penName) {
+  const el = document.getElementById('results');
+  el.className = 'results-container visible';
+
+  if (predictions.length === 0) {
+    el.innerHTML = '<div class="empty-state"><p>No crosses to project</p><p class="hint">This pen may not have both rams and ewes</p></div>';
+    return;
+  }
+
+  let html = '';
+  if (penName) {
+    html += `<h2 style="font-family:var(--font-display);font-size:1.3rem;font-weight:700;color:var(--text-primary);margin-bottom:1.25rem;">
+      Projections for ${esc(penName)} <span style="font-size:0.9rem;color:var(--text-muted);font-weight:400;">${predictions.length} cross${predictions.length > 1 ? 'es' : ''}</span>
+    </h2>`;
+  }
+
+  predictions.forEach((p, i) => {
+    html += renderOneResult(p, i);
+  });
+
+  el.innerHTML = html;
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function renderOneResult(p, idx) {
+  const ob = p.offspring_breed || {};
+  const pcts = ob.percentages || {};
+  const breeds = Object.entries(pcts).sort((a, b) => b[1] - a[1]);
+  const h = p.heterosis || {};
+  const inb = p.inbreeding || {};
+  const w = p.weight || {};
+  const pr = p.parasite_resistance || {};
+  const coat = p.coat || {};
+  const traits = p.traits || {};
+
+  return `
+    <div class="result-card" style="animation-delay: ${idx * 0.08}s">
+      <div class="result-header">
+        <div class="result-cross-label">
+          ${esc(p.sire?.name || '?')} <span class="x">&times;</span> ${esc(p.dam?.name || '?')}
+        </div>
+      </div>
+      <div class="result-body">
+        <div class="result-grid">
+
+          <!-- Breed Composition -->
+          <div class="result-section">
+            <div class="result-section-title">Offspring Breed Composition</div>
+            ${renderBreedBar(breeds)}
+            <div style="margin-top:0.6rem;">
+              <span style="font-size:0.82rem;color:var(--text-secondary);">
+                Coat: <strong>${esc(ob.coat_type || '?')}</strong>
+                (${Math.round(ob.hair_percentage || 0)}% hair)
+                &middot; ${breeds.length} breed${breeds.length !== 1 ? 's' : ''}
+              </span>
+            </div>
+          </div>
+
+          <!-- Heterosis & Inbreeding -->
+          <div class="result-section">
+            <div class="result-section-title">
+              Heterosis & Inbreeding
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Retained Heterosis</span>
+              <span class="stat-value">
+                ${(h.retained_pct || 0).toFixed(1)}%
+                ${badge(h.confidence)}
+              </span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Contributing Breeds</span>
+              <span class="stat-value">${h.num_breeds || 0}</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Inbreeding Coefficient (F)</span>
+              <span class="stat-value">
+                ${(inb.pct || 0).toFixed(2)}%
+                ${badge(inb.confidence)}
+              </span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Inbreeding Risk</span>
+              <span class="stat-value">${esc(inb.risk_level || 'LOW')}</span>
+            </div>
+            ${inb.pct >= 7 ? `<div class="inbreeding-warning">Warning: Inbreeding coefficient is elevated. Consider different pairing.</div>` : ''}
+          </div>
+
+          <!-- Weight -->
+          <div class="result-section">
+            <div class="result-section-title">
+              Predicted Weight ${badge(w.confidence)}
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Ram Offspring</span>
+              <span class="stat-value">${w.ram_low ? w.ram_low + ' &ndash; ' + w.ram_high + ' lbs' : 'N/A'}</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Ewe Offspring</span>
+              <span class="stat-value">${w.ewe_low ? w.ewe_low + ' &ndash; ' + w.ewe_high + ' lbs' : 'N/A'}</span>
+            </div>
+            ${w.heterosis_factor ? `
+            <div class="stat-row">
+              <span class="stat-label">Heterosis Adjustment</span>
+              <span class="stat-value"><span class="stat-bonus">+${((w.heterosis_factor - 1) * 100).toFixed(1)}%</span></span>
+            </div>` : ''}
+          </div>
+
+          <!-- Parasite Resistance -->
+          <div class="result-section">
+            <div class="result-section-title">
+              Parasite Resistance ${badge(pr.confidence)}
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Predicted Score</span>
+              <span class="stat-value">
+                <strong>${(pr.score || 0).toFixed(1)}</strong>/100
+                <span style="margin-left:0.3rem;font-size:0.8rem;color:var(--text-muted);">(${esc(pr.grade || '?')})</span>
+              </span>
+            </div>
+            ${renderScoreBar(pr.score || 0)}
+            <div class="stat-row">
+              <span class="stat-label">Breed Baseline</span>
+              <span class="stat-value">${(pr.breed_baseline || 0).toFixed(1)}</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Heterosis Bonus</span>
+              <span class="stat-value"><span class="stat-bonus">+${(pr.heterosis_bonus || 0).toFixed(1)}</span></span>
+            </div>
+          </div>
+
+          <!-- Coat Prediction -->
+          <div class="result-section">
+            <div class="result-section-title">
+              Coat Type ${badge(coat.confidence)}
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Prediction</span>
+              <span class="stat-value">${esc(coat.prediction || '?')}</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Shedding Probability</span>
+              <span class="stat-value">${(coat.shedding_probability || 0)}%</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Shedding Extent</span>
+              <span class="stat-value">${(coat.shedding_extent || 0).toFixed(1)} / 5.0</span>
+            </div>
+            ${renderScoreBar((coat.shedding_extent || 0) * 20, 'var(--accent)')}
+            ${coat.explanation ? `<div style="font-size:0.8rem;color:var(--text-muted);margin-top:0.5rem;">${esc(coat.explanation)}</div>` : ''}
+          </div>
+
+          <!-- All Traits -->
+          <div class="result-section" style="grid-column: 1 / -1;">
+            <div class="result-section-title">Trait Predictions</div>
+            <table class="trait-table">
+              <thead>
+                <tr>
+                  <th>Trait</th>
+                  <th>Predicted</th>
+                  <th>Sire Avg</th>
+                  <th>Dam Avg</th>
+                  <th>Heterosis</th>
+                  <th>Confidence</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${renderTraitRow('Prolificacy', traits.prolificacy, 'lambs/ewe')}
+                ${renderTraitRow('Temperament', traits.temperament, '/10')}
+                ${renderTraitRow('Mothering', traits.mothering, '/10')}
+                ${renderTraitRow('Flocking Instinct', traits.flocking, '/10')}
+                ${renderTraitRow('Year-Round Breeding', traits.year_round_breeding, '/10')}
+                ${renderTraitRow('Florida Suitability', traits.fl_suitability, '/10')}
+                ${renderTraitRow('Foot Rot Resistance', traits.foot_rot_resistance, '/10')}
+                ${renderTraitRow('Growth Rate', traits.growth_rate, '/10')}
+                ${renderTraitRow('Carcass Quality', traits.carcass_quality, '/10')}
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderBreedBar(breeds) {
+  if (breeds.length === 0) return '<div style="color:var(--text-muted);font-size:0.85rem;">Unknown breed composition</div>';
+
+  let bar = '<div class="breed-bar-container"><div class="breed-bar">';
+  breeds.forEach(([breed, pct]) => {
+    const cls = breedColor(breed);
+    const label = pct >= 12 ? `${Math.round(pct)}%` : '';
+    bar += `<div class="breed-bar-segment ${cls}" style="flex:${pct}" title="${breed}: ${pct.toFixed(1)}%">${label}</div>`;
+  });
+  bar += '</div><div class="breed-legend">';
+  breeds.forEach(([breed, pct]) => {
+    const cls = breedColor(breed);
+    bar += `<div class="breed-legend-item"><div class="breed-legend-dot ${cls}"></div>${breed} ${pct.toFixed(1)}%</div>`;
+  });
+  bar += '</div></div>';
+  return bar;
+}
+
+function renderScoreBar(score, color) {
+  color = color || (score >= 70 ? 'var(--green)' : score >= 50 ? 'var(--yellow)' : 'var(--red)');
+  return `
+    <div style="margin:0.4rem 0;">
+      <div class="stat-bar-track" style="width:100%;">
+        <div class="stat-bar-fill" style="width:${Math.min(score, 100)}%;background:${color};"></div>
+      </div>
+    </div>
+  `;
+}
+
+function renderTraitRow(label, trait, unit) {
+  if (!trait) return '';
+  const val = trait.value != null ? trait.value : 0;
+  const sire = trait.sire_breed_avg != null ? trait.sire_breed_avg : '?';
+  const dam = trait.dam_breed_avg != null ? trait.dam_breed_avg : '?';
+  const hPct = trait.heterosis_pct || 0;
+  const conf = trait.confidence || 'RED';
+  return `
+    <tr>
+      <td class="trait-name">${esc(label)}</td>
+      <td class="trait-val">${val.toFixed(2)}${unit}</td>
+      <td class="trait-parent">${typeof sire === 'number' ? sire.toFixed(2) : sire}</td>
+      <td class="trait-parent">${typeof dam === 'number' ? dam.toFixed(2) : dam}</td>
+      <td>${hPct > 0 ? `<span class="stat-bonus">+${hPct.toFixed(1)}%</span>` : '<span style="color:var(--text-muted);">-</span>'}</td>
+      <td>${badge(conf)}</td>
+    </tr>
+  `;
+}
+
+function badge(confidence) {
+  const c = (confidence || '').toUpperCase();
+  if (c === 'GREEN') return '<span class="badge badge-green">High</span>';
+  if (c === 'YELLOW') return '<span class="badge badge-yellow">Moderate</span>';
+  return '<span class="badge badge-red">Low</span>';
+}
+
+// ─── Flock Records ───
+async function loadFlockData() {
+  try {
+    const res = await fetch('/api/flock');
+    flockData = await res.json();
+    renderFlockTable();
+  } catch (e) {
+    document.getElementById('flock-table-wrap').innerHTML =
+      '<div class="empty-state"><p>Failed to load flock data</p></div>';
+  }
+}
+
+function renderFlockTable() {
+  let filtered = flockData.slice();
+
+  // Status filter
+  if (flockFilter !== 'all') {
+    filtered = filtered.filter(s => s.status === flockFilter);
+  }
+
+  // Sex filter
+  if (flockSexFilter !== 'all') {
+    filtered = filtered.filter(s => s.sex === flockSexFilter);
+  }
+
+  // Search
+  if (flockSearch) {
+    const q = flockSearch.toLowerCase();
+    filtered = filtered.filter(s =>
+      s.name.toLowerCase().includes(q) ||
+      (s.tag || '').toLowerCase().includes(q) ||
+      (s.breed || '').toLowerCase().includes(q) ||
+      (s.pen || '').toLowerCase().includes(q) ||
+      s.id.toLowerCase().includes(q) ||
+      (s.aliases || []).some(a => a.toLowerCase().includes(q))
+    );
+  }
+
+  // Sort
+  filtered.sort((a, b) => {
+    let va = a[flockSortCol] || '';
+    let vb = b[flockSortCol] || '';
+    if (typeof va === 'string') va = va.toLowerCase();
+    if (typeof vb === 'string') vb = vb.toLowerCase();
+    if (va < vb) return flockSortAsc ? -1 : 1;
+    if (va > vb) return flockSortAsc ? 1 : -1;
+    return 0;
+  });
+
+  const wrap = document.getElementById('flock-table-wrap');
+  if (filtered.length === 0) {
+    wrap.innerHTML = '<div class="empty-state"><p>No matching records</p></div>';
+    return;
+  }
+
+  const cols = [
+    { key: 'name', label: 'Name' },
+    { key: 'tag', label: 'Tag' },
+    { key: 'sex', label: 'Sex' },
+    { key: 'breed', label: 'Breed' },
+    { key: 'pen', label: 'Pen' },
+    { key: 'status', label: 'Status' },
+    { key: 'sire_name', label: 'Sire' },
+    { key: 'dam_name', label: 'Dam' },
+    { key: 'weight', label: 'Weight' },
+    { key: 'offspring_count', label: 'Offspring' },
+    { key: 'notes', label: 'Notes' },
+  ];
+
+  let html = '<table class="flock-table"><thead><tr>';
+  cols.forEach(c => {
+    const sortCls = flockSortCol === c.key ? (flockSortAsc ? 'sorted-asc' : 'sorted-desc') : '';
+    html += `<th class="${sortCls}" onclick="sortFlock('${c.key}')">${c.label}</th>`;
+  });
+  html += '</tr></thead><tbody>';
+
+  filtered.forEach(s => {
+    html += `<tr>
+      <td class="cell-name">${esc(s.name)}</td>
+      <td>${s.tag ? `<span class="tag-chip">${esc(s.tag)}</span>` : ''} ${s.mc_tag ? `<span class="tag-chip">${esc(s.mc_tag)}</span>` : ''}</td>
+      <td>${esc(s.sex)}</td>
+      <td style="max-width:220px;font-size:0.8rem;color:var(--text-secondary);">${esc(s.breed)}</td>
+      <td>${esc(s.pen)}</td>
+      <td><span class="status-dot ${s.status}"></span>${esc(s.status)}</td>
+      <td class="cell-muted">${esc(s.sire_name)}</td>
+      <td class="cell-muted">${esc(s.dam_name)}</td>
+      <td>${s.weight ? s.weight + ' lbs' : ''}</td>
+      <td>${s.offspring_count || ''}</td>
+      <td style="max-width:250px;font-size:0.78rem;color:var(--text-muted);white-space:normal;">${esc(truncate(s.notes, 120))}</td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+}
+
+function sortFlock(col) {
+  if (flockSortCol === col) {
+    flockSortAsc = !flockSortAsc;
+  } else {
+    flockSortCol = col;
+    flockSortAsc = true;
+  }
+  renderFlockTable();
+}
+
+// Status filter buttons
+document.querySelectorAll('[data-filter]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    flockFilter = btn.dataset.filter;
+    renderFlockTable();
+  });
+});
+
+// Sex filter buttons
+document.querySelectorAll('[data-sex]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-sex]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    flockSexFilter = btn.dataset.sex;
+    renderFlockTable();
+  });
+});
+
+// Search
+document.getElementById('flock-search').addEventListener('input', e => {
+  flockSearch = e.target.value;
+  renderFlockTable();
+});
+
+// ─── Lambing 2026 ───
+async function loadLambingData() {
+  try {
+    const res = await fetch('/api/lambing-2026');
+    lambingData = await res.json();
+    renderLambingTable();
+  } catch (e) {
+    document.getElementById('lambing-table-wrap').innerHTML =
+      '<div class="empty-state"><p>Failed to load lambing data</p></div>';
+  }
+}
+
+function renderLambingTable() {
+  if (lambingData.length === 0) {
+    document.getElementById('lambing-table-wrap').innerHTML =
+      '<div class="empty-state"><p>No lambing records yet</p></div>';
+    return;
+  }
+
+  let html = `<table class="flock-table">
+    <thead><tr>
+      <th>Date</th><th>Dam</th><th>Sire</th><th>Pen</th><th>Count</th><th>Sexes</th><th>Notes</th>
+    </tr></thead><tbody>`;
+
+  lambingData.forEach(r => {
+    html += `<tr>
+      <td>${esc(r.date)}</td>
+      <td class="cell-name">${esc(r.dam)}</td>
+      <td>${esc(r.sire)}</td>
+      <td>${esc(r.pen)}</td>
+      <td>${esc(String(r.count))}</td>
+      <td>${esc(r.sexes)}</td>
+      <td style="max-width:300px;font-size:0.8rem;color:var(--text-muted);white-space:normal;">${esc(r.notes)}</td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  document.getElementById('lambing-table-wrap').innerHTML = html;
+}
+
+// ─── Utilities ───
+function esc(str) {
+  if (str == null) return '';
+  const div = document.createElement('div');
+  div.textContent = String(str);
+  return div.innerHTML;
+}
+
+function truncate(str, len) {
+  if (!str) return '';
+  return str.length > len ? str.substring(0, len) + '...' : str;
+}
+
+// ─── Boot ───
+init();
+</script>
+
+</body>
+</html>
