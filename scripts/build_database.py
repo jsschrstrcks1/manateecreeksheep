@@ -420,13 +420,13 @@ db["sheep"].append(sheep("merrie", "Merrie", "ram", "alive",
     confidence="high",
     notebook_image=["IMG_8622.PNG", "IMG_8630.PNG", "IMG_8641.PNG"]))
 
-# Bella - ewe, tag 27
+# Bella - ewe, tag 027 (from Heather Oaks Farm — distinct from Tag 27)
 db["sheep"].append(sheep("bella", "Bella", "ewe", "alive",
     tag="027",
     pen="Pen 3",
     weak_resistance=True,
     famacha_scores=[{"score": "good", "date": "2025-tag-day", "notes": "eyes good"}],
-    notes="Tagged 27. Eyes good at tag day. In Pen 3. On weak resistance list.",
+    notes="Tag 027 (from Heather Oaks Farm). 027 and 27 are different sheep. Eyes good at tag day. In Pen 3. On weak resistance list.",
     confidence="high",
     notebook_image=["IMG_8628.PNG", "IMG_8641.PNG"]))
 
@@ -873,12 +873,13 @@ db["sheep"].append(sheep("boots", "Boots", "ewe", "culled",
     csv_row=11,
     notebook_image=["IMG_8623.PNG"]))
 
-# Patches - ewe
+# Patches - ewe, tag 27 (distinct from Bella who is tag 027 from Heather Oaks Farm)
 db["sheep"].append(sheep("patches", "Patches", "ewe", "alive",
+    tag="27",
     weight_lbs=66,
     measurements={"girth": 27, "length": 27, "calculated_weight": 65.6, "date": "2023-2024"},
-    notes="Weight calculator: 65.6lbs (girth 27, length 27). Weight calc shows tag 27 but Bella is also tag 27 — [UNCLEAR] if same animal or tag conflict.",
-    confidence="medium",
+    notes="Weight calculator: 65.6lbs (girth 27, length 27). Tag 27 — confirmed distinct from Bella (tag 027, Heather Oaks Farm).",
+    confidence="high",
     notebook_image=["IMG_8624.PNG"]))
 
 # Little Song - ewe, tag 008 (Sir Loin x Anna's Big One)
@@ -1546,7 +1547,7 @@ db["pens"] = {
     "pen_3": {
         "ram": "sam",
         "ewes": ["baby", "baby-momma", "half-tail", "new-big-girl-2"],
-        "notes": "Sam's group. Zara was here but is deceased. Bella (tag 27) and Cinderella (tag 28) also in pen 3 per treatment notes."
+        "notes": "Sam's group. Zara was here but is deceased. Bella (tag 027, Heather Oaks Farm) and Cinderella (tag 028) also in pen 3 per treatment notes."
     },
     "pen_4": {
         "ram": "samson",

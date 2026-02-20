@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0.0",
     "farm_name": "Manatee Creek Sheep",
-    "last_updated": "2026-02-15",
+    "last_updated": "2026-02-16",
     "data_sources": [
       "spiral_notebook (IMG_8616-8643)",
       "flock_record_v2.xlsx",
@@ -93,7 +93,7 @@
       },
       "notes": "Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "kelsier",
@@ -152,7 +152,7 @@
       },
       "notes": "Most parasite resistant sheep in the flock. Deceased. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko, DVM (Oakvale Farm, DeLeon Springs FL) on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. UF Ram Test 2023: Ranked 5th of 40 rams, never dewormed (Tx=0), ADG=0.07 (test period), WDA=0.51, Avg FEC=157 (FEC Ratio=446.65), Overall Index=257.10. Individual FEC readings: 2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200 (avg 138.9). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased). Sire of all pen 4 lambs (2026 lambing: Nori 1/25, Dorpy 1/30, FM 2/1, Tag 34 2/2, Serendipity twins 2/3). Also sire of Serendipity's Baby (036/Mc12).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "gg",
@@ -210,7 +210,7 @@
       },
       "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "rocky",
@@ -295,7 +295,7 @@
       },
       "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "teaser",
@@ -347,7 +347,7 @@
       },
       "notes": "Rocky's sire per Rocky breeding page. 88%Awassi/12%East Friesian. Called 'Awassi Ram Teaser'. Off-farm.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "dorper-ewe-198",
@@ -396,7 +396,7 @@
       },
       "notes": "Rocky's dam per Rocky breeding page. 100% black face dorper. Off-farm.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "samson",
@@ -449,7 +449,7 @@
       },
       "notes": "Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Sired Serendipity's 2024 ram lamb and Half Tail's 2024 lamb (born 2/12/24, 10lbs). Note: OAV 2222 and Serendipity breeding pages list Samson as 100% Southdown \u2014 possible data entry error (other pages say Hampshire). Serendipity page also shows Samson with Sam's weights (165/125) instead of his actual weights (400/340).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "sam",
@@ -503,7 +503,7 @@
       },
       "notes": "Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Ram weight 165lbs, ewe weight prediction 125lbs (from multiple breeding pages). Given iron treatment. Pen 3 includes: Baby, Baby momma, Zara, Half tail, New big girl 2.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "kaladin",
@@ -564,7 +564,7 @@
       },
       "notes": "Living Kaladin tag 014. DOB 5/11/2023 per extension service. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Birth weight 6lbs (single). Weaned 7/18/2023 at 52lbs (68 days). ADG 0.68. Adjusted WW 100 (ratio 137 \u2014 HIGHEST in 2023 class). Extension service lists sex as ewe (code 2) \u2014 likely data entry error, all other sources say ram. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K \u2014 different animal. With Merrie, Gertrude Moon (Abg), Fm in Pen 1.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "smore",
@@ -626,7 +626,7 @@
       },
       "notes": "Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2022-2023 lambs including Pippen and merrie-BS2 (by BSOED), Merrie (by Half Tail), Fox Tail (by Trouble, tag 17 \u2014 deceased Helene), Foxtail 1/BK1 and Foxtail 2/BK2 (by Brown Knee), Circle Tail (by Brown Knee), BT1/BT2 (by Broken Tail), HT ext lamb (by Half Tail), Shaggy1/Shaggy2 (by Shaggy), Bsoed's lamb, Trouble's lamb, and Kaladin (by Serendipity). The deceased Kaladin (tag 24) was S'More x Anna.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "well-done",
@@ -676,7 +676,7 @@
       },
       "notes": "Flock spreadsheet: Tag 8, 100% Katahdin, 175lbs. Sire: Big Daddy, Dam: Gulf (off-farm). Father of Stew (by Fleecity) and Elsie (by Half Tail). Culled per Breeding DB.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "butter-ball",
@@ -727,7 +727,7 @@
       },
       "notes": "Dorper ram. Deceased per weak resistance list.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "nori-son",
@@ -772,7 +772,7 @@
       },
       "notes": "Ram in pen 5 currently. Tag 54. Also was tag 22. Sir Loin son (confirmed by owner). Nori's son. Notebook lists associated tags: 47, Red ewe Lamb in 4, Little daisy (41 or 42), Tag 31, 2222, Elsie.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "charlies-ram",
@@ -823,7 +823,7 @@
       },
       "notes": "Photos from March 18, 2024. Also called Mc11 or tag 12. White lamb with yellow ear tag in photos. Weight calculator: 36.3lbs.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "pippin",
@@ -882,7 +882,7 @@
       },
       "notes": "Pippin/BSOE1. Tag 015. S'More (100%Cr) x BSOED (40.5K/59.5SA). DOB 12/12/2022 per BSOED breeding page. Sold. White body, tan ear, Wool (probably). Birth weight 9lbs (single). Weaned 5/23/2023 at 59lbs (114 days). ADG 0.44. Adj WW 62 (ratio 77). Weight calculator: 80.4lbs. 50%Cr/29.75%SA/20.25%K. CORRECTED: Dam changed from BSOE to BSOED per breeding page.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "new-black-belly-ram",
@@ -935,7 +935,7 @@
       },
       "notes": "New ABB ram from measurement list.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "charlies-lamb-0017",
@@ -981,7 +981,7 @@
       },
       "notes": "Charlie's ram's lamb. Tag 0017.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "buck-original",
@@ -1032,7 +1032,7 @@
       },
       "notes": "Original Buck ram in chicken coop. Came from Windlestone. 48%Awassi/2%EF/50%Katahdin confirmed by Buck breeding page. Ram weight 212lbs, ewe weight prediction 155.2lbs. Deceased per breeding page ('deceased helene'). Replaced by his brother (also named Buck). Not related to Nori \u2014 listed as prospective breeding option only. Prospective breedings calculated with: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), Kelsier (listed as 'UF Ram Test', 100%Katahdin).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "buck",
@@ -1081,7 +1081,7 @@
       },
       "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "dodge",
@@ -1132,7 +1132,7 @@
       },
       "notes": "Little Daisy's sire. Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB). Inbred: Sir Loin is Broken Tail's sire. Status unknown \u2014 from Little Daisy breeding page pedigree.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "big-free-male",
@@ -1178,7 +1178,7 @@
       },
       "notes": "Large free-roaming male from measurement list.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "azure",
@@ -1239,7 +1239,7 @@
       },
       "notes": "Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 / also in Pen 2 at different time. NOTE: 'Amber' in weight calculator is Skitters (Karakul), not Azure.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "elsie",
@@ -1303,7 +1303,7 @@
       },
       "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "nori",
@@ -1361,7 +1361,7 @@
       },
       "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54) and Eclipse (2022, deceased Hurricane Idalia). In pen 4.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "merrie",
@@ -1430,7 +1430,7 @@
       },
       "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "bella",
@@ -1477,9 +1477,9 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Tagged 27. Eyes good at tag day. In Pen 3. On weak resistance list.",
+      "notes": "Tag 027 (from Heather Oaks Farm). 027 and 27 are different sheep. Eyes good at tag day. In Pen 3. On weak resistance list.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "cinderella",
@@ -1527,7 +1527,7 @@
       },
       "notes": "Tagged 28. Eyes good at tag day. In Pen 3.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "serendipity",
@@ -1597,7 +1597,7 @@
       },
       "notes": "Breeding page: 25%Babydoll/25%Jacob/12.5%K/37.5%SA. Tag 30. DOB 3/25/2022. Acquired 3/25/2022. Ewe weight 137.5lbs, ram weight prediction 222.75lbs. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Black w white on head and spots by mouth. Not flighty, Good Mother, Attentive, Protective, Docile, Heat Tolerant. FAMACHA 1 (9-20-23). 2023: S'More lamb born 1/29/2023 \u2014 sterile, deceased (parasites). Also 2023: Kaladin (by S'More, born 5/11/2023). 2024: ram (by Samson). Also mother of Mc12/036 baby ewe. Bred to Kaladin 9-6-23, Samson Jan-Feb. Pen 4 with twins (2026). Lambed 2026-02-03 (twins).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "serendipity-ram-2024",
@@ -1648,7 +1648,7 @@
       },
       "notes": "Serendipity's 2024 ram lamb by Samson (100% Hampshire). Breed: 50%Hampshire/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. From Serendipity breeding page 2024 section.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "serendipitys-baby-036",
@@ -1690,7 +1690,7 @@
       },
       "notes": "036, Mc12. Serendipity's baby ewe. Sire: Kelsier (pen 4 ram). Photo from March 18, 2024 shows white lamb with yellow MC12 ear tag.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "little-daisy",
@@ -1748,7 +1748,7 @@
       },
       "notes": "Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 \u2014 notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "little-daisys-baby-mc01",
@@ -1792,7 +1792,7 @@
       },
       "notes": "Mc01. Called 'baby's baby' in notebook. Little Daisy #35's offspring.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "baby",
@@ -1845,7 +1845,7 @@
       },
       "notes": "In pen 3 (Sam group). On weak resistance list. Google Sheet Pen 2 shows her as Suffolk Cross ewe offspring calculation parent.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "baby-momma",
@@ -1887,7 +1887,7 @@
       },
       "notes": "In pen 3 (Sam group).",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "zara",
@@ -1946,7 +1946,7 @@
       },
       "notes": "Tag 25. Zara = Dorper 25 (same animal). 100% Dorper. Deceased per owner. Was in pen 3 (Sam group). On weak resistance list. Lambed 2026-01-28.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "half-tail",
@@ -2005,7 +2005,7 @@
       },
       "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Born as twin. 25% inbreeding (Sir Loin is both sire and maternal grandsire). Grandparents: Auction Sheep 1 & 2 (via Chip), Razzle & Frazzle (via Sugar). Mother of Broken Tail, Elsie (by Well Done, DOB 2/8/2022, ADG 0.56), HT ext lamb (by S'More), Merrie (by S'More), Daisy, and 2024 lamb (by Samson, born 2/12/2024, 10lb birth wt). Ewe weight prediction 140lbs (breeding page). In pen 3 (Sam group) per notebook.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "ht-samson-2024",
@@ -2055,7 +2055,7 @@
       },
       "notes": "Samson (100%H) x Half Tail (12.5BBB/31.25K/56.25SA). Born 2/12/2024. Bred 8/31/2023. Birth weight 10lbs. 50%Hampshire/28.125%SA/15.625%K/6.25%BBB. Sex unknown. Per Half Tail breeding page.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "broken-tail",
@@ -2113,7 +2113,7 @@
       },
       "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin \u2014 inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.'",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "trouble",
@@ -2170,7 +2170,7 @@
       },
       "notes": "Flock spreadsheet: Tag 9/retagged 33, 25%Dorper/37.5%K/37.5%SA, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). 2023 offspring: ram lamb (ID 17) by S'More born 2/22/2023 (8lb birth wt, single, weaned 84lbs at 90 days \u2014 2nd best male lamb). Also mother of Fox Tail (tag 17, by S'More, died in Helene). In pen 5 per notebook.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "bsoe",
@@ -2225,7 +2225,7 @@
       },
       "notes": "Flock spreadsheet: 56%K/44%SA, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOED (by Sir Loin). Tag 32 (switched with Bsoed). Breeding page: Pen 4 (now Pen 5 per notebook). Ram weight projection 241.6lbs, ewe weight projection 144.4lbs. 2023 bred to Merrie (tag 016, ram). 2025: 2 ewe lambs born 1-25-25 by Awassi\u00d7Kat ram. CORRECTED: Pippen and Merrie-BS2 are BSOED's offspring, not BSOE's, per BSOED breeding page.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "bsoed",
@@ -2284,7 +2284,7 @@
       },
       "notes": "Flock spreadsheet: ~40.5%K/~59.5%SA, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). Born as triplet per breeding page. Mother of Pippen (sold) and Merrie-BS2 (by S'More, born 12/12/2022) per breeding page. 2023 offspring: ram lamb (ID 1) by S'More born 2/22/2023. 2025: 2 lambs (ewe + ram) born 1-25-25 by Buck. In pen 5 per notebook.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "fm-sire",
@@ -2333,7 +2333,7 @@
       },
       "notes": "FM's sire per breeding page. Tunis Red ram. Off-farm.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "fm-dam",
@@ -2382,7 +2382,7 @@
       },
       "notes": "FM's dam per breeding page. Cotswold ewe. Off-farm.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "fm",
@@ -2438,7 +2438,7 @@
       },
       "notes": "Tag GA1568-011, 50% Cotswold / 50% Tunis, Tunis Red, 200lbs. DOB 2/14/2021 per breeding page. Acquired 2/27/2021. Sire: Tunis (red), Dam: Cotswold. 2023: FM1 ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days). Eclipse also listed on breeding page as potential 2023 offspring (dec?/April \u2014 may not have survived). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "fm1",
@@ -2498,7 +2498,7 @@
       },
       "notes": "FM1 = Sir Loin \u00d7 FM per FM breeding page. Tag 009. DOB 4/1/2023. 25%Cotswold/12.5%K/37.5%SA/25%Tunis. Same as extension service lamb ID 9 (sex may have been misrecorded as ram in extension service). In pen 6 (no ram). On weak resistance list. On 'Ewes to Upgrade' list. Half wool. Weight calculator: 66.7lbs.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "eclipse",
@@ -2556,7 +2556,7 @@
       },
       "notes": "25%ABB/12.5%K/37.5%SA/25%WH. Sir Loin (25K/75SA) x Nori (50ABB/50WH). RAM (corrected from ewe). Nori's 2022 offspring. Weight calculator: 41.9lbs. Died after Hurricane Idalia (Aug/Sep 2023). Was in Pen 1 before death. Also listed on FM breeding page as potential offspring.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "gertrude-moon",
@@ -2635,7 +2635,7 @@
       },
       "notes": "Gertrude Moon aka Bitch Face (BF). Tag 22. 100%ABB. DOB ~2020. Acquired 5-4-23. DECEASED \u2014 awful mother, no offspring kept. Twins born 1-2-24 by Sir Loin (not kept). FAMACHA 4\u21922 (Sept 2023). Weight calculator: 144.1lbs. NOT the same as ABG (Anna's Big One/Banana).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "gertrude-moon-sire",
@@ -2684,7 +2684,7 @@
       },
       "notes": "Gertrude Moon's sire per breeding page. 'ABB Ram.' Off-farm.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "gertrude-moon-dam",
@@ -2733,7 +2733,7 @@
       },
       "notes": "Gertrude Moon's dam per breeding page. 'ABB Ewe.' Off-farm.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "gm-twin1-2024",
@@ -2782,7 +2782,7 @@
       },
       "notes": "Born 1-2-24. Sir Loin x Gertrude Moon. Not kept per owner.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "gm-twin2-2024",
@@ -2831,7 +2831,7 @@
       },
       "notes": "Born 1-2-24. Sir Loin x Gertrude Moon. Not kept per owner.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "circle-tail",
@@ -2897,7 +2897,7 @@
       },
       "notes": "Flock spreadsheet: 50% Cracker / 21.875% Katahdin / 28.125% St Augustine. DOB 1/22/2023. S'More (100Cr) x Brown Knee (43.75K/56.25SA). In pen 6 (no ram). On weak resistance list. FAMACHA 5. Weight calculator: 64.3lbs.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "fox-tail",
@@ -2954,7 +2954,7 @@
       },
       "notes": "Tag 17. S'More (100%Cr) x Trouble (37.5K/37.5SA/25Dorper). 50%Cr/18.75%SA/18.75%K/12.5%Dorper. Died in Hurricane Helene. Weight calculator: 118.4lbs. Was on 'Ewes to Upgrade' list. Was in pen 6 (no ram).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "s1",
@@ -2996,7 +2996,7 @@
       },
       "notes": "In pen 6 (no ram).",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "s2",
@@ -3038,7 +3038,7 @@
       },
       "notes": "In pen 2 (sirloin group).",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "lara",
@@ -3125,7 +3125,7 @@
       },
       "notes": "Tag 23. 100% Black Headed Dorper per breeding page (previously listed as generic Dorper). DOB 2018. Sire: dorper ram, Dam: dorper ewe (both off-farm). Received from Charles Elingham. Multiple: Y. Ewe weight 159.82lbs, ram weight projection 300lbs. 2023: bred to Sir Loin 7-4-23, due Nov 23. Born 12-30-23: Oliver (3.75lbs) and Spicy (5.8lbs) \u2014 twins by Sir Loin. FAMACHA 3 on 9-6-23 (Ivermectin, post-Idalia stress), FAMACHA 2 on 9-18-23 (no treatment). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' and weak resistance list.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "lara-sire",
@@ -3174,7 +3174,7 @@
       },
       "notes": "Lara's sire per Lara breeding page. 'Dorper ram.' Off-farm, from Charles Elingham.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "lara-dam",
@@ -3223,7 +3223,7 @@
       },
       "notes": "Lara's dam per Lara breeding page. 'Dorper ewe.' Off-farm, from Charles Elingham.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "oliver",
@@ -3272,7 +3272,7 @@
       },
       "notes": "Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Spicy. Birth weight 3.75lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "spicy",
@@ -3321,7 +3321,7 @@
       },
       "notes": "Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Oliver. Birth weight 5.8lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "pebbles",
@@ -3370,7 +3370,7 @@
       },
       "notes": "In pen 2 (sirloin group). FAMACHA 3, treated. Entry struck through in treatment list.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "anna",
@@ -3419,7 +3419,7 @@
       },
       "notes": "Flock spreadsheet: Tag 1, 100% Katahdin, 175lbs. DOB 1/12/2012. Sire: Show King, Dam: Show Queen (off-farm). Mother of Anna's Big One (by Sir Loin). The deceased Kaladin (tag 24) was also S'More x Anna, but that is a different animal from the living Kaladin (tag 014, S'More x Serendipity). Deceased per flock spreadsheet.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "boots",
@@ -3472,13 +3472,13 @@
       },
       "notes": "Flock spreadsheet: Tag 7, 50% Dorper / 50% Katahdin, 130lbs. DOB 2/14/2020. Purchased from Maria (Sire: Maria 1, Dam: Maria 2). Mother of Danny's Girl and Boots 1 (both by S'More). Culled.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "patches",
       "name": "Patches",
       "aliases": [],
-      "tag": null,
+      "tag": "27",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {},
@@ -3517,9 +3517,9 @@
           "IMG_8624.PNG"
         ]
       },
-      "notes": "Weight calculator: 65.6lbs (girth 27, length 27). Weight calc shows tag 27 but Bella is also tag 27 \u2014 [UNCLEAR] if same animal or tag conflict.",
-      "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "notes": "Weight calculator: 65.6lbs (girth 27, length 27). Tag 27 \u2014 confirmed distinct from Bella (tag 027, Heather Oaks Farm).",
+      "confidence": "high",
+      "last_verified": "2026-02-16"
     },
     {
       "id": "little-song",
@@ -3576,7 +3576,7 @@
       },
       "notes": "Flock spreadsheet: Tag 8/retagged 008, 43.75% Katahdin / 56.25% St Augustine, White. DOB 1/24/2023. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Weight calculator: 60.1lbs.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "black-rock",
@@ -3618,7 +3618,7 @@
       },
       "notes": "Tag 010. From measurement list. No measurements recorded yet.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "question-tail",
@@ -3664,7 +3664,7 @@
       },
       "notes": "Tag 001. From measurement list.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "female-004",
@@ -3710,7 +3710,7 @@
       },
       "notes": "Tag 004. From measurement list.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "half-tails-baby",
@@ -3756,7 +3756,7 @@
       },
       "notes": "Tag 007. Half Tail's baby. From measurement list.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "sb1-crown",
@@ -3803,7 +3803,7 @@
       },
       "notes": "Tag 002. Called 'Sb1 (crown)' in measurements. Weight calculator: 68.0lbs.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "sb2-all-black",
@@ -3850,7 +3850,7 @@
       },
       "notes": "Tag 003. Called 'Sb2 (all black)' in measurements. Weight calculator: 65.6lbs.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "new-big-girl-2",
@@ -3892,7 +3892,7 @@
       },
       "notes": "In pen 3 (Sam group).",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "daisy",
@@ -3945,7 +3945,7 @@
       },
       "notes": "Little Daisy's dam. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of Little Daisy (by Dodge), and likely Daisy's Daughter 1 and 2. Status unknown \u2014 from Little Daisy breeding page pedigree.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "daisys-daughter-1",
@@ -3994,7 +3994,7 @@
       },
       "notes": "From Google Sheet Pen 6 breed calculations. Different from Daisy's Daughter 2. Mother is Daisy (Sir Loin x Half Tail).",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "daisys-daughter-2",
@@ -4044,7 +4044,7 @@
       },
       "notes": "From Google Sheet Pen 5 and 6. In NoriSon's group. Different from Daisy's Daughter 1. Mother is Daisy (Sir Loin x Half Tail).",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "oav-2222",
@@ -4108,7 +4108,7 @@
       },
       "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 \u2014 notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Lambed 2026-02-10 (twins). Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "heather-oaks",
@@ -4159,7 +4159,7 @@
       },
       "notes": "From Google Sheet Pen 5 breed data.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "tag-31-ewe",
@@ -4209,7 +4209,7 @@
       },
       "notes": "From Google Sheet Pen 2. 69.25% wool. Different from Bsoed tag 31 in pen 5. Lambed 2026-02-13.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "tag-33",
@@ -4253,7 +4253,7 @@
       },
       "notes": "From Google Sheet Pen 1. 3/4 hair. Has twins.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "tag-35-ewe",
@@ -4301,7 +4301,7 @@
       },
       "notes": "From Google Sheet Pen 3. Broken Tail x Buck. Had Awassi(22%)/EF(3%) overlay in Google Sheet but removing as those were Sir Loin era calculations. Status unknown - Google Sheet only, may be same as Little Daisy (tag 35).",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "bambi",
@@ -4357,7 +4357,7 @@
       },
       "notes": "Weight calculator: tag 35, 81.3lbs (girth 29, length 29). Google Sheet Pen 3 shows 3/4 hair. Broken Tail x Buck. Also appears in pen 2 sirloin notebook list.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "irish",
@@ -4401,7 +4401,7 @@
       },
       "notes": "Little Daisy's daughter. Needed parasite treatment April 13, 2025. Eyes better than Daisy but still scored ~2.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "unnamed-pen2",
@@ -4443,7 +4443,7 @@
       },
       "notes": "Unnamed ewe in pen 2 (sirloin group). Not the same as the deceased 'Unnamed' on the weak resistance list.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "fl51870-0502",
@@ -4502,7 +4502,7 @@
       },
       "notes": "Florida scrapie tag Fl51870-0502. 50%Hampshire/50%Suffolk. Ewe weight 285.61lbs, ram weight prediction 385lbs. Bred to Sam (8-21-23) and Sir Loin (8-30-23, due February). Docile, not flighty. FAMACHA 4\u21922 Sept 2023. Breeding page name shows '(Pen 1-2)' and '(Pen 3)' notations. [UNCLEAR] which flock name this corresponds to, if any.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "fm-lamb-2023",
@@ -4554,7 +4554,7 @@
       },
       "notes": "FM \u00d7 Sir Loin lamb = FM1 (tag 009). Born 4/1/2023. Birth weight 12lbs (single \u2014 heaviest birth weight in class!). Weaned 5/23/2023 at 67lbs (52 days). ADG 1.06. Adj WW 80 (ratio 110). 25%Cotswold/12.5%K/37.5%SA/25%Tunis. Now in Pen 6 as FM1.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "trouble-lamb-2023",
@@ -4604,7 +4604,7 @@
       },
       "notes": "Trouble \u00d7 S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (single). Weaned 5/23/2023 at 84lbs (90 days). ADG 0.84 \u2014 excellent growth. Adj WW 84 (ratio 104). 50%Cr/18.75%K/18.75%SA/12.5%D.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "bsoed-lamb-2023",
@@ -4653,7 +4653,7 @@
       },
       "notes": "Bsoed \u00d7 S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (type 4). Weaned 5/23/2023 at 64lbs (90 days). ADG 0.62. Adj WW 77 (ratio 96). 50%Cr/29.75%SA/20.25%K.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "bt-lamb-2023",
@@ -4703,7 +4703,7 @@
       },
       "notes": "Broken Tail \u00d7 S'More ram lamb (BT1 or BT2). Born 12/12/2022 (counted in 2023 class). Birth weight 9lbs (type 4). Weaned 5/23/2023 at 118lbs (162 days) \u2014 heaviest weaning weight in class! ADG 0.67. Adj WW 108 (ratio 134). 50%Cr/32.8%SA/14%K/3.1%BBB.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "ht-ext-lamb-2023",
@@ -4753,7 +4753,7 @@
       },
       "notes": "Half Tail \u00d7 S'More ram lamb. Born 2/4/2023 (single birth). May be HT1 or Merrie (Merrie DOB from spreadsheet is 1/14/2023 vs 2/4/2023 here \u2014 3 week discrepancy). Weaned 5/23/2023 at 69lbs (108 days). ADG 0.57. Adj WW 76 (ratio 94). 50%Cr/28.125%SA/15.625%K/6.25%BBB.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "shaggy-1",
@@ -4802,7 +4802,7 @@
       },
       "notes": "Shaggy \u00d7 S'More ram lamb (Shaggy1). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 68lbs (114 days). ADG 0.54. Adj WW 86 (ratio 106). 50%Cr/25%Babydoll/25%Jacob.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "shaggy-2",
@@ -4851,7 +4851,7 @@
       },
       "notes": "Shaggy \u00d7 S'More ram lamb (Shaggy2). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 59lbs (114 days). ADG 0.46. Adj WW 74 (ratio 92). 50%Cr/25%Babydoll/25%Jacob.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "bk1",
@@ -4900,7 +4900,7 @@
       },
       "notes": "Foxtail 1 (formerly BK1). Brown Knee \u00d7 S'More ewe lamb. Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 99lbs (119 days) \u2014 BEST ewe lamb! ADG 0.76. Adj WW 109 (ratio 135). 50%Cr/28.125%SA/21.875%K.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "bk2",
@@ -4949,7 +4949,7 @@
       },
       "notes": "Foxtail 2 (formerly BK2). Brown Knee \u00d7 S'More ewe lamb. Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 80lbs (119 days). ADG 0.61. Adj WW 88 (ratio 109). 50%Cr/28.125%SA/21.875%K.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "ext-lamb-35",
@@ -4989,7 +4989,7 @@
       },
       "notes": "Extension service lamb ID 35. Ram, born 2/1/2023 (type 4). Ewe age 7 \u2014 likely Anna (DOB ~2016). No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 81lbs (111 days). ADG 0.67. Adj WW 109 (ratio 135 \u2014 tied for best). May be anna1 (S'More offspring).",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "ext-lamb-27",
@@ -5029,7 +5029,7 @@
       },
       "notes": "Extension service lamb ID 27. Ram, born 2/1/2023 (type 4). Ewe age 3 \u2014 unknown dam. No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 66lbs (111 days). ADG 0.53. Adj WW 85 (ratio 106).",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "ext-lamb-10",
@@ -5069,7 +5069,7 @@
       },
       "notes": "Extension service lamb ID 10. Ewe, born 3/23/2023 (type 4). Ewe age 3 \u2014 unknown dam. No sire listed. Birth weight 5lbs. Weaned 5/23/2023 at 36lbs (61 days). ADG 0.51. Adj WW 39 (ratio 53 \u2014 lowest). Smallest/youngest lamb in class.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "ext-lamb-8",
@@ -5109,7 +5109,7 @@
       },
       "notes": "Extension service lamb ID 8. Ram, born 1/24/2023 (type 3). Ewe: ABG age 1, Sire: SL (Sir Loin). Not kept. Birth weight 8lbs. Weaned 5/23/2023 at 60lbs (119 days). ADG 0.44. Adj WW 77 (ratio 95).",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "shaggy",
@@ -5171,7 +5171,7 @@
       },
       "notes": "Flock spreadsheet: 50% Babydoll / 50% Jacob, Black, 140lbs. DOB ~1/1/2019. Purchased (Sire: Jacob 1, Dam: Baby Doll 1). Mother of Serendipity (by Sir Loin), Shaggy 1 and Shaggy 2 (by S'More). Deceased \u2014 killed by humans after Hurricane Helene. Was in Pen 6. On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "bambii",
@@ -5214,7 +5214,7 @@
       },
       "notes": "In Pen 2 (Sir Loin group) per spiral notebook (authoritative). Was struck through in treatment list but notebook roster is definitive for alive/active status.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "skitters",
@@ -5270,7 +5270,7 @@
       },
       "notes": "Deceased. 100% Karakul per Rocky breeding page. Also called 'Amber' per owner. Weight calculator: 175.7lbs (from 2023-2024 when alive). On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "w136",
@@ -5312,7 +5312,7 @@
       },
       "notes": "Deceased. On weak resistance list.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "unnamed-deceased",
@@ -5354,7 +5354,7 @@
       },
       "notes": "Deceased. On weak resistance list as 'Unnamed (deceased)'.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "hersheys",
@@ -5405,7 +5405,7 @@
       },
       "notes": "Flock spreadsheet: Tag 3, 25% BBB / 37.5% Katahdin / 37.5% St Augustine, 150lbs. DOB 2/1/2015. Sir Loin (25K/75SA) x Sugar (50BBB/50K). Mother of Half Tail. Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "gg-daughter-45",
@@ -5447,7 +5447,7 @@
       },
       "notes": "GG's daughter (GG is sire). Tag 45. Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "lara-daughter-46",
@@ -5489,7 +5489,7 @@
       },
       "notes": "GG (sire) x Lara (dam) daughter. Tag 46. Sold because prone to Coccidia.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "gg-son-094",
@@ -5531,7 +5531,7 @@
       },
       "notes": "GG's son. Tag 094. Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "tag-430-2079",
@@ -5584,7 +5584,7 @@
       },
       "notes": "Tag 430-2079 (pen 5). 25%Hampshire/75%Suffolk. Ewe weight 335.15lbs, ram weight prediction 400lbs. DOB 2017. Acquired 8-21-23 from guy who kept her near a swamp \u2014 had foot rot, treated with Terramycin. Bred to Rocky (8-21-23) and Samson (8-30-23). Docile, not flighty. Breed All Year Y, Wet Tolerant No. Multiple: Y (has had multiples). Deceased per owner.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "kelsiers-sister",
@@ -5636,7 +5636,7 @@
       },
       "notes": "Kelsier's sister. Tag 2241. 100% Katahdin. Weight 150lbs. Breeding page attributes: Flighty?, Good Mother?, Attentive, Protective, Milky, Docile, Strong Flocking, Parasite Resistant, Heat/Cold/Wet Tolerant. Bred to Sir Loin 10-5-23 (due Feb 27th). FAMACHA 3 on 10-5-23. Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "dorper-ram-deceased",
@@ -5690,7 +5690,7 @@
       },
       "notes": "Dorper ram from sick sheep note. Given iron and B on 10-24. Deceased.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "tag-240002",
@@ -5730,7 +5730,7 @@
       },
       "notes": "Sold 2026-02-15.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "tag-0049",
@@ -5770,7 +5770,7 @@
       },
       "notes": "Sold 2026-02-15.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "tag-240001",
@@ -5810,7 +5810,7 @@
       },
       "notes": "Sold 2026-02-15.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "mc06",
@@ -5850,7 +5850,7 @@
       },
       "notes": "Sold 2026-02-15. MC tag Mc06.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "tag-0050",
@@ -5890,7 +5890,7 @@
       },
       "notes": "Sold 2026-02-15. Possibly one of the goose pen auction lambs (tag 50).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "razzle",
@@ -5939,7 +5939,7 @@
       },
       "notes": "Flock spreadsheet: Tag 5, 100% BBB ram, Badger color, 125lbs. DOB 3/1/2014. Purchased from auction (Sire: Auction 1, Dam: Auction 2). Father of Sugar (by Frazzle). Culled for temperament.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "frazzle",
@@ -5988,7 +5988,7 @@
       },
       "notes": "Flock spreadsheet: Tag 6, 100% Katahdin ewe, Black, 175lbs. DOB 2/27/2013. Purchased from auction (Sire: Auction 2, Dam: Auction 3). Mother of Sugar (by Razzle). Died of old age.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "almond-joy",
@@ -6028,7 +6028,7 @@
       },
       "notes": "From Sheep Breeding DB. Ram culled (C) for being cryptorchid.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "sugar",
@@ -6078,7 +6078,7 @@
       },
       "notes": "Flock spreadsheet: Tag 4, 50% BBB / 50% Katahdin, Tan, 224lbs. DOB 2/14/2014. Razzle (100BBB) x Frazzle (100K). Mother of Hersheys (by Sir Loin). Culled for mastitis.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "penny",
@@ -6118,7 +6118,7 @@
       },
       "notes": "From Sheep Breeding DB. Ewe culled (C) for poor shedding.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "two-pence",
@@ -6168,7 +6168,7 @@
       },
       "notes": "From Sheep Breeding DB. Ewe culled as daughter of cryptorchid (Almond Joy). Mother of BSOE (by Sir Loin). Breed estimated from BSOE's composition: if BSOE=56K/44SA and Sir Loin=25K/75SA, Two Pence ~87K/13SA.",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "haylee-lawson",
@@ -6218,7 +6218,7 @@
       },
       "notes": "Flock spreadsheet: Tag 14, 50% Dorper / 50% Katahdin, White, 175lbs. DOB ~1/1/2019. Purchased (Sire: HL1, Dam: HL2). Mother of Trouble (by Sir Loin). Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "pretzel",
@@ -6266,7 +6266,7 @@
       },
       "notes": "Flock spreadsheet: Tag 13, 75% Dorper / 25% Katahdin, Black/White, 130lbs. DOB 1/20/2022. Purchased from Maria (Sire: Maria 3, Dam: Maria 4). Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "w140",
@@ -6308,7 +6308,7 @@
       },
       "notes": "On weak resistance list. Status alive but weak.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "brown-knee",
@@ -6362,7 +6362,7 @@
       },
       "notes": "Flock spreadsheet: 43.75% Katahdin / 56.25% St Augustine, 150lbs. DOB 2/14/2016. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Mother of Circle Tail, BK1, and BK2 (by S'More). Note: BSOE's dam is Two Pence, not Brown Knee (corrected from earlier CSV).",
       "confidence": "medium",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "banana-split",
@@ -6412,7 +6412,7 @@
       },
       "notes": "From CSV & Breeding DB. 70.3% St Augustine, 29.7% Katahdin (calculated: Sir Loin x BSOE). Mother of Banana Split Baby. Status unknown - not in recent notebook. Note: old CSV had dam as 'Black Spot on Ear' which is the same as BSOE.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "fleecity",
@@ -6462,7 +6462,7 @@
       },
       "notes": "From CSV. 50% Katahdin, 50% Dorper. Same parents as Boots (Boots Dad x Boots Mom) - they are siblings. Mother of Stew (by Well Done). Status unknown - not in recent notebook.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "banana-split-baby",
@@ -6510,7 +6510,7 @@
       },
       "notes": "From CSV & Breeding DB. ~72.7% St Augustine, ~27.3% Katahdin (calculated: Sir Loin x Banana Split). Status unknown - not in recent notebook.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "annas-big-one",
@@ -6565,7 +6565,7 @@
       },
       "notes": "Flock spreadsheet: 62.5% Katahdin / 37.5% St Augustine, 200lbs. DOB 12/1/2014. Sir Loin x Anna. Called 'Banana' in notebook. In Pen 4 (Samson group) per notebook. Mother of Brown Knee (by Sir Loin), Little Song (by Sir Loin), and AB1 (by Sir Loin).",
       "confidence": "high",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "stew",
@@ -6613,7 +6613,7 @@
       },
       "notes": "From CSV. 75% Katahdin, 25% Dorper. Well Done (sire) x Fleecity (dam) - CSV had sire/dam columns swapped. Status unknown - not in recent notebook.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "fm2",
@@ -6663,7 +6663,7 @@
       },
       "notes": "From Google Sheet Pen 4. FM2 Baby is 75% hair.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "dorpy",
@@ -6712,7 +6712,7 @@
       },
       "notes": "From Google Sheet Pen 4. Tag 34 offspring row.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     },
     {
       "id": "tag-34-pen4",
@@ -6760,7 +6760,7 @@
       },
       "notes": "From Google Sheet Pen 4. 100% hair.",
       "confidence": "low",
-      "last_verified": "2026-02-15"
+      "last_verified": "2026-02-16"
     }
   ],
   "pens": {
@@ -6797,7 +6797,7 @@
         "half-tail",
         "new-big-girl-2"
       ],
-      "notes": "Sam's group. Zara was here but is deceased. Bella (tag 27) and Cinderella (tag 28) also in pen 3 per treatment notes."
+      "notes": "Sam's group. Zara was here but is deceased. Bella (tag 027, Heather Oaks Farm) and Cinderella (tag 028) also in pen 3 per treatment notes."
     },
     "pen_4": {
       "ram": "samson",
