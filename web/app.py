@@ -238,6 +238,15 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/sw.js")
+def service_worker():
+    """Serve SW from root so it can control the entire scope."""
+    response = send_from_directory(app.static_folder, "sw.js")
+    response.headers["Service-Worker-Allowed"] = "/"
+    response.headers["Content-Type"] = "application/javascript"
+    return response
+
+
 # ═══════════════════════════════════════════════════════════════════
 # API ENDPOINTS
 # ═══════════════════════════════════════════════════════════════════
