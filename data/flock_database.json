@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0.0",
     "farm_name": "Manatee Creek Sheep",
-    "last_updated": "2026-02-16",
+    "last_updated": "2026-03-07",
     "data_sources": [
       "spiral_notebook (IMG_8616-8643)",
       "flock_record_v2.xlsx",
@@ -13,8 +13,8 @@
     ],
     "primary_source": "spiral_notebook",
     "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
-    "total_sheep": 132,
-    "active_sheep": 59,
+    "total_sheep": 133,
+    "active_sheep": 60,
     "deceased_count": 32,
     "culled_count": 1,
     "sold_count": 7,
@@ -1292,7 +1292,35 @@
           "rorshach",
           "rorshach-sister"
         ],
-        "lambing_records": []
+        "lambing_records": [
+          {
+            "date": "2026-02",
+            "sire_id": null,
+            "sire_notes": "Pen 4 ram (identity TBD - possibly Gigi's 2025 son or previous ram)",
+            "lambs": [
+              {
+                "sex": "ram",
+                "color": "black",
+                "status": "given_away",
+                "notes": "Given away per owner March 2026"
+              },
+              {
+                "sex": "ewe",
+                "color": "white",
+                "tag_suffix": "b",
+                "status": "alive"
+              },
+              {
+                "sex": "ewe",
+                "color": "white",
+                "tag_suffix": "sm",
+                "status": "alive"
+              }
+            ],
+            "birth_type": "triplet",
+            "notes": "Triplets per notebook IMG_8565-8566. Eyes good 2-12-26 and 2-13-26."
+          }
+        ]
       },
       "source_refs": {
         "csv_row": null,
@@ -1301,9 +1329,9 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets).",
+      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). 2026 lambing: triplets (1 black ram - given away, 2 white ewe lambs). Pen 4 per notebook Feb 2026.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-03-07"
     },
     {
       "id": "nori",
@@ -6761,6 +6789,68 @@
       "notes": "From Google Sheet Pen 4. 100% hair.",
       "confidence": "low",
       "last_verified": "2026-02-16"
+    },
+    {
+      "id": "charlie",
+      "name": "Charlie",
+      "aliases": [
+        "Charlie's Ram (Pen 3)"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin/Dorper/ABB/Wiltshire Horn",
+        "percentages": {
+          "Katahdin": 50,
+          "Dorper": 25,
+          "American Blackbelly": 12.5,
+          "Wiltshire Horn": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 3",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [
+          {
+            "date": "2026-03-07",
+            "treatment": "Nuflor x3 consecutive days for puncture wound that healed proud; wound kept open to heal properly"
+          }
+        ],
+        "vaccinations": [],
+        "notes": [
+          "Hard bump on left jaw noted 2-13-2026 (notebook IMG_8595)",
+          "Puncture wound healed proud; treated with Nuflor x3 consecutive, keeping wound open"
+        ]
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "IMG_8595.PNG"
+        ]
+      },
+      "notes": "Ram from friend Charlie's farm. Pedigree: (Nori x Dorper ram) ewe x full Katahdin sire. Nori is 50%ABB/50%Wiltshire Horn. Dam would be 25%ABB/25%WH/50%Dorper. Charlie is 50%Katahdin/25%Dorper/12.5%ABB/12.5%WH. All hair breeds. Most ewes from friend Charlie are Nori's daughters by the same Dorper sire \u2014 largely Blackbelly with some Katahdin. In Pen 3 with Merrie as of March 2026. Notebook (Feb 2026) showed him in Pen 2. Has had puncture wound that healed proud, treated with Nuflor x3.",
+      "confidence": "high",
+      "last_verified": "2026-03-07"
     }
   ],
   "pens": {
