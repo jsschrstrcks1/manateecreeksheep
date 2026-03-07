@@ -1261,14 +1261,18 @@
       "color_markings": "Black w White",
       "weight_lbs": 140,
       "dob": "2022-02-08",
-      "dob_approximate": true,
+      "dob_approximate": false,
       "sire_id": "well-done",
       "dam_id": "half-tail",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 6",
-      "measurements": {},
+      "pen": "Pen 4",
+      "measurements": {
+        "birth_weight_lbs": 12,
+        "adg": 0.558125,
+        "weight_30d": 38.79
+      },
       "health": {
         "famacha_scores": [
           {
@@ -1286,8 +1290,8 @@
         "notes": []
       },
       "breeding": {
-        "is_breeding_animal": false,
-        "breeding_group": "",
+        "is_breeding_animal": true,
+        "breeding_group": "Pen 4",
         "offspring_ids": [
           "rorshach",
           "rorshach-sister"
@@ -1329,7 +1333,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). 2026 lambing: triplets (1 black ram - given away, 2 white ewe lambs). Pen 4 per notebook Feb 2026.",
+      "notes": "Breeding page: Tag 25, 6.25%BBB/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Spreadsheet says 'American Black Belly' but owner confirms BBB — Razzle (foundation sire) had no horns, ruling out ABB. Sir Loin is grandsire (Well Done's sire). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558, 30d weight 38.79lbs. Offspring 2024: Rorshach and sister (by Sir Loin, mated Aug 17 2023). FAMACHA 1 (9-6-23 and 9-18-23). Inbreeding 0%. 2026 lambing: triplets (1 black ram - given away, 2 white ewe lambs). Pen 4 per notebook and owner confirmation March 2026.",
       "confidence": "high",
       "last_verified": "2026-03-07"
     },
