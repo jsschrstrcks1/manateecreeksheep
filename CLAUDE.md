@@ -251,6 +251,16 @@ This repository has access to the multi-LLM orchestrator system. External models
 - **Memory scope:** `/sheep`
 - **Orchestrator:** `/home/user/ken/orchestrator/`
 
+### First-Time Setup (Per Session)
+
+Before first use of `/consult` or `/orchestrate` in a session, install dependencies:
+
+```bash
+pip3 install -q -r /home/user/ken/orchestrator/requirements.txt
+```
+
+This is silent when already installed. If `/consult` or `/orchestrate` fails with `ModuleNotFoundError`, run this command first.
+
 ### Context Boundaries
 - **SEND:** Anonymized flock data, breeding objectives, trait scores, health summaries
 - **NEVER SEND:** Financial records, location details beyond "Florida"
