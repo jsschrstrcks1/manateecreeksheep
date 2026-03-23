@@ -230,3 +230,27 @@ python3 scripts/validate_flock.py --check-images
 The governing principle: everything we do is for the glory of God and with integrity. We don't guess — we verify. We don't assume — we check. We don't cut corners — we serve the flock.
 
 **Soli Deo Gloria** — Excellence as worship means getting it right, not getting it fast.
+
+---
+
+## Multi-LLM Integration
+
+This repository has access to the multi-LLM orchestrator system. External models (GPT, Gemini, Grok) serve as **consultants only** — Claude remains lead author and decision-maker.
+
+### Available Skills
+
+| Skill | Usage | Purpose |
+|-------|-------|---------|
+| `/consult` | `/consult gpt plan "breeding plan for spring lambing"` | Quick single-model second opinion |
+| `/orchestrate` | `/orchestrate sheep "evaluate fall breeding pairs"` | Full multi-model pipeline |
+| Cognitive Memory | Automatic on session start | Cross-session knowledge persistence |
+
+### Mode: `sheep`
+- **Lead:** GPT (planning), Claude (safety/validation)
+- **Pipeline:** Plan (GPT) → Context (Gemini) → Challenge (Grok) → Validate (Claude) → Finalize (GPT)
+- **Memory scope:** `/sheep`
+- **Orchestrator:** `/home/user/ken/orchestrator/`
+
+### Context Boundaries
+- **SEND:** Anonymized flock data, breeding objectives, trait scores, health summaries
+- **NEVER SEND:** Financial records, location details beyond "Florida"
