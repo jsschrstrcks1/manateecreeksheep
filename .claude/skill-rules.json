@@ -2,6 +2,30 @@
   "version": "1.0.0",
   "skills": [
     {
+      "name": "orchestrate",
+      "description": "Full multi-LLM pipeline orchestration. Runs the sheep flock decision pipeline (Plan → Expand → Challenge → Validate → Finalize) coordinating GPT, Gemini, Grok, and Claude.",
+      "type": "domain",
+      "priority": "high",
+      "enforcement": "suggest",
+      "triggers": {
+        "keywords": ["orchestrate", "pipeline", "multi-model", "multi-llm", "full pipeline", "run pipeline", "sheep pipeline"],
+        "intent_patterns": ["(orchestrate|run pipeline|full pipeline).*?(breeding|flock|plan)", "(coordinate|consult).*?(multiple|all).*?model"]
+      },
+      "skill_file": ".claude/skills/orchestrate/SKILL.md"
+    },
+    {
+      "name": "consult",
+      "description": "Quick multi-LLM second opinion. Sends a single prompt to GPT, Gemini, or Grok with a role-based system prompt and returns structured feedback.",
+      "type": "domain",
+      "priority": "high",
+      "enforcement": "suggest",
+      "triggers": {
+        "keywords": ["consult", "second opinion", "ask gpt", "ask gemini", "ask grok", "challenge this", "expand this", "get feedback"],
+        "intent_patterns": ["(consult|ask|query).*?(gpt|gemini|grok)", "(second opinion|outside perspective|another model)"]
+      },
+      "skill_file": ".claude/skills/consult/SKILL.md"
+    },
+    {
       "name": "careful-not-clever",
       "description": "Integrity guardrail for sheep flock management. Enforces careful, verified work over clever shortcuts. Activates on every file modification to ensure sheep records, pedigrees, and health data are verified before committing.",
       "type": "guardrail",
