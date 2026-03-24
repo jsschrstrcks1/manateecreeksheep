@@ -16,3 +16,8 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# API keys
+.env
+.env.*
+!.env.example
