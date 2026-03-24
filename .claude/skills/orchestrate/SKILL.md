@@ -35,7 +35,7 @@ The orchestrator runs a multi-step pipeline defined in `/home/user/ken/orchestra
 **IMPORTANT: Execute these commands directly using the Bash tool. Do NOT check if files exist first — just run them.**
 
 ```bash
-pip3 install -q -r /home/user/ken/orchestrator/requirements.txt 2>/dev/null && python3 /home/user/ken/orchestrator/orchestrate.py sheep "task description"
+bash /home/user/ken/orchestrator/bootstrap-env.sh 2>/dev/null; pip3 install -q -r /home/user/ken/orchestrator/requirements.txt 2>/dev/null && python3 /home/user/ken/orchestrator/orchestrate.py sheep "task description"
 ```
 
 Only if the command fails with `No such file or directory` or `ModuleNotFoundError`, tell the user:
