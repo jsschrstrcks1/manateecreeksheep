@@ -1,100 +1,98 @@
 ---
 name: pasture-planner
-description: "Plans pasture rotation considering parasite pressure, seasonal grass growth, and pen capacity. Florida-specific with warm-season grass knowledge."
+description: "Plans pasture rotation for Florida sheep operation. Considers parasite pressure, seasonal grass growth, pen capacity, and rest periods for larval die-off."
 version: 1.0.0
 ---
 
 # Pasture Planner
 
-> *Tend the land so the land can tend the flock.*
+> *"He makes me lie down in green pastures."* — Psalm 23:2
 
 ## Purpose
 
-Plans pasture rotation for a Florida sheep operation — balancing parasite control, forage quality, stocking density, and seasonal conditions.
+Florida-specific pasture rotation planning that balances grazing needs with parasite management. The #1 health challenge in this flock is parasites — rotation is the first line of defense.
 
 ## When to Fire
 
 - On `/pasture` command
-- When discussing rotation, grazing, pen management, or forage
-- When planning seasonal moves
-- After health-tracker flags parasite pressure
+- When discussing rotation, grazing, pen management
+- When planning seasonal pen assignments
+- When health-tracker flags rising parasite pressure
 
-## Florida Grass Calendar
+## Florida Pasture Knowledge
 
-### Warm Season (March–October)
-- **Bahiagrass**: Primary pasture grass. Drought-tolerant, handles sandy soil. Peak growth June-August.
-- **Bermudagrass**: More nutritious than Bahia but needs fertilization. Good for hay.
-- **Limpograss**: Wet areas. Maintains quality into fall better than others.
+### Warm-Season Grasses (Primary: April–October)
+- **Bahiagrass** — drought-tolerant, low maintenance, primary forage
+- **Bermudagrass** — higher protein, more aggressive, needs management
+- **Limpograss** — good for wet areas, moderate quality
 
-### Cool Season (November–February)
-- **Annual ryegrass**: Over-seed into Bahia in October. Provides winter forage.
-- **Oats/rye**: Emergency winter forage. Plant by mid-October in Florida.
-- **Clover**: Nitrogen-fixing, good companion. Crimson clover for winter, white clover perennial.
+### Cool-Season Options (November–March)
+- **Annual ryegrass** — overseeded into Bahia for winter grazing
+- **Oats/rye** — temporary winter forage plots
+
+### Parasite Pressure by Season
+| Season | Pressure | Why |
+|--------|----------|-----|
+| Jan-Mar | Low-Moderate | Cool, dry — larvae less active |
+| Apr-May | Rising | Warming up, spring rains |
+| Jun-Sep | **HIGH** | Hot, wet — peak larval survival |
+| Oct-Dec | Declining | Cooling, drying |
 
 ## Rotation Rules
 
-### Parasite Control
-- **Minimum rest period: 60 days** between grazings on the same pasture
-- Parasite larvae survive 3-6 weeks on pasture in Florida heat
-- Larvae climb grass blades in morning dew — graze after 10 AM when possible
-- Never graze below 3 inches — larvae concentrate in bottom 2 inches
-- After deworming, move to clean pasture within 24 hours
+### Minimum Rest Period: 60 Days
+Haemonchus contortus (barber pole worm) larvae need 60+ days without a host to die off in Florida conditions. **Never return animals to a pasture in less than 60 days.**
 
 ### Stocking Density
-- **Rule of thumb**: 5-7 sheep per acre on improved Bahia in Florida
-- Adjust down during drought or when parasite pressure is high
-- Ewes with lambs need 30% more space
-- Rams in breeding pens: 1/4 acre minimum
+- Maximum: 6-8 ewes per acre of Bahiagrass
+- With lambs: reduce to 4-5 ewes per acre
+- Rams: 1 ram per 15-20 ewes
 
-### Current Pen Structure
+### Rainy Season Protocol (June-September)
+- Rotate MORE frequently (every 3-4 weeks vs 4-6 weeks)
+- Avoid low/wet areas where larvae concentrate
+- Monitor FAMACHA weekly, not bi-weekly
+- Consider sacrificial lot for feeding to spare pastures
 
-| Pen | Ram | Ewes | Approx Size |
-|-----|-----|------|-------------|
-| 1 | Kaladin | Eclipse, Merrie, Abg, Fm | — |
-| 2 | Sir Loin | Azure, S2, Lara, Bambii, Pebbles | — |
-| 3 | Sam | Baby, Zara, Half tail | — |
-| 4 | Samson | Elsie, Nori, Trouble, Bsoe, Banana | — |
-| 5 | Rocky/NoriSon | Amber 24, Broken tail, Little daisy | — |
-| 6 | No ram | Shaggy, Serendipity, S1, Fm1, Fox tail, Circle tail | — |
+## Current Pen Structure
 
-## Seasonal Rotation Plan
+| Pen | Ram | Ewes | Notes |
+|-----|-----|------|-------|
+| 1 | Kaladin | Eclipse, Merrie, Abg, Fm | |
+| 2 | Sir Loin | Azure, S2, Lara, Bambii, Pebbles | |
+| 3 | Sam | Baby, Zara, Half tail | |
+| 4 | Samson | Elsie, Nori, Trouble, Bsoe, Banana | |
+| 5 | Rocky/NoriSon | Amber 24, Broken tail, Little daisy | |
+| 6 | No ram | Shaggy, Serendipity, S1, Fm1, Fox tail, Circle tail | |
 
-### Rainy Season (June–September)
-- **HIGH parasite alert**: Warm + wet = larval explosion
-- Increase rotation frequency (move every 2-3 weeks)
-- Keep grass height above 4 inches
-- Consider temporary sacrifice area during heavy rains
-- Run FAMACHA checks every 2 weeks
-
-### Dry Season (October–May)
-- **Lower parasite pressure**: Can extend rotation to 4-6 weeks
-- Over-seed ryegrass in October for winter forage
-- Stockpile Bahia in September for fall grazing
-- FAMACHA checks monthly
-
-## Rotation Report Format
+## Rotation Plan Format
 
 ```
-## Pasture Rotation Plan — [season/date]
+## Pasture Rotation Plan — [season]
 
-| Pen | Current Pasture | Last Grazed | Rest Days | Next Move | Notes |
-|-----|----------------|-------------|-----------|-----------|-------|
+### Schedule
+| Week | Pen 1 | Pen 2 | Pen 3 | Pen 4 | Pen 5 | Pen 6 |
+|------|-------|-------|-------|-------|-------|-------|
+| 1 | Graze | Rest | Graze | Rest | Graze | Rest |
+| ... |
 
-### Forage Status
-| Pasture | Grass Height | Condition | Forage Type |
-|---------|-------------|-----------|-------------|
+### Rest Day Counter
+| Pen | Days Resting | Status |
+|-----|-------------|--------|
+| 1 | 45 | Needs 15 more days |
+| 2 | 72 | ✅ Safe to graze |
 
-### Parasite Risk: [LOW / MODERATE / HIGH]
-Reason: [season, recent rain, recent FAMACHA data]
+### Alerts
+- [pen] approaching minimum rest period
+- [pen] stocking density exceeded
 ```
 
 ## Integration
 
-- **health-tracker** — parasite data informs rotation urgency
-- **breeding-advisor** — pregnant ewes need best pasture
-- **cognitive-memory** — remember rotation history across sessions
-- **flock-validation** — pen assignments must match rotation plan
+- **health-tracker** — FAMACHA trends inform rotation urgency
+- **breeding-advisor** — pen assignments affect which rams breed which ewes
+- **cognitive-memory** — rotation history persists across sessions
 
 ---
 
-*Soli Deo Gloria* — The land is the Lord's. We steward it faithfully.
+*Soli Deo Gloria* — Good pasture is good stewardship.

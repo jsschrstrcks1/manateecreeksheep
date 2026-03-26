@@ -1,105 +1,79 @@
 ---
 name: health-tracker
-description: "Tracks FAMACHA scores over time per animal, flags worsening trends, identifies weak resistance patterns before they become critical. Wraps scripts/parasite_resistance.py."
+description: "Tracks FAMACHA scores and health trends per animal over time. Flags animals trending toward anemia before they're critical. Links health data to breeding decisions."
 version: 1.0.0
 ---
 
 # Health Tracker
 
-> *"Know well the condition of your flocks, and give attention to your herds."* — Proverbs 27:23
+> *"The LORD is my shepherd."* — Psalm 23:1
 
 ## Purpose
 
-Tracks animal health trends over time — especially FAMACHA scores and parasite resistance. Flags animals trending toward anemia before they're critical. Informs breeding decisions.
+Monitors individual animal health over time, focusing on FAMACHA trends and parasite resistance. Catches problems before they become emergencies.
 
 ## When to Fire
 
 - On `/health` command
-- When discussing FAMACHA, deworming, or animal health
+- When discussing FAMACHA scores, deworming, or animal health
 - After transcribing health records from spiral notebook images
-- When evaluating which animals to cull
+- When breeding-advisor needs health context
 
 ## FAMACHA Scale
 
 | Score | Color | Meaning | Action |
 |-------|-------|---------|--------|
-| 1 | Red | Healthy | No treatment needed |
-| 2 | Red-pink | Acceptable | Monitor |
+| 1 | Red | Healthy | None needed |
+| 2 | Red-Pink | Acceptable | Monitor |
 | 3 | Pink | Borderline | Consider treatment |
-| 4 | Pink-white | Anemic | Treat immediately |
-| 5 | White | Severely anemic | Treat + evaluate for culling |
+| 4 | Pink-White | Anemic | Treat immediately |
+| 5 | White | Severely anemic | Emergency treatment, evaluate culling |
 
-## Tracking Protocol
+## Trend Detection
 
-After each FAMACHA check, encode:
+Flag animals whose FAMACHA scores are **worsening across consecutive checks**:
+- 1→2→3 across 3 checks = **trending down, monitor closely**
+- Consistent 3+ = **chronic weakness, breeding decision needed**
+- Any score of 4-5 = **immediate flag**
 
-```bash
-python3 /home/user/ken/orchestrator/memory_ops.py encode sheep fact \
-  "FAMACHA check 2026-03-25: Kaladin=1, Eclipse=2, Azure=3 (trending up from 2), Baby=4 (treat now)" \
-  --tags famacha,health,2026-03-25
-```
+## Known Weak Resistance Animals
 
-## Trend Analysis
-
-### Worsening Animals
-Flag any animal whose FAMACHA score has increased by 2+ points over 3 checks, or any animal consistently at 3+.
-
-### Known Weak Resistance List
-These animals have demonstrated poor parasite resistance and should be monitored closely:
-**Active:** GG, Azure, Rocky, Dorper 23 & 25, Circle Tail, W140, FM1, Baby, Bella, FM
+These animals have documented poor parasite resistance:
+**Active:** GG, Azure, Rocky, Dorper 23, Dorper 25, Circle Tail, W140, FM1, Baby, Bella, FM
 **Deceased (pedigree relevant):** Shaggy, Butter Ball, Skitters, W136, Samson, Unnamed
 
-### Seasonal Patterns
-- **June-September**: Peak parasite pressure (rainy season, warm soil). Expect more 3+ scores.
-- **December-February**: Lower pressure. Good baseline for identifying truly resistant animals.
-- **Post-rain**: Check within 2 weeks of heavy rain. Parasite larvae hatch.
+## Data Sources
 
-## Script Integration
-
-```bash
-# Run parasite resistance analysis
-python3 scripts/parasite_resistance.py
-
-# Run full flock validation (includes health checks)
-python3 scripts/validate_flock.py
-```
+- `data/flock_database.json` — structured health records
+- `scripts/parasite_resistance.py` — calculates resistance scores
+- Spiral notebook images (IMG_8560–8643) — primary source for FAMACHA checks
 
 ## Health Report Format
 
 ```
 ## Flock Health Report — [date]
 
-### FAMACHA Summary
-| Score | Count | Animals |
-|-------|-------|---------|
-| 1 | [N] | [names] |
-| 2 | [N] | [names] |
-| 3 | [N] | [names] — MONITOR |
-| 4 | [N] | [names] — TREAT |
-| 5 | [N] | [names] — CRITICAL |
+### Animals of Concern
+| Animal | Tag | Pen | Last FAMACHA | Trend | Action |
+|--------|-----|-----|-------------|-------|--------|
 
-### Trending Worse (vs. last check)
-| Animal | Previous | Current | Trend |
-|--------|----------|---------|-------|
+### Flock Summary
+- Average FAMACHA: [score]
+- Animals at 1-2: [count] ([%])
+- Animals at 3: [count] ([%])
+- Animals at 4-5: [count] ([%])
 
-### Treatment Log
-| Animal | Treatment | Date | Response |
-|--------|----------|------|----------|
-
-### Breeding Implications
-- [Animals with poor health trends should not be bred]
-- [Strong health performers → priority breeding candidates]
+### Breeding Impact
+- [animal] trending weak → exclude from breeding / reduce offspring priority
 ```
 
 ## Integration
 
-- **breeding-advisor** — health data informs breeding recommendations
-- **flock-validation** — health records must be consistent
-- **image-transcription** — health records from spiral notebooks feed this skill
-- **cognitive-memory** — health trends persist across sessions
+- **breeding-advisor** — health trends inform which animals to breed/cull
+- **flock-validation** — validates health record completeness
+- **image-transcription** — new health data comes from notebook transcription
+- **cognitive-memory** — trend observations persist across sessions
 
 ---
 
-*"The LORD is my shepherd; I shall not want."* — Psalm 23:1
-
-*Soli Deo Gloria* — We steward their health for God's glory.
+*Soli Deo Gloria* — Good stewardship means catching problems early.
