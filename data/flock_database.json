@@ -18,7 +18,21 @@
     "deceased_count": 32,
     "culled_count": 1,
     "sold_count": 7,
-    "unknown_count": 33
+    "unknown_count": 33,
+    "breeding_insights": [
+      {
+        "date": "2026-04-02",
+        "insight": "PARASITE SUSCEPTIBILITY DOMINANCE: Gigi/Azure line shows that dam-side parasite susceptibility appears to dominate over sire-side resistance. Even with Kelsier (gold standard parasite resistant Katahdin) as sire: Serendipitys black ewe twin had FAMACHA 5 at birth check, Serendipitys white ram twin had FAMACHA 4, Gigi herself had FAMACHA 5 twice (2-20 and 2-27-26). Azure (Gigis sister) also historically weak (avg FAMACHA 4). Baby Azure (Pen 1) had FAMACHA 5 on 4-1-26. This suggests parasite resistance heritability from the dam side is strong in this family. Kelsier offspring from resistant dams should be compared to confirm.",
+        "source": "Pen 4 notebook cards + Pen 1 FAMACHA data April 2026",
+        "tags": [
+          "parasite_resistance",
+          "heritability",
+          "gigi_line",
+          "kelsier_offspring",
+          "breeding_decision"
+        ]
+      }
+    ]
   },
   "sheep": [
     {
@@ -187,9 +201,47 @@
       "health": {
         "famacha_scores": [],
         "weak_resistance": true,
-        "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "treatments": [
+          {
+            "date": "2026-02-20",
+            "treatment": "Ivermectin + Fenbendazole + VB 3mL + Iron 2mL",
+            "notes": "FAMACHA almost white"
+          },
+          {
+            "date": "2026-02-27",
+            "treatment": "Ivermectin + Fenbendazole + VB 3mL + Iron 3mL",
+            "notes": "Still almost white"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8"
+          }
+        ],
+        "notes": [],
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 5,
+            "notes": "Almost White. Ivermectin+Fenbendazole+VB 3mL+Iron 2mL"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 5,
+            "notes": "Almost white still. Ivermectin+Fenbendazole+VB 3mL+Iron 3mL"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot. Eyes good. Recovered."
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -208,7 +260,7 @@
           "IMG_8634.PNG"
         ]
       },
-      "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook.",
+      "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook. Pen 4 (monitoring/treatment pen). FAMACHA almost white (4-5) on 2-20-26 and 2-27-26 \u2014 two rounds aggressive treatment (Ivermectin+Fenbendazole+VB+Iron). Recovered to good by 3-9-26. Single ewe baby born 1-10-26. Also has 2025 yearling ram (tag 09?, sire Kelsier). Known weak parasite resistance \u2014 dam genetics appear dominant for parasite susceptibility despite Kelsier sire on offspring. One of familys favorites. Azure is Gigis sister (confirmed from notebook: Azures card says Gilris/Gigis Sister). Source: notebook card pen 4.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -1643,10 +1695,38 @@
           }
         ],
         "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [],
+        "treatments": [
+          {
+            "date": "2026-02-27",
+            "treatment": "Vitamin B12 3mL",
+            "notes": "Skinny, nursing twins"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8"
+          }
+        ],
         "notes": [
           "Low FAMACHA score 7-24-25 along with GG and Lara"
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": 3.5,
+            "notes": "eyes 3-4"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "eyes good 3"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes good 3. Skinny. VB12 3mL."
+          }
         ]
       },
       "breeding": {
@@ -1668,7 +1748,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Breeding page: 25%Babydoll/25%Jacob/12.5%K/37.5%SA. Tag 30. DOB 3/25/2022. Acquired 3/25/2022. Ewe weight 137.5lbs, ram weight prediction 222.75lbs. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Black w white on head and spots by mouth. Not flighty, Good Mother, Attentive, Protective, Docile, Heat Tolerant. FAMACHA 1 (9-20-23). 2023: S'More lamb born 1/29/2023 \u2014 sterile, deceased (parasites). Also 2023: Kaladin (by S'More, born 5/11/2023). 2024: ram (by Samson). Also mother of Mc12/036 baby ewe. Bred to Kaladin 9-6-23, Samson Jan-Feb. Pen 4 with twins (2026). Lambed 2026-02-03 (twins).",
+      "notes": "Breeding page: 25%Babydoll/25%Jacob/12.5%K/37.5%SA. Tag 30. DOB 3/25/2022. Acquired 3/25/2022. Ewe weight 137.5lbs, ram weight prediction 222.75lbs. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Black w white on head and spots by mouth. Not flighty, Good Mother, Attentive, Protective, Docile, Heat Tolerant. FAMACHA 1 (9-20-23). 2023: S'More lamb born 1/29/2023 \u2014 sterile, deceased (parasites). Also 2023: Kaladin (by S'More, born 5/11/2023). 2024: ram (by Samson). Also mother of Mc12/036 baby ewe. Bred to Kaladin 9-6-23, Samson Jan-Feb. Pen 4 with twins (2026). Lambed 2026-02-03 (twins). Pen 4 (monitoring pen). Twins born 12-30-25 (1 male white, 1 female black). Sire: Kelsier. FAMACHA 3-4 on 2-12-26, borderline/skinny on 2-27-26 \u2014 VB12 3mL. Nursing twins is hard on her. Source: notebook card pen 4.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -2478,7 +2558,7 @@
       "id": "fm",
       "name": "FM",
       "aliases": [],
-      "tag": null,
+      "tag": "0011",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
@@ -2499,14 +2579,31 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 1",
+      "pen": "Pen 4",
       "measurements": {},
       "health": {
         "famacha_scores": [],
         "weak_resistance": true,
         "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8"
+          }
+        ],
+        "notes": [],
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good. No babies."
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -2526,7 +2623,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Tag GA1568-011, 50% Cotswold / 50% Tunis, Tunis Red, 200lbs. DOB 2/14/2021 per breeding page. Acquired 2/27/2021. Sire: Tunis (red), Dam: Cotswold. 2023: FM1 ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days). Eclipse also listed on breeding page as potential 2023 offspring (dec?/April \u2014 may not have survived). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list.",
+      "notes": "Tag GA1568-011, 50% Cotswold / 50% Tunis, Tunis Red, 200lbs. DOB 2/14/2021 per breeding page. Acquired 2/27/2021. Sire: Tunis (red), Dam: Cotswold. 2023: FM1 ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days). Eclipse also listed on breeding page as potential 2023 offspring (dec?/April \u2014 may not have survived). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list. Tag 0011 confirmed. Now in Pen 4. No babies as of 2-12-26. Eyes good throughout. Source: notebook card pen 4.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -7639,6 +7736,413 @@
           }
         ]
       }
+    },
+    {
+      "id": "g023-bhd-ewe",
+      "name": "BHD Ewe G023",
+      "aliases": [],
+      "tag": "G023",
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Black Headed Dorper",
+        "percentages": {
+          "Black Headed Dorper": 100
+        },
+        "coat_type": "hair"
+      },
+      "color_markings": "Black headed",
+      "pen": "Pen 4",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "Tag G023. BHD ewe. No babies. FAMACHA borderline (3) on 2-20-26, treated with Vitamin B, recovered to good by 3-9. Source: notebook card pen 4.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 1 pen 4"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good. No babies."
+          },
+          {
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "Borderline"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes borderline. VB shot."
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot. Eyes good."
+          }
+        ],
+        "treatments": [
+          {
+            "date": "2026-02-27",
+            "treatment": "Vitamin B shot"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gigi-2026-baby",
+      "name": "Gigis 2026 Baby",
+      "aliases": [],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[Kelsier x Gigi offspring]",
+        "percentages": {},
+        "coat_type": "unknown",
+        "notes": "Sire Kelsier (100% Katahdin). Dam Gigi (unknown breed). Multi color."
+      },
+      "color_markings": "Multi color ewe",
+      "pen": "Pen 4",
+      "status": "alive",
+      "sire_id": "kelsier",
+      "dam_id": "gg",
+      "dob": "2026-01-10",
+      "notes": "Born 1-10-26. Gigis baby. Multi color ewe. Sire: Kelsier. 5.2 weeks old as of 2-20-26. Eyes good throughout. Watch for inherited parasite susceptibility from dam line (Gigi/Azure/Baby Azure all show weak resistance). Source: notebook card pen 4.",
+      "confidence": "high",
+      "source_refs": {
+        "notebook_card": "Card 3 pen 4"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "5.2 weeks old. Eyes good."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8",
+            "notes": "1st dose"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gigi-2025-ram",
+      "name": "Gigis 2025 Ram",
+      "aliases": [],
+      "tag": "09",
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "[Kelsier x Gigi offspring]",
+        "percentages": {},
+        "coat_type": "unknown",
+        "notes": "Sire believed to be Kelsier (100% Katahdin). Dam Gigi. Looks like Gigi."
+      },
+      "color_markings": "Looks like Gigi",
+      "pen": "Pen 4",
+      "status": "alive",
+      "sire_id": "kelsier",
+      "dam_id": "gg",
+      "dob_approximate": true,
+      "notes": "Tag 09 [UNCLEAR]. Gigis 2025 baby. Yearling ram, old enough to mate. Sire believed Kelsier. Moved from Goose Pen to Pen 4 on 2-11-26. Looks like Gigi. Watch FAMACHA to determine if inherited Kelsier parasite resistance or Gigi susceptibility. Source: notebook card pen 4.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 11 pen 4"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-11",
+            "score": "1-2",
+            "notes": "Moved from Goose Pen to Pen 4. Eyes good."
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sm-white-ewe-p4",
+      "name": "Small White Ewe (Pen 4)",
+      "aliases": [],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[UNCLEAR]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Small, white",
+      "pen": "Pen 4",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "No tag (now tagged TBD). Small white ewe. No babies. Eyes good throughout. Source: notebook card pen 4.",
+      "confidence": "low",
+      "source_refs": {
+        "notebook_card": "Card 5 pen 4"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good. No babies."
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-27",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serendipity-twin-ram",
+      "name": "Serendipity White Ram Twin",
+      "aliases": [],
+      "tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "[Kelsier x Serendipity offspring]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "White",
+      "pen": "Pen 4",
+      "status": "alive",
+      "sire_id": "kelsier",
+      "dam_id": "serendipity",
+      "dob": "2025-12-30",
+      "notes": "Born 12-30-25. Serendipitys white ram twin. Sire: Kelsier. FAMACHA 3 on 2-12-26, then eyes bad on 2-20-26 \u2014 treated with .5mL Iron, VB, Ivermectin, Fenbendazole. Eyes better by 2-27-26. Parasite susceptibility despite Kelsier sire \u2014 dam genetics dominant. Source: notebook card pen 4.",
+      "confidence": "high",
+      "source_refs": {
+        "notebook_card": "Card 7 pen 4"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": 3,
+            "notes": "eyes score 3"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 4,
+            "notes": "eyes bad. 7 weeks old."
+          },
+          {
+            "date": "2026-02-27",
+            "score": "1-2",
+            "notes": "eyes better"
+          }
+        ],
+        "treatments": [
+          {
+            "date": "2026-02-20",
+            "treatment": "Iron .5mL + VB + Ivermectin + Fenbendazole",
+            "notes": "Eyes bad"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8",
+            "notes": "1st dose"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serendipity-twin-ewe",
+      "name": "Serendipity Black Ewe Twin",
+      "aliases": [],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[Kelsier x Serendipity offspring]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Black",
+      "pen": "Pen 4",
+      "status": "alive",
+      "sire_id": "kelsier",
+      "dam_id": "serendipity",
+      "dob": "2025-12-30",
+      "notes": "Born 12-30-25. Serendipitys black ewe twin. Sire: Kelsier. FAMACHA 5 (white) on 2-12-26 \u2014 aggressive treatment Ivermectin+Fenbendazole+VB Iron+VB Shot 1mL. 2-20-26 eyes not white, retreated. Under 3 by late Feb. Severe parasite susceptibility despite Kelsier sire. Dam genetics dominant for susceptibility. Source: notebook card pen 4.",
+      "confidence": "high",
+      "source_refs": {
+        "notebook_card": "Card 7-8 pen 4"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": 5,
+            "notes": "Eyes white. Treated immediately."
+          },
+          {
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "Eyes not white. Retreated. Ivermectin + 1mL VB shot."
+          },
+          {
+            "date": "2026-03-09",
+            "score": 2.5,
+            "notes": "Eyes under 3. VB12 1mL."
+          }
+        ],
+        "treatments": [
+          {
+            "date": "2026-02-12",
+            "treatment": "Ivermectin + Fenbendazole + VB Iron + VB Shot 1mL",
+            "notes": "FAMACHA 5 emergency"
+          },
+          {
+            "date": "2026-02-20",
+            "treatment": "Ivermectin + VB Shot 1mL",
+            "notes": "Not white but retreated"
+          },
+          {
+            "date": "2026-03-09",
+            "treatment": "VB12 1mL",
+            "notes": "Under 3"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8",
+            "notes": "1st dose"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fm2-0051",
+      "name": "FM2",
+      "aliases": [],
+      "tag": "0051",
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[UNCLEAR]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Fat & Gray",
+      "pen": "Pen 4",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "Tag 0051. FM2. Fat and gray. 1 baby ram born 1-31-26. Sire: Kelsier. Eyes good throughout. Source: notebook card pen 4.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 9 pen 4"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good. 1 Baby Ram."
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fm2-ram-lamb",
+      "name": "FM2 Ram Lamb",
+      "aliases": [],
+      "tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "[Kelsier x FM2 offspring]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "",
+      "pen": "Pen 4",
+      "status": "alive",
+      "sire_id": "kelsier",
+      "dam_id": "fm2-0051",
+      "dob": "2026-01-31",
+      "notes": "Born 1-31-26. FM2s baby ram. Sire: Kelsier. 2.6 weeks old as of 2-20-26. Eyes good throughout. Source: notebook card pen 4.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 10 pen 4"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "2.6 weeks old. Eyes good."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8",
+            "notes": "1st dose"
+          }
+        ]
+      }
     }
   ],
   "pens": {
@@ -7687,16 +8191,22 @@
       "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) \u2014 5 adults yearly, 4 babies 1st dose. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3."
     },
     "pen_4": {
-      "ram": "samson",
+      "ram": "gigi-2025-ram",
       "ewes": [
-        "nori",
-        "trouble",
-        "bsoe",
-        "bsoed",
-        "annas-big-one",
-        "serendipity"
+        "gg",
+        "g023-bhd-ewe",
+        "fm",
+        "sm-white-ewe-p4",
+        "serendipity",
+        "fm2-0051"
       ],
-      "notes": "Samson's group (Samson deceased \u2014 pen may have new ram). 'Banana' in notebook = Anna's Big One. Pen 4 also home to Kelsier and GG per Google Sheet. Elsie moved to Pen 6 with triplets. Serendipity now here with twins per owner."
+      "lambs": [
+        "gigi-2026-baby",
+        "serendipity-twin-ram",
+        "serendipity-twin-ewe",
+        "fm2-ram-lamb"
+      ],
+      "notes": "Pen 4 \u2014 monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility \u2014 even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4."
     },
     "pen_5": {
       "ram": "nori-son",
