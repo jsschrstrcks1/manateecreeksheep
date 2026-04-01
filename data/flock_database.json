@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0.0",
     "farm_name": "Manatee Creek Sheep",
-    "last_updated": "2026-02-16",
+    "last_updated": "2026-04-02",
     "data_sources": [
       "spiral_notebook (IMG_8616-8643)",
       "flock_record_v2.xlsx",
@@ -12,7 +12,7 @@
       "comprehensive_flock_spreadsheet (Feb 2026)"
     ],
     "primary_source": "spiral_notebook",
-    "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook.",
+    "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook. Pen 1 fully populated from notebook cards April 2026. Baby Azure FAMACHA 5 on 4-1-2026, treated with Ivermectin+Fenbendazole+Iron+B12+Nutridrench.",
     "total_sheep": 132,
     "active_sheep": 59,
     "deceased_count": 32,
@@ -1185,9 +1185,11 @@
       "name": "Azure",
       "aliases": [
         "Amure",
-        "Amber 24"
+        "Amber 24",
+        "Amure",
+        "Gigis Sister"
       ],
-      "tag": "024",
+      "tag": "20",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
@@ -1208,7 +1210,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": "Pen 1",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -1221,7 +1223,24 @@
         "weak_resistance": true,
         "treatments": [],
         "vaccinations": [],
-        "notes": []
+        "notes": [],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. Covexin yearly."
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": false,
@@ -1237,7 +1256,7 @@
           "IMG_8630.PNG"
         ]
       },
-      "notes": "Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 / also in Pen 2 at different time. NOTE: 'Amber' in weight calculator is Skitters (Karakul), not Azure.",
+      "notes": "Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 / also in Pen 2 at different time. NOTE: 'Amber' in weight calculator is Skitters (Karakul), not Azure. Tag 20. Gigis Sister (notebook spelling: Gilris Sister/Azurc). Single baby (Baby Azure, ewe, born 1-10-26). In Pen 1. Source: notebook card.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -6761,18 +6780,420 @@
       "notes": "From Google Sheet Pen 4. 100% hair.",
       "confidence": "low",
       "last_verified": "2026-02-16"
+    },
+    {
+      "id": "charlies-ewe",
+      "name": "Charlies Ewe",
+      "aliases": [
+        "Charlie ewe"
+      ],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[UNCLEAR]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "White w/ Blk Belly, White Blaze w/ Blk eyebrows, Fawn color mostly, Blk under chin, Blk inside ears, Front legs on knees Black, Left front hooves white sock, 2 white socks on hind legs",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "No tag (now tagged, number TBD). Single baby (ram, born 12-26-25). Source: notebook card, pen 1.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 1 pen 1"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. Covexin yearly."
+          }
+        ]
+      }
+    },
+    {
+      "id": "charlies-ram-lamb",
+      "name": "Charlies Ewe Ram Lamb",
+      "aliases": [],
+      "tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "[UNCLEAR]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Brown & White w/ White tail, Blk Patches on Legs, Primarily White face with Brown Patches around eyes, Brown Back with White Patches",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": "charlies-ewe",
+      "dob": "2025-12-26",
+      "notes": "No tag (now tagged, number TBD). Born 12-26-25. 9.5 weeks old as of 2-19-2026. Source: notebook card, pen 1.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 2 pen 1"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. CDT booster."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-02-19",
+            "vaccine": "Covexin",
+            "dose": "5mL",
+            "notes": "1st shot"
+          },
+          {
+            "date": "2026-04-01",
+            "vaccine": "Covexin",
+            "dose": "5mL",
+            "notes": "6-week booster"
+          }
+        ]
+      }
+    },
+    {
+      "id": "baby-azure",
+      "name": "Baby Azure",
+      "aliases": [
+        "Gigis Sister",
+        "Azure Baby"
+      ],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[UNCLEAR - Azure offspring]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Blk Legs, ears, face, Lighter Body. All black lamb.",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": "azure",
+      "dob": "2026-01-10",
+      "notes": "No tag (now tagged, number TBD). Born 1-10-26. Azures baby, Gigis Sister. Single baby. FAMACHA 5 on 4-1-2026 \u2014 treated aggressively. Still bright and alert despite score. Source: notebook card, pen 1.",
+      "confidence": "high",
+      "source_refs": {
+        "notebook_card": "Card 4 pen 1"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-04-01",
+            "score": 5,
+            "notes": "FAMACHA 5 \u2014 severe. Bright and alert despite score."
+          }
+        ],
+        "treatments": [
+          {
+            "date": "2026-02-19",
+            "treatment": "Covexin 1st shot",
+            "dose": "5mL"
+          },
+          {
+            "date": "2026-04-01",
+            "treatment": "Ivermectin + Fenbendazole + Iron + B12 + Nutridrench",
+            "notes": "FAMACHA 5 emergency treatment. Also CDT booster."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-02-19",
+            "vaccine": "Covexin",
+            "dose": "5mL",
+            "notes": "1st shot, 5.5 weeks old"
+          },
+          {
+            "date": "2026-04-01",
+            "vaccine": "Covexin",
+            "dose": "5mL",
+            "notes": "6-week booster"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-0033-hair-ewe",
+      "name": "Hair Ewe 0033",
+      "aliases": [],
+      "tag": "0033",
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Hair",
+        "percentages": {},
+        "coat_type": "hair"
+      },
+      "color_markings": "",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "Tag 0033. Hair ewe. Had twins (2 rams, born ~1-1-26). Source: notebook card, pen 1.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 5 pen 1"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. Covexin yearly."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-0033-twin-ram-1",
+      "name": "0033 Twin Ram 1 (White/Brown)",
+      "aliases": [],
+      "tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "[UNCLEAR - 0033 offspring]",
+        "percentages": {},
+        "coat_type": "hair"
+      },
+      "color_markings": "White & Brown Ram, White Blaze on face down on nose, Hind legs 2 white socks, White tail",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": "tag-0033-hair-ewe",
+      "dob": "2026-01-01",
+      "dob_approximate": true,
+      "notes": "No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook card, pen 1.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 6 pen 1"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. CDT booster."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT",
+            "dose": "5mL",
+            "notes": "1st shot"
+          },
+          {
+            "date": "2026-04-01",
+            "vaccine": "Covexin",
+            "notes": "6-week booster"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-0033-twin-ram-2",
+      "name": "0033 Twin Ram 2 (Black)",
+      "aliases": [],
+      "tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "[UNCLEAR - 0033 offspring]",
+        "percentages": {},
+        "coat_type": "hair"
+      },
+      "color_markings": "Black Ram. Small Patch of white on crown.",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": "tag-0033-hair-ewe",
+      "dob": "2026-01-01",
+      "dob_approximate": true,
+      "notes": "No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook card, pen 1.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 7 pen 1"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. CDT booster."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT",
+            "dose": "5mL",
+            "notes": "1st shot"
+          },
+          {
+            "date": "2026-04-01",
+            "vaccine": "Covexin",
+            "notes": "6-week booster"
+          }
+        ]
+      }
+    },
+    {
+      "id": "orange-tag-00110",
+      "name": "Orange Tag Ram",
+      "aliases": [
+        "Orange Male"
+      ],
+      "tag": "00110",
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "[UNCLEAR]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Orange tag",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "Tag 00110, orange tag. Ram. Poop trimmed at butt 2-19-2026. Source: notebook card. Breeding rule R3: exclude from geriatric ewes (age >= 6) to reduce dystocia risk.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 8 pen 1"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good. Trimmed poop off at butt."
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. Covexin yearly."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-0044-wool-ewe",
+      "name": "Wool Ewe 0044",
+      "aliases": [],
+      "tag": "0044",
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Wool",
+        "percentages": {},
+        "coat_type": "wool"
+      },
+      "color_markings": "",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "Tag 0044. Wool ewe. No babies. Source: notebook card, pen 1.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 9 pen 1"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes Good"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. Covexin yearly."
+          }
+        ]
+      }
     }
   ],
   "pens": {
     "pen_1": {
-      "ram": "kaladin",
-      "other_rams": [
-        "merrie"
-      ],
+      "ram": "orange-tag-00110",
       "ewes": [
-        "fm"
+        "charlies-ewe",
+        "azure",
+        "tag-0033-hair-ewe",
+        "tag-0044-wool-ewe"
       ],
-      "notes": "Kaladin's group. Merrie (tag 016) is also a ram in this pen. ABG (Anna's Big One) in Pen 4, not Pen 1. Gertrude Moon/BF deceased \u2014 removed. Eclipse (ram) deceased (Hurricane Idalia). May 14 2025: vaccinated pen 1 lambs."
+      "lambs": [
+        "charlies-ram-lamb",
+        "baby-azure",
+        "tag-0033-twin-ram-1",
+        "tag-0033-twin-ram-2"
+      ],
+      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD)."
     },
     "pen_2": {
       "ram": "sir-loin",
