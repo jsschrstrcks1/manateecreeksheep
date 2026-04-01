@@ -7176,6 +7176,68 @@
           }
         ]
       }
+    },
+    {
+      "id": "tag-114-fawn-wool",
+      "name": "Fawn Wool Ewe 114",
+      "aliases": [],
+      "tag": "114",
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Wool",
+        "percentages": {},
+        "coat_type": "wool"
+      },
+      "color_markings": "Fawn Wool, Orange tag",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "Tag 114, orange tag. Fawn wool ewe. Was in Pen 2 but moved to Pen 1 because Rocky (Jerkface, tag 140) was keeping her away from her baby. Had black ram lamb born 3-29-2026. No babies as of 2-26-26 card check. Yearly booster 3-13-26. Source: notebook card (no pen circle \u2014 was Pen 2, now Pen 1).",
+      "confidence": "high",
+      "source_refs": {
+        "notebook_card": "Card 11"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "Checked eyes good. No babies."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "Covexin",
+            "notes": "yearly booster"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-114-black-ram-lamb",
+      "name": "114 Black Ram Lamb",
+      "aliases": [],
+      "tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "[UNCLEAR - 114 offspring]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Black with white spot on head",
+      "pen": "Pen 1",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": "tag-114-fawn-wool",
+      "dob": "2026-03-29",
+      "notes": "Born 3-29-2026. Little black ram lamb with white spot on head. Healthy. Born in Pen 2 but moved with dam to Pen 1 because Rocky was keeping dam away from baby.",
+      "confidence": "high",
+      "source_refs": {
+        "owner_verbal": "2026-04-01"
+      }
     }
   ],
   "pens": {
@@ -7185,15 +7247,17 @@
         "charlies-ewe",
         "azure",
         "tag-0033-hair-ewe",
-        "tag-0044-wool-ewe"
+        "tag-0044-wool-ewe",
+        "tag-114-fawn-wool"
       ],
       "lambs": [
         "charlies-ram-lamb",
         "baby-azure",
         "tag-0033-twin-ram-1",
-        "tag-0033-twin-ram-2"
+        "tag-0033-twin-ram-2",
+        "tag-114-black-ram-lamb"
       ],
-      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD)."
+      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total."
     },
     "pen_2": {
       "ram": "sir-loin",
