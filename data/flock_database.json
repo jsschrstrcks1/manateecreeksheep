@@ -12,9 +12,9 @@
       "comprehensive_flock_spreadsheet (Feb 2026)"
     ],
     "primary_source": "spiral_notebook",
-    "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook. Pen 1 fully populated from notebook cards April 2026. Baby Azure FAMACHA 5 on 4-1-2026, treated with Ivermectin+Fenbendazole+Iron+B12+Nutridrench.",
+    "notes": "Spiral notebook images are the most current for pen assignments and status. Comprehensive flock spreadsheet is authoritative for breed compositions, parentage, DOBs, and weights. BBB lineage flows through Razzle(100BBB) x Frazzle(100K) -> Sugar(50BBB/50K) -> Hersheys(25BBB/37.5K/37.5SA) -> Half Tail(12.5BBB) -> downstream. BSOE dam is Two Pence (not Brown Knee). Anna's Big One = Banana in notebook. Pen 1 fully populated from notebook cards April 2026. Baby Azure FAMACHA 5 on 4-1-2026, treated with Ivermectin+Fenbendazole+Iron+B12+Nutridrench. FULL INVENTORY from notebook cards April 2026. Total active: Pen1=11, Pen2=2, Pen3=9, Pen4=11, Pen5=6, Pen6=7, TF=6, Goose=0. Total=52 active. Goose pen animals sold at auction 2-15-26 (~00 each). Hurricanes in 2023 and 2024 caused significant losses \u2014 animals not on cards are deceased or sold.",
     "total_sheep": 132,
-    "active_sheep": 59,
+    "active_sheep": 0,
     "deceased_count": 32,
     "culled_count": 1,
     "sold_count": 7,
@@ -51,7 +51,17 @@
           "inbreeding_watch"
         ]
       }
-    ]
+    ],
+    "total_pens": {
+      "pen_1": 11,
+      "pen_2": 2,
+      "pen_3": 9,
+      "pen_4": 11,
+      "pen_5": 6,
+      "pen_6": 7,
+      "tree_fort": 6,
+      "goose_pen": 0
+    }
   },
   "sheep": [
     {
@@ -1406,7 +1416,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026. Was in Pen 5 with Eclipse. Escaped to Pen 6 while pregnant. Had triplets (sire: Eclipse). Gave away black ram lamb to girl starting flock. 2 ewe lambs remain. Now lives in Pen 6 permanently.",
+      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026. Was in Pen 5 with Eclipse. Escaped to Pen 6 while pregnant. Had triplets (sire: Eclipse). Gave away black ram lamb to girl starting flock. 2 ewe lambs remain. Now lives in Pen 6 permanently. Triplets born 1-6-26 (not 1-6-25). Sire: Eclipse (tag 113). Black ram lamb gifted mid-March 2026. 2 white ewe lambs remain (1 large, 1 small).",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -1918,7 +1928,7 @@
           "IMG_8635.PNG"
         ]
       },
-      "notes": "Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 \u2014 notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides. Pen 5. NOT pregnant. Been with Eclipse since 10 weeks old \u2014 Eclipse failed to breed her. Escaped into yard, put back in 5. Parentage: Sire=Dodge (Sir Loin x Broken Tail, sold off farm), Dam=Daisy (Sir Loin x Anna, sold off farm). Heavily Sir Loin line both sides. Coming up on 1 year old. Source: owner verbal April 2026.",
+      "notes": "Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 \u2014 notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides. Pen 5. NOT pregnant. Been with Eclipse since 10 weeks old \u2014 Eclipse failed to breed her. Escaped into yard, put back in 5. Parentage: Sire=Dodge (Sir Loin x Broken Tail, sold off farm), Dam=Daisy (Sir Loin x Anna, sold off farm). Heavily Sir Loin line both sides. Coming up on 1 year old. Source: owner verbal April 2026. LITTLE DAISY NEVER HAD BABIES. Never pregnant. Escaped into yard, put back in Pen 5.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -5399,7 +5409,7 @@
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {},
-      "color_markings": "",
+      "color_markings": "White with tan patches on knees, tan spots elsewhere",
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
@@ -5408,14 +5418,26 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 2",
+      "pen": "Tree Fort",
       "measurements": {},
       "health": {
         "famacha_scores": [],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-10",
+            "vaccine": "Covexin 8"
+          }
+        ],
+        "notes": [],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": false,
@@ -5430,7 +5452,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "In Pen 2 (Sir Loin group) per spiral notebook (authoritative). Was struck through in treatment list but notebook roster is definitive for alive/active status.",
+      "notes": "In Pen 2 (Sir Loin group) per spiral notebook (authoritative). Was struck through in treatment list but notebook roster is definitive for alive/active status. Tree Fort pen. Single baby (born 12-28-25). Tan patches on knees and spots. Source: notebook card TF.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -8283,6 +8305,377 @@
       },
       "notes": "Sold off farm. Buyers named her Daisy. Dam of Little Daisy.",
       "pen": null
+    },
+    {
+      "id": "elsie-triplet-lg-white-ewe",
+      "name": "Elsie Large White Ewe Triplet",
+      "tag": null,
+      "sex": "ewe",
+      "pen": "Pen 6",
+      "status": "alive",
+      "sire_id": "eclipse",
+      "dam_id": "elsie",
+      "dob": "2026-01-06",
+      "color_markings": "White, large",
+      "notes": "Born 1-6-26. Elsies triplet. Large white female. Sire: Eclipse. Eyes good 2-13-26. Covexin 8 3-17-26. Source: notebook card pen 6.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-17",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elsie-triplet-sm-white-ewe",
+      "name": "Elsie Small White Ewe Triplet",
+      "tag": null,
+      "sex": "ewe",
+      "pen": "Pen 6",
+      "status": "alive",
+      "sire_id": "eclipse",
+      "dam_id": "elsie",
+      "dob": "2026-01-06",
+      "color_markings": "White, small",
+      "notes": "Born 1-6-26. Elsies triplet. Small white female. Sire: Eclipse. Eyes good 2-13-26. Covexin 8 3-17-26. Source: notebook card pen 6.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-17",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elsie-triplet-black-ram",
+      "name": "Elsie Black Ram Triplet",
+      "tag": null,
+      "sex": "ram",
+      "pen": null,
+      "status": "gifted",
+      "status_date": "2026-03-15",
+      "sire_id": "eclipse",
+      "dam_id": "elsie",
+      "dob": "2026-01-06",
+      "color_markings": "Black",
+      "notes": "Born 1-6-26. Elsies triplet. Black ram. Sire: Eclipse. Gifted mid-March 2026 to girl starting her flock. Eyes good 2-13-26."
+    },
+    {
+      "id": "mc08-ram",
+      "name": "MC08",
+      "tag": "MC08",
+      "sex": "ram",
+      "pen": "Pen 6",
+      "status": "alive",
+      "color_markings": "Fawn wool, yellow tag, colored",
+      "breed_composition": {
+        "primary": "[UNCLEAR - possibly Samson or Buck son]",
+        "percentages": {},
+        "notes": "Wool like Buck, face like Samson (100% Southdown, big variety). Wide tail \u2014 wider than Samsons or mothers. Samson face was dominant in breeding."
+      },
+      "notes": "Tag MC08, yellow. Ram. Fawn wool sheep. Possibly Samsons son or Bucks son. Wide tail (Awassi influence?). Source: notebook card pen 6.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "Good eyes"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "windlestone-2139",
+      "name": "Windlestone Fat Tail 2139",
+      "tag": "2139",
+      "sex": "ewe",
+      "pen": "Pen 6",
+      "status": "alive",
+      "breed_composition": {
+        "primary": "Awassi (almost pure)",
+        "percentages": {
+          "Awassi": 95
+        },
+        "coat_type": "wool",
+        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi."
+      },
+      "color_markings": "Big ewe w nice horns",
+      "notes": "Tag 2139. Windlestone Ranch fat tail (Awassi) ewe. Big ewe w nice horns. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "windlestone-0056",
+      "name": "Windlestone Fat Tail 0056",
+      "tag": "0056",
+      "sex": "ewe",
+      "pen": "Pen 6",
+      "status": "alive",
+      "breed_composition": {
+        "primary": "Awassi (almost pure)",
+        "percentages": {
+          "Awassi": 95
+        },
+        "coat_type": "wool",
+        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi."
+      },
+      "color_markings": "Med thick long horns, nice to handle",
+      "notes": "Tag 0056. Windlestone Ranch fat tail (Awassi) ewe. Med thick long horns, nice to handle. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "windlestone-0055",
+      "name": "Windlestone Fat Tail 0055",
+      "tag": "0055",
+      "sex": "ewe",
+      "pen": "Pen 6",
+      "status": "alive",
+      "breed_composition": {
+        "primary": "Awassi (almost pure)",
+        "percentages": {
+          "Awassi": 95
+        },
+        "coat_type": "wool",
+        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi."
+      },
+      "color_markings": "Tiny/sm horns, dark legs",
+      "notes": "Tag 0055. Windlestone Ranch fat tail (Awassi) ewe. Tiny/sm horns, dark legs. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-0035-white-ewe",
+      "name": "White Ewe 0035",
+      "tag": "0035",
+      "sex": "ewe",
+      "pen": "Tree Fort",
+      "status": "alive",
+      "color_markings": "White ewe w/ dot on ear",
+      "notes": "Tag 0035. White ewe with dot on ear. Single baby (ewe, born 1-2-26). Covexin 8 3-10-26 (full dose). Source: notebook card TF.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-10",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-0035-baby-ewe",
+      "name": "0035 Baby Ewe",
+      "tag": null,
+      "sex": "ewe",
+      "pen": "Tree Fort",
+      "status": "alive",
+      "dam_id": "tag-0035-white-ewe",
+      "dob": "2026-01-02",
+      "color_markings": "White with brown on front legs",
+      "notes": "Born 1-2-26. 0035s baby ewe. 7 weeks old 2-20-26. Source: notebook card TF.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-10",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-31-orange-tf",
+      "name": "Orange Tag 31 Ewe (Tree Fort)",
+      "tag": "31",
+      "sex": "ewe",
+      "pen": "Tree Fort",
+      "status": "alive",
+      "color_markings": "Wool w/ 2 brown socks on hind legs, orange tag",
+      "notes": "Tag 31, orange tag. DIFFERENT animal from Tag 31 in Pen 5. Came from another farm. Wool ewe. Single baby (ram, born 1-2-26). Source: notebook card TF.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-31-orange-tf-ram-lamb",
+      "name": "Orange 31 Ram Lamb",
+      "tag": null,
+      "sex": "ram",
+      "pen": "Tree Fort",
+      "status": "alive",
+      "dam_id": "tag-31-orange-tf",
+      "dob": "2026-01-02",
+      "color_markings": "White w/ brown circles around eyes going down neck, brown dots",
+      "notes": "Born 1-2-26. Orange tag 31 ewes baby ram. 7 weeks old 2-20-26. Source: notebook card TF.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-10",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bambii-baby",
+      "name": "Bambiis Baby",
+      "tag": null,
+      "sex": "ewe",
+      "pen": "Tree Fort",
+      "status": "alive",
+      "dam_id": "bambii",
+      "dob": "2025-12-28",
+      "color_markings": "All white w/ shadow on knees, grey and blk spots on ear, perfect circles around eyes",
+      "notes": "Born 12-28-25. Bambiis baby. 7.5 weeks old 2-20-26. Sex UNCLEAR from card \u2014 marked ? Source: notebook card TF.",
+      "confidence": "medium",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2025-12-30",
+            "score": "1-2",
+            "notes": "eyes with perfect circles"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-10",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goose-09",
+      "name": "Goose Pen 09",
+      "tag": "09",
+      "sex": "ram",
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "notes": "Sold at auction 2-15-26. ~00.",
+      "pen": null
+    },
+    {
+      "id": "goose-50",
+      "name": "Goose Pen 50",
+      "tag": "50",
+      "sex": "ewe",
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "notes": "Wooly Tan. Sold at auction 2-15-26. ~00.",
+      "pen": null
+    },
+    {
+      "id": "goose-06",
+      "name": "Goose Pen 06",
+      "tag": "06",
+      "sex": "ram",
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "notes": "White Hair/Tan. Sold at auction 2-15-26. ~00.",
+      "pen": null
+    },
+    {
+      "id": "goose-l19",
+      "name": "Goose Pen L19",
+      "tag": "L19",
+      "sex": "ewe",
+      "status": "sold",
+      "status_date": "2026-02-15",
+      "notes": "Black, sheared. Sold at auction 2-15-26. ~00.",
+      "pen": null
     }
   ],
   "pens": {
@@ -8361,24 +8754,43 @@
       "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week \u2014 watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal."
     },
     "pen_6": {
-      "ram": null,
+      "ram": "mc08-ram",
       "ewes": [
         "elsie",
-        "s1",
-        "fm1",
-        "circle-tail"
+        "windlestone-2139",
+        "windlestone-0056",
+        "windlestone-0055"
       ],
-      "notes": "Elsie with her twin ewe lambs (triplets born 2026, male given away). 3 Windlestone Ranch Awassi ewes also in this pen. S1, FM1, Circle Tail status in this pen TBD. Updated April 2026."
+      "lambs": [
+        "elsie-triplet-lg-white-ewe",
+        "elsie-triplet-sm-white-ewe"
+      ],
+      "notes": "Pen 6 as of April 2026. MC08 (ram, fawn wool, yellow tag). Elsie (triplets by Eclipse \u2014 black ram gifted, 2 white ewe lambs remain). 3 Windlestone fat tail Awassi ewes (2139, 0056, 0055) \u2014 no babies. OAV 2222 was here for months but back in Pen 5. Corid 2-13 to 2-17-26. Covexin 8 3-13-26. 1 wool + 3 fat tails need shearing. Source: notebook cards pen 6."
     },
     "goose_pen": {
       "ram": null,
       "ewes": [],
-      "notes": "Auction lambs: tags 09, 50, 06, L19, and others."
+      "lambs": [],
+      "notes": "Goose Pen EMPTY. Animals sold at auction 2-15-26. Tags: 09, 50, 06, L19, plus 2 untagged (1 white ewe, 1 tan wooly male). Sold for approx 00 each, total ~000 minus fees ~50 net. Buyer: Bobbie B [UNCLEAR]. Source: notebook goose pen card."
     },
     "chicken_coop": {
       "ram": "buck",
       "ewes": [],
       "notes": "Buck (Katahdin/Awassi/EF ram) housed in chicken coop. Current Buck is brother of original Buck who died in Hurricane Helene. Both from Windlestone."
+    },
+    "tree_fort": {
+      "ram": null,
+      "ewes": [
+        "tag-0035-white-ewe",
+        "tag-31-orange-tf",
+        "bambii"
+      ],
+      "lambs": [
+        "tag-0035-baby-ewe",
+        "tag-31-orange-tf-ram-lamb",
+        "bambii-baby"
+      ],
+      "notes": "Tree Fort as of April 2026. 3 ewes + 3 lambs = 6 animals. No ram in pen. Corid 3-8 to 3-13-26. Covexin 8 3-10-26. 1 needs shearing. Tag 31 orange is from another farm, different from Tag 31 in Pen 5. Source: notebook cards TF."
     }
   },
   "lambing_records_2026": [
