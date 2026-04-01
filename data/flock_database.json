@@ -1347,7 +1347,7 @@
         "No",
         "Tag 21"
       ],
-      "tag": "021",
+      "tag": "0029",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
@@ -1368,14 +1368,36 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": "Pen 3",
       "measurements": {},
       "health": {
         "famacha_scores": [],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT"
+          }
+        ],
+        "notes": [],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good. Knot under chin."
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot. Eyes good."
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -1393,7 +1415,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54) and Eclipse (2022, deceased Hurricane Idalia). In pen 4.",
+      "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54) and Eclipse (2022, deceased Hurricane Idalia). In pen 4. Tag 0029 confirmed from notebook card. Pen 3. Single baby (born 1-10-26). Knot under chin noted 2-26-26. Nori is 50pct ABB / 50pct Wiltshire Horn. Charlie bought Nori, bred BHD to her, kept babies, bred those to Katahdin.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -1425,7 +1447,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 1",
+      "pen": "Pen 3",
       "measurements": {
         "girth": 31.5,
         "length": 30,
@@ -1445,8 +1467,25 @@
         ],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT"
+          }
+        ],
+        "notes": [],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -1462,7 +1501,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1.",
+      "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1. Moved to Pen 3. Notebook card shows tag 000lb [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -7484,8 +7523,8 @@
       "status": "alive",
       "sire_id": null,
       "dam_id": "broken-tail",
-      "dob": "2026-01-31",
-      "notes": "No tag (now tagged TBD). Born 1-31-26. Broken Tails twin ewe. Brown & white. Escaped from catch pen 2-13-26. 6.6 weeks old as of 3-20-26. Eyes good. Source: notebook card pen 3.",
+      "dob": "2025-12-31",
+      "notes": "No tag (now tagged TBD). Born 12-31-25. Broken Tails twin ewe. Brown & white. Escaped from catch pen 2-13-26. 6.6 weeks old as of 2-20-26. Source: notebook card pen 3.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 5 pen 3"
@@ -7502,6 +7541,94 @@
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "broken-tail-twin-ewe-2",
+      "name": "Broken Tail Twin Ewe 2 (White)",
+      "aliases": [],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[UNCLEAR - Broken Tail offspring]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "White ewe",
+      "pen": "Pen 3",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": "broken-tail",
+      "dob": "2025-12-31",
+      "notes": "No tag (now tagged TBD). Born 12-31-25. Broken Tails second twin. White ewe. Escaped from catch pen 2-13-26. 6.6 weeks old 2-20-26. GPT calls Broken Tail the Iron Lady. Source: notebook card pen 3.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 6 pen 3"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "notes": "1st dose"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nori-baby-p3",
+      "name": "Noris Baby (Pen 3)",
+      "aliases": [],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[UNCLEAR - Nori offspring]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Brown & White mottled, Full White Tail, White on top of ears, White Blaze",
+      "pen": "Pen 3",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": "nori",
+      "dob": "2026-01-10",
+      "notes": "No tag (now tagged TBD). Born 1-10-26. 0029/Noris Baby. 5.3 weeks old as of 2-20-26. Source: notebook card pen 3.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 8 pen 3"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot. Eyes good."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "notes": "1st dose"
           }
         ]
       }
@@ -7536,15 +7663,21 @@
     },
     "pen_3": {
       "ram": "charlie-ram",
+      "other_rams": [
+        "merrie"
+      ],
       "ewes": [
         "charlies-farm-ewe-p3",
-        "broken-tail"
+        "broken-tail",
+        "nori"
       ],
       "lambs": [
         "charlies-farm-ewe-baby-p3",
-        "broken-tail-twin-ewe"
+        "broken-tail-twin-ewe",
+        "broken-tail-twin-ewe-2",
+        "nori-baby-p3"
       ],
-      "notes": "Pen 3 as of April 2026. Charlie (ram, horned, jaw abscess treated). Charlies Farm ewe (multi color, single baby). Broken Tail (had twins, only 1 twin ewe on card \u2014 other twin status TBD). Corid not noted for this pen. Eyes due for recheck soon. Source: notebook cards."
+      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) \u2014 5 adults yearly, 4 babies 1st dose. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3."
     },
     "pen_4": {
       "ram": "samson",
