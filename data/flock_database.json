@@ -220,7 +220,9 @@
         "Jerkface",
         "Awassi ram",
         "Awassi cross rock",
-        "Louise's Ram"
+        "Louise's Ram",
+        "Butthead",
+        "Charlies Ram"
       ],
       "tag": "140",
       "mc_tag": null,
@@ -275,8 +277,21 @@
             "treatment": "iron and vitamin B"
           }
         ],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "Covexin",
+            "notes": "yearly booster"
+          }
+        ],
+        "notes": [],
+        "famacha_history": [
+          {
+            "date": "2026-02-16",
+            "score": "1-2",
+            "notes": "checked eyes are good"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -293,7 +308,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool.",
+      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool. Notebook card says Charlies Ram, BHD w/ horns. No tag on card but has tag 140. Eyes good 2-16-26. Yearly booster 3-13-26.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -7238,6 +7253,54 @@
       "source_refs": {
         "owner_verbal": "2026-04-01"
       }
+    },
+    {
+      "id": "nuba-0053",
+      "name": "Nuba",
+      "aliases": [
+        "Nubia"
+      ],
+      "tag": "0053",
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Hair",
+        "percentages": {},
+        "coat_type": "hair"
+      },
+      "color_markings": "White Hair ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "Tag 0053. White Hair ewe. Name: Nuba (notebook spelling). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 2 pen 2"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "checked eyes are very good. No babies."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "Covexin",
+            "notes": "yearly booster. Looks pregnant."
+          }
+        ],
+        "treatments": [
+          {
+            "date": "2026-03-08",
+            "treatment": "Corid",
+            "notes": "Pen 2 Corid treatment 3-8 through 3-13-26 (5 days)"
+          }
+        ]
+      }
     }
   ],
   "pens": {
@@ -7260,19 +7323,12 @@
       "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total."
     },
     "pen_2": {
-      "ram": "sir-loin",
-      "other_rams": [
-        "rocky"
-      ],
+      "ram": "rocky",
       "ewes": [
-        "azure",
-        "s2",
-        "lara",
-        "bambii",
-        "unnamed-pen2",
-        "pebbles"
+        "nuba-0053"
       ],
-      "notes": "Sirloin's group per spiral notebook. Rocky/Jerkface also in Pen 2 per owner."
+      "lambs": [],
+      "notes": "Pen 2 as of April 2026. Rocky (Jerkface/Butthead, tag 140) is the ram. Nuba (tag 0053, white hair ewe, possibly pregnant). Tag 114 fawn wool ewe was here but moved to Pen 1 with newborn. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 3 need shearing. Eyes to be checked again soon. Source: notebook cards with circled 2."
     },
     "pen_3": {
       "ram": "sam",
