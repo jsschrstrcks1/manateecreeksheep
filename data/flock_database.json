@@ -2120,14 +2120,31 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": "Pen 3",
       "measurements": {},
       "health": {
         "famacha_scores": [],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT"
+          }
+        ],
+        "notes": [],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": false,
@@ -2145,7 +2162,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin \u2014 inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.'",
+      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin \u2014 inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -7301,6 +7318,193 @@
           }
         ]
       }
+    },
+    {
+      "id": "charlie-ram",
+      "name": "Charlie",
+      "aliases": [
+        "Charlies Ram"
+      ],
+      "tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "[UNCLEAR]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Horned",
+      "pen": "Pen 3",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "No tag (now tagged, number TBD). Charlies Ram. Horned. Had jaw abscess \u2014 lanced 2-27-26, treated with 4.5mL Nuflor 2-28-26 at 108.2 lbs. Flushed abscess. Source: notebook card pen 3.",
+      "confidence": "high",
+      "source_refs": {
+        "notebook_card": "Card 1 pen 3"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "Good eyes. Bump on left jaw."
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good. Soft bump."
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "Check good. CDT."
+          }
+        ],
+        "treatments": [
+          {
+            "date": "2026-02-27",
+            "treatment": "Lanced bump on left jaw"
+          },
+          {
+            "date": "2026-02-28",
+            "treatment": "Nuflor 4.5mL",
+            "notes": "Weight 108.2 lbs. Flushed abscess."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "charlies-farm-ewe-p3",
+      "name": "Charlies Farm Ewe (Pen 3)",
+      "aliases": [
+        "White Belly Ewe"
+      ],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[UNCLEAR]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "White Belly, multi color",
+      "pen": "Pen 3",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": null,
+      "dob": null,
+      "notes": "No tag (now tagged TBD). Ewe from Charlies Farm. Multi color, white belly. Single baby (ewe, born 12-6-25). Source: notebook card pen 3.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 2 pen 3"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-01-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-08",
+            "vaccine": "CDT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "charlies-farm-ewe-baby-p3",
+      "name": "Charlies Farm Ewe Baby",
+      "aliases": [],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[UNCLEAR - Charlies Farm Ewe offspring]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Big Brown with white tip on tail, 2 white socks, white on crown, front legs all brown",
+      "pen": "Pen 3",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": "charlies-farm-ewe-p3",
+      "dob": "2025-12-06",
+      "notes": "No tag (now tagged TBD). Born 12-6-25. Baby ewe from Charlies Farm ewe. 10 weeks old as of 2-20-26. Source: notebook card pen 3.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 3 pen 3"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-01-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-08",
+            "vaccine": "CDT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "broken-tail-twin-ewe",
+      "name": "Broken Tail Twin Ewe",
+      "aliases": [],
+      "tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "[UNCLEAR - Broken Tail offspring]",
+        "percentages": {},
+        "coat_type": "unknown"
+      },
+      "color_markings": "Brown & White",
+      "pen": "Pen 3",
+      "status": "alive",
+      "sire_id": null,
+      "dam_id": "broken-tail",
+      "dob": "2026-01-31",
+      "notes": "No tag (now tagged TBD). Born 1-31-26. Broken Tails twin ewe. Brown & white. Escaped from catch pen 2-13-26. 6.6 weeks old as of 3-20-26. Eyes good. Source: notebook card pen 3.",
+      "confidence": "medium",
+      "source_refs": {
+        "notebook_card": "Card 5 pen 3"
+      },
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT"
+          }
+        ]
+      }
     }
   ],
   "pens": {
@@ -7331,14 +7535,16 @@
       "notes": "Pen 2 as of April 2026. Rocky (Jerkface/Butthead, tag 140) is the ram. Nuba (tag 0053, white hair ewe, possibly pregnant). Tag 114 fawn wool ewe was here but moved to Pen 1 with newborn. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 3 need shearing. Eyes to be checked again soon. Source: notebook cards with circled 2."
     },
     "pen_3": {
-      "ram": "sam",
+      "ram": "charlie-ram",
       "ewes": [
-        "baby",
-        "baby-momma",
-        "half-tail",
-        "new-big-girl-2"
+        "charlies-farm-ewe-p3",
+        "broken-tail"
       ],
-      "notes": "Sam's group. Zara was here but is deceased. Bella (tag 027, Heather Oaks Farm) and Cinderella (tag 028) also in pen 3 per treatment notes."
+      "lambs": [
+        "charlies-farm-ewe-baby-p3",
+        "broken-tail-twin-ewe"
+      ],
+      "notes": "Pen 3 as of April 2026. Charlie (ram, horned, jaw abscess treated). Charlies Farm ewe (multi color, single baby). Broken Tail (had twins, only 1 twin ewe on card \u2014 other twin status TBD). Corid not noted for this pen. Eyes due for recheck soon. Source: notebook cards."
     },
     "pen_4": {
       "ram": "samson",
