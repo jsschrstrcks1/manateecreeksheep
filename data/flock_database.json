@@ -31,6 +31,25 @@
           "kelsier_offspring",
           "breeding_decision"
         ]
+      },
+      {
+        "date": "2026-04-02",
+        "insight": "ECLIPSE SUBFERTILITY: Eclipse (tag 113, 25% ABB / 37.5% StA / 12.5% Kat / 25% WH) has been Pen 5 ram for over a year. Only successfully bred Elsie (triplets). Failed to breed: Tag 31 (proven), Tag 02 (proven), Fawn Wool Ewe (proven), Little Daisy (with him since 10 weeks), OAV 2222 (escaped to Pen 6). Recommend cull and replace with proven ram.",
+        "tags": [
+          "subfertility",
+          "eclipse",
+          "cull_candidate",
+          "breeding_decision"
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "insight": "INCOMING ANIMAL: Merries full sister (Smore x Half Tail) coming from same farm as Little Daisy. Bred by Loki (Dodge x Half Tail daughter). Heavy Sir Loin lineage in both Little Daisy and incoming animal. Monitor inbreeding coefficients.",
+        "tags": [
+          "incoming",
+          "lineage",
+          "inbreeding_watch"
+        ]
       }
     ]
   },
@@ -1387,7 +1406,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026.",
+      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026. Was in Pen 5 with Eclipse. Escaped to Pen 6 while pregnant. Had triplets (sire: Eclipse). Gave away black ram lamb to girl starting flock. 2 ewe lambs remain. Now lives in Pen 6 permanently.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -1899,7 +1918,7 @@
           "IMG_8635.PNG"
         ]
       },
-      "notes": "Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 \u2014 notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides.",
+      "notes": "Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 \u2014 notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides. Pen 5. NOT pregnant. Been with Eclipse since 10 weeks old \u2014 Eclipse failed to breed her. Escaped into yard, put back in 5. Parentage: Sire=Dodge (Sir Loin x Broken Tail, sold off farm), Dam=Daisy (Sir Loin x Anna, sold off farm). Heavily Sir Loin line both sides. Coming up on 1 year old. Source: owner verbal April 2026.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -2691,7 +2710,7 @@
       "id": "eclipse",
       "name": "Eclipse",
       "aliases": [],
-      "tag": null,
+      "tag": "113",
       "mc_tag": null,
       "sex": "ram",
       "breed_composition": {
@@ -2705,7 +2724,7 @@
         "coat_type": "hair",
         "hair_percentage": 62
       },
-      "color_markings": "",
+      "color_markings": "White with beard",
       "weight_lbs": 42,
       "dob": null,
       "dob_approximate": true,
@@ -2714,7 +2733,7 @@
       "status": "deceased",
       "status_date": null,
       "status_notes": "Died after Hurricane Idalia (Aug 2023)",
-      "pen": null,
+      "pen": "Pen 5",
       "measurements": {
         "girth": 22,
         "length": 26,
@@ -2725,8 +2744,20 @@
         "famacha_scores": [],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-11",
+            "vaccine": "Covexin 8"
+          }
+        ],
+        "notes": [],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": false,
@@ -2741,7 +2772,7 @@
           "IMG_8630.PNG"
         ]
       },
-      "notes": "25%ABB/12.5%K/37.5%SA/25%WH. Sir Loin (25K/75SA) x Nori (50ABB/50WH). RAM (corrected from ewe). Nori's 2022 offspring. Weight calculator: 41.9lbs. Died after Hurricane Idalia (Aug/Sep 2023). Was in Pen 1 before death. Also listed on FM breeding page as potential offspring.",
+      "notes": "25%ABB/12.5%K/37.5%SA/25%WH. Sir Loin (25K/75SA) x Nori (50ABB/50WH). RAM (corrected from ewe). Nori's 2022 offspring. Weight calculator: 41.9lbs. Died after Hurricane Idalia (Aug/Sep 2023). Was in Pen 1 before death. Also listed on FM breeding page as potential offspring. Tag 113 confirmed. Pen 5 ram. White with beard. SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Tag 31, Tag 02, Fawn Wool Ewe, Little Daisy, OAV 2222 all unproven by him. The other ewes (except Little Daisy) are proven breeders year after year. Little Daisy has been with him since 10 weeks old \u2014 nothing. CULL CANDIDATE for subfertility. Elsie escaped to Pen 6 while pregnant by Eclipse, had triplets there.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -4293,7 +4324,7 @@
           "IMG_8639.PNG"
         ]
       },
-      "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 \u2014 notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Lambed 2026-02-10 (twins). Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko. Kelsier's sister (100% Katahdin, OAV/Oakvale Farm). Confirmed Pen 5, April 2026.",
+      "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 \u2014 notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Lambed 2026-02-10 (twins). Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko. Kelsier's sister (100% Katahdin, OAV/Oakvale Farm). Confirmed Pen 5, April 2026. Escaped with Elsie to Pen 6, spent months there. Moved back to Pen 5 this week (late March 2026). Escaped again. If she lambs, timing determines sire (Eclipse in Pen 5 vs unknown in Pen 6). Watch closely.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -8143,6 +8174,115 @@
           }
         ]
       }
+    },
+    {
+      "id": "tag-31-ewe-p5",
+      "name": "Ewe Tag 31",
+      "tag": "31",
+      "sex": "ewe",
+      "pen": "Pen 5",
+      "status": "alive",
+      "breed_composition": {
+        "primary": "[UNCLEAR]",
+        "percentages": {}
+      },
+      "notes": "Tag 31. Ewe. Pen 5. No babies. Proven breeder in prior years \u2014 Eclipse failure. Source: notebook card pen 5.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good. No babies."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-11",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag-02-ewe-p5",
+      "name": "Ewe Tag 02",
+      "tag": "02",
+      "sex": "ewe",
+      "pen": "Pen 5",
+      "status": "alive",
+      "breed_composition": {
+        "primary": "[UNCLEAR]",
+        "percentages": {}
+      },
+      "notes": "Tag 02. Ewe. Pen 5. No babies. Proven breeder \u2014 Eclipse failure. Source: notebook card pen 5.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good. No babies."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-11",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fawn-wool-ewe-p5",
+      "name": "Fawn Wool Ewe (Pen 5)",
+      "tag": null,
+      "sex": "ewe",
+      "pen": "Pen 5",
+      "status": "alive",
+      "breed_composition": {
+        "primary": "Wool",
+        "percentages": {},
+        "coat_type": "wool"
+      },
+      "color_markings": "Wool, Fawn color, Long ears",
+      "notes": "No tag (now tagged TBD). Wool ewe, fawn color, long ears. Pen 5. Broke out of catch pen 2-13-26, could not check FAMACHA. No babies. Proven breeder \u2014 Eclipse failure. Source: notebook card pen 5.",
+      "health": {
+        "vaccinations": [
+          {
+            "date": "2026-03-10",
+            "vaccine": "Covexin 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dodge",
+      "name": "Dodge",
+      "tag": null,
+      "sex": "ram",
+      "status": "sold",
+      "sire_id": "sir-loin",
+      "dam_id": "broken-tail",
+      "breed_composition": {
+        "primary": "Sir Loin x Broken Tail offspring",
+        "percentages": {}
+      },
+      "notes": "Sold off farm. Buyers named him Dodge. Sire of Little Daisy. Also sire of Loki (Dodge x Half Tail daughter).",
+      "pen": null
+    },
+    {
+      "id": "daisy",
+      "name": "Daisy",
+      "tag": null,
+      "sex": "ewe",
+      "status": "sold",
+      "sire_id": "sir-loin",
+      "dam_id": "anna",
+      "breed_composition": {
+        "primary": "Sir Loin x Anna offspring",
+        "percentages": {}
+      },
+      "notes": "Sold off farm. Buyers named her Daisy. Dam of Little Daisy.",
+      "pen": null
     }
   ],
   "pens": {
@@ -8209,13 +8349,16 @@
       "notes": "Pen 4 \u2014 monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility \u2014 even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4."
     },
     "pen_5": {
-      "ram": "nori-son",
+      "ram": "eclipse",
       "ewes": [
-        "broken-tail",
-        "little-daisy",
-        "oav-2222"
+        "tag-31-ewe-p5",
+        "tag-02-ewe-p5",
+        "fawn-wool-ewe-p5",
+        "oav-2222",
+        "little-daisy"
       ],
-      "notes": "NoriSon (tag 54) is the pen 5 ram. Rocky moved to Pen 2. Notebook lists Amber 24, Broken tail, Little daisy. Amber 24 = Azure (also listed in pen 2). OAV 2222 (Kelsier sister, tag 2222) confirmed in Pen 5 as of April 2026."
+      "lambs": [],
+      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week \u2014 watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal."
     },
     "pen_6": {
       "ram": null,
