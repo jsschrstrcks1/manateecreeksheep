@@ -1,33 +1,40 @@
 ---
 name: cognitive-memory
-description: Cross-repository cognitive memory system. Persists knowledge across sessions using encode, consolidate, recall, extract, and forget operations. Memory is cognition, not storage.
+description: "Cross-repository cognitive memory system with semantic search. Persists knowledge across sessions using TF-IDF recall, memory versioning, knowledge graph edges, and confidence decay. Memory is cognition, not storage."
 trigger:
   - keyword: [memory, remember, recall, forget, "what do we know", "last session", "previous session", "what was", "do you remember"]
   - intent: ["recalling past context", "storing new knowledge", "resolving contradictions", "session continuity"]
   - event: session_start
 priority: high
+version: 3.0.0
 ---
 
-# Cognitive Memory System
+# Cognitive Memory System v3
 
 > Memory as stewardship: what we remember shapes how we serve.
 
+## What's New in v2
+
+- **Semantic search**: TF-IDF + cosine similarity replaces keyword matching. "deworming resistance" finds "FAMACHA scoring" and "parasite resistance" even without shared words.
+- **Memory versioning**: `update` creates a new version, preserves the original with `supersedes` chain.
+- **Knowledge graph**: `link` creates bidirectional edges between related memories.
+- **Duplicate detection**: `consolidate` flags memories with >80% similarity.
+- **Recency boost**: Recent memories score higher. Old unrecalled memories decay.
+
 ## Overview
 
-This skill provides persistent cognitive memory across Claude Code sessions. It is NOT a database — it is a reasoning layer that encodes selectively, consolidates contradictions, recalls adaptively, and forgets intentionally.
+This skill provides persistent cognitive memory across Claude Code sessions. It is NOT a database — it is a reasoning layer that encodes selectively, consolidates contradictions, recalls semantically, and forgets intentionally.
 
-**Memory store:** `/home/user/.memory/memory.json`
-**Configuration:** `/home/user/.memory/memory-config.json`
-**Operations script:** `/home/user/.memory/memory_ops.py`
-**Archive:** `/home/user/.memory/archive/`
+**Memory store:** `~/.memory/DOMAIN/`
+**Operations script:** `/home/user/ken/orchestrator/memory_ops.py`
 
 ## Session Start Protocol
 
-At the beginning of every session, recall relevant memories for this repository:
+At the beginning of every session, recall relevant memories:
 
 ```bash
-python3 /home/user/.memory/memory_ops.py recall "" --scope /manateecreeksheep --limit 10
-python3 /home/user/.memory/memory_ops.py tree /manateecreeksheep
+python3 /home/user/ken/orchestrator/memory_ops.py recall "" --domain sheep --limit 10
+python3 /home/user/ken/orchestrator/memory_ops.py tree --domain sheep
 ```
 
 Present a brief summary to the user:
@@ -35,122 +42,188 @@ Present a brief summary to the user:
 - Open questions or low-confidence memories
 - Any contradictions flagged but not yet resolved
 
-## Five Cognitive Operations
+## Seven Cognitive Operations
 
-### 1. REMEMBER — When you learn something new
-
-After transcribing notebook pages, updating records, or when the user states a new fact:
+### 1. REMEMBER — Encode new knowledge
 
 ```bash
-python3 /home/user/.memory/memory_ops.py remember "FACT" \
-  --scope /manateecreeksheep/DOMAIN/SUBDOMAIN \
-  --categories CAT1 CAT2 \
-  --importance 0.0-1.0 \
-  --confidence high|medium|low \
-  --source-type notebook|spreadsheet|session|user \
-  --source-ref "SOURCE"
+python3 /home/user/ken/orchestrator/memory_ops.py encode sheep <type> "content" \
+  --tags tag1,tag2 --related id1,id2
 ```
 
-**Importance guidelines for this repo:**
-- 0.9: Breeding decisions, selection priorities, pedigree corrections
-- 0.8: Pen assignments, ram assignments, health alerts
-- 0.7: FAMACHA scores, treatment records, lamb observations
-- 0.5: General notes, routine observations
-- 0.3: Temporary states, transient observations
+**Types:** insight, decision, pattern, fact, preference
 
-**Scope hierarchy for this repo:**
-```
-/manateecreeksheep
-  /pens          — pen assignments, pen moves
-    /pen-1 through /pen-6, /goose-pen
-  /breeding      — breeding program, genetics
-    /genetics    — breed composition, resistance traits
-    /awassi      — Awassi-specific genetics
-  /health        — FAMACHA scores, treatments, weak resistance
-    /{sheep-id}  — per-animal health records
-  /lambing       — lambing season records
-    /2026        — 2026 season
-  /identity      — aliases, tag numbers, name corrections
-```
+**Importance → confidence mapping:**
+- 0.9: Critical decisions, corrections, structural changes
+- 0.7: Important observations, verified facts
+- 0.5: General notes, routine work
+- 0.3: Temporary states, minor observations
 
-### 2. RECALL — When you need past context
-
-Before making assertions about flock state, check memory:
+### 2. RECALL — Semantic search
 
 ```bash
-python3 /home/user/.memory/memory_ops.py recall "QUERY" --scope /manateecreeksheep
+python3 /home/user/ken/orchestrator/memory_ops.py recall "natural language query" --domain sheep --limit 10
 ```
 
-**Always recall before:**
-- Stating pen assignments ("Which pen is X in?")
-- Reporting health history ("How is X doing?")
-- Making breeding recommendations
-- Answering "what do we know about..."
+Recall now uses TF-IDF semantic matching. You don't need exact keywords — conceptually related memories surface automatically. Each result includes a `_score` field.
 
-**Trust but verify:** If recall confidence is "low", say so. Don't present uncertain memories as facts.
+**Trust but verify:** If a recalled memory has low confidence or a low score, say so. Don't present uncertain memories as facts.
 
-### 3. EXTRACT — After notebook transcription or large outputs
-
-When transcribing a notebook page or processing a large block of information, mentally decompose it into atomic facts. Each fact gets its own REMEMBER call.
-
-**Example flow:**
-1. Transcribe notebook image → get block of text
-2. Identify individual facts (pen moves, health scores, treatments, lamb observations)
-3. REMEMBER each fact separately with appropriate scope, importance, and confidence
-4. Report any contradictions found during consolidation
-
-### 4. TREE — To see what we know
+### 3. UPDATE — Version a memory
 
 ```bash
-python3 /home/user/.memory/memory_ops.py tree /manateecreeksheep
+python3 /home/user/ken/orchestrator/memory_ops.py update <id> "corrected content" --domain sheep
 ```
 
-Use this to identify gaps in knowledge or to give the user an overview.
+Creates a new version. The old memory is preserved with reduced confidence and a `superseded_by` pointer. Use this when facts change — don't forget and re-encode, update.
 
-### 5. FORGET — To keep memory useful
+### 4. LINK — Connect related memories
 
 ```bash
-# Dry run first
-python3 /home/user/.memory/memory_ops.py forget --scope /manateecreeksheep/pens --older-than 60 --dry-run
-
-# Then archive
-python3 /home/user/.memory/memory_ops.py forget --scope /manateecreeksheep/pens --older-than 60
+python3 /home/user/ken/orchestrator/memory_ops.py link <id_a> <id_b>
 ```
 
-**Auto-forget candidates:**
-- Pen assignments older than 60 days (pens change frequently)
-- Superseded memories older than 30 days
-- Low-importance memories never accessed
+Creates a bidirectional edge. Use when you discover two memories are related — a breeding decision connects to a flock validation insight, a recipe correction connects to a transcription note.
 
-**Never forget:**
-- Breeding decisions and pedigree facts (importance >= 0.9)
-- The careful-not-clever principle
-- Source hierarchy rules
+### 5. CONSOLIDATE — Maintain memory health
 
-## Integration with Existing Skills
+```bash
+python3 /home/user/ken/orchestrator/memory_ops.py consolidate --domain sheep
+```
 
-This skill works alongside, not instead of, existing skills:
+Decays unrecalled memories, removes dead ones, and reports potential duplicates (>80% similarity). Run periodically or at session end.
 
-- **careful-not-clever**: Memory confidence levels inherit this philosophy. Low-confidence memories are flagged, never presented as certain.
-- **flock-validation**: After REMEMBER operations that change flock data, validation still runs.
-- **image-transcription**: After transcribing a notebook page, use EXTRACT to decompose into atomic memories.
+### 6. TREE — See what we know
 
-## Consolidation Rules
+```bash
+python3 /home/user/ken/orchestrator/memory_ops.py tree --domain sheep
+```
 
-When REMEMBER detects a similar existing memory:
+Shows memory count, types, edge connections, and version chains per domain.
 
-1. **Same scope, higher-priority source** → Supersede the old memory
-2. **Same scope, same-priority source, more recent** → Supersede
-3. **Same scope, conflicting content, both low confidence** → Flag for human review, don't auto-resolve
-4. **Different scope, similar content** → Both coexist (cross-domain knowledge is fine)
+### 7. FORGET — Intentional removal
+
+```bash
+python3 /home/user/ken/orchestrator/memory_ops.py forget <id> --domain sheep
+```
 
 ## What Memory Is NOT
 
-- Memory does NOT replace the flock database (`data/flock_database.json`)
-- Memory does NOT override primary sources (spiral notebook wins)
+- Memory does NOT replace primary data files in this repository
+- Memory does NOT override primary sources
 - Memory does NOT store raw data — it stores *conclusions about* data
 - Memory does NOT act autonomously — you decide when to remember and recall
 
 ## Soli Deo Gloria
 
 Careful, not clever. What we remember matters. What we forget matters too.
+
+## Domain-Specific: Sheep Flock Management
+
+### What to Encode
+- **Breeding decisions**: Which pairings were chosen and why, projected outcomes
+- **Health observations**: FAMACHA trends, treatment responses, weak resistance patterns
+- **Pedigree corrections**: Source conflicts resolved, tag number clarifications
+- **Pen changes**: Why animals were moved between pens
+- **Seasonal patterns**: Lambing timing, parasite pressure cycles, heat stress observations
+- **Data source conflicts**: Which notebook page contradicts which spreadsheet, and the resolution
+
+### Encoding Patterns
+
+```bash
+# After a breeding decision
+python3 /home/user/ken/orchestrator/memory_ops.py encode sheep decision \
+  "Paired Kaladin x Eclipse in Pen 1 for parasite resistance. Both parents FAMACHA 1-2. Projected COI 2.1%." \
+  --tags breeding,pen1,kaladin,eclipse,parasite
+
+# After resolving a data conflict
+python3 /home/user/ken/orchestrator/memory_ops.py encode sheep fact \
+  "Tag 54 confirmed as NoriSon via IMG_8572. Spreadsheet had wrong pen assignment (listed pen 3, actually pen 5)." \
+  --tags norison,tag54,pen5,correction
+
+# Link a breeding decision to its health context
+python3 /home/user/ken/orchestrator/memory_ops.py link <breeding_id> <health_id>
+```
+
+### What NOT to Encode
+- Raw flock database records (that's in flock_database.json)
+- Spiral notebook transcriptions (that's in image-transcription output)
+- Things flock-validation already checks programmatically
+
+### Careful-Not-Clever Integration
+Before encoding any sheep memory, verify against source data. If you're not sure, encode with confidence 0.3-0.5 and tag as "unverified".
+
+
+## v3 Upgrades (Research-Driven)
+
+### Protected Memories
+Foundational knowledge that should NEVER decay, regardless of recall frequency.
+
+```bash
+# Encode as protected from the start
+python3 /home/user/ken/orchestrator/memory_ops.py encode sheep fact "content" --protected
+
+# Protect an existing memory
+python3 /home/user/ken/orchestrator/memory_ops.py protect <id> --domain sheep
+```
+
+**When to protect:**
+- Vocabulary conventions ("oleo means margarine")
+- Core identity facts ("Kelsier is the gold standard sire")
+- Architectural decisions that downstream work assumes
+- Definitions that other memories reference implicitly
+
+**Auto-protection:** Memories with 3+ graph edges are automatically protected during consolidation — if many things reference it, it is foundational by definition.
+
+### Cross-Domain Recall
+Recall now searches ALL domains by default. Each result includes `_domain` so you know where it came from. This enables cross-pollination — a breeding pattern in sheep might inform resource organization in recipes.
+
+```bash
+# Search everywhere (default)
+python3 /home/user/ken/orchestrator/memory_ops.py recall "optimization strategy"
+
+# Restrict to one domain when you know what you want
+python3 /home/user/ken/orchestrator/memory_ops.py recall "optimization strategy" --domain sheep
+```
+
+### Graph Centrality Scoring
+Well-connected memories score higher in recall. A memory linked to 5 other memories ranks above an isolated memory with the same text similarity. This rewards knowledge that has been woven into the graph.
+
+**Score formula:** `similarity * confidence * (0.70 + 0.15*recency + 0.15*centrality)`
+
+### Graph Traversal
+Explore the knowledge graph from any memory:
+
+```bash
+# Direct neighbors
+python3 /home/user/ken/orchestrator/memory_ops.py neighbors <id> --depth 1
+
+# Neighbors of neighbors
+python3 /home/user/ken/orchestrator/memory_ops.py neighbors <id> --depth 2
+```
+
+### Tiered Storage (Active + Archive)
+Old, low-confidence, unprotected memories are automatically archived during consolidation (>180 days, <0.3 confidence). Archived memories:
+- Are preserved in `~/.memory/_archive/`
+- Are excluded from default recall (use `--include-archive` to search them)
+- Can be promoted back: `python3 memory_ops.py promote <id>`
+- Maintain graph edges for integrity
+
+```bash
+# Manually archive
+python3 /home/user/ken/orchestrator/memory_ops.py archive <id> --domain sheep
+
+# Search including archive
+python3 /home/user/ken/orchestrator/memory_ops.py recall "old topic" --include-archive
+
+# Bring something back
+python3 /home/user/ken/orchestrator/memory_ops.py promote <id>
+```
+
+### Enhanced Consolidation
+Consolidate is now smarter:
+1. **Decay** — only unrecalled, unprotected, >7-day-old memories (protected are immune)
+2. **Auto-protect** — memories with 3+ edges get protected automatically
+3. **Auto-merge** — memories with >85% similarity are merged (tags combined, lower one archived)
+4. **Auto-archive** — old (>180d), low-confidence (<0.3), unprotected memories move to archive
+5. **Near-duplicate flagging** — 70-85% similarity reported for manual review
