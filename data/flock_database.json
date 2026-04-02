@@ -225,7 +225,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": "Pen 1",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1159,7 +1159,7 @@
       "status": "alive",
       "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Tree Fort",
+      "pen": "Pen 6",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1387,7 +1387,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": "Pen 3",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -1454,7 +1454,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": "Pen 7",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1533,7 +1533,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": "Pen 4",
       "measurements": {
         "girth": 31.5,
         "length": 30,
@@ -1907,7 +1907,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": "Pen 4",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2277,7 +2277,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": "Pen 1",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2619,7 +2619,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": "Pen 2",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2754,7 +2754,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "Died after Hurricane Idalia (Aug 2023)",
-      "pen": "Pen 5",
+      "pen": "Grow Out",
       "measurements": {
         "girth": 22,
         "length": 26,
@@ -4321,7 +4321,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": "Pen 3",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -5399,7 +5399,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Tree Fort",
+      "pen": "Pen 7",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -7045,7 +7045,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Brown & White w/ White tail, Blk Patches on Legs, Primarily White face with Brown Patches around eyes, Brown Back with White Patches",
-      "pen": "Pen 1",
+      "pen": "Grow Out",
       "status": "alive",
       "sire_id": null,
       "dam_id": "charlies-ewe",
@@ -7104,7 +7104,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Blk Legs, ears, face, Lighter Body. All black lamb.",
-      "pen": "Pen 1",
+      "pen": "Pen 6",
       "status": "alive",
       "sire_id": null,
       "dam_id": "azure",
@@ -7177,7 +7177,7 @@
         "notes": "Sir Loin (75StA/25Kat) daughter. Dam unknown but Katahdin-heavy assumed."
       },
       "color_markings": "",
-      "pen": "Pen 1",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": "sir-loin",
       "dam_id": null,
@@ -7216,7 +7216,7 @@
         "coat_type": "hair"
       },
       "color_markings": "White & Brown Ram, White Blaze on face down on nose, Hind legs 2 white socks, White tail",
-      "pen": "Pen 1",
+      "pen": "Grow Out",
       "status": "alive",
       "sire_id": null,
       "dam_id": "tag-0033-hair-ewe",
@@ -7267,7 +7267,7 @@
         "coat_type": "hair"
       },
       "color_markings": "Black Ram. Small Patch of white on crown.",
-      "pen": "Pen 1",
+      "pen": "Grow Out",
       "status": "alive",
       "sire_id": null,
       "dam_id": "tag-0033-hair-ewe",
@@ -7376,7 +7376,7 @@
         "notes": "Buck descendant. Exact generation unknown. Breed est from Bucks composition."
       },
       "color_markings": "",
-      "pen": "Pen 1",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
@@ -7426,7 +7426,7 @@
         "hair_percentage": 12.5
       },
       "color_markings": "Fawn Wool, Orange tag",
-      "pen": "Pen 1",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
@@ -7467,7 +7467,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Black with white spot on head",
-      "pen": "Pen 1",
+      "pen": "Grow Out",
       "status": "alive",
       "sire_id": "rocky",
       "dam_id": "tag-114-fawn-wool",
@@ -7498,7 +7498,7 @@
         "notes": "Sire: Samson (100% Hampshire). Dam: Sir Loin daughter (~75StA/25Kat). Sir Loin is maternal grandsire."
       },
       "color_markings": "White Hair ewe",
-      "pen": "Pen 2",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": "samson",
       "dam_id": null,
@@ -7623,7 +7623,7 @@
         "hair_percentage": 87.5
       },
       "color_markings": "White Belly, multi color",
-      "pen": "Pen 3",
+      "pen": "Pen 7",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
@@ -7668,7 +7668,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Big Brown with white tip on tail, 2 white socks, white on crown, front legs all brown",
-      "pen": "Pen 3",
+      "pen": "Pen 7",
       "status": "alive",
       "sire_id": "charlie-ram",
       "dam_id": "charlies-farm-ewe-p3",
@@ -7711,7 +7711,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Brown & White",
-      "pen": "Pen 3",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
       "dam_id": "broken-tail",
@@ -7749,7 +7749,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "White ewe",
-      "pen": "Pen 3",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
       "dam_id": "broken-tail",
@@ -7788,7 +7788,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Brown & White mottled, Full White Tail, White on top of ears, White Blaze",
-      "pen": "Pen 3",
+      "pen": "Pen 7",
       "status": "alive",
       "sire_id": null,
       "dam_id": "nori",
@@ -7839,7 +7839,7 @@
         "coat_type": "hair"
       },
       "color_markings": "Black headed",
-      "pen": "Pen 4",
+      "pen": "Pen 6",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
@@ -7901,7 +7901,7 @@
         "notes": "Sire Kelsier (100% Katahdin). Dam Gigi (unknown breed). Multi color."
       },
       "color_markings": "Multi color ewe",
-      "pen": "Pen 4",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
@@ -7946,7 +7946,7 @@
         "notes": "Sire believed to be Kelsier (100% Katahdin). Dam Gigi. Looks like Gigi."
       },
       "color_markings": "Looks like Gigi",
-      "pen": "Pen 4",
+      "pen": "Grow Out",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
@@ -8044,7 +8044,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "White",
-      "pen": "Pen 4",
+      "pen": "Grow Out",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
@@ -8172,7 +8172,7 @@
         "hair_percentage": 12.5
       },
       "color_markings": "Fat & Gray",
-      "pen": "Pen 4",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": "sir-loin",
       "dam_id": "fm",
@@ -8217,7 +8217,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "",
-      "pen": "Pen 4",
+      "pen": "Grow Out",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "fm2-0051",
@@ -8254,7 +8254,7 @@
       "name": "Ewe Tag 31",
       "tag": "31",
       "sex": "ewe",
-      "pen": "Pen 5",
+      "pen": "Pen 3",
       "status": "alive",
       "breed_composition": {
         "primary": "St Augustine/Katahdin",
@@ -8291,7 +8291,7 @@
       "name": "Ewe Tag 02",
       "tag": "02",
       "sex": "ewe",
-      "pen": "Pen 5",
+      "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
         "primary": "[UNCLEAR]",
@@ -8319,7 +8319,7 @@
       "name": "Fawn Wool Ewe (Pen 5)",
       "tag": null,
       "sex": "ewe",
-      "pen": "Pen 5",
+      "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
         "primary": "Wool",
@@ -8372,7 +8372,7 @@
       "name": "Elsie Large White Ewe Triplet",
       "tag": null,
       "sex": "ewe",
-      "pen": "Pen 6",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": "eclipse",
       "dam_id": "elsie",
@@ -8400,7 +8400,7 @@
       "name": "Elsie Small White Ewe Triplet",
       "tag": null,
       "sex": "ewe",
-      "pen": "Pen 6",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": "eclipse",
       "dam_id": "elsie",
@@ -8442,7 +8442,7 @@
       "name": "MC08",
       "tag": "MC08",
       "sex": "ram",
-      "pen": "Pen 6",
+      "pen": "Pen 5",
       "status": "alive",
       "color_markings": "Fawn wool, yellow tag, colored",
       "breed_composition": {
@@ -8474,7 +8474,7 @@
       "name": "Windlestone Fat Tail 2139",
       "tag": "2139",
       "sex": "ewe",
-      "pen": "Pen 6",
+      "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
         "primary": "Awassi (almost pure)",
@@ -8509,7 +8509,7 @@
       "name": "Windlestone Fat Tail 0056",
       "tag": "0056",
       "sex": "ewe",
-      "pen": "Pen 6",
+      "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
         "primary": "Awassi (almost pure)",
@@ -8544,7 +8544,7 @@
       "name": "Windlestone Fat Tail 0055",
       "tag": "0055",
       "sex": "ewe",
-      "pen": "Pen 6",
+      "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
         "primary": "Awassi (almost pure)",
@@ -8579,7 +8579,7 @@
       "name": "White Ewe 0035",
       "tag": "0035",
       "sex": "ewe",
-      "pen": "Tree Fort",
+      "pen": "Pen 6",
       "status": "alive",
       "color_markings": "White ewe w/ dot on ear",
       "notes": "Tag 0035. White ewe with dot on ear. Single baby (ewe, born 1-2-26). Covexin 8 3-10-26 (full dose). Source: notebook card TF. Florida Dorper x Katahdin. Small sheep.",
@@ -8616,7 +8616,7 @@
       "name": "0035 Baby Ewe",
       "tag": null,
       "sex": "ewe",
-      "pen": "Tree Fort",
+      "pen": "Pen 6",
       "status": "alive",
       "dam_id": "tag-0035-white-ewe",
       "dob": "2026-01-02",
@@ -8643,7 +8643,7 @@
       "name": "Orange Tag 31 Ewe (Tree Fort)",
       "tag": "31",
       "sex": "ewe",
-      "pen": "Tree Fort",
+      "pen": "Pen 7",
       "status": "alive",
       "color_markings": "Wool w/ 2 brown socks on hind legs, orange tag",
       "notes": "Tag 31, orange tag. DIFFERENT animal from Tag 31 in Pen 5. Came from another farm. Wool ewe. Single baby (ram, born 1-2-26). Source: notebook card TF.",
@@ -8668,7 +8668,7 @@
       "name": "Orange 31 Ram Lamb",
       "tag": null,
       "sex": "ram",
-      "pen": "Tree Fort",
+      "pen": "Grow Out",
       "status": "alive",
       "dam_id": "tag-31-orange-tf",
       "dob": "2026-01-02",
@@ -8695,7 +8695,7 @@
       "name": "Bambiis Baby",
       "tag": null,
       "sex": "ewe",
-      "pen": "Tree Fort",
+      "pen": "Pen 7",
       "status": "alive",
       "dam_id": "bambii",
       "dob": "2025-12-28",
