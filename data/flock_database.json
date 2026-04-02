@@ -4359,58 +4359,6 @@
       "last_verified": "2026-02-16"
     },
     {
-      "id": "heather-oaks",
-      "name": "Heather Oaks",
-      "aliases": [],
-      "tag": null,
-      "mc_tag": null,
-      "sex": "ewe",
-      "breed_composition": {
-        "primary": "Katahdin/Dorper/ABB/St Augustine/Wiltshire",
-        "percentages": {
-          "Katahdin": 37.5,
-          "Dorper": 25,
-          "American Blackbelly": 12.5,
-          "St Augustine": 12.5,
-          "Wiltshire Horn": 12.5
-        },
-        "coat_type": "mixed",
-        "hair_percentage": 75
-      },
-      "color_markings": "",
-      "weight_lbs": 155.0,
-      "dob": null,
-      "dob_approximate": true,
-      "sire_id": null,
-      "dam_id": null,
-      "status": "unknown",
-      "status_date": null,
-      "status_notes": "",
-      "pen": "Pen 5",
-      "measurements": {},
-      "health": {
-        "famacha_scores": [],
-        "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [],
-        "notes": []
-      },
-      "breeding": {
-        "is_breeding_animal": false,
-        "breeding_group": "",
-        "offspring_ids": [],
-        "lambing_records": []
-      },
-      "source_refs": {
-        "csv_row": null,
-        "notebook_image": []
-      },
-      "notes": "From Google Sheet Pen 5 breed data.",
-      "confidence": "low",
-      "last_verified": "2026-02-16",
-      "weight_estimated": true
-    },
-    {
       "id": "tag-31-ewe",
       "name": "Tag 31",
       "aliases": [],
