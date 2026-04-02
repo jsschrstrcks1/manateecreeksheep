@@ -1,0 +1,122 @@
+{
+  "Katahdin": {
+    "type": "hair",
+    "avg_ewe_wt": 160,
+    "avg_ram_wt": 235,
+    "notes": "Gold standard hair sheep. Parasite resistant. Developed by Michael Piel from St Croix/Suffolk/Wiltshire."
+  },
+  "Black Headed Dorper": {
+    "type": "hair",
+    "avg_ewe_wt": 160,
+    "avg_ram_wt": 300,
+    "notes": "Hair sheep. FL Dorper are small-framed (~80% of standard). Meat breed."
+  },
+  "White Dorper": {
+    "type": "hair",
+    "avg_ewe_wt": 185,
+    "avg_ram_wt": 235,
+    "notes": "Hair sheep. Meat breed."
+  },
+  "St Augustine": {
+    "type": "hair",
+    "avg_ewe_wt": 185,
+    "avg_ram_wt": 300,
+    "notes": "HAIR sheep \u2014 Florida native. Heat/parasite adapted."
+  },
+  "American Black Belly": {
+    "type": "hair",
+    "avg_ewe_wt": 115,
+    "avg_ram_wt": 137,
+    "notes": "Hair sheep. Small frame. Excellent parasite resistance."
+  },
+  "Barbados Black Belly": {
+    "type": "hair",
+    "avg_ewe_wt": 95,
+    "avg_ram_wt": 125,
+    "notes": "Hair sheep. Foundation of many hair breeds."
+  },
+  "Wiltshire Horn": {
+    "type": "hair",
+    "avg_ewe_wt": 150,
+    "avg_ram_wt": 300,
+    "notes": "Hair/shedding sheep. Used in Katahdin development."
+  },
+  "Gulf Coast Native": {
+    "type": "hair",
+    "avg_ewe_wt": 125,
+    "avg_ram_wt": 165,
+    "notes": "HAIR sheep \u2014 SE US native. Extreme parasite resistance. Florida adapted."
+  },
+  "St Croix": {
+    "type": "hair",
+    "avg_ewe_wt": 120,
+    "avg_ram_wt": 165,
+    "notes": "Hair sheep. Caribbean origin. Foundation of Katahdin."
+  },
+  "Suffolk": {
+    "type": "wool",
+    "avg_ewe_wt": 200,
+    "avg_ram_wt": 300,
+    "notes": "Wool. Terminal meat sire. Big lambs, dystocia risk."
+  },
+  "Hampshire": {
+    "type": "wool",
+    "avg_ewe_wt": 200,
+    "avg_ram_wt": 300,
+    "notes": "Wool. Meat breed. Large frame."
+  },
+  "Cotswold": {
+    "type": "wool",
+    "avg_ewe_wt": 200,
+    "avg_ram_wt": 300,
+    "notes": "Wool. Long-wool breed. Large frame."
+  },
+  "East Friesian": {
+    "type": "wool",
+    "avg_ewe_wt": 210,
+    "avg_ram_wt": 275,
+    "notes": "Wool. Dairy breed. High milk production."
+  },
+  "Jacob": {
+    "type": "wool",
+    "avg_ewe_wt": 100,
+    "avg_ram_wt": 150,
+    "notes": "Wool. Heritage breed. Small frame."
+  },
+  "Southdown": {
+    "type": "wool",
+    "avg_ewe_wt": 180,
+    "avg_ram_wt": 250,
+    "notes": "Wool. Babydoll type. Compact meat breed."
+  },
+  "Babydoll": {
+    "type": "wool",
+    "avg_ewe_wt": 80,
+    "avg_ram_wt": 125,
+    "notes": "Wool. Miniature Southdown. Very small."
+  },
+  "Cracker": {
+    "type": "intermediate",
+    "avg_ewe_wt": 110,
+    "avg_ram_wt": 225,
+    "notes": "Florida native. SHEDS in warm climate despite not being classified as hair. Parasite resistant. Heritage."
+  },
+  "Tunis": {
+    "type": "wool",
+    "avg_ewe_wt": 160,
+    "avg_ram_wt": 275,
+    "notes": "Wool. Fat-tailed. Good mothering. Heat tolerant for a wool breed."
+  },
+  "Awassi": {
+    "type": "wool",
+    "avg_ewe_wt": 200,
+    "avg_ram_wt": 308,
+    "notes": "Wool. Fat-tailed dairy breed. Middle East origin. Heat tolerant."
+  },
+  "Karakul": {
+    "type": "intermediate",
+    "avg_ewe_wt": 130,
+    "avg_ram_wt": 175,
+    "notes": "Fat-tailed. Some shedding. Arid-adapted."
+  }
+}

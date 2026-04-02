@@ -81,7 +81,10 @@
           "Katahdin": 25
         },
         "coat_type": "mixed",
-        "hair_percentage": 25
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 309,
@@ -156,7 +159,10 @@
           "Katahdin": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 250,
@@ -214,7 +220,10 @@
           "Suffolk": 50
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 212.5,
@@ -316,7 +325,10 @@
           "East Friesian": 6
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 300,
@@ -409,7 +421,10 @@
           "East Friesian": 12
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 304.0,
@@ -459,7 +474,10 @@
           "Black Headed Dorper": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 128.0,
@@ -509,7 +527,10 @@
           "Hampshire": 100
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 400,
@@ -562,7 +583,10 @@
           "Gulf Coast Native": 100
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 165,
@@ -622,7 +646,10 @@
           "Katahdin": 6.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 56
+        "hair_percentage": 25.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 25.0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White w black ears",
       "weight_lbs": 52,
@@ -677,7 +704,10 @@
           "Cracker": 100
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 0,
+        "intermediate_percentage": 100,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Red",
       "weight_lbs": 200,
@@ -739,7 +769,10 @@
           "Katahdin": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Black",
       "weight_lbs": 175,
@@ -791,7 +824,10 @@
           "Dorper": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": null,
@@ -941,7 +977,10 @@
           "Katahdin": 20.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 70
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 80,
@@ -995,7 +1034,10 @@
           "American Blackbelly": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 137.5,
@@ -1099,7 +1141,10 @@
           "East Friesian": 2
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 212,
@@ -1148,7 +1193,10 @@
           "East Friesian": 2
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 270.8,
@@ -1198,7 +1246,10 @@
           "Barbados Blackbelly": 3.125
         },
         "coat_type": "mixed",
-        "hair_percentage": 27
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 277.3,
@@ -1300,7 +1351,10 @@
           "Suffolk": 50
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 212.5,
@@ -1376,7 +1430,10 @@
           "Barbados Blackbelly": 6.25
         },
         "coat_type": "hair",
-        "hair_percentage": 72
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Black w White",
       "weight_lbs": 175,
@@ -1443,7 +1500,10 @@
           "Wiltshire Horn": 50
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Badger",
       "weight_lbs": 139,
@@ -1522,7 +1582,10 @@
           "White Dorper": 3.125
         },
         "coat_type": "mixed",
-        "hair_percentage": 72
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Brown and Tan",
       "weight_lbs": 200,
@@ -1708,7 +1771,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "mixed",
-        "hair_percentage": 75
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "Black",
       "weight_lbs": 138,
@@ -1804,7 +1870,10 @@
           "Katahdin": 6.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 19
+        "hair_percentage": 25.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 75.0,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 255.3,
@@ -1896,7 +1965,10 @@
           "Barbados Blackbelly": 4.6875
         },
         "coat_type": "mixed",
-        "hair_percentage": 30
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 145,
@@ -1999,7 +2071,10 @@
           "Gulf Coast Native": 6.25
         },
         "coat_type": "wool",
-        "hair_percentage": 25
+        "hair_percentage": 25.0,
+        "intermediate_percentage": 25,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 165.3,
@@ -2094,7 +2169,10 @@
           "Dorper": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": null,
@@ -2153,7 +2231,10 @@
           "Barbados Blackbelly": 12.5
         },
         "coat_type": "mixed",
-        "hair_percentage": 44
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 180,
@@ -2213,7 +2294,10 @@
           "Barbados Blackbelly": 6.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 183.0,
@@ -2266,7 +2350,10 @@
           "Barbados Blackbelly": 6.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 34
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 225,
@@ -2341,7 +2428,10 @@
           "Dorper": 25
         },
         "coat_type": "hair",
-        "hair_percentage": 62
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 180,
@@ -2397,7 +2487,10 @@
           "St Augustine": 44
         },
         "coat_type": "hair",
-        "hair_percentage": 56
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 185,
@@ -2454,7 +2547,10 @@
           "St Augustine": 59.5
         },
         "coat_type": "mixed",
-        "hair_percentage": 40
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 175,
@@ -2507,7 +2603,10 @@
           "Tunis": 100
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 275.0,
@@ -2557,7 +2656,10 @@
           "Cotswold": 100
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 200.0,
@@ -2608,7 +2710,10 @@
           "Tunis": 50
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "Tunis Red",
       "weight_lbs": 212.5,
@@ -2683,7 +2788,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "mixed",
-        "hair_percentage": 12
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 67,
@@ -2743,7 +2851,10 @@
           "Wiltshire Horn": 25
         },
         "coat_type": "hair",
-        "hair_percentage": 62
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White with beard",
       "weight_lbs": 251.2,
@@ -2816,7 +2927,10 @@
           "American Blackbelly": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 144,
@@ -2890,7 +3004,10 @@
           "American Blackbelly": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 137.5,
@@ -2940,7 +3057,10 @@
           "American Blackbelly": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 115.0,
@@ -2992,7 +3112,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "hair",
-        "hair_percentage": 62
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 146.9,
@@ -3042,7 +3165,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "hair",
-        "hair_percentage": 62
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 146.9,
@@ -3094,7 +3220,10 @@
           "Katahdin": 21.875
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 64,
@@ -3159,7 +3288,10 @@
           "Black Headed Dorper": 12.5
         },
         "coat_type": "mixed",
-        "hair_percentage": 62
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 118,
@@ -3299,7 +3431,10 @@
           "Black Headed Dorper": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 160,
@@ -3384,7 +3519,10 @@
           "Dorper": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": null,
@@ -3433,7 +3571,10 @@
           "Dorper": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": null,
@@ -3484,7 +3625,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "hair",
-        "hair_percentage": 62
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 153.4,
@@ -3534,7 +3678,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "hair",
-        "hair_percentage": 62
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 153.4,
@@ -3631,7 +3778,10 @@
           "Katahdin": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 175,
@@ -3681,7 +3831,10 @@
           "Katahdin": 50
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White/Tan",
       "weight_lbs": 130,
@@ -3783,7 +3936,10 @@
           "St Augustine": 56.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 44
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 60,
@@ -4155,7 +4311,10 @@
           "Barbados Blackbelly": 6.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 34
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 172.3,
@@ -4209,7 +4368,10 @@
           "Barbados Blackbelly": 4.7
         },
         "coat_type": "mixed",
-        "hair_percentage": 30
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 173.9,
@@ -4260,7 +4422,10 @@
           "Wiltshire Horn": 0
         },
         "coat_type": "mixed",
-        "hair_percentage": 30
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 173.9,
@@ -4310,7 +4475,10 @@
           "Katahdin": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 140,
@@ -4375,7 +4543,10 @@
           "Barbados Blackbelly": 6.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 31
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 169.9,
@@ -4468,7 +4639,10 @@
           "St Augustine": 70.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 30
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 177.6,
@@ -4517,7 +4691,10 @@
           "Dorper": 50
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 81,
@@ -4659,7 +4836,10 @@
           "Suffolk": 50
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 286,
@@ -4722,7 +4902,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "mixed",
-        "hair_percentage": 12
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 179.4,
@@ -4773,7 +4956,10 @@
           "Dorper": 12.5
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 243.2,
@@ -4823,7 +5009,10 @@
           "Katahdin": 20.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 249.3,
@@ -4874,7 +5063,10 @@
           "Barbados Blackbelly": 3.125
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 247.9,
@@ -4925,7 +5117,10 @@
           "Barbados Blackbelly": 6.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 241.4,
@@ -4975,7 +5170,10 @@
           "Jacob": 25
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 181.2,
@@ -5025,7 +5223,10 @@
           "Jacob": 25
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 181.2,
@@ -5075,7 +5276,10 @@
           "Katahdin": 21.875
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 142.0,
@@ -5125,7 +5329,10 @@
           "Katahdin": 21.875
         },
         "coat_type": "mixed",
-        "hair_percentage": 50
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 142.0,
@@ -5334,7 +5541,10 @@
           "Jacob": 50
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "Black",
       "weight_lbs": 140,
@@ -5452,7 +5662,10 @@
           "Karakul": 100
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 100,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 176,
@@ -5592,7 +5805,10 @@
           "St Augustine": 37.5
         },
         "coat_type": "mixed",
-        "hair_percentage": 62
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Black",
       "weight_lbs": 150,
@@ -5768,7 +5984,10 @@
           "Hampshire": 25
         },
         "coat_type": "wool",
-        "hair_percentage": 0
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 335,
@@ -5820,7 +6039,10 @@
           "Katahdin": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 150,
@@ -5872,7 +6094,10 @@
           "Dorper": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": null,
@@ -6126,7 +6351,10 @@
           "Barbados Blackbelly": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Badger",
       "weight_lbs": 125,
@@ -6175,7 +6403,10 @@
           "Katahdin": 100
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Black",
       "weight_lbs": 175,
@@ -6265,7 +6496,10 @@
           "Katahdin": 50
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Tan",
       "weight_lbs": 224,
@@ -6355,7 +6589,10 @@
           "St Augustine": 13
         },
         "coat_type": "hair",
-        "hair_percentage": 87
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 163.2,
@@ -6406,7 +6643,10 @@
           "Katahdin": 50
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 175,
@@ -6456,7 +6696,10 @@
           "Katahdin": 25
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Black/White",
       "weight_lbs": 130,
@@ -6548,7 +6791,10 @@
           "St Augustine": 56.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 44
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 150,
@@ -6600,7 +6846,10 @@
           "Katahdin": 29.6875
         },
         "coat_type": "mixed",
-        "hair_percentage": 30
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 235,
@@ -6650,7 +6899,10 @@
           "Dorper": 50
         },
         "coat_type": "hair",
-        "hair_percentage": 100
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 100,
@@ -6700,7 +6952,10 @@
           "Katahdin": 27.344
         },
         "coat_type": "mixed",
-        "hair_percentage": 27
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 282.2,
@@ -6752,7 +7007,10 @@
           "St Augustine": 37.5
         },
         "coat_type": "hair",
-        "hair_percentage": 62
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White",
       "weight_lbs": 200,
@@ -6804,7 +7062,10 @@
           "Dorper": 25
         },
         "coat_type": "hair",
-        "hair_percentage": 75
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Black w White Markings",
       "weight_lbs": 235.0,
@@ -6855,7 +7116,10 @@
           "Tunis": 25
         },
         "coat_type": "mixed",
-        "hair_percentage": 25
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 179.4,
@@ -6905,7 +7169,10 @@
           "Babydoll": 25
         },
         "coat_type": "mixed",
-        "hair_percentage": 75
+        "hair_percentage": 75,
+        "intermediate_percentage": 0,
+        "wool_percentage": 25,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 133.3,
@@ -6954,7 +7221,10 @@
           "St Augustine": 56.25
         },
         "coat_type": "mixed",
-        "hair_percentage": 100
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "weight_lbs": 174.1,
@@ -7173,8 +7443,11 @@
           "Katahdin": 62.5
         },
         "coat_type": "hair",
-        "hair_percentage": 62.5,
-        "notes": "Sir Loin (75StA/25Kat) daughter. Dam unknown but Katahdin-heavy assumed."
+        "hair_percentage": 100.0,
+        "notes": "Sir Loin (75StA/25Kat) daughter. Dam unknown but Katahdin-heavy assumed.",
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "",
       "pen": "Pen 2",
@@ -7323,8 +7596,11 @@
           "Katahdin": 12.5
         },
         "coat_type": "wool",
-        "hair_percentage": 12.5,
-        "notes": "87.5% wool genetics. Big ram 275-300 lbs, bigger than breed math predicts."
+        "hair_percentage": 25.0,
+        "notes": "87.5% wool genetics. Big ram 275-300 lbs, bigger than breed math predicts.",
+        "intermediate_percentage": 50,
+        "wool_percentage": 25,
+        "coat_prediction": "hair"
       },
       "color_markings": "Orange tag",
       "pen": "Pen 1",
@@ -7373,7 +7649,10 @@
         },
         "coat_type": "wool",
         "hair_percentage": 50,
-        "notes": "Buck descendant. Exact generation unknown. Breed est from Bucks composition."
+        "notes": "Buck descendant. Exact generation unknown. Breed est from Bucks composition.",
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "pen": "Pen 3",
@@ -7423,7 +7702,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "wool",
-        "hair_percentage": 12.5
+        "hair_percentage": 25.0,
+        "intermediate_percentage": 50,
+        "wool_percentage": 25,
+        "coat_prediction": "hair"
       },
       "color_markings": "Fawn Wool, Orange tag",
       "pen": "Pen 4",
@@ -7494,8 +7776,11 @@
           "Katahdin": 12.5
         },
         "coat_type": "mixed",
-        "hair_percentage": 12.5,
-        "notes": "Sire: Samson (100% Hampshire). Dam: Sir Loin daughter (~75StA/25Kat). Sir Loin is maternal grandsire."
+        "hair_percentage": 50.0,
+        "notes": "Sire: Samson (100% Hampshire). Dam: Sir Loin daughter (~75StA/25Kat). Sir Loin is maternal grandsire.",
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "White Hair ewe",
       "pen": "Pen 1",
@@ -7551,7 +7836,10 @@
           "Wiltshire Horn": 12.5
         },
         "coat_type": "hair",
-        "hair_percentage": 87.5
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White with black spots, black horns",
       "pen": "Pen 3",
@@ -7620,7 +7908,10 @@
           "Wiltshire Horn": 12.5
         },
         "coat_type": "hair",
-        "hair_percentage": 87.5
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White Belly, multi color",
       "pen": "Pen 7",
@@ -7836,7 +8127,11 @@
         "percentages": {
           "Black Headed Dorper": 100
         },
-        "coat_type": "hair"
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Black headed",
       "pen": "Pen 6",
@@ -7991,7 +8286,10 @@
           "Barbados Blackbelly": 4.69
         },
         "coat_type": "mixed",
-        "hair_percentage": 30
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Small, white",
       "pen": "Pen 4",
@@ -8169,7 +8467,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "wool",
-        "hair_percentage": 12.5
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "Fat & Gray",
       "pen": "Pen 2",
@@ -8263,8 +8564,11 @@
           "Katahdin": 50
         },
         "coat_type": "mixed",
-        "hair_percentage": 50,
-        "notes": "Sir Loin offspring. Dam unknown."
+        "hair_percentage": 100,
+        "notes": "Sir Loin offspring. Dam unknown.",
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "notes": "Tag 31. Ewe. Pen 5. No babies. Proven breeder in prior years \u2014 Eclipse failure. Source: notebook card pen 5. Sir Loin offspring. Proven breeder.",
       "health": {
@@ -8482,7 +8786,11 @@
           "Awassi": 95
         },
         "coat_type": "wool",
-        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi."
+        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi.",
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 95,
+        "coat_prediction": "wool"
       },
       "color_markings": "Big ewe w nice horns",
       "notes": "Tag 2139. Windlestone Ranch fat tail (Awassi) ewe. Big ewe w nice horns. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
@@ -8517,7 +8825,11 @@
           "Awassi": 95
         },
         "coat_type": "wool",
-        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi."
+        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi.",
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 95,
+        "coat_prediction": "wool"
       },
       "color_markings": "Med thick long horns, nice to handle",
       "notes": "Tag 0056. Windlestone Ranch fat tail (Awassi) ewe. Med thick long horns, nice to handle. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
@@ -8552,7 +8864,11 @@
           "Awassi": 95
         },
         "coat_type": "wool",
-        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi."
+        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi.",
+        "hair_percentage": 0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 95,
+        "coat_prediction": "wool"
       },
       "color_markings": "Tiny/sm horns, dark legs",
       "notes": "Tag 0055. Windlestone Ranch fat tail (Awassi) ewe. Tiny/sm horns, dark legs. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
@@ -8606,7 +8922,10 @@
         },
         "coat_type": "hair",
         "hair_percentage": 100,
-        "notes": "Florida Dorper x Katahdin. Small frame compared to others."
+        "notes": "Florida Dorper x Katahdin. Small frame compared to others.",
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "weight_lbs": 130,
       "weight_estimated": true
