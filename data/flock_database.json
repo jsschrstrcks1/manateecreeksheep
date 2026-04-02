@@ -9365,5 +9365,57 @@
       "meatiest": "Dorper-Awassi cross",
       "total_breeds_in_flock": 22
     }
+  },
+  "breeding_policy": {
+    "version": "2.0.0",
+    "last_updated": "2026-04-02",
+    "philosophy": "Select by performance, not pedigree. Breed reputation means nothing \u2014 survival on THIS property decides.",
+    "selection_hierarchy": [
+      {
+        "rank": 1,
+        "trait": "FAMACHA/FEC",
+        "description": "Can it survive parasites with minimal intervention? FAMACHA 1-2 without deworming = gold. FAMACHA 4-5 requiring treatment = cull candidate."
+      },
+      {
+        "rank": 2,
+        "trait": "Hair/Wool",
+        "description": "Does it shed its coat? Observed coat, not calculated from breed. Score at weaning: 1=full wool, 5=full shed."
+      },
+      {
+        "rank": 3,
+        "trait": "Breed Composition",
+        "description": "Genetic background for context. Informs but does not decide. A mutt with FAMACHA 1 beats a purebred Katahdin with FAMACHA 5."
+      },
+      {
+        "rank": 4,
+        "trait": "Meatiness",
+        "description": "Tiebreaker. Given two animals equal in parasites, coat, and breed \u2014 choose the meatiest."
+      }
+    ],
+    "hard_lessons": [
+      "St Croix purchased and brought to property DIED OF PARASITES. Breed reputation \u2260 individual resistance.",
+      "Barbados Black Belly purchased and brought to property DIED OF PARASITES. Same lesson.",
+      "Windlestone Dorper (exceptional South African bloodlines) are EXTREMELY VULNERABLE to parasites despite being hair sheep. Hair coat \u2260 parasite resistance. Independent traits.",
+      "GG and Rocky are alive because owner skill improved, not because they are resistant. They require aggressive treatment to survive.",
+      "Cracker coat type is VARIABLE per individual \u2014 Merrie sheds, 00110 does not. Cannot classify per breed.",
+      "Every animal currently alive has survived Florida parasite pressure. That survival IS the genetics that work.",
+      "Buying outside genetics is HIGH RISK. Even 'resistant' breeds die here. Safest investment is what's already proven on this land."
+    ],
+    "pipeline": {
+      "description": "Closed-loop generational pipeline. Ewes' offspring move forward through pens. Best ram lambs from end cycle back as sires at the beginning.",
+      "target_animal": "Hardy (survives Florida with minimal care), Hairy (sheds coat), Meaty (good muscling/growth), Parasite resistant (FAMACHA 1-2 without deworming)",
+      "stages": 7,
+      "awassi_separate": true,
+      "advancement_criteria": "Advance animals that need the least help. FAMACHA/FEC first, coat score second, weight gain third.",
+      "culling_criteria": "Animals requiring repeated deworming, non-shedding coats after 75%+ hair genetics, poor weight gain, lambing difficulty.",
+      "ram_recycling": "Best ram lambs from Pen 6-7 cycle back to Pen 1-2 as replacement sires. This is intentional line breeding.",
+      "inbreeding_policy": "Managed tool, not hard block. F < 0.25 acceptable. Monitor for depression (reduced fertility, lower lamb survival). Refresh with proven outside genetics every 3-4 generations IF needed.",
+      "key_insight": "St Augustine = heavy St Croix heritage. St Croix genetics already present in flock through StA."
+    },
+    "kelsier_sons": {
+      "best_candidate": "serendipity-twin-ram",
+      "reasoning": "Serendipity White Ram Twin: Kelsier (100% Kat, NSIP FEC 138.8) x Serendipity (StA/Babydoll/Jacob/Kat). Dam has no weak parasite resistance. ~56% Katahdin + 19% StA (St Croix heritage). Needs FAMACHA testing through summer before pipeline placement.",
+      "test_plan": "Summer 2026: monitor FAMACHA monthly, no prophylactic deworming. If holds 1-2, place in pipeline. If 3+, reassess."
+    }
   }
 }
