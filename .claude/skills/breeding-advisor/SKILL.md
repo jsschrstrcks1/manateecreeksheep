@@ -196,6 +196,74 @@ When asked "where does this animal go?":
 
 ---
 
+## ANNUAL EVALUATION — EVERY ANIMAL JUSTIFIES ITS PLACE
+
+No animal is permanent. Every ram and ewe must earn their spot each year based on measured performance. Evaluate at the end of each lambing season.
+
+### Ram Annual Review
+
+Score each ram on his OFFSPRING performance (not his own traits):
+
+| Metric | Weight | Method | Cull Threshold |
+|--------|--------|--------|----------------|
+| Offspring avg FAMACHA | 40% | Average all lambs' FAMACHA scores at 6 months | Avg > 3.0 |
+| Offspring shedding % | 25% | % of lambs scoring ≥3 on 1-5 shed scale at weaning | < 40% shedding |
+| Offspring weight gain | 15% | Avg daily gain birth→weaning | Bottom 25% vs other rams |
+| Conception rate | 10% | Ewes exposed vs ewes lambed | < 60% |
+| Offspring survival | 10% | Lambs alive at 90 days / lambs born | < 70% |
+
+**Actions:**
+- **KEEP:** Meets or exceeds all thresholds. Stays at current stage or advances.
+- **DEMOTE:** Fails 1 metric. Drops back one pipeline stage.
+- **REPLACE:** Fails 2+ metrics. Replace with best available ram lamb.
+- **CULL:** Fails FAMACHA threshold OR conception < 40%. Remove from flock.
+
+A ram's sons that outperform him on these metrics SHOULD replace him. This is the pipeline working.
+
+### Ewe Annual Review
+
+Score each ewe on her OWN performance plus OFFSPRING:
+
+| Metric | Weight | Method | Cull Threshold |
+|--------|--------|--------|----------------|
+| Own FAMACHA (annual avg) | 30% | Average of all scores taken during year | Avg > 2.5 |
+| Deworming events | 20% | Number of times dewormed in past 12 months | > 2 treatments |
+| Observed shedding | 15% | Coat score 1-5 at peak shedding season | Score < 2 at Stage 4+ |
+| Lambing success | 15% | Lambed without assistance, lamb(s) alive at 30 days | Failed lambing |
+| Offspring FAMACHA | 10% | Her lambs' avg FAMACHA at 6 months | Avg > 3.0 |
+| Weight/condition | 10% | BCS at breeding time (target 2.5-4.0) | BCS < 2 or > 4.5 |
+
+**Actions:**
+- **ADVANCE:** Meets all thresholds for current stage + next stage criteria. Move forward.
+- **HOLD:** Meets current stage thresholds but not next stage. Stay, retest next year.
+- **DROP BACK:** Fails 1 metric at current stage. Move back one stage. One retry.
+- **CULL:** Fails 2+ metrics, OR fails after dropping back, OR avg FAMACHA > 3.5 at any stage.
+
+### Shedding Score (1-5 scale, scored at peak shedding season)
+
+| Score | Description |
+|-------|-------------|
+| 1 | Full wool retention — no shedding |
+| 2 | Partial shed — patches of wool remain (>50%) |
+| 3 | Mostly shed — some wool on topline/belly (<50% remaining) |
+| 4 | Nearly clean — small tufts only |
+| 5 | Full shed — clean hair coat, no wool |
+
+### Annual Calendar
+
+| Month | Action |
+|-------|--------|
+| January | Pre-breeding FAMACHA check. BCS scoring. Vaccination boosters. |
+| February-March | Lambing season. Record births, birthweights, dam behavior. |
+| April | Post-lambing FAMACHA. Start lamb FAMACHA at 8 weeks. |
+| June | Peak shedding — score all animals on 1-5 scale. |
+| August | Weaning. Weigh lambs. Score lambs on FAMACHA/shedding/weight. |
+| September | **ANNUAL REVIEW.** Score all rams and ewes. Advance/hold/drop/cull. |
+| October | Move animals to new pipeline positions. Place replacement rams. |
+| November-December | Breeding season. Ram exposure begins. |
+
+---
+
 ## SOURCES
 
 - UF/IFAS Extension VM264: Selection of Sheep Meat Breeds in Florida
