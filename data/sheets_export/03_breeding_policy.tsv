@@ -1,0 +1,30 @@
+Category	Item	Details
+Selection Hierarchy	#1 FAMACHA/FEC	Can it survive parasites with minimal intervention? FAMACHA 1-2 without deworming = gold. FAMACHA 4-5 requiring treatment = cull candidate.
+Selection Hierarchy	#2 Hair/Wool	Does it shed its coat? Observed coat, not calculated from breed. Score at weaning: 1=full wool, 5=full shed.
+Selection Hierarchy	#3 Breed Composition	Genetic background for context. Informs but does not decide. A mutt with FAMACHA 1 beats a purebred Katahdin with FAMACHA 5.
+Selection Hierarchy	#4 Meatiness	Tiebreaker. Given two animals equal in parasites, coat, and breed — choose the meatiest.
+		
+Hard Lesson		St Croix purchased and brought to property DIED OF PARASITES. Breed reputation ≠ individual resistance.
+Hard Lesson		Barbados Black Belly purchased and brought to property DIED OF PARASITES. Same lesson.
+Hard Lesson		Windlestone Dorper (exceptional South African bloodlines) are EXTREMELY VULNERABLE to parasites despite being hair sheep. Hair coat ≠ parasite resistance. Independent traits.
+Hard Lesson		GG and Rocky are alive because owner skill improved, not because they are resistant. They require aggressive treatment to survive.
+Hard Lesson		Cracker coat type is VARIABLE per individual — Merrie sheds, 00110 does not. Cannot classify per breed.
+Hard Lesson		Every animal currently alive has survived Florida parasite pressure. That survival IS the genetics that work.
+Hard Lesson		Buying outside genetics is HIGH RISK. Even 'resistant' breeds die here. Safest investment is what's already proven on this land.
+		
+Pipeline	Target Animal	Hardy (survives Florida with minimal care), Hairy (sheds coat), Meaty (good muscling/growth), Parasite resistant (FAMACHA 1-2 without deworming)
+Pipeline	Inbreeding Policy	Managed tool, not hard block. F < 0.25 acceptable. Intentional line breeding toward homogeneity.
+Pipeline	Awassi Separate	True
+Pipeline	Key Insight	
+		
+Stress Test Fix	2026-04-02	Baby Azure moved from Stage 3 to Stage 1 (FAMACHA 5 in dry season = worst performer)
+Stress Test Fix	2026-04-02	Charlie + Broken Tail + Elsie moved to Pen 2 (elite) — they earned it, no need to wait
+Stress Test Fix	2026-04-02	Merrie promoted to Pen 1 (Stage 6) — 2nd best shedder after Charlie
+Stress Test Fix	2026-04-02	Serendipity White Ram Twin placed at Pen 6 (Stage 5) — PROVISIONAL pending summer FAMACHA
+Known Vulnerability		Charlie is single point of failure (only 100% hair ram). Backup: test Kelsier sons summer 2026.
+Known Vulnerability		Rocky at Stage 3 contaminates with weak parasite genetics. Mitigate by hard culling his FAMACHA-3+ offspring.
+Known Vulnerability		00110 daughters ~87% wool. Pipeline needs 5-6 stages to breed out. First finished animals ~10 years.
+Known Vulnerability		Inbreeding spiral risk as Charlie sons cycle back. Monitor F coefficient. Introduce outside genetics if F > 0.20.
+Known Vulnerability		Hurricane risk — east side pens more exposed than west side.
+Known Vulnerability		16 ewe lambs scored FAMACHA 1-2 in dry summer — provisional only. Retest in wet season.
+Known Vulnerability		Baby Azure FAMACHA 5 in dry summer when all other lambs scored 1-2. Cull candidate.
