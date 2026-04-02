@@ -1,299 +1,209 @@
 ---
 name: breeding-advisor
-description: "Evaluate proposed sheep matings against a 30-point checklist derived from multi-LLM orchestra review and peer-reviewed research. Every pairing must pass all HARD_BLOCKs, score RISK factors, and report SOFT_PREFERENCEs. Ewe survival is priority #1."
-version: 1.0.0
+description: "Evaluate sheep matings and pipeline placement against a performance-based checklist. Select by FAMACHA/FEC first, hair/wool second, breed third, meat fourth. Manages a 7-pen closed-loop breeding pipeline toward a hardy, hairy, meaty, parasite-resistant composite flock."
+version: 2.0.0
 ---
 
 # Breeding Advisor — Manatee Creek Flock
 
 *Soli Deo Gloria — these animals depend on correct decisions.*
 
-## Purpose
+## Two Modes
 
-Evaluate ANY proposed ram × ewe pairing against this checklist. Run every check in order. If a HARD_BLOCK fires, REJECT the pairing immediately. Accumulate RISK_SCORE points. If total risk ≥ 14, REJECT. Report all SOFT_PREFERENCEs for human decision.
-
-## How to Use
-
+### Mode 1: PAIRING CHECK
 ```
 "Should I breed [ram] to [ewe]?"
 "Evaluate [ram] × [ewe]"
-"Who should go with [ram] in Pen [N]?"
 ```
 
-The advisor reads `data/flock_database.json`, evaluates the checklist, and returns:
-- APPROVED / REJECTED / CONDITIONAL
-- Risk score breakdown
-- Warnings
-- Reasoning
+### Mode 2: PIPELINE CHECK
+```
+"Where does this animal go in the pipeline?"
+"Is [animal] ready to advance?"
+"Which ram lamb cycles back?"
+"Sort these ewes into the pipeline."
+```
 
-## Data Required Per Animal
-
-Before evaluating, confirm these fields exist in the database:
-- `name`, `id`, `sex`, `tag`
-- `breed_composition.percentages` (all breeds summing to ~100%)
-- `dob` or `dob_approximate`
-- `weight_lbs` (or estimate from breed standard)
-- `pen` (current location)
-- `status` (must be "alive")
-- `sire_id`, `dam_id` (for inbreeding check)
-- `health.famacha_history` (last 90 days minimum)
-- `health.vaccinations` (CDT/Covexin within 12 months)
-
-If data is missing, flag it. Do NOT guess. Mark the check as INCOMPLETE.
+The advisor reads `data/flock_database.json` and `data/breed_reference.json`.
 
 ---
 
-## THE CHECKLIST (30 factors, ordered by priority)
+## CORE PHILOSOPHY
+
+### Selection Hierarchy (non-negotiable)
+1. **FAMACHA/FEC** — Can it survive parasites with minimal intervention?
+2. **Hair/Wool** — Does it shed? (OBSERVED coat, not breed-predicted)
+3. **Breed Composition** — Genetic context. Informs, does not decide.
+4. **Meatiness** — Tiebreaker. All else equal, choose the meatiest.
+
+### Hard Lessons (from this flock, on this property)
+- Purchased **St Croix** (famous for parasite resistance) → DIED OF PARASITES here
+- Purchased **Barbados Black Belly** → DIED OF PARASITES here
+- **Windlestone Dorper** (exceptional SA bloodlines) are EXTREMELY VULNERABLE to parasites despite being hair sheep
+- **Hair coat ≠ parasite resistance.** Independent genetic traits.
+- **Breed reputation means NOTHING.** Only individual performance on THIS property matters.
+- Cracker coat type is VARIABLE per individual — Merrie sheds, 00110 does not.
+- Every animal currently alive has survived Florida parasite pressure. That survival IS the proven genetics.
+- **GG and Rocky survive because owner skill improved**, not because they're resistant. They require aggressive treatment.
+
+### Breeding Program Goal
+**Closed-loop pipeline** producing animals that:
+- Stay FAMACHA 1-2 without deworming
+- Shed coat completely (no shearing)
+- Have good muscling and growth rate
+- Produce consistent, predictable offspring
+
+---
+
+## THE PIPELINE
+
+### Structure
+7 breeding pens in a geographic loop. Best ram lambs from Pen 2 (elite) cycle back to Pen 3 (intake).
+
+```
+Pen 3 (intake) → TF → Pen 4 → Pen 5 → Pen 6 → Pen 1 → Pen 2 (elite)
+  ↑                                                            |
+  └──────────── best ram lambs cycle back ─────────────────────┘
+```
+
+Goose Pen = grow-out (ram lambs) + Awassi dairy line (outside loop).
+
+### Stage Details
+
+| Stage | Pen | Size | Location | Ram | Advancement Criteria |
+|-------|-----|------|----------|-----|---------------------|
+| 1 (intake) | **Pen 3** | largest | SE, east | **00110** (287 lbs, wooly, meaty) | FAMACHA <3, FEC <500, shed >25% |
+| 2 | **Tree Fort** | smallest | east, best shelter | **Gigi's 2025 Ram** (Kelsier×GG) | FAMACHA <3, FEC <400, shed >35% |
+| 3 | **Pen 4** | large | east | **Rocky** (300 lbs, BHD/Awassi) | FAMACHA <3, FEC <350, shed >50% |
+| 4 | **Pen 5** | med-large | east | **Buck** (271 lbs, Kat/Awassi) | FAMACHA <2, FEC <300, shed >65% |
+| 5 | **Pen 6** | medium | NE, east | **Merrie** (200 lbs, observed shedder) | FAMACHA <2, FEC <250, shed >80% |
+| 6 | **Pen 1** | med-small | SW, west (isolated) | **Charlie** (232 lbs, 100% hair) | FAMACHA <2, FEC <200, shed >90% |
+| 7 (elite) | **Pen 2** | small | SW, west (most secure) | *Best ram lamb from Pen 1* | FAMACHA 1-2 only, FEC <150, shed >95% |
+| Outside | **Goose Pen** | small-med | east | **MC08** (Awassi dairy) | Separate line |
+
+### Pipeline Rules
+- Animals ADVANCE by meeting criteria, not by age
+- Animals that FAIL criteria are culled or sent back one stage for retesting
+- Ram lambs pulled to Goose Pen grow-out at every stage
+- Best ram lambs from Pen 2 cycle back to Pen 3 as replacement sires
+- Some inbreeding is INTENTIONAL (line breeding toward homogeneity, F < 0.25)
+- Awassi dairy line stays OUTSIDE the loop
+
+### Ram Gradient (wooly→hair, early→late)
+| Ram | Hair % | Observed Coat | Stage |
+|-----|--------|--------------|-------|
+| 00110 | 12.5% | extra wooly | 1 (intake) |
+| Gigi's 2025 Ram | ~50% | wooly | 2 |
+| Rocky | 50% | mixed | 3 (WEAK parasites — select hard against in offspring) |
+| Buck | 50% | mixed | 4 |
+| Merrie | 50% breed / 100% observed | full shedder | 5 |
+| Charlie | 100% | full shedder | 6 (near-finished) |
+| Best Pen 1 lamb | TBD | must be shedder | 7 (elite) |
+
+---
+
+## PAIRING CHECKLIST (revised for pipeline context)
 
 ### HARD BLOCKS (any one = REJECT)
 
-**1. EWE_STATUS_CHECK**
-- Data: ewe `status`
-- Rule: ewe must be `alive` and not `sold`, `deceased`, `gifted`, `culled`
-- If FAIL → REJECT. Dead sheep don't breed.
+**1. STATUS_CHECK** — Both animals must be alive.
 
-**2. RAM_STATUS_CHECK**
-- Data: ram `status`
-- Rule: ram must be `alive`
-- If FAIL → REJECT.
+**2. SUBFERTILITY_CHECK** — If ram exposed to ≥3 ewes for ≥6 months and ≤1 conceived → REJECT.
+- Flock lesson: Eclipse bred 1/6 ewes in >1 year. Cull.
 
-**3. RAM_FERTILITY_CHECK**
-- Data: ram breeding history (ewes exposed vs ewes lambed)
-- Rule: if ram exposed to ≥3 ewes for ≥6 months and ≤1 conceived → SUBFERTILE → REJECT
-- Source: MSD Vet Manual, Dyneval review on subfertility
-- Flock lesson: Eclipse (tag 113) bred 1/6 ewes in >1 year. Proven ewes, his fault.
+**3. FAMACHA_HARD_BLOCK** — If ewe's most recent FAMACHA ≥ 4, OR ≥2 scores of 4-5 in past 6 months → REJECT. Same for ram.
+- Source: OSU Sheep Team FAMACHA guidance
 
-**4. EWE_FAMACHA_HARD_BLOCK**
-- Data: ewe `health.famacha_history`, last 90 days
-- Rule: if ewe's most recent FAMACHA ≥ 4, OR if ewe has had ≥2 scores of 4-5 in past 6 months → REJECT
-- Why: breeding a severely parasitized ewe risks her life during pregnancy
-- Source: OSU Sheep Team FAMACHA guidance; ACSRPC selective treatment protocols
-- Flock lesson: Gigi scored FAMACHA 5 twice in Feb 2026. Azure's baby scored 5 on 4-1-26.
+**4. INBREEDING_MANAGED** — NOT a hard block. Calculate F coefficient.
+- F < 0.125: OK (flag only)
+- F 0.125-0.25: CONDITIONAL (monitor offspring)
+- F > 0.25: REJECT (depression risk too high)
+- Father-daughter in same pipeline stage: REJECT (too fast, skip a generation)
+- Line breeding across pipeline stages: ACCEPTABLE (this is the design)
 
-**5. RAM_FAMACHA_HARD_BLOCK**
-- Data: ram `health.famacha_history`, last 90 days
-- Rule: if ram's most recent FAMACHA ≥ 4 → REJECT
-- Why: parasitized rams have reduced semen quality and pass susceptibility
+**5. EWE_AGE_CHECK** — REJECT if < 10 months. REJECT if > 9 years with lambing difficulty history.
 
-**6. INBREEDING_HARD_BLOCK**
-- Data: `sire_id`, `dam_id` for both animals, traced 3 generations
-- Rule: REJECT if ram is the ewe's sire, grandsire, full sibling, or half-sibling
-- Rule: REJECT if calculated inbreeding coefficient F > 12.5% for proposed offspring
-- Source: Barbados Blackbelly Sheep Assoc COI guidelines; St. Croix breeders practical guidelines
-- Note: "Inbred is better than dead" — but F > 12.5% is too high.
+**6. VACCINATION_CHECK** — REJECT if no CDT/Covexin within 12 months.
 
-**7. EWE_AGE_HARD_BLOCK**
-- Data: ewe `dob`, current date
-- Rule: REJECT if ewe < 10 months old (physically immature, pelvis not developed)
-- Rule: REJECT if ewe > 9 years old AND has history of lambing difficulty
-- Source: SDSU Extension ewe lamb breeding guidelines
+**7. DISEASE_CHECK** — REJECT if active contagious disease.
 
-**8. VACCINATION_HARD_BLOCK**
-- Data: ewe and ram `health.vaccinations`
-- Rule: REJECT if either animal lacks CDT/Covexin vaccination within past 12 months
-- Why: unvaccinated animals risk Clostridial disease during pregnancy stress
-- Flock note: All pens got Covexin 8 (goat vac for sheep) in March 2026.
+**8. RECOVERY_CHECK** — REJECT if ewe lambed < 5 months ago.
 
-**9. DISEASE_HARD_BLOCK**
-- Data: ewe and ram health records
-- Rule: REJECT if either animal has active contagious disease (foot rot, CL, pink eye, respiratory)
-- Why: pregnancy stress + active disease = death risk
+### RISK SCORES (accumulate, ≥14 = REJECT)
 
-**10. EWE_RECOVERY_HARD_BLOCK**
-- Data: ewe last lambing date, current date
-- Rule: REJECT if ewe lambed < 5 months ago (insufficient recovery)
-- Source: General veterinary guidance for subtropical conditions
-- Flock note: Fawn Wool 114 lambed 3-29-26. Cannot breed again before Sept 2026.
+**9. DYSTOCIA_RISK** (0-6 pts) — Ram weight vs ewe weight, predicted birthweight.
+- Ram > 2× ewe weight → +4 pts
+- Ram > 1.5× ewe weight → +2 pts
+- Predicted BW > 12 lbs → +4 pts
 
-### RISK SCORES (accumulate points, ≥14 total = REJECT)
+**10. FIRST_TIMER_RISK** (0-4 pts) — Never lambed → +3. Under 18 months at lambing → +1.
 
-**11. DYSTOCIA_BIRTHWEIGHT_RISK** (0-6 points)
-- Data: ram's known lamb birthweights, ewe's known lamb birthweights, ewe weight
-- Predicted BW = (0.65 × ewe avg lamb BW) + (0.35 × ram avg lamb BW) + litter adjustment
-- Litter adjustment: singleton +2 lbs, twins -1 lb, triplets -3 lbs
-- IF ewe is HIGH_OUTPUT line (Gigi, Azure): add +3 lbs (they throw big singles)
-- Scoring:
-  - Predicted BW 6-10 lbs → 0 points
-  - Predicted BW 10-12 lbs → +2 points
-  - Predicted BW 12-14 lbs → +4 points
-  - Predicted BW > 14 lbs → +6 points
-- Source: Dwyer & Bünger dystocia review; Hallowell et al. lambing difficulty factors
-- Flock lesson: 00110 (50% Cracker/25% Suffolk) threw 12-15 lb lambs. Suffolk = big lambs.
-- IMPORTANT: Use ACTUAL flock birthweights, not breed standards. Florida Dorper are small-framed.
+**11. PARASITE_HISTORY_RISK** (0-4 pts) — Average FAMACHA ≥ 3 → +2. Ever scored 5 → +2.
 
-**12. EWE_SIZE_VS_RAM_SIZE_RISK** (0-4 points)
-- Data: ewe `weight_lbs`, ram `weight_lbs` (actual or estimated)
-- Rule: if ram weight > 2× ewe weight → +4 points
-- Rule: if ram weight > 1.5× ewe weight → +2 points
-- Rule: if ram weight < 1.3× ewe weight → 0 points
-- Why: oversized rams on small ewes = large lambs that don't fit
-- Flock lesson: 00110 is 275-300 lbs. Florida Dorper ewes are ~100-130 lbs. That's 2×+ ratio.
+**12. DAM_LINE_PARASITE_RISK** (0-3 pts) — Dam had chronic FAMACHA ≥ 3 → +2. Dam AND grandam → +3.
+- Flock lesson: Azure→Baby Azure, three generations of weakness.
 
-**13. FIRST_TIMER_RISK** (0-4 points)
-- Data: ewe reproductive history (prior lambings)
-- Rule: if ewe has NEVER lambed before → +3 points
-- Rule: if ewe is < 18 months old at expected lambing → +1 additional point
-- Why: first lambing is highest risk for dystocia
-- Source: McHugh et al. lambing risk factors
+**13. HIGH_OUTPUT_RISK** (0-3 pts) — Frequent twins/triplets + large ram → +2.
 
-**14. EWE_PARASITE_HISTORY_RISK** (0-4 points)
-- Data: ewe FAMACHA history, all available records
-- Rule: if ewe has average FAMACHA ≥ 3.0 over past year → +2 points
-- Rule: if ewe has ever scored FAMACHA 5 → +2 additional points
-- Why: chronic parasite susceptibility worsens during pregnancy immunosuppression
-- Source: UF/IFAS VM264; Vanimisetti et al. hair sheep parasite resistance
-- Flock lesson: Gigi/Azure line dominates for susceptibility even with resistant sire.
+**14. RAM_TEMPERAMENT** (0-3 pts) — Aggressive toward ewes/lambs → +3.
+- Rocky kept 114 from her newborn.
 
-**15. DAM_LINE_PARASITE_RISK** (0-3 points)
-- Data: ewe's dam and grandam FAMACHA history (if available)
-- Rule: if ewe's dam had chronic FAMACHA ≥ 3 → +2 points (susceptibility is heritable, h² 0.2-0.4)
-- Rule: if ewe's dam AND grandam both had chronic issues → +3 points
-- Source: Ngere et al. 2018 Katahdin FEC heritability; Safari et al. 2005 genetic parameters
-- Flock lesson: Azure is Gigi's sister. Baby Azure (Azure's daughter) scored FAMACHA 5. Three generations of weakness.
+**15. BCS_RISK** (0-3 pts) — BCS < 2.5 → +3. BCS > 4.0 → +2.
 
-**16. HIGH_OUTPUT_LINE_RISK** (0-3 points)
-- Data: ewe's lambing history (twins/triplets frequency), maternal line
-- Rule: if ewe frequently has twins or triplets → +2 points with TERMINAL or large ram
-- Rule: if ewe is from known HIGH_OUTPUT line (Gigi, Azure, Elsie) → +1 additional
-- Why: HIGH_OUTPUT + big ram = large or multiple large lambs = dystocia
-- Source: GPT breeding spec review; Hatcher et al. ewe mortality factors
+**16. SEASONAL_RISK** (0-2 pts) — Lambing June-August (FL peak heat) → +2.
 
-**17. RAM_TEMPERAMENT_RISK** (0-3 points)
-- Data: handler observations, notes
-- Rule: if ram is documented aggressive toward ewes or lambs → +3 points
-- Rule: if ram is aggressive toward other rams but not ewes → +1 point
-- Flock lesson: Rocky (Jerkface) kept Fawn Wool 114 away from her newborn. Charlie is sexually aggressive/dominant but not documented hurting ewes.
+**17. RAM_LOAD** (0-2 pts) — > 6 ewes for yearling, > 15 for mature → +2.
 
-**18. EWE_BCS_RISK** (0-3 points)
-- Data: ewe body condition score (1-5 scale)
-- Rule: BCS < 2.5 → +3 points (underweight, pregnancy toxemia risk)
-- Rule: BCS > 4.0 → +2 points (overweight, dystocia risk)
-- Rule: BCS 2.5-4.0 → 0 points
-- Source: Zoetis flock health; OSU breeding season considerations
-- Flock note: Serendipity was "skinny" while nursing twins 2-27-26.
+**18. WOOL_RISK** (0-2 pts) — Offspring < 50% hair genetics AND both parents have wool coats → +2.
+- NOTE: Use OBSERVED coat, not breed calculation. Merrie is 50% Cracker (breed=wool) but OBSERVED shedder.
 
-**19. SEASONAL_TIMING_RISK** (0-2 points)
-- Data: expected breeding date → calculate lambing date (breeding + 147 days)
-- Rule: if lambing falls June-August (Florida peak heat) → +2 points
-- Why: heat stress reduces lamb survival and ewe recovery
-- Source: Frontiers in Animal Science, hair sheep subtropical adaptation
+### SOFT PREFERENCES (tiebreakers)
 
-**20. RAM_BREEDING_LOAD_RISK** (0-2 points)
-- Data: number of ewes already assigned to this ram this season
-- Rule: > 6 ewes for yearling ram → +2 points
-- Rule: > 15 ewes for mature ram → +2 points
-- Source: Sheep 101 ram:ewe ratios; AW Extension WA conception strategies
-
-**21. INBREEDING_WARNING_RISK** (0-2 points)
-- Data: calculated F coefficient for proposed offspring
-- Rule: F 3.125%-6.25% → +1 point (flag, monitor)
-- Rule: F 6.25%-12.5% → +2 points (concerning but not blocked)
-- Source: PMC inbreeding study in small flocks
-
-**22. WOOL_VS_HAIR_RISK** (0-2 points)
-- Data: ram and ewe coat genetics (hair% from breed composition)
-- Rule: if pairing produces offspring < 50% hair genetics → +2 points
-- Why: wool lambs in Florida = higher parasite load, heat stress, shearing costs
-- Flock goal: moving toward hair sheep. Wool is a step backward.
-
-### SOFT PREFERENCES (tiebreakers, 0-1 points each)
-
-**23. PARASITE_RESISTANCE_BOOST**
-- If ram has ≥50% Cracker, Katahdin, St. Croix, GCN, or ABB genetics → +1 preference point
-- Source: UF/IFAS VM264 breed recommendations for Florida
-
-**24. MEAT_PRODUCTION_BOOST**
-- If pairing expected to produce offspring with ≥25% BHD, Dorper, or Suffolk → +1 preference
-- Why: market lambs need meat genetics
-
-**25. CLIMATE_ADAPTATION_BOOST**
-- If both parents are hair sheep or Florida-adapted breeds → +1 preference
-- Source: UF/IFAS; Frontiers review on hair sheep in Americas
-
-**26. GENETIC_DIVERSITY_BOOST**
-- If pairing introduces breed genetics not currently dominant in flock → +1 preference
-- Why: hybrid vigor, long-term flock health
-
-**27. PROVEN_DAM_BOOST**
-- If ewe has ≥2 successful lambings with no complications → +1 preference
-- Why: known good mothers are lower risk
-
-**28. NSIP_DATA_BOOST**
-- If ram or ewe has NSIP enrollment with favorable EPDs → +1 preference
-- Source: NSIP registry; Burke et al. 2023 low-FEC EBV sire studies
-- Flock note: Kelsier (deceased) was NSIP enrolled. FEC avg 138.8, ADG 0.36. Gold standard.
-
-### INFORMATIONAL (track, don't score)
-
-**29. ECONOMIC_VALUE**
-- Data: estimated market value of offspring, feed cost, vet cost
-- Track: is this pairing cost-effective?
-- Source: Silva et al. lamb production cost analysis
-
-**30. OFFSPRING_RETENTION_PLAN**
-- Data: breeder intent (keep daughters? sell all? wether rams?)
-- Track: if EXPERIMENTAL ram, do NOT retain daughters until proven
-- Flock note: MC08 is experimental. Don't retain his daughters yet.
+**19. PARASITE_RESISTANCE_BOOST** — Ram has proven FAMACHA 1-2 history → +1
+**20. SHEDDING_BOOST** — Both parents are observed shedders → +1
+**21. FLORIDA_ADAPTATION** — Both parents survived ≥2 FL summers → +1
+**22. PROVEN_DAM** — Ewe has ≥2 successful lambings → +1
+**23. PIPELINE_ALIGNMENT** — Pairing advances the pipeline goal (hair %, parasite resistance trending right direction) → +1
+**24. MEATINESS** — Offspring expected to have good muscling (Suffolk, Dorper, or large-frame genetics) → +1
 
 ---
 
-## SCORING SUMMARY
+## SCORING
 
 ```
-TOTAL_RISK = sum of all RISK_SCORE points (checks 11-22)
+If ANY HARD BLOCK fires → REJECT
+If TOTAL_RISK ≥ 14 → REJECT
+If TOTAL_RISK 10-13 → CONDITIONAL (human override needed)
+If TOTAL_RISK 6-9 → APPROVED WITH CAUTION
+If TOTAL_RISK 0-5 → APPROVED
 
-If ANY HARD_BLOCK fires (checks 1-10) → REJECT
-If TOTAL_RISK ≥ 14 → REJECT (CRITICAL risk)
-If TOTAL_RISK 10-13 → CONDITIONAL (HIGH risk, needs human override)
-If TOTAL_RISK 6-9 → APPROVED WITH CAUTION (MODERATE risk)
-If TOTAL_RISK 0-5 → APPROVED (LOW risk)
-
-PREFERENCE_SCORE = sum of SOFT_PREFERENCE points (checks 23-28)
-Use to rank multiple approved pairings for the same ewe.
+PREFERENCE_SCORE ranks multiple approved pairings.
 ```
 
-## OUTPUT FORMAT
+## PIPELINE PLACEMENT
 
-For each proposed pairing, output:
+When asked "where does this animal go?":
 
-```
-RAM: [name] (tag [tag])
-EWE: [name] (tag [tag])
-DECISION: APPROVED / CONDITIONAL / REJECTED
-RISK SCORE: [N] / 30 possible
-RISK LEVEL: LOW / MODERATE / HIGH / CRITICAL
+1. Check FAMACHA/FEC history → determines earliest possible stage
+2. Check observed coat → hair animals can enter later stages
+3. Check breed composition → context for which ram pairs well
+4. Check weight → size-match to ram at target stage
+5. Check parentage → avoid father-daughter in same pen
 
-HARD BLOCKS: [list any that fired, or "None"]
-RISK BREAKDOWN:
-  - Dystocia BW: +[N] (predicted [X] lbs)
-  - Size mismatch: +[N] (ram [X] lbs, ewe [Y] lbs)
-  - First timer: +[N]
-  - Parasite history: +[N]
-  - Dam line parasite: +[N]
-  - High output line: +[N]
-  - Ram temperament: +[N]
-  - BCS: +[N]
-  - Seasonal: +[N]
-  - Ram load: +[N]
-  - Inbreeding: +[N] (F=[X]%)
-  - Wool/Hair: +[N]
-PREFERENCES: [list any that apply]
-WARNINGS: [anything the human should know]
-DATA GAPS: [any missing data that prevented full evaluation]
-```
+**Advancement:** Animal meets ALL criteria for current stage → moves to next stage.
+**Failure:** Animal fails criteria → cull, or drop back one stage for retesting (one retry only).
+**Ram recycling:** Best ram lamb from Pen 2 (elite) → tested through summer → if passes FAMACHA, enters Pen 3 as sire.
+
+---
 
 ## SOURCES
 
 - UF/IFAS Extension VM264: Selection of Sheep Meat Breeds in Florida
-- Dwyer & Bünger: A review of dystocia in sheep
-- Ngere et al. 2018: Genome-wide association study of GIN resistance in Katahdin
-- Safari et al. 2005: Review of genetic parameters for sheep production traits
-- Burke et al. 2023: Low-FEC EBV sire effects on lamb parasite resistance
-- Forbes et al. 2024: Adding GI parasite resistance to hair sheep breeding objective
-- McHugh et al.: Risk factors associated with lambing traits
-- Hatcher et al.: Ewe mortality during pre-lambing and lambing
-- OSU Sheep Team: Breeding Season Preparation (FAMACHA guidance)
-- SDSU Extension: Breeding Ewe Lambs
-- Zoetis: Flock Health Solutions (BCS guidelines)
-- MSD Vet Manual: Reproductive physiology of sheep
-- Manatee Creek flock data April 2026 (notebook cards, database)
+- Dwyer & Bünger: Dystocia review
+- Ngere et al. 2018: Katahdin FEC heritability (h² 0.2-0.4)
+- Burke et al. 2023: Low-FEC EBV sire effects
+- Forbes et al. 2024: GI parasite resistance in hair sheep breeding objectives
+- OSU Sheep Team: FAMACHA guidance
+- Manatee Creek flock data April 2026
+- Multi-LLM investigate pipeline (Grok, GPT, Perplexity, You.com — April 2026)
+- Owner hard lessons: St Croix, BBB, Windlestone Dorper parasite failures on-site

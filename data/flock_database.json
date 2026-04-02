@@ -9402,15 +9402,141 @@
       "Buying outside genetics is HIGH RISK. Even 'resistant' breeds die here. Safest investment is what's already proven on this land."
     ],
     "pipeline": {
-      "description": "Closed-loop generational pipeline. Ewes' offspring move forward through pens. Best ram lambs from end cycle back as sires at the beginning.",
+      "version": "3.0.0",
+      "last_updated": "2026-04-02",
+      "description": "7-pen closed-loop generational pipeline. Geographic flow follows property layout. Best ram lambs from Pen 2 (elite) cycle back to Pen 3 (intake).",
       "target_animal": "Hardy (survives Florida with minimal care), Hairy (sheds coat), Meaty (good muscling/growth), Parasite resistant (FAMACHA 1-2 without deworming)",
-      "stages": 7,
       "awassi_separate": true,
-      "advancement_criteria": "Advance animals that need the least help. FAMACHA/FEC first, coat score second, weight gain third.",
-      "culling_criteria": "Animals requiring repeated deworming, non-shedding coats after 75%+ hair genetics, poor weight gain, lambing difficulty.",
-      "ram_recycling": "Best ram lambs from Pen 6-7 cycle back to Pen 1-2 as replacement sires. This is intentional line breeding.",
-      "inbreeding_policy": "Managed tool, not hard block. F < 0.25 acceptable. Monitor for depression (reduced fertility, lower lamb survival). Refresh with proven outside genetics every 3-4 generations IF needed.",
-      "key_insight": "St Augustine = heavy St Croix heritage. St Croix genetics already present in flock through StA."
+      "awassi_location": "Goose Pen (outside loop)",
+      "inbreeding_policy": "Managed tool, not hard block. F < 0.25 acceptable. Intentional line breeding toward homogeneity.",
+      "loop_order": [
+        "Pen 3",
+        "Tree Fort",
+        "Pen 4",
+        "Pen 5",
+        "Pen 6",
+        "Pen 1",
+        "Pen 2"
+      ],
+      "grow_out": "Goose Pen",
+      "stages": {
+        "Pen 3": {
+          "stage": 1,
+          "role": "Intake \u2014 raw/wool-heavy stock enters here",
+          "size": "largest (~4x Tree Fort)",
+          "location": "SE corner, east side",
+          "capacity": "10-12 animals",
+          "ram": "00110",
+          "ram_notes": "287 lbs, 12.5% hair, extra wooly but big and meaty. Starts converting wool ewes.",
+          "advancement_criteria": {
+            "famacha": "<3",
+            "fec_epg": "<500",
+            "shedding_pct": ">25%"
+          },
+          "shelter": "standard"
+        },
+        "Tree Fort": {
+          "stage": 2,
+          "role": "First selection cut \u2014 survivors from intake",
+          "size": "smallest",
+          "location": "east side, between Goose Pen and Pen 4",
+          "capacity": "3-4 animals",
+          "ram": "gigi-2025-ram",
+          "ram_notes": "Kelsier x GG, ~50% hair, wooly. 50% Katahdin from NSIP sire. Tests Kelsier genetics.",
+          "advancement_criteria": {
+            "famacha": "<3",
+            "fec_epg": "<400",
+            "shedding_pct": ">35%"
+          },
+          "shelter": "best on property"
+        },
+        "Pen 4": {
+          "stage": 3,
+          "role": "Mid-pipeline sorting \u2014 growing groups",
+          "size": "large",
+          "location": "east side",
+          "capacity": "8-9 animals",
+          "ram": "rocky",
+          "ram_notes": "300 lbs, 50% hair (BHD/Awassi). WEAK parasites but adds meat/Dorper genetics. Select HARD against parasite weakness in his offspring.",
+          "advancement_criteria": {
+            "famacha": "<3",
+            "fec_epg": "<350",
+            "shedding_pct": ">50%"
+          },
+          "shelter": "standard"
+        },
+        "Pen 5": {
+          "stage": 4,
+          "role": "Advancing \u2014 building quality",
+          "size": "medium-large",
+          "location": "east side",
+          "capacity": "7-8 animals",
+          "ram": "buck",
+          "ram_notes": "271 lbs, 50% hair (Kat/Awassi). Katahdin adds parasite resistance back after Rocky stage.",
+          "advancement_criteria": {
+            "famacha": "<2",
+            "fec_epg": "<300",
+            "shedding_pct": ">65%"
+          },
+          "shelter": "standard"
+        },
+        "Pen 6": {
+          "stage": 5,
+          "role": "Late refinement \u2014 Florida hardiness",
+          "size": "medium",
+          "location": "NE corner, east side",
+          "capacity": "6-7 animals",
+          "ram": "merrie",
+          "ram_notes": "200 lbs, observed full shedder. 50% Cracker + StA/Kat/BBB. Florida heritage locks in hardiness + shedding.",
+          "advancement_criteria": {
+            "famacha": "<2",
+            "fec_epg": "<250",
+            "shedding_pct": ">80%"
+          },
+          "shelter": "standard"
+        },
+        "Pen 1": {
+          "stage": 6,
+          "role": "Near-finished \u2014 best hair ram polishes stock",
+          "size": "medium-small",
+          "location": "SW corner, west side (isolated)",
+          "capacity": "5-6 animals",
+          "ram": "charlie-ram",
+          "ram_notes": "232 lbs, 100% hair (Kat/BHD/ABB/WH). Closest to target phenotype. Only fully-hair ram.",
+          "advancement_criteria": {
+            "famacha": "<2",
+            "fec_epg": "<200",
+            "shedding_pct": ">90%"
+          },
+          "shelter": "solid"
+        },
+        "Pen 2": {
+          "stage": 7,
+          "role": "Elite \u2014 finished product. Most secure pen.",
+          "size": "small",
+          "location": "SW corner, west side (isolated, most secure)",
+          "capacity": "3-4 animals",
+          "ram": "best_ram_lamb_from_pen_1",
+          "ram_notes": "Best ram lamb from Pen 1 (Charlie's sons). Recycled back. This IS the finished product ram.",
+          "advancement_criteria": {
+            "famacha": "1-2 only",
+            "fec_epg": "<150",
+            "shedding_pct": ">95%",
+            "notes": "No deworming. Full shedder. Good muscling. Consistent offspring."
+          },
+          "shelter": "solid, most secure"
+        },
+        "Goose Pen": {
+          "stage": "outside",
+          "role": "Grow-out (ram lambs) + Awassi dairy line (MC08 + 3 Windlestones)",
+          "size": "small-medium",
+          "location": "east side, between Pen 3 and Tree Fort",
+          "capacity": "varies",
+          "ram": "mc08-ram",
+          "ram_notes": "190 lbs, unknown breed, very wooly. Awassi dairy line only. Outside main pipeline.",
+          "shelter": "standard"
+        }
+      }
     },
     "kelsier_sons": {
       "best_candidate": "serendipity-twin-ram",
