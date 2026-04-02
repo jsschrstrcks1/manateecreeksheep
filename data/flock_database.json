@@ -1379,7 +1379,7 @@
         "hair_percentage": 72
       },
       "color_markings": "Black w White",
-      "weight_lbs": 140,
+      "weight_lbs": 175,
       "dob": "2022-02-08",
       "dob_approximate": true,
       "sire_id": "well-done",
@@ -1421,7 +1421,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026. Was in Pen 5 with Eclipse. Escaped to Pen 6 while pregnant. Had triplets (sire: Eclipse). Gave away black ram lamb to girl starting flock. 2 ewe lambs remain. Now lives in Pen 6 permanently. Triplets born 1-6-26 (not 1-6-25). Sire: Eclipse (tag 113). Black ram lamb gifted mid-March 2026. 2 white ewe lambs remain (1 large, 1 small).",
+      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026. Was in Pen 5 with Eclipse. Escaped to Pen 6 while pregnant. Had triplets (sire: Eclipse). Gave away black ram lamb to girl starting flock. 2 ewe lambs remain. Now lives in Pen 6 permanently. Triplets born 1-6-26 (not 1-6-25). Sire: Eclipse (tag 113). Black ram lamb gifted mid-March 2026. 2 white ewe lambs remain (1 large, 1 small). Weight ~175 per owner estimate.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -7218,17 +7218,22 @@
       "tag": "0033",
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Hair",
-        "percentages": {},
-        "coat_type": "hair"
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "St Augustine": 37.5,
+          "Katahdin": 62.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 62.5,
+        "notes": "Sir Loin (75StA/25Kat) daughter. Dam unknown but Katahdin-heavy assumed."
       },
       "color_markings": "",
       "pen": "Pen 1",
       "status": "alive",
-      "sire_id": null,
+      "sire_id": "sir-loin",
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 0033. Hair ewe. Had twins (2 rams, born ~1-1-26). Source: notebook card, pen 1.",
+      "notes": "Tag 0033. Hair ewe. Had twins (2 rams, born ~1-1-26). Source: notebook card, pen 1. Sir Loin daughter. St Augustine x Katahdin.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 5 pen 1"
@@ -7246,7 +7251,9 @@
             "notes": "FAMACHA 1. Covexin yearly."
           }
         ]
-      }
+      },
+      "weight_lbs": 170,
+      "weight_estimated": true
     },
     {
       "id": "tag-0033-twin-ram-1",
@@ -7451,9 +7458,15 @@
       "tag": "114",
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Wool",
-        "percentages": {},
-        "coat_type": "wool"
+        "primary": "Cracker/Suffolk/GCN/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "Suffolk": 25,
+          "Gulf Coast Native": 12.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "wool",
+        "hair_percentage": 12.5
       },
       "color_markings": "Fawn Wool, Orange tag",
       "pen": "Pen 1",
@@ -7461,7 +7474,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 114, orange tag. Fawn wool ewe. Was in Pen 2 but moved to Pen 1 because Rocky (Jerkface, tag 140) was keeping her away from her baby. Had black ram lamb born 3-29-2026. No babies as of 2-26-26 card check. Yearly booster 3-13-26. Source: notebook card (no pen circle \u2014 was Pen 2, now Pen 1).",
+      "notes": "Tag 114, orange tag. Fawn wool ewe. Was in Pen 2 but moved to Pen 1 because Rocky (Jerkface, tag 140) was keeping her away from her baby. Had black ram lamb born 3-29-2026. No babies as of 2-26-26 card check. Yearly booster 3-13-26. Source: notebook card (no pen circle \u2014 was Pen 2, now Pen 1). Full sister of Orange Tag 00110. Same breed mix. Cannot breed to 00110.",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 11"
@@ -7481,7 +7494,9 @@
             "notes": "yearly booster"
           }
         ]
-      }
+      },
+      "weight_lbs": 145,
+      "weight_estimated": true
     },
     {
       "id": "tag-114-black-ram-lamb",
@@ -7515,9 +7530,14 @@
       "tag": "0053",
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Hair",
-        "percentages": {},
-        "coat_type": "hair"
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "St Augustine": 60,
+          "Katahdin": 40
+        },
+        "coat_type": "hair",
+        "hair_percentage": 40,
+        "notes": "2nd or 3rd gen inbred from Sir Loin daughters. Heavy StA/Kat."
       },
       "color_markings": "White Hair ewe",
       "pen": "Pen 2",
@@ -7525,7 +7545,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 0053. White Hair ewe. Name: Nuba (notebook spelling). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2.",
+      "notes": "Tag 0053. White Hair ewe. Name: Nuba (notebook spelling). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. White hair ewe. 2nd or 3rd gen from Sir Loin daughters. StA x Kat line.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 2"
@@ -7552,7 +7572,9 @@
             "notes": "Pen 2 Corid treatment 3-8 through 3-13-26 (5 days)"
           }
         ]
-      }
+      },
+      "weight_lbs": 175,
+      "weight_estimated": true
     },
     {
       "id": "charlie-ram",
@@ -7632,10 +7654,15 @@
       "tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Nori line \u2014 generation UNCLEAR",
-        "percentages": {},
-        "coat_type": "unknown",
-        "notes": "From Nori line. Could be Noris daughter (50BHD/25ABB/25WH), granddaughter (50Kat/25BHD/12.5ABB/12.5WH), or further. Exact generation unknown."
+        "primary": "Katahdin/BHD/ABB/Wiltshire Horn",
+        "percentages": {
+          "Katahdin": 50,
+          "Black Headed Dorper": 25,
+          "American Black Belly": 12.5,
+          "Wiltshire Horn": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 87.5
       },
       "color_markings": "White Belly, multi color",
       "pen": "Pen 3",
@@ -7643,7 +7670,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "No tag (now tagged TBD). Ewe from Charlies Farm. Multi color, white belly. Single baby (ewe, born 12-6-25). Source: notebook card pen 3. Nori line \u2014 one of Noris offspring, daughters, or granddaughters. Exact generation UNCLEAR. From Charlies farm.",
+      "notes": "No tag (now tagged TBD). Ewe from Charlies Farm. Multi color, white belly. Single baby (ewe, born 12-6-25). Source: notebook card pen 3. Nori line \u2014 one of Noris offspring, daughters, or granddaughters. Exact generation UNCLEAR. From Charlies farm. Youngest gen Nori line (mostly white). Same breed as Charlie \u2014 possible siblings. Inbreeding concern if bred to Charlie.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 3"
@@ -7667,7 +7694,9 @@
             "vaccine": "CDT"
           }
         ]
-      }
+      },
+      "weight_lbs": 155,
+      "weight_estimated": true
     },
     {
       "id": "charlies-farm-ewe-baby-p3",
@@ -8167,17 +8196,23 @@
       "tag": "0051",
       "sex": "ewe",
       "breed_composition": {
-        "primary": "[UNCLEAR]",
-        "percentages": {},
-        "coat_type": "unknown"
+        "primary": "Cotswold/Tunis/St Augustine/Katahdin",
+        "percentages": {
+          "Cotswold": 25,
+          "Tunis": 25,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "wool",
+        "hair_percentage": 12.5
       },
       "color_markings": "Fat & Gray",
       "pen": "Pen 4",
       "status": "alive",
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "sir-loin",
+      "dam_id": "fm",
       "dob": null,
-      "notes": "Tag 0051. FM2. Fat and gray. 1 baby ram born 1-31-26. Sire: Kelsier. Eyes good throughout. Source: notebook card pen 4.",
+      "notes": "Tag 0051. FM2. Fat and gray. 1 baby ram born 1-31-26. Sire: Kelsier. Eyes good throughout. Source: notebook card pen 4. FM x Sir Loin. Metallic sheen cream coat, extra wooly.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 9 pen 4"
@@ -8201,7 +8236,9 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "weight_lbs": 185,
+      "weight_estimated": true
     },
     {
       "id": "fm2-ram-lamb",
@@ -8255,10 +8292,16 @@
       "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
-        "primary": "[UNCLEAR]",
-        "percentages": {}
+        "primary": "St Augustine/Katahdin",
+        "percentages": {
+          "St Augustine": 50,
+          "Katahdin": 50
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50,
+        "notes": "Sir Loin offspring. Dam unknown."
       },
-      "notes": "Tag 31. Ewe. Pen 5. No babies. Proven breeder in prior years \u2014 Eclipse failure. Source: notebook card pen 5.",
+      "notes": "Tag 31. Ewe. Pen 5. No babies. Proven breeder in prior years \u2014 Eclipse failure. Source: notebook card pen 5. Sir Loin offspring. Proven breeder.",
       "health": {
         "famacha_history": [
           {
@@ -8273,7 +8316,10 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "sire_id": "sir-loin",
+      "weight_lbs": 170,
+      "weight_estimated": true
     },
     {
       "id": "tag-02-ewe-p5",
@@ -8439,7 +8485,7 @@
         "percentages": {},
         "notes": "Wool like Buck, face like Samson (100% Southdown, big variety). Wide tail \u2014 wider than Samsons or mothers. Samson face was dominant in breeding."
       },
-      "notes": "Tag MC08, yellow. Ram. Fawn wool sheep. Possibly Samsons son or Bucks son. Wide tail (Awassi influence?). Source: notebook card pen 6.",
+      "notes": "Tag MC08, yellow. Ram. Fawn wool sheep. Possibly Samsons son or Bucks son. Wide tail (Awassi influence?). Source: notebook card pen 6. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
       "health": {
         "famacha_history": [
           {
@@ -8454,7 +8500,9 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "weight_lbs": 190,
+      "weight_estimated": true
     },
     {
       "id": "windlestone-2139",
