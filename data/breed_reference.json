@@ -96,10 +96,10 @@
     "notes": "Wool. Miniature Southdown. Very small."
   },
   "Cracker": {
-    "type": "intermediate",
+    "type": "wool",
     "avg_ewe_wt": 110,
     "avg_ram_wt": 225,
-    "notes": "Florida native. SHEDS in warm climate despite not being classified as hair. Parasite resistant. Heritage."
+    "notes": "Florida native heritage. Coat type VARIABLE \u2014 some individuals shed (Merrie), others retain wool (00110). Classify per individual, not breed. Parasite resistant."
   },
   "Tunis": {
     "type": "wool",

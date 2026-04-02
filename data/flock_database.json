@@ -647,9 +647,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 25.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 25.0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 75.0,
+        "coat_prediction": "wool"
       },
       "color_markings": "White w black ears",
       "weight_lbs": 52,
@@ -705,9 +705,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 0,
-        "intermediate_percentage": 100,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "Red",
       "weight_lbs": 200,
@@ -978,9 +978,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 80,
@@ -1583,9 +1583,10 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "hair",
+        "coat_observed": "hair"
       },
       "color_markings": "Brown and Tan",
       "weight_lbs": 200,
@@ -2072,9 +2073,9 @@
         },
         "coat_type": "wool",
         "hair_percentage": 25.0,
-        "intermediate_percentage": 25,
-        "wool_percentage": 50,
-        "coat_prediction": "mixed"
+        "intermediate_percentage": 0,
+        "wool_percentage": 75,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 165.3,
@@ -3221,9 +3222,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 64,
@@ -3289,9 +3290,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 118,
@@ -4957,9 +4958,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 243.2,
@@ -5010,9 +5011,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 249.3,
@@ -5064,9 +5065,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 247.9,
@@ -5118,9 +5119,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 241.4,
@@ -5171,9 +5172,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 50,
-        "coat_prediction": "mixed"
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 181.2,
@@ -5224,9 +5225,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 50,
-        "coat_prediction": "mixed"
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 181.2,
@@ -5277,9 +5278,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 142.0,
@@ -5330,9 +5331,9 @@
         },
         "coat_type": "mixed",
         "hair_percentage": 50.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 50,
+        "coat_prediction": "mixed"
       },
       "color_markings": "",
       "weight_lbs": 142.0,
@@ -5663,9 +5664,9 @@
         },
         "coat_type": "wool",
         "hair_percentage": 0,
-        "intermediate_percentage": 100,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 176,
@@ -7598,9 +7599,10 @@
         "coat_type": "wool",
         "hair_percentage": 25.0,
         "notes": "87.5% wool genetics. Big ram 275-300 lbs, bigger than breed math predicts.",
-        "intermediate_percentage": 50,
-        "wool_percentage": 25,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 75,
+        "coat_prediction": "wool",
+        "coat_observed": "wool"
       },
       "color_markings": "Orange tag",
       "pen": "Pen 1",
@@ -7703,9 +7705,9 @@
         },
         "coat_type": "wool",
         "hair_percentage": 25.0,
-        "intermediate_percentage": 50,
-        "wool_percentage": 25,
-        "coat_prediction": "hair"
+        "intermediate_percentage": 0,
+        "wool_percentage": 75,
+        "coat_prediction": "wool"
       },
       "color_markings": "Fawn Wool, Orange tag",
       "pen": "Pen 4",
