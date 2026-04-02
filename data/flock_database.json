@@ -89,10 +89,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 2",
+      "pen": null,
       "measurements": {
         "girth": 43.25,
         "length": 49.5,
@@ -134,7 +134,7 @@
         "csv_row": 1,
         "notebook_image": []
       },
-      "notes": "Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook.",
+      "notes": "Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -208,16 +208,16 @@
       "mc_tag": null,
       "sex": "ram",
       "breed_composition": {
-        "primary": "Katahdin/Hampshire",
+        "primary": "Hampshire/Suffolk",
         "percentages": {
-          "Katahdin": 50,
-          "Hampshire": 50
+          "Hampshire": 50,
+          "Suffolk": 50
         },
-        "coat_type": "mixed",
-        "hair_percentage": 50
+        "coat_type": "wool",
+        "hair_percentage": 0
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 212.5,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -289,7 +289,7 @@
           "IMG_8634.PNG"
         ]
       },
-      "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook. Pen 4 (monitoring/treatment pen). FAMACHA almost white (4-5) on 2-20-26 and 2-27-26 \u2014 two rounds aggressive treatment (Ivermectin+Fenbendazole+VB+Iron). Recovered to good by 3-9-26. Single ewe baby born 1-10-26. Also has 2025 yearling ram (tag 09?, sire Kelsier). Known weak parasite resistance \u2014 dam genetics appear dominant for parasite susceptibility despite Kelsier sire on offspring. One of familys favorites. Azure is Gigis sister (confirmed from notebook: Azures card says Gilris/Gigis Sister). Source: notebook card pen 4.",
+      "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook. Pen 4 (monitoring/treatment pen). FAMACHA almost white (4-5) on 2-20-26 and 2-27-26 \u2014 two rounds aggressive treatment (Ivermectin+Fenbendazole+VB+Iron). Recovered to good by 3-9-26. Single ewe baby born 1-10-26. Also has 2025 yearling ram (tag 09?, sire Kelsier). Known weak parasite resistance \u2014 dam genetics appear dominant for parasite susceptibility despite Kelsier sire on offspring. One of familys favorites. Azure is Gigis sister (confirmed from notebook: Azures card says Gilris/Gigis Sister). Source: notebook card pen 4. Full sister of Azure. Both 50% Hampshire / 50% Suffolk. Large frame ~212 lbs.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -412,7 +412,7 @@
         "hair_percentage": 0
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 304.0,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -443,7 +443,8 @@
       },
       "notes": "Rocky's sire per Rocky breeding page. 88%Awassi/12%East Friesian. Called 'Awassi Ram Teaser'. Off-farm.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "dorper-ewe-198",
@@ -461,7 +462,7 @@
         "hair_percentage": 100
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 128.0,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -492,7 +493,8 @@
       },
       "notes": "Rocky's dam per Rocky breeding page. 100% black face dorper. Off-farm.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "samson",
@@ -568,10 +570,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -597,7 +599,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Ram weight 165lbs, ewe weight prediction 125lbs (from multiple breeding pages). Given iron treatment. Pen 3 includes: Baby, Baby momma, Zara, Half tail, New big girl 2.",
+      "notes": "Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Ram weight 165lbs, ewe weight prediction 125lbs (from multiple breeding pages). Given iron treatment. Pen 3 includes: Baby, Baby momma, Zara, Half tail, New big girl 2. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -628,10 +630,10 @@
       "dob_approximate": true,
       "sire_id": "smore",
       "dam_id": "serendipity",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 1",
+      "pen": null,
       "measurements": {
         "girth": 26,
         "length": 23,
@@ -658,7 +660,7 @@
           "IMG_8630.PNG"
         ]
       },
-      "notes": "Living Kaladin tag 014. DOB 5/11/2023 per extension service. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Birth weight 6lbs (single). Weaned 7/18/2023 at 52lbs (68 days). ADG 0.68. Adjusted WW 100 (ratio 137 \u2014 HIGHEST in 2023 class). Extension service lists sex as ewe (code 2) \u2014 likely data entry error, all other sources say ram. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K \u2014 different animal. With Merrie, Gertrude Moon (Abg), Fm in Pen 1.",
+      "notes": "Living Kaladin tag 014. DOB 5/11/2023 per extension service. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Birth weight 6lbs (single). Weaned 7/18/2023 at 52lbs (68 days). ADG 0.68. Adjusted WW 100 (ratio 137 \u2014 HIGHEST in 2023 class). Extension service lists sex as ewe (code 2) \u2014 likely data entry error, all other sources say ram. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K \u2014 different animal. With Merrie, Gertrude Moon (Abg), Fm in Pen 1. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -842,10 +844,10 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "nori",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -866,7 +868,7 @@
           "IMG_8639.PNG"
         ]
       },
-      "notes": "Ram in pen 5 currently. Tag 54. Also was tag 22. Sir Loin son (confirmed by owner). Nori's son. Notebook lists associated tags: 47, Red ewe Lamb in 4, Little daisy (41 or 42), Tag 31, 2222, Elsie.",
+      "notes": "Ram in pen 5 currently. Tag 54. Also was tag 22. Sir Loin son (confirmed by owner). Nori's son. Notebook lists associated tags: 47, Red ewe Lamb in 4, Little daisy (41 or 42), Tag 31, 2222, Elsie. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -887,8 +889,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -917,7 +919,7 @@
           "IMG_8631.PNG"
         ]
       },
-      "notes": "Photos from March 18, 2024. Also called Mc11 or tag 12. White lamb with yellow ear tag in photos. Weight calculator: 36.3lbs.",
+      "notes": "Photos from March 18, 2024. Also called Mc11 or tag 12. White lamb with yellow ear tag in photos. Weight calculator: 36.3lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -996,13 +998,13 @@
         "hair_percentage": 100
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 137.5,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -1029,9 +1031,10 @@
           "IMG_8625.PNG"
         ]
       },
-      "notes": "New ABB ram from measurement list.",
+      "notes": "New ABB ram from measurement list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "charlies-lamb-0017",
@@ -1047,8 +1050,8 @@
       "dob_approximate": true,
       "sire_id": "charlies-ram",
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -1075,7 +1078,7 @@
           "IMG_8625.PNG"
         ]
       },
-      "notes": "Charlie's ram's lamb. Tag 0017.",
+      "notes": "Charlie's ram's lamb. Tag 0017. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -1148,15 +1151,15 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 270.8,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Chicken Coop",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1175,9 +1178,10 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).",
+      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "dodge",
@@ -1197,7 +1201,7 @@
         "hair_percentage": 27
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 277.3,
       "dob": null,
       "dob_approximate": true,
       "sire_id": "sir-loin",
@@ -1228,7 +1232,8 @@
       },
       "notes": "Little Daisy's sire. Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB). Inbred: Sir Loin is Broken Tail's sire. Status unknown \u2014 from Little Daisy breeding page pedigree.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "big-free-male",
@@ -1244,8 +1249,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -1272,7 +1277,7 @@
           "IMG_8623.PNG"
         ]
       },
-      "notes": "Large free-roaming male from measurement list.",
+      "notes": "Large free-roaming male from measurement list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -1289,16 +1294,16 @@
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Suffolk Cross",
+        "primary": "Hampshire/Suffolk",
         "percentages": {
-          "Suffolk": 50,
-          "Cracker": 50
+          "Hampshire": 50,
+          "Suffolk": 50
         },
         "coat_type": "wool",
-        "hair_percentage": 6
+        "hair_percentage": 0
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 212.5,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -1352,7 +1357,7 @@
           "IMG_8630.PNG"
         ]
       },
-      "notes": "Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 / also in Pen 2 at different time. NOTE: 'Amber' in weight calculator is Skitters (Karakul), not Azure. Tag 20. Gigis Sister (notebook spelling: Gilris Sister/Azurc). Single baby (Baby Azure, ewe, born 1-10-26). In Pen 1. Source: notebook card.",
+      "notes": "Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 / also in Pen 2 at different time. NOTE: 'Amber' in weight calculator is Skitters (Karakul), not Azure. Tag 20. Gigis Sister (notebook spelling: Gilris Sister/Azurc). Single baby (Baby Azure, ewe, born 1-10-26). In Pen 1. Source: notebook card. Full sister of Gigi (GG). Both 50% Hampshire / 50% Suffolk. Large frame ~212 lbs.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -1600,10 +1605,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -1631,7 +1636,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Tag 027 (from Heather Oaks Farm). 027 and 27 are different sheep. Eyes good at tag day. In Pen 3. On weak resistance list.",
+      "notes": "Tag 027 (from Heather Oaks Farm). 027 and 27 are different sheep. Eyes good at tag day. In Pen 3. On weak resistance list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -1649,10 +1654,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -1679,7 +1684,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Tagged 28. Eyes good at tag day. In Pen 3.",
+      "notes": "Tagged 28. Eyes good at tag day. In Pen 3. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -1801,13 +1806,13 @@
         "hair_percentage": 19
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 255.3,
       "dob": null,
       "dob_approximate": true,
       "sire_id": "samson",
       "dam_id": "serendipity",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -1828,9 +1833,10 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Serendipity's 2024 ram lamb by Samson (100% Hampshire). Breed: 50%Hampshire/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. From Serendipity breeding page 2024 section.",
+      "notes": "Serendipity's 2024 ram lamb by Samson (100% Hampshire). Breed: 50%Hampshire/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. From Serendipity breeding page 2024 section. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "serendipitys-baby-036",
@@ -1846,8 +1852,8 @@
       "dob_approximate": true,
       "sire_id": "kelsier",
       "dam_id": "serendipity",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -1870,7 +1876,7 @@
           "IMG_8632.PNG"
         ]
       },
-      "notes": "036, Mc12. Serendipity's baby ewe. Sire: Kelsier (pen 4 ram). Photo from March 18, 2024 shows white lamb with yellow MC12 ear tag.",
+      "notes": "036, Mc12. Serendipity's baby ewe. Sire: Kelsier (pen 4 ram). Photo from March 18, 2024 shows white lamb with yellow MC12 ear tag. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -1948,8 +1954,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": "little-daisy",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -1972,7 +1978,7 @@
           "IMG_8627.PNG"
         ]
       },
-      "notes": "Mc01. Called 'baby's baby' in notebook. Little Daisy #35's offspring.",
+      "notes": "Mc01. Called 'baby's baby' in notebook. Little Daisy #35's offspring. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -1995,15 +2001,15 @@
         "hair_percentage": 25
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 165.3,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2025,9 +2031,10 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "In pen 3 (Sam group). On weak resistance list. Google Sheet Pen 2 shows her as Suffolk Cross ewe offspring calculation parent.",
+      "notes": "In pen 3 (Sam group). On weak resistance list. Google Sheet Pen 2 shows her as Suffolk Cross ewe offspring calculation parent. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "baby-momma",
@@ -2043,10 +2050,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2067,7 +2074,7 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "In pen 3 (Sam group).",
+      "notes": "In pen 3 (Sam group). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -2153,10 +2160,10 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "hersheys",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2185,7 +2192,7 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Born as twin. 25% inbreeding (Sir Loin is both sire and maternal grandsire). Grandparents: Auction Sheep 1 & 2 (via Chip), Razzle & Frazzle (via Sugar). Mother of Broken Tail, Elsie (by Well Done, DOB 2/8/2022, ADG 0.56), HT ext lamb (by S'More), Merrie (by S'More), Daisy, and 2024 lamb (by Samson, born 2/12/2024, 10lb birth wt). Ewe weight prediction 140lbs (breeding page). In pen 3 (Sam group) per notebook.",
+      "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Born as twin. 25% inbreeding (Sir Loin is both sire and maternal grandsire). Grandparents: Auction Sheep 1 & 2 (via Chip), Razzle & Frazzle (via Sugar). Mother of Broken Tail, Elsie (by Well Done, DOB 2/8/2022, ADG 0.56), HT ext lamb (by S'More), Merrie (by S'More), Daisy, and 2024 lamb (by Samson, born 2/12/2024, 10lb birth wt). Ewe weight prediction 140lbs (breeding page). In pen 3 (Sam group) per notebook. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -2208,7 +2215,7 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 183.0,
       "dob": "2024-02-12",
       "dob_approximate": true,
       "sire_id": "samson",
@@ -2237,7 +2244,8 @@
       },
       "notes": "Samson (100%H) x Half Tail (12.5BBB/31.25K/56.25SA). Born 2/12/2024. Bred 8/31/2023. Birth weight 10lbs. 50%Hampshire/28.125%SA/15.625%K/6.25%BBB. Sex unknown. Per Half Tail breeding page.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "broken-tail",
@@ -2340,10 +2348,10 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "haylee-lawson",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2367,7 +2375,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: Tag 9/retagged 33, 25%Dorper/37.5%K/37.5%SA, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). 2023 offspring: ram lamb (ID 17) by S'More born 2/22/2023 (8lb birth wt, single, weaned 84lbs at 90 days \u2014 2nd best male lamb). Also mother of Fox Tail (tag 17, by S'More, died in Helene). In pen 5 per notebook.",
+      "notes": "Flock spreadsheet: Tag 9/retagged 33, 25%Dorper/37.5%K/37.5%SA, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). 2023 offspring: ram lamb (ID 17) by S'More born 2/22/2023 (8lb birth wt, single, weaned 84lbs at 90 days \u2014 2nd best male lamb). Also mother of Fox Tail (tag 17, by S'More, died in Helene). In pen 5 per notebook. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -2396,10 +2404,10 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "two-pence",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2422,7 +2430,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 56%K/44%SA, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOED (by Sir Loin). Tag 32 (switched with Bsoed). Breeding page: Pen 4 (now Pen 5 per notebook). Ram weight projection 241.6lbs, ewe weight projection 144.4lbs. 2023 bred to Merrie (tag 016, ram). 2025: 2 ewe lambs born 1-25-25 by Awassi\u00d7Kat ram. CORRECTED: Pippen and Merrie-BS2 are BSOED's offspring, not BSOE's, per BSOED breeding page.",
+      "notes": "Flock spreadsheet: 56%K/44%SA, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOED (by Sir Loin). Tag 32 (switched with Bsoed). Breeding page: Pen 4 (now Pen 5 per notebook). Ram weight projection 241.6lbs, ewe weight projection 144.4lbs. 2023 bred to Merrie (tag 016, ram). 2025: 2 ewe lambs born 1-25-25 by Awassi\u00d7Kat ram. CORRECTED: Pippen and Merrie-BS2 are BSOED's offspring, not BSOE's, per BSOED breeding page. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -2453,10 +2461,10 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "bsoe",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2481,7 +2489,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: ~40.5%K/~59.5%SA, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). Born as triplet per breeding page. Mother of Pippen (sold) and Merrie-BS2 (by S'More, born 12/12/2022) per breeding page. 2023 offspring: ram lamb (ID 1) by S'More born 2/22/2023. 2025: 2 lambs (ewe + ram) born 1-25-25 by Buck. In pen 5 per notebook.",
+      "notes": "Flock spreadsheet: ~40.5%K/~59.5%SA, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). Born as triplet per breeding page. Mother of Pippen (sold) and Merrie-BS2 (by S'More, born 12/12/2022) per breeding page. 2023 offspring: ram lamb (ID 1) by S'More born 2/22/2023. 2025: 2 lambs (ewe + ram) born 1-25-25 by Buck. In pen 5 per notebook. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -2501,7 +2509,7 @@
         "hair_percentage": 0
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 275.0,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -2532,7 +2540,8 @@
       },
       "notes": "FM's sire per breeding page. Tunis Red ram. Off-farm.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "fm-dam",
@@ -2550,7 +2559,7 @@
         "hair_percentage": 0
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 200.0,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -2581,7 +2590,8 @@
       },
       "notes": "FM's dam per breeding page. Cotswold ewe. Off-farm.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "fm",
@@ -2600,7 +2610,7 @@
         "hair_percentage": 0
       },
       "color_markings": "Tunis Red",
-      "weight_lbs": 200,
+      "weight_lbs": 212.5,
       "dob": "2021-02-14",
       "dob_approximate": true,
       "sire_id": "fm-sire",
@@ -2680,10 +2690,10 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "fm",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": null,
       "measurements": {
         "girth": 29.5,
         "length": 23,
@@ -2712,7 +2722,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "FM1 = Sir Loin \u00d7 FM per FM breeding page. Tag 009. DOB 4/1/2023. 25%Cotswold/12.5%K/37.5%SA/25%Tunis. Same as extension service lamb ID 9 (sex may have been misrecorded as ram in extension service). In pen 6 (no ram). On weak resistance list. On 'Ewes to Upgrade' list. Half wool. Weight calculator: 66.7lbs.",
+      "notes": "FM1 = Sir Loin \u00d7 FM per FM breeding page. Tag 009. DOB 4/1/2023. 25%Cotswold/12.5%K/37.5%SA/25%Tunis. Same as extension service lamb ID 9 (sex may have been misrecorded as ram in extension service). In pen 6 (no ram). On weak resistance list. On 'Ewes to Upgrade' list. Half wool. Weight calculator: 66.7lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -2735,7 +2745,7 @@
         "hair_percentage": 62
       },
       "color_markings": "White with beard",
-      "weight_lbs": 42,
+      "weight_lbs": 251.2,
       "dob": null,
       "dob_approximate": true,
       "sire_id": "sir-loin",
@@ -2784,7 +2794,8 @@
       },
       "notes": "25%ABB/12.5%K/37.5%SA/25%WH. Sir Loin (25K/75SA) x Nori (50ABB/50WH). RAM (corrected from ewe). Nori's 2022 offspring. Weight calculator: 41.9lbs. Died after Hurricane Idalia (Aug/Sep 2023). Was in Pen 1 before death. Also listed on FM breeding page as potential offspring. Tag 113 confirmed. Pen 5 ram. White with beard. SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Tag 31, Tag 02, Fawn Wool Ewe, Little Daisy, OAV 2222 all unproven by him. The other ewes (except Little Daisy) are proven breeders year after year. Little Daisy has been with him since 10 weeks old \u2014 nothing. CULL CANDIDATE for subfertility. Elsie escaped to Pen 6 while pregnant by Eclipse, had triplets there.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "gertrude-moon",
@@ -2881,7 +2892,7 @@
         "hair_percentage": 100
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 137.5,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -2912,7 +2923,8 @@
       },
       "notes": "Gertrude Moon's sire per breeding page. 'ABB Ram.' Off-farm.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "gertrude-moon-dam",
@@ -2930,7 +2942,7 @@
         "hair_percentage": 100
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 115.0,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -2961,7 +2973,8 @@
       },
       "notes": "Gertrude Moon's dam per breeding page. 'ABB Ewe.' Off-farm.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "gm-twin1-2024",
@@ -2981,7 +2994,7 @@
         "hair_percentage": 62
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 146.9,
       "dob": "2024-01-02",
       "dob_approximate": true,
       "sire_id": "sir-loin",
@@ -3010,7 +3023,8 @@
       },
       "notes": "Born 1-2-24. Sir Loin x Gertrude Moon. Not kept per owner.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "gm-twin2-2024",
@@ -3030,7 +3044,7 @@
         "hair_percentage": 62
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 146.9,
       "dob": "2024-01-02",
       "dob_approximate": true,
       "sire_id": "sir-loin",
@@ -3059,7 +3073,8 @@
       },
       "notes": "Born 1-2-24. Sir Loin x Gertrude Moon. Not kept per owner.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "circle-tail",
@@ -3086,10 +3101,10 @@
       "dob_approximate": true,
       "sire_id": "smore",
       "dam_id": "brown-knee",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": null,
       "measurements": {
         "girth": 27.5,
         "length": 25.5,
@@ -3123,7 +3138,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 50% Cracker / 21.875% Katahdin / 28.125% St Augustine. DOB 1/22/2023. S'More (100Cr) x Brown Knee (43.75K/56.25SA). In pen 6 (no ram). On weak resistance list. FAMACHA 5. Weight calculator: 64.3lbs.",
+      "notes": "Flock spreadsheet: 50% Cracker / 21.875% Katahdin / 28.125% St Augustine. DOB 1/22/2023. S'More (100Cr) x Brown Knee (43.75K/56.25SA). In pen 6 (no ram). On weak resistance list. FAMACHA 5. Weight calculator: 64.3lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -3198,10 +3213,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -3222,7 +3237,7 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "In pen 6 (no ram).",
+      "notes": "In pen 6 (no ram). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16"
     },
@@ -3240,10 +3255,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 2",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -3264,7 +3279,7 @@
           "IMG_8630.PNG"
         ]
       },
-      "notes": "In pen 2 (sirloin group).",
+      "notes": "In pen 2 (sirloin group). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16"
     },
@@ -3291,10 +3306,10 @@
       "dob_approximate": true,
       "sire_id": "lara-sire",
       "dam_id": "lara-dam",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 2",
+      "pen": null,
       "measurements": {
         "girth": 36.75,
         "length": 35.5,
@@ -3351,7 +3366,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Tag 23. 100% Black Headed Dorper per breeding page (previously listed as generic Dorper). DOB 2018. Sire: dorper ram, Dam: dorper ewe (both off-farm). Received from Charles Elingham. Multiple: Y. Ewe weight 159.82lbs, ram weight projection 300lbs. 2023: bred to Sir Loin 7-4-23, due Nov 23. Born 12-30-23: Oliver (3.75lbs) and Spicy (5.8lbs) \u2014 twins by Sir Loin. FAMACHA 3 on 9-6-23 (Ivermectin, post-Idalia stress), FAMACHA 2 on 9-18-23 (no treatment). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' and weak resistance list.",
+      "notes": "Tag 23. 100% Black Headed Dorper per breeding page (previously listed as generic Dorper). DOB 2018. Sire: dorper ram, Dam: dorper ewe (both off-farm). Received from Charles Elingham. Multiple: Y. Ewe weight 159.82lbs, ram weight projection 300lbs. 2023: bred to Sir Loin 7-4-23, due Nov 23. Born 12-30-23: Oliver (3.75lbs) and Spicy (5.8lbs) \u2014 twins by Sir Loin. FAMACHA 3 on 9-6-23 (Ivermectin, post-Idalia stress), FAMACHA 2 on 9-18-23 (no treatment). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' and weak resistance list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -3471,7 +3486,7 @@
         "hair_percentage": 62
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 153.4,
       "dob": "2023-12-30",
       "dob_approximate": true,
       "sire_id": "sir-loin",
@@ -3500,7 +3515,8 @@
       },
       "notes": "Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Spicy. Birth weight 3.75lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "spicy",
@@ -3520,7 +3536,7 @@
         "hair_percentage": 62
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 153.4,
       "dob": "2023-12-30",
       "dob_approximate": true,
       "sire_id": "sir-loin",
@@ -3549,7 +3565,8 @@
       },
       "notes": "Born 12-30-23. Sir Loin (25K/75SA) x Lara (100%BHD). Twin with Oliver. Birth weight 5.8lbs. 50%BHD/37.5%SA/12.5%K. From Lara breeding page 2023 section.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "pebbles",
@@ -3565,10 +3582,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 2",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -3596,7 +3613,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "In pen 2 (sirloin group). FAMACHA 3, treated. Entry struck through in treatment list.",
+      "notes": "In pen 2 (sirloin group). FAMACHA 3, treated. Entry struck through in treatment list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -3716,8 +3733,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -3745,7 +3762,7 @@
           "IMG_8624.PNG"
         ]
       },
-      "notes": "Weight calculator: 65.6lbs (girth 27, length 27). Tag 27 \u2014 confirmed distinct from Bella (tag 027, Heather Oaks Farm).",
+      "notes": "Weight calculator: 65.6lbs (girth 27, length 27). Tag 27 \u2014 confirmed distinct from Bella (tag 027, Heather Oaks Farm). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -3773,8 +3790,8 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "annas-big-one",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -3802,7 +3819,7 @@
           "IMG_8624.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: Tag 8/retagged 008, 43.75% Katahdin / 56.25% St Augustine, White. DOB 1/24/2023. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Weight calculator: 60.1lbs.",
+      "notes": "Flock spreadsheet: Tag 8/retagged 008, 43.75% Katahdin / 56.25% St Augustine, White. DOB 1/24/2023. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Weight calculator: 60.1lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -3820,8 +3837,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -3844,7 +3861,7 @@
           "IMG_8624.PNG"
         ]
       },
-      "notes": "Tag 010. From measurement list. No measurements recorded yet.",
+      "notes": "Tag 010. From measurement list. No measurements recorded yet. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16"
     },
@@ -3862,8 +3879,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -3890,7 +3907,7 @@
           "IMG_8622.PNG"
         ]
       },
-      "notes": "Tag 001. From measurement list.",
+      "notes": "Tag 001. From measurement list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -3908,8 +3925,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -3936,7 +3953,7 @@
           "IMG_8622.PNG"
         ]
       },
-      "notes": "Tag 004. From measurement list.",
+      "notes": "Tag 004. From measurement list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -3954,8 +3971,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": "half-tail",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -3982,7 +3999,7 @@
           "IMG_8622.PNG"
         ]
       },
-      "notes": "Tag 007. Half Tail's baby. From measurement list.",
+      "notes": "Tag 007. Half Tail's baby. From measurement list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -4000,8 +4017,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -4029,7 +4046,7 @@
           "IMG_8623.PNG"
         ]
       },
-      "notes": "Tag 002. Called 'Sb1 (crown)' in measurements. Weight calculator: 68.0lbs.",
+      "notes": "Tag 002. Called 'Sb1 (crown)' in measurements. Weight calculator: 68.0lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -4047,8 +4064,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {
@@ -4076,7 +4093,7 @@
           "IMG_8623.PNG"
         ]
       },
-      "notes": "Tag 003. Called 'Sb2 (all black)' in measurements. Weight calculator: 65.6lbs.",
+      "notes": "Tag 003. Called 'Sb2 (all black)' in measurements. Weight calculator: 65.6lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -4094,10 +4111,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -4118,7 +4135,7 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "In pen 3 (Sam group).",
+      "notes": "In pen 3 (Sam group). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16"
     },
@@ -4140,7 +4157,7 @@
         "hair_percentage": 34
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 172.3,
       "dob": null,
       "dob_approximate": true,
       "sire_id": "sir-loin",
@@ -4173,7 +4190,8 @@
       },
       "notes": "Little Daisy's dam. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of Little Daisy (by Dodge), and likely Daisy's Daughter 1 and 2. Status unknown \u2014 from Little Daisy breeding page pedigree.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "daisys-daughter-1",
@@ -4193,7 +4211,7 @@
         "hair_percentage": 30
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 173.9,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -4222,7 +4240,8 @@
       },
       "notes": "From Google Sheet Pen 6 breed calculations. Different from Daisy's Daughter 2. Mother is Daisy (Sir Loin x Half Tail).",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "daisys-daughter-2",
@@ -4243,15 +4262,15 @@
         "hair_percentage": 30
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 173.9,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": "daisy",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -4270,9 +4289,10 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Google Sheet Pen 5 and 6. In NoriSon's group. Different from Daisy's Daughter 1. Mother is Daisy (Sir Loin x Half Tail).",
+      "notes": "From Google Sheet Pen 5 and 6. In NoriSon's group. Different from Daisy's Daughter 1. Mother is Daisy (Sir Loin x Half Tail). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "oav-2222",
@@ -4358,7 +4378,7 @@
         "hair_percentage": 75
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 155.0,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -4387,7 +4407,8 @@
       },
       "notes": "From Google Sheet Pen 5 breed data.",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "tag-31-ewe",
@@ -4408,13 +4429,13 @@
         "hair_percentage": 31
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 169.9,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -4435,9 +4456,10 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Google Sheet Pen 2. 69.25% wool. Different from Bsoed tag 31 in pen 5. Lambed 2026-02-13.",
+      "notes": "From Google Sheet Pen 2. 69.25% wool. Different from Bsoed tag 31 in pen 5. Lambed 2026-02-13. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "tag-33",
@@ -4457,8 +4479,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -4479,7 +4501,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Google Sheet Pen 1. 3/4 hair. Has twins.",
+      "notes": "From Google Sheet Pen 1. 3/4 hair. Has twins. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16"
     },
@@ -4500,7 +4522,7 @@
         "hair_percentage": 30
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 177.6,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -4529,7 +4551,8 @@
       },
       "notes": "From Google Sheet Pen 3. Broken Tail x Buck. Had Awassi(22%)/EF(3%) overlay in Google Sheet but removing as those were Sir Loin era calculations. Status unknown - Google Sheet only, may be same as Little Daisy (tag 35).",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "bambi",
@@ -4553,10 +4576,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": null,
       "measurements": {
         "girth": 29,
         "length": 29,
@@ -4583,7 +4606,7 @@
           "IMG_8630.PNG"
         ]
       },
-      "notes": "Weight calculator: tag 35, 81.3lbs (girth 29, length 29). Google Sheet Pen 3 shows 3/4 hair. Broken Tail x Buck. Also appears in pen 2 sirloin notebook list.",
+      "notes": "Weight calculator: tag 35, 81.3lbs (girth 29, length 29). Google Sheet Pen 3 shows 3/4 hair. Broken Tail x Buck. Also appears in pen 2 sirloin notebook list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -4601,8 +4624,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": "little-daisy",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -4627,7 +4650,7 @@
           "IMG_8635.PNG"
         ]
       },
-      "notes": "Little Daisy's daughter. Needed parasite treatment April 13, 2025. Eyes better than Daisy but still scored ~2.",
+      "notes": "Little Daisy's daughter. Needed parasite treatment April 13, 2025. Eyes better than Daisy but still scored ~2. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -4645,10 +4668,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 2",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -4669,7 +4692,7 @@
           "IMG_8630.PNG"
         ]
       },
-      "notes": "Unnamed ewe in pen 2 (sirloin group). Not the same as the deceased 'Unnamed' on the weak resistance list.",
+      "notes": "Unnamed ewe in pen 2 (sirloin group). Not the same as the deceased 'Unnamed' on the weak resistance list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16"
     },
@@ -4695,8 +4718,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -4728,7 +4751,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Florida scrapie tag Fl51870-0502. 50%Hampshire/50%Suffolk. Ewe weight 285.61lbs, ram weight prediction 385lbs. Bred to Sam (8-21-23) and Sir Loin (8-30-23, due February). Docile, not flighty. FAMACHA 4\u21922 Sept 2023. Breeding page name shows '(Pen 1-2)' and '(Pen 3)' notations. [UNCLEAR] which flock name this corresponds to, if any.",
+      "notes": "Florida scrapie tag Fl51870-0502. 50%Hampshire/50%Suffolk. Ewe weight 285.61lbs, ram weight prediction 385lbs. Bred to Sam (8-21-23) and Sir Loin (8-30-23, due February). Docile, not flighty. FAMACHA 4\u21922 Sept 2023. Breeding page name shows '(Pen 1-2)' and '(Pen 3)' notations. [UNCLEAR] which flock name this corresponds to, if any. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16"
     },
@@ -4753,13 +4776,13 @@
         "hair_percentage": 12
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 179.4,
       "dob": "2023-04-01",
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "fm",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -4780,9 +4803,10 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "FM \u00d7 Sir Loin lamb = FM1 (tag 009). Born 4/1/2023. Birth weight 12lbs (single \u2014 heaviest birth weight in class!). Weaned 5/23/2023 at 67lbs (52 days). ADG 1.06. Adj WW 80 (ratio 110). 25%Cotswold/12.5%K/37.5%SA/25%Tunis. Now in Pen 6 as FM1.",
+      "notes": "FM \u00d7 Sir Loin lamb = FM1 (tag 009). Born 4/1/2023. Birth weight 12lbs (single \u2014 heaviest birth weight in class!). Weaned 5/23/2023 at 67lbs (52 days). ADG 1.06. Adj WW 80 (ratio 110). 25%Cotswold/12.5%K/37.5%SA/25%Tunis. Now in Pen 6 as FM1. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "trouble-lamb-2023",
@@ -4803,7 +4827,7 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 243.2,
       "dob": "2023-02-22",
       "dob_approximate": true,
       "sire_id": "smore",
@@ -4832,7 +4856,8 @@
       },
       "notes": "Trouble \u00d7 S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (single). Weaned 5/23/2023 at 84lbs (90 days). ADG 0.84 \u2014 excellent growth. Adj WW 84 (ratio 104). 50%Cr/18.75%K/18.75%SA/12.5%D.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "bsoed-lamb-2023",
@@ -4852,7 +4877,7 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 249.3,
       "dob": "2023-02-22",
       "dob_approximate": true,
       "sire_id": "smore",
@@ -4881,7 +4906,8 @@
       },
       "notes": "Bsoed \u00d7 S'More ram lamb. Born 2/22/2023. Birth weight 8lbs (type 4). Weaned 5/23/2023 at 64lbs (90 days). ADG 0.62. Adj WW 77 (ratio 96). 50%Cr/29.75%SA/20.25%K.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "bt-lamb-2023",
@@ -4902,7 +4928,7 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 247.9,
       "dob": "2022-12-12",
       "dob_approximate": true,
       "sire_id": "smore",
@@ -4931,7 +4957,8 @@
       },
       "notes": "Broken Tail \u00d7 S'More ram lamb (BT1 or BT2). Born 12/12/2022 (counted in 2023 class). Birth weight 9lbs (type 4). Weaned 5/23/2023 at 118lbs (162 days) \u2014 heaviest weaning weight in class! ADG 0.67. Adj WW 108 (ratio 134). 50%Cr/32.8%SA/14%K/3.1%BBB.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "ht-ext-lamb-2023",
@@ -4952,7 +4979,7 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 241.4,
       "dob": "2023-02-04",
       "dob_approximate": true,
       "sire_id": "smore",
@@ -4981,7 +5008,8 @@
       },
       "notes": "Half Tail \u00d7 S'More ram lamb. Born 2/4/2023 (single birth). May be HT1 or Merrie (Merrie DOB from spreadsheet is 1/14/2023 vs 2/4/2023 here \u2014 3 week discrepancy). Weaned 5/23/2023 at 69lbs (108 days). ADG 0.57. Adj WW 76 (ratio 94). 50%Cr/28.125%SA/15.625%K/6.25%BBB.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "shaggy-1",
@@ -5001,7 +5029,7 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 181.2,
       "dob": "2023-01-29",
       "dob_approximate": true,
       "sire_id": "smore",
@@ -5030,7 +5058,8 @@
       },
       "notes": "Shaggy \u00d7 S'More ram lamb (Shaggy1). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 68lbs (114 days). ADG 0.54. Adj WW 86 (ratio 106). 50%Cr/25%Babydoll/25%Jacob.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "shaggy-2",
@@ -5050,7 +5079,7 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 181.2,
       "dob": "2023-01-29",
       "dob_approximate": true,
       "sire_id": "smore",
@@ -5079,7 +5108,8 @@
       },
       "notes": "Shaggy \u00d7 S'More ram lamb (Shaggy2). Born 1/29/2023 (type 4). Birth weight 6lbs. Weaned 5/23/2023 at 59lbs (114 days). ADG 0.46. Adj WW 74 (ratio 92). 50%Cr/25%Babydoll/25%Jacob.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "bk1",
@@ -5099,7 +5129,7 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 142.0,
       "dob": "2023-01-24",
       "dob_approximate": true,
       "sire_id": "smore",
@@ -5128,7 +5158,8 @@
       },
       "notes": "Foxtail 1 (formerly BK1). Brown Knee \u00d7 S'More ewe lamb. Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 99lbs (119 days) \u2014 BEST ewe lamb! ADG 0.76. Adj WW 109 (ratio 135). 50%Cr/28.125%SA/21.875%K.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "bk2",
@@ -5148,7 +5179,7 @@
         "hair_percentage": 50
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 142.0,
       "dob": "2023-01-24",
       "dob_approximate": true,
       "sire_id": "smore",
@@ -5177,7 +5208,8 @@
       },
       "notes": "Foxtail 2 (formerly BK2). Brown Knee \u00d7 S'More ewe lamb. Born 1/24/2023 (type 4). Birth weight 8lbs. Weaned 5/23/2023 at 80lbs (119 days). ADG 0.61. Adj WW 88 (ratio 109). 50%Cr/28.125%SA/21.875%K.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "ext-lamb-35",
@@ -6377,7 +6409,7 @@
         "hair_percentage": 87
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 163.2,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -6408,7 +6440,8 @@
       },
       "notes": "From Sheep Breeding DB. Ewe culled as daughter of cryptorchid (Almond Joy). Mother of BSOE (by Sir Loin). Breed estimated from BSOE's composition: if BSOE=56K/44SA and Sir Loin=25K/75SA, Two Pence ~87K/13SA.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "haylee-lawson",
@@ -6522,8 +6555,8 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -6546,7 +6579,7 @@
           "IMG_8628.PNG"
         ]
       },
-      "notes": "On weak resistance list. Status alive but weak.",
+      "notes": "On weak resistance list. Status alive but weak. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16"
     },
@@ -6721,7 +6754,7 @@
         "hair_percentage": 27
       },
       "color_markings": "",
-      "weight_lbs": 12.3,
+      "weight_lbs": 282.2,
       "dob": "2022-02-23",
       "dob_approximate": true,
       "sire_id": "sir-loin",
@@ -6750,7 +6783,8 @@
       },
       "notes": "From CSV & Breeding DB. ~72.7% St Augustine, ~27.3% Katahdin (calculated: Sir Loin x Banana Split). Status unknown - not in recent notebook.",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "annas-big-one",
@@ -6777,10 +6811,10 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "anna",
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -6803,7 +6837,7 @@
         "csv_row": 10,
         "notebook_image": []
       },
-      "notes": "Flock spreadsheet: 62.5% Katahdin / 37.5% St Augustine, 200lbs. DOB 12/1/2014. Sir Loin x Anna. Called 'Banana' in notebook. In Pen 4 (Samson group) per notebook. Mother of Brown Knee (by Sir Loin), Little Song (by Sir Loin), and AB1 (by Sir Loin).",
+      "notes": "Flock spreadsheet: 62.5% Katahdin / 37.5% St Augustine, 200lbs. DOB 12/1/2014. Sir Loin x Anna. Called 'Banana' in notebook. In Pen 4 (Samson group) per notebook. Mother of Brown Knee (by Sir Loin), Little Song (by Sir Loin), and AB1 (by Sir Loin). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -6824,7 +6858,7 @@
         "hair_percentage": 75
       },
       "color_markings": "Black w White Markings",
-      "weight_lbs": 11.3,
+      "weight_lbs": 235.0,
       "dob": "2022-02-08",
       "dob_approximate": true,
       "sire_id": "well-done",
@@ -6853,7 +6887,8 @@
       },
       "notes": "From CSV. 75% Katahdin, 25% Dorper. Well Done (sire) x Fleecity (dam) - CSV had sire/dam columns swapped. Status unknown - not in recent notebook.",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "fm2",
@@ -6874,7 +6909,7 @@
         "hair_percentage": 25
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 179.4,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
@@ -6903,7 +6938,8 @@
       },
       "notes": "From Google Sheet Pen 4. FM2 Baby is 75% hair.",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "dorpy",
@@ -6923,13 +6959,13 @@
         "hair_percentage": 75
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 133.3,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -6950,9 +6986,10 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Google Sheet Pen 4. Tag 34 offspring row.",
+      "notes": "From Google Sheet Pen 4. Tag 34 offspring row. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "tag-34-pen4",
@@ -6971,13 +7008,13 @@
         "hair_percentage": 100
       },
       "color_markings": "",
-      "weight_lbs": null,
+      "weight_lbs": 174.1,
       "dob": null,
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "alive",
-      "status_date": null,
+      "status": "deceased",
+      "status_date": "2026-04-02",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -6998,9 +7035,10 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "From Google Sheet Pen 4. 100% hair.",
+      "notes": "From Google Sheet Pen 4. 100% hair. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": true
     },
     {
       "id": "charlies-ewe",
@@ -7321,9 +7359,16 @@
       "tag": "00110",
       "sex": "ram",
       "breed_composition": {
-        "primary": "[UNCLEAR]",
-        "percentages": {},
-        "coat_type": "unknown"
+        "primary": "Cracker/Suffolk/GCN/Katahdin",
+        "percentages": {
+          "Cracker": 50,
+          "Suffolk": 25,
+          "Gulf Coast Native": 12.5,
+          "Katahdin": 12.5
+        },
+        "coat_type": "wool",
+        "hair_percentage": 12.5,
+        "notes": "87.5% wool genetics. Big ram 275-300 lbs, bigger than breed math predicts."
       },
       "color_markings": "Orange tag",
       "pen": "Pen 1",
@@ -7354,7 +7399,8 @@
             "notes": "FAMACHA 1. Covexin yearly."
           }
         ]
-      }
+      },
+      "weight_lbs": 287.5
     },
     {
       "id": "tag-0044-wool-ewe",
@@ -7573,7 +7619,9 @@
             "vaccine": "CDT"
           }
         ]
-      }
+      },
+      "weight_lbs": 232.2,
+      "weight_estimated": true
     },
     {
       "id": "charlies-farm-ewe-p3",
@@ -7849,7 +7897,9 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "weight_lbs": 128.0,
+      "weight_estimated": true
     },
     {
       "id": "gigi-2026-baby",
@@ -8437,7 +8487,9 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "weight_lbs": 200.0,
+      "weight_estimated": true
     },
     {
       "id": "windlestone-0056",
@@ -8470,7 +8522,9 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "weight_lbs": 200.0,
+      "weight_estimated": true
     },
     {
       "id": "windlestone-0055",
@@ -8503,7 +8557,9 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "weight_lbs": 200.0,
+      "weight_estimated": true
     },
     {
       "id": "tag-0035-white-ewe",
