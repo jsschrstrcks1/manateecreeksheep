@@ -1444,7 +1444,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 1",
+      "pen": "Pen 2",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -1514,7 +1514,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": "Pen 1",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1597,7 +1597,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": "Pen 1",
       "measurements": {
         "girth": 31.5,
         "length": 30,
@@ -2365,7 +2365,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 1",
+      "pen": "Pen 2",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -4490,7 +4490,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": "Pen 6",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -7375,7 +7375,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Blk Legs, ears, face, Lighter Body. All black lamb.",
-      "pen": "Pen 4",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": null,
       "dam_id": "azure",
@@ -7451,7 +7451,7 @@
         "coat_prediction": "hair"
       },
       "color_markings": "",
-      "pen": "Pen 6",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": "sir-loin",
       "dam_id": null,
@@ -7844,7 +7844,7 @@
         "coat_prediction": "hair"
       },
       "color_markings": "White with black spots, black horns",
-      "pen": "Pen 1",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
@@ -7916,7 +7916,7 @@
         "coat_prediction": "hair"
       },
       "color_markings": "White Belly, multi color",
-      "pen": "Pen 5",
+      "pen": "Pen 6",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
@@ -8344,7 +8344,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "White",
-      "pen": "Goose Pen",
+      "pen": "Pen 6",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
@@ -8557,7 +8557,7 @@
       "name": "Ewe Tag 31",
       "tag": "31",
       "sex": "ewe",
-      "pen": "Pen 6",
+      "pen": "Pen 1",
       "status": "alive",
       "breed_composition": {
         "primary": "St Augustine/Katahdin",
@@ -9486,8 +9486,8 @@
           "size": "medium",
           "location": "NE corner, east side",
           "capacity": "6-7 animals",
-          "ram": "merrie",
-          "ram_notes": "200 lbs, observed full shedder. 50% Cracker + StA/Kat/BBB. Florida heritage locks in hardiness + shedding.",
+          "ram": "serendipity-twin-ram",
+          "ram_notes": "Serendipity White Ram Twin (Kelsier\u00d7Serendipity, ~56% Kat). PROVISIONAL \u2014 pending summer FAMACHA test. If fails, replace.",
           "advancement_criteria": {
             "famacha": "<2",
             "fec_epg": "<250",
@@ -9501,8 +9501,8 @@
           "size": "medium-small",
           "location": "SW corner, west side (isolated)",
           "capacity": "5-6 animals",
-          "ram": "charlie-ram",
-          "ram_notes": "232 lbs, 100% hair (Kat/BHD/ABB/WH). Closest to target phenotype. Only fully-hair ram.",
+          "ram": "merrie",
+          "ram_notes": "Merrie (200 lbs, observed shedder). 2nd best shedding ram. Stage 6 refinement.",
           "advancement_criteria": {
             "famacha": "<2",
             "fec_epg": "<200",
@@ -9516,8 +9516,8 @@
           "size": "small",
           "location": "SW corner, west side (isolated, most secure)",
           "capacity": "3-4 animals",
-          "ram": "best_ram_lamb_from_pen_1",
-          "ram_notes": "Best ram lamb from Pen 1 (Charlie's sons). Recycled back. This IS the finished product ram.",
+          "ram": "charlie-ram",
+          "ram_notes": "Charlie (232 lbs, 100% hair). Best ram in flock. Earned elite status. Broken Tail + Elsie are his ewes.",
           "advancement_criteria": {
             "famacha": "1-2 only",
             "fec_epg": "<150",
@@ -9542,6 +9542,25 @@
       "best_candidate": "serendipity-twin-ram",
       "reasoning": "Serendipity White Ram Twin: Kelsier (100% Kat, NSIP FEC 138.8) x Serendipity (StA/Babydoll/Jacob/Kat). Dam has no weak parasite resistance. ~56% Katahdin + 19% StA (St Croix heritage). Needs FAMACHA testing through summer before pipeline placement.",
       "test_plan": "Summer 2026: monitor FAMACHA monthly, no prophylactic deworming. If holds 1-2, place in pipeline. If 3+, reassess."
+    },
+    "stress_test": {
+      "date": "2026-04-02",
+      "source": "Multi-LLM adversarial pipeline (GPT, Gemini, Grok \u2014 $1.60)",
+      "critical_fixes_applied": [
+        "Baby Azure moved from Stage 3 to Stage 1 (FAMACHA 5 in dry season = worst performer)",
+        "Charlie + Broken Tail + Elsie moved to Pen 2 (elite) \u2014 they earned it, no need to wait",
+        "Merrie promoted to Pen 1 (Stage 6) \u2014 2nd best shedder after Charlie",
+        "Serendipity White Ram Twin placed at Pen 6 (Stage 5) \u2014 PROVISIONAL pending summer FAMACHA"
+      ],
+      "known_vulnerabilities": [
+        "Charlie is single point of failure (only 100% hair ram). Backup: test Kelsier sons summer 2026.",
+        "Rocky at Stage 3 contaminates with weak parasite genetics. Mitigate by hard culling his FAMACHA-3+ offspring.",
+        "00110 daughters ~87% wool. Pipeline needs 5-6 stages to breed out. First finished animals ~10 years.",
+        "Inbreeding spiral risk as Charlie sons cycle back. Monitor F coefficient. Introduce outside genetics if F > 0.20.",
+        "Hurricane risk \u2014 east side pens more exposed than west side.",
+        "16 ewe lambs scored FAMACHA 1-2 in dry summer \u2014 provisional only. Retest in wet season.",
+        "Baby Azure FAMACHA 5 in dry summer when all other lambs scored 1-2. Cull candidate."
+      ]
     }
   }
 }
