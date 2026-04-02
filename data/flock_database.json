@@ -7416,9 +7416,15 @@
       "tag": "0044",
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Wool",
-        "percentages": {},
-        "coat_type": "wool"
+        "primary": "Katahdin/Awassi/East Friesian",
+        "percentages": {
+          "Katahdin": 50,
+          "Awassi": 48,
+          "East Friesian": 2
+        },
+        "coat_type": "wool",
+        "hair_percentage": 50,
+        "notes": "Buck descendant. Exact generation unknown. Breed est from Bucks composition."
       },
       "color_markings": "",
       "pen": "Pen 1",
@@ -7426,7 +7432,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 0044. Wool ewe. No babies. Source: notebook card, pen 1.",
+      "notes": "Tag 0044. Wool ewe. No babies. Source: notebook card, pen 1. Buck descendant. Wool ewe.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 9 pen 1"
@@ -7449,7 +7455,9 @@
             "notes": "FAMACHA 1. Covexin yearly."
           }
         ]
-      }
+      },
+      "weight_lbs": 170,
+      "weight_estimated": true
     },
     {
       "id": "tag-114-fawn-wool",
@@ -7530,22 +7538,23 @@
       "tag": "0053",
       "sex": "ewe",
       "breed_composition": {
-        "primary": "St Augustine/Katahdin",
+        "primary": "Hampshire/St Augustine/Katahdin",
         "percentages": {
-          "St Augustine": 60,
-          "Katahdin": 40
+          "Hampshire": 50,
+          "St Augustine": 37.5,
+          "Katahdin": 12.5
         },
-        "coat_type": "hair",
-        "hair_percentage": 40,
-        "notes": "2nd or 3rd gen inbred from Sir Loin daughters. Heavy StA/Kat."
+        "coat_type": "mixed",
+        "hair_percentage": 12.5,
+        "notes": "Sire: Samson (100% Hampshire). Dam: Sir Loin daughter (~75StA/25Kat). Sir Loin is maternal grandsire."
       },
       "color_markings": "White Hair ewe",
       "pen": "Pen 2",
       "status": "alive",
-      "sire_id": null,
+      "sire_id": "samson",
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 0053. White Hair ewe. Name: Nuba (notebook spelling). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. White hair ewe. 2nd or 3rd gen from Sir Loin daughters. StA x Kat line.",
+      "notes": "Tag 0053. White Hair ewe. Name: Nuba (notebook spelling). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. White hair ewe. Samson x Sir Loin daughter. Sir Loin is maternal grandsire. 50% Hampshire / 37.5% StA / 12.5% Kat.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 2"
@@ -8026,17 +8035,22 @@
       "tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "[UNCLEAR]",
-        "percentages": {},
-        "coat_type": "unknown"
+        "primary": "St Augustine/Katahdin/BBB",
+        "percentages": {
+          "St Augustine": 67.96,
+          "Katahdin": 27.33,
+          "Barbados Blackbelly": 4.69
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 30
       },
       "color_markings": "Small, white",
       "pen": "Pen 4",
       "status": "alive",
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "dodge",
+      "dam_id": "daisy",
       "dob": null,
-      "notes": "No tag (now tagged TBD). Small white ewe. No babies. Eyes good throughout. Source: notebook card pen 4.",
+      "notes": "No tag (now tagged TBD). Small white ewe. No babies. Eyes good throughout. Source: notebook card pen 4. Sister of Little Daisy \u2014 same parents (Dodge x Daisy).",
       "confidence": "low",
       "source_refs": {
         "notebook_card": "Card 5 pen 4"
@@ -8065,7 +8079,9 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "weight_lbs": 145,
+      "weight_estimated": true
     },
     {
       "id": "serendipity-twin-ram",
@@ -8617,7 +8633,7 @@
       "pen": "Tree Fort",
       "status": "alive",
       "color_markings": "White ewe w/ dot on ear",
-      "notes": "Tag 0035. White ewe with dot on ear. Single baby (ewe, born 1-2-26). Covexin 8 3-10-26 (full dose). Source: notebook card TF.",
+      "notes": "Tag 0035. White ewe with dot on ear. Single baby (ewe, born 1-2-26). Covexin 8 3-10-26 (full dose). Source: notebook card TF. Florida Dorper x Katahdin. Small sheep.",
       "health": {
         "famacha_history": [
           {
@@ -8632,7 +8648,19 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "breed_composition": {
+        "primary": "Black Headed Dorper/Katahdin",
+        "percentages": {
+          "Black Headed Dorper": 50,
+          "Katahdin": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "notes": "Florida Dorper x Katahdin. Small frame compared to others."
+      },
+      "weight_lbs": 130,
+      "weight_estimated": true
     },
     {
       "id": "tag-0035-baby-ewe",
