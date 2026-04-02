@@ -2,14 +2,75 @@
   "version": "1.0.0",
   "skills": [
     {
+      "name": "orchestrate",
+      "description": "Full multi-LLM pipeline orchestration. Runs the sheep flock decision pipeline (Plan \u2192 Expand \u2192 Challenge \u2192 Validate \u2192 Finalize) coordinating GPT, Gemini, Grok, and Claude.",
+      "type": "domain",
+      "priority": "high",
+      "enforcement": "suggest",
+      "triggers": {
+        "keywords": [
+          "orchestrate",
+          "pipeline",
+          "multi-model",
+          "multi-llm",
+          "full pipeline",
+          "run pipeline",
+          "sheep pipeline"
+        ],
+        "intent_patterns": [
+          "(orchestrate|run pipeline|full pipeline).*?(breeding|flock|plan)",
+          "(coordinate|consult).*?(multiple|all).*?model"
+        ]
+      },
+      "skill_file": ".claude/skills/orchestrate/SKILL.md"
+    },
+    {
+      "name": "consult",
+      "description": "Quick multi-LLM second opinion. Sends a single prompt to GPT, Gemini, or Grok with a role-based system prompt and returns structured feedback.",
+      "type": "domain",
+      "priority": "high",
+      "enforcement": "suggest",
+      "triggers": {
+        "keywords": [
+          "consult",
+          "second opinion",
+          "ask gpt",
+          "ask gemini",
+          "ask grok",
+          "challenge this",
+          "expand this",
+          "get feedback"
+        ],
+        "intent_patterns": [
+          "(consult|ask|query).*?(gpt|gemini|grok)",
+          "(second opinion|outside perspective|another model)"
+        ]
+      },
+      "skill_file": ".claude/skills/consult/SKILL.md"
+    },
+    {
       "name": "careful-not-clever",
       "description": "Integrity guardrail for sheep flock management. Enforces careful, verified work over clever shortcuts. Activates on every file modification to ensure sheep records, pedigrees, and health data are verified before committing.",
       "type": "guardrail",
       "priority": "critical",
       "enforcement": "block",
       "triggers": {
-        "keywords": ["flock", "sheep", "breed", "pedigree", "sire", "dam", "lambing", "FAMACHA", "treatment", "pen assignment"],
-        "file_paths": ["data/*.json", "*.md"]
+        "keywords": [
+          "flock",
+          "sheep",
+          "breed",
+          "pedigree",
+          "sire",
+          "dam",
+          "lambing",
+          "FAMACHA",
+          "treatment",
+          "pen assignment"
+        ],
+        "file_paths": [
+          "data/*.json",
+          "*.md"
+        ]
       },
       "skill_file": ".claude/skills/careful-not-clever/SKILL.md",
       "guardrails": {
@@ -36,9 +97,23 @@
       "priority": "high",
       "enforcement": "suggest",
       "triggers": {
-        "keywords": ["transcribe", "read image", "notebook", "handwritten", "extract", "OCR", "photo"],
-        "file_paths": ["data/processed/*.jpeg", "*.JPG", "*.PNG"],
-        "intent_patterns": ["(transcribe|read|extract).*?(notebook|image|photo|record)"]
+        "keywords": [
+          "transcribe",
+          "read image",
+          "notebook",
+          "handwritten",
+          "extract",
+          "OCR",
+          "photo"
+        ],
+        "file_paths": [
+          "data/processed/*.jpeg",
+          "*.JPG",
+          "*.PNG"
+        ],
+        "intent_patterns": [
+          "(transcribe|read|extract).*?(notebook|image|photo|record)"
+        ]
       },
       "skill_file": ".claude/skills/image-transcription/SKILL.md",
       "guardrails": {
@@ -62,8 +137,16 @@
       "priority": "high",
       "enforcement": "suggest",
       "triggers": {
-        "keywords": ["validate", "check", "verify", "audit", "inconsistency"],
-        "file_paths": ["data/flock_database.json"]
+        "keywords": [
+          "validate",
+          "check",
+          "verify",
+          "audit",
+          "inconsistency"
+        ],
+        "file_paths": [
+          "data/flock_database.json"
+        ]
       },
       "skill_file": ".claude/skills/flock-validation/SKILL.md",
       "guardrails": {
@@ -79,6 +162,32 @@
           "Ignore validation warnings"
         ]
       }
+    },
+    {
+      "name": "icp-2",
+      "enabled": true,
+      "type": "guardrail",
+      "enforcement": "block",
+      "priority": "critical",
+      "description": "ICP-2 \u2014 Human-First SEO & AEO standard for 2026. Blocks HTML edits that don't meet ICP-2 compliance.",
+      "fileTriggers": {
+        "pathPatterns": [
+          "*.html",
+          "**/*.html"
+        ],
+        "exclude": [
+          "node_modules/**",
+          ".git/**",
+          "dist/**",
+          "build/**"
+        ]
+      },
+      "autoLoad": {
+        "mainFile": ".claude/skills/icp-2/SKILL.md",
+        "maxLines": 500,
+        "loadOnFirstFileEdit": true
+      },
+      "activationMessage": "ICP-2 guardrail active. HTML edits will be validated for SEO/AEO compliance. Non-compliance is a blocking error."
     }
   ],
   "global": {
@@ -89,10 +198,10 @@
   },
   "philosophy": {
     "priority_order": [
-      "Accuracy-First — Never guess or invent flock data",
-      "Source-Fidelity — Spiral notebook is the primary authority",
-      "Preservation-First — All images are irreplaceable primary sources",
-      "Pedigree-Integrity — Every relationship must be verifiable"
+      "Accuracy-First \u2014 Never guess or invent flock data",
+      "Source-Fidelity \u2014 Spiral notebook is the primary authority",
+      "Preservation-First \u2014 All images are irreplaceable primary sources",
+      "Pedigree-Integrity \u2014 Every relationship must be verifiable"
     ],
     "core_principle": "Accuracy is more important than speed",
     "breeding_goals": [

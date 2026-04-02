@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Manatee Creek Sheep</title>
+
+<!-- ═══ PWA ═══ -->
+<link rel="manifest" href="/static/manifest.json">
+<meta name="theme-color" content="#c8956c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MCS">
+<link rel="apple-touch-icon" href="/static/icon-192.svg">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Manatee Creek Sheep">
 
 <!-- ═══ ANTI-INDEXING: Block everything ═══ -->
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate, noodp">
@@ -914,6 +924,11 @@ body::after {
 </head>
 <body>
 
+<!-- Offline indicator -->
+<div id="offline-indicator" style="display:none;position:fixed;top:0;left:0;right:0;z-index:200;background:#2e1714;border-bottom:2px solid #b85a4a;padding:0.5rem 1rem;color:#b85a4a;font-size:0.85rem;font-weight:600;align-items:center;justify-content:center;gap:0.5rem;">
+  Offline &mdash; showing cached data
+</div>
+
 <!-- ═══ Navigation ═══ -->
 <nav class="nav">
   <div class="nav-inner">
@@ -1715,6 +1730,32 @@ function truncate(str, len) {
 
 // ─── Boot ───
 init();
+
+// ─── Service Worker Registration ───
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => {
+        console.log('SW registered, scope:', reg.scope);
+        // Check for updates periodically (every 30 min)
+        setInterval(() => reg.update(), 30 * 60 * 1000);
+      })
+      .catch(err => console.log('SW registration failed:', err));
+  });
+}
+
+// ─── Online/Offline Indicator ───
+function updateOnlineStatus() {
+  const indicator = document.getElementById('offline-indicator');
+  if (!navigator.onLine) {
+    indicator.style.display = 'flex';
+  } else {
+    indicator.style.display = 'none';
+  }
+}
+window.addEventListener('online', updateOnlineStatus);
+window.addEventListener('offline', updateOnlineStatus);
+window.addEventListener('load', updateOnlineStatus);
 </script>
 
 </body>
