@@ -42,10 +42,10 @@
     "notes": "Hair/shedding sheep. Used in Katahdin development."
   },
   "Gulf Coast Native": {
-    "type": "hair",
+    "type": "wool",
     "avg_ewe_wt": 125,
     "avg_ram_wt": 165,
-    "notes": "HAIR sheep \u2014 SE US native. Extreme parasite resistance. Florida adapted."
+    "notes": "SE US native. WOOL coat despite being parasite resistant. Often confused with hair sheep due to hardiness. Florida adapted."
   },
   "St Croix": {
     "type": "hair",

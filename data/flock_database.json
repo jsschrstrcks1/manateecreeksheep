@@ -583,10 +583,10 @@
           "Gulf Coast Native": 100
         },
         "coat_type": "wool",
-        "hair_percentage": 100,
+        "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "wool_percentage": 100,
+        "coat_prediction": "wool"
       },
       "color_markings": "",
       "weight_lbs": 165,
@@ -2072,9 +2072,9 @@
           "Gulf Coast Native": 6.25
         },
         "coat_type": "wool",
-        "hair_percentage": 25.0,
+        "hair_percentage": 18.8,
         "intermediate_percentage": 0,
-        "wool_percentage": 75,
+        "wool_percentage": 81.2,
         "coat_prediction": "wool"
       },
       "color_markings": "",
@@ -7597,10 +7597,10 @@
           "Katahdin": 12.5
         },
         "coat_type": "wool",
-        "hair_percentage": 25.0,
+        "hair_percentage": 12.5,
         "notes": "87.5% wool genetics. Big ram 275-300 lbs, bigger than breed math predicts.",
         "intermediate_percentage": 0,
-        "wool_percentage": 75,
+        "wool_percentage": 87.5,
         "coat_prediction": "wool",
         "coat_observed": "wool"
       },
@@ -7704,9 +7704,9 @@
           "Katahdin": 12.5
         },
         "coat_type": "wool",
-        "hair_percentage": 25.0,
+        "hair_percentage": 12.5,
         "intermediate_percentage": 0,
-        "wool_percentage": 75,
+        "wool_percentage": 87.5,
         "coat_prediction": "wool"
       },
       "color_markings": "Fawn Wool, Orange tag",
