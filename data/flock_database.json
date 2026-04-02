@@ -1156,10 +1156,10 @@
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
-      "status": "deceased",
+      "status": "alive",
       "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": null,
+      "pen": "Tree Fort",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1178,7 +1178,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
+      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).  ALIVE as of April 2026. In Tree Fort. Like Rocky but Katahdin instead of Dorper.",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true
