@@ -206,7 +206,7 @@
       ],
       "tag": "23",
       "mc_tag": null,
-      "sex": "ram",
+      "sex": "ewe",
       "breed_composition": {
         "primary": "Hampshire/Suffolk",
         "percentages": {
@@ -1525,7 +1525,7 @@
         "hair_percentage": 72
       },
       "color_markings": "Brown and Tan",
-      "weight_lbs": 99,
+      "weight_lbs": 200,
       "dob": "2023-01-14",
       "dob_approximate": true,
       "sire_id": "smore",
@@ -1589,7 +1589,8 @@
       },
       "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1. Moved to Pen 3. Notebook card shows tag 000lb [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Tag 00016 confirmed. Intact ram. Descendant of Sir Loin and Smore (Cracker ram) through hair ewes (StA x Kat). Not the dominant ram in Pen 3 \u2014 Charlie is.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "weight_estimated": false
     },
     {
       "id": "bella",
