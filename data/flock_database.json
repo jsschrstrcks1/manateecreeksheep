@@ -167,7 +167,7 @@
       "status": "deceased",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -520,7 +520,7 @@
       "status": "deceased",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1110,7 +1110,7 @@
       "status": "deceased",
       "status_date": null,
       "status_notes": "Deceased - Hurricane Helene",
-      "pen": "Chicken Coop",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2104,7 +2104,7 @@
       "status": "deceased",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2750,7 +2750,7 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "nori",
-      "status": "deceased",
+      "status": "alive",
       "status_date": null,
       "status_notes": "Died after Hurricane Idalia (Aug 2023)",
       "pen": "Pen 5",
@@ -5396,7 +5396,7 @@
       "status": "deceased",
       "status_date": null,
       "status_notes": "Killed by humans after Hurricane Helene",
-      "pen": "Pen 6",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -5830,7 +5830,7 @@
       "status": "deceased",
       "status_date": "2023-08-21",
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
