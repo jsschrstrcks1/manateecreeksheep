@@ -29,9 +29,17 @@ os.makedirs(OUT_DIR, exist_ok=True)
 
 def gs_safe(text, max_len=None):
     """Sanitize a string for embedding in a JavaScript single-quoted string.
-    Removes single quotes and backslashes entirely to avoid escaping edge cases."""
+    Removes single quotes, backslashes, and non-ASCII characters to avoid any escaping issues."""
     s = str(text) if text is not None else ""
     s = s.replace("\\", "").replace("'", "").replace("\n", " ").replace("\r", "")
+    # Replace common Unicode with ASCII equivalents
+    s = s.replace("\u2014", " - ").replace("\u2013", "-")  # em-dash, en-dash
+    s = s.replace("\u2192", "->").replace("\u2190", "<-")  # arrows
+    s = s.replace("\u00D7", "x")  # multiplication sign
+    s = s.replace("\u2260", "!=")  # not-equals
+    s = s.replace("\u2265", ">=").replace("\u2264", "<=")  # >=, <=
+    # Strip any remaining non-ASCII
+    s = s.encode("ascii", "ignore").decode("ascii")
     if max_len:
         s = s[:max_len]
     return s
@@ -552,6 +560,13 @@ function autoResize(sheet, numCols) {
     gs += "  formatHeader(sheet, data[0].length);\n"
     gs += "  autoResize(sheet, data[0].length);\n"
     gs += "}\n"
+
+    # Post-process: strip non-ASCII from entire output
+    gs = gs.replace("\u2014", " - ").replace("\u2013", "-")
+    gs = gs.replace("\u2192", "->").replace("\u2190", "<-")
+    gs = gs.replace("\u00D7", "x").replace("\u2260", "!=")
+    gs = gs.replace("\u2265", ">=").replace("\u2264", "<=")
+    gs = gs.encode("ascii", "ignore").decode("ascii")
 
     # Post-process: remove any unescaped single quotes inside JS string literals
     # Split into lines and fix any line where a data value contains a single quote
