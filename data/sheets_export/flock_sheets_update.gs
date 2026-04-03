@@ -1,6 +1,6 @@
 /**
  * Manatee Creek Flock — Google Sheets Updater
- * Generated: 2026-04-03 03:15
+ * Generated: 2026-04-03 03:34
  *
  * HOW TO USE:
  * 1. Open your Google Sheet
@@ -20,7 +20,7 @@
  */
 
 function updateAllSheets() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var ss = SpreadsheetApp.openById('1EQ5bOZL5Xmzu_7VvaMHTHWIwHPJqDKTJY_MMPduKrJU');
 
   updatePipelineOverview(ss);
   updateActiveFlock(ss);

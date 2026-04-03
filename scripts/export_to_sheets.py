@@ -310,7 +310,7 @@ def generate_apps_script(db, breeds):
  */
 
 function updateAllSheets() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var ss = SpreadsheetApp.openById('1EQ5bOZL5Xmzu_7VvaMHTHWIwHPJqDKTJY_MMPduKrJU');
 
   updatePipelineOverview(ss);
   updateActiveFlock(ss);
