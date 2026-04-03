@@ -366,7 +366,23 @@ function autoResize(sheet, numCols) {
         adv = info.get("advancement_criteria", {})
         notes = info.get("ram_notes", "")[:80]
 
-        gs += f"    ['{info.get('stage','')}','{pen_name}','{info.get('size','')}','{info.get('location','')}','{ram_name}','{ram_wt}','{hair}','{coat}',{ewe_count},'{adv.get('famacha','')}','{adv.get('fec_epg','')}','{adv.get('shedding_pct','')}','{info.get('shelter','')}','{notes}'],\n"
+        row_vals = [
+            gs_safe(info.get('stage', '')),
+            gs_safe(pen_name),
+            gs_safe(info.get('size', '')),
+            gs_safe(info.get('location', '')),
+            gs_safe(ram_name),
+            gs_safe(ram_wt),
+            gs_safe(hair),
+            gs_safe(coat),
+            str(ewe_count),
+            gs_safe(adv.get('famacha', '')),
+            gs_safe(adv.get('fec_epg', '')),
+            gs_safe(adv.get('shedding_pct', '')),
+            gs_safe(info.get('shelter', '')),
+            gs_safe(notes, 80),
+        ]
+        gs += "    ['" + "','".join(row_vals) + "'],\n"
 
     gs += "  ];\n"
     gs += "  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);\n"
@@ -393,7 +409,15 @@ function autoResize(sheet, numCols) {
         stage = pen_to_stage.get(pen, "?")
         weak = "YES" if s.get("health", {}).get("weak_resistance") else ""
 
-        gs += f"    ['{pen}','{stage}','{name}','{s.get('id','')}','{s.get('tag','')}','{s.get('sex','')}','{s.get('weight_lbs','')}','{bc.get('primary','')}','{bc.get('hair_percentage','')}','{bc.get('wool_percentage','')}','{bc.get('coat_observed','')}','{bc.get('coat_prediction','')}','{s.get('sire_id','')}','{s.get('dam_id','')}','{weak}','{notes[:60]}'],\n"
+        row_vals = [
+            gs_safe(pen), gs_safe(stage), gs_safe(name), gs_safe(s.get('id','')),
+            gs_safe(s.get('tag','')), gs_safe(s.get('sex','')), gs_safe(s.get('weight_lbs','')),
+            gs_safe(bc.get('primary','')), gs_safe(bc.get('hair_percentage','')),
+            gs_safe(bc.get('wool_percentage','')), gs_safe(bc.get('coat_observed','')),
+            gs_safe(bc.get('coat_prediction','')), gs_safe(s.get('sire_id','')),
+            gs_safe(s.get('dam_id','')), gs_safe(weak), gs_safe(notes, 60),
+        ]
+        gs += "    ['" + "','".join(row_vals) + "'],\n"
 
     gs += "  ];\n"
     gs += "  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);\n"
@@ -421,34 +445,27 @@ function autoResize(sheet, numCols) {
     gs += "    ['Category','Item','Details'],\n"
 
     for h in policy.get("selection_hierarchy", []):
-        desc = h["description"][:120]
-        gs += f"    ['Selection Hierarchy','#{h['rank']} {h['trait']}','{desc}'],\n"
+        gs += "    ['" + "','".join([gs_safe('Selection Hierarchy'), gs_safe(f'#{h["rank"]} {h["trait"]}'), gs_safe(h["description"], 120)]) + "'],\n"
 
     gs += "    ['','',''],\n"
 
     for lesson in policy.get("hard_lessons", []):
-        l = lesson[:120]
-        gs += f"    ['Hard Lesson','','{l}'],\n"
+        gs += "    ['" + "','".join([gs_safe('Hard Lesson'), '', gs_safe(lesson, 120)]) + "'],\n"
 
     gs += "    ['','',''],\n"
 
     pipe = policy.get("pipeline", {})
-    target = pipe.get("target_animal", "")[:120]
-    gs += f"    ['Pipeline','Target Animal','{target}'],\n"
-    inb = pipe.get("inbreeding_policy", "")[:120]
-    gs += f"    ['Pipeline','Inbreeding Policy','{inb}'],\n"
-    ki = pipe.get("key_insight", "")[:120]
-    gs += f"    ['Pipeline','Key Insight','{ki}'],\n"
+    gs += "    ['" + "','".join([gs_safe('Pipeline'), gs_safe('Target Animal'), gs_safe(pipe.get('target_animal',''), 120)]) + "'],\n"
+    gs += "    ['" + "','".join([gs_safe('Pipeline'), gs_safe('Inbreeding Policy'), gs_safe(pipe.get('inbreeding_policy',''), 120)]) + "'],\n"
+    gs += "    ['" + "','".join([gs_safe('Pipeline'), gs_safe('Key Insight'), gs_safe(pipe.get('key_insight',''), 120)]) + "'],\n"
 
     gs += "    ['','',''],\n"
 
     st = policy.get("stress_test", {})
     for fix in st.get("critical_fixes_applied", []):
-        f_str = fix[:120]
-        gs += f"    ['Stress Test Fix','{st.get('date','')}','{f_str}'],\n"
+        gs += "    ['" + "','".join([gs_safe('Stress Test Fix'), gs_safe(st.get('date','')), gs_safe(fix, 120)]) + "'],\n"
     for vuln in st.get("known_vulnerabilities", []):
-        v_str = vuln[:120]
-        gs += f"    ['Known Vulnerability','','{v_str}'],\n"
+        gs += "    ['" + "','".join([gs_safe('Known Vulnerability'), '', gs_safe(vuln, 120)]) + "'],\n"
 
     gs += "  ];\n"
     gs += "  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);\n"
@@ -463,8 +480,7 @@ function autoResize(sheet, numCols) {
     gs += "    ['Breed','Type','Avg Ewe Wt','Avg Ram Wt','Notes'],\n"
 
     for breed_name, info in sorted(breeds.items()):
-        notes = info.get("notes", "")[:100]
-        gs += f"    ['{breed_name}','{info.get('type','')}',{info.get('avg_ewe_wt','')},{info.get('avg_ram_wt','')},'{notes}'],\n"
+        gs += "    ['" + "','".join([gs_safe(breed_name), gs_safe(info.get('type','')), gs_safe(info.get('avg_ewe_wt','')), gs_safe(info.get('avg_ram_wt','')), gs_safe(info.get('notes',''), 100)]) + "'],\n"
 
     gs += "  ];\n"
     gs += "  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);\n"
@@ -486,9 +502,9 @@ function autoResize(sheet, numCols) {
 
     for s in alive:
         if s.get("sex") in ("ram", "ram_lamb") and s.get("pen") and s["pen"] != "Goose Pen":
-            name = s["name"]
-            stage = pen_to_stage.get(s.get("pen", ""), "?")
-            gs += f"    ['{name}','{s['id']}','{s.get('pen','')}','{stage}','','','','','','',''],\n"
+            name = gs_safe(s["name"])
+            stage = gs_safe(pen_to_stage.get(s.get("pen", ""), "?"))
+            gs += "    ['" + "','".join([name, gs_safe(s['id']), gs_safe(s.get('pen','')), stage, '','','','','','','']) + "'],\n"
 
     gs += "  ];\n"
     gs += "  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);\n"
@@ -504,9 +520,9 @@ function autoResize(sheet, numCols) {
 
     for s in sorted(alive, key=lambda x: (str(pen_to_stage.get(x.get("pen",""), 99)), str(x.get("name","")))):
         if s.get("sex") in ("ewe", "ewe_lamb"):
-            name = s["name"]
-            stage = pen_to_stage.get(s.get("pen", ""), "?")
-            gs += f"    ['{name}','{s['id']}','{s.get('pen','')}','{stage}','','','','','','','',''],\n"
+            name = gs_safe(s["name"])
+            stage = gs_safe(pen_to_stage.get(s.get("pen", ""), "?"))
+            gs += "    ['" + "','".join([name, gs_safe(s['id']), gs_safe(s.get('pen','')), stage, '','','','','','','','']) + "'],\n"
 
     gs += "  ];\n"
     gs += "  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);\n"
@@ -522,9 +538,14 @@ function autoResize(sheet, numCols) {
 
     for s in db["sheep"]:
         if s.get("status") in ("deceased", "sold", "culled", "gifted"):
-            name = s.get("name", "")
-            notes = (s.get("notes", "") or "")[:80].replace("\n", " ")
-            gs += f"    ['{name}','{s.get('id','')}','{s.get('tag','')}','{s.get('sex','')}','{s.get('status','')}','{s.get('status_date','')}','{s.get('breed_composition',{}).get('primary','')}','{s.get('sire_id','')}','{s.get('dam_id','')}','{notes[:60]}'],\n"
+            row_vals = [
+                gs_safe(s.get('name','')), gs_safe(s.get('id','')), gs_safe(s.get('tag','')),
+                gs_safe(s.get('sex','')), gs_safe(s.get('status','')), gs_safe(s.get('status_date','')),
+                gs_safe(s.get('breed_composition',{}).get('primary','')),
+                gs_safe(s.get('sire_id','')), gs_safe(s.get('dam_id','')),
+                gs_safe(s.get('notes',''), 60),
+            ]
+            gs += "    ['" + "','".join(row_vals) + "'],\n"
 
     gs += "  ];\n"
     gs += "  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);\n"
