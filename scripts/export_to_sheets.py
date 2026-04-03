@@ -27,6 +27,16 @@ OUT_DIR = os.path.join(REPO_DIR, "data", "sheets_export")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 
+def gs_safe(text, max_len=None):
+    """Sanitize a string for embedding in a JavaScript single-quoted string.
+    Removes single quotes and backslashes entirely to avoid escaping edge cases."""
+    s = str(text) if text is not None else ""
+    s = s.replace("\\", "").replace("'", "").replace("\n", " ").replace("\r", "")
+    if max_len:
+        s = s[:max_len]
+    return s
+
+
 def load_data():
     with open(DB_PATH) as f:
         db = json.load(f)
@@ -347,14 +357,14 @@ function autoResize(sheet, numCols) {
     for pen_name, info in stages.items():
         ram_id = info.get("ram", "")
         ram = next((s for s in alive if s["id"] == ram_id), {})
-        ram_name = ram.get("name", ram_id).replace("'", "\\'")
+        ram_name = ram.get("name", ram_id)
         ram_wt = ram.get("weight_lbs", "?")
         bc = ram.get("breed_composition", {})
         hair = bc.get("hair_percentage", "?")
         coat = bc.get("coat_observed", bc.get("coat_prediction", "?"))
         ewe_count = sum(1 for s in alive if s.get("pen") == pen_name and s.get("sex") in ("ewe", "ewe_lamb"))
         adv = info.get("advancement_criteria", {})
-        notes = info.get("ram_notes", "")[:80].replace("'", "\\'")
+        notes = info.get("ram_notes", "")[:80]
 
         gs += f"    ['{info.get('stage','')}','{pen_name}','{info.get('size','')}','{info.get('location','')}','{ram_name}','{ram_wt}','{hair}','{coat}',{ewe_count},'{adv.get('famacha','')}','{adv.get('fec_epg','')}','{adv.get('shedding_pct','')}','{info.get('shelter','')}','{notes}'],\n"
 
@@ -377,13 +387,13 @@ function autoResize(sheet, numCols) {
         str(x.get("name", ""))
     )):
         bc = s.get("breed_composition", {})
-        name = s.get("name", "").replace("'", "\\'")
-        notes = (s.get("notes", "") or "")[:80].replace("'", "\\'").replace("\n", " ")
+        name = s.get("name", "")
+        notes = (s.get("notes", "") or "")[:80].replace("\n", " ")
         pen = s.get("pen", "?")
         stage = pen_to_stage.get(pen, "?")
         weak = "YES" if s.get("health", {}).get("weak_resistance") else ""
 
-        gs += f"    ['{pen}','{stage}','{name}','{s.get('id','')}','{s.get('tag','')}','{s.get('sex','')}','{s.get('weight_lbs','')}','{bc.get('primary','').replace(chr(39),'')}','{bc.get('hair_percentage','')}','{bc.get('wool_percentage','')}','{bc.get('coat_observed','')}','{bc.get('coat_prediction','')}','{s.get('sire_id','')}','{s.get('dam_id','')}','{weak}','{notes[:60]}'],\n"
+        gs += f"    ['{pen}','{stage}','{name}','{s.get('id','')}','{s.get('tag','')}','{s.get('sex','')}','{s.get('weight_lbs','')}','{bc.get('primary','')}','{bc.get('hair_percentage','')}','{bc.get('wool_percentage','')}','{bc.get('coat_observed','')}','{bc.get('coat_prediction','')}','{s.get('sire_id','')}','{s.get('dam_id','')}','{weak}','{notes[:60]}'],\n"
 
     gs += "  ];\n"
     gs += "  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);\n"
@@ -411,33 +421,33 @@ function autoResize(sheet, numCols) {
     gs += "    ['Category','Item','Details'],\n"
 
     for h in policy.get("selection_hierarchy", []):
-        desc = h["description"].replace("'", "\\'")[:120]
+        desc = h["description"][:120]
         gs += f"    ['Selection Hierarchy','#{h['rank']} {h['trait']}','{desc}'],\n"
 
     gs += "    ['','',''],\n"
 
     for lesson in policy.get("hard_lessons", []):
-        l = lesson.replace("'", "\\'")[:120]
+        l = lesson[:120]
         gs += f"    ['Hard Lesson','','{l}'],\n"
 
     gs += "    ['','',''],\n"
 
     pipe = policy.get("pipeline", {})
-    target = pipe.get("target_animal", "").replace("'", "\\'")[:120]
+    target = pipe.get("target_animal", "")[:120]
     gs += f"    ['Pipeline','Target Animal','{target}'],\n"
-    inb = pipe.get("inbreeding_policy", "").replace("'", "\\'")[:120]
+    inb = pipe.get("inbreeding_policy", "")[:120]
     gs += f"    ['Pipeline','Inbreeding Policy','{inb}'],\n"
-    ki = pipe.get("key_insight", "").replace("'", "\\'")[:120]
+    ki = pipe.get("key_insight", "")[:120]
     gs += f"    ['Pipeline','Key Insight','{ki}'],\n"
 
     gs += "    ['','',''],\n"
 
     st = policy.get("stress_test", {})
     for fix in st.get("critical_fixes_applied", []):
-        f_str = fix.replace("'", "\\'")[:120]
+        f_str = fix[:120]
         gs += f"    ['Stress Test Fix','{st.get('date','')}','{f_str}'],\n"
     for vuln in st.get("known_vulnerabilities", []):
-        v_str = vuln.replace("'", "\\'")[:120]
+        v_str = vuln[:120]
         gs += f"    ['Known Vulnerability','','{v_str}'],\n"
 
     gs += "  ];\n"
@@ -453,7 +463,7 @@ function autoResize(sheet, numCols) {
     gs += "    ['Breed','Type','Avg Ewe Wt','Avg Ram Wt','Notes'],\n"
 
     for breed_name, info in sorted(breeds.items()):
-        notes = info.get("notes", "").replace("'", "\\'")[:100]
+        notes = info.get("notes", "")[:100]
         gs += f"    ['{breed_name}','{info.get('type','')}',{info.get('avg_ewe_wt','')},{info.get('avg_ram_wt','')},'{notes}'],\n"
 
     gs += "  ];\n"
@@ -476,7 +486,7 @@ function autoResize(sheet, numCols) {
 
     for s in alive:
         if s.get("sex") in ("ram", "ram_lamb") and s.get("pen") and s["pen"] != "Goose Pen":
-            name = s["name"].replace("'", "\\'")
+            name = s["name"]
             stage = pen_to_stage.get(s.get("pen", ""), "?")
             gs += f"    ['{name}','{s['id']}','{s.get('pen','')}','{stage}','','','','','','',''],\n"
 
@@ -494,7 +504,7 @@ function autoResize(sheet, numCols) {
 
     for s in sorted(alive, key=lambda x: (str(pen_to_stage.get(x.get("pen",""), 99)), str(x.get("name","")))):
         if s.get("sex") in ("ewe", "ewe_lamb"):
-            name = s["name"].replace("'", "\\'")
+            name = s["name"]
             stage = pen_to_stage.get(s.get("pen", ""), "?")
             gs += f"    ['{name}','{s['id']}','{s.get('pen','')}','{stage}','','','','','','','',''],\n"
 
@@ -512,15 +522,48 @@ function autoResize(sheet, numCols) {
 
     for s in db["sheep"]:
         if s.get("status") in ("deceased", "sold", "culled", "gifted"):
-            name = s.get("name", "").replace("'", "\\'")
-            notes = (s.get("notes", "") or "")[:80].replace("'", "\\'").replace("\n", " ")
-            gs += f"    ['{name}','{s.get('id','')}','{s.get('tag','')}','{s.get('sex','')}','{s.get('status','')}','{s.get('status_date','')}','{s.get('breed_composition',{}).get('primary','').replace(chr(39),'')}','{s.get('sire_id','')}','{s.get('dam_id','')}','{notes[:60]}'],\n"
+            name = s.get("name", "")
+            notes = (s.get("notes", "") or "")[:80].replace("\n", " ")
+            gs += f"    ['{name}','{s.get('id','')}','{s.get('tag','')}','{s.get('sex','')}','{s.get('status','')}','{s.get('status_date','')}','{s.get('breed_composition',{}).get('primary','')}','{s.get('sire_id','')}','{s.get('dam_id','')}','{notes[:60]}'],\n"
 
     gs += "  ];\n"
     gs += "  sheet.getRange(1, 1, data.length, data[0].length).setValues(data);\n"
     gs += "  formatHeader(sheet, data[0].length);\n"
     gs += "  autoResize(sheet, data[0].length);\n"
     gs += "}\n"
+
+    # Post-process: remove any unescaped single quotes inside JS string literals
+    # Split into lines and fix any line where a data value contains a single quote
+    import re
+    fixed_lines = []
+    for line in gs.split("\n"):
+        # Only process data array lines (start with whitespace + [')
+        if line.strip().startswith("['" ) and line.strip().endswith("'],"):
+            # Replace single quotes INSIDE data values (not the delimiters)
+            # Strategy: extract values between ','  delimiters and clean them
+            parts = line.split("','")
+            cleaned = []
+            for i, part in enumerate(parts):
+                if i == 0:
+                    # First part: starts with ['
+                    prefix = part[:part.index("'") + 1]
+                    val = part[part.index("'") + 1:]
+                    cleaned.append(prefix + val.replace("'", ""))
+                elif i == len(parts) - 1:
+                    # Last part: ends with '],
+                    if part.endswith("'],"):
+                        val = part[:-3]
+                        cleaned.append(val.replace("'", "") + "'],")
+                    elif part.endswith("'],\n"):
+                        val = part[:-5]
+                        cleaned.append(val.replace("'", "") + "'],")
+                    else:
+                        cleaned.append(part.replace("'", ""))
+                else:
+                    cleaned.append(part.replace("'", ""))
+            line = "','".join(cleaned)
+        fixed_lines.append(line)
+    gs = "\n".join(fixed_lines)
 
     gs_path = os.path.join(OUT_DIR, "flock_sheets_update.gs")
     with open(gs_path, "w") as f:
