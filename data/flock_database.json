@@ -8272,7 +8272,7 @@
       "sire_id": "kelsier",
       "dam_id": "gg",
       "dob_approximate": true,
-      "notes": "Tag 09 [UNCLEAR]. Gigis 2025 baby. Yearling ram, old enough to mate. Sire believed Kelsier. Moved from Goose Pen to Pen 4 on 2-11-26. Looks like Gigi. Watch FAMACHA to determine if inherited Kelsier parasite resistance or Gigi susceptibility. Source: notebook card pen 4.",
+      "notes": "Tag 09 [UNCLEAR]. Gigis 2025 baby. Yearling ram, old enough to mate. Sire believed Kelsier. Moved from Goose Pen to Pen 4 on 2-11-26. Looks like Gigi. Watch FAMACHA to determine if inherited Kelsier parasite resistance or Gigi susceptibility. Source: notebook card pen 4. | UPDATED 4-10-26: 2-11-26: Moved from Goose Pen to Pen 4 | 2-20-26: Eyes good. 4 need to be sheared. | 2-21-26: Started Corid 5-day | 3-9-26: CDT Vac | 4-10-26: Eyes good",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 11 pen 4"
@@ -8296,7 +8296,8 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "mc_tag": "MC09"
     },
     {
       "id": "sm-white-ewe-p4",
@@ -8504,7 +8505,7 @@
       "sire_id": "sir-loin",
       "dam_id": "fm",
       "dob": null,
-      "notes": "Tag 0051. FM2. Fat and gray. 1 baby ram born 1-31-26. Sire: Kelsier. Eyes good throughout. Source: notebook card pen 4. FM x Sir Loin. Metallic sheen cream coat, extra wooly.",
+      "notes": "Tag 0051. FM2. Fat and gray. 1 baby ram born 1-31-26. Sire: Kelsier. Eyes good throughout. Source: notebook card pen 4. FM x Sir Loin. Metallic sheen cream coat, extra wooly. | UPDATED 4-10-26: FM2s Baby: 1 baby ram (MC2614) | 2-12-26: Eyes good | 2-20-26: Eyes good | 3-9-26: CDT Vacc | 4-10-26: Eyes good",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 9 pen 4"
@@ -8536,7 +8537,7 @@
       "id": "fm2-ram-lamb",
       "name": "FM2 Ram Lamb",
       "aliases": [],
-      "tag": null,
+      "tag": "MC2614",
       "sex": "ram",
       "breed_composition": {
         "primary": "[Kelsier x FM2 offspring]",
@@ -8549,7 +8550,7 @@
       "sire_id": "kelsier",
       "dam_id": "fm2-0051",
       "dob": "2026-01-31",
-      "notes": "Born 1-31-26. FM2s baby ram. Sire: Kelsier. 2.6 weeks old as of 2-20-26. Eyes good throughout. Source: notebook card pen 4.",
+      "notes": "Born 1-31-26. FM2s baby ram. Sire: Kelsier. 2.6 weeks old as of 2-20-26. Eyes good throughout. Source: notebook card pen 4. | UPDATED 4-10-26: Born 1-31-26. FM2 Baby Ram. | 2-12-26: Eyes good | 2-20-26: 2.6 weeks old, eyes good | 3-9-26: CDT Vac (1st round) | 4-10-26: Booster (2nd CDT), eyes good",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 10 pen 4"
@@ -8574,7 +8575,8 @@
             "notes": "1st dose"
           }
         ]
-      }
+      },
+      "mc_tag": "MC2614"
     },
     {
       "id": "tag-31-ewe-p5",
@@ -9649,5 +9651,22 @@
         "Baby Azure FAMACHA 5 in dry summer when all other lambs scored 1-2. Cull candidate."
       ]
     }
+  },
+  "tagging": {
+    "convention": "Rams = left ear tag, Ewes = right ear tag",
+    "color": "green",
+    "prefix": "MC26xx or MC09",
+    "assigned_tags": {
+      "MC09": "gigi-2025-ram",
+      "MC2614": "fm2-ram-lamb",
+      "MC2608": "TBD \u2014 Pen 4 adult",
+      "MC2612": "TBD \u2014 Pen 4 adult",
+      "MC2611": "TBD \u2014 Pen 4 adult",
+      "MC2603": "TBD \u2014 Pen 4 adult",
+      "MC2619": "TBD \u2014 Pen 4 adult or baby",
+      "MC2620": "TBD \u2014 Pen 4 adult or baby"
+    },
+    "date_tagged": "2026-04-10",
+    "notes": "4 adults tagged on 4-10-26. 13 total in Pen 4. Need to be sheared."
   }
 }
