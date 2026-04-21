@@ -365,24 +365,18 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "measurements": {},
       "health": {
         "famacha_scores": [
           {
-            "score": 3,
-            "date": "unknown",
-            "notes": "BPW condition, Ivermectin"
+            "date": "2-16-26",
+            "famacha": 1,
+            "notes": "Eyes good."
           },
           {
-            "score": 4.5,
-            "date": "2023-09-20",
-            "notes": "BPW condition, Ivermectin and iron x nutridrench"
-          },
-          {
-            "score": 5,
-            "date": "2023-10-23",
-            "notes": "sick episode"
+            "date": "3-13-26",
+            "notes": "Yearly booster given."
           }
         ],
         "weak_resistance": true,
@@ -427,7 +421,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool. Notebook card says Charlies Ram, BHD w/ horns. No tag on card but has tag 140. Eyes good 2-16-26. Yearly booster 3-13-26.",
+      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool. Notebook card says Charlies Ram, BHD w/ horns. No tag on card but has tag 140. Eyes good 2-16-26. Yearly booster 3-13-26. Also called Butthead. BHD w/ horns. Physically in Pen 2. Card says \"Charlies Ram\" but this is Rocky. Card says \"Charlies Ram BHD w/ horns\" but this is Rocky/Butthead in Pen 2. Eyes good 2-16, booster 3-13.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -1626,7 +1620,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": "Pen 3",
       "measurements": {
         "girth": 31.5,
         "length": 30,
@@ -1639,9 +1633,19 @@
       "health": {
         "famacha_scores": [
           {
-            "score": 3,
-            "date": "2025-tag-day",
-            "notes": "treated"
+            "date": "2-13-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "2-26-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "3-9-26",
+            "famacha": 1,
+            "notes": "CDT shot. Eyes good."
           }
         ],
         "weak_resistance": false,
@@ -1680,7 +1684,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1. Moved to Pen 3. Notebook card shows tag 000lb [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Tag 00016 confirmed. Intact ram. Descendant of Sir Loin and Smore (Cracker ram) through hair ewes (StA x Kat). Not the dominant ram in Pen 3 \u2014 Charlie is.",
+      "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1. Moved to Pen 3. Notebook card shows tag 000lb [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Tag 00016 confirmed. Intact ram. Descendant of Sir Loin and Smore (Cracker ram) through hair ewes (StA x Kat). Not the dominant ram in Pen 3 \u2014 Charlie is. Tag 00016. FAMACHA consistently good all checks Feb-Mar 2026. Physically in Pen 3.",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": false
@@ -2388,8 +2392,8 @@
         "Bt",
         "BT"
       ],
-      "tag": "034",
-      "mc_tag": null,
+      "tag": "0029",
+      "mc_tag": "MC15",
       "sex": "ewe",
       "breed_composition": {
         "primary": "St Augustine/Katahdin/BBB",
@@ -2413,10 +2417,30 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 2",
+      "pen": "Pen 3",
       "measurements": {},
       "health": {
-        "famacha_scores": [],
+        "famacha_scores": [
+          {
+            "date": "2-13-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "2-26-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "3-9-26",
+            "notes": "CDT shot"
+          },
+          {
+            "date": "4-9-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          }
+        ],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [
@@ -2455,7 +2479,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin \u2014 inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3.",
+      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin \u2014 inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3. MC15 yellow tag. Tag 0029. Had twins. FAMACHA consistently good all checks. SOLID.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -7621,21 +7645,21 @@
       "id": "tag-0033-twin-ram-2",
       "name": "0033 Twin Ram 2 (Black)",
       "aliases": [],
-      "tag": null,
+      "tag": "MC2609",
       "sex": "ram",
       "breed_composition": {
         "primary": "[UNCLEAR - 0033 offspring]",
         "percentages": {},
         "coat_type": "hair"
       },
-      "color_markings": "Black Ram. Small Patch of white on crown.",
-      "pen": null,
+      "color_markings": "Black ram, small patch of white on crown",
+      "pen": "Pen 1",
       "status": "sold",
       "sire_id": null,
       "dam_id": "tag-0033-hair-ewe",
       "dob": "2026-01-01",
       "dob_approximate": true,
-      "notes": "No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook card, pen 1.",
+      "notes": "No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook card, pen 1. MC2609 green tag (was 2603). Born 1-1-26. Blk ram. Eyes NOT GOOD 3-30-26 \u2014 treated. GOING TO AUCTION.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 7 pen 1"
@@ -7665,10 +7689,28 @@
             "vaccine": "Covexin",
             "notes": "6-week booster"
           }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2-13-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "2-19-26",
+            "famacha": 1,
+            "notes": "1st CDT 5mL. 7 weeks old."
+          },
+          {
+            "date": "3-30-26",
+            "famacha": 4,
+            "notes": "Eyes NOT GOOD. VB + Iron shot. Ivermectin. Booster + tag."
+          }
         ]
       },
       "status_date": "2026-04-06",
-      "status_notes": "Auction Sunday April 6, 2026"
+      "status_notes": "Auction Sunday April 6, 2026",
+      "mc_tag": "MC2609"
     },
     {
       "id": "orange-tag-00110",
@@ -7695,12 +7737,12 @@
         "coat_observed": "wool"
       },
       "color_markings": "Orange tag",
-      "pen": "Pen 3",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 00110, orange tag. Ram. Poop trimmed at butt 2-19-2026. Source: notebook card. Breeding rule R3: exclude from geriatric ewes (age >= 6) to reduce dystocia risk.",
+      "notes": "Tag 00110, orange tag. Ram. Poop trimmed at butt 2-19-2026. Source: notebook card. Breeding rule R3: exclude from geriatric ewes (age >= 6) to reduce dystocia risk. Orange tag. Eyes consistently good all checks. Physically in Pen 1.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 8 pen 1"
@@ -7721,6 +7763,23 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2-13-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "2-19-26",
+            "famacha": 1,
+            "notes": "Eyes good. Trimmed poop off butt."
+          },
+          {
+            "date": "3-30-26",
+            "famacha": 1,
+            "notes": "Booster. Eyes good."
           }
         ]
       },
@@ -7747,12 +7806,12 @@
         "coat_prediction": "mixed"
       },
       "color_markings": "",
-      "pen": "Pen 3",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 0044. Wool ewe. No babies. Source: notebook card, pen 1. Buck descendant. Wool ewe.",
+      "notes": "Tag 0044. Wool ewe. No babies. Source: notebook card, pen 1. Buck descendant. Wool ewe. Wool ewe. No babies. Eyes consistently good. Physically in Pen 1.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 9 pen 1"
@@ -7773,6 +7832,23 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2-13-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "2-19-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "4-30-26",
+            "famacha": 1,
+            "notes": "Booster. Eyes good."
           }
         ]
       },
@@ -7823,6 +7899,21 @@
             "date": "2026-03-13",
             "vaccine": "Covexin",
             "notes": "yearly booster"
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2-26-26",
+            "famacha": 1,
+            "notes": "Eyes good. No babies. In Pen 2."
+          },
+          {
+            "date": "3-13-26",
+            "notes": "Yearly booster given."
+          },
+          {
+            "date": "3-29-26",
+            "notes": "Lambed \u2014 black ram lamb. Moved to Pen 1 because Rocky kept her from newborn."
           }
         ]
       },
@@ -7875,12 +7966,12 @@
         "coat_prediction": "mixed"
       },
       "color_markings": "White Hair ewe",
-      "pen": "Pen 3",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": "samson",
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 0053. White Hair ewe. Name: Nuba (notebook spelling). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. White hair ewe. Samson x Sir Loin daughter. Sir Loin is maternal grandsire. 50% Hampshire / 37.5% StA / 12.5% Kat.",
+      "notes": "Tag 0053. White Hair ewe. Name: Nuba (notebook spelling). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. White hair ewe. Samson x Sir Loin daughter. Sir Loin is maternal grandsire. 50% Hampshire / 37.5% StA / 12.5% Kat. Was in Pen 2 with Rocky, moved to Pen 1 after lambing 3-24-26. Single baby ewe. Eyes consistently very good.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 2"
@@ -7906,6 +7997,26 @@
             "treatment": "Corid",
             "notes": "Pen 2 Corid treatment 3-8 through 3-13-26 (5 days)"
           }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2-26-26",
+            "famacha": 1,
+            "notes": "Eyes very good. No babies."
+          },
+          {
+            "date": "3-13-26",
+            "notes": "Yearly booster. Looks pregnant."
+          },
+          {
+            "date": "3-24-26",
+            "notes": "Single baby born (ewe)."
+          },
+          {
+            "date": "4-9-26",
+            "famacha": 1,
+            "notes": "Eyes good."
+          }
         ]
       },
       "weight_lbs": 175,
@@ -7917,7 +8028,7 @@
       "aliases": [
         "Charlies Ram"
       ],
-      "tag": null,
+      "tag": "MC20",
       "sex": "ram",
       "breed_composition": {
         "primary": "Katahdin/BHD/ABB/Wiltshire Horn",
@@ -7934,12 +8045,12 @@
         "coat_prediction": "hair"
       },
       "color_markings": "White with black spots, black horns",
-      "pen": "Pen 1",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "No tag (now tagged, number TBD). Charlies Ram. Horned. Had jaw abscess \u2014 lanced 2-27-26, treated with 4.5mL Nuflor 2-28-26 at 108.2 lbs. Flushed abscess. Source: notebook card pen 3. Sexually aggressive, dominant ram in Pen 3. Likely siring lambs in this pen. Needs to move to a new pen but has not been moved yet. Breed: BHD x Nori offspring bred to Katahdin. Charlie bought from friend Charlie who bred BHD to Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including this ram.",
+      "notes": "No tag (now tagged, number TBD). Charlies Ram. Horned. Had jaw abscess \u2014 lanced 2-27-26, treated with 4.5mL Nuflor 2-28-26 at 108.2 lbs. Flushed abscess. Source: notebook card pen 3. Sexually aggressive, dominant ram in Pen 3. Likely siring lambs in this pen. Needs to move to a new pen but has not been moved yet. Breed: BHD x Nori offspring bred to Katahdin. Charlie bought from friend Charlie who bred BHD to Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including this ram. MC20 yellow tag. Horned. Jaw abscess lanced 2-27, Nuflor 4.5mL, 105.2F fever. Flushed. Resolved by 3-9. FAMACHA consistently good. Monitor for CL.",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 1 pen 3"
@@ -7978,10 +8089,45 @@
             "date": "2026-03-09",
             "vaccine": "CDT"
           }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2-13-26",
+            "famacha": 1,
+            "notes": "Good eyes. Hard bump on left jaw."
+          },
+          {
+            "date": "2-26-26",
+            "famacha": 1,
+            "notes": "Eyes good. Soft bump still."
+          },
+          {
+            "date": "2-27-26",
+            "notes": "Lanced bump on L jaw."
+          },
+          {
+            "date": "2-28-26",
+            "notes": "4.5mL Nuflor. 105.2 fever. Flushed abscess."
+          },
+          {
+            "date": "3-2-26",
+            "notes": "New clean"
+          },
+          {
+            "date": "3-9-26",
+            "famacha": 1,
+            "notes": "CDT. Chin good."
+          },
+          {
+            "date": "4-9-26",
+            "famacha": 1,
+            "notes": "Eyes good."
+          }
         ]
       },
       "weight_lbs": 232.2,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "mc_tag": "MC20"
     },
     {
       "id": "charlies-farm-ewe-p3",
@@ -7989,7 +8135,7 @@
       "aliases": [
         "White Belly Ewe"
       ],
-      "tag": null,
+      "tag": "MC16",
       "sex": "ewe",
       "breed_composition": {
         "primary": "Katahdin/BHD/ABB/Wiltshire Horn",
@@ -8006,12 +8152,12 @@
         "coat_prediction": "hair"
       },
       "color_markings": "White Belly, multi color",
-      "pen": "Pen 6",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "No tag (now tagged TBD). Ewe from Charlies Farm. Multi color, white belly. Single baby (ewe, born 12-6-25). Source: notebook card pen 3. Nori line \u2014 one of Noris offspring, daughters, or granddaughters. Exact generation UNCLEAR. From Charlies farm. Youngest gen Nori line (mostly white). Same breed as Charlie \u2014 possible siblings. Inbreeding concern if bred to Charlie.",
+      "notes": "No tag (now tagged TBD). Ewe from Charlies Farm. Multi color, white belly. Single baby (ewe, born 12-6-25). Source: notebook card pen 3. Nori line \u2014 one of Noris offspring, daughters, or granddaughters. Exact generation UNCLEAR. From Charlies farm. Youngest gen Nori line (mostly white). Same breed as Charlie \u2014 possible siblings. Inbreeding concern if bred to Charlie. MC16 yellow tag. White belly, multi color. Single baby. Eyes consistently good. SOLID.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 3"
@@ -8034,29 +8180,51 @@
             "date": "2026-03-08",
             "vaccine": "CDT"
           }
+        ],
+        "famacha_scores": [
+          {
+            "date": "1-13-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "2-26-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "3-8-26",
+            "notes": "CDT"
+          },
+          {
+            "date": "4-9-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          }
         ]
       },
       "weight_lbs": 155,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "mc_tag": "MC16"
     },
     {
       "id": "charlies-farm-ewe-baby-p3",
       "name": "Charlies Farm Ewe Baby",
       "aliases": [],
-      "tag": null,
+      "tag": "MC2602",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Charlies Farm Ewe offspring]",
         "percentages": {},
         "coat_type": "unknown"
       },
-      "color_markings": "Big Brown with white tip on tail, 2 white socks, white on crown, front legs all brown",
-      "pen": "Pen 5",
+      "color_markings": "Big brown, white tip on tail, 2 white socks, white on crown, front legs all brown",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": "charlie-ram",
       "dam_id": "charlies-farm-ewe-p3",
       "dob": "2025-12-06",
-      "notes": "No tag (now tagged TBD). Born 12-6-25. Baby ewe from Charlies Farm ewe. 10 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie but could be Merrie. No horns (good sign). Dam is Charlies Farm Ewe (Nori line).",
+      "notes": "No tag (now tagged TBD). Born 12-6-25. Baby ewe from Charlies Farm ewe. 10 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie but could be Merrie. No horns (good sign). Dam is Charlies Farm Ewe (Nori line). MC2602 green tag (was MC2609). Big brown ewe lamb. Eyes consistently good. SOLID.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 3 pen 3"
@@ -8079,27 +8247,53 @@
             "date": "2026-03-08",
             "vaccine": "CDT"
           }
+        ],
+        "famacha_scores": [
+          {
+            "date": "1-13-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "2-20-26",
+            "notes": "10 weeks old today"
+          },
+          {
+            "date": "2-26-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "3-8-26",
+            "notes": "CDT shot"
+          },
+          {
+            "date": "4-9-26",
+            "famacha": 1,
+            "notes": "Booster. Eyes good."
+          }
         ]
-      }
+      },
+      "mc_tag": "MC2602"
     },
     {
       "id": "broken-tail-twin-ewe",
       "name": "Broken Tail Twin Ewe",
       "aliases": [],
-      "tag": null,
+      "tag": "MC2605",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Broken Tail offspring]",
         "percentages": {},
         "coat_type": "unknown"
       },
-      "color_markings": "Brown & White",
-      "pen": "Pen 4",
+      "color_markings": "Brown & white",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": null,
       "dam_id": "broken-tail",
       "dob": "2025-12-31",
-      "notes": "No tag (now tagged TBD). Born 12-31-25. Broken Tails twin ewe. Brown & white. Escaped from catch pen 2-13-26. 6.6 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie (dominant) but could be Merrie. No horns on any Pen 3 lambs this year.",
+      "notes": "No tag (now tagged TBD). Born 12-31-25. Broken Tails twin ewe. Brown & white. Escaped from catch pen 2-13-26. 6.6 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie (dominant) but could be Merrie. No horns on any Pen 3 lambs this year. MC2605 green tag (also MC2625 \u2014 keeps losing tags). Brown+white. Pen 3. EYES WHITE 4-9-26 \u2014 parasite vulnerable like white twin. Both BT twins failing.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 5 pen 3"
@@ -8117,8 +8311,29 @@
             "date": "2026-03-09",
             "vaccine": "CDT"
           }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2-13-26",
+            "notes": "Escaped from catch pen"
+          },
+          {
+            "date": "2-20-26",
+            "notes": "6.6 weeks old"
+          },
+          {
+            "date": "3-9-26",
+            "famacha": 1,
+            "notes": "CDT shot. Eyes good."
+          },
+          {
+            "date": "4-9-26",
+            "famacha": 5,
+            "notes": "EYES WHITE. 1cc Iron, 1.5cc VB shot, Ivermectin. Booster."
+          }
         ]
-      }
+      },
+      "mc_tag": "MC2605"
     },
     {
       "id": "broken-tail-twin-ewe-2",
@@ -8163,22 +8378,22 @@
     },
     {
       "id": "nori-baby-p3",
-      "name": "Noris Baby (Pen 3)",
+      "name": "Nori's Baby Ram (Pen 3)",
       "aliases": [],
-      "tag": null,
-      "sex": "ewe",
+      "tag": "MC2604",
+      "sex": "ram",
       "breed_composition": {
         "primary": "[UNCLEAR - Nori offspring]",
         "percentages": {},
         "coat_type": "unknown"
       },
-      "color_markings": "Brown & White mottled, Full White Tail, White on top of ears, White Blaze",
-      "pen": "Pen 5",
+      "color_markings": "Brown & white mottled, full white tail, white on top of ears, white blaze",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": null,
       "dam_id": "nori",
       "dob": "2026-01-10",
-      "notes": "No tag (now tagged TBD). Born 1-10-26. 0029/Noris Baby. 5.3 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie (dominant) but could be Merrie. No horns on any Pen 3 lambs this year.",
+      "notes": "No tag (now tagged TBD). Born 1-10-26. 0029/Noris Baby. 5.3 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie (dominant) but could be Merrie. No horns on any Pen 3 lambs this year. MC2604 green tag (pulled out once). 0029 Noris Baby. MALE not female. Brown+white mottled. Eyes med (FAMACHA 3) on 4-9-26.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 8 pen 3"
@@ -8207,8 +8422,35 @@
             "vaccine": "CDT",
             "notes": "1st dose"
           }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2-13-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "2-20-26",
+            "notes": "5.3 weeks old"
+          },
+          {
+            "date": "2-26-26",
+            "famacha": 1,
+            "notes": "Eyes good"
+          },
+          {
+            "date": "3-9-26",
+            "famacha": 1,
+            "notes": "CDT shot. Eyes good."
+          },
+          {
+            "date": "4-9-26",
+            "famacha": 3,
+            "notes": "Booster. Eyes med."
+          }
         ]
-      }
+      },
+      "mc_tag": "MC2604"
     },
     {
       "id": "g023-bhd-ewe",
@@ -9351,6 +9593,57 @@
       "confidence": "high",
       "last_verified": "2026-04-03",
       "temperament": "aggressive toward handlers \u2014 fractured hand. Requires dominant handling protocol."
+    },
+    {
+      "id": "nuba-baby-ewe",
+      "name": "Nuba's Baby Ewe",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "Black with white patch on top, white tip on tail",
+      "weight_lbs": null,
+      "dob": "2026-03-24",
+      "dob_approximate": false,
+      "sire_id": "rocky",
+      "dam_id": "nuba-0053",
+      "status": "alive",
+      "status_date": "2026-03-24",
+      "pen": "Pen 1",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "date": "4-9-26",
+            "famacha": 1,
+            "notes": "Checked eyes good. 1st CDT shot."
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [
+          {
+            "date": "2026-04-09",
+            "type": "CDT",
+            "notes": "1st dose"
+          }
+        ],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 3-24-26 to Nuba (0053) in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9).",
+      "confidence": "high",
+      "last_verified": "2026-04-09"
     }
   ],
   "pens": {
