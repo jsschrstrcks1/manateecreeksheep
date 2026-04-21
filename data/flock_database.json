@@ -1593,8 +1593,11 @@
     },
     {
       "id": "merrie",
-      "name": "Merrie",
-      "aliases": [],
+      "name": "Merrieweather",
+      "aliases": [
+        "Merrie",
+        "Merrieweather"
+      ],
       "tag": "00016",
       "mc_tag": null,
       "sex": "ram",
