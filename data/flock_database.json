@@ -339,7 +339,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": "Goose Pen",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -1207,7 +1207,7 @@
       "status": "alive",
       "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 5",
+      "pen": "Pen 4",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1597,7 +1597,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 1",
+      "pen": "Pen 6",
       "measurements": {
         "girth": 31.5,
         "length": 30,
@@ -2863,10 +2863,10 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "nori",
-      "status": "alive",
-      "status_date": null,
-      "status_notes": "Died after Hurricane Idalia (Aug 2023)",
-      "pen": "Goose Pen",
+      "status": "sold",
+      "status_date": "2026-04-06",
+      "status_notes": "Auction Sunday April 6, 2026",
+      "pen": null,
       "measurements": {
         "girth": 22,
         "length": 26,
@@ -7269,17 +7269,25 @@
       "tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "[UNCLEAR]",
-        "percentages": {},
-        "coat_type": "unknown"
+        "primary": "Katahdin/BHD/ABB/Wiltshire Horn",
+        "percentages": {
+          "Katahdin": 50,
+          "Black Headed Dorper": 25,
+          "American Black Belly": 12.5,
+          "Wiltshire Horn": 12.5
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100.0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
       },
       "color_markings": "White w/ Blk Belly, White Blaze w/ Blk eyebrows, Fawn color mostly, Blk under chin, Blk inside ears, Front legs on knees Black, Left front hooves white sock, 2 white socks on hind legs",
       "pen": "Pen 3",
       "status": "alive",
       "sire_id": null,
-      "dam_id": null,
+      "dam_id": "nori-line-f2",
       "dob": null,
-      "notes": "No tag (now tagged, number TBD). Single baby (ram, born 12-26-25). Source: notebook card, pen 1.",
+      "notes": "Nori line: Nori(ABB/WH) x Dorper -> x Katahdin -> Charlies Ewe. Same breed composition as Charlie. Technical half-siblings through Nori ancestry. 100% hair genetics.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 1 pen 1"
@@ -7311,17 +7319,27 @@
       "tag": null,
       "sex": "ram",
       "breed_composition": {
-        "primary": "[UNCLEAR]",
-        "percentages": {},
-        "coat_type": "unknown"
+        "primary": "Katahdin/Awassi/BHD/ABB/Wiltshire Horn",
+        "percentages": {
+          "Katahdin": 50,
+          "Awassi": 24,
+          "Black Headed Dorper": 12.5,
+          "American Black Belly": 6.25,
+          "Wiltshire Horn": 6.25,
+          "East Friesian": 1
+        },
+        "coat_type": "hair",
+        "hair_percentage": 75.0,
+        "wool_percentage": 25.0,
+        "coat_prediction": "hair"
       },
       "color_markings": "Brown & White w/ White tail, Blk Patches on Legs, Primarily White face with Brown Patches around eyes, Brown Back with White Patches",
       "pen": "Goose Pen",
       "status": "alive",
-      "sire_id": null,
+      "sire_id": "buck",
       "dam_id": "charlies-ewe",
       "dob": "2025-12-26",
-      "notes": "No tag (now tagged, number TBD). Born 12-26-25. 9.5 weeks old as of 2-19-2026. Source: notebook card, pen 1.",
+      "notes": "Buck(Kat/Awassi/EF) x Charlies Ewe(Kat/BHD/ABB/WH). 75% hair, above shedding threshold. Heavy Katahdin from both parents. Awassi dairy backup potential.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 1"
@@ -7490,8 +7508,8 @@
         "coat_type": "hair"
       },
       "color_markings": "White & Brown Ram, White Blaze on face down on nose, Hind legs 2 white socks, White tail",
-      "pen": "Goose Pen",
-      "status": "alive",
+      "pen": null,
+      "status": "sold",
       "sire_id": null,
       "dam_id": "tag-0033-hair-ewe",
       "dob": "2026-01-01",
@@ -7527,7 +7545,9 @@
             "notes": "6-week booster"
           }
         ]
-      }
+      },
+      "status_date": "2026-04-06",
+      "status_notes": "Auction Sunday April 6, 2026"
     },
     {
       "id": "tag-0033-twin-ram-2",
@@ -7541,8 +7561,8 @@
         "coat_type": "hair"
       },
       "color_markings": "Black Ram. Small Patch of white on crown.",
-      "pen": "Goose Pen",
-      "status": "alive",
+      "pen": null,
+      "status": "sold",
       "sire_id": null,
       "dam_id": "tag-0033-hair-ewe",
       "dob": "2026-01-01",
@@ -7578,7 +7598,9 @@
             "notes": "6-week booster"
           }
         ]
-      }
+      },
+      "status_date": "2026-04-06",
+      "status_notes": "Auction Sunday April 6, 2026"
     },
     {
       "id": "orange-tag-00110",
@@ -7844,7 +7866,7 @@
         "coat_prediction": "hair"
       },
       "color_markings": "White with black spots, black horns",
-      "pen": "Pen 2",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
@@ -8042,8 +8064,8 @@
         "coat_type": "unknown"
       },
       "color_markings": "White ewe",
-      "pen": "Pen 4",
-      "status": "alive",
+      "pen": null,
+      "status": "sold",
       "sire_id": null,
       "dam_id": "broken-tail",
       "dob": "2025-12-31",
@@ -8067,7 +8089,9 @@
             "notes": "1st dose"
           }
         ]
-      }
+      },
+      "status_date": "2026-04-06",
+      "status_notes": "Auction Sunday April 6, 2026"
     },
     {
       "id": "nori-baby-p3",
@@ -8344,7 +8368,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "White",
-      "pen": "Pen 6",
+      "pen": "Pen 5",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
@@ -8706,8 +8730,8 @@
       "name": "Elsie Small White Ewe Triplet",
       "tag": null,
       "sex": "ewe",
-      "pen": "Pen 5",
-      "status": "alive",
+      "pen": null,
+      "status": "sold",
       "sire_id": "eclipse",
       "dam_id": "elsie",
       "dob": "2026-01-06",
@@ -8727,7 +8751,9 @@
             "vaccine": "Covexin 8"
           }
         ]
-      }
+      },
+      "status_date": "2026-04-06",
+      "status_notes": "Auction Sunday April 6, 2026"
     },
     {
       "id": "elsie-triplet-black-ram",
@@ -9078,6 +9104,67 @@
       "status_date": "2026-02-15",
       "notes": "Black, sheared. Sold at auction 2-15-26. ~00.",
       "pen": null
+    },
+    {
+      "id": "windlestone-kat-dorper",
+      "name": "Windlestone Kat/Dorper Ram",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin/Dorper",
+        "percentages": {
+          "Katahdin": 50,
+          "Black Headed Dorper": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100.0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair",
+        "coat_observed": "hair",
+        "notes": "Top-tier Windlestone Katahdin x elite Dorper (top in the country). 100% hair genetics from best of both breeds."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": "2026-04-03",
+      "status_notes": "Purchased from Windlestone",
+      "pen": "Pen 2",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [
+          {
+            "score": 1,
+            "date": "2025-2026",
+            "notes": "Consistently dark red (FAMACHA 1) for past year per Windlestone"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": [
+          "FAMACHA 1 consistently for 1 year. PROVEN parasite resistance."
+        ]
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "Pen 2 - Stage 7 Elite",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Windlestone Kat/Dorper: 50% top-tier Katahdin x 50% elite Dorper (top in the country). FAMACHA 1 consistently for 1 year. 100% hair. HAS ATTITUDE \u2014 fractured handlers hand. Pen 2 is secure/built for dangerous rams. Handler protocol: pin on back, pinch nose to submit if charges. Elite genetics justify the management overhead.",
+      "confidence": "high",
+      "last_verified": "2026-04-03",
+      "temperament": "aggressive toward handlers \u2014 fractured hand. Requires dominant handling protocol."
     }
   ],
   "pens": {
@@ -9456,8 +9543,8 @@
           "size": "large",
           "location": "east side",
           "capacity": "8-9 animals",
-          "ram": "rocky",
-          "ram_notes": "300 lbs, 50% hair (BHD/Awassi). WEAK parasites but adds meat/Dorper genetics. Select HARD against parasite weakness in his offspring.",
+          "ram": "buck",
+          "ram_notes": "Buck (271 lbs, 50% Kat/48% Awassi/2% EF). Promoted from Pen 5. Better parasites than Rocky whom he replaced.",
           "advancement_criteria": {
             "famacha": "<3",
             "fec_epg": "<350",
@@ -9471,8 +9558,8 @@
           "size": "medium-large",
           "location": "east side",
           "capacity": "7-8 animals",
-          "ram": "buck",
-          "ram_notes": "271 lbs, 50% hair (Kat/Awassi). Katahdin adds parasite resistance back after Rocky stage.",
+          "ram": "serendipity-twin-ram",
+          "ram_notes": "Serendipity White Ram Twin (Kelsier x Serendipity). Stage 4. PROVISIONAL.",
           "advancement_criteria": {
             "famacha": "<2",
             "fec_epg": "<300",
@@ -9486,8 +9573,8 @@
           "size": "medium",
           "location": "NE corner, east side",
           "capacity": "6-7 animals",
-          "ram": "serendipity-twin-ram",
-          "ram_notes": "Serendipity White Ram Twin (Kelsier\u00d7Serendipity, ~56% Kat). PROVISIONAL \u2014 pending summer FAMACHA test. If fails, replace.",
+          "ram": "merrie",
+          "ram_notes": "Merrie (200 lbs, observed shedder). Florida heritage. Stage 5 refinement.",
           "advancement_criteria": {
             "famacha": "<2",
             "fec_epg": "<250",
@@ -9501,8 +9588,8 @@
           "size": "medium-small",
           "location": "SW corner, west side (isolated)",
           "capacity": "5-6 animals",
-          "ram": "merrie",
-          "ram_notes": "Merrie (200 lbs, observed shedder). 2nd best shedding ram. Stage 6 refinement.",
+          "ram": "charlie-ram",
+          "ram_notes": "Charlie (232 lbs, 100% hair Kat/BHD/ABB/WH). Moved from Pen 2 to Pen 1 when Windlestone ram took elite slot.",
           "advancement_criteria": {
             "famacha": "<2",
             "fec_epg": "<200",
@@ -9516,8 +9603,8 @@
           "size": "small",
           "location": "SW corner, west side (isolated, most secure)",
           "capacity": "3-4 animals",
-          "ram": "charlie-ram",
-          "ram_notes": "Charlie (232 lbs, 100% hair). Best ram in flock. Earned elite status. Broken Tail + Elsie are his ewes.",
+          "ram": "windlestone-kat-dorper",
+          "ram_notes": "Windlestone Kat/Dorper (50% top Kat x 50% elite Dorper). 100% hair, FAMACHA 1 for 1 year. ATTITUDE \u2014 secure pen required. Elite genetics.",
           "advancement_criteria": {
             "famacha": "1-2 only",
             "fec_epg": "<150",
