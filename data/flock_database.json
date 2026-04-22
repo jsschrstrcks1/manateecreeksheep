@@ -4630,8 +4630,39 @@
             "treatment": "B-complex (thiamine deficiency)"
           }
         ],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0612"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0612",
+            "note": "Described as 'Kelsier's sister' on 4-11-26 card. Pen 6 on 4-11-26 per card circle (pen_5.notes says back to Pen 5 \u2014 contradicts card; card wins)."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2025-11-12",
+            "score": "1-2",
+            "notes": "Good eyes, no babies (date reads '11-12-26'; Nov 2025 most likely given sequence)",
+            "source": "IMG_0612"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0612"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0612"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
