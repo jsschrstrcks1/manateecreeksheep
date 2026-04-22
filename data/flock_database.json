@@ -7518,6 +7518,18 @@
             "score": "1-2",
             "notes": "eyes good; single baby this season",
             "source": "IMG_0632"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; CDT shot 5ml (partially obscured on card)",
+            "source": "IMG_0633"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster + tag, eyes good",
+            "source": "IMG_0633"
           }
         ],
         "famacha_scores": [
@@ -7531,8 +7543,25 @@
           {
             "source": "IMG_0632",
             "note": "New notebook (blue spiral). Green tags: MC-2620 top + MC-2611 bottom. Pen 1 per card."
+          },
+          {
+            "source": "IMG_0633",
+            "note": "Card back \u2014 continues IMG_0632. CDT 2-19 + booster 3-30, both with eyes good."
           }
-        ]
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (5ml noted)",
+            "source": "IMG_0633"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0633"
+          }
+        ],
+        "treatments": []
       },
       "mc_tag": "MC2620",
       "secondary_tags": [
