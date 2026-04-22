@@ -9527,7 +9527,7 @@
       "name": "MC08",
       "tag": "MC08",
       "sex": "ram",
-      "pen": "Goose Pen",
+      "pen": "Pen 6",
       "status": "alive",
       "color_markings": "Fawn wool, yellow tag, colored",
       "breed_composition": {
@@ -9576,14 +9576,20 @@
         ]
       },
       "weight_lbs": 190,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "IMG_0616",
+          "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        }
+      ]
     },
     {
       "id": "windlestone-2139",
       "name": "Windlestone Fat Tail 2139",
       "tag": "2139",
       "sex": "ewe",
-      "pen": "Goose Pen",
+      "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
         "primary": "Awassi (almost pure)",
@@ -9615,14 +9621,20 @@
         ]
       },
       "weight_lbs": 200.0,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "IMG_0616",
+          "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        }
+      ]
     },
     {
       "id": "windlestone-0056",
       "name": "Windlestone Fat Tail 0056",
       "tag": "0056",
       "sex": "ewe",
-      "pen": "Goose Pen",
+      "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
         "primary": "Awassi (almost pure)",
@@ -9654,14 +9666,20 @@
         ]
       },
       "weight_lbs": 200.0,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "IMG_0616",
+          "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        }
+      ]
     },
     {
       "id": "windlestone-0055",
       "name": "Windlestone Fat Tail 0055",
       "tag": "0055",
       "sex": "ewe",
-      "pen": "Goose Pen",
+      "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
         "primary": "Awassi (almost pure)",
@@ -9693,7 +9711,13 @@
         ]
       },
       "weight_lbs": 200.0,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "IMG_0616",
+          "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        }
+      ]
     },
     {
       "id": "tag-0035-white-ewe",
@@ -9887,7 +9911,14 @@
       "status": "sold",
       "status_date": "2026-02-15",
       "notes": "Sold at auction 2-15-26. ~00.",
-      "pen": null
+      "pen": null,
+      "sold_date": "2026-04-15",
+      "notes_history": [
+        {
+          "source": "IMG_0617",
+          "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
+        }
+      ]
     },
     {
       "id": "goose-50",
@@ -9897,7 +9928,14 @@
       "status": "sold",
       "status_date": "2026-02-15",
       "notes": "Wooly Tan. Sold at auction 2-15-26. ~00.",
-      "pen": null
+      "pen": null,
+      "sold_date": "2026-04-15",
+      "notes_history": [
+        {
+          "source": "IMG_0617",
+          "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
+        }
+      ]
     },
     {
       "id": "goose-06",
@@ -9907,7 +9945,14 @@
       "status": "sold",
       "status_date": "2026-02-15",
       "notes": "White Hair/Tan. Sold at auction 2-15-26. ~00.",
-      "pen": null
+      "pen": null,
+      "sold_date": "2026-04-15",
+      "notes_history": [
+        {
+          "source": "IMG_0617",
+          "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
+        }
+      ]
     },
     {
       "id": "goose-l19",
@@ -9917,7 +9962,14 @@
       "status": "sold",
       "status_date": "2026-02-15",
       "notes": "Black, sheared. Sold at auction 2-15-26. ~00.",
-      "pen": null
+      "pen": null,
+      "sold_date": "2026-04-15",
+      "notes_history": [
+        {
+          "source": "IMG_0617",
+          "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
+        }
+      ]
     },
     {
       "id": "windlestone-kat-dorper",
@@ -10176,7 +10228,7 @@
       "ram": null,
       "ewes": [],
       "lambs": [],
-      "notes": "Goose Pen EMPTY. Animals sold at auction 2-15-26. Tags: 09, 50, 06, L19, plus 2 untagged (1 white ewe, 1 tan wooly male). Sold for approx 00 each, total ~000 minus fees ~50 net. Buyer: Bobbie B [UNCLEAR]. Source: notebook goose pen card."
+      "notes": "Goose Pen EMPTY. Animals sold at auction 2-15-26. Tags: 09, 50, 06, L19, plus 2 untagged (1 white ewe, 1 tan wooly male). Sold for approx 00 each, total ~000 minus fees ~50 net. Buyer: Bobbie B [UNCLEAR]. Source: notebook goose pen card. | Goose Pen EMPTY as of April 2026 (per owner + card IMG_0617 auction log). Prior occupants: [] ram: None"
     },
     "chicken_coop": {
       "ram": "buck",
