@@ -210,7 +210,7 @@
         "Gigi",
         "Gg"
       ],
-      "tag": "MC19",
+      "tag": "MC-19",
       "mc_tag": "MC19",
       "sex": "ewe",
       "breed_composition": {
@@ -275,6 +275,12 @@
             "date": "2026-02-27",
             "treatment": "Ivermectin + Fenbendazole + VB 3mL + Iron 3mL",
             "notes": "Still almost white"
+          },
+          {
+            "date": "2026-04-10",
+            "treatment": "Fenbendazole + Ivermectin + Iron 3mL + VB 4mL",
+            "notes": "Third FAMACHA 5 emergency. Weak resistance severely confirmed.",
+            "source": "IMG_0663"
           }
         ],
         "vaccinations": [
@@ -283,7 +289,16 @@
             "vaccine": "Covexin 8"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0662",
+            "note": "MC-19 yellow tag confirmed. Single ewe (no babies). 'Weak resistance' confirmed by parasite emergency 2-20 to 2-27-26."
+          },
+          {
+            "source": "IMG_0663",
+            "note": "THIRD parasite emergency (2-20, 2-27, 4-10 all FAMACHA 5). Strong cull candidate per drought-rule protocol."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-12",
@@ -304,6 +319,36 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "CDT shot. Eyes good. Recovered."
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good; single ewe",
+            "source": "IMG_0662"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 5,
+            "notes": "Eyes almost white. Ivermec+Fenbendazole+VB 3mL+Iron 2mL",
+            "source": "IMG_0662"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 5,
+            "notes": "Eyes almost white still. Ivermec+Fenbendazole+VB 3mL+Iron 3mL",
+            "source": "IMG_0662"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0662"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 5,
+            "notes": "Eyes almost white AGAIN (3rd emergency). Fenbendazole+Ivermectin+Iron 3mL+VB 4mL shot",
+            "source": "IMG_0663"
           }
         ]
       },
@@ -326,7 +371,8 @@
       },
       "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook. Pen 4 (monitoring/treatment pen). FAMACHA almost white (4-5) on 2-20-26 and 2-27-26 \u2014 two rounds aggressive treatment (Ivermectin+Fenbendazole+VB+Iron). Recovered to good by 3-9-26. Single ewe baby born 1-10-26. Also has 2025 yearling ram (tag 09?, sire Kelsier). Known weak parasite resistance \u2014 dam genetics appear dominant for parasite susceptibility despite Kelsier sire on offspring. One of familys favorites. Azure is Gigis sister (confirmed from notebook: Azures card says Gilris/Gigis Sister). Source: notebook card pen 4. Full sister of Azure. Both 50% Hampshire / 50% Suffolk. Large frame ~212 lbs. MC19 yellow tag. GiGi. FAMACHA: good\u2192ALMOST WHITE 2x (2-20,2-27) aggressive treatment\u2192recovered\u2192good 3-9 and 4-10. HIGH MAINTENANCE.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "secondary_tags": []
     },
     {
       "id": "rocky",
@@ -1202,7 +1248,7 @@
       "id": "buck",
       "name": "Buck",
       "aliases": [],
-      "tag": null,
+      "tag": "MC-2433",
       "mc_tag": null,
       "sex": "ram",
       "breed_composition": {
@@ -1227,14 +1273,45 @@
       "status": "alive",
       "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": "Tree Fort",
       "measurements": {},
       "health": {
         "famacha_scores": [],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT",
+            "source": "IMG_0622"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0622",
+            "note": "Wool coat. Brown elbows on back legs. Tagged 4-11-26 with green MC-2433; yellow scrapie 240007. Tree Fort per card (conflicts with later pipeline plan that targets Pen 4)."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0622"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0622"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes, tagged MC-2433",
+            "source": "IMG_0622"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -1249,7 +1326,10 @@
       "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).  ALIVE as of April 2026. In Tree Fort. Like Rocky but Katahdin instead of Dorper.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "weight_estimated": true
+      "weight_estimated": true,
+      "secondary_tags": [
+        "240007"
+      ]
     },
     {
       "id": "dodge",
@@ -1407,8 +1487,19 @@
         ],
         "weak_resistance": true,
         "treatments": [],
-        "vaccinations": [],
-        "notes": [],
+        "vaccinations": [
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0637"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0637",
+            "note": "Described as 'Gigi's Sister' on card. Had single baby this lambing season."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
@@ -1424,6 +1515,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0637"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0637"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "eyes good \u2014 booster",
+            "source": "IMG_0637"
           }
         ]
       },
@@ -1544,7 +1653,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 1",
+      "pen": "Pen 3",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1554,9 +1663,19 @@
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0657"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0657",
+            "note": "Single baby this season. Knot observed under chin 2-26-26 \u2014 monitor."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
@@ -1572,6 +1691,30 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "CDT shot. Eyes good."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0657"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good; knot under chin observed",
+            "source": "IMG_0657"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0657"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0657"
           }
         ]
       },
@@ -1664,9 +1807,19 @@
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0659"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0659",
+            "note": "Card confirms: male Ram, fully intact. Tag 00016."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
@@ -1677,6 +1830,24 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0659"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0659"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0659"
           }
         ]
       },
@@ -2402,7 +2573,7 @@
         "Bt",
         "BT"
       ],
-      "tag": "0029",
+      "tag": "MC-15",
       "mc_tag": "MC15",
       "sex": "ewe",
       "breed_composition": {
@@ -2457,9 +2628,19 @@
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0654"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0654",
+            "note": "Was \"no tag\" \u2014 got yellow MC-15 tag. Had twins this season. Prior tag 0029 moved to secondary_tags."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
@@ -2470,6 +2651,30 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0654"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0654"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0654"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0654"
           }
         ]
       },
@@ -2491,7 +2696,10 @@
       },
       "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin \u2014 inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3. MC15 yellow tag. Tag 0029. Had twins. FAMACHA consistently good all checks. SOLID.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "secondary_tags": [
+        "0029"
+      ]
     },
     {
       "id": "trouble",
@@ -2983,14 +3191,36 @@
           {
             "date": "2026-03-11",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-11",
+            "vaccine": "CDT",
+            "source": "IMG_0609"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0609",
+            "note": "Card description: white with beard. Ram Tag 113, Pen 5 before sale."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0609"
+          },
+          {
+            "date": "2026-03-11",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0609"
           }
         ]
       },
@@ -4608,8 +4838,39 @@
             "treatment": "B-complex (thiamine deficiency)"
           }
         ],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0612"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0612",
+            "note": "Described as 'Kelsier's sister' on 4-11-26 card. Pen 6 on 4-11-26 per card circle (pen_5.notes says back to Pen 5 \u2014 contradicts card; card wins)."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2025-11-12",
+            "score": "1-2",
+            "notes": "Good eyes, no babies (date reads '11-12-26'; Nov 2025 most likely given sequence)",
+            "source": "IMG_0612"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0612"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0612"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -7399,7 +7660,7 @@
         "coat_prediction": "hair"
       },
       "color_markings": "White w/ blk belly. White blaze with blk eyebrows. Fawn color mostly. Blk under chin. Blk inside ears. Front legs on knees black. Left front above white sock. 2 white socks on hind legs.",
-      "pen": "Pen 3",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
       "dam_id": "nori-line-f2",
@@ -7425,6 +7686,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good; single baby this season",
+            "source": "IMG_0632"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; CDT shot 5ml (partially obscured on card)",
+            "source": "IMG_0633"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster + tag, eyes good",
+            "source": "IMG_0633"
           }
         ],
         "famacha_scores": [
@@ -7433,15 +7712,46 @@
             "famacha": 1,
             "notes": "Eyes good"
           }
-        ]
+        ],
+        "notes": [
+          {
+            "source": "IMG_0632",
+            "note": "New notebook (blue spiral). Green tags: MC-2620 top + MC-2611 bottom. Pen 1 per card."
+          },
+          {
+            "source": "IMG_0633",
+            "note": "Card back \u2014 continues IMG_0632. CDT 2-19 + booster 3-30, both with eyes good."
+          },
+          {
+            "source": "IMG_0634",
+            "note": "Duplicate photo of IMG_0633 card back. No new data."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (5ml noted)",
+            "source": "IMG_0633"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0633"
+          }
+        ],
+        "treatments": []
       },
-      "mc_tag": "MC2620"
+      "mc_tag": "MC2620",
+      "secondary_tags": [
+        "MC-2611"
+      ],
+      "description": "White with black belly. Black with black eyebrows. Fawn color mostly. Black under chin. Black inside ears. Front legs black on knees. Left front hoof white side. 2 white socks on hind legs."
     },
     {
       "id": "charlies-ram-lamb",
       "name": "Charlies Ewe Ram Lamb",
       "aliases": [],
-      "tag": "MC2619",
+      "tag": "MC-2619",
       "sex": "ram",
       "breed_composition": {
         "primary": "Katahdin/Awassi/BHD/ABB/Wiltshire Horn",
@@ -7459,11 +7769,11 @@
         "coat_prediction": "hair"
       },
       "color_markings": "Brown & white, white tail, blk patches on legs. White face with brown patches around eyes. Brown back with white patches.",
-      "pen": "Goose Pen",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": "buck",
       "dam_id": "charlies-ewe",
-      "dob": "2025-10-26",
+      "dob": "2025-12-26",
       "notes": "Buck(Kat/Awassi/EF) x Charlies Ewe(Kat/BHD/ABB/WH). 75% hair, above shedding threshold. Heavy Katahdin from both parents. Awassi dairy backup potential. MC2619 + 2612 green tags. Born 10-26-25 (CORRECTED from 12-26). Eyes consistently good all checks. In Pen 1.",
       "confidence": "medium",
       "source_refs": {
@@ -7485,6 +7795,30 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. CDT booster."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "good eyes",
+            "source": "IMG_0635"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "5mL 1 Vacc CDT",
+            "source": "IMG_0635"
+          },
+          {
+            "date": "2026-04-02",
+            "score": "1-2",
+            "notes": "6 week booster",
+            "source": "IMG_0635"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster + tag; eyes good (back of card)",
+            "source": "IMG_0636"
           }
         ],
         "vaccinations": [
@@ -7499,6 +7833,21 @@
             "vaccine": "Covexin",
             "dose": "5mL",
             "notes": "6-week booster"
+          },
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (5mL 1 Vacc)",
+            "source": "IMG_0635"
+          },
+          {
+            "date": "2026-04-02",
+            "vaccine": "CDT booster (6 wk)",
+            "source": "IMG_0635"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster (tag)",
+            "source": "IMG_0636"
           }
         ],
         "famacha_scores": [
@@ -7517,9 +7866,23 @@
             "famacha": 1,
             "notes": "Booster. Tag. Eyes good."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0635",
+            "note": "DOB CORRECTION: card IMG_0635 shows 12-26-25 (supersedes prior 10-26-25). Dam: Charlies Ewe. Pen 1 per card."
+          },
+          {
+            "source": "IMG_0636",
+            "note": "Back of IMG_0635 card. 3-30-26 booster is probably same event IMG_0635 labeled \"4-2-26 6 week booster\". Keeping both for source traceability."
+          }
         ]
       },
-      "mc_tag": "MC2619"
+      "mc_tag": "MC2619",
+      "secondary_tags": [
+        "MC-2612"
+      ],
+      "description": "Brown + white with white tail. Black patches on legs. Primarily white face with brown patches around eyes. Brown back with white patches."
     },
     {
       "id": "baby-azure",
@@ -7528,7 +7891,7 @@
         "Gigis Sister",
         "Azure Baby"
       ],
-      "tag": "MC2610",
+      "tag": "MC-2610",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Azure offspring]",
@@ -7562,6 +7925,30 @@
             "date": "2026-04-01",
             "score": 5,
             "notes": "FAMACHA 5 \u2014 severe. Bright and alert despite score."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0638"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; 1st CDT 5mL shot; ~5 weeks old",
+            "source": "IMG_0638"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster + tag; eyes good",
+            "source": "IMG_0638"
+          },
+          {
+            "date": "2026-04-02",
+            "score": "1-2",
+            "notes": "Notes \"needs booster\" \u2014 may be planning note before 3-30 booster event was logged",
+            "source": "IMG_0638"
           }
         ],
         "treatments": [
@@ -7588,6 +7975,16 @@
             "vaccine": "Covexin",
             "dose": "5mL",
             "notes": "6-week booster"
+          },
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (1st 5mL)",
+            "source": "IMG_0638"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster + tag",
+            "source": "IMG_0638"
           }
         ],
         "famacha_scores": [
@@ -7611,9 +8008,19 @@
             "famacha": 5,
             "notes": "FAMACHA 5 \u2014 treated with Ivermectin+Fenbendazole+Iron+B12+Nutridrench."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0638",
+            "note": "DOB confirmed 2026-01-10. Green tag MC-2610 (+ 26010). Pen 1. Dam: Azure."
+          }
         ]
       },
-      "mc_tag": "MC2610"
+      "mc_tag": "MC2610",
+      "secondary_tags": [
+        "26010"
+      ],
+      "description": "Black legs, ears, face; lighter body"
     },
     {
       "id": "tag-0033-hair-ewe",
@@ -7656,6 +8063,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0639"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0639"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "eyes good \u2014 booster",
+            "source": "IMG_0639"
           }
         ],
         "famacha_scores": [
@@ -7673,6 +8098,20 @@
             "date": "3-30-26",
             "famacha": 1,
             "notes": "Eyes good. Booster."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0639"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0639",
+            "note": "Hair coat confirmed on card. Twins this season (both rams, both auctioned: MC2608 + MC2609)."
           }
         ]
       },
@@ -7713,6 +8152,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. CDT booster."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0640"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; 1st CDT 5mL shot; 7 wks old",
+            "source": "IMG_0640"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster + tag; eyes good",
+            "source": "IMG_0640"
           }
         ],
         "vaccinations": [
@@ -7726,6 +8183,16 @@
             "date": "2026-04-01",
             "vaccine": "Covexin",
             "notes": "6-week booster"
+          },
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (1st 5mL)",
+            "source": "IMG_0640"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster + tag",
+            "source": "IMG_0640"
           }
         ],
         "famacha_scores": [
@@ -7744,11 +8211,21 @@
             "famacha": 1,
             "notes": "Booster. Tag. Eyes good."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0640",
+            "note": "Pre-sale health. Double tagged: MC-2603 + MC-2608 green. 7 wks old on 2-19-26 (DOB ~early Jan 2026)."
+          }
         ]
       },
       "status_date": "2026-04-06",
       "status_notes": "Auction Sunday April 6, 2026",
-      "mc_tag": "MC2608"
+      "mc_tag": "MC2608",
+      "secondary_tags": [
+        "MC-2603"
+      ],
+      "description": "White + brown ram. White blaze on face down onto nose. 2 white socks on hind legs. White tail."
     },
     {
       "id": "tag-0033-twin-ram-2",
@@ -7784,6 +8261,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. CDT booster."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0641"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; 1st CDT 5mL vacc; 7 wks old",
+            "source": "IMG_0641"
+          },
+          {
+            "date": "2026-03-30",
+            "score": 4,
+            "notes": "EYES NOT GOOD; VB + Iron shot + Ivermectin + booster + tag",
+            "source": "IMG_0641"
           }
         ],
         "vaccinations": [
@@ -7797,6 +8292,16 @@
             "date": "2026-04-01",
             "vaccine": "Covexin",
             "notes": "6-week booster"
+          },
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (1st 5mL)",
+            "source": "IMG_0641"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster + tag",
+            "source": "IMG_0641"
           }
         ],
         "famacha_scores": [
@@ -7815,11 +8320,29 @@
             "famacha": 4,
             "notes": "Eyes NOT GOOD. VB + Iron shot. Ivermectin. Booster + tag."
           }
+        ],
+        "treatments": [
+          {
+            "date": "2026-03-30",
+            "treatment": "Ivermectin + VB (Vitamin B) + Iron shot",
+            "notes": "FAMACHA 4 (eyes not good) \u2014 treated then boostered",
+            "source": "IMG_0641"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0641",
+            "note": "Pre-sale. Double tagged: MC-2602 top + MC-2609 bottom. DOB 1-1-26 (7 wk at 2-19-26). Parasite incident 3-30-26 \u2014 treated before auction."
+          }
         ]
       },
       "status_date": "2026-04-06",
       "status_notes": "Auction Sunday April 6, 2026",
-      "mc_tag": "MC2609"
+      "mc_tag": "MC2609",
+      "secondary_tags": [
+        "MC-2602"
+      ],
+      "description": "Black ram with small patch of white on crown"
     },
     {
       "id": "orange-tag-00110",
@@ -7872,6 +8395,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0642"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; trimmed poop off butt",
+            "source": "IMG_0642"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster; eyes good",
+            "source": "IMG_0642"
           }
         ],
         "famacha_scores": [
@@ -7889,6 +8430,20 @@
             "date": "3-30-26",
             "famacha": 1,
             "notes": "Booster. Eyes good."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0642"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0642",
+            "note": "Orange ear tag confirmed. Mom noted 'Orange male?' in header (gender never in doubt in DB)."
           }
         ]
       },
@@ -7941,6 +8496,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes Good",
+            "source": "IMG_0643"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0643"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster eyes Good (card reads 4-30 \u2014 interpreted as 3-30 per pattern)",
+            "source": "IMG_0643"
           }
         ],
         "famacha_scores": [
@@ -7958,6 +8531,20 @@
             "date": "4-30-26",
             "famacha": 1,
             "notes": "Booster. Eyes good."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0643"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0643",
+            "note": "Wool ewe. No babies this season."
           }
         ]
       },
@@ -8001,6 +8588,18 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "Checked eyes good. No babies."
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "Checked eyes good; no babies",
+            "source": "IMG_0649"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "yearly booster given",
+            "source": "IMG_0649"
           }
         ],
         "vaccinations": [
@@ -8008,6 +8607,11 @@
             "date": "2026-03-13",
             "vaccine": "Covexin",
             "notes": "yearly booster"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT (yearly booster)",
+            "source": "IMG_0649"
           }
         ],
         "famacha_scores": [
@@ -8023,6 +8627,13 @@
           {
             "date": "3-29-26",
             "notes": "Lambed \u2014 black ram lamb. Moved to Pen 1 because Rocky kept her from newborn."
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0649",
+            "note": "Orange tag 114. Fawn wool coat. No babies this season."
           }
         ]
       },
@@ -8091,6 +8702,30 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "checked eyes are very good. No babies."
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1",
+            "notes": "checked; eyes are very good",
+            "source": "IMG_0647"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "yearly booster given; looks pregnant",
+            "source": "IMG_0647"
+          },
+          {
+            "date": "2026-03-24",
+            "score": "1-2",
+            "notes": "Single baby born (ewe). Moved Pen 2 -> Pen 1 around this time.",
+            "source": "IMG_0647"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0647"
           }
         ],
         "vaccinations": [
@@ -8098,6 +8733,11 @@
             "date": "2026-03-13",
             "vaccine": "Covexin",
             "notes": "yearly booster. Looks pregnant."
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT (yearly booster)",
+            "source": "IMG_0647"
           }
         ],
         "treatments": [
@@ -8125,6 +8765,12 @@
             "date": "4-9-26",
             "famacha": 1,
             "notes": "Eyes good."
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0647",
+            "note": "Card: 'Was in 2, Now in Pen 1' \u2014 moved around time of lambing. White hair ewe. Single baby 3-24-26."
           }
         ]
       },
@@ -8180,6 +8826,42 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "Check good. CDT."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes; bump on left jaw detected",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good; soft bump still on L jaw",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-02-27",
+            "score": "1-2",
+            "notes": "Lanced bump on L jaw",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-02-28",
+            "score": "1-2",
+            "notes": "4.5mL Nuflor; 105.2\u00b0F fever; flushed abscess (later confirmed catch-panel puncture, NOT CL)",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT given; chin good",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0651"
           }
         ],
         "treatments": [
@@ -8191,12 +8873,29 @@
             "date": "2026-02-28",
             "treatment": "Nuflor 4.5mL",
             "notes": "Weight 108.2 lbs. Flushed abscess."
+          },
+          {
+            "date": "2026-02-27",
+            "treatment": "Lanced abscess on L jaw",
+            "notes": "Bump detected 2-13, soft 2-26, lanced 2-27",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-02-28",
+            "treatment": "Nuflor 4.5mL",
+            "notes": "105.2\u00b0F fever, flushed abscess. Catch-panel puncture (NOT CL) per thread correction.",
+            "source": "IMG_0651"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0651"
           }
         ],
         "famacha_scores": [
@@ -8231,6 +8930,12 @@
             "date": "4-9-26",
             "famacha": 1,
             "notes": "Eyes good."
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0651",
+            "note": "Yellow tag MC-20. Pen 3. Charlie-the-ram/Charlies Ram Herd. Feb abscess lanced+treated Nuflor \u2014 confirmed NOT CL per later thread note (catch-panel puncture)."
           }
         ]
       },
@@ -8282,12 +8987,41 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-01-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0652"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0652"
+          },
+          {
+            "date": "2026-03-08",
+            "score": "1-2",
+            "notes": "CDT given",
+            "source": "IMG_0652"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0652"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-08",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-08",
+            "vaccine": "CDT",
+            "source": "IMG_0652"
           }
         ],
         "famacha_scores": [
@@ -8310,6 +9044,13 @@
             "famacha": 1,
             "notes": "Eyes good"
           }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0652",
+            "note": "White belly ewe from Charlie's Farm \u2014 multi color. Single baby this season. Yellow tag MC-16."
+          }
         ]
       },
       "weight_lbs": 155,
@@ -8320,7 +9061,7 @@
       "id": "charlies-farm-ewe-baby-p3",
       "name": "Charlies Farm Ewe Baby",
       "aliases": [],
-      "tag": "MC2602",
+      "tag": "MC-2602",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Charlies Farm Ewe offspring]",
@@ -8349,12 +9090,52 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-01-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "10 weeks old today",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-03-08",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "Booster, eyes good",
+            "source": "IMG_0653"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-08",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-08",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT booster",
+            "source": "IMG_0653"
           }
         ],
         "famacha_scores": [
@@ -8381,15 +9162,22 @@
             "famacha": 1,
             "notes": "Booster. Eyes good."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0653",
+            "note": "Oldest lamb in Pen 3 (matches IMG_0630 \"Oldest Baby Pen 3 12-6-25\"). Green tag MC-2602 on 4-9 booster date. Card also shows \"MC 2609\" scratched/unclear \u2014 disregarded."
+          }
         ]
       },
-      "mc_tag": "MC2602"
+      "mc_tag": "MC2602",
+      "description": "Big brown with white tip on tail. 2 white socks. White on crown. Front legs all brown."
     },
     {
       "id": "broken-tail-twin-ewe",
       "name": "Broken Tail Twin Ewe",
       "aliases": [],
-      "tag": "MC2605",
+      "tag": "MC-2605",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Broken Tail offspring]",
@@ -8413,12 +9201,46 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Escaped from catch pen",
+            "source": "IMG_0655"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "6.6 weeks old",
+            "source": "IMG_0655"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0655"
+          },
+          {
+            "date": "2026-04-09",
+            "score": 5,
+            "notes": "Booster given. EYES WHITE (FAMACHA 5). Treated: Iron 1cc + VB 0.5cc + Ivermectin.",
+            "source": "IMG_0655"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0655"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT booster",
+            "source": "IMG_0655"
           }
         ],
         "famacha_scores": [
@@ -8440,15 +9262,31 @@
             "famacha": 5,
             "notes": "EYES WHITE. 1cc Iron, 1.5cc VB shot, Ivermectin. Booster."
           }
+        ],
+        "treatments": [
+          {
+            "date": "2026-04-09",
+            "treatment": "Iron 1cc + VB 0.5cc + Ivermectin",
+            "notes": "EYES WHITE \u2014 severe parasite emergency. Treated same day as CDT booster.",
+            "source": "IMG_0655"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0655",
+            "note": "Green tag MC-2605. Born 12-31-25 (6.6 wk on 2-20-26). Parasite vulnerability 4-9-26 \u2014 adds to weak resistance watchlist. Escapes catch pen easily."
+          }
         ]
       },
-      "mc_tag": "MC2605"
+      "mc_tag": "MC2605",
+      "description": "Brown + white",
+      "weak_resistance": true
     },
     {
       "id": "broken-tail-twin-ewe-2",
       "name": "Broken Tail Twin Ewe 2 (White)",
       "aliases": [],
-      "tag": null,
+      "tag": "MC-2601",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Broken Tail offspring]",
@@ -8472,6 +9310,30 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Escaped from catch pen",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "6.6 weeks old",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "Booster, eyes good (pre-auction)",
+            "source": "IMG_0656"
           }
         ],
         "vaccinations": [
@@ -8479,11 +9341,28 @@
             "date": "2026-03-09",
             "vaccine": "CDT",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT booster",
+            "source": "IMG_0656"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0656",
+            "note": "Card shows \"(2x) MC-2610 + MC-2601\" \u2014 double green tag; first number obscured/ambiguous (could be MC-2600). Primary MC-2601 used. DOB 12-31-25 twin to MC-2605 (brown sister). Sold 4-15-26 auction."
           }
         ]
       },
       "status_date": "2026-04-06",
-      "status_notes": "Auction Sunday April 6, 2026"
+      "status_notes": "Auction Sunday April 6, 2026",
+      "description": "White ewe"
     },
     {
       "id": "nori-baby-p3",
@@ -8523,6 +9402,36 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "CDT shot. Eyes good."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "5.3 weeks old",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-04-09",
+            "score": 3,
+            "notes": "Booster; eyes MED (FAMACHA ~3 \u2014 watch)",
+            "source": "IMG_0658"
           }
         ],
         "vaccinations": [
@@ -8530,6 +9439,16 @@
             "date": "2026-03-09",
             "vaccine": "CDT",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT booster",
+            "source": "IMG_0658"
           }
         ],
         "famacha_scores": [
@@ -8557,9 +9476,16 @@
             "famacha": 3,
             "notes": "Booster. Eyes med."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0658",
+            "note": "Green tag MC-2604 was applied but PULLED OUT. DOB 1-10-26. Dam Nori. Sex: MALE (correction confirmed again). Eyes medium on 4-9 \u2014 track."
+          }
         ]
       },
-      "mc_tag": "MC2604"
+      "mc_tag": "MC2604",
+      "description": "Brown + white mottled. Full white tail. White on top of ears. White blaze."
     },
     {
       "id": "g023-bhd-ewe",
@@ -8610,18 +9536,65 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "CDT shot. Eyes good."
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good; no babies",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "eyes borderline",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes borderline; VB shot given",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good BUT CONDITION BAD \u2014 Vit B12 3mL given",
+            "source": "IMG_0661"
           }
         ],
         "treatments": [
           {
             "date": "2026-02-27",
             "treatment": "Vitamin B shot"
+          },
+          {
+            "date": "2026-02-27",
+            "treatment": "Vitamin B shot",
+            "notes": "eyes borderline",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-04-10",
+            "treatment": "Vitamin B12 3mL",
+            "notes": "Condition bad though eyes good",
+            "source": "IMG_0661"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0661"
           }
         ],
         "famacha_scores": [
@@ -8649,6 +9622,12 @@
             "date": "4-10-26",
             "famacha": 1,
             "notes": "Eyes good. CONDITION BAD. Vitamin B12 3mL."
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0661",
+            "note": "Black headed. No babies. Borderline FAMACHA Feb 20-27. Condition poor 4-10 despite good eyes."
           }
         ]
       },
@@ -9118,7 +10097,7 @@
       "name": "Ewe Tag 31",
       "tag": "31",
       "sex": "ewe",
-      "pen": "Pen 1",
+      "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
         "primary": "St Augustine/Katahdin",
@@ -9140,6 +10119,24 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good. No babies."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good, no babies",
+            "source": "IMG_0607"
+          },
+          {
+            "date": "2026-03-11",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0607"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0607"
           }
         ],
         "vaccinations": [
@@ -9147,7 +10144,8 @@
             "date": "2026-03-11",
             "vaccine": "Covexin 8"
           }
-        ]
+        ],
+        "notes": []
       },
       "sire_id": "sir-loin",
       "weight_lbs": 170,
@@ -9158,7 +10156,7 @@
       "name": "Ewe Tag 02",
       "tag": "02",
       "sex": "ewe",
-      "pen": "Pen 3",
+      "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
         "primary": "[UNCLEAR]",
@@ -9171,22 +10169,47 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good. No babies."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good, no babies",
+            "source": "IMG_0608"
+          },
+          {
+            "date": "2026-03-11",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0608"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0608"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-11",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-11",
+            "vaccine": "CDT",
+            "source": "IMG_0608"
           }
-        ]
+        ],
+        "treatments": [],
+        "notes": []
       }
     },
     {
       "id": "fawn-wool-ewe-p5",
       "name": "Fawn Wool Ewe (Pen 5)",
-      "tag": null,
+      "tag": "240006",
       "sex": "ewe",
-      "pen": "Pen 3",
+      "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
         "primary": "Wool",
@@ -9200,6 +10223,38 @@
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT",
+            "source": "IMG_0610"
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "u",
+            "notes": "Could not check, broke out of catch pen",
+            "source": "IMG_0610"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "u",
+            "notes": "CDT vac",
+            "source": "IMG_0610"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes",
+            "source": "IMG_0610"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0610",
+            "note": "Yellow tag 240006. Wool, fawn color, long ears."
           }
         ]
       }
@@ -9237,7 +10292,7 @@
     {
       "id": "elsie-triplet-lg-white-ewe",
       "name": "Elsie Large White Ewe Triplet",
-      "tag": null,
+      "tag": "MC-2618",
       "sex": "ewe",
       "pen": "Pen 5",
       "status": "alive",
@@ -9252,15 +10307,63 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "Good eyes"
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0613"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0613"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes",
+            "source": "IMG_0614"
+          },
+          {
+            "date": "2026-03-17",
+            "score": "1-2",
+            "notes": "CDT vac, eyes good",
+            "source": "IMG_0614"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-17",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0613"
+          },
+          {
+            "date": "2026-03-17",
+            "vaccine": "CDT",
+            "source": "IMG_0614"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0613",
+            "note": "Yellow tag 240005. Listed on card as 'Elsie Triplets' \u2014 this is the surviving alive triplet (large white ewe)."
+          },
+          {
+            "source": "IMG_0614",
+            "note": "(L)arge White Female. Yellow scrapie tag 240005 + green herd tag MC-2618. DOB ~2026-01-09 (6 wk on 2-20-26). Mother: Elsie."
           }
         ]
-      }
+      },
+      "secondary_tags": [
+        "240005"
+      ]
     },
     {
       "id": "elsie-triplet-sm-white-ewe",
@@ -9280,12 +10383,35 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "Good eyes"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes",
+            "source": "IMG_0614"
+          },
+          {
+            "date": "2026-03-17",
+            "score": "1-2",
+            "notes": "CDT vac, eyes good",
+            "source": "IMG_0614"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-17",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-17",
+            "vaccine": "CDT",
+            "source": "IMG_0614"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0614",
+            "note": "(SM)all White Female, no tag. DOB ~2026-01-09. Card has health through 3-17-26 before 4-6-26 auction."
           }
         ]
       },
@@ -9304,14 +10430,30 @@
       "dam_id": "elsie",
       "dob": "2026-01-06",
       "color_markings": "Black",
-      "notes": "Born 1-6-26. Elsies triplet. Black ram. Sire: Eclipse. Gifted mid-March 2026 to girl starting her flock. Eyes good 2-13-26."
+      "notes": "Born 1-6-26. Elsies triplet. Black ram. Sire: Eclipse. Gifted mid-March 2026 to girl starting her flock. Eyes good 2-13-26.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes \u2014 before gifting",
+            "source": "IMG_0614"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0614",
+            "note": "Gifted per card. DOB ~2026-01-09. 2-13-26 good eyes before transfer."
+          }
+        ]
+      }
     },
     {
       "id": "mc08-ram",
       "name": "MC08",
       "tag": "MC08",
       "sex": "ram",
-      "pen": "Goose Pen",
+      "pen": "Pen 6",
       "status": "alive",
       "color_markings": "Fawn wool, yellow tag, colored",
       "breed_composition": {
@@ -9326,24 +10468,54 @@
             "date": "2026-02-12",
             "score": "1-2",
             "notes": "Good eyes"
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "Good eyes",
+            "source": "IMG_0615"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc, eyes good",
+            "source": "IMG_0615"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0615"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0615",
+            "note": "Fawn wool-colored ram. Yellow tag MC08."
           }
         ]
       },
       "weight_lbs": 190,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "IMG_0616",
+          "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        }
+      ]
     },
     {
       "id": "windlestone-2139",
       "name": "Windlestone Fat Tail 2139",
       "tag": "2139",
       "sex": "ewe",
-      "pen": "Goose Pen",
+      "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
         "primary": "Awassi (almost pure)",
@@ -9375,14 +10547,20 @@
         ]
       },
       "weight_lbs": 200.0,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "IMG_0616",
+          "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        }
+      ]
     },
     {
       "id": "windlestone-0056",
       "name": "Windlestone Fat Tail 0056",
       "tag": "0056",
       "sex": "ewe",
-      "pen": "Goose Pen",
+      "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
         "primary": "Awassi (almost pure)",
@@ -9414,14 +10592,20 @@
         ]
       },
       "weight_lbs": 200.0,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "IMG_0616",
+          "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        }
+      ]
     },
     {
       "id": "windlestone-0055",
       "name": "Windlestone Fat Tail 0055",
       "tag": "0055",
       "sex": "ewe",
-      "pen": "Goose Pen",
+      "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
         "primary": "Awassi (almost pure)",
@@ -9443,24 +10627,54 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0620"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc eyes good",
+            "source": "IMG_0620"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0620"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0620",
+            "note": "Fat-tail Awassi, 1 tiny horn + 1 small long horn, dark legs. No babies as of 2-13."
           }
         ]
       },
       "weight_lbs": 200.0,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "IMG_0616",
+          "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        }
+      ]
     },
     {
       "id": "tag-0035-white-ewe",
       "name": "White Ewe 0035",
       "tag": "0035",
       "sex": "ewe",
-      "pen": "Pen 4",
+      "pen": "Tree Fort",
       "status": "alive",
       "color_markings": "White ewe w/ dot on ear",
       "notes": "Tag 0035. White ewe with dot on ear. Single baby (ewe, born 1-2-26). Covexin 8 3-10-26 (full dose). Source: notebook card TF. Florida Dorper x Katahdin. Small sheep.",
@@ -9470,12 +10684,42 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0623"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc \u2014 only got 0.06ml (underdose); needs revacc with goat vacc",
+            "source": "IMG_0623"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes",
+            "source": "IMG_0623"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (0.06ml underdose \u2014 revacc needed)",
+            "source": "IMG_0623"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0623",
+            "note": "White ewe with dot on ear. Had single baby this lambing season. CDT dose 0.06ml on 3-10 was insufficient \u2014 needs revacc."
           }
         ]
       },
@@ -9497,10 +10741,10 @@
     },
     {
       "id": "tag-0035-baby-ewe",
-      "name": "0035 Baby Ewe",
-      "tag": null,
-      "sex": "ewe",
-      "pen": "Pen 4",
+      "name": "0035 Baby Ram",
+      "tag": "MC-2617",
+      "sex": "ram_lamb",
+      "pen": "Tree Fort",
       "status": "alive",
       "dam_id": "tag-0035-white-ewe",
       "dob": "2026-01-02",
@@ -9512,15 +10756,57 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0624"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "7 weeks old",
+            "source": "IMG_0624"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0624"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes, tagged MC-2617, CDT booster",
+            "source": "IMG_0624"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (1st round)",
+            "source": "IMG_0624"
+          },
+          {
+            "date": "2026-04-11",
+            "vaccine": "CDT (booster)",
+            "source": "IMG_0624"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0624",
+            "note": "SEX CORRECTION: DB had ewe, card shows ram. Born 1-2-26. Dam: 0035 White Ewe (tag-0035-white-ewe). Tagged MC-2617 green on 4-11-26."
           }
         ]
-      }
+      },
+      "secondary_tags": [],
+      "description": "White with brown on front legs"
     },
     {
       "id": "tag-31-orange-tf",
@@ -9537,12 +10823,42 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good \u2014 single baby",
+            "source": "IMG_0625"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc eyes good",
+            "source": "IMG_0625"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes",
+            "source": "IMG_0625"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0625"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0625",
+            "note": "Wool coat with 2 brown socks on hind legs. Single baby this season."
           }
         ]
       }
@@ -9564,12 +10880,46 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0626"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "7 weeks old",
+            "source": "IMG_0626"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0626"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "Booster + tagged, good eyes",
+            "source": "IMG_0626"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (1st round)",
+            "source": "IMG_0626"
+          },
+          {
+            "date": "2026-04-11",
+            "vaccine": "CDT (booster)",
+            "source": "IMG_0626"
           }
         ],
         "famacha_scores": [
@@ -9591,9 +10941,16 @@
             "famacha": 1,
             "notes": "Booster + tag. Good eyes."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0626",
+            "note": "DOB 1-2-26 confirmed. Description updated. Dam: Orange Tag 31 Ewe (tag-31-orange-tf)."
+          }
         ]
       },
-      "mc_tag": "MC2616"
+      "mc_tag": "MC2616",
+      "description": "White with brown circles around eyes that go down the neck, plus brown dots"
     },
     {
       "id": "bambii-baby",
@@ -9647,7 +11004,14 @@
       "status": "sold",
       "status_date": "2026-02-15",
       "notes": "Sold at auction 2-15-26. ~00.",
-      "pen": null
+      "pen": null,
+      "sold_date": "2026-04-15",
+      "notes_history": [
+        {
+          "source": "IMG_0617",
+          "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
+        }
+      ]
     },
     {
       "id": "goose-50",
@@ -9657,7 +11021,14 @@
       "status": "sold",
       "status_date": "2026-02-15",
       "notes": "Wooly Tan. Sold at auction 2-15-26. ~00.",
-      "pen": null
+      "pen": null,
+      "sold_date": "2026-04-15",
+      "notes_history": [
+        {
+          "source": "IMG_0617",
+          "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
+        }
+      ]
     },
     {
       "id": "goose-06",
@@ -9667,7 +11038,14 @@
       "status": "sold",
       "status_date": "2026-02-15",
       "notes": "White Hair/Tan. Sold at auction 2-15-26. ~00.",
-      "pen": null
+      "pen": null,
+      "sold_date": "2026-04-15",
+      "notes_history": [
+        {
+          "source": "IMG_0617",
+          "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
+        }
+      ]
     },
     {
       "id": "goose-l19",
@@ -9677,12 +11055,22 @@
       "status": "sold",
       "status_date": "2026-02-15",
       "notes": "Black, sheared. Sold at auction 2-15-26. ~00.",
-      "pen": null
+      "pen": null,
+      "sold_date": "2026-04-15",
+      "notes_history": [
+        {
+          "source": "IMG_0617",
+          "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
+        }
+      ]
     },
     {
       "id": "windlestone-kat-dorper",
       "name": "Windlestone Kat/Dorper Ram",
-      "aliases": [],
+      "aliases": [
+        "Butthead",
+        "Charlie's Ram"
+      ],
       "tag": null,
       "mc_tag": null,
       "sex": "ram",
@@ -9720,9 +11108,33 @@
         ],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT (yearly booster)",
+            "source": "IMG_0646"
+          }
+        ],
         "notes": [
-          "FAMACHA 1 consistently for 1 year. PROVEN parasite resistance."
+          "FAMACHA 1 consistently for 1 year. PROVEN parasite resistance.",
+          {
+            "source": "IMG_0646",
+            "note": "Mom calls him Butthead (attitude). Card labels him 'Charlies Ram' \u2014 possibly meaning Charlie-the-person's ram. No tag."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-02-16",
+            "score": "1-2",
+            "notes": "checked; eyes are good",
+            "source": "IMG_0646"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "yearly booster given",
+            "source": "IMG_0646"
+          }
         ]
       },
       "breeding": {
@@ -9738,7 +11150,8 @@
       "notes": "Windlestone Kat/Dorper: 50% top-tier Katahdin x 50% elite Dorper (top in the country). FAMACHA 1 consistently for 1 year. 100% hair. HAS ATTITUDE \u2014 fractured handlers hand. Pen 2 is secure/built for dangerous rams. Handler protocol: pin on back, pinch nose to submit if charges. Elite genetics justify the management overhead.",
       "confidence": "high",
       "last_verified": "2026-04-03",
-      "temperament": "aggressive toward handlers \u2014 fractured hand. Requires dominant handling protocol."
+      "temperament": "aggressive toward handlers \u2014 fractured hand. Requires dominant handling protocol.",
+      "description": "Black headed Dorper with horns. Has attitude (\"Butthead\" per notebook)."
     },
     {
       "id": "nuba-baby-ewe",
@@ -9773,9 +11186,27 @@
             "date": "2026-04-09",
             "type": "CDT",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT (1st shot)",
+            "source": "IMG_0648"
           }
         ],
-        "notes": []
+        "notes": [
+          {
+            "source": "IMG_0648",
+            "note": "Nuba's Baby ewe. No tag. Dam 0053 (Nuba). Sire: Rocky per prior commit notes."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "checked eyes good; 1st CDT shot",
+            "source": "IMG_0648"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": false,
@@ -9789,7 +11220,8 @@
       },
       "notes": "Born 3-24-26 to Nuba (0053) in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9).",
       "confidence": "high",
-      "last_verified": "2026-04-09"
+      "last_verified": "2026-04-09",
+      "description": "Black with tan ear. White patch on top. White tip on tail."
     }
   ],
   "pens": {
@@ -9809,7 +11241,41 @@
         "tag-0033-twin-ram-2",
         "tag-114-black-ram-lamb"
       ],
-      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total."
+      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total.",
+      "treatments": [
+        {
+          "date_start": "2026-02-11",
+          "date_end": "2026-02-16",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 6,
+          "source": "IMG_0644",
+          "notes": "All eyes good day 3 (2-13); note dry water 2-16"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-02-19",
+          "vaccine": "CDT (1st round) \u2014 4 babies 5mL each",
+          "source": "IMG_0644"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "3 need to be sheered",
+          "source": "IMG_0644"
+        },
+        {
+          "date": "2026-04-02",
+          "observation": "Babies need 6-week booster; adults need yearly",
+          "source": "IMG_0644"
+        },
+        {
+          "date": "2026-03-30",
+          "observation": "Pen-wide: eyes checked, booster given, babies tagged (card back, IMG_0645). Date reads 4-30 but per individual animal cards 3-30 \u2014 recorded as 3-30.",
+          "source": "IMG_0645"
+        }
+      ]
     },
     "pen_2": {
       "ram": "rocky",
@@ -9835,7 +11301,35 @@
         "broken-tail-twin-ewe-2",
         "nori-baby-p3"
       ],
-      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) \u2014 5 adults yearly, 4 babies 1st dose. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3."
+      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) \u2014 5 adults yearly, 4 babies 1st dose. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3.",
+      "treatments": [
+        {
+          "date_start": "2026-02-27",
+          "date_end": "2026-03-03",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 5,
+          "source": "IMG_0660"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-09",
+          "vaccine": "CDT \u2014 5 adults (yearly) + 4 babies (1st dose). Goat vac for sheep.",
+          "source": "IMG_0660"
+        },
+        {
+          "date": "2026-04-09",
+          "vaccine": "CDT booster (whole pen) + ear tags",
+          "source": "IMG_0660"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "Hair sheep \u2014 no wool in this pen",
+          "source": "IMG_0660"
+        }
+      ]
     },
     "pen_4": {
       "ram": "gigi-2025-ram",
@@ -9865,7 +11359,43 @@
         "little-daisy"
       ],
       "lambs": [],
-      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week \u2014 watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal."
+      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week \u2014 watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal.",
+      "treatments": [
+        {
+          "date_start": "2026-03-08",
+          "date_end": "2026-03-13",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 5,
+          "source": "IMG_0611"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-10",
+          "vaccine": "CDT (goat vaccine used for sheep)",
+          "source": "IMG_0611"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "2 wool sheep need to be sheared",
+          "source": "IMG_0611"
+        }
+      ],
+      "census_snapshots": [
+        {
+          "source": "IMG_0616",
+          "as_of_approx": "2026-02/03",
+          "count_written": 4,
+          "tags_listed": [
+            "31",
+            "02",
+            "113 (Eclipse pre-sale)",
+            "fawn-wool long-ears (tag 240006)"
+          ]
+        }
+      ]
     },
     "pen_6": {
       "ram": "mc08-ram",
@@ -9879,13 +11409,51 @@
         "elsie-triplet-lg-white-ewe",
         "elsie-triplet-sm-white-ewe"
       ],
-      "notes": "Pen 6 as of April 2026. MC08 (ram, fawn wool, yellow tag). Elsie (triplets by Eclipse \u2014 black ram gifted, 2 white ewe lambs remain). 3 Windlestone fat tail Awassi ewes (2139, 0056, 0055) \u2014 no babies. OAV 2222 was here for months but back in Pen 5. Corid 2-13 to 2-17-26. Covexin 8 3-13-26. 1 wool + 3 fat tails need shearing. Source: notebook cards pen 6."
+      "notes": "Pen 6 as of April 2026. MC08 (ram, fawn wool, yellow tag). Elsie (triplets by Eclipse \u2014 black ram gifted, 2 white ewe lambs remain). 3 Windlestone fat tail Awassi ewes (2139, 0056, 0055) \u2014 no babies. OAV 2222 was here for months but back in Pen 5. Corid 2-13 to 2-17-26. Covexin 8 3-13-26. 1 wool + 3 fat tails need shearing. Source: notebook cards pen 6.",
+      "census_snapshots": [
+        {
+          "source": "IMG_0616",
+          "as_of_approx": "2026-02/03",
+          "tags_listed": [
+            "2222 OAV",
+            "Kelsie sister w/ baby (unclear \u2014 OAV 2222 or Kelsier sister deceased)",
+            "MC08",
+            "2139 fat-tail",
+            "0056 fat-tail",
+            "0055 fat-tail",
+            "2 white #10 (unclear)"
+          ]
+        }
+      ],
+      "treatments": [
+        {
+          "date_start": "2026-02-13",
+          "date_end": "2026-02-17",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 5,
+          "source": "IMG_0621"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-13",
+          "vaccine": "CDT (goat vaccine used for sheep)",
+          "source": "IMG_0621"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "Eyes good pen-wide. 1 wool + 3 fat-tails need shearing.",
+          "source": "IMG_0621"
+        }
+      ]
     },
     "goose_pen": {
       "ram": null,
       "ewes": [],
       "lambs": [],
-      "notes": "Goose Pen EMPTY. Animals sold at auction 2-15-26. Tags: 09, 50, 06, L19, plus 2 untagged (1 white ewe, 1 tan wooly male). Sold for approx 00 each, total ~000 minus fees ~50 net. Buyer: Bobbie B [UNCLEAR]. Source: notebook goose pen card."
+      "notes": "Goose Pen EMPTY. Animals sold at auction 2-15-26. Tags: 09, 50, 06, L19, plus 2 untagged (1 white ewe, 1 tan wooly male). Sold for approx 00 each, total ~000 minus fees ~50 net. Buyer: Bobbie B [UNCLEAR]. Source: notebook goose pen card. | Goose Pen EMPTY as of April 2026 (per owner + card IMG_0617 auction log). Prior occupants: [] ram: None"
     },
     "chicken_coop": {
       "ram": "buck",
@@ -9904,7 +11472,58 @@
         "tag-31-orange-tf-ram-lamb",
         "bambii-baby"
       ],
-      "notes": "Tree Fort as of April 2026. 3 ewes + 3 lambs = 6 animals. No ram in pen. Corid 3-8 to 3-13-26. Covexin 8 3-10-26. 1 needs shearing. Tag 31 orange is from another farm, different from Tag 31 in Pen 5. Source: notebook cards TF."
+      "notes": "Tree Fort as of April 2026. 3 ewes + 3 lambs = 6 animals. No ram in pen. Corid 3-8 to 3-13-26. Covexin 8 3-10-26. 1 needs shearing. Tag 31 orange is from another farm, different from Tag 31 in Pen 5. Source: notebook cards TF.",
+      "treatments": [
+        {
+          "date_start": "2026-03-08",
+          "date_end": "2026-03-13",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 6,
+          "source": "IMG_0629"
+        },
+        {
+          "date_start": "2026-03-08",
+          "date_end": "2026-03-13",
+          "treatment": "Corid (coccidia) \u2014 adult/older schedule",
+          "duration_days": 6,
+          "source": "IMG_0650",
+          "notes": "Evening start 3-8"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-10",
+          "vaccine": "CDT (1st round)",
+          "source": "IMG_0629"
+        },
+        {
+          "date": "2026-04-11",
+          "vaccine": "CDT (booster, 3 babies)",
+          "source": "IMG_0629"
+        },
+        {
+          "date": "2026-03-13",
+          "vaccine": "CDT (yearly booster for adults \u2014 goat vac for sheep)",
+          "source": "IMG_0650"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "1 needs to be sheered",
+          "source": "IMG_0629"
+        },
+        {
+          "date": "2026-04-11",
+          "observation": "3 babies boostered + tagged; 1 adult tagged (Buck MC-2433)",
+          "source": "IMG_0629"
+        },
+        {
+          "date": "2026-02-20",
+          "observation": "3 need to be sheered (adult schedule card)",
+          "source": "IMG_0650"
+        }
+      ]
     }
   },
   "lambing_records_2026": [
@@ -10303,11 +11922,14 @@
     "notes": "4 adults tagged on 4-10-26. 13 total in Pen 4. Need to be sheared."
   },
   "headcount": {
-    "date": "2026-03-30",
-    "source": "Red spiral notebook master count card",
-    "total": 51,
-    "adults": 34,
-    "babies": 17,
+    "as_of": "2026-04-11 (card IMG_0631)",
+    "source": "IMG_0631 master headcount card",
+    "totals": {
+      "adults": 34,
+      "babies": 17,
+      "all": 51
+    },
+    "shots_total_notes": "39 shots / 9 shots (CDT 1st round / booster \u2014 interpretation)",
     "by_pen": {
       "Pen 1": {
         "adults": 5,
@@ -10344,8 +11966,13 @@
         "babies": 3,
         "total": 7
       }
-    },
-    "notes": "34 adults + 17 babies = 51. This count may predate Nubas baby (3-24-26) and 114 black ram lamb (3-29-26), bringing total to 53.",
-    "shots_given": 39
-  }
+    }
+  },
+  "lambing_notes": [
+    {
+      "source": "IMG_0630",
+      "as_of": "pre 2026-03-24",
+      "note": "Snapshot at time of writing: Oldest 2025-2026 baby in Pen 3, born 12-6-25. Newest in Pen 4, born 1-31-26. (Later Nuba's baby born 3-24-26 Pen 1 supersedes 'newest'.)"
+    }
+  ]
 }
