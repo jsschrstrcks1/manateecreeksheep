@@ -1202,7 +1202,7 @@
       "id": "buck",
       "name": "Buck",
       "aliases": [],
-      "tag": null,
+      "tag": "MC-2433",
       "mc_tag": null,
       "sex": "ram",
       "breed_composition": {
@@ -1227,14 +1227,45 @@
       "status": "alive",
       "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": "Tree Fort",
       "measurements": {},
       "health": {
         "famacha_scores": [],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT",
+            "source": "IMG_0622"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0622",
+            "note": "Wool coat. Brown elbows on back legs. Tagged 4-11-26 with green MC-2433; yellow scrapie 240007. Tree Fort per card (conflicts with later pipeline plan that targets Pen 4)."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0622"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0622"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes, tagged MC-2433",
+            "source": "IMG_0622"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -1249,7 +1280,10 @@
       "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).  ALIVE as of April 2026. In Tree Fort. Like Rocky but Katahdin instead of Dorper.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "weight_estimated": true
+      "weight_estimated": true,
+      "secondary_tags": [
+        "240007"
+      ]
     },
     {
       "id": "dodge",
