@@ -10471,7 +10471,40 @@
         "tag-31-orange-tf-ram-lamb",
         "bambii-baby"
       ],
-      "notes": "Tree Fort as of April 2026. 3 ewes + 3 lambs = 6 animals. No ram in pen. Corid 3-8 to 3-13-26. Covexin 8 3-10-26. 1 needs shearing. Tag 31 orange is from another farm, different from Tag 31 in Pen 5. Source: notebook cards TF."
+      "notes": "Tree Fort as of April 2026. 3 ewes + 3 lambs = 6 animals. No ram in pen. Corid 3-8 to 3-13-26. Covexin 8 3-10-26. 1 needs shearing. Tag 31 orange is from another farm, different from Tag 31 in Pen 5. Source: notebook cards TF.",
+      "treatments": [
+        {
+          "date_start": "2026-03-08",
+          "date_end": "2026-03-13",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 6,
+          "source": "IMG_0629"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-10",
+          "vaccine": "CDT (1st round)",
+          "source": "IMG_0629"
+        },
+        {
+          "date": "2026-04-11",
+          "vaccine": "CDT (booster, 3 babies)",
+          "source": "IMG_0629"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "1 needs to be sheered",
+          "source": "IMG_0629"
+        },
+        {
+          "date": "2026-04-11",
+          "observation": "3 babies boostered + tagged; 1 adult tagged (Buck MC-2433)",
+          "source": "IMG_0629"
+        }
+      ]
     }
   },
   "lambing_records_2026": [
