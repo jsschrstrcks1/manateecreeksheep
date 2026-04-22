@@ -10316,7 +10316,7 @@
         "coat_prediction": "mixed"
       },
       "color_markings": "Fat & Gray",
-      "pen": "Pen 3",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "sir-loin",
       "dam_id": "fm",
@@ -10337,12 +10337,48 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0671"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0671"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0671"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0671"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0671"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0671",
+            "note": "1 baby ram this season (FM2 Ram Lamb, MC-2614). Consistent good eyes."
           }
         ]
       },
