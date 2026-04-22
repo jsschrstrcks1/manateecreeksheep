@@ -10015,7 +10015,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "White",
-      "pen": "Pen 5",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
@@ -10041,6 +10041,24 @@
             "date": "2026-02-27",
             "score": "1-2",
             "notes": "eyes better"
+          },
+          {
+            "date": "2026-02-12",
+            "score": 3,
+            "notes": "eyes score 3",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 4,
+            "notes": "7 weeks old; eyes bad \u2014 Iron 0.5mL + VB 1mL + Ivermectin + Fenbendazole",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-27",
+            "score": "2-3",
+            "notes": "eyes better",
+            "source": "IMG_0669"
           }
         ],
         "treatments": [
@@ -10048,6 +10066,12 @@
             "date": "2026-02-20",
             "treatment": "Iron .5mL + VB + Ivermectin + Fenbendazole",
             "notes": "Eyes bad"
+          },
+          {
+            "date": "2026-02-20",
+            "treatment": "Iron 0.5mL + VB 1mL + Ivermectin + Fenbendazole",
+            "notes": "eyes bad (~FAMACHA 4)",
+            "source": "IMG_0669"
           }
         ],
         "vaccinations": [
@@ -10077,9 +10101,16 @@
             "famacha": 5,
             "notes": "Eyes white. 0.5 Iron, 1mL Vit B12. CDT Booster."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0669",
+            "note": "DOB 12-30-25. Pen 4 per card (was Pen 5 in JSON). White ram twin to MC-2607 black ewe."
+          }
         ]
       },
-      "mc_tag": "MC2606"
+      "mc_tag": "MC2606",
+      "weak_resistance": true
     },
     {
       "id": "serendipity-twin-ewe",
@@ -10093,7 +10124,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Black",
-      "pen": "Pen 5",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
@@ -10119,6 +10150,18 @@
             "date": "2026-03-09",
             "score": 2.5,
             "notes": "Eyes under 3. VB12 1mL."
+          },
+          {
+            "date": "2026-02-12",
+            "score": 5,
+            "notes": "EYES WHITE \u2014 Ivermectin + Fenbendazole + Iron 0.25mL + VB 1mL shot",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 4,
+            "notes": "eyes NOT white, now L pink \u2014 Ivermectin + VB 1mL shot",
+            "source": "IMG_0669"
           }
         ],
         "treatments": [
@@ -10136,6 +10179,18 @@
             "date": "2026-03-09",
             "treatment": "VB12 1mL",
             "notes": "Under 3"
+          },
+          {
+            "date": "2026-02-12",
+            "treatment": "Ivermectin + Fenbendazole + Iron 0.25mL + VB 1mL",
+            "notes": "FAMACHA 5 \u2014 eyes white at 6 wks old",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-20",
+            "treatment": "Ivermectin + VB 1mL",
+            "notes": "eyes improving to L pink",
+            "source": "IMG_0669"
           }
         ],
         "vaccinations": [
@@ -10161,9 +10216,16 @@
             "famacha": 5,
             "notes": "Eyes almost white. Fenbendazole+Ivermectin+3mL Iron+4mL VitB. Booster."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0669",
+            "note": "DOB 12-30-25. Pen 4 per card (was Pen 5 in JSON). Black ewe twin to MC-2606 white ram. FAMACHA 5 at 6wks \u2014 severe weak resistance."
+          }
         ]
       },
-      "mc_tag": "MC2607"
+      "mc_tag": "MC2607",
+      "weak_resistance": true
     },
     {
       "id": "fm2-0051",
