@@ -9638,7 +9638,7 @@
       "id": "gigi-2026-baby",
       "name": "Gigis 2026 Baby",
       "aliases": [],
-      "tag": "MC2613",
+      "tag": "MC-2613",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[Kelsier x Gigi offspring]",
@@ -9668,6 +9668,30 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "5.2 weeks old. Eyes good."
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0664"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "5.2 weeks old, eyes good",
+            "source": "IMG_0664"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0664"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 3,
+            "notes": "eyes MEDIUM (FAMACHA ~3); booster given",
+            "source": "IMG_0664"
           }
         ],
         "vaccinations": [
@@ -9675,6 +9699,16 @@
             "date": "2026-03-09",
             "vaccine": "Covexin 8",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0664"
+          },
+          {
+            "date": "2026-04-10",
+            "vaccine": "CDT booster",
+            "source": "IMG_0664"
           }
         ],
         "famacha_scores": [
@@ -9697,9 +9731,16 @@
             "famacha": 3,
             "notes": "Eyes medium. Booster."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0664",
+            "note": "DOB 1-10-26. Multi-color ewe. Eyes medium 4-10 \u2014 trending like dam Gigi (weak resistance)."
+          }
         ]
       },
-      "mc_tag": "MC2613"
+      "mc_tag": "MC2613",
+      "description": "Multi color ewe"
     },
     {
       "id": "gigi-2025-ram",
