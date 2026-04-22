@@ -11871,6 +11871,39 @@
           "note": "Renamed from 'Nuba's Baby Ewe' \u2014 dam is ewe 0053 (no name)."
         }
       ]
+    },
+    {
+      "id": "angus",
+      "name": "Angus",
+      "tag": null,
+      "sex": "ram",
+      "status": "alive",
+      "pen": null,
+      "source": "Windlestone",
+      "arrival_date": "2026-04-22",
+      "breed_composition": {
+        "percentages": {},
+        "confidence": "low",
+        "notes": "Owner stated \"50% Awassi, 25% Dorper, 23% Awassi, 2% East Friesian\" \u2014 Awassi appears twice; typo. Awaiting clarification before committing percentages."
+      },
+      "description": "Black head + neck with sharp shoulder boundary, white body, short shedding hair coat. Classic black-headed Dorper phenotype by appearance.",
+      "confidence": "medium",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Picked up from Windlestone today (originally planned for Wednesday). Photo on arrival: IMG_0677.JPG."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "PEDIGREE PENDING: breed composition awaiting owner clarification (owner stated Awassi twice; likely one should be Katahdin)."
+        }
+      ],
+      "health": {
+        "famacha_history": [],
+        "vaccinations": [],
+        "treatments": [],
+        "notes": []
+      }
     }
   ],
   "pens": {
