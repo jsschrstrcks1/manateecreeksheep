@@ -8665,7 +8665,7 @@
     },
     {
       "id": "nuba-0053",
-      "name": "Nuba",
+      "name": "0053",
       "aliases": [
         "Nubia"
       ],
@@ -8775,7 +8775,13 @@
         ]
       },
       "weight_lbs": 175,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "user clarification",
+          "note": "Name corrected: 'Nuba' was Claude's misread \u2014 the ewe is just ear tag 0053. No proper name."
+        }
+      ]
     },
     {
       "id": "charlie-ram",
@@ -11196,7 +11202,7 @@
     },
     {
       "id": "nuba-baby-ewe",
-      "name": "Nuba's Baby Ewe",
+      "name": "0053's Baby Ewe",
       "aliases": [],
       "tag": null,
       "mc_tag": null,
@@ -11262,7 +11268,13 @@
       "notes": "Born 3-24-26 to Nuba (0053) in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9).",
       "confidence": "high",
       "last_verified": "2026-04-09",
-      "description": "Black with tan ear. White patch on top. White tip on tail."
+      "description": "Black with tan ear. White patch on top. White tip on tail.",
+      "notes_history": [
+        {
+          "source": "user clarification",
+          "note": "Renamed from 'Nuba's Baby Ewe' \u2014 dam is ewe 0053 (no name)."
+        }
+      ]
     }
   ],
   "pens": {
