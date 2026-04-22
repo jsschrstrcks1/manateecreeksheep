@@ -12352,6 +12352,17 @@
       "Jacob",
       "Babydoll",
       "Karakul"
+    ],
+    "considered_but_ruled_out": [
+      {
+        "breed": "Exlana",
+        "origin": "UK, developed by Innovis Ltd",
+        "components": "Suffolk and Texel base + global wool-shedding + disease-resistant genetics",
+        "traits": "Fully shedding, FEC-selected (low-FEC lines ~200 vs ~600 eggs/g flock avg per Vineer et al. 2019), prolific (165-195% scanning), 60-65kg ewes, easy lambing, Myomax muscling option",
+        "why_ruled_out": "UK-only; no US breeder network. Import impractical under owner no-imports directive (2026-04-22).",
+        "closest_us_analog": "Royal White or St Croix \u00d7 Katahdin composites run under FEC/parasite selection pressure",
+        "source": "Perplexity research consult 2026-04-22"
+      }
     ]
   },
   "breeding_goals": {
@@ -12564,6 +12575,14 @@
         "16 ewe lambs scored FAMACHA 1-2 in dry summer \u2014 provisional only. Retest in wet season.",
         "Baby Azure FAMACHA 5 in dry summer when all other lambs scored 1-2. Cull candidate."
       ]
+    },
+    "acquisition_constraints": {
+      "no_semen_imports": true,
+      "no_live_imports": true,
+      "sourcing_scope": "US domestic breeders only",
+      "set_on": "2026-04-22",
+      "set_by": "owner directive",
+      "implication": "Eliminates Red Maasai (import-only), Morada Nova (import-dependent), Damara/Van Rooy (rare US), Exlana (UK-only). Realistic US-available targets: Santa Ines, Royal White, Pelibuey, and US breeders running Exlana-analog selection programs."
     }
   },
   "tagging": {
