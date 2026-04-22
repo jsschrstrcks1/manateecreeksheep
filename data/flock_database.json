@@ -9118,7 +9118,7 @@
       "name": "Ewe Tag 31",
       "tag": "31",
       "sex": "ewe",
-      "pen": "Pen 1",
+      "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
         "primary": "St Augustine/Katahdin",
@@ -9140,6 +9140,24 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good. No babies."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good, no babies",
+            "source": "IMG_0607"
+          },
+          {
+            "date": "2026-03-11",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0607"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0607"
           }
         ],
         "vaccinations": [
@@ -9147,7 +9165,8 @@
             "date": "2026-03-11",
             "vaccine": "Covexin 8"
           }
-        ]
+        ],
+        "notes": []
       },
       "sire_id": "sir-loin",
       "weight_lbs": 170,
