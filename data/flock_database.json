@@ -10974,6 +10974,14 @@
           "treatment": "Corid (coccidia)",
           "duration_days": 6,
           "source": "IMG_0629"
+        },
+        {
+          "date_start": "2026-03-08",
+          "date_end": "2026-03-13",
+          "treatment": "Corid (coccidia) \u2014 adult/older schedule",
+          "duration_days": 6,
+          "source": "IMG_0650",
+          "notes": "Evening start 3-8"
         }
       ],
       "vaccinations": [
@@ -10986,6 +10994,11 @@
           "date": "2026-04-11",
           "vaccine": "CDT (booster, 3 babies)",
           "source": "IMG_0629"
+        },
+        {
+          "date": "2026-03-13",
+          "vaccine": "CDT (yearly booster for adults \u2014 goat vac for sheep)",
+          "source": "IMG_0650"
         }
       ],
       "observations": [
@@ -10998,6 +11011,11 @@
           "date": "2026-04-11",
           "observation": "3 babies boostered + tagged; 1 adult tagged (Buck MC-2433)",
           "source": "IMG_0629"
+        },
+        {
+          "date": "2026-02-20",
+          "observation": "3 need to be sheered (adult schedule card)",
+          "source": "IMG_0650"
         }
       ]
     }
