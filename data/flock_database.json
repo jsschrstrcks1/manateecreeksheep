@@ -9366,7 +9366,7 @@
     {
       "id": "elsie-triplet-lg-white-ewe",
       "name": "Elsie Large White Ewe Triplet",
-      "tag": "240005",
+      "tag": "MC-2618",
       "sex": "ewe",
       "pen": "Pen 5",
       "status": "alive",
@@ -9393,6 +9393,18 @@
             "score": "1-2",
             "notes": "CDT vac",
             "source": "IMG_0613"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes",
+            "source": "IMG_0614"
+          },
+          {
+            "date": "2026-03-17",
+            "score": "1-2",
+            "notes": "CDT vac, eyes good",
+            "source": "IMG_0614"
           }
         ],
         "vaccinations": [
@@ -9404,6 +9416,11 @@
             "date": "2026-03-13",
             "vaccine": "CDT",
             "source": "IMG_0613"
+          },
+          {
+            "date": "2026-03-17",
+            "vaccine": "CDT",
+            "source": "IMG_0614"
           }
         ],
         "treatments": [],
@@ -9411,9 +9428,16 @@
           {
             "source": "IMG_0613",
             "note": "Yellow tag 240005. Listed on card as 'Elsie Triplets' \u2014 this is the surviving alive triplet (large white ewe)."
+          },
+          {
+            "source": "IMG_0614",
+            "note": "(L)arge White Female. Yellow scrapie tag 240005 + green herd tag MC-2618. DOB ~2026-01-09 (6 wk on 2-20-26). Mother: Elsie."
           }
         ]
-      }
+      },
+      "secondary_tags": [
+        "240005"
+      ]
     },
     {
       "id": "elsie-triplet-sm-white-ewe",
@@ -9433,12 +9457,35 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "Good eyes"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes",
+            "source": "IMG_0614"
+          },
+          {
+            "date": "2026-03-17",
+            "score": "1-2",
+            "notes": "CDT vac, eyes good",
+            "source": "IMG_0614"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-17",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-17",
+            "vaccine": "CDT",
+            "source": "IMG_0614"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0614",
+            "note": "(SM)all White Female, no tag. DOB ~2026-01-09. Card has health through 3-17-26 before 4-6-26 auction."
           }
         ]
       },
@@ -9457,7 +9504,23 @@
       "dam_id": "elsie",
       "dob": "2026-01-06",
       "color_markings": "Black",
-      "notes": "Born 1-6-26. Elsies triplet. Black ram. Sire: Eclipse. Gifted mid-March 2026 to girl starting her flock. Eyes good 2-13-26."
+      "notes": "Born 1-6-26. Elsies triplet. Black ram. Sire: Eclipse. Gifted mid-March 2026 to girl starting her flock. Eyes good 2-13-26.",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes \u2014 before gifting",
+            "source": "IMG_0614"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0614",
+            "note": "Gifted per card. DOB ~2026-01-09. 2-13-26 good eyes before transfer."
+          }
+        ]
+      }
     },
     {
       "id": "mc08-ram",
