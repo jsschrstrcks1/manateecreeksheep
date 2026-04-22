@@ -7918,6 +7918,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0639"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0639"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "eyes good \u2014 booster",
+            "source": "IMG_0639"
           }
         ],
         "famacha_scores": [
@@ -7935,6 +7953,20 @@
             "date": "3-30-26",
             "famacha": 1,
             "notes": "Eyes good. Booster."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0639"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0639",
+            "note": "Hair coat confirmed on card. Twins this season (both rams, both auctioned: MC2608 + MC2609)."
           }
         ]
       },
