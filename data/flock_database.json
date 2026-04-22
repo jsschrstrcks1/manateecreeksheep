@@ -9542,12 +9542,36 @@
             "date": "2026-02-12",
             "score": "1-2",
             "notes": "Good eyes"
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "Good eyes",
+            "source": "IMG_0615"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc, eyes good",
+            "source": "IMG_0615"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0615"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0615",
+            "note": "Fawn wool-colored ram. Yellow tag MC08."
           }
         ]
       },
