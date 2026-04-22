@@ -10397,7 +10397,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "",
-      "pen": "Goose Pen",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "fm2-0051",
@@ -10418,6 +10418,30 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "2.6 weeks old. Eyes good."
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "2.6 weeks old, eyes good",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "Booster, eyes good",
+            "source": "IMG_0672"
           }
         ],
         "vaccinations": [
@@ -10425,6 +10449,22 @@
             "date": "2026-03-09",
             "vaccine": "Covexin 8",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-04-10",
+            "vaccine": "CDT booster",
+            "source": "IMG_0672"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0672",
+            "note": "DOB 1-31-26. Pen 4 per card (was Goose Pen \u2014 which is now empty). Dam FM2."
           }
         ]
       },
