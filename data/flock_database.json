@@ -6077,14 +6077,47 @@
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (yearly)",
+            "source": "chat_inline_bambii"
+          },
+          {
+            "date": "2026-04-11",
+            "vaccine": "CDT booster",
+            "source": "chat_inline_bambii"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "chat_inline_bambii",
+            "note": "Card came inline 2026-04-22. Yellow scrapie tag \"24/0003\". Single baby (Bambiis Baby MC-2615)."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good; single baby this season",
+            "source": "chat_inline_bambii"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "chat_inline_bambii"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "Good eyes, tagged, booster",
+            "source": "chat_inline_bambii"
           }
         ]
       },
@@ -6103,7 +6136,8 @@
       },
       "notes": "In Pen 2 (Sir Loin group) per spiral notebook (authoritative). Was struck through in treatment list but notebook roster is definitive for alive/active status. Tree Fort pen. Single baby (born 12-28-25). Tan patches on knees and spots. Source: notebook card TF. Tag 24/0003 yellow. Single baby. Eyes consistently good. Tree Fort.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "description": "All white with shadow on front knees."
     },
     {
       "id": "skitters",
@@ -10967,12 +11001,35 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "chat_inline_2139"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc, eyes good",
+            "source": "chat_inline_2139"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "chat_inline_2139"
+          }
+        ],
+        "notes": [
+          {
+            "source": "chat_inline_2139",
+            "note": "Card came inline 2026-04-22. Big ewe with nice horns. No babies."
           }
         ]
       },
@@ -10983,7 +11040,8 @@
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
         }
-      ]
+      ],
+      "description": "Fat tail. Big ewe with nice horns. No babies this season."
     },
     {
       "id": "windlestone-0056",
@@ -11012,12 +11070,35 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "chat_inline_0056"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc, eyes good",
+            "source": "chat_inline_0056"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "chat_inline_0056"
+          }
+        ],
+        "notes": [
+          {
+            "source": "chat_inline_0056",
+            "note": "Card came inline 2026-04-22. Nice to handle."
           }
         ]
       },
@@ -11028,7 +11109,8 @@
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
         }
-      ]
+      ],
+      "description": "Fat tail. 1 med thick long horn + 1 hard thick & med long horn. Nice to handle."
     },
     {
       "id": "windlestone-0055",
@@ -11385,7 +11467,7 @@
     {
       "id": "bambii-baby",
       "name": "Bambiis Baby",
-      "tag": "MC2615",
+      "tag": "MC-2615",
       "sex": "ewe",
       "pen": "Tree Fort",
       "status": "alive",
@@ -11400,12 +11482,40 @@
             "date": "2025-12-30",
             "score": "1-2",
             "notes": "eyes with perfect circles"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "7.5 weeks old",
+            "source": "chat_inline_bambii_baby"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "chat_inline_bambii_baby"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "Good eyes, tagged, booster",
+            "source": "chat_inline_bambii_baby"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (1st)",
+            "source": "chat_inline_bambii_baby"
+          },
+          {
+            "date": "2026-04-11",
+            "vaccine": "CDT booster",
+            "source": "chat_inline_bambii_baby"
           }
         ],
         "famacha_scores": [
@@ -11422,9 +11532,16 @@
             "famacha": 1,
             "notes": "Good eyes. Tagged. Booster."
           }
+        ],
+        "notes": [
+          {
+            "source": "chat_inline_bambii_baby",
+            "note": "Card came inline in chat 2026-04-22. DOB 12-28-25 confirmed. Dam: Bambii. Tagged 4-11-26 green MC-2615."
+          }
         ]
       },
-      "mc_tag": "MC2615"
+      "mc_tag": "MC2615",
+      "description": "All white with shadow on knees. Eyes with perfect circles around them. Grey and black spots on ear."
     },
     {
       "id": "goose-09",
