@@ -10128,6 +10128,19 @@
           "observation": "2 wool sheep need to be sheared",
           "source": "IMG_0611"
         }
+      ],
+      "census_snapshots": [
+        {
+          "source": "IMG_0616",
+          "as_of_approx": "2026-02/03",
+          "count_written": 4,
+          "tags_listed": [
+            "31",
+            "02",
+            "113 (Eclipse pre-sale)",
+            "fawn-wool long-ears (tag 240006)"
+          ]
+        }
       ]
     },
     "pen_6": {
@@ -10142,7 +10155,22 @@
         "elsie-triplet-lg-white-ewe",
         "elsie-triplet-sm-white-ewe"
       ],
-      "notes": "Pen 6 as of April 2026. MC08 (ram, fawn wool, yellow tag). Elsie (triplets by Eclipse \u2014 black ram gifted, 2 white ewe lambs remain). 3 Windlestone fat tail Awassi ewes (2139, 0056, 0055) \u2014 no babies. OAV 2222 was here for months but back in Pen 5. Corid 2-13 to 2-17-26. Covexin 8 3-13-26. 1 wool + 3 fat tails need shearing. Source: notebook cards pen 6."
+      "notes": "Pen 6 as of April 2026. MC08 (ram, fawn wool, yellow tag). Elsie (triplets by Eclipse \u2014 black ram gifted, 2 white ewe lambs remain). 3 Windlestone fat tail Awassi ewes (2139, 0056, 0055) \u2014 no babies. OAV 2222 was here for months but back in Pen 5. Corid 2-13 to 2-17-26. Covexin 8 3-13-26. 1 wool + 3 fat tails need shearing. Source: notebook cards pen 6.",
+      "census_snapshots": [
+        {
+          "source": "IMG_0616",
+          "as_of_approx": "2026-02/03",
+          "tags_listed": [
+            "2222 OAV",
+            "Kelsie sister w/ baby (unclear \u2014 OAV 2222 or Kelsier sister deceased)",
+            "MC08",
+            "2139 fat-tail",
+            "0056 fat-tail",
+            "0055 fat-tail",
+            "2 white #10 (unclear)"
+          ]
+        }
+      ]
     },
     "goose_pen": {
       "ram": null,
