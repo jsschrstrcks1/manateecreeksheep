@@ -9250,9 +9250,9 @@
     {
       "id": "fawn-wool-ewe-p5",
       "name": "Fawn Wool Ewe (Pen 5)",
-      "tag": null,
+      "tag": "240006",
       "sex": "ewe",
-      "pen": "Pen 3",
+      "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
         "primary": "Wool",
@@ -9266,6 +9266,38 @@
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT",
+            "source": "IMG_0610"
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "u",
+            "notes": "Could not check, broke out of catch pen",
+            "source": "IMG_0610"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "u",
+            "notes": "CDT vac",
+            "source": "IMG_0610"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes",
+            "source": "IMG_0610"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0610",
+            "note": "Yellow tag 240006. Wool, fawn color, long ears."
           }
         ]
       }
