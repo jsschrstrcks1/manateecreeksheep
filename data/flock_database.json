@@ -2000,7 +2000,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Tree Fort",
+      "pen": "Pen 4",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -2035,16 +2035,31 @@
             "date": "2026-02-27",
             "treatment": "Vitamin B12 3mL",
             "notes": "Skinny, nursing twins"
+          },
+          {
+            "date": "2026-02-27",
+            "treatment": "Vitamin B12 3mL",
+            "notes": "Skinny, FAMACHA 3",
+            "source": "IMG_0668"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0668"
           }
         ],
         "notes": [
-          "Low FAMACHA score 7-24-25 along with GG and Lara"
+          "Low FAMACHA score 7-24-25 along with GG and Lara",
+          {
+            "source": "IMG_0668",
+            "note": "Yellow tag MC-157. Twins this season (male + female = MC2606 white ram + MC2607 black ewe)."
+          }
         ],
         "famacha_history": [
           {
@@ -2061,6 +2076,36 @@
             "date": "2026-02-27",
             "score": 3,
             "notes": "eyes good 3. Skinny. VB12 3mL."
+          },
+          {
+            "date": "2026-02-12",
+            "score": 3,
+            "notes": "eyes 3-4",
+            "source": "IMG_0668"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "eyes good 3-4",
+            "source": "IMG_0668"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes good 3; skinny; VB12 3mL shot",
+            "source": "IMG_0668"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0668"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0668"
           }
         ]
       },
