@@ -9931,12 +9931,42 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good \u2014 single baby",
+            "source": "IMG_0625"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc eyes good",
+            "source": "IMG_0625"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes",
+            "source": "IMG_0625"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0625"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0625",
+            "note": "Wool coat with 2 brown socks on hind legs. Single baby this season."
           }
         ]
       }
