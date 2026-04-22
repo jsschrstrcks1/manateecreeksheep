@@ -2983,14 +2983,36 @@
           {
             "date": "2026-03-11",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-11",
+            "vaccine": "CDT",
+            "source": "IMG_0609"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0609",
+            "note": "Card description: white with beard. Ram Tag 113, Pen 5 before sale."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0609"
+          },
+          {
+            "date": "2026-03-11",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0609"
           }
         ]
       },
