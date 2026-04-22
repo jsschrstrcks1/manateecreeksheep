@@ -9490,18 +9490,65 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "CDT shot. Eyes good."
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good; no babies",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "eyes borderline",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes borderline; VB shot given",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good BUT CONDITION BAD \u2014 Vit B12 3mL given",
+            "source": "IMG_0661"
           }
         ],
         "treatments": [
           {
             "date": "2026-02-27",
             "treatment": "Vitamin B shot"
+          },
+          {
+            "date": "2026-02-27",
+            "treatment": "Vitamin B shot",
+            "notes": "eyes borderline",
+            "source": "IMG_0661"
+          },
+          {
+            "date": "2026-04-10",
+            "treatment": "Vitamin B12 3mL",
+            "notes": "Condition bad though eyes good",
+            "source": "IMG_0661"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0661"
           }
         ],
         "famacha_scores": [
@@ -9529,6 +9576,12 @@
             "date": "4-10-26",
             "famacha": 1,
             "notes": "Eyes good. CONDITION BAD. Vitamin B12 3mL."
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0661",
+            "note": "Black headed. No babies. Borderline FAMACHA Feb 20-27. Condition poor 4-10 despite good eyes."
           }
         ]
       },
