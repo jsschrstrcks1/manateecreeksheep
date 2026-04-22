@@ -9328,6 +9328,36 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "CDT shot. Eyes good."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "5.3 weeks old",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-04-09",
+            "score": 3,
+            "notes": "Booster; eyes MED (FAMACHA ~3 \u2014 watch)",
+            "source": "IMG_0658"
           }
         ],
         "vaccinations": [
@@ -9335,6 +9365,16 @@
             "date": "2026-03-09",
             "vaccine": "CDT",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0658"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT booster",
+            "source": "IMG_0658"
           }
         ],
         "famacha_scores": [
@@ -9362,9 +9402,16 @@
             "famacha": 3,
             "notes": "Booster. Eyes med."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0658",
+            "note": "Green tag MC-2604 was applied but PULLED OUT. DOB 1-10-26. Dam Nori. Sex: MALE (correction confirmed again). Eyes medium on 4-9 \u2014 track."
+          }
         ]
       },
-      "mc_tag": "MC2604"
+      "mc_tag": "MC2604",
+      "description": "Brown + white mottled. Full white tail. White on top of ears. White blaze."
     },
     {
       "id": "g023-bhd-ewe",
