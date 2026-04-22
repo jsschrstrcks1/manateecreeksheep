@@ -10246,6 +10246,29 @@
             "2 white #10 (unclear)"
           ]
         }
+      ],
+      "treatments": [
+        {
+          "date_start": "2026-02-13",
+          "date_end": "2026-02-17",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 5,
+          "source": "IMG_0621"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-13",
+          "vaccine": "CDT (goat vaccine used for sheep)",
+          "source": "IMG_0621"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "Eyes good pen-wide. 1 wool + 3 fat-tails need shearing.",
+          "source": "IMG_0621"
+        }
       ]
     },
     "goose_pen": {
