@@ -8250,6 +8250,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0642"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; trimmed poop off butt",
+            "source": "IMG_0642"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster; eyes good",
+            "source": "IMG_0642"
           }
         ],
         "famacha_scores": [
@@ -8267,6 +8285,20 @@
             "date": "3-30-26",
             "famacha": 1,
             "notes": "Booster. Eyes good."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0642"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0642",
+            "note": "Orange ear tag confirmed. Mom noted 'Orange male?' in header (gender never in doubt in DB)."
           }
         ]
       },
