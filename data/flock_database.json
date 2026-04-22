@@ -7486,7 +7486,7 @@
         "coat_prediction": "hair"
       },
       "color_markings": "White w/ blk belly. White blaze with blk eyebrows. Fawn color mostly. Blk under chin. Blk inside ears. Front legs on knees black. Left front above white sock. 2 white socks on hind legs.",
-      "pen": "Pen 3",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
       "dam_id": "nori-line-f2",
@@ -7512,6 +7512,12 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good; single baby this season",
+            "source": "IMG_0632"
           }
         ],
         "famacha_scores": [
@@ -7520,9 +7526,19 @@
             "famacha": 1,
             "notes": "Eyes good"
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0632",
+            "note": "New notebook (blue spiral). Green tags: MC-2620 top + MC-2611 bottom. Pen 1 per card."
+          }
         ]
       },
-      "mc_tag": "MC2620"
+      "mc_tag": "MC2620",
+      "secondary_tags": [
+        "MC-2611"
+      ],
+      "description": "White with black belly. Black with black eyebrows. Fawn color mostly. Black under chin. Black inside ears. Front legs black on knees. Left front hoof white side. 2 white socks on hind legs."
     },
     {
       "id": "charlies-ram-lamb",
