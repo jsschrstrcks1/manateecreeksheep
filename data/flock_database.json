@@ -9177,7 +9177,7 @@
       "name": "Ewe Tag 02",
       "tag": "02",
       "sex": "ewe",
-      "pen": "Pen 3",
+      "pen": "Pen 5",
       "status": "alive",
       "breed_composition": {
         "primary": "[UNCLEAR]",
@@ -9190,14 +9190,39 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good. No babies."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good, no babies",
+            "source": "IMG_0608"
+          },
+          {
+            "date": "2026-03-11",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0608"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0608"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-11",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-11",
+            "vaccine": "CDT",
+            "source": "IMG_0608"
           }
-        ]
+        ],
+        "treatments": [],
+        "notes": []
       }
     },
     {
