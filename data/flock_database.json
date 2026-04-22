@@ -9366,7 +9366,7 @@
     {
       "id": "elsie-triplet-lg-white-ewe",
       "name": "Elsie Large White Ewe Triplet",
-      "tag": null,
+      "tag": "240005",
       "sex": "ewe",
       "pen": "Pen 5",
       "status": "alive",
@@ -9381,12 +9381,36 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "Good eyes"
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0613"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0613"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-17",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0613"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0613",
+            "note": "Yellow tag 240005. Listed on card as 'Elsie Triplets' \u2014 this is the surviving alive triplet (large white ewe)."
           }
         ]
       }
