@@ -372,7 +372,15 @@
       "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook. Pen 4 (monitoring/treatment pen). FAMACHA almost white (4-5) on 2-20-26 and 2-27-26 \u2014 two rounds aggressive treatment (Ivermectin+Fenbendazole+VB+Iron). Recovered to good by 3-9-26. Single ewe baby born 1-10-26. Also has 2025 yearling ram (tag 09?, sire Kelsier). Known weak parasite resistance \u2014 dam genetics appear dominant for parasite susceptibility despite Kelsier sire on offspring. One of familys favorites. Azure is Gigis sister (confirmed from notebook: Azures card says Gilris/Gigis Sister). Source: notebook card pen 4. Full sister of Azure. Both 50% Hampshire / 50% Suffolk. Large frame ~212 lbs. MC19 yellow tag. GiGi. FAMACHA: good\u2192ALMOST WHITE 2x (2-20,2-27) aggressive treatment\u2192recovered\u2192good 3-9 and 4-10. HIGH MAINTENANCE.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "secondary_tags": []
+      "secondary_tags": [],
+      "do_not_sell": true,
+      "pet": true,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "PET \u2014 family/personal animal, never leaves flock regardless of resistance. Owner directive."
+        }
+      ]
     },
     {
       "id": "rocky",
@@ -2130,7 +2138,13 @@
       },
       "notes": "Breeding page: 25%Babydoll/25%Jacob/12.5%K/37.5%SA. Tag 30. DOB 3/25/2022. Acquired 3/25/2022. Ewe weight 137.5lbs, ram weight prediction 222.75lbs. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Black w white on head and spots by mouth. Not flighty, Good Mother, Attentive, Protective, Docile, Heat Tolerant. FAMACHA 1 (9-20-23). 2023: S'More lamb born 1/29/2023 \u2014 sterile, deceased (parasites). Also 2023: Kaladin (by S'More, born 5/11/2023). 2024: ram (by Samson). Also mother of Mc12/036 baby ewe. Bred to Kaladin 9-6-23, Samson Jan-Feb. Pen 4 with twins (2026). Lambed 2026-02-03 (twins). Pen 4 (monitoring pen). Twins born 12-30-25 (1 male white, 1 female black). Sire: Kelsier. FAMACHA 3-4 on 2-12-26, borderline/skinny on 2-27-26 \u2014 VB12 3mL. Nursing twins is hard on her. Source: notebook card pen 4. MC157 yellow tag. FAMACHA: 3-4\u21923\u21923(skinny,B12)\u2192good 4-10. Improved after weaning stress.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "KEPT: Owner notes Serendipity has solid resistance most years; one-off 2026 FAMACHA 3 with VB12 treated. Not a cull candidate."
+        }
+      ]
     },
     {
       "id": "serendipity-ram-2024",
@@ -3160,7 +3174,15 @@
       },
       "notes": "Tag GA1568-011, 50% Cotswold / 50% Tunis, Tunis Red, 200lbs. DOB 2/14/2021 per breeding page. Acquired 2/27/2021. Sire: Tunis (red), Dam: Cotswold. 2023: FM1 ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days). Eclipse also listed on breeding page as potential 2023 offspring (dec?/April \u2014 may not have survived). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list. Tag 0011 confirmed. Now in Pen 4. No babies as of 2-12-26. Eyes good throughout. Source: notebook card pen 4. Tag 0011. FAMACHA consistently good all checks Feb-Apr 2026. NO babies this season.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "do_not_sell": true,
+      "pet": true,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "PET \u2014 family/personal animal, never leaves flock. Owner directive."
+        }
+      ]
     },
     {
       "id": "fm1",
@@ -3252,7 +3274,7 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "nori",
-      "status": "sold",
+      "status": "alive",
       "status_date": "2026-04-06",
       "status_notes": "Auction Sunday April 6, 2026",
       "pen": null,
@@ -3319,7 +3341,14 @@
       "notes": "25%ABB/12.5%K/37.5%SA/25%WH. Sir Loin (25K/75SA) x Nori (50ABB/50WH). RAM (corrected from ewe). Nori's 2022 offspring. Weight calculator: 41.9lbs. Died after Hurricane Idalia (Aug/Sep 2023). Was in Pen 1 before death. Also listed on FM breeding page as potential offspring. Tag 113 confirmed. Pen 5 ram. White with beard. SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Tag 31, Tag 02, Fawn Wool Ewe, Little Daisy, OAV 2222 all unproven by him. The other ewes (except Little Daisy) are proven breeders year after year. Little Daisy has been with him since 10 weeks old \u2014 nothing. CULL CANDIDATE for subfertility. Elsie escaped to Pen 6 while pregnant by Eclipse, had triplets there.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "weight_estimated": true
+      "weight_estimated": true,
+      "scheduled_auction": "2026-04-26",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
+        }
+      ]
     },
     {
       "id": "gertrude-moon",
@@ -9399,7 +9428,13 @@
       },
       "mc_tag": "MC2605",
       "description": "Brown + white",
-      "weak_resistance": true
+      "weak_resistance": true,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "KEPT: Owner clarified BT_WHITE twin (MC-2601) goes to auction, brown twin (MC-2605) stays despite 4-9 FAMACHA 5."
+        }
+      ]
     },
     {
       "id": "broken-tail-twin-ewe-2",
@@ -9414,7 +9449,7 @@
       },
       "color_markings": "White ewe",
       "pen": null,
-      "status": "sold",
+      "status": "alive",
       "sire_id": null,
       "dam_id": "broken-tail",
       "dob": "2025-12-31",
@@ -9481,7 +9516,14 @@
       },
       "status_date": "2026-04-06",
       "status_notes": "Auction Sunday April 6, 2026",
-      "description": "White ewe"
+      "description": "White ewe",
+      "scheduled_auction": "2026-04-26",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
+        }
+      ]
     },
     {
       "id": "nori-baby-p3",
@@ -10224,7 +10266,13 @@
         ]
       },
       "mc_tag": "MC2606",
-      "weak_resistance": true
+      "weak_resistance": true,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "KEPT: Owner retaining white ram twin to test cross with strong parasite-resistant sire. Despite two FAMACHA events as lamb, line testing continues."
+        }
+      ]
     },
     {
       "id": "serendipity-twin-ewe",
@@ -10379,7 +10427,14 @@
         ]
       },
       "mc_tag": "MC2607",
-      "weak_resistance": true
+      "weak_resistance": true,
+      "scheduled_auction": "2026-04-26",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Scheduled for 4-26-26 auction. Black ewe twin of Serendipity \u2014 two FAMACHA 5 emergencies as lamb (2-12, 4-10). Owner keeping white ram twin MC-2606 for line test."
+        }
+      ]
     },
     {
       "id": "fm2-0051",
@@ -10835,7 +10890,7 @@
       "tag": null,
       "sex": "ewe",
       "pen": null,
-      "status": "sold",
+      "status": "alive",
       "sire_id": "eclipse",
       "dam_id": "elsie",
       "dob": "2026-01-06",
@@ -10880,7 +10935,14 @@
         ]
       },
       "status_date": "2026-04-06",
-      "status_notes": "Auction Sunday April 6, 2026"
+      "status_notes": "Auction Sunday April 6, 2026",
+      "scheduled_auction": "2026-04-26",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
+        }
+      ]
     },
     {
       "id": "elsie-triplet-black-ram",
