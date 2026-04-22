@@ -8916,7 +8916,7 @@
       "id": "charlies-farm-ewe-baby-p3",
       "name": "Charlies Farm Ewe Baby",
       "aliases": [],
-      "tag": "MC2602",
+      "tag": "MC-2602",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Charlies Farm Ewe offspring]",
@@ -8945,12 +8945,52 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-01-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "10 weeks old today",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-03-08",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "Booster, eyes good",
+            "source": "IMG_0653"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-08",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-08",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0653"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT booster",
+            "source": "IMG_0653"
           }
         ],
         "famacha_scores": [
@@ -8977,9 +9017,16 @@
             "famacha": 1,
             "notes": "Booster. Eyes good."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0653",
+            "note": "Oldest lamb in Pen 3 (matches IMG_0630 \"Oldest Baby Pen 3 12-6-25\"). Green tag MC-2602 on 4-9 booster date. Card also shows \"MC 2609\" scratched/unclear \u2014 disregarded."
+          }
         ]
       },
-      "mc_tag": "MC2602"
+      "mc_tag": "MC2602",
+      "description": "Big brown with white tip on tail. 2 white socks. White on crown. Front legs all brown."
     },
     {
       "id": "broken-tail-twin-ewe",
