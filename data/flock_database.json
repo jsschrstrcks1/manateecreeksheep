@@ -10903,11 +10903,14 @@
     "notes": "4 adults tagged on 4-10-26. 13 total in Pen 4. Need to be sheared."
   },
   "headcount": {
-    "date": "2026-03-30",
-    "source": "Red spiral notebook master count card",
-    "total": 51,
-    "adults": 34,
-    "babies": 17,
+    "as_of": "2026-04-11 (card IMG_0631)",
+    "source": "IMG_0631 master headcount card",
+    "totals": {
+      "adults": 34,
+      "babies": 17,
+      "all": 51
+    },
+    "shots_total_notes": "39 shots / 9 shots (CDT 1st round / booster \u2014 interpretation)",
     "by_pen": {
       "Pen 1": {
         "adults": 5,
@@ -10944,9 +10947,7 @@
         "babies": 3,
         "total": 7
       }
-    },
-    "notes": "34 adults + 17 babies = 51. This count may predate Nubas baby (3-24-26) and 114 black ram lamb (3-29-26), bringing total to 53.",
-    "shots_given": 39
+    }
   },
   "lambing_notes": [
     {
