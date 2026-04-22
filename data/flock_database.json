@@ -275,6 +275,12 @@
             "date": "2026-02-27",
             "treatment": "Ivermectin + Fenbendazole + VB 3mL + Iron 3mL",
             "notes": "Still almost white"
+          },
+          {
+            "date": "2026-04-10",
+            "treatment": "Fenbendazole + Ivermectin + Iron 3mL + VB 4mL",
+            "notes": "Third FAMACHA 5 emergency. Weak resistance severely confirmed.",
+            "source": "IMG_0663"
           }
         ],
         "vaccinations": [
@@ -287,6 +293,10 @@
           {
             "source": "IMG_0662",
             "note": "MC-19 yellow tag confirmed. Single ewe (no babies). 'Weak resistance' confirmed by parasite emergency 2-20 to 2-27-26."
+          },
+          {
+            "source": "IMG_0663",
+            "note": "THIRD parasite emergency (2-20, 2-27, 4-10 all FAMACHA 5). Strong cull candidate per drought-rule protocol."
           }
         ],
         "famacha_history": [
@@ -333,6 +343,12 @@
             "score": "1-2",
             "notes": "CDT shot, eyes good",
             "source": "IMG_0662"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 5,
+            "notes": "Eyes almost white AGAIN (3rd emergency). Fenbendazole+Ivermectin+Iron 3mL+VB 4mL shot",
+            "source": "IMG_0663"
           }
         ]
       },
