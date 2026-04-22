@@ -9069,7 +9069,7 @@
       "id": "broken-tail-twin-ewe",
       "name": "Broken Tail Twin Ewe",
       "aliases": [],
-      "tag": "MC2605",
+      "tag": "MC-2605",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Broken Tail offspring]",
@@ -9093,12 +9093,46 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Escaped from catch pen",
+            "source": "IMG_0655"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "6.6 weeks old",
+            "source": "IMG_0655"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0655"
+          },
+          {
+            "date": "2026-04-09",
+            "score": 5,
+            "notes": "Booster given. EYES WHITE (FAMACHA 5). Treated: Iron 1cc + VB 0.5cc + Ivermectin.",
+            "source": "IMG_0655"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0655"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT booster",
+            "source": "IMG_0655"
           }
         ],
         "famacha_scores": [
@@ -9120,9 +9154,25 @@
             "famacha": 5,
             "notes": "EYES WHITE. 1cc Iron, 1.5cc VB shot, Ivermectin. Booster."
           }
+        ],
+        "treatments": [
+          {
+            "date": "2026-04-09",
+            "treatment": "Iron 1cc + VB 0.5cc + Ivermectin",
+            "notes": "EYES WHITE \u2014 severe parasite emergency. Treated same day as CDT booster.",
+            "source": "IMG_0655"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0655",
+            "note": "Green tag MC-2605. Born 12-31-25 (6.6 wk on 2-20-26). Parasite vulnerability 4-9-26 \u2014 adds to weak resistance watchlist. Escapes catch pen easily."
+          }
         ]
       },
-      "mc_tag": "MC2605"
+      "mc_tag": "MC2605",
+      "description": "Brown + white",
+      "weak_resistance": true
     },
     {
       "id": "broken-tail-twin-ewe-2",
