@@ -9988,12 +9988,46 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0626"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "7 weeks old",
+            "source": "IMG_0626"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0626"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "Booster + tagged, good eyes",
+            "source": "IMG_0626"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (1st round)",
+            "source": "IMG_0626"
+          },
+          {
+            "date": "2026-04-11",
+            "vaccine": "CDT (booster)",
+            "source": "IMG_0626"
           }
         ],
         "famacha_scores": [
@@ -10015,9 +10049,16 @@
             "famacha": 1,
             "notes": "Booster + tag. Good eyes."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0626",
+            "note": "DOB 1-2-26 confirmed. Description updated. Dam: Orange Tag 31 Ewe (tag-31-orange-tf)."
+          }
         ]
       },
-      "mc_tag": "MC2616"
+      "mc_tag": "MC2616",
+      "description": "White with brown circles around eyes that go down the neck, plus brown dots"
     },
     {
       "id": "bambii-baby",
