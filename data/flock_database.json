@@ -10882,7 +10882,23 @@
       },
       "secondary_tags": [
         "240005"
-      ]
+      ],
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Sire confirmed: Eclipse (tag 113 ram, going to auction 4-26). Owner clarification."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "CONDITIONAL CULL: Kept for now (largest of 3 triplets). Sire Eclipse (subfertile except with Elsie). If she throws bad babies, she's gone too \u2014 evaluate at her first lambing."
+        }
+      ],
+      "conditional_cull": {
+        "flag": true,
+        "trigger": "Cull if her offspring show parasite weakness (FAMACHA 4+ in early life)",
+        "set_on": "2026-04-22",
+        "set_by": "owner directive"
+      }
     },
     {
       "id": "elsie-triplet-sm-white-ewe",
@@ -10941,6 +10957,14 @@
         {
           "date": "2026-04-22",
           "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Sire confirmed: Eclipse (tag 113 ram, going to auction 4-26). Owner clarification."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Size clarification: SECOND smallest (smallest was black ram, already gifted). Going to 4-26 auction."
         }
       ]
     },
@@ -10972,7 +10996,17 @@
             "note": "Gifted per card. DOB ~2026-01-09. 2-13-26 good eyes before transfer."
           }
         ]
-      }
+      },
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Sire confirmed: Eclipse (tag 113 ram, going to auction 4-26). Owner clarification."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Confirmed smallest of three; already gifted off-farm."
+        }
+      ]
     },
     {
       "id": "mc08-ram",
