@@ -10059,6 +10059,18 @@
             "score": "2-3",
             "notes": "eyes better",
             "source": "IMG_0669"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 5,
+            "notes": "EYES WHITE AGAIN \u2014 Iron 0.5mL + VB12 1mL; booster given",
+            "source": "IMG_0670"
           }
         ],
         "treatments": [
@@ -10072,6 +10084,12 @@
             "treatment": "Iron 0.5mL + VB 1mL + Ivermectin + Fenbendazole",
             "notes": "eyes bad (~FAMACHA 4)",
             "source": "IMG_0669"
+          },
+          {
+            "date": "2026-04-10",
+            "treatment": "Iron 0.5mL + VB12 1mL",
+            "notes": "FAMACHA 5 AGAIN \u2014 second emergency",
+            "source": "IMG_0670"
           }
         ],
         "vaccinations": [
@@ -10079,6 +10097,16 @@
             "date": "2026-03-09",
             "vaccine": "Covexin 8",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "vaccine": "CDT booster",
+            "source": "IMG_0670"
           }
         ],
         "famacha_scores": [
@@ -10162,6 +10190,24 @@
             "score": 4,
             "notes": "eyes NOT white, now L pink \u2014 Ivermectin + VB 1mL shot",
             "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes under 3; VB12 shot 1mL",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 5,
+            "notes": "EYES WHITE AGAIN \u2014 Iron 0.5 + VB12 1mL; booster",
+            "source": "IMG_0670"
           }
         ],
         "treatments": [
@@ -10191,6 +10237,18 @@
             "treatment": "Ivermectin + VB 1mL",
             "notes": "eyes improving to L pink",
             "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-27",
+            "treatment": "VB12 shot 1mL",
+            "notes": "eyes under 3",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "treatment": "Iron 0.5mL + VB12 1mL",
+            "notes": "FAMACHA 5 AGAIN \u2014 second emergency",
+            "source": "IMG_0670"
           }
         ],
         "vaccinations": [
@@ -10198,6 +10256,16 @@
             "date": "2026-03-09",
             "vaccine": "Covexin 8",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "vaccine": "CDT booster",
+            "source": "IMG_0670"
           }
         ],
         "famacha_scores": [
