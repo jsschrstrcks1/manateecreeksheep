@@ -9701,12 +9701,36 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0620"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc eyes good",
+            "source": "IMG_0620"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0620"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0620",
+            "note": "Fat-tail Awassi, 1 tiny horn + 1 small long horn, dark legs. No babies as of 2-13."
           }
         ]
       },
