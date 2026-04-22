@@ -372,7 +372,15 @@
       "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook. Pen 4 (monitoring/treatment pen). FAMACHA almost white (4-5) on 2-20-26 and 2-27-26 \u2014 two rounds aggressive treatment (Ivermectin+Fenbendazole+VB+Iron). Recovered to good by 3-9-26. Single ewe baby born 1-10-26. Also has 2025 yearling ram (tag 09?, sire Kelsier). Known weak parasite resistance \u2014 dam genetics appear dominant for parasite susceptibility despite Kelsier sire on offspring. One of familys favorites. Azure is Gigis sister (confirmed from notebook: Azures card says Gilris/Gigis Sister). Source: notebook card pen 4. Full sister of Azure. Both 50% Hampshire / 50% Suffolk. Large frame ~212 lbs. MC19 yellow tag. GiGi. FAMACHA: good\u2192ALMOST WHITE 2x (2-20,2-27) aggressive treatment\u2192recovered\u2192good 3-9 and 4-10. HIGH MAINTENANCE.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "secondary_tags": []
+      "secondary_tags": [],
+      "do_not_sell": true,
+      "pet": true,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "PET \u2014 family/personal animal, never leaves flock regardless of resistance. Owner directive."
+        }
+      ]
     },
     {
       "id": "rocky",
@@ -2000,7 +2008,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Tree Fort",
+      "pen": "Pen 4",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -2035,16 +2043,31 @@
             "date": "2026-02-27",
             "treatment": "Vitamin B12 3mL",
             "notes": "Skinny, nursing twins"
+          },
+          {
+            "date": "2026-02-27",
+            "treatment": "Vitamin B12 3mL",
+            "notes": "Skinny, FAMACHA 3",
+            "source": "IMG_0668"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0668"
           }
         ],
         "notes": [
-          "Low FAMACHA score 7-24-25 along with GG and Lara"
+          "Low FAMACHA score 7-24-25 along with GG and Lara",
+          {
+            "source": "IMG_0668",
+            "note": "Yellow tag MC-157. Twins this season (male + female = MC2606 white ram + MC2607 black ewe)."
+          }
         ],
         "famacha_history": [
           {
@@ -2061,6 +2084,36 @@
             "date": "2026-02-27",
             "score": 3,
             "notes": "eyes good 3. Skinny. VB12 3mL."
+          },
+          {
+            "date": "2026-02-12",
+            "score": 3,
+            "notes": "eyes 3-4",
+            "source": "IMG_0668"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "eyes good 3-4",
+            "source": "IMG_0668"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes good 3; skinny; VB12 3mL shot",
+            "source": "IMG_0668"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0668"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0668"
           }
         ]
       },
@@ -2085,7 +2138,13 @@
       },
       "notes": "Breeding page: 25%Babydoll/25%Jacob/12.5%K/37.5%SA. Tag 30. DOB 3/25/2022. Acquired 3/25/2022. Ewe weight 137.5lbs, ram weight prediction 222.75lbs. Sir Loin (25K/75SA) x Shaggy (50Babydoll/50Jacob). Black w white on head and spots by mouth. Not flighty, Good Mother, Attentive, Protective, Docile, Heat Tolerant. FAMACHA 1 (9-20-23). 2023: S'More lamb born 1/29/2023 \u2014 sterile, deceased (parasites). Also 2023: Kaladin (by S'More, born 5/11/2023). 2024: ram (by Samson). Also mother of Mc12/036 baby ewe. Bred to Kaladin 9-6-23, Samson Jan-Feb. Pen 4 with twins (2026). Lambed 2026-02-03 (twins). Pen 4 (monitoring pen). Twins born 12-30-25 (1 male white, 1 female black). Sire: Kelsier. FAMACHA 3-4 on 2-12-26, borderline/skinny on 2-27-26 \u2014 VB12 3mL. Nursing twins is hard on her. Source: notebook card pen 4. MC157 yellow tag. FAMACHA: 3-4\u21923\u21923(skinny,B12)\u2192good 4-10. Improved after weaning stress.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "KEPT: Owner notes Serendipity has solid resistance most years; one-off 2026 FAMACHA 3 with VB12 treated. Not a cull candidate."
+        }
+      ]
     },
     {
       "id": "serendipity-ram-2024",
@@ -3015,7 +3074,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": "Pen 4",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -3045,9 +3104,19 @@
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0666"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0666",
+            "note": "No babies this season. Consistent good eyes."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-12",
@@ -3058,6 +3127,30 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good; no babies",
+            "source": "IMG_0666"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0666"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0666"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0666"
           }
         ]
       },
@@ -3081,7 +3174,15 @@
       },
       "notes": "Tag GA1568-011, 50% Cotswold / 50% Tunis, Tunis Red, 200lbs. DOB 2/14/2021 per breeding page. Acquired 2/27/2021. Sire: Tunis (red), Dam: Cotswold. 2023: FM1 ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days). Eclipse also listed on breeding page as potential 2023 offspring (dec?/April \u2014 may not have survived). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list. Tag 0011 confirmed. Now in Pen 4. No babies as of 2-12-26. Eyes good throughout. Source: notebook card pen 4. Tag 0011. FAMACHA consistently good all checks Feb-Apr 2026. NO babies this season.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "do_not_sell": true,
+      "pet": true,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "PET \u2014 family/personal animal, never leaves flock. Owner directive."
+        }
+      ]
     },
     {
       "id": "fm1",
@@ -3173,7 +3274,7 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "nori",
-      "status": "sold",
+      "status": "alive",
       "status_date": "2026-04-06",
       "status_notes": "Auction Sunday April 6, 2026",
       "pen": null,
@@ -3240,7 +3341,14 @@
       "notes": "25%ABB/12.5%K/37.5%SA/25%WH. Sir Loin (25K/75SA) x Nori (50ABB/50WH). RAM (corrected from ewe). Nori's 2022 offspring. Weight calculator: 41.9lbs. Died after Hurricane Idalia (Aug/Sep 2023). Was in Pen 1 before death. Also listed on FM breeding page as potential offspring. Tag 113 confirmed. Pen 5 ram. White with beard. SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Tag 31, Tag 02, Fawn Wool Ewe, Little Daisy, OAV 2222 all unproven by him. The other ewes (except Little Daisy) are proven breeders year after year. Little Daisy has been with him since 10 weeks old \u2014 nothing. CULL CANDIDATE for subfertility. Elsie escaped to Pen 6 while pregnant by Eclipse, had triplets there.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "weight_estimated": true
+      "weight_estimated": true,
+      "scheduled_auction": "2026-04-26",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
+        }
+      ]
     },
     {
       "id": "gertrude-moon",
@@ -5998,14 +6106,47 @@
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (yearly)",
+            "source": "IMG_0627"
+          },
+          {
+            "date": "2026-04-11",
+            "vaccine": "CDT booster",
+            "source": "IMG_0627"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0627",
+            "note": "Card came inline 2026-04-22. Yellow scrapie tag \"24/0003\". Single baby (Bambiis Baby MC-2615)."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good; single baby this season",
+            "source": "IMG_0627"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0627"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "Good eyes, tagged, booster",
+            "source": "IMG_0627"
           }
         ]
       },
@@ -6024,7 +6165,8 @@
       },
       "notes": "In Pen 2 (Sir Loin group) per spiral notebook (authoritative). Was struck through in treatment list but notebook roster is definitive for alive/active status. Tree Fort pen. Single baby (born 12-28-25). Tan patches on knees and spots. Source: notebook card TF. Tag 24/0003 yellow. Single baby. Eyes consistently good. Tree Fort.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "description": "All white with shadow on front knees."
     },
     {
       "id": "skitters",
@@ -8665,7 +8807,7 @@
     },
     {
       "id": "nuba-0053",
-      "name": "Nuba",
+      "name": "0053",
       "aliases": [
         "Nubia"
       ],
@@ -8775,7 +8917,13 @@
         ]
       },
       "weight_lbs": 175,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "notes_history": [
+        {
+          "source": "user clarification",
+          "note": "Name corrected: 'Nuba' was Claude's misread \u2014 the ewe is just ear tag 0053. No proper name."
+        }
+      ]
     },
     {
       "id": "charlie-ram",
@@ -9280,7 +9428,13 @@
       },
       "mc_tag": "MC2605",
       "description": "Brown + white",
-      "weak_resistance": true
+      "weak_resistance": true,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "KEPT: Owner clarified BT_WHITE twin (MC-2601) goes to auction, brown twin (MC-2605) stays despite 4-9 FAMACHA 5."
+        }
+      ]
     },
     {
       "id": "broken-tail-twin-ewe-2",
@@ -9295,7 +9449,7 @@
       },
       "color_markings": "White ewe",
       "pen": null,
-      "status": "sold",
+      "status": "alive",
       "sire_id": null,
       "dam_id": "broken-tail",
       "dob": "2025-12-31",
@@ -9362,7 +9516,14 @@
       },
       "status_date": "2026-04-06",
       "status_notes": "Auction Sunday April 6, 2026",
-      "description": "White ewe"
+      "description": "White ewe",
+      "scheduled_auction": "2026-04-26",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
+        }
+      ]
     },
     {
       "id": "nori-baby-p3",
@@ -9638,7 +9799,7 @@
       "id": "gigi-2026-baby",
       "name": "Gigis 2026 Baby",
       "aliases": [],
-      "tag": "MC2613",
+      "tag": "MC-2613",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[Kelsier x Gigi offspring]",
@@ -9668,6 +9829,30 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "5.2 weeks old. Eyes good."
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0664"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "5.2 weeks old, eyes good",
+            "source": "IMG_0664"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0664"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 3,
+            "notes": "eyes MEDIUM (FAMACHA ~3); booster given",
+            "source": "IMG_0664"
           }
         ],
         "vaccinations": [
@@ -9675,6 +9860,16 @@
             "date": "2026-03-09",
             "vaccine": "Covexin 8",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0664"
+          },
+          {
+            "date": "2026-04-10",
+            "vaccine": "CDT booster",
+            "source": "IMG_0664"
           }
         ],
         "famacha_scores": [
@@ -9697,15 +9892,26 @@
             "famacha": 3,
             "notes": "Eyes medium. Booster."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0664",
+            "note": "DOB 1-10-26. Multi-color ewe. Eyes medium 4-10 \u2014 trending like dam Gigi (weak resistance)."
+          },
+          {
+            "source": "IMG_0665",
+            "note": "Duplicate photo of IMG_0664. No new data."
+          }
         ]
       },
-      "mc_tag": "MC2613"
+      "mc_tag": "MC2613",
+      "description": "Multi color ewe"
     },
     {
       "id": "gigi-2025-ram",
       "name": "Gigis 2025 Ram",
       "aliases": [],
-      "tag": "09",
+      "tag": "MC-09",
       "sex": "ram",
       "breed_composition": {
         "primary": "[Kelsier x Gigi offspring]",
@@ -9714,7 +9920,7 @@
         "notes": "Sire believed to be Kelsier (100% Katahdin). Dam Gigi. Looks like Gigi."
       },
       "color_markings": "Looks like Gigi",
-      "pen": "Tree Fort",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
@@ -9735,16 +9941,68 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-11",
+            "score": "1-2",
+            "notes": "Moved Goose Pen -> Pen 4; eyes good",
+            "source": "IMG_0673"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0673"
+          },
+          {
+            "date": "2026-02-21",
+            "score": "1-2",
+            "notes": "Started Corid (5-day course)",
+            "source": "IMG_0673"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0673"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0673"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0673"
+          }
+        ],
+        "treatments": [
+          {
+            "date": "2026-02-21",
+            "treatment": "Corid (coccidia, 5-day course)",
+            "notes": "Start Sat 2-21",
+            "source": "IMG_0673"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0673",
+            "note": "Moved Goose Pen -> Pen 4 on 2-11-26. Yellow MC-09 tag. \"Looks like Gigi\". Dam: Gigi."
           }
         ]
       },
-      "mc_tag": "MC09"
+      "mc_tag": "MC09",
+      "secondary_tags": [
+        "09"
+      ]
     },
     {
       "id": "sm-white-ewe-p4",
@@ -9792,12 +10050,47 @@
             "date": "2026-02-27",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good; no babies",
+            "source": "IMG_0667"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0667"
+          },
+          {
+            "date": "2026-02-27",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0667"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT Vacc",
+            "source": "IMG_0667"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0667"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0667"
           }
         ],
         "famacha_scores": [
@@ -9825,6 +10118,13 @@
             "famacha": 1,
             "notes": "Eyes good"
           }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0667",
+            "note": "Small white ewe. Yellow tag MC-189. Consistent good eyes, no babies."
+          }
         ]
       },
       "weight_lbs": 145,
@@ -9843,7 +10143,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "White",
-      "pen": "Pen 5",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
@@ -9869,6 +10169,36 @@
             "date": "2026-02-27",
             "score": "1-2",
             "notes": "eyes better"
+          },
+          {
+            "date": "2026-02-12",
+            "score": 3,
+            "notes": "eyes score 3",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 4,
+            "notes": "7 weeks old; eyes bad \u2014 Iron 0.5mL + VB 1mL + Ivermectin + Fenbendazole",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-27",
+            "score": "2-3",
+            "notes": "eyes better",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 5,
+            "notes": "EYES WHITE AGAIN \u2014 Iron 0.5mL + VB12 1mL; booster given",
+            "source": "IMG_0670"
           }
         ],
         "treatments": [
@@ -9876,6 +10206,18 @@
             "date": "2026-02-20",
             "treatment": "Iron .5mL + VB + Ivermectin + Fenbendazole",
             "notes": "Eyes bad"
+          },
+          {
+            "date": "2026-02-20",
+            "treatment": "Iron 0.5mL + VB 1mL + Ivermectin + Fenbendazole",
+            "notes": "eyes bad (~FAMACHA 4)",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-04-10",
+            "treatment": "Iron 0.5mL + VB12 1mL",
+            "notes": "FAMACHA 5 AGAIN \u2014 second emergency",
+            "source": "IMG_0670"
           }
         ],
         "vaccinations": [
@@ -9883,6 +10225,16 @@
             "date": "2026-03-09",
             "vaccine": "Covexin 8",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "vaccine": "CDT booster",
+            "source": "IMG_0670"
           }
         ],
         "famacha_scores": [
@@ -9905,9 +10257,22 @@
             "famacha": 5,
             "notes": "Eyes white. 0.5 Iron, 1mL Vit B12. CDT Booster."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0669",
+            "note": "DOB 12-30-25. Pen 4 per card (was Pen 5 in JSON). White ram twin to MC-2607 black ewe."
+          }
         ]
       },
-      "mc_tag": "MC2606"
+      "mc_tag": "MC2606",
+      "weak_resistance": true,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "KEPT: Owner retaining white ram twin to test cross with strong parasite-resistant sire. Despite two FAMACHA events as lamb, line testing continues."
+        }
+      ]
     },
     {
       "id": "serendipity-twin-ewe",
@@ -9921,7 +10286,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Black",
-      "pen": "Pen 5",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
@@ -9947,6 +10312,36 @@
             "date": "2026-03-09",
             "score": 2.5,
             "notes": "Eyes under 3. VB12 1mL."
+          },
+          {
+            "date": "2026-02-12",
+            "score": 5,
+            "notes": "EYES WHITE \u2014 Ivermectin + Fenbendazole + Iron 0.25mL + VB 1mL shot",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 4,
+            "notes": "eyes NOT white, now L pink \u2014 Ivermectin + VB 1mL shot",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes under 3; VB12 shot 1mL",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 5,
+            "notes": "EYES WHITE AGAIN \u2014 Iron 0.5 + VB12 1mL; booster",
+            "source": "IMG_0670"
           }
         ],
         "treatments": [
@@ -9964,6 +10359,30 @@
             "date": "2026-03-09",
             "treatment": "VB12 1mL",
             "notes": "Under 3"
+          },
+          {
+            "date": "2026-02-12",
+            "treatment": "Ivermectin + Fenbendazole + Iron 0.25mL + VB 1mL",
+            "notes": "FAMACHA 5 \u2014 eyes white at 6 wks old",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-20",
+            "treatment": "Ivermectin + VB 1mL",
+            "notes": "eyes improving to L pink",
+            "source": "IMG_0669"
+          },
+          {
+            "date": "2026-02-27",
+            "treatment": "VB12 shot 1mL",
+            "notes": "eyes under 3",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "treatment": "Iron 0.5mL + VB12 1mL",
+            "notes": "FAMACHA 5 AGAIN \u2014 second emergency",
+            "source": "IMG_0670"
           }
         ],
         "vaccinations": [
@@ -9971,6 +10390,16 @@
             "date": "2026-03-09",
             "vaccine": "Covexin 8",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "vaccine": "CDT booster",
+            "source": "IMG_0670"
           }
         ],
         "famacha_scores": [
@@ -9989,9 +10418,23 @@
             "famacha": 5,
             "notes": "Eyes almost white. Fenbendazole+Ivermectin+3mL Iron+4mL VitB. Booster."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0669",
+            "note": "DOB 12-30-25. Pen 4 per card (was Pen 5 in JSON). Black ewe twin to MC-2606 white ram. FAMACHA 5 at 6wks \u2014 severe weak resistance."
+          }
         ]
       },
-      "mc_tag": "MC2607"
+      "mc_tag": "MC2607",
+      "weak_resistance": true,
+      "scheduled_auction": "2026-04-26",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Scheduled for 4-26-26 auction. Black ewe twin of Serendipity \u2014 two FAMACHA 5 emergencies as lamb (2-12, 4-10). Owner keeping white ram twin MC-2606 for line test."
+        }
+      ]
     },
     {
       "id": "fm2-0051",
@@ -10014,7 +10457,7 @@
         "coat_prediction": "mixed"
       },
       "color_markings": "Fat & Gray",
-      "pen": "Pen 3",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "sir-loin",
       "dam_id": "fm",
@@ -10035,12 +10478,48 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0671"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0671"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0671"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0671"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0671"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0671",
+            "note": "1 baby ram this season (FM2 Ram Lamb, MC-2614). Consistent good eyes."
           }
         ]
       },
@@ -10059,7 +10538,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "",
-      "pen": "Goose Pen",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "fm2-0051",
@@ -10080,6 +10559,30 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "2.6 weeks old. Eyes good."
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "2.6 weeks old, eyes good",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "Booster, eyes good",
+            "source": "IMG_0672"
           }
         ],
         "vaccinations": [
@@ -10087,6 +10590,22 @@
             "date": "2026-03-09",
             "vaccine": "Covexin 8",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-04-10",
+            "vaccine": "CDT booster",
+            "source": "IMG_0672"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0672",
+            "note": "DOB 1-31-26. Pen 4 per card (was Goose Pen \u2014 which is now empty). Dam FM2."
           }
         ]
       },
@@ -10363,7 +10882,23 @@
       },
       "secondary_tags": [
         "240005"
-      ]
+      ],
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Sire confirmed: Eclipse (tag 113 ram, going to auction 4-26). Owner clarification."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "CONDITIONAL CULL: Kept for now (largest of 3 triplets). Sire Eclipse (subfertile except with Elsie). If she throws bad babies, she's gone too \u2014 evaluate at her first lambing."
+        }
+      ],
+      "conditional_cull": {
+        "flag": true,
+        "trigger": "Cull if her offspring show parasite weakness (FAMACHA 4+ in early life)",
+        "set_on": "2026-04-22",
+        "set_by": "owner directive"
+      }
     },
     {
       "id": "elsie-triplet-sm-white-ewe",
@@ -10371,7 +10906,7 @@
       "tag": null,
       "sex": "ewe",
       "pen": null,
-      "status": "sold",
+      "status": "alive",
       "sire_id": "eclipse",
       "dam_id": "elsie",
       "dob": "2026-01-06",
@@ -10416,7 +10951,22 @@
         ]
       },
       "status_date": "2026-04-06",
-      "status_notes": "Auction Sunday April 6, 2026"
+      "status_notes": "Auction Sunday April 6, 2026",
+      "scheduled_auction": "2026-04-26",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Sire confirmed: Eclipse (tag 113 ram, going to auction 4-26). Owner clarification."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Size clarification: SECOND smallest (smallest was black ram, already gifted). Going to 4-26 auction."
+        }
+      ]
     },
     {
       "id": "elsie-triplet-black-ram",
@@ -10446,7 +10996,17 @@
             "note": "Gifted per card. DOB ~2026-01-09. 2-13-26 good eyes before transfer."
           }
         ]
-      }
+      },
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Sire confirmed: Eclipse (tag 113 ram, going to auction 4-26). Owner clarification."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Confirmed smallest of three; already gifted off-farm."
+        }
+      ]
     },
     {
       "id": "mc08-ram",
@@ -10537,12 +11097,35 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0619"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc, eyes good",
+            "source": "IMG_0619"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0619"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0619",
+            "note": "Card came inline 2026-04-22. Big ewe with nice horns. No babies."
           }
         ]
       },
@@ -10553,7 +11136,8 @@
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
         }
-      ]
+      ],
+      "description": "Fat tail. Big ewe with nice horns. No babies this season."
     },
     {
       "id": "windlestone-0056",
@@ -10582,12 +11166,35 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0618"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc, eyes good",
+            "source": "IMG_0618"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-13",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT",
+            "source": "IMG_0618"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0618",
+            "note": "Card came inline 2026-04-22. Nice to handle."
           }
         ]
       },
@@ -10598,7 +11205,8 @@
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
         }
-      ]
+      ],
+      "description": "Fat tail. 1 med thick long horn + 1 hard thick & med long horn. Nice to handle."
     },
     {
       "id": "windlestone-0055",
@@ -10955,7 +11563,7 @@
     {
       "id": "bambii-baby",
       "name": "Bambiis Baby",
-      "tag": "MC2615",
+      "tag": "MC-2615",
       "sex": "ewe",
       "pen": "Tree Fort",
       "status": "alive",
@@ -10970,12 +11578,40 @@
             "date": "2025-12-30",
             "score": "1-2",
             "notes": "eyes with perfect circles"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "7.5 weeks old",
+            "source": "IMG_0628"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0628"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "Good eyes, tagged, booster",
+            "source": "IMG_0628"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0628"
+          },
+          {
+            "date": "2026-04-11",
+            "vaccine": "CDT booster",
+            "source": "IMG_0628"
           }
         ],
         "famacha_scores": [
@@ -10992,9 +11628,16 @@
             "famacha": 1,
             "notes": "Good eyes. Tagged. Booster."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0628",
+            "note": "Card came inline in chat 2026-04-22. DOB 12-28-25 confirmed. Dam: Bambii. Tagged 4-11-26 green MC-2615."
+          }
         ]
       },
-      "mc_tag": "MC2615"
+      "mc_tag": "MC2615",
+      "description": "All white with shadow on knees. Eyes with perfect circles around them. Grey and black spots on ear."
     },
     {
       "id": "goose-09",
@@ -11155,7 +11798,7 @@
     },
     {
       "id": "nuba-baby-ewe",
-      "name": "Nuba's Baby Ewe",
+      "name": "0053's Baby Ewe",
       "aliases": [],
       "tag": null,
       "mc_tag": null,
@@ -11221,7 +11864,46 @@
       "notes": "Born 3-24-26 to Nuba (0053) in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9).",
       "confidence": "high",
       "last_verified": "2026-04-09",
-      "description": "Black with tan ear. White patch on top. White tip on tail."
+      "description": "Black with tan ear. White patch on top. White tip on tail.",
+      "notes_history": [
+        {
+          "source": "user clarification",
+          "note": "Renamed from 'Nuba's Baby Ewe' \u2014 dam is ewe 0053 (no name)."
+        }
+      ]
+    },
+    {
+      "id": "angus",
+      "name": "Angus",
+      "tag": null,
+      "sex": "ram",
+      "status": "alive",
+      "pen": null,
+      "source": "Windlestone",
+      "arrival_date": "2026-04-22",
+      "breed_composition": {
+        "percentages": {},
+        "confidence": "low",
+        "notes": "Owner stated \"50% Awassi, 25% Dorper, 23% Awassi, 2% East Friesian\" \u2014 Awassi appears twice; typo. Awaiting clarification before committing percentages."
+      },
+      "description": "Black head + neck with sharp shoulder boundary, white body, short shedding hair coat. Classic black-headed Dorper phenotype by appearance.",
+      "confidence": "medium",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Picked up from Windlestone today (originally planned for Wednesday). Photo on arrival: IMG_0677.JPG."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "PEDIGREE PENDING: breed composition awaiting owner clarification (owner stated Awassi twice; likely one should be Katahdin)."
+        }
+      ],
+      "health": {
+        "famacha_history": [],
+        "vaccinations": [],
+        "treatments": [],
+        "notes": []
+      }
     }
   ],
   "pens": {
@@ -11347,7 +12029,29 @@
         "serendipity-twin-ewe",
         "fm2-ram-lamb"
       ],
-      "notes": "Pen 4 \u2014 monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility \u2014 even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4."
+      "notes": "Pen 4 \u2014 monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility \u2014 even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4.",
+      "treatments": [
+        {
+          "date_start": "2026-02-21",
+          "date_end": "2026-02-27",
+          "treatment": "Corid (coccidia, whole pen)",
+          "duration_days": 6,
+          "source": "IMG_0674",
+          "notes": "Only remembered to turn on water 2x in 5 days (protocol violation)"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-09",
+          "vaccine": "CDT whole pen \u2014 7 adults + 4 babies 1st round (goat vac for sheep)",
+          "source": "IMG_0674"
+        },
+        {
+          "date": "2026-04-10",
+          "vaccine": "CDT booster \u2014 4 babies 2nd shot + 4 adults tagged",
+          "source": "IMG_0674"
+        }
+      ]
     },
     "pen_5": {
       "ram": "eclipse",
@@ -11681,6 +12385,17 @@
       "Jacob",
       "Babydoll",
       "Karakul"
+    ],
+    "considered_but_ruled_out": [
+      {
+        "breed": "Exlana",
+        "origin": "UK, developed by Innovis Ltd",
+        "components": "Suffolk and Texel base + global wool-shedding + disease-resistant genetics",
+        "traits": "Fully shedding, FEC-selected (low-FEC lines ~200 vs ~600 eggs/g flock avg per Vineer et al. 2019), prolific (165-195% scanning), 60-65kg ewes, easy lambing, Myomax muscling option",
+        "why_ruled_out": "UK-only; no US breeder network. Import impractical under owner no-imports directive (2026-04-22).",
+        "closest_us_analog": "Royal White or St Croix \u00d7 Katahdin composites run under FEC/parasite selection pressure",
+        "source": "Perplexity research consult 2026-04-22"
+      }
     ]
   },
   "breeding_goals": {
@@ -11893,6 +12608,60 @@
         "16 ewe lambs scored FAMACHA 1-2 in dry summer \u2014 provisional only. Retest in wet season.",
         "Baby Azure FAMACHA 5 in dry summer when all other lambs scored 1-2. Cull candidate."
       ]
+    },
+    "acquisition_constraints": {
+      "no_semen_imports": true,
+      "no_live_imports": true,
+      "sourcing_scope": "US domestic breeders only",
+      "set_on": "2026-04-22",
+      "set_by": "owner directive",
+      "implication": "Eliminates Red Maasai (import-only), Morada Nova (import-dependent), Damara/Van Rooy (rare US), Exlana (UK-only). Realistic US-available targets: Santa Ines, Royal White, Pelibuey, and US breeders running Exlana-analog selection programs."
+    },
+    "pipeline_v4": {
+      "version": "v4",
+      "adopted": "2026-04-22",
+      "supersedes": "v3",
+      "shape": "1 intake pen + 7 breeding stages = 8 pens",
+      "flow": [
+        "Goose Pen (quarantine)",
+        "Pen 3 (Stage 1 intake)",
+        "Tree Fort (Stage 2 grow-out)",
+        "Pen 4 (Stage 3 production)",
+        "Pen 5 (Stage 4 proven)",
+        "Pen 6 (Stage 5 advanced)",
+        "Pen 1 (Stage 6 pre-elite)",
+        "Pen 2 (Stage 7 elite)"
+      ],
+      "ram_assignments": {
+        "Goose Pen": "transient quarantine occupant (currently Angus)",
+        "Pen 3": "Charlie (charlie-ram, MC-20, hair, proven intake)",
+        "Tree Fort": "Buck (buck, MC-2433, wool brown-elbows, parasite-proven)",
+        "Pen 4": "Merrieweather (merrie, 00016) \u2014 MOVE from Pen 3",
+        "Pen 5": "Angus (if cleared from 30d quarantine) \u2014 OPEN otherwise",
+        "Pen 6": "MC08 (mc08-ram, Awassi-type)",
+        "Pen 1": "00110 Orange (orange-tag-00110, wool-heavy proven old ram)",
+        "Pen 2": "Butthead (windlestone-kat-dorper) \u2014 ROCKY REMOVED"
+      },
+      "advancement_rules": {
+        "promotion": "all stage criteria met past 12 months; no parasite tx; lamb weaned clean; FAMACHA within threshold",
+        "holdback": "met minimum but not excelled; single when twins expected; first-parity gets extra year",
+        "demotion": "parasite tx >1x; preventable lamb loss; lambing problems \u2014 one chance to recover",
+        "cull": "FAMACHA 4+ stages 4+ or 5 anywhere; open year stages 3+; 2 consecutive demotion years; conditional_cull trigger"
+      },
+      "required_moves_to_enact_v4": [
+        "Merrieweather (merrie): Pen 3 -> Pen 4",
+        "Rocky: Pen 2 -> Goose Pen grow-out or sale",
+        "Angus: (none) -> Goose Pen 30d quarantine",
+        "114 Black Ram Lamb (tag-114-black-ram-lamb): Goose Pen -> Tree Fort with dam Fawn Wool 114"
+      ],
+      "open_questions": [
+        "Actual farm geography \u2014 is v4 flow walkable single-gate?",
+        "Angus breed composition (Awassi listed twice typo not clarified)",
+        "Rocky disposition after removal from Pen 2",
+        "Stage thresholds calibration to flock averages",
+        "Gigi + FM pet placement \u2014 dedicated pet pen or co-mingled with Pen 4 Stage 3 breeders"
+      ],
+      "source_doc": "data/investigations/2026-04-22_pipeline_v4.md"
     }
   },
   "tagging": {
@@ -11919,7 +12688,25 @@
       "MC2616": "tag-31-orange-tf-ram-lamb"
     },
     "date_tagged": "2026-04-10",
-    "notes": "4 adults tagged on 4-10-26. 13 total in Pen 4. Need to be sheared."
+    "notes": "4 adults tagged on 4-10-26. 13 total in Pen 4. Need to be sheared.",
+    "convention_sources": [
+      {
+        "source": "IMG_0675",
+        "convention": "Rams = LEFT ear, Ewes = RIGHT ear. Green tags."
+      }
+    ],
+    "green_tags_assigned_snapshot": {
+      "as_of": "2026-04 (IMG_0675)",
+      "source": "IMG_0675",
+      "tags_listed_on_card": [
+        "MC-2608",
+        "MC-2612",
+        "MC-2611",
+        "MC-2603",
+        "MC-2619",
+        "MC-2620"
+      ]
+    }
   },
   "headcount": {
     "as_of": "2026-04-11 (card IMG_0631)",
@@ -11965,6 +12752,12 @@
         "adults": 4,
         "babies": 3,
         "total": 7
+      }
+    },
+    "shearing_backlog": {
+      "IMG_0675": {
+        "total_need_shearing": 13,
+        "as_of": "2026-04"
       }
     }
   },
