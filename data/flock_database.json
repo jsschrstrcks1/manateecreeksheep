@@ -1441,8 +1441,19 @@
         ],
         "weak_resistance": true,
         "treatments": [],
-        "vaccinations": [],
-        "notes": [],
+        "vaccinations": [
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0637"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0637",
+            "note": "Described as 'Gigi's Sister' on card. Had single baby this lambing season."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
@@ -1458,6 +1469,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0637"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0637"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "eyes good \u2014 booster",
+            "source": "IMG_0637"
           }
         ]
       },
