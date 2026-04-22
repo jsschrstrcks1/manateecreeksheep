@@ -87,30 +87,39 @@ These IMG numbers are missing — likely photos Mom took but didn't upload:
 | 0674 | **Pen 4 group log** | Pen 4 | Corid 2-21 to 2-27 (water missed 2x/5d); CDT 3-9 + booster 4-10 |
 | 0675 | **Tag convention reference** | — | Rams=L ear, Ewes=R ear; 13 need shearing; 6 green tags listed |
 
-## Derived counts
+## 2nd batch: 4 found-cards received inline (2026-04-22)
 
-- **54 distinct animals** have new-card data stamped with `IMG_06xx` source
-- **54 card-images mapped to animal-level data** (remaining are pen logs,
-  census cards, auction records, convention references)
-- **50 alive animals total** in DB; **44 covered** (88%); **6 missing new
-  card** (see below)
+User sent 4 additional cards directly in chat after the initial round.
+Applied with `chat_inline_*` source tags (not `IMG_06xx`). The underlying
+photo files weren't uploaded to the repo — if you want them archived,
+re-upload as `IMG_0618`, `IMG_0619`, `IMG_0627`, `IMG_0628` (the 4 gaps).
 
-## Alive animals WITHOUT a new April 2026 card
+| chat source | Subject | Pen | Key data |
+|---|---|---|---|
+| `chat_inline_bambii` | Bambii (`bambii`) tag 24/0003 yellow | Tree Fort | All white w/ shadow on front knees; single baby; 2-13 good; 3-10 CDT; 4-11 booster+tagged |
+| `chat_inline_bambii_baby` | Bambiis Baby (MC-2615 green) | Tree Fort | **DOB 12-28-25**; all white w/ shadow on knees, eyes w/ perfect circles, grey+blk spots on ear; 2-20 at 7.5 wk; 3-10 CDT + 4-11 booster |
+| `chat_inline_0056` | Windlestone 0056 | Pen 6 | Fat tail; 1 med thick long horn + 1 hard thick & med long horn; nice to handle; 2-13 good; 3-13 CDT |
+| `chat_inline_2139` | Windlestone 2139 | Pen 6 | Fat tail; big ewe w/ nice horns; no babies; 2-13 good; 3-13 CDT |
 
-The user expected ~70 photos and uploaded 65 — the 6 animals below likely
-correspond to cards Mom took but didn't upload (combined with the 4 gaps
-at 0618/0619/0627/0628, this roughly matches the missing-5 count).
+## Derived counts (final)
+
+- **58 distinct animals** have new-card data (54 from IMG_06xx + 4 from
+  chat inline). Covers **46 of 50 alive animals (92%)**.
+- **54 IMG_06xx files** processed; **4 inline cards** processed; total **58
+  pieces of animal-level new-card evidence**.
+- 11 IMG_06xx cards were pen-group logs / census / auction / reference
+  (not direct animal updates).
+
+## Alive animals STILL without a new April 2026 card
+
+After the 4 inline cards, 4 animals remain uncovered:
 
 | Pen | Animal | Tag | Sex | Notes |
 |---|---|---|---|---|
 | Goose Pen | 114 Black Ram Lamb (`tag-114-black-ram-lamb`) | — | ram | Too young to wean per thread notes. Dam Fawn Wool 114 moved to TF — 114 lamb's pen assignment may also have changed. |
 | Pen 2 | Elsie (`elsie`) | 025 | ewe | Only appears in daughters' card (IMG_0614). No individual card for Elsie herself. |
-| Pen 2 | Rocky (`rocky`) | 140 | ram | Awassi "Jerkface" ram. No card found — may be on a missing upload. |
+| Pen 2 | Rocky (`rocky`) | 140 | ram | Awassi "Jerkface" ram. No card found. |
 | Pen 4 | Little Daisy (`little-daisy`) | 035 | ewe | 2nd animal with tag 35 (White Ewe 0035 has separate card 0623). |
-| Tree Fort | Bambii (`bambii`) | 24/0003 | ewe | Thread commit mentioned "Bambii (24/0003) — all eyes good through 4-11-26" — expected to have card. |
-| Tree Fort | Bambiis Baby (`bambii-baby`) | MC2615 | ewe | Thread commit mentioned "Bambiis Baby (MC2615)" — expected to have card. |
 
-**Suggested action**: Check phone camera roll for 5 missing photos around
-these animals. Bambii + Bambiis Baby may share one card. Elsie may share
-one card with her babies (though IMG_0614 didn't include her health). The
-Bambii pair is the most likely fruit of a re-upload.
+**Suggested action**: Check phone camera roll for cards on Elsie, Rocky,
+Little Daisy, and 114 Black Ram Lamb.
