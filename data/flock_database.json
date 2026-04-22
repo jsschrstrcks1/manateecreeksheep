@@ -8007,6 +8007,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. CDT booster."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0640"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; 1st CDT 5mL shot; 7 wks old",
+            "source": "IMG_0640"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster + tag; eyes good",
+            "source": "IMG_0640"
           }
         ],
         "vaccinations": [
@@ -8020,6 +8038,16 @@
             "date": "2026-04-01",
             "vaccine": "Covexin",
             "notes": "6-week booster"
+          },
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (1st 5mL)",
+            "source": "IMG_0640"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster + tag",
+            "source": "IMG_0640"
           }
         ],
         "famacha_scores": [
@@ -8038,11 +8066,21 @@
             "famacha": 1,
             "notes": "Booster. Tag. Eyes good."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0640",
+            "note": "Pre-sale health. Double tagged: MC-2603 + MC-2608 green. 7 wks old on 2-19-26 (DOB ~early Jan 2026)."
+          }
         ]
       },
       "status_date": "2026-04-06",
       "status_notes": "Auction Sunday April 6, 2026",
-      "mc_tag": "MC2608"
+      "mc_tag": "MC2608",
+      "secondary_tags": [
+        "MC-2603"
+      ],
+      "description": "White + brown ram. White blaze on face down onto nose. 2 white socks on hind legs. White tail."
     },
     {
       "id": "tag-0033-twin-ram-2",
