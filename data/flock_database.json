@@ -9835,7 +9835,7 @@
       "id": "gigi-2025-ram",
       "name": "Gigis 2025 Ram",
       "aliases": [],
-      "tag": "09",
+      "tag": "MC-09",
       "sex": "ram",
       "breed_composition": {
         "primary": "[Kelsier x Gigi offspring]",
@@ -9844,7 +9844,7 @@
         "notes": "Sire believed to be Kelsier (100% Katahdin). Dam Gigi. Looks like Gigi."
       },
       "color_markings": "Looks like Gigi",
-      "pen": "Tree Fort",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
@@ -9865,16 +9865,68 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-11",
+            "score": "1-2",
+            "notes": "Moved Goose Pen -> Pen 4; eyes good",
+            "source": "IMG_0673"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0673"
+          },
+          {
+            "date": "2026-02-21",
+            "score": "1-2",
+            "notes": "Started Corid (5-day course)",
+            "source": "IMG_0673"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0673"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0673"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0673"
+          }
+        ],
+        "treatments": [
+          {
+            "date": "2026-02-21",
+            "treatment": "Corid (coccidia, 5-day course)",
+            "notes": "Start Sat 2-21",
+            "source": "IMG_0673"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0673",
+            "note": "Moved Goose Pen -> Pen 4 on 2-11-26. Yellow MC-09 tag. \"Looks like Gigi\". Dam: Gigi."
           }
         ]
       },
-      "mc_tag": "MC09"
+      "mc_tag": "MC09",
+      "secondary_tags": [
+        "09"
+      ]
     },
     {
       "id": "sm-white-ewe-p4",
