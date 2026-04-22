@@ -7746,7 +7746,7 @@
         "Gigis Sister",
         "Azure Baby"
       ],
-      "tag": "MC2610",
+      "tag": "MC-2610",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Azure offspring]",
@@ -7780,6 +7780,30 @@
             "date": "2026-04-01",
             "score": 5,
             "notes": "FAMACHA 5 \u2014 severe. Bright and alert despite score."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0638"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; 1st CDT 5mL shot; ~5 weeks old",
+            "source": "IMG_0638"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster + tag; eyes good",
+            "source": "IMG_0638"
+          },
+          {
+            "date": "2026-04-02",
+            "score": "1-2",
+            "notes": "Notes \"needs booster\" \u2014 may be planning note before 3-30 booster event was logged",
+            "source": "IMG_0638"
           }
         ],
         "treatments": [
@@ -7806,6 +7830,16 @@
             "vaccine": "Covexin",
             "dose": "5mL",
             "notes": "6-week booster"
+          },
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (1st 5mL)",
+            "source": "IMG_0638"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster + tag",
+            "source": "IMG_0638"
           }
         ],
         "famacha_scores": [
@@ -7829,9 +7863,19 @@
             "famacha": 5,
             "notes": "FAMACHA 5 \u2014 treated with Ivermectin+Fenbendazole+Iron+B12+Nutridrench."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0638",
+            "note": "DOB confirmed 2026-01-10. Green tag MC-2610 (+ 26010). Pen 1. Dam: Azure."
+          }
         ]
       },
-      "mc_tag": "MC2610"
+      "mc_tag": "MC2610",
+      "secondary_tags": [
+        "26010"
+      ],
+      "description": "Black legs, ears, face; lighter body"
     },
     {
       "id": "tag-0033-hair-ewe",
