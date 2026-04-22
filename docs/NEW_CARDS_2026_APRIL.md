@@ -10,12 +10,19 @@ The new cards **supersede** the older IMG_85xx batch per user directive.
 
 ## Upload gaps (range 0607–0675)
 
-These IMG numbers are missing — likely photos Mom took but didn't upload:
+Initially these 4 numbers were missing. On 2026-04-22 the user found them
+and sent inline via chat. Now filled:
 
-- **0618** — missing
-- **0619** — missing
-- **0627** — missing
-- **0628** — missing
+- **0618** — recovered → Windlestone 0056 (Pen 6 fat-tail)
+- **0619** — recovered → Windlestone 2139 (Pen 6 fat-tail)
+- **0627** — recovered → Bambii (Tree Fort)
+- **0628** — recovered → Bambiis Baby (Tree Fort, MC-2615)
+
+**Caveat on filename mapping:** the 4 IMG numbers assigned here are based
+on pen-adjacency guessing (0618/0619 next to IMG_0617 auction + 0620 Pen
+6 fat-tail; 0627/0628 between IMG_0626 TF ram lamb and 0629 TF group
+log). If the actual iPhone filename numbering differs, the images are the
+same subjects — only the IMG number assignment would change.
 
 ## Per-card log
 
@@ -87,19 +94,19 @@ These IMG numbers are missing — likely photos Mom took but didn't upload:
 | 0674 | **Pen 4 group log** | Pen 4 | Corid 2-21 to 2-27 (water missed 2x/5d); CDT 3-9 + booster 4-10 |
 | 0675 | **Tag convention reference** | — | Rams=L ear, Ewes=R ear; 13 need shearing; 6 green tags listed |
 
-## 2nd batch: 4 found-cards received inline (2026-04-22)
+## 2nd batch: 4 gap-cards recovered 2026-04-22
 
-User sent 4 additional cards directly in chat after the initial round.
-Applied with `chat_inline_*` source tags (not `IMG_06xx`). The underlying
-photo files weren't uploaded to the repo — if you want them archived,
-re-upload as `IMG_0618`, `IMG_0619`, `IMG_0627`, `IMG_0628` (the 4 gaps).
+User sent 4 cards inline after the initial round; these were extracted
+from the session transcript, saved as real files in the repo root, and
+processed into `data/processed/`. Source tags in JSON rewritten from
+`chat_inline_*` to the corresponding `IMG_06xx` numbers.
 
-| chat source | Subject | Pen | Key data |
+| IMG | Subject | Pen | Key data |
 |---|---|---|---|
-| `chat_inline_bambii` | Bambii (`bambii`) tag 24/0003 yellow | Tree Fort | All white w/ shadow on front knees; single baby; 2-13 good; 3-10 CDT; 4-11 booster+tagged |
-| `chat_inline_bambii_baby` | Bambiis Baby (MC-2615 green) | Tree Fort | **DOB 12-28-25**; all white w/ shadow on knees, eyes w/ perfect circles, grey+blk spots on ear; 2-20 at 7.5 wk; 3-10 CDT + 4-11 booster |
-| `chat_inline_0056` | Windlestone 0056 | Pen 6 | Fat tail; 1 med thick long horn + 1 hard thick & med long horn; nice to handle; 2-13 good; 3-13 CDT |
-| `chat_inline_2139` | Windlestone 2139 | Pen 6 | Fat tail; big ewe w/ nice horns; no babies; 2-13 good; 3-13 CDT |
+| 0618 | Windlestone 0056 | Pen 6 | Fat tail; 1 med thick long horn + 1 hard thick & med long horn; nice to handle; 2-13 good; 3-13 CDT |
+| 0619 | Windlestone 2139 | Pen 6 | Fat tail; big ewe w/ nice horns; no babies; 2-13 good; 3-13 CDT |
+| 0627 | Bambii (`bambii`) tag 24/0003 yellow | Tree Fort | All white w/ shadow on front knees; single baby; 2-13 good; 3-10 CDT; 4-11 booster+tagged |
+| 0628 | Bambiis Baby (MC-2615 green) | Tree Fort | **DOB 12-28-25**; all white w/ shadow on knees, eyes w/ perfect circles, grey+blk spots on ear; 2-20 at 7.5 wk; 3-10 CDT + 4-11 booster |
 
 ## Derived counts (final)
 

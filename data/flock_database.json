@@ -6081,17 +6081,17 @@
           {
             "date": "2026-03-10",
             "vaccine": "CDT (yearly)",
-            "source": "chat_inline_bambii"
+            "source": "IMG_0627"
           },
           {
             "date": "2026-04-11",
             "vaccine": "CDT booster",
-            "source": "chat_inline_bambii"
+            "source": "IMG_0627"
           }
         ],
         "notes": [
           {
-            "source": "chat_inline_bambii",
+            "source": "IMG_0627",
             "note": "Card came inline 2026-04-22. Yellow scrapie tag \"24/0003\". Single baby (Bambiis Baby MC-2615)."
           }
         ],
@@ -6105,19 +6105,19 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good; single baby this season",
-            "source": "chat_inline_bambii"
+            "source": "IMG_0627"
           },
           {
             "date": "2026-03-10",
             "score": "1-2",
             "notes": "CDT vacc",
-            "source": "chat_inline_bambii"
+            "source": "IMG_0627"
           },
           {
             "date": "2026-04-11",
             "score": "1-2",
             "notes": "Good eyes, tagged, booster",
-            "source": "chat_inline_bambii"
+            "source": "IMG_0627"
           }
         ]
       },
@@ -11006,13 +11006,13 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good",
-            "source": "chat_inline_2139"
+            "source": "IMG_0619"
           },
           {
             "date": "2026-03-13",
             "score": "1-2",
             "notes": "CDT vacc, eyes good",
-            "source": "chat_inline_2139"
+            "source": "IMG_0619"
           }
         ],
         "vaccinations": [
@@ -11023,12 +11023,12 @@
           {
             "date": "2026-03-13",
             "vaccine": "CDT",
-            "source": "chat_inline_2139"
+            "source": "IMG_0619"
           }
         ],
         "notes": [
           {
-            "source": "chat_inline_2139",
+            "source": "IMG_0619",
             "note": "Card came inline 2026-04-22. Big ewe with nice horns. No babies."
           }
         ]
@@ -11075,13 +11075,13 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good",
-            "source": "chat_inline_0056"
+            "source": "IMG_0618"
           },
           {
             "date": "2026-03-13",
             "score": "1-2",
             "notes": "CDT vacc, eyes good",
-            "source": "chat_inline_0056"
+            "source": "IMG_0618"
           }
         ],
         "vaccinations": [
@@ -11092,12 +11092,12 @@
           {
             "date": "2026-03-13",
             "vaccine": "CDT",
-            "source": "chat_inline_0056"
+            "source": "IMG_0618"
           }
         ],
         "notes": [
           {
-            "source": "chat_inline_0056",
+            "source": "IMG_0618",
             "note": "Card came inline 2026-04-22. Nice to handle."
           }
         ]
@@ -11487,19 +11487,19 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "7.5 weeks old",
-            "source": "chat_inline_bambii_baby"
+            "source": "IMG_0628"
           },
           {
             "date": "2026-03-10",
             "score": "1-2",
             "notes": "CDT vac",
-            "source": "chat_inline_bambii_baby"
+            "source": "IMG_0628"
           },
           {
             "date": "2026-04-11",
             "score": "1-2",
             "notes": "Good eyes, tagged, booster",
-            "source": "chat_inline_bambii_baby"
+            "source": "IMG_0628"
           }
         ],
         "vaccinations": [
@@ -11510,12 +11510,12 @@
           {
             "date": "2026-03-10",
             "vaccine": "CDT (1st)",
-            "source": "chat_inline_bambii_baby"
+            "source": "IMG_0628"
           },
           {
             "date": "2026-04-11",
             "vaccine": "CDT booster",
-            "source": "chat_inline_bambii_baby"
+            "source": "IMG_0628"
           }
         ],
         "famacha_scores": [
@@ -11535,7 +11535,7 @@
         ],
         "notes": [
           {
-            "source": "chat_inline_bambii_baby",
+            "source": "IMG_0628",
             "note": "Card came inline in chat 2026-04-22. DOB 12-28-25 confirmed. Dam: Bambii. Tagged 4-11-26 green MC-2615."
           }
         ]
