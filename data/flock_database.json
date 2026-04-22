@@ -8116,6 +8116,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. CDT booster."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0641"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good; 1st CDT 5mL vacc; 7 wks old",
+            "source": "IMG_0641"
+          },
+          {
+            "date": "2026-03-30",
+            "score": 4,
+            "notes": "EYES NOT GOOD; VB + Iron shot + Ivermectin + booster + tag",
+            "source": "IMG_0641"
           }
         ],
         "vaccinations": [
@@ -8129,6 +8147,16 @@
             "date": "2026-04-01",
             "vaccine": "Covexin",
             "notes": "6-week booster"
+          },
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (1st 5mL)",
+            "source": "IMG_0641"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster + tag",
+            "source": "IMG_0641"
           }
         ],
         "famacha_scores": [
@@ -8147,11 +8175,29 @@
             "famacha": 4,
             "notes": "Eyes NOT GOOD. VB + Iron shot. Ivermectin. Booster + tag."
           }
+        ],
+        "treatments": [
+          {
+            "date": "2026-03-30",
+            "treatment": "Ivermectin + VB (Vitamin B) + Iron shot",
+            "notes": "FAMACHA 4 (eyes not good) \u2014 treated then boostered",
+            "source": "IMG_0641"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0641",
+            "note": "Pre-sale. Double tagged: MC-2602 top + MC-2609 bottom. DOB 1-1-26 (7 wk at 2-19-26). Parasite incident 3-30-26 \u2014 treated before auction."
+          }
         ]
       },
       "status_date": "2026-04-06",
       "status_notes": "Auction Sunday April 6, 2026",
-      "mc_tag": "MC2609"
+      "mc_tag": "MC2609",
+      "secondary_tags": [
+        "MC-2602"
+      ],
+      "description": "Black ram with small patch of white on crown"
     },
     {
       "id": "orange-tag-00110",
