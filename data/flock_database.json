@@ -3015,7 +3015,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": "Pen 4",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -3045,9 +3045,19 @@
           {
             "date": "2026-03-09",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0666"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0666",
+            "note": "No babies this season. Consistent good eyes."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-12",
@@ -3058,6 +3068,30 @@
             "date": "2026-02-20",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good; no babies",
+            "source": "IMG_0666"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0666"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0666"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0666"
           }
         ]
       },
