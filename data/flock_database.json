@@ -12377,7 +12377,25 @@
       "MC2616": "tag-31-orange-tf-ram-lamb"
     },
     "date_tagged": "2026-04-10",
-    "notes": "4 adults tagged on 4-10-26. 13 total in Pen 4. Need to be sheared."
+    "notes": "4 adults tagged on 4-10-26. 13 total in Pen 4. Need to be sheared.",
+    "convention_sources": [
+      {
+        "source": "IMG_0675",
+        "convention": "Rams = LEFT ear, Ewes = RIGHT ear. Green tags."
+      }
+    ],
+    "green_tags_assigned_snapshot": {
+      "as_of": "2026-04 (IMG_0675)",
+      "source": "IMG_0675",
+      "tags_listed_on_card": [
+        "MC-2608",
+        "MC-2612",
+        "MC-2611",
+        "MC-2603",
+        "MC-2619",
+        "MC-2620"
+      ]
+    }
   },
   "headcount": {
     "as_of": "2026-04-11 (card IMG_0631)",
@@ -12423,6 +12441,12 @@
         "adults": 4,
         "babies": 3,
         "total": 7
+      }
+    },
+    "shearing_backlog": {
+      "IMG_0675": {
+        "total_need_shearing": 13,
+        "as_of": "2026-04"
       }
     }
   },
