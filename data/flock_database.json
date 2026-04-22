@@ -8351,6 +8351,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes Good",
+            "source": "IMG_0643"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0643"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster eyes Good (card reads 4-30 \u2014 interpreted as 3-30 per pattern)",
+            "source": "IMG_0643"
           }
         ],
         "famacha_scores": [
@@ -8368,6 +8386,20 @@
             "date": "4-30-26",
             "famacha": 1,
             "notes": "Booster. Eyes good."
+          }
+        ],
+        "vaccinations": [
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster",
+            "source": "IMG_0643"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0643",
+            "note": "Wool ewe. No babies this season."
           }
         ]
       },
