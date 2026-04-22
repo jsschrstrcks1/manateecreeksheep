@@ -10947,5 +10947,12 @@
     },
     "notes": "34 adults + 17 babies = 51. This count may predate Nubas baby (3-24-26) and 114 black ram lamb (3-29-26), bringing total to 53.",
     "shots_given": 39
-  }
+  },
+  "lambing_notes": [
+    {
+      "source": "IMG_0630",
+      "as_of": "pre 2026-03-24",
+      "note": "Snapshot at time of writing: Oldest 2025-2026 baby in Pen 3, born 12-6-25. Newest in Pen 4, born 1-31-26. (Later Nuba's baby born 3-24-26 Pen 1 supersedes 'newest'.)"
+    }
+  ]
 }
