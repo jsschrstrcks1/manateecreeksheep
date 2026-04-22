@@ -11202,7 +11202,35 @@
         "broken-tail-twin-ewe-2",
         "nori-baby-p3"
       ],
-      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) \u2014 5 adults yearly, 4 babies 1st dose. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3."
+      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) \u2014 5 adults yearly, 4 babies 1st dose. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3.",
+      "treatments": [
+        {
+          "date_start": "2026-02-27",
+          "date_end": "2026-03-03",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 5,
+          "source": "IMG_0660"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-09",
+          "vaccine": "CDT \u2014 5 adults (yearly) + 4 babies (1st dose). Goat vac for sheep.",
+          "source": "IMG_0660"
+        },
+        {
+          "date": "2026-04-09",
+          "vaccine": "CDT booster (whole pen) + ear tags",
+          "source": "IMG_0660"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "Hair sheep \u2014 no wool in this pen",
+          "source": "IMG_0660"
+        }
+      ]
     },
     "pen_4": {
       "ram": "gigi-2025-ram",
