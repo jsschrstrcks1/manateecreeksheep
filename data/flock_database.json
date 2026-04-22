@@ -12616,6 +12616,52 @@
       "set_on": "2026-04-22",
       "set_by": "owner directive",
       "implication": "Eliminates Red Maasai (import-only), Morada Nova (import-dependent), Damara/Van Rooy (rare US), Exlana (UK-only). Realistic US-available targets: Santa Ines, Royal White, Pelibuey, and US breeders running Exlana-analog selection programs."
+    },
+    "pipeline_v4": {
+      "version": "v4",
+      "adopted": "2026-04-22",
+      "supersedes": "v3",
+      "shape": "1 intake pen + 7 breeding stages = 8 pens",
+      "flow": [
+        "Goose Pen (quarantine)",
+        "Pen 3 (Stage 1 intake)",
+        "Tree Fort (Stage 2 grow-out)",
+        "Pen 4 (Stage 3 production)",
+        "Pen 5 (Stage 4 proven)",
+        "Pen 6 (Stage 5 advanced)",
+        "Pen 1 (Stage 6 pre-elite)",
+        "Pen 2 (Stage 7 elite)"
+      ],
+      "ram_assignments": {
+        "Goose Pen": "transient quarantine occupant (currently Angus)",
+        "Pen 3": "Charlie (charlie-ram, MC-20, hair, proven intake)",
+        "Tree Fort": "Buck (buck, MC-2433, wool brown-elbows, parasite-proven)",
+        "Pen 4": "Merrieweather (merrie, 00016) \u2014 MOVE from Pen 3",
+        "Pen 5": "Angus (if cleared from 30d quarantine) \u2014 OPEN otherwise",
+        "Pen 6": "MC08 (mc08-ram, Awassi-type)",
+        "Pen 1": "00110 Orange (orange-tag-00110, wool-heavy proven old ram)",
+        "Pen 2": "Butthead (windlestone-kat-dorper) \u2014 ROCKY REMOVED"
+      },
+      "advancement_rules": {
+        "promotion": "all stage criteria met past 12 months; no parasite tx; lamb weaned clean; FAMACHA within threshold",
+        "holdback": "met minimum but not excelled; single when twins expected; first-parity gets extra year",
+        "demotion": "parasite tx >1x; preventable lamb loss; lambing problems \u2014 one chance to recover",
+        "cull": "FAMACHA 4+ stages 4+ or 5 anywhere; open year stages 3+; 2 consecutive demotion years; conditional_cull trigger"
+      },
+      "required_moves_to_enact_v4": [
+        "Merrieweather (merrie): Pen 3 -> Pen 4",
+        "Rocky: Pen 2 -> Goose Pen grow-out or sale",
+        "Angus: (none) -> Goose Pen 30d quarantine",
+        "114 Black Ram Lamb (tag-114-black-ram-lamb): Goose Pen -> Tree Fort with dam Fawn Wool 114"
+      ],
+      "open_questions": [
+        "Actual farm geography \u2014 is v4 flow walkable single-gate?",
+        "Angus breed composition (Awassi listed twice typo not clarified)",
+        "Rocky disposition after removal from Pen 2",
+        "Stage thresholds calibration to flock averages",
+        "Gigi + FM pet placement \u2014 dedicated pet pen or co-mingled with Pen 4 Stage 3 breeders"
+      ],
+      "source_doc": "data/investigations/2026-04-22_pipeline_v4.md"
     }
   },
   "tagging": {
