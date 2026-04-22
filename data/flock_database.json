@@ -1761,9 +1761,19 @@
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0659"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0659",
+            "note": "Card confirms: male Ram, fully intact. Tag 00016."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
@@ -1774,6 +1784,24 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0659"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0659"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0659"
           }
         ]
       },
