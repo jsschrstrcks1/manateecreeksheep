@@ -210,7 +210,7 @@
         "Gigi",
         "Gg"
       ],
-      "tag": "MC19",
+      "tag": "MC-19",
       "mc_tag": "MC19",
       "sex": "ewe",
       "breed_composition": {
@@ -283,7 +283,12 @@
             "vaccine": "Covexin 8"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0662",
+            "note": "MC-19 yellow tag confirmed. Single ewe (no babies). 'Weak resistance' confirmed by parasite emergency 2-20 to 2-27-26."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-12",
@@ -304,6 +309,30 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "CDT shot. Eyes good. Recovered."
+          },
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good; single ewe",
+            "source": "IMG_0662"
+          },
+          {
+            "date": "2026-02-20",
+            "score": 5,
+            "notes": "Eyes almost white. Ivermec+Fenbendazole+VB 3mL+Iron 2mL",
+            "source": "IMG_0662"
+          },
+          {
+            "date": "2026-02-27",
+            "score": 5,
+            "notes": "Eyes almost white still. Ivermec+Fenbendazole+VB 3mL+Iron 3mL",
+            "source": "IMG_0662"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0662"
           }
         ]
       },
@@ -326,7 +355,8 @@
       },
       "notes": "Azure's full brother. On weak resistance list. From Google Sheet Pen 4 / notebook. Pen 4 (monitoring/treatment pen). FAMACHA almost white (4-5) on 2-20-26 and 2-27-26 \u2014 two rounds aggressive treatment (Ivermectin+Fenbendazole+VB+Iron). Recovered to good by 3-9-26. Single ewe baby born 1-10-26. Also has 2025 yearling ram (tag 09?, sire Kelsier). Known weak parasite resistance \u2014 dam genetics appear dominant for parasite susceptibility despite Kelsier sire on offspring. One of familys favorites. Azure is Gigis sister (confirmed from notebook: Azures card says Gilris/Gigis Sister). Source: notebook card pen 4. Full sister of Azure. Both 50% Hampshire / 50% Suffolk. Large frame ~212 lbs. MC19 yellow tag. GiGi. FAMACHA: good\u2192ALMOST WHITE 2x (2-20,2-27) aggressive treatment\u2192recovered\u2192good 3-9 and 4-10. HIGH MAINTENANCE.",
       "confidence": "medium",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "secondary_tags": []
     },
     {
       "id": "rocky",
