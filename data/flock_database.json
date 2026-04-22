@@ -2465,7 +2465,7 @@
         "Bt",
         "BT"
       ],
-      "tag": "0029",
+      "tag": "MC-15",
       "mc_tag": "MC15",
       "sex": "ewe",
       "breed_composition": {
@@ -2520,9 +2520,19 @@
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0654"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0654",
+            "note": "Was \"no tag\" \u2014 got yellow MC-15 tag. Had twins this season. Prior tag 0029 moved to secondary_tags."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
@@ -2533,6 +2543,30 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0654"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0654"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0654"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0654"
           }
         ]
       },
@@ -2554,7 +2588,10 @@
       },
       "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin \u2014 inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3. MC15 yellow tag. Tag 0029. Had twins. FAMACHA consistently good all checks. SOLID.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "secondary_tags": [
+        "0029"
+      ]
     },
     {
       "id": "trouble",
