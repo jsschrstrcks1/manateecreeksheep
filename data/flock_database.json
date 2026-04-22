@@ -9178,7 +9178,7 @@
       "id": "broken-tail-twin-ewe-2",
       "name": "Broken Tail Twin Ewe 2 (White)",
       "aliases": [],
-      "tag": null,
+      "tag": "MC-2601",
       "sex": "ewe",
       "breed_composition": {
         "primary": "[UNCLEAR - Broken Tail offspring]",
@@ -9202,6 +9202,30 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Escaped from catch pen",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "6.6 weeks old",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "Booster, eyes good (pre-auction)",
+            "source": "IMG_0656"
           }
         ],
         "vaccinations": [
@@ -9209,11 +9233,28 @@
             "date": "2026-03-09",
             "vaccine": "CDT",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT (1st)",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT booster",
+            "source": "IMG_0656"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0656",
+            "note": "Card shows \"(2x) MC-2610 + MC-2601\" \u2014 double green tag; first number obscured/ambiguous (could be MC-2600). Primary MC-2601 used. DOB 12-31-25 twin to MC-2605 (brown sister). Sold 4-15-26 auction."
           }
         ]
       },
       "status_date": "2026-04-06",
-      "status_notes": "Auction Sunday April 6, 2026"
+      "status_notes": "Auction Sunday April 6, 2026",
+      "description": "White ewe"
     },
     {
       "id": "nori-baby-p3",
