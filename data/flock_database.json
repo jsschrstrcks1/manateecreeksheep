@@ -7639,6 +7639,12 @@
             "score": "1-2",
             "notes": "6 week booster",
             "source": "IMG_0635"
+          },
+          {
+            "date": "2026-03-30",
+            "score": "1-2",
+            "notes": "Booster + tag; eyes good (back of card)",
+            "source": "IMG_0636"
           }
         ],
         "vaccinations": [
@@ -7663,6 +7669,11 @@
             "date": "2026-04-02",
             "vaccine": "CDT booster (6 wk)",
             "source": "IMG_0635"
+          },
+          {
+            "date": "2026-03-30",
+            "vaccine": "CDT booster (tag)",
+            "source": "IMG_0636"
           }
         ],
         "famacha_scores": [
@@ -7686,6 +7697,10 @@
           {
             "source": "IMG_0635",
             "note": "DOB CORRECTION: card IMG_0635 shows 12-26-25 (supersedes prior 10-26-25). Dam: Charlies Ewe. Pen 1 per card."
+          },
+          {
+            "source": "IMG_0636",
+            "note": "Back of IMG_0635 card. 3-30-26 booster is probably same event IMG_0635 labeled \"4-2-26 6 week booster\". Keeping both for source traceability."
           }
         ]
       },
