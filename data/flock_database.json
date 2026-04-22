@@ -10657,7 +10657,36 @@
         "tag-0033-twin-ram-2",
         "tag-114-black-ram-lamb"
       ],
-      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total."
+      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total.",
+      "treatments": [
+        {
+          "date_start": "2026-02-11",
+          "date_end": "2026-02-16",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 6,
+          "source": "IMG_0644",
+          "notes": "All eyes good day 3 (2-13); note dry water 2-16"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-02-19",
+          "vaccine": "CDT (1st round) \u2014 4 babies 5mL each",
+          "source": "IMG_0644"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "3 need to be sheered",
+          "source": "IMG_0644"
+        },
+        {
+          "date": "2026-04-02",
+          "observation": "Babies need 6-week booster; adults need yearly",
+          "source": "IMG_0644"
+        }
+      ]
     },
     "pen_2": {
       "ram": "rocky",
