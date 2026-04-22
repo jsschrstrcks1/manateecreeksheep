@@ -8842,12 +8842,41 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-01-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0652"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0652"
+          },
+          {
+            "date": "2026-03-08",
+            "score": "1-2",
+            "notes": "CDT given",
+            "source": "IMG_0652"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0652"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-08",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-08",
+            "vaccine": "CDT",
+            "source": "IMG_0652"
           }
         ],
         "famacha_scores": [
@@ -8869,6 +8898,13 @@
             "date": "4-9-26",
             "famacha": 1,
             "notes": "Eyes good"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0652",
+            "note": "White belly ewe from Charlie's Farm \u2014 multi color. Single baby this season. Yellow tag MC-16."
           }
         ]
       },
