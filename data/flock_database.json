@@ -11783,7 +11783,29 @@
         "serendipity-twin-ewe",
         "fm2-ram-lamb"
       ],
-      "notes": "Pen 4 \u2014 monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility \u2014 even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4."
+      "notes": "Pen 4 \u2014 monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility \u2014 even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4.",
+      "treatments": [
+        {
+          "date_start": "2026-02-21",
+          "date_end": "2026-02-27",
+          "treatment": "Corid (coccidia, whole pen)",
+          "duration_days": 6,
+          "source": "IMG_0674",
+          "notes": "Only remembered to turn on water 2x in 5 days (protocol violation)"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-09",
+          "vaccine": "CDT whole pen \u2014 7 adults + 4 babies 1st round (goat vac for sheep)",
+          "source": "IMG_0674"
+        },
+        {
+          "date": "2026-04-10",
+          "vaccine": "CDT booster \u2014 4 babies 2nd shot + 4 adults tagged",
+          "source": "IMG_0674"
+        }
+      ]
     },
     "pen_5": {
       "ram": "eclipse",
