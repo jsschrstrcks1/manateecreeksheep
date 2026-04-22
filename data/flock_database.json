@@ -9963,7 +9963,30 @@
         "little-daisy"
       ],
       "lambs": [],
-      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week \u2014 watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal."
+      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week \u2014 watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal.",
+      "treatments": [
+        {
+          "date_start": "2026-03-08",
+          "date_end": "2026-03-13",
+          "treatment": "Corid (coccidia)",
+          "duration_days": 5,
+          "source": "IMG_0611"
+        }
+      ],
+      "vaccinations": [
+        {
+          "date": "2026-03-10",
+          "vaccine": "CDT (goat vaccine used for sheep)",
+          "source": "IMG_0611"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-02-20",
+          "observation": "2 wool sheep need to be sheared",
+          "source": "IMG_0611"
+        }
+      ]
     },
     "pen_6": {
       "ram": "mc08-ram",
