@@ -10530,7 +10530,10 @@
     {
       "id": "windlestone-kat-dorper",
       "name": "Windlestone Kat/Dorper Ram",
-      "aliases": [],
+      "aliases": [
+        "Butthead",
+        "Charlie's Ram"
+      ],
       "tag": null,
       "mc_tag": null,
       "sex": "ram",
@@ -10568,9 +10571,33 @@
         ],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
+        "vaccinations": [
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT (yearly booster)",
+            "source": "IMG_0646"
+          }
+        ],
         "notes": [
-          "FAMACHA 1 consistently for 1 year. PROVEN parasite resistance."
+          "FAMACHA 1 consistently for 1 year. PROVEN parasite resistance.",
+          {
+            "source": "IMG_0646",
+            "note": "Mom calls him Butthead (attitude). Card labels him 'Charlies Ram' \u2014 possibly meaning Charlie-the-person's ram. No tag."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-02-16",
+            "score": "1-2",
+            "notes": "checked; eyes are good",
+            "source": "IMG_0646"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "yearly booster given",
+            "source": "IMG_0646"
+          }
         ]
       },
       "breeding": {
@@ -10586,7 +10613,8 @@
       "notes": "Windlestone Kat/Dorper: 50% top-tier Katahdin x 50% elite Dorper (top in the country). FAMACHA 1 consistently for 1 year. 100% hair. HAS ATTITUDE \u2014 fractured handlers hand. Pen 2 is secure/built for dangerous rams. Handler protocol: pin on back, pinch nose to submit if charges. Elite genetics justify the management overhead.",
       "confidence": "high",
       "last_verified": "2026-04-03",
-      "temperament": "aggressive toward handlers \u2014 fractured hand. Requires dominant handling protocol."
+      "temperament": "aggressive toward handlers \u2014 fractured hand. Requires dominant handling protocol.",
+      "description": "Black headed Dorper with horns. Has attitude (\"Butthead\" per notebook)."
     },
     {
       "id": "nuba-baby-ewe",
