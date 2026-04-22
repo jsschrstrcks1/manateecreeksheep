@@ -8533,6 +8533,30 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "checked eyes are very good. No babies."
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1",
+            "notes": "checked; eyes are very good",
+            "source": "IMG_0647"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "yearly booster given; looks pregnant",
+            "source": "IMG_0647"
+          },
+          {
+            "date": "2026-03-24",
+            "score": "1-2",
+            "notes": "Single baby born (ewe). Moved Pen 2 -> Pen 1 around this time.",
+            "source": "IMG_0647"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0647"
           }
         ],
         "vaccinations": [
@@ -8540,6 +8564,11 @@
             "date": "2026-03-13",
             "vaccine": "Covexin",
             "notes": "yearly booster. Looks pregnant."
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT (yearly booster)",
+            "source": "IMG_0647"
           }
         ],
         "treatments": [
@@ -8567,6 +8596,12 @@
             "date": "4-9-26",
             "famacha": 1,
             "notes": "Eyes good."
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0647",
+            "note": "Card: 'Was in 2, Now in Pen 1' \u2014 moved around time of lambing. White hair ewe. Single baby 3-24-26."
           }
         ]
       },
