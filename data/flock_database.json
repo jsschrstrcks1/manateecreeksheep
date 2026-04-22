@@ -9782,7 +9782,7 @@
       "name": "White Ewe 0035",
       "tag": "0035",
       "sex": "ewe",
-      "pen": "Pen 4",
+      "pen": "Tree Fort",
       "status": "alive",
       "color_markings": "White ewe w/ dot on ear",
       "notes": "Tag 0035. White ewe with dot on ear. Single baby (ewe, born 1-2-26). Covexin 8 3-10-26 (full dose). Source: notebook card TF. Florida Dorper x Katahdin. Small sheep.",
@@ -9792,12 +9792,42 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0623"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc \u2014 only got 0.06ml (underdose); needs revacc with goat vacc",
+            "source": "IMG_0623"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes",
+            "source": "IMG_0623"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (0.06ml underdose \u2014 revacc needed)",
+            "source": "IMG_0623"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0623",
+            "note": "White ewe with dot on ear. Had single baby this lambing season. CDT dose 0.06ml on 3-10 was insufficient \u2014 needs revacc."
           }
         ]
       },
