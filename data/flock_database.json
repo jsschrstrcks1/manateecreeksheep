@@ -9849,10 +9849,10 @@
     },
     {
       "id": "tag-0035-baby-ewe",
-      "name": "0035 Baby Ewe",
-      "tag": null,
-      "sex": "ewe",
-      "pen": "Pen 4",
+      "name": "0035 Baby Ram",
+      "tag": "MC-2617",
+      "sex": "ram_lamb",
+      "pen": "Tree Fort",
       "status": "alive",
       "dam_id": "tag-0035-white-ewe",
       "dob": "2026-01-02",
@@ -9864,15 +9864,57 @@
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0624"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "7 weeks old",
+            "source": "IMG_0624"
+          },
+          {
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0624"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes, tagged MC-2617, CDT booster",
+            "source": "IMG_0624"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-10",
             "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (1st round)",
+            "source": "IMG_0624"
+          },
+          {
+            "date": "2026-04-11",
+            "vaccine": "CDT (booster)",
+            "source": "IMG_0624"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0624",
+            "note": "SEX CORRECTION: DB had ewe, card shows ram. Born 1-2-26. Dam: 0035 White Ewe (tag-0035-white-ewe). Tagged MC-2617 green on 4-11-26."
           }
         ]
-      }
+      },
+      "secondary_tags": [],
+      "description": "White with brown on front legs"
     },
     {
       "id": "tag-31-orange-tf",
