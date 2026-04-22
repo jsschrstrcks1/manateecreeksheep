@@ -7577,7 +7577,7 @@
       "id": "charlies-ram-lamb",
       "name": "Charlies Ewe Ram Lamb",
       "aliases": [],
-      "tag": "MC2619",
+      "tag": "MC-2619",
       "sex": "ram",
       "breed_composition": {
         "primary": "Katahdin/Awassi/BHD/ABB/Wiltshire Horn",
@@ -7595,11 +7595,11 @@
         "coat_prediction": "hair"
       },
       "color_markings": "Brown & white, white tail, blk patches on legs. White face with brown patches around eyes. Brown back with white patches.",
-      "pen": "Goose Pen",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": "buck",
       "dam_id": "charlies-ewe",
-      "dob": "2025-10-26",
+      "dob": "2025-12-26",
       "notes": "Buck(Kat/Awassi/EF) x Charlies Ewe(Kat/BHD/ABB/WH). 75% hair, above shedding threshold. Heavy Katahdin from both parents. Awassi dairy backup potential. MC2619 + 2612 green tags. Born 10-26-25 (CORRECTED from 12-26). Eyes consistently good all checks. In Pen 1.",
       "confidence": "medium",
       "source_refs": {
@@ -7621,6 +7621,24 @@
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. CDT booster."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "good eyes",
+            "source": "IMG_0635"
+          },
+          {
+            "date": "2026-02-19",
+            "score": "1-2",
+            "notes": "5mL 1 Vacc CDT",
+            "source": "IMG_0635"
+          },
+          {
+            "date": "2026-04-02",
+            "score": "1-2",
+            "notes": "6 week booster",
+            "source": "IMG_0635"
           }
         ],
         "vaccinations": [
@@ -7635,6 +7653,16 @@
             "vaccine": "Covexin",
             "dose": "5mL",
             "notes": "6-week booster"
+          },
+          {
+            "date": "2026-02-19",
+            "vaccine": "CDT (5mL 1 Vacc)",
+            "source": "IMG_0635"
+          },
+          {
+            "date": "2026-04-02",
+            "vaccine": "CDT booster (6 wk)",
+            "source": "IMG_0635"
           }
         ],
         "famacha_scores": [
@@ -7653,9 +7681,19 @@
             "famacha": 1,
             "notes": "Booster. Tag. Eyes good."
           }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0635",
+            "note": "DOB CORRECTION: card IMG_0635 shows 12-26-25 (supersedes prior 10-26-25). Dam: Charlies Ewe. Pen 1 per card."
+          }
         ]
       },
-      "mc_tag": "MC2619"
+      "mc_tag": "MC2619",
+      "secondary_tags": [
+        "MC-2612"
+      ],
+      "description": "Brown + white with white tail. Black patches on legs. Primarily white face with brown patches around eyes. Brown back with white patches."
     },
     {
       "id": "baby-azure",
