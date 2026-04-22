@@ -8681,6 +8681,42 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "Check good. CDT."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes; bump on left jaw detected",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good; soft bump still on L jaw",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-02-27",
+            "score": "1-2",
+            "notes": "Lanced bump on L jaw",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-02-28",
+            "score": "1-2",
+            "notes": "4.5mL Nuflor; 105.2\u00b0F fever; flushed abscess (later confirmed catch-panel puncture, NOT CL)",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT given; chin good",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0651"
           }
         ],
         "treatments": [
@@ -8692,12 +8728,29 @@
             "date": "2026-02-28",
             "treatment": "Nuflor 4.5mL",
             "notes": "Weight 108.2 lbs. Flushed abscess."
+          },
+          {
+            "date": "2026-02-27",
+            "treatment": "Lanced abscess on L jaw",
+            "notes": "Bump detected 2-13, soft 2-26, lanced 2-27",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-02-28",
+            "treatment": "Nuflor 4.5mL",
+            "notes": "105.2\u00b0F fever, flushed abscess. Catch-panel puncture (NOT CL) per thread correction.",
+            "source": "IMG_0651"
           }
         ],
         "vaccinations": [
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0651"
           }
         ],
         "famacha_scores": [
@@ -8732,6 +8785,12 @@
             "date": "4-9-26",
             "famacha": 1,
             "notes": "Eyes good."
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0651",
+            "note": "Yellow tag MC-20. Pen 3. Charlie-the-ram/Charlies Ram Herd. Feb abscess lanced+treated Nuflor \u2014 confirmed NOT CL per later thread note (catch-panel puncture)."
           }
         ]
       },
