@@ -10684,9 +10684,27 @@
             "date": "2026-04-09",
             "type": "CDT",
             "notes": "1st dose"
+          },
+          {
+            "date": "2026-04-09",
+            "vaccine": "CDT (1st shot)",
+            "source": "IMG_0648"
           }
         ],
-        "notes": []
+        "notes": [
+          {
+            "source": "IMG_0648",
+            "note": "Nuba's Baby ewe. No tag. Dam 0053 (Nuba). Sire: Rocky per prior commit notes."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "checked eyes good; 1st CDT shot",
+            "source": "IMG_0648"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": false,
@@ -10700,7 +10718,8 @@
       },
       "notes": "Born 3-24-26 to Nuba (0053) in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9).",
       "confidence": "high",
-      "last_verified": "2026-04-09"
+      "last_verified": "2026-04-09",
+      "description": "Black with tan ear. White patch on top. White tip on tail."
     }
   ],
   "pens": {
