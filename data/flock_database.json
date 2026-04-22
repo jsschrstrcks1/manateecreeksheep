@@ -8443,6 +8443,18 @@
             "date": "2026-02-26",
             "score": "1-2",
             "notes": "Checked eyes good. No babies."
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "Checked eyes good; no babies",
+            "source": "IMG_0649"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "yearly booster given",
+            "source": "IMG_0649"
           }
         ],
         "vaccinations": [
@@ -8450,6 +8462,11 @@
             "date": "2026-03-13",
             "vaccine": "Covexin",
             "notes": "yearly booster"
+          },
+          {
+            "date": "2026-03-13",
+            "vaccine": "CDT (yearly booster)",
+            "source": "IMG_0649"
           }
         ],
         "famacha_scores": [
@@ -8465,6 +8482,13 @@
           {
             "date": "3-29-26",
             "notes": "Lambed \u2014 black ram lamb. Moved to Pen 1 because Rocky kept her from newborn."
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0649",
+            "note": "Orange tag 114. Fawn wool coat. No babies this season."
           }
         ]
       },
