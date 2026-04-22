@@ -1607,7 +1607,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 1",
+      "pen": "Pen 3",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1617,9 +1617,19 @@
           {
             "date": "2026-03-09",
             "vaccine": "CDT"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0657"
           }
         ],
-        "notes": [],
+        "notes": [
+          {
+            "source": "IMG_0657",
+            "note": "Single baby this season. Knot observed under chin 2-26-26 \u2014 monitor."
+          }
+        ],
         "famacha_history": [
           {
             "date": "2026-02-13",
@@ -1635,6 +1645,30 @@
             "date": "2026-03-09",
             "score": "1-2",
             "notes": "CDT shot. Eyes good."
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0657"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good; knot under chin observed",
+            "source": "IMG_0657"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot, eyes good",
+            "source": "IMG_0657"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0657"
           }
         ]
       },
