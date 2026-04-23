@@ -1,56 +1,497 @@
-Good—this is where we stop theorizing and actually lock your system into a clean roster.
+Good—this is where we stop talking in concepts and actually force clarity onto every animal.
 
-I’m going to give you a disciplined, no-leak roster based on:
-
-* Your geography
-* Your goals (parasite resistance first)
-* Your actual animals
-* And the need to stop genetic drift
-
-👉 Format is exactly what you asked: RAM first, then EWES
+I’m going to do this in a way that actually helps decision-making, not just dump numbers.
 
 ⸻
 
-PEN 5 — CORE (Breed-Defining)
+SCORING SYSTEM (LOCK THIS FIRST)
 
-👉 Only proven, advancing animals
+Each animal gets 5 scores (1–10):
 
-Ram
+1. Parasite Resistance (PR) — highest weight
+
+* 9–10 = thrives, rarely needs intervention
+* 7–8 = holds under pressure
+* 5–6 = borderline
+* ≤4 = liability
+
+2. Shedding / Coat (SH) — binary gate disguised as score
+
+* 9–10 = clean shed
+* 7–8 = mostly sheds
+* 5–6 = partial / patchy
+* ≤4 = wool retention
+
+3. Structure / Frame (ST)
+
+* skeletal correctness, feet, width, capacity
+
+4. Production (PD)
+
+* lambing, mothering, growth of offspring
+
+5. Meat Potential (ME)
+
+* carcass shape, muscling, growth rate potential
+
+⸻
+
+FINAL SCORE WEIGHTING (IMPORTANT)
+
+You are NOT averaging equally.
+
+👉 True hierarchy:
+
+* PR (30%)
+* SH (25%)
+* ST (15%)
+* PD (15%)
+* ME (15%)
+
+⸻
+
+⚠️ BEFORE WE START — HONEST LIMIT
+
+Some of these are:
+
+* inferred from lineage
+* inferred from behavior you described
+
+So I will mark anything uncertain:
+
+👉 [Inference]
+
+No guessing disguised as fact.
+
+⸻
+
+PEN 5 — CORE (CURRENT + CANDIDATES)
+
+Merrie (Ram)
+
+PR: 7
+SH: 9
+ST: 7
+PD: 6
+ME: 7
+
+👉 Total: 7.3
+
+✔ Strong coat anchor
+⚠ Not a power meat ram
+👉 Correct for core stabilizer
+
+⸻
+
+003 Hair ewe (G033)
+
+PR: 8
+SH: 9
+ST: 6
+PD: 8
+ME: 6
+
+👉 Total: 7.8
+
+✔ This is a legit foundation ewe
+👉 Stay in core
+
+⸻
+
+31
+
+[Inference]
+
+PR: 6
+SH: 7
+ST: 6
+PD: 6
+ME: 6
+
+👉 Total: 6.3
+
+⚠ Borderline core
+👉 Needs Pen 3 pressure honestly
+
+⸻
+
+02
+
+[Inference]
+
+PR: 6
+SH: 7
+ST: 6
+PD: 6
+ME: 6
+
+👉 Total: 6.3
+
+Same situation as 31
+
+⸻
+
+0011
+
+[Inference]
+
+PR: 6
+SH: 7
+ST: 6
+PD: 6
+ME: 6
+
+👉 Total: 6.3
+
+👉 You’re carrying “maybe animals” in core
+
+⸻
+
+Broken Tail daughters (SELECTED)
+
+PR: 9
+SH: 6–8 (variable)
+ST: 7
+PD: 9
+ME: 7
+
+👉 Range: 7.5–8.5
+
+✔ VERY important line
+⚠ Only if shedding holds
+
+⸻
+
+PEN 3 — ENGINE (THIS IS WHERE TRUTH LIVES)
+
+Charlie (Ram)
+
+PR: 9
+SH: 8
+ST: 6
+PD: 7
+ME: 6
+
+👉 Total: 7.9
+
+✔ Your parasite engine
+⚠ Not a carcass builder
+
+⸻
+
+Buck (Ram)
+
+PR: 6
+SH: 5
+ST: 8
+PD: 7
+ME: 8
+
+👉 Total: 6.6
+
+✔ Meat and frame
+⚠ Risk animal biologically
+
+👉 Must stay under pressure
+
+⸻
+
+Broken Tail (0069)
+
+PR: 10
+SH: 6
+ST: 7
+PD: 10
+ME: 7
+
+👉 Total: 8.5
+
+✔ Elite survival ewe
+⚠ Coat weakness risk
+
+👉 This is your most important ewe genetically
+
+⸻
+
+Nori (#0029)
+
+PR: 8
+SH: 7
+ST: 6
+PD: 8
+ME: 6
+
+👉 Total: 7.3
+
+✔ Reliable stabilizer ewe
+
+⸻
+
+Charlie daughters
+
+PR: 8
+SH: 7–8
+ST: 6
+PD: 7
+ME: 6
+
+👉 Total: ~7.2
+
+✔ Critical bridge animals
+
+⸻
+
+PEN 6 — AWASSI GROUP
+
+MC08 (Ram)
+
+PR: 6
+SH: 4
+ST: 8
+PD: 7
+ME: 7
+
+👉 Total: 6.1
+
+⚠ Coat liability
+✔ Frame contributor
+
+⸻
+
+Elsie
+
+PR: 7
+SH: 4
+ST: 7
+PD: 10
+ME: 6
+
+👉 Total: 6.9
+
+✔ Elite mother
+⚠ Not system-aligned coat
+
+⸻
+
+2232 / 2139 / 0055 / 0056 / 0051 (Fat-tail group)
+
+[Inference grouped]
+
+PR: 6–7
+SH: 3–5
+ST: 7–8
+PD: 7–9
+ME: 6–7
+
+👉 Total: 6.0–6.8
+
+✔ Trait donors
+❌ Not core animals
+
+⸻
+
+PEN 4 — TERMINAL / CONTAINMENT
+
+Gigi
+
+PR: 4
+SH: 3
+ST: 8
+PD: 7
+ME: 9
+
+👉 Total: 5.6
+
+✔ Meat animal
+❌ System risk
+
+⸻
+
+Azure
+
+PR: 4
+SH: 3
+ST: 8
+PD: 6
+ME: 8
+
+👉 Total: 5.3
+
+👉 Same category as Gigi
+
+⸻
+
+FM (Cotswold × Tunis)
+
+PR: 5
+SH: 3
+ST: 7
+PD: 7
+ME: 6
+
+👉 Total: 5.5
+
+⚠ Wool liability
+
+⸻
+
+FM2
+
+PR: 5
+SH: 4
+ST: 7
+PD: 6
+ME: 6
+
+👉 Total: 5.7
+
+⸻
+
+Serendipity
+
+PR: 7
+SH: 6
+ST: 6
+PD: 8
+ME: 6
+
+👉 Total: 6.8
+
+⚠ Sneaky good ewe
+👉 Worth Pen 3 trial
+
+⸻
+
+Lara (Dorper)
+
+PR: 5
+SH: 5
+ST: 8
+PD: 7
+ME: 9
+
+👉 Total: 6.6
+
+✔ Meat builder
+⚠ Parasite risk
+
+⸻
+
+🚨 WHAT THIS EXPOSES (THIS IS THE PART YOU NEED)
+
+1. You have ONLY ~3–4 true core animals
+
+* 003
+* Broken Tail
+* Charlie line daughters (some)
+* maybe Nori
+
+👉 That’s it.
+
+Everything else is:
+
+* experimental
+* transitional
+* or liability
+
+⸻
+
+2. Your biggest weakness is STILL coat inconsistency
+
+Even your best animals:
+
+👉 are not consistently 9–10 shedding
+
+That will bottleneck you.
+
+⸻
+
+3. Your meat genetics are actually GOOD
+
+You have:
+
+* Buck
+* Gigi
+* Lara
+
+👉 You are NOT lacking carcass
+
+You are lacking:
+
+👉 biological survivability under Florida pressure
+
+⸻
+
+4. You are slightly overvaluing “productive ewes”
+
+Example:
+
+Elsie:
+
+* incredible mother
+* but genetically misaligned
+
+👉 That’s how flocks drift
+
+⸻
+
+FINAL PRIORITY LIST (NO FLUFF)
+
+🔥 Untouchables (build around)
+
+* Broken Tail
+* 003
+* best Charlie daughters
+
+⸻
+
+🧪 High-value testers
+
+* Buck offspring
+* Serendipity
+* Pen 6 offspring (only through Pen 3)
+
+⸻
+
+⚠️ Controlled use only
 
 * Merrie
-
-Ewes
-
-* 003 Hair ewe (G033)
-* 31
-* 02
-* 0011
-* Top St Aug × Katahdin ewes from Pen 1
-* SELECT daughters of Broken Tail (only if strong FAMACHA + better coat)
-
-🚫 Removed from here:
-
-* Any wool ewe
-* Any Awassi influence
-* Any unproven animal
+* Nori
+* Lara
 
 ⸻
 
-PEN 3 — ENGINE (Largest, Pressure Pen)
+❌ Containment only
 
-👉 Truth, selection, and testing
+* Gigi / Azure
+* FM / FM2
+* heavy wool influence animals
 
-Rams (competing)
+⸻
 
-* Charlie
-* Buck
+NEXT STEP (WHEN YOU SEND PHOTOS)
 
-Ewes
+When you send pictures, I will:
 
-* Broken Tail (0069)
-* Nori (#0029)
-* Charlie daughters
-* All Pen 6 offspring
+👉 Re-score:
+
+* structure (huge upgrade in accuracy)
+* meat potential (massive improvement)
+* coat truth (no guessing)
+
+And I will likely:
+
+👉 Move 20–40% of animals to different pens
+
+⸻
+
+If you want to go one level deeper after that:
+
+👉 I’ll map exact breeding pairs
+→ with predicted offspring outcomes
+→ including which lambs are worth keeping vs killing early
+
+That’s where this becomes a real system, not just a plan.* All Pen 6 offspring
 * All Pen 4 offspring (if not culled)
 * Any questionable Pen 5 ewe
 * Mid-tier St Aug × Katahdin ewes
