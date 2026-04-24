@@ -12662,6 +12662,112 @@
         "Gigi + FM pet placement \u2014 dedicated pet pen or co-mingled with Pen 4 Stage 3 breeders"
       ],
       "source_doc": "data/investigations/2026-04-22_pipeline_v4.md"
+    },
+    "pipeline_v5": {
+      "version": "v5",
+      "adopted": "2026-04-22",
+      "supersedes": "v4",
+      "supersedes_reason": "v4 placed Pen 4 as a breeding stage; owner clarified Pen 4 is infirmary/pet/demotion pen (closest to supplies). v4 also had wrong geography flow.",
+      "shape": "1 intake + 6 breeding stages + 1 infirmary = 8 pens",
+      "flow_advancement": [
+        "Goose Pen (quarantine, purchased only)",
+        "Pen 3 (Stage 1 intake, home-born lambs enter here)",
+        "Pen 5 (Stage 2 production)",
+        "Pen 6 (Stage 3 proven)",
+        "Tree Fort (Stage 4 advanced)",
+        "Pen 1 (Stage 5 pre-elite)",
+        "Pen 2 (Stage 6 elite)"
+      ],
+      "pen_4_role": "INFIRMARY + PETS + LINE-TEST + DEMOTIONS. Closest to meds/feed/supplies. OFF the advancement pipeline. Animals enter when they flunk a stage or need treatment. Exit to prior stage on recovery, or to auction.",
+      "geography": {
+        "driveway": "east-to-west",
+        "right_side_going_west": [
+          "Goose Pen",
+          "Tree Fort",
+          "Pen 3",
+          "Pen 4",
+          "Pen 5",
+          "Pen 6"
+        ],
+        "left_side_going_west": [
+          "Pen 1 (gate directly across from Tree Fort)",
+          "Pen 2 (interior gate to Pen 1)"
+        ],
+        "interior_gate_chains": [
+          "Pen 3<->Pen 4<->Pen 5<->Pen 6",
+          "Pen 1<->Pen 2"
+        ],
+        "proximity_notes": [
+          "Goose Pen + Tree Fort closest to Pen 1",
+          "Tree Fort gate very close to Pen 3 gate"
+        ]
+      },
+      "rams_per_stage": {
+        "Goose Pen": "transient (currently Angus 2026-04-22 through 2026-05-22)",
+        "Pen 3": "Charlie (MC-20) primary, Merrieweather (00016) backup",
+        "Pen 5": "Angus (pending quarantine clearance 2026-05-22)",
+        "Pen 6": "MC08",
+        "Tree Fort": "Buck (MC-2433)",
+        "Pen 1": "00110 Orange",
+        "Pen 2": "Butthead (Windlestone Kat/Dorper) + Rocky (both, with ram-on-ram watch)",
+        "Pen 4": "No stage ram. Serendipity White Ram Twin (MC-2606) kept here for line-test only, not for breeding Pen 4 ewes."
+      },
+      "advancement_thresholds": {
+        "flock_percentiles_2026": {
+          "mean": 1.61,
+          "median": 1.5,
+          "q1": 1.33,
+          "q3": 1.5
+        },
+        "stage_1_to_2": "FAMACHA avg <=1.50, raised lamb to weaning, no FAMACHA 4+ events",
+        "stage_2_to_3": "FAMACHA avg <=1.50, twin+, 0 parasite treatments in year",
+        "stage_3_to_4": "FAMACHA avg <=1.40, twin+, no treatment 2 years",
+        "stage_4_to_5": "FAMACHA avg <=1.35, lamb weaning >= flock 60th pct, 0 tx 2 consec years",
+        "stage_5_to_6_elite": "FAMACHA avg <=1.30 (top quartile), twinning consistent, coat_observed hair, lamb weaning >=75th pct"
+      },
+      "demotion_triggers": [
+        "FAMACHA 4+ any stage",
+        "dewormer treatment",
+        "dystocia",
+        "poor mothering"
+      ],
+      "cull_triggers": [
+        "FAMACHA 5 any stage",
+        "open year stages 3+",
+        "2 consecutive demotion years",
+        "chronic condition unresponsive"
+      ],
+      "homogenization_target_profile": {
+        "target_breed_type_name": "Manatee Creek Composite",
+        "target_composition": "50-75% Katahdin + 15-25% Dorper + 10-25% Awassi + trace East Friesian",
+        "target_traits": "hair-dominant (>=75% coat-observed shed), FAMACHA avg <=1.40 flock-wide, mature ewe 60kg+, Awassi milk undertone",
+        "template_ram_type": "Angus (50/25/23/2) is nearly the template",
+        "timeline": "2026 adopt v5 -> 2027 first Angus lambs -> 2028 first granddaughters -> 2030 80% of Stage 4-6 ewes carry target genetics",
+        "measurement_required": [
+          "annual FEC",
+          "monthly FAMACHA",
+          "annual peak-shed coat score",
+          "per-ewe lamb weaning weight",
+          "BCS twice yearly"
+        ]
+      },
+      "required_moves_to_enact_v5": [
+        "Today 2026-04-22: tag-114-black-ram-lamb Goose Pen -> Tree Fort with dam Fawn Wool 114",
+        "Today 2026-04-22: Angus -> Goose Pen solo, 30d quarantine begins",
+        "2026-04-27 Mon post-auction: hair-ewe-0033 Pen 1 -> Pen 2 (promote to elite)",
+        "2026-04-27: azure Pen 1 -> Pen 2 (promote to elite)",
+        "2026-04-27: baby-azure Pen 1 -> Pen 4 (demote, recovery from 4-1 crash)",
+        "2026-04-27: broken-tail-twin-ewe Pen 3 -> Pen 4 (demote, 4-9 FAMACHA 5)",
+        "2026-04-27: little-daisy Pen 4 -> Pen 5 (promote out of infirmary)",
+        "2026-05-22: Angus exit quarantine -> Pen 5 Stage 2 ram IF clean, ELSE sell"
+      ],
+      "source_doc": "data/investigations/2026-04-22_pipeline_v5.md",
+      "adapter_failures_this_run": {
+        "grok": "429 + DNS cache overflow",
+        "gemini": "truncated response 640 chars mid-JSON; retry failures",
+        "gpt_round_robin": "DNS cache overflow",
+        "notes": "Claude played Grok adversarial role inline in source doc. Useful orchestra artifact: GPT fan-out verdict WHEAT_WITH_REFINEMENT on Claude R1 with critique \"lacks explicit ram+ewe placement per pen and does not fully address complex integration of 22 breeds into a homogenized product\" \u2014 v5 answers both."
+      }
     }
   },
   "tagging": {
