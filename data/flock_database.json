@@ -489,6 +489,63 @@
         "offspring_ids": [],
         "lambing_records": []
       },
+      "plan_rebuild_evaluation": {
+        "date_evaluated": "2026-04-24",
+        "scope": "Pen 2 visual-ID pass — evaluation from photo observation + DB record + CLAUDE.md selection priorities.",
+        "breeding_soundness": {
+          "physical": "Sound. Mature active adult ram, ambulatory, horns intact with normal curl, standing square in all three 2026-04-24 photos.",
+          "fertility_evidence": "Proven sire — 2 confirmed 2026 offspring by sire_id search (tag-114-black-ram-lamb DOB 2026-03-29 out of tag-114-fawn-wool; nuba-baby-ewe DOB 2026-03-24 out of 0053). NOTE: his record's breeding.offspring_ids is empty — pre-existing DB inconsistency, not created by this pass.",
+          "behavior": "Aliased 'Jerkface' / 'Butthead' / 'Rock' — aggressive handler behavior noted across records. Requires caution but not logged as a handler-injury animal like windlestone-kat-dorper.",
+          "age": "Mature adult (DOB approximate, unknown). R2 breeding rule (known-DOB requirement) technically fails on record quality grounds — an age estimate would resolve.",
+          "eligibility_flag": "Not currently marked 'Eligible' in record. R4 consideration."
+        },
+        "conformation": {
+          "frame_size": "Large — ~300 lb on record. Heavy meat build consistent with Dorper/Awassi cross.",
+          "horns": "Curling ram horns, intact, no breakage visible in photos.",
+          "legs_feet": "White lower legs clean in photos; no visible lameness or swelling; stands square.",
+          "body_condition_score": "OBSCURED by heavy wool. BCS cannot be scored reliably until sheared. Needs shearing.",
+          "observations_2026_04_24": "Tongue-out in pic 1 — likely panting (Florida heat + heavy wool), not necessarily pathological. Re-check after shearing."
+        },
+        "health_parasite": {
+          "weak_resistance_list": true,
+          "weak_list_source": "CLAUDE.md Feb 14 2026 list",
+          "famacha_history_summary": "FAMACHA 3 (2023, treated Ivermectin+BPW); FAMACHA 4.5 on 2023-09-20 (treated Ivermectin+iron+nutridrench); sick episode 2023-10-23; FAMACHA 1 on 2026-02-16 (current stable); yearly Covexin 2026-03-13.",
+          "pattern": "Historical moderate parasite susceptibility. Currently stable but remains on weak-resistance list — his genetics should be assumed parasite-weak until proven otherwise by sustained FAMACHA 1-2 under pressure.",
+          "other": "On 'Rams to Upgrade' list per his record notes — owner already flagged him for replacement."
+        },
+        "meat_potential": {
+          "score": "HIGH",
+          "reasoning": "50% Black Headed Dorper + 44% Awassi = CLAUDE.md's explicit 'Meatiest: Dorper-Awassi cross' genetic profile. 300 lb adult weight supports this. Strong meat-trait carrier for the flock."
+        },
+        "milk_potential": {
+          "score": "MEDIUM",
+          "reasoning": "44% Awassi + 6% East Friesian from sire Teaser (88%Aw/12%EF) gives milk-gene carrier status. But dam was 100% BHD (not milky), so daughters' actual milk expression depends heavily on their own dam. Use on milky ewes if milk trait needs reinforcing; don't rely on Rocky alone to deliver milk in daughters."
+        },
+        "wool_management_burden": {
+          "score": "POOR for goals (heavy wool in Florida)",
+          "reasoning": "~50% wool percentage. Needs annual shearing. Counter to Selection Priority #4 (Hair coat selection — moving toward hair sheep for Florida heat). His wool is heritable — daughters and granddaughters will likely need shearing."
+        },
+        "hybrid_vigor": {
+          "score": "GOOD",
+          "reasoning": "3-breed contribution (BHD/Awassi/EF). Adds genetic diversity when bred to Katahdin-foundation ewes."
+        },
+        "inbreeding_risk": {
+          "score": "LOW to date",
+          "reasoning": "Only 2 confirmed offspring on record. Limited pedigree footprint in this flock. Watch if Awassi or BHD dams share maternal lines — not a current concern."
+        },
+        "plan_recommendation": {
+          "verdict": "CONDITIONAL USE — with restrictions",
+          "use_for": "Targeted meat/milk composite crosses where the DAM has proven strong parasite resistance (FAMACHA 1-2 under pressure) and strong hair-coat genetics. Rocky's role is to contribute meat mass + milk-gene potential, not parasite resistance or hair coat.",
+          "avoid": "Do NOT use Rocky on parasite-weak ewes (GG, Azure line, Baby, Bella, FM line, anyone on the Feb-2026 weak list). Compounding weakness on both sides produces unsellable offspring (see Serendipity x Kelsier twins MC2606/MC2607 for how even a strong sire cannot rescue a weak dam line).",
+          "replacement": "Angus (Windlestone, arrived 2026-04-22) is the likely upgrade path — once his pedigree is confirmed, compare his parasite-resistance history and coat type to Rocky. If Angus is a hair-coat ram with clean FAMACHA, he supersedes Rocky for general breeding duty.",
+          "cull_consideration": "Not urgent. Keep for this season if a suitable ewe match exists; re-evaluate end of 2026 season. 'Rams to Upgrade' list status confirms owner's direction."
+        },
+        "open_questions_for_owner": [
+          "Approximate DOB — even a year range resolves R2 eligibility.",
+          "Has he been officially eligibility-flagged, or should is_breeding_animal=true be downgraded?",
+          "Body condition after next shearing — weight re-check recommended."
+        ]
+      },
       "source_refs": {
         "csv_row": null,
         "notebook_image": [
@@ -12841,7 +12898,31 @@
           "phenotype": "Adult ewe, clean WHITE face with PINK nose, cream/off-white wool body, medium-small frame, no visible horns, needs shearing",
           "pen_context": "Pen 2 photo set (3 images, 2026-04-24) shows this ewe beside Rocky. Owner does not currently know her identity — ruled out 0053. Pink nose suggests spot gene in her coloration (owner note).",
           "confidence": "low",
-          "next_step": "Eyeball ear tag at next pen handling; compare against Pen 1 roster (tag-0044-wool-ewe has no color description on record) and any ewes whose pen is unassigned."
+          "next_step": "Eyeball ear tag at next pen handling; compare against Pen 1 roster (tag-0044-wool-ewe has no color description on record) and any ewes whose pen is unassigned.",
+          "plan_rebuild_evaluation": {
+            "date_evaluated": "2026-04-24",
+            "status": "HOLD — identity unknown, full evaluation deferred",
+            "photo_visible_only": {
+              "breeding_soundness": "Ambulatory, standing normally in 3 photos, calm near Rocky, no obvious lameness or injury. Adult ewe frame — sexually mature. Cannot assess fertility history until identified.",
+              "conformation": "Medium-small frame, upright ears, clean white legs. Body condition OBSCURED by heavy unshorn wool — BCS cannot be scored reliably. Needs shearing before any weight/condition assessment.",
+              "health_parasite": "Cannot assess. No FAMACHA history retrievable without identity. Visible eye color / mucous-membrane color not assessable from photos at this range.",
+              "meat_potential": "Cannot assess without breed composition. Medium frame visually does not suggest a heavy meat phenotype (unlike Rocky).",
+              "milk_potential": "Cannot assess without pedigree.",
+              "wool_management_burden": "POOR for hair-coat goal — clearly wool, needs shearing. Same wool burden as Rocky. If her genetics feed into the flock, her wool is heritable.",
+              "hybrid_vigor": "Cannot assess without breed composition.",
+              "spot_gene": "Owner observation (2026-04-24): pink nose indicates spot-coloration gene carrier. Mild genetic-diversity positive but not a trait we actively select for."
+            },
+            "plan_recommendation": {
+              "verdict": "DO NOT include in any rebuilt plan until identified.",
+              "reasoning": "Unknown pedigree, unknown parasite history, unknown age. Any breeding recommendation would violate non-negotiable rule 2 ('NEVER invent data') and priority #1 (parasite resistance — which cannot be verified without FAMACHA history). She's also currently penned with a ram (Rocky) — if she conceives before ID, her lamb's sire will be known but her own lineage will still be unresolved.",
+              "immediate_action": "Tag-check at next handling. If no ear tag, consider a new MC-series tag + new sheep record. Pull any notebook cards referencing a white-faced pink-nosed wool ewe that don't match an already-identified animal."
+            },
+            "open_questions_for_owner": [
+              "When will she be in handling chute next? (Dictates resolution timeline.)",
+              "Any recent notebook cards from Pen 2 that mention a ewe other than 0053?",
+              "Did any Pen-1 or Pen-4 roster animal get moved to Pen 2 recently?"
+            ]
+          }
         }
       ],
       "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references 'Nuba (tag 0053, white hair ewe)' — 'Nuba' was a Claude transcription error off the tag number, not a real name. STALE RECORDS TO AUDIT: windlestone-kat-dorper.pen still reads Pen 2 but he is not in the 2026-04-24 photos; elsie.pen corrected from Pen 2 to Pen 5 per owner 2026-04-24. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 2 currently need shearing (both visible animals are shaggy). Source: notebook cards with circled 2 + owner photo ID 2026-04-24."
