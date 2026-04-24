@@ -189,9 +189,9 @@ Is it an adult? (>9 months)
 
 ## Pen 6 — MC08 + Windlestone Awassi group (4 animals as of 2026-04-24)
 
-Pen 6 is the MC08 ram group. Ram is `mc08-ram` (fawn wool cross, Samson × Broken Tail); ewes are the three Windlestone Ranch fat-tail Awassi ewes (2139, 0056, 0055). **Only 4 animals in the pen** as of 2026-04-24 — Elsie and her one remaining triplet (MC-2618) are in Pen 5 with Angus; the small untagged triplet died 2026-04-06.
+Pen 6 is the MC08 ram group. Ram is `mc08-ram` (fawn wool cross, Samson × Broken Tail); ewes are the three Windlestone Ranch fat-tail Awassi ewes (2139, 0056, 0055). **Only 4 animals in the pen** as of 2026-04-24 — Elsie and her large triplet (MC-2618) are in Pen 5 with Angus; the small untagged triplet is staged for the 2026-04-26 auction (alive, no current pen).
 
-**CORRECTED 2026-04-24 from prior roster assumption:** the DB listed Elsie + both triplets in Pen 6 and Elsie's own record said `pen: "Pen 2"`. Owner confirmed all three are in Pen 5 (sm triplet deceased). Pen 6 = 4, not 7.
+**CORRECTED 2026-04-24 from prior roster assumption:** the DB listed Elsie + both triplets in Pen 6 and Elsie's own record said `pen: "Pen 2"`. Owner confirmed all three are not in Pen 6. Pen 6 = 4, not 7.
 
 ### Adults (4)
 
@@ -283,7 +283,7 @@ Is it an adult? (>9 months)
 - **Owner roster corrections (2026-04-24 verbal):**
   - Elsie is in **Pen 5** (DB had `pen: "Pen 2"`, Pen 6 roster had her listed — both wrong). With Angus and her one remaining triplet.
   - **MC-2618** (elsie-triplet-lg-white-ewe) is in **Pen 5**, not Pen 6 (and not Pen 5 lambs roster — added 2026-04-24).
-  - **Small untagged triplet (elsie-triplet-sm-white-ewe) is deceased** — status_date 2026-04-06 is the real death date, not a bulk-cleanup artifact.
+  - **Small untagged triplet (elsie-triplet-sm-white-ewe) is ALIVE**, going to auction Sunday 2026-04-26 — currently has no permanent pen. *(CORRECTED from the earlier commit in this same branch which wrongly marked her deceased. Owner clarified 2026-04-24: one triplet gifted (black ram), one to auction (sm white ewe), one with Elsie in Pen 5 (lg white ewe MC-2618). The 2026-04-06 status_date was a stale/meaningless value, not a death date — cleared.)*
   - **Pen 6 roster size: 4** (1 ram + 3 ewes, no lambs), not 7.
 - **Group-shot photo:** backlit at hay bale; individual IDs not resolvable at that distance, but headcount is consistent with the 4-animal roster (owner in pink dress visible for scale).
 - **Uncertain / flagged for future verification:**

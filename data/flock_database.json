@@ -10945,7 +10945,7 @@
       "tag": null,
       "sex": "ewe",
       "pen": null,
-      "status": "deceased",
+      "status": "alive",
       "sire_id": "eclipse",
       "dam_id": "elsie",
       "dob": "2026-01-06",
@@ -10989,7 +10989,7 @@
           }
         ]
       },
-      "status_date": "2026-04-06",
+      "status_date": null,
       "status_notes": "Auction Sunday April 6, 2026",
       "scheduled_auction": "2026-04-26",
       "notes_history": [
@@ -11008,6 +11008,10 @@
         {
           "date": "2026-04-24",
           "note": "Status corrected alive -> deceased. Owner 2026-04-24: 'one remaining triplet' (the lg white ewe MC-2618). Small untagged triplet died 2026-04-06. Prior pen: null. NOT a bulk-cleanup 2026-04-02 date — actual death."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "REVERTED my earlier 'deceased' change (made 2026-04-24 in same branch). Owner clarified 2026-04-24: of three triplets — black ram was gifted (2026-03-15), sm white ewe is going to auction Sunday 2026-04-26, lg white ewe (MC-2618) stays with Elsie in Pen 5. Sm triplet is ALIVE, not deceased. Prior status_date 2026-04-06 was NOT a death date — cleared. Pen left null: currently staged for auction, no permanent pen."
         }
       ]
     },
@@ -12247,7 +12251,7 @@
       "lambs": [
         "elsie-triplet-lg-white-ewe"
       ],
-      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week — watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet deceased 2026-04-06. Angus presence noted — ram/roster role in Pen 5 needs owner clarification (not updated here).",
+      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week — watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet going to auction Sunday 2026-04-26 (alive, not in a pen roster currently). Angus presence noted — ram/roster role in Pen 5 needs owner clarification (not updated here).",
       "treatments": [
         {
           "date_start": "2026-03-08",
@@ -12293,7 +12297,7 @@
         "windlestone-0055"
       ],
       "lambs": [],
-      "notes": "Pen 6 as of 2026-04-24 (owner-verified via photo session). Ram MC08 (fawn wool, yellow tag, polled) + 3 Windlestone fat-tail Awassi ewes (2139 big-horns, 0056 med-horns, 0055 small-horns + dark legs). CORRECTED 2026-04-24: Elsie and her one remaining triplet (lg white ewe MC-2618) moved to Pen 5 with Angus; small white triplet deceased 2026-04-06. Pen 6 roster now 4 animals (was 7). OAV 2222 already back in Pen 5 (prior correction). 1 wool (MC08) + 3 fat-tails need shearing. Source: notebook cards pen 6 + owner verbal 2026-04-24.",
+      "notes": "Pen 6 as of 2026-04-24 (owner-verified via photo session). Ram MC08 (fawn wool, yellow tag, polled) + 3 Windlestone fat-tail Awassi ewes (2139 big-horns, 0056 med-horns, 0055 small-horns + dark legs). CORRECTED 2026-04-24: Elsie and lg triplet (MC-2618) moved to Pen 5 with Angus; sm white triplet going to auction Sunday 2026-04-26 (not deceased — earlier commit had that wrong). Pen 6 roster now 4 animals (was 7). OAV 2222 already back in Pen 5 (prior correction). 1 wool (MC08) + 3 fat-tails need shearing. Source: notebook cards pen 6 + owner verbal 2026-04-24.",
       "census_snapshots": [
         {
           "source": "IMG_0616",
