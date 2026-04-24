@@ -44,13 +44,16 @@ Pen 4 is the weak-resistance watch pen. All 2026 lambs sired by Kelsier (100% Ka
 - **How to tell from her son (MC-09):** GG is **larger** + body condition visibly poorer; MC-19 tag vs MC-09; mature ewe frame vs yearling ram build.
 - **Full brother:** Azure (same parents, Mom's "Amure").
 
-#### `g023-bhd-ewe` — "BHD Ewe G023"
-- **Tag:** G023 (the "G" series is distinct from MC series)
-- **Sex:** ewe, adult
+#### `lara` — "Lara" / "BHD Ewe G023" / "Dorper 23"
+- **Tag:** 023 (primary) — secondary green tag **G023**
+- **Sex:** ewe, adult (DOB ~2018)
 - **Breed:** 100% Black Headed Dorper — **100% hair**
-- **Phenotype:** **Black head, white hair body** (NOT wool). Slick coat, shed naturally.
-- **How to distinguish from GG:** both have black heads + white bodies, but G023's body is **hair** (smooth, short) while GG's is **wool** (thick fleece). G023 is typically leaner.
-- **Health:** 4-10-26 "condition bad though eyes good" — Vit B12 given.
+- **Phenotype:** **Solid black head**, **white hair body** (slick, no fleece). **Golden-hour lighting makes her white body look tan/brown** — this caused a misID in pen-4 picture 2 (2026-04-24) where she appeared dark in evening sun.
+- **Offspring on record:** Oliver & Spicy (twins by Sir Loin, DOB 12-30-23).
+- **How to distinguish from GG:** both have black heads + white bodies, but **Lara = hair** (smooth, short) and **GG = wool** (thick fleece). Lara is typically leaner.
+- **How to distinguish from Serendipity in low-light photos:** Both can look dark-faced in evening sun. **Lara has a hair coat** (slick); **Serendipity has a mixed hair+wool patchy coat** and is smaller.
+- **Health:** On weak resistance list. FAMACHA borderline Feb 2026, recovered with VB. "Condition bad" 4-10-26 — Florida Dorper struggling.
+- **Prior DB error (fixed 2026-04-24):** Lara was duplicated as `g023-bhd-ewe` (a newer record built from 2026 notebook cards after she got the G023 green tag). The original `lara` record was wrongly bulk-marked deceased 2026-04-02. Records merged; `g023-bhd-ewe` removed.
 
 #### `fm` — "FM"
 - **Tag:** 0011 (older tag style) / secondary GA1568-011
