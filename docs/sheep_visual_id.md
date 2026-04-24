@@ -93,10 +93,11 @@ Pen 4 is the weak-resistance watch pen. All 2026 lambs sired by Kelsier (100% Ka
 - **Sex:** ewe, adult
 - **Sire/Dam:** Samson × Broken Tail (owner-confirmed 2026-04-24; medium confidence — no notebook card yet)
 - **Breed:** 50% Hampshire / 32.8% SA / 14.1% K / 3.1% BBB — **50% wool / 50% hair** (reads wool)
-- **Phenotype:** Expected to have **Hampshire face** (dark) from Samson — same face as her full brother MC08 in Pen 6. White-ish wool body.
-- **How to tell from GG/MC-09/Gigi line (also black-faced white-wool):** Samson line is distinct from Suffolk/Hampshire cross — Samson was pure Hampshire, giving a cleaner "English down" face. No MC tag yet.
-- **Full sibling:** `mc08-ram` (Pen 6). Both show the Samson face.
-- **Flag:** Needs tag, notebook card, FAMACHA baseline at next handling.
+- **Phenotype (CORRECTED 2026-04-24 from photo):** **WHITE face** (not Hampshire black — face color did NOT inherit from Samson), **pointed nose**, **cream wool body**. Looks like her brother MC08 but with a more pointed nose and whiter face.
+- **How to tell from her brother MC08:** Samson daughter has a **more pointed nose** and a **whiter face** than MC08. MC08 has a rounded muzzle and slightly cream-tinted face.
+- **How to tell from GG / MC-09:** Different face color entirely — Samson daughter is **white-faced**, GG and MC-09 are **black-faced**. Face color alone separates them. The earlier guidance grouping her with the "black-faced pen-4 animals" was wrong.
+- **Full sibling:** `mc08-ram` (Pen 6).
+- **Flag:** Needs tag, notebook card, FAMACHA baseline at next handling. Smaller than adult ewes like GG — often appears "barely visible" in group photos.
 
 ### Lambs (4) — all sired by Kelsier (100% Katahdin, NSIP)
 
@@ -138,13 +139,14 @@ Is it an adult? (>9 months)
 │   ├── Black head, white body, medium frame ...... g023-bhd-ewe (G023)
 │   └── Small white, MC189 tag .................... sm-white-ewe-p4
 ├── Wool coat (thick fleece)
-│   ├── Black face, white wool body
-│   │   ├── Larger mature ewe, MC-19 .............. gg (Gigi)
-│   │   ├── Yearling ram, MC-09 ................... gigi-2025-ram
-│   │   └── Cleaner Hampshire face, no tag ........ samson-daughter-p4 (NEW)
-│   ├── Reddish-brown wool, ~200 lb, tag 0011 ..... fm
-│   ├── Cream/gray metallic wool, tag 0051 ........ fm2-0051
-│   └── Dark mixed piebald, MC157 ................. serendipity
+│   ├── Black face, white wool body (Hampshire/Suffolk cross)
+│   │   ├── Larger mature ewe, poor condition, MC-19 ..... gg (Gigi)
+│   │   └── Yearling ram, "looks like Gigi smaller", MC-09 gigi-2025-ram
+│   ├── White face, cream wool body (Samson × Broken Tail)
+│   │   └── Pointed nose, no tag ........................ samson-daughter-p4 (NEW)
+│   ├── Reddish-brown wool, ~200 lb, tag 0011 ............ fm
+│   ├── Cream/gray metallic wool, tag 0051 ............... fm2-0051
+│   └── Dark mixed piebald, MC157 ........................ serendipity
 └── Lamb (<9 months)
     ├── Multi-color ewe, MC-2613 .................. gigi-2026-baby
     ├── White ram, MC2606 ......................... serendipity-twin-ram
@@ -158,8 +160,9 @@ Is it an adult? (>9 months)
 
 | Confusable pair | Tell them apart |
 |---|---|
-| GG vs. Gigi's 2025 Ram (MC-09) | Both Hampshire/Suffolk phenotype. **GG is the largest black-faced animal in pen 4** and as of Apr 2026 is visibly losing condition from nursing MC-2613 + parasite load. MC-19 vs MC-09 tags. MC-09 is a yearling ram — leaner, in better condition. |
-| GG vs. samson-daughter-p4 | Both black-faced wool ewes. GG = larger, poorer condition Apr 2026, MC-19 tag, usually near her huge lamb MC-2613. Samson daughter = smaller, better condition, no tag, cleaner pure-Hampshire face. |
+| GG vs. Gigi's 2025 Ram (MC-09) | Both Hampshire/Suffolk phenotype (black face, white wool). **GG is the largest black-faced animal in pen 4** and as of Apr 2026 is visibly losing condition from nursing MC-2613 + parasite load. MC-09 is "Gigi smaller" — yearling ram, leaner, better condition. Tags MC-19 vs MC-09. |
+| samson-daughter-p4 vs. MC08 (her brother, Pen 6) | Both cream-wool, **white-faced** (not black). Samson daughter has a **more pointed nose** and **whiter face**. MC08 has a rounder muzzle, slightly cream-tinted face. MC08 has a yellow MC08 tag; sister has no tag yet. |
+| samson-daughter-p4 vs. GG/MC-09 | **Face color separates them** — Samson daughter is WHITE-faced, GG and MC-09 are BLACK-faced. Earlier grouping as "three black-faced pen-4 animals" was wrong — owner correction 2026-04-24. |
 | GG's lamb (MC-2613) vs. other pen-4 lambs | MC-2613 is **unusually large for 3.5 mo** — close to adult size. If a "lamb" looks near-grown, it's her. Other lambs (MC2606/2607/2614) are normal size. |
 | GG vs. G023 (BHD) | Both black head + white body. GG = **wool**, G023 = **hair** — biggest tell. G023 leaner. |
 | FM vs. FM2 | Mother/daughter. FM = larger + redder wool. FM2 = smaller + cream/gray metallic. |
@@ -170,8 +173,10 @@ Is it an adult? (>9 months)
 
 ## Provenance
 
-- **Built:** 2026-04-24 from owner identification of IMG_2026-04-24 Pen 4 photo set.
+- **Built:** 2026-04-24 from owner identification of IMG_2026-04-24 Pen 4 photo set (4 images) + MC08 reference photo.
 - **Owner-confirmed identifications (Picture 1):** far-left dark = Serendipity; beside her = GG; half-behind GG = Gigi's 2026 baby; big sheep behind = FM; right of GG = FM2; right of FM2 = Gigi's 2025 ram; back-right = samson-daughter-p4 (full sister to MC08, Samson × Broken Tail).
+- **Owner-confirmed identifications (Picture 3):** center black-faced adult = GG; samson-daughter-p4 barely visible back-right. Owner correction: samson-daughter-p4 has a **white face like her brother MC08**, NOT a black Hampshire face — supersedes earlier pedigree-based assumption.
+- **Reference photos:** MC08 (Pen 6) photo provided 2026-04-24 — shows cream wool, white face, rounded muzzle, yellow MC08 tag. Used as reference for identifying his full sister samson-daughter-p4.
 - **Expansion plan:** replicate this structure for Pens 1, 2, 3, 5, 6, Goose, Chicken Coop, Tree Fort as owner verifies photos from each. Keep identity records in `data/flock_database.json` authoritative; this doc derives from them.
 
 ## Maintenance rules

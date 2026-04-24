@@ -11041,7 +11041,7 @@
       "status": "alive",
       "sire_id": "samson",
       "dam_id": "broken-tail",
-      "color_markings": "Fawn wool, yellow tag, colored. Hampshire face from Samson sire.",
+      "color_markings": "Cream/fawn heavy wool fleece. WHITE face (cream-tinted, NOT the Hampshire black face). Rounded muzzle, cream/pink nose, light ears. Yellow MC08 tag.",
       "breed_composition": {
         "primary": "Hampshire/St Augustine/Katahdin/BBB",
         "percentages": {
@@ -11055,9 +11055,17 @@
         "intermediate_percentage": 0,
         "wool_percentage": 50.0,
         "coat_prediction": "wool",
-        "notes": "Samson (100% Hampshire) x Broken Tail (65.625 SA / 28.125 K / 6.25 BBB). Hampshire dominance expressed in coat (fawn wool) and face. Wide tail noted."
+        "notes": "Samson (100% Hampshire) x Broken Tail (65.625 SA / 28.125 K / 6.25 BBB). Hampshire wool-coat dominance expressed, but face color did NOT inherit Hampshire black \u2014 both full siblings (MC08 + samson-daughter-p4) have white faces. Hair-breed dam face prevailed. Wide tail noted."
       },
-      "notes": "Tag MC08, yellow. Ram in Pen 6 with Windlestone Awassi ewes. Fawn wool sheep. Sire: Samson (Hampshire), dam: Broken Tail \u2014 owner-confirmed 2026-04-24. Full sibling to samson-daughter-p4 (in Pen 4). Source: notebook card pen 6. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
+      "visual_id": {
+        "face": "White, cream-tinted",
+        "muzzle": "Rounded (less pointed than full sister samson-daughter-p4)",
+        "coat": "Cream/fawn heavy wool",
+        "distinguishes_from": {
+          "samson-daughter-p4": "MC08 has a rounder nose and slightly less-white face than his sister. Both otherwise similar cream-wool white-faced phenotype."
+        }
+      },
+      "notes": "Tag MC08, yellow. Ram in Pen 6 with Windlestone Awassi ewes. Cream/fawn wool sheep, white face. Sire: Samson, dam: Broken Tail \u2014 owner-confirmed 2026-04-24. Full sibling to samson-daughter-p4 (in Pen 4). Source: notebook card pen 6 + owner photo 2026-04-24. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
       "confidence": "medium",
       "last_verified": "2026-04-24",
       "health": {
@@ -11132,9 +11140,20 @@
         "intermediate_percentage": 0,
         "wool_percentage": 50.0,
         "coat_prediction": "wool",
-        "notes": "Same cross as full-sibling MC08. Hampshire face expected (Samson dominance)."
+        "notes": "Same cross as full-sibling MC08. Face color did NOT inherit Hampshire black from sire — both siblings have WHITE faces. Broken Tail (hair-breed) face dominated."
       },
-      "color_markings": "Hampshire face (dark) over wool body — per owner photo ID 2026-04-24",
+      "color_markings": "WHITE face (whiter than brother MC08), pointed nose (more pointed than MC08). Cream wool body. Owner photo ID 2026-04-24.",
+      "visual_id": {
+        "face": "White — whiter than her brother MC08",
+        "muzzle": "Pointed (more pointed than MC08's rounded muzzle)",
+        "coat": "Cream wool body, similar to MC08",
+        "size": "Smaller than adult ewes (e.g., GG) — visible 'barely' in group photos",
+        "distinguishes_from": {
+          "mc08-ram": "Samson daughter has a more pointed nose and whiter face than her brother.",
+          "gg": "Samson daughter has a WHITE face, GG has a BLACK face. Different breed group — no confusion once face color seen.",
+          "gigi-2025-ram": "Samson daughter has a WHITE face, MC-09 has a BLACK face. Different breed group."
+        }
+      },
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
