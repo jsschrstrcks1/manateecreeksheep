@@ -2536,8 +2536,9 @@
       "sire_id": "sir-loin",
       "dam_id": "hersheys",
       "status": "deceased",
-      "status_date": "2026-04-02",
-      "status_notes": "",
+      "status_date": "2024-09-26",
+      "status_date_approximate": true,
+      "status_notes": "Died during Hurricane Helene (landfall FL Sept 26, 2024). Owner confirmed 2026-04-24.",
       "pen": null,
       "measurements": {},
       "health": {
@@ -2567,7 +2568,7 @@
           "IMG_8629.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Born as twin. 25% inbreeding (Sir Loin is both sire and maternal grandsire). Grandparents: Auction Sheep 1 & 2 (via Chip), Razzle & Frazzle (via Sugar). Mother of Broken Tail, Elsie (by Well Done, DOB 2/8/2022, ADG 0.56), HT ext lamb (by S'More), Merrie (by S'More), Daisy, and 2024 lamb (by Samson, born 2/12/2024, 10lb birth wt). Ewe weight prediction 140lbs (breeding page). In pen 3 (Sam group) per notebook. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
+      "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Born as twin. 25% inbreeding (Sir Loin is both sire and maternal grandsire). Grandparents: Auction Sheep 1 & 2 (via Chip), Razzle & Frazzle (via Sugar). Mother of Broken Tail, Elsie (by Well Done, DOB 2/8/2022, ADG 0.56), HT ext lamb (by S'More), Merrie (by S'More), Daisy, and 2024 lamb (by Samson, born 2/12/2024, 10lb birth wt). Ewe weight prediction 140lbs (breeding page). Died during Hurricane Helene (Sept 2024) \u2014 owner confirmed 2026-04-24. Prior DB death date 2026-04-02 was a bulk-cleanup date, not actual.",
       "confidence": "high",
       "last_verified": "2026-02-16"
     },
@@ -2742,7 +2743,11 @@
         "breeding_group": "",
         "offspring_ids": [
           "bt-lamb-2023",
-          "dodge"
+          "dodge",
+          "mc08-ram",
+          "samson-daughter-p4",
+          "broken-tail-twin-ewe",
+          "broken-tail-twin-ewe-2"
         ],
         "lambing_records": []
       },
@@ -2753,7 +2758,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More) and Dodge (by Sir Loin \u2014 inbred). Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3. MC15 yellow tag. Tag 0029. Had twins. FAMACHA consistently good all checks. SOLID.",
+      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More), Dodge (by Sir Loin \u2014 inbred), MC08 and samson-daughter-p4 (twins by Samson \u2014 owner-confirmed 2026-04-24), and 2025-12-31 twins. Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3. MC15 yellow tag. Tag 0029. Had twins. FAMACHA consistently good all checks. SOLID.",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "secondary_tags": [
@@ -11015,13 +11020,27 @@
       "sex": "ram",
       "pen": "Pen 6",
       "status": "alive",
-      "color_markings": "Fawn wool, yellow tag, colored",
+      "sire_id": "samson",
+      "dam_id": "broken-tail",
+      "color_markings": "Fawn wool, yellow tag, colored. Hampshire face from Samson sire.",
       "breed_composition": {
-        "primary": "[UNCLEAR - possibly Samson or Buck son]",
-        "percentages": {},
-        "notes": "Wool like Buck, face like Samson (100% Southdown, big variety). Wide tail \u2014 wider than Samsons or mothers. Samson face was dominant in breeding."
+        "primary": "Hampshire/St Augustine/Katahdin/BBB",
+        "percentages": {
+          "Hampshire": 50,
+          "St Augustine": 32.8125,
+          "Katahdin": 14.0625,
+          "Barbados Blackbelly": 3.125
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50.0,
+        "coat_prediction": "wool",
+        "notes": "Samson (100% Hampshire) x Broken Tail (65.625 SA / 28.125 K / 6.25 BBB). Hampshire dominance expressed in coat (fawn wool) and face. Wide tail noted."
       },
-      "notes": "Tag MC08, yellow. Ram. Fawn wool sheep. Possibly Samsons son or Bucks son. Wide tail (Awassi influence?). Source: notebook card pen 6. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
+      "notes": "Tag MC08, yellow. Ram in Pen 6 with Windlestone Awassi ewes. Fawn wool sheep. Sire: Samson (Hampshire), dam: Broken Tail \u2014 owner-confirmed 2026-04-24. Full sibling to samson-daughter-p4 (in Pen 4). Source: notebook card pen 6. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
+      "confidence": "medium",
+      "last_verified": "2026-04-24",
       "health": {
         "famacha_history": [
           {
@@ -11067,8 +11086,66 @@
         {
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Sire/dam resolved: Samson x Broken Tail (owner testimony). Full sister samson-daughter-p4 identified in Pen 4 photos same day."
         }
       ]
+    },
+    {
+      "id": "samson-daughter-p4",
+      "name": "Samson Daughter (Pen 4)",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Hampshire/St Augustine/Katahdin/BBB",
+        "percentages": {
+          "Hampshire": 50,
+          "St Augustine": 32.8125,
+          "Katahdin": 14.0625,
+          "Barbados Blackbelly": 3.125
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 50.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 50.0,
+        "coat_prediction": "wool",
+        "notes": "Same cross as full-sibling MC08. Hampshire face expected (Samson dominance)."
+      },
+      "color_markings": "Hampshire face (dark) over wool body — per owner photo ID 2026-04-24",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "samson",
+      "dam_id": "broken-tail",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Pen 4",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Identified by owner 2026-04-24 from Pen 4 photos (back-right position, picture 1). Full sibling to MC08 (Pen 6 ram). Both sired by Samson (100% Hampshire, deceased) — Hampshire face is the visual tell. Dam Broken Tail per owner 'good confidence' — alternative candidate Half Tail died during Hurricane Helene Sept 2024 so timing-dependent; owner selected Broken Tail. No tag recorded yet. DOB unknown — likely born same cohort as MC08 (pre-Samson's death). Not previously in database roster for Pen 4.",
+      "confidence": "medium",
+      "last_verified": "2026-04-24"
     },
     {
       "id": "windlestone-2139",
@@ -12021,7 +12098,8 @@
         "fm",
         "sm-white-ewe-p4",
         "serendipity",
-        "fm2-0051"
+        "fm2-0051",
+        "samson-daughter-p4"
       ],
       "lambs": [
         "gigi-2026-baby",
