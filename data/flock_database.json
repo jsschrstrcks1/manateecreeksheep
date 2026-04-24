@@ -11146,8 +11146,85 @@
         {
           "date": "2026-04-24",
           "note": "Sire/dam resolved: Samson x Broken Tail (owner testimony). Full sister samson-daughter-p4 identified in Pen 4 photos same day."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Breeding evaluation added (see breeding_evaluation field). Framework: breeding-advisor skill. FAMACHA/FEC > hair/wool > breed > meat. For use when rebuilding the breeding plan."
         }
-      ]
+      ],
+      "breeding_evaluation": {
+        "evaluated_date": "2026-04-24",
+        "evaluator": "breeding-advisor skill (Claude, 2026-04-24)",
+        "role": "Awassi dairy-line sire (outside main 7-pen breeding pipeline). Currently running with 3 Windlestone Awassi ewes in Pen 6.",
+        "health": {
+          "famacha_avg": "1-2 (3/3 scored 1-2; 2026-02-12, 2026-03-13)",
+          "dewormings_last_12_months": 0,
+          "weak_resistance_flag": false,
+          "vaccinations": "CDT 2026-03-13 current",
+          "assessment": "Excellent. No parasite treatments on record. Passes FAMACHA hard block comfortably."
+        },
+        "conformation": {
+          "frame": "Large — tall and wide as an Awassi ewe, NOT yet fully grown per owner note",
+          "weight_lbs": 190,
+          "weight_status": "Estimated; will grow",
+          "coat": "Heavy cream/fawn wool fleece (50% wool observed despite 50% hair breed calc) — needs shearing",
+          "polled": true,
+          "muzzle_nose": "Rounded, cream/pink",
+          "notes": "Large frame + good body condition. No BSE (breeding-soundness exam) on record."
+        },
+        "meatiness": "Good potential — Hampshire (meat breed) × Katahdin/SA hair. Large frame. Re-weigh at full maturity for growth-rate evaluation against pipeline benchmarks.",
+        "breeding_soundness": {
+          "status": "UNPROVEN",
+          "offspring_recorded": 0,
+          "current_exposure": "3 Windlestone ewes (2139, 0056, 0055), duration unknown",
+          "subfertility_trigger": "If >=3 ewes exposed for >=6 months and <=1 conceives → REJECT per skill hard-block #2 (Eclipse precedent: bred 1/6 in >1 year, flagged cull). Monitor.",
+          "age": "DOB unknown — visually yearling to 2yo; will grow further"
+        },
+        "genetics": {
+          "sire": "samson (100% Hampshire, DECEASED, was on WEAK RESISTANCE LIST 2026-02-14) — ⚠ concerning paternal line",
+          "dam": "broken-tail (hair-breed)",
+          "breed_composition": "50% Hampshire / 32.8% St Augustine / 14.1% Katahdin / 3.1% BBB",
+          "hair_wool_observed": "50% (carries heavy wool fleece)",
+          "full_sibling": "samson-daughter-p4 (Pen 4)"
+        },
+        "pipeline_placement": {
+          "current": "Pen 6 (Awassi dairy line, outside main breeding loop per breeding-advisor skill)",
+          "recommendation": "Keep on Awassi/dairy line. Do NOT move into main pipeline (Pen 3→TF→4→5→6→1→2) — that line demands hair-coat shedders, and MC08 carries too much fleece. His value is as a meat-carrier sire crossed into the Awassi dairy line.",
+          "alternative": "If owner prefers, move to Goose Pen (per skill table: 'MC08 (Awassi dairy) — Separate line')"
+        },
+        "recommended_pairings": [
+          {
+            "ewe": "windlestone-2139",
+            "verdict": "APPROVED (current exposure) — monitor for lambing",
+            "notes": "Large ewe × large ram — DYSTOCIA_RISK watch on predicted birthweight"
+          },
+          {
+            "ewe": "windlestone-0056",
+            "verdict": "APPROVED (current exposure)",
+            "notes": "Good temperament dam ('nice to handle')"
+          },
+          {
+            "ewe": "windlestone-0055",
+            "verdict": "APPROVED (current exposure)",
+            "notes": "Smallest horns; same frame as other two"
+          }
+        ],
+        "pairing_risk_notes": "Per skill rule 18 (WOOL_RISK): MC08 (observed wool) × Awassi (wool) offspring will carry <50% hair genetics AND both parents carry fleece → +2 pts per pairing. ACCEPTABLE here because this is the dairy line (coat is secondary to milk); would be unacceptable in the main pipeline.",
+        "red_flags": [
+          "Sire Samson was on weak-resistance list — MC08's own FAMACHA (currently 1-2) is fine, but his OFFSPRING's FAMACHA at 6mo is the real test",
+          "No DOB recorded",
+          "Zero offspring on record — fertility unproven",
+          "Heavy fleece is a FL-heat liability"
+        ],
+        "rebuild_plan_action_items": [
+          "Breeding-soundness exam before next breeding season",
+          "Estimate DOB from dentition at next handling",
+          "Weigh at full maturity (target: >220 lbs)",
+          "Pregnancy-check the 3 Windlestone ewes mid-2026; if none conceive, trigger subfertility protocol (Eclipse precedent)",
+          "Score any 2026 lambs' FAMACHA at 6 mo — this determines keep/cull on MC08",
+          "Annual review September 2026 per skill calendar"
+        ]
+      }
     },
     {
       "id": "samson-daughter-p4",
@@ -11279,6 +11356,10 @@
         {
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Breeding evaluation added (see breeding_evaluation field). Framework: breeding-advisor skill. FAMACHA/FEC > hair/wool > breed > meat. For use when rebuilding the breeding plan."
         }
       ],
       "description": "Fat tail. Big ewe with nice horns. No babies this season.",
@@ -11294,6 +11375,62 @@
           "windlestone-0056": "2139 has larger, more prominent horns and a bigger frame.",
           "windlestone-0055": "2139 has large horns; 0055 has tiny horns and distinctive dark legs."
         }
+      },
+      "breeding_evaluation": {
+        "evaluated_date": "2026-04-24",
+        "evaluator": "breeding-advisor skill (Claude, 2026-04-24)",
+        "role": "Awassi dairy ewe — foundational dam for Manatee Creek's 'most milky' line (per CLAUDE.md). Outside main pipeline.",
+        "health": {
+          "famacha_avg": "1-2 (3/3 scored 1-2)",
+          "dewormings_last_12_months": 0,
+          "weak_resistance_flag": false,
+          "vaccinations": "CDT/Covexin 8 2026-03-13 current",
+          "assessment": "Excellent. Passes all FAMACHA hard blocks. Has survived FL conditions."
+        },
+        "conformation": {
+          "frame": "Largest of the three Windlestones",
+          "weight_lbs": 200,
+          "coat": "Heavy cream/buff Awassi fat-tail fleece (needs shearing)",
+          "horns": "Large, curled, dark — biggest in Pen 6",
+          "notes": "Big ewe with good structure per notebook card."
+        },
+        "meatiness": "Good — 200 lb frame. Awassi fat-tail is adipose reserve (not muscle); moderate meatiness but excellent body-condition buffer for lambing.",
+        "breeding_soundness": {
+          "status": "UNPROVEN",
+          "offspring_recorded": 0,
+          "current_exposure": "MC08 (2026, ongoing)",
+          "age": "DOB unknown (purchased from Windlestone Ranch)",
+          "notes": "No babies recorded to date. First-time lambing will be high-risk per skill rule #10 (FIRST_TIMER_RISK +3)."
+        },
+        "genetics": {
+          "breed_composition": "95% Awassi (5% unrecorded — DB quality issue, pre-existing validator warning)",
+          "source": "Windlestone Ranch",
+          "dairy_value": "HIGH — per CLAUDE.md: 'Most milky: Awassi and Awassi crosses'"
+        },
+        "pipeline_placement": {
+          "current": "Pen 6 with MC08 (Awassi line)",
+          "recommendation": "KEEP on Awassi/dairy line. Do not move to main pipeline (wool coat disqualifies her from the hair-shedder progression)."
+        },
+        "recommended_pairings": [
+          {
+            "ram": "mc08-ram",
+            "verdict": "APPROVED (current)",
+            "notes": "Watch DYSTOCIA_RISK — both parents large-framed; predicted birthweight should be estimated if possible."
+          }
+        ],
+        "red_flags": [
+          "Age unknown — can't apply skill rule #5 (EWE_AGE_CHECK)",
+          "Never lambed — FIRST_TIMER_RISK applies at first breeding",
+          "Breed percentages sum 95% (data quality)"
+        ],
+        "rebuild_plan_action_items": [
+          "Age estimation at next handling (dentition)",
+          "Pregnancy-check mid-2026",
+          "Plan shearing before summer heat",
+          "At first lambing: record BW, lambing ease, and milk letdown (key trait for dairy-line decisions)",
+          "If produces good milking daughters → high-value foundational dam; tag daughters for line continuation",
+          "Annual review September 2026"
+        ]
       }
     },
     {
@@ -11361,6 +11498,10 @@
         {
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Breeding evaluation added (see breeding_evaluation field). Framework: breeding-advisor skill. FAMACHA/FEC > hair/wool > breed > meat. For use when rebuilding the breeding plan."
         }
       ],
       "description": "Fat tail. 1 med thick long horn + 1 hard thick & med long horn. Nice to handle.",
@@ -11377,6 +11518,59 @@
           "windlestone-2139": "0056's horns are smaller than 2139's; 0056 is also a smaller frame.",
           "windlestone-0055": "0056 has clearly curled horns; 0055 has tiny/nubby horns AND dark brown legs."
         }
+      },
+      "breeding_evaluation": {
+        "evaluated_date": "2026-04-24",
+        "evaluator": "breeding-advisor skill (Claude, 2026-04-24)",
+        "role": "Awassi dairy ewe. Outside main pipeline.",
+        "health": {
+          "famacha_avg": "1-2 (3/3 scored 1-2)",
+          "dewormings_last_12_months": 0,
+          "weak_resistance_flag": false,
+          "vaccinations": "CDT/Covexin 8 2026-03-13 current",
+          "assessment": "Excellent. Passes FAMACHA hard block."
+        },
+        "conformation": {
+          "frame": "Medium (between 2139 and 0055)",
+          "weight_lbs": 200,
+          "coat": "Heavy cream/buff Awassi fat-tail fleece (needs shearing)",
+          "horns": "Medium-thick, long, curled — moderate (smaller than 2139, larger than 0055)",
+          "temperament_note": "'Nice to handle' per notebook — IMPORTANT soft trait for dairy (she'll submit to milking)"
+        },
+        "meatiness": "Good — 200 lb frame, similar to 2139. Fat-tail adipose reserve.",
+        "breeding_soundness": {
+          "status": "UNPROVEN",
+          "offspring_recorded": 0,
+          "current_exposure": "MC08 (2026, ongoing)",
+          "age": "DOB unknown (purchased from Windlestone Ranch)"
+        },
+        "genetics": {
+          "breed_composition": "95% Awassi (5% unrecorded)",
+          "source": "Windlestone Ranch",
+          "dairy_value": "HIGH (Awassi)"
+        },
+        "pipeline_placement": {
+          "current": "Pen 6 with MC08",
+          "recommendation": "KEEP on Awassi/dairy line. Her temperament ('nice to handle') makes her the strongest dairy-line candidate of the three Windlestones — prioritize her daughters for milking line."
+        },
+        "recommended_pairings": [
+          {
+            "ram": "mc08-ram",
+            "verdict": "APPROVED (current)",
+            "notes": "Lower DYSTOCIA_RISK than 2139×MC08 — smaller frame."
+          }
+        ],
+        "red_flags": [
+          "Age unknown",
+          "Never lambed — FIRST_TIMER_RISK applies"
+        ],
+        "rebuild_plan_action_items": [
+          "Age estimation",
+          "Pregnancy-check mid-2026",
+          "At first lambing: record lambing ease + milk letdown — flag for dairy-line prioritization if she milks out easy",
+          "If lambs → tag daughters as potential dairy replacements",
+          "Annual review September 2026"
+        ]
       }
     },
     {
@@ -11445,6 +11639,10 @@
         {
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Breeding evaluation added (see breeding_evaluation field). Framework: breeding-advisor skill. FAMACHA/FEC > hair/wool > breed > meat. For use when rebuilding the breeding plan."
         }
       ],
       "visual_id": {
@@ -11459,6 +11657,59 @@
           "windlestone-2139": "0055 has dark legs + tiny horns; 2139 has light legs + big horns.",
           "windlestone-0056": "0055 has dark legs + tiny horns; 0056 has light legs + curled medium horns."
         }
+      },
+      "breeding_evaluation": {
+        "evaluated_date": "2026-04-24",
+        "evaluator": "breeding-advisor skill (Claude, 2026-04-24)",
+        "role": "Awassi dairy ewe. Outside main pipeline.",
+        "health": {
+          "famacha_avg": "1-2 (3/3 scored 1-2)",
+          "dewormings_last_12_months": 0,
+          "weak_resistance_flag": false,
+          "vaccinations": "CDT/Covexin 8 2026-03-13 current",
+          "assessment": "Excellent. Passes FAMACHA hard block."
+        },
+        "conformation": {
+          "frame": "Medium",
+          "weight_lbs": 200,
+          "coat": "Cream/buff Awassi fat-tail fleece (needs shearing)",
+          "horns": "Tiny/nubby — smallest in Pen 6; 1 tiny + 1 small-long per notebook",
+          "distinguishing_mark": "DARK BROWN LEGS (unique among Pen 6 Windlestones)"
+        },
+        "meatiness": "Good — 200 lb frame. Fat-tail adipose.",
+        "breeding_soundness": {
+          "status": "UNPROVEN",
+          "offspring_recorded": 0,
+          "current_exposure": "MC08 (2026, ongoing)",
+          "age": "DOB unknown (purchased from Windlestone Ranch)"
+        },
+        "genetics": {
+          "breed_composition": "95% Awassi (5% unrecorded)",
+          "source": "Windlestone Ranch",
+          "dairy_value": "HIGH (Awassi)"
+        },
+        "pipeline_placement": {
+          "current": "Pen 6 with MC08",
+          "recommendation": "KEEP on Awassi/dairy line. No temperament flag either direction; behaves typical."
+        },
+        "recommended_pairings": [
+          {
+            "ram": "mc08-ram",
+            "verdict": "APPROVED (current)",
+            "notes": "Lower DYSTOCIA_RISK than 2139×MC08 — smaller frame."
+          }
+        ],
+        "red_flags": [
+          "Age unknown",
+          "Never lambed — FIRST_TIMER_RISK applies",
+          "Tiny horns may indicate genetic variation; not necessarily a concern but flagged for daughter evaluation"
+        ],
+        "rebuild_plan_action_items": [
+          "Age estimation",
+          "Pregnancy-check mid-2026",
+          "At first lambing: record ease + milk; compare to 0056 for dairy-line ranking",
+          "Annual review September 2026"
+        ]
       }
     },
     {
