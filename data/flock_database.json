@@ -57,7 +57,7 @@
       "pen_2": 2,
       "pen_3": 9,
       "pen_4": 11,
-      "pen_5": 6,
+      "pen_5": 8,
       "pen_6": 7,
       "tree_fort": 6,
       "goose_pen": 0
@@ -422,7 +422,18 @@
         "wool_percentage": 50,
         "coat_prediction": "mixed"
       },
-      "color_markings": "",
+      "color_markings": "Black head (BHD heritage) with heavy red-brown wool body (Awassi). Curling ram horns. White lower legs. Heavy/shaggy fleece as of 2026-04-24 — needs shearing. Large frame (~300 lb).",
+      "visual_id": {
+        "face": "Dark / near-black head with white hair-muzzle highlights",
+        "horns": "Curling ram horns — single strongest visual distinguisher",
+        "coat": "Heavy red-brown wool, shaggy/clumped; clearly needs shearing Apr 2026",
+        "body": "Large heavy frame (~300 lb), white lower legs",
+        "pen_context": "Only ram in Pen 2 with wool + horns. Windlestone-Kat-Dorper (if actually in Pen 2) would be slick hair, not wool — different animal.",
+        "distinguishes_from": {
+          "buck": "Rocky is 50% BHD (dark head) + 44% Awassi wool. Buck is 50% Katahdin + 48% Awassi and lives in Tree Fort — not Pen 2.",
+          "windlestone-kat-dorper": "Windlestone-Kat-Dorper is 100% HAIR (slick). Rocky reads heavily WOOL. Coat type alone separates them."
+        }
+      },
       "weight_lbs": 300,
       "dob": null,
       "dob_approximate": true,
@@ -487,9 +498,9 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool. Notebook card says Charlies Ram, BHD w/ horns. No tag on card but has tag 140. Eyes good 2-16-26. Yearly booster 3-13-26. Also called Butthead. BHD w/ horns. Physically in Pen 2. Card says \"Charlies Ram\" but this is Rocky. Card says \"Charlies Ram BHD w/ horns\" but this is Rocky/Butthead in Pen 2. Eyes good 2-16, booster 3-13.",
+      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool. Notebook card says Charlies Ram, BHD w/ horns. No tag on card but has tag 140. Eyes good 2-16-26. Yearly booster 3-13-26. Also called Butthead. BHD w/ horns. Physically in Pen 2. Card says \"Charlies Ram\" but this is Rocky. Card says \"Charlies Ram BHD w/ horns\" but this is Rocky/Butthead in Pen 2. Eyes good 2-16, booster 3-13. Photo-confirmed in Pen 2 on 2026-04-24 (three-photo set): dark head, curling horns, heavy red-brown wool, white lower legs, needs shearing. Owner confirmed he is 'dorper awassi and ef' — distinguishing him from Buck (K/Aw/EF, Tree Fort).",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-04-24"
     },
     {
       "id": "teaser",
@@ -1723,7 +1734,7 @@
       },
       "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026. Was in Pen 5 with Eclipse. Escaped to Pen 6 while pregnant. Had triplets (sire: Eclipse). Gave away black ram lamb to girl starting flock. 2 ewe lambs remain. Now lives in Pen 6 permanently. Triplets born 1-6-26 (not 1-6-25). Sire: Eclipse (tag 113). Black ram lamb gifted mid-March 2026. 1 white ewe lamb remains (the large one, MC-2618). The small white ewe triplet was sold at auction 2026-04-26. Weight ~175 per owner estimate.",
       "confidence": "high",
-      "last_verified": "2026-02-16",
+      "last_verified": "2026-04-24",
       "notes_history": [
         {
           "date": "2026-04-24",
@@ -9042,9 +9053,7 @@
     {
       "id": "nuba-0053",
       "name": "0053",
-      "aliases": [
-        "Nubia"
-      ],
+      "aliases": [],
       "tag": "0053",
       "sex": "ewe",
       "breed_composition": {
@@ -9067,7 +9076,7 @@
       "sire_id": "samson",
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 0053. White Hair ewe. Name: Nuba (notebook spelling). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. White hair ewe. Samson x Sir Loin daughter. Sir Loin is maternal grandsire. 50% Hampshire / 37.5% StA / 12.5% Kat. Was in Pen 2 with Rocky, moved to Pen 1 after lambing 3-24-26. Single baby ewe. Eyes consistently very good.",
+      "notes": "Tag 0053. White hair ewe — no proper name; prior 'Nuba' / 'Nubia' was a Claude transcription error off the tag number, NOT a notebook spelling (owner-confirmed 2026-04-24). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. Samson x Sir Loin daughter. Sir Loin is maternal grandsire. 50% Hampshire / 37.5% StA / 12.5% Kat. Was in Pen 2 with Rocky, moved to Pen 1 after lambing 3-24-26. Single baby ewe. Eyes consistently very good. Photo-check 2026-04-24 (Pen 2 photos): the white-faced wool ewe visible in Pen 2 is NOT 0053 per owner — 0053 remains in Pen 1.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 2"
@@ -12239,7 +12248,7 @@
       "dam_id": null,
       "status": "alive",
       "status_date": "2026-04-03",
-      "status_notes": "Purchased from Windlestone",
+      "status_notes": "Purchased from Windlestone. FLAG 2026-04-24: Pen 2 photo set shows only Rocky + one unidentified white-faced wool ewe — this hair ram is NOT in those photos. Pen assignment likely stale. Also: aliases 'Butthead' / 'Charlie's Ram' collide with Rocky's aliases — possible duplicate-record risk (same pattern as Pen 4's lara/g023-bhd-ewe). Owner needs to confirm (a) where this ram actually is, and (b) whether he is a distinct animal from Rocky or a duplicate. DO NOT breed or cull from this record until resolved.",
       "pen": "Pen 2",
       "measurements": {},
       "health": {
@@ -12405,6 +12414,10 @@
         {
           "date": "2026-04-22",
           "note": "PEDIGREE PENDING: breed composition awaiting owner clarification (owner stated Awassi twice; likely one should be Katahdin)."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Pen assignment set to Pen 5 per owner: 'elsie is in 5 with angus'. Cohabiting with Eclipse (ram, listed subfertile/cull candidate) and other Pen 5 ewes including Elsie."
         },
         {
           "date": "2026-04-26",
@@ -12820,11 +12833,18 @@
     },
     "pen_2": {
       "ram": "rocky",
-      "ewes": [
-        "nuba-0053"
-      ],
+      "ewes": [],
       "lambs": [],
-      "notes": "Pen 2 as of April 2026. Rocky (Jerkface/Butthead, tag 140) is the ram. Nuba (tag 0053, white hair ewe, possibly pregnant). Tag 114 fawn wool ewe was here but moved to Pen 1 with newborn. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 3 need shearing. Eyes to be checked again soon. Source: notebook cards with circled 2."
+      "unidentified": [
+        {
+          "observed": "2026-04-24",
+          "phenotype": "Adult ewe, clean WHITE face with PINK nose, cream/off-white wool body, medium-small frame, no visible horns, needs shearing",
+          "pen_context": "Pen 2 photo set (3 images, 2026-04-24) shows this ewe beside Rocky. Owner does not currently know her identity — ruled out 0053. Pink nose suggests spot gene in her coloration (owner note).",
+          "confidence": "low",
+          "next_step": "Eyeball ear tag at next pen handling; compare against Pen 1 roster (tag-0044-wool-ewe has no color description on record) and any ewes whose pen is unassigned."
+        }
+      ],
+      "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references 'Nuba (tag 0053, white hair ewe)' — 'Nuba' was a Claude transcription error off the tag number, not a real name. STALE RECORDS TO AUDIT: windlestone-kat-dorper.pen still reads Pen 2 but he is not in the 2026-04-24 photos; elsie.pen corrected from Pen 2 to Pen 5 per owner 2026-04-24. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 2 currently need shearing (both visible animals are shaggy). Source: notebook cards with circled 2 + owner photo ID 2026-04-24."
     },
     "pen_3": {
       "ram": "charlie-ram",
@@ -12926,7 +12946,7 @@
       "lambs": [
         "elsie-triplet-lg-white-ewe"
       ],
-      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week — watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet going to auction Sunday 2026-04-26 (alive, not in a pen roster currently). Angus presence noted — ram/roster role in Pen 5 needs owner clarification (not updated here). UPDATE 2026-04-26 (owner verbal photo session): NoriSon (= Eclipse, merged record) sold at auction. Angus (Windlestone, ~4 mo, arrived 2026-04-22) is now the breeding ram. Tag 00113 ewe (Cracker/Suffolk/GCN/Katahdin, full sister of orange-tag-00110) — was previously in Pen 5 unrostered, had a singleton lamb 2026-04-22 by NoriSon that died 2026-04-25 (FTT); 00113 herself moved to Pen 1 on 2026-04-25. Small Elsie triplet (elsie-triplet-sm-white-ewe) sold at auction 2026-04-26. tag-0033-twin-ram-2 (black ram, dam tag-0033-hair-ewe) also sold at auction 2026-04-26 (he was in Pen 1). NoriSon's track record per owner: 'consistently hit or miss, in with 5 ewes for two years or so — only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor.' One of Elsie's surviving triplets may earn a place — owner watching.",
+      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week — watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet going to auction Sunday 2026-04-26 (alive, not in a pen roster currently). Angus presence noted — ram/roster role in Pen 5 needs owner clarification (not updated here). UPDATE 2026-04-26 (owner verbal photo session): NoriSon (= Eclipse, merged record) sold at auction. Angus (Windlestone, ~4 mo, arrived 2026-04-22) is now the breeding ram. Tag 00113 ewe (Cracker/Suffolk/GCN/Katahdin, full sister of orange-tag-00110) — was previously in Pen 5 unrostered, had a singleton lamb 2026-04-22 by NoriSon that died 2026-04-25 (FTT); 00113 herself moved to Pen 1 on 2026-04-25. Small Elsie triplet (elsie-triplet-sm-white-ewe) sold at auction 2026-04-26. tag-0033-twin-ram-2 (black ram, dam tag-0033-hair-ewe) also sold at auction 2026-04-26 (he was in Pen 1). NoriSon's track record per owner: 'consistently hit or miss, in with 5 ewes for two years or so — only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor.'",
       "treatments": [
         {
           "date_start": "2026-03-08",
