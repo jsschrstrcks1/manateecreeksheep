@@ -176,7 +176,90 @@ Is it an adult? (>9 months)
 
 ---
 
-## Provenance
+---
+
+## Pen 2 — Rocky's Pen (2 animals as of 2026-04-24)
+
+Pen 2 is currently a small two-animal pen: Rocky (the Awassi/BHD/EF ram) plus one unidentified white-faced wool ewe whose identity neither the DB nor the owner could confirm from photos alone. The ewe needs an ear-tag check at next handling before she can be named. Pen 2 is also the site's "secure pen" historically used for difficult rams (per `windlestone-kat-dorper.notes`), so stale Pen-2 assignments in the DB should be audited whenever a fresh pen pass is done.
+
+### Adults (2 visible — 1 locked, 1 pending)
+
+#### `rocky` — "Rocky" / "Jerkface" / "Butthead"
+- **Tag:** 140
+- **Sex:** ram, adult (weight on record ~300 lb)
+- **Sire/Dam:** Teaser (Awassi Ram, 88%Aw/12%EF) × Dorper Ewe 198 (100% BHD)
+- **Breed:** 50% Black Headed Dorper / 44% Awassi / 6% East Friesian — **50% hair / 50% wool (reads heavily wool right now)**
+- **Phenotype (photo-confirmed 2026-04-24):** **Dark (near-black) head** with white hair-muzzle highlights from BHD heritage. **Curling ram horns** — the single strongest identifier. **Heavy red-brown wool body** from Awassi — shaggy, clumped, clearly needs shearing. **White lower legs.** Large heavy frame, ~300 lb.
+- **Owner-confirmed identity 2026-04-24:** *"that ram is dorper awassi and ef"* — distinguishing him from **Buck** (K/Awassi/EF, in Tree Fort, not Pen 2). The key separator is BHD (Rocky) vs. Katahdin (Buck) in the hair-breed half.
+- **How to tell from Buck (if ever co-housed):** Rocky = 50% BHD → dark head from Dorper. Buck = 50% Katahdin → would not have the same dominant black-head coloring. Both carry ~48% Awassi so both can be wooly, but the head colors separate them.
+- **How to tell from `windlestone-kat-dorper`:** Windlestone-Kat-Dorper is **100% hair** (slick, no fleece). Rocky reads **heavily wool** (thick shaggy fleece Apr 2026). Coat type alone separates them — if the DB ever shows both in Pen 2, coat type is the tell. **Note:** the Windlestone-Kat-Dorper record shares aliases ("Butthead", "Charlie's Ram") with Rocky — possible duplicate risk; flagged for owner resolution.
+- **Health:** On weak resistance list. FAMACHA 1 at 2-16-26. Yearly Covexin booster 3-13-26.
+
+#### **Mystery Ewe — `[UNCLEAR]`** (flagged in `pens.pen_2.unidentified[]`, added 2026-04-24)
+- **Tag:** **none visible in photos** — eyeball the ear tag at next handling
+- **Sex:** ewe, adult
+- **Phenotype (photo only, 2026-04-24):** **Clean white face, pink nose**, upright white ears, no dark pigment around eyes or muzzle. **Cream / off-white wool body** — shaggy/clumped fleece, needs shearing. Medium-small adult frame, clean white legs. **No visible horns.** Calm around Rocky.
+- **Owner note 2026-04-24:** *"a pink nose generally indicates a gene for spots in their coloration"* — so she likely carries a spot-coloration allele even if she appears solid cream now.
+- **Owner ruled OUT:** `nuba-0053` (she is in Pen 1 after lambing 3-24-26; owner confirmed the Pen 2 ewe is not her). "Nuba" was a Claude transcription error off the tag number, not a real name.
+- **Confidence:** **low — pending tag check or clearer ID photo.** Do NOT assign her to an existing record without ground truth. If she is not in the current roster she may need a new record, same pattern as `samson-daughter-p4` in Pen 4.
+- **Candidates to check when tag is readable:**
+  - `tag-0044-wool-ewe` (Pen 1, tag 0044, 50% wool mixed, no color description on record) — phenotype plausible, pen assignment would need updating if it's her.
+  - A roster-missing ewe not yet in the DB.
+
+### Lambs (0)
+None currently in Pen 2. Any lambs from 0053's 3-24-26 single-ewe birth stayed with her in Pen 1.
+
+---
+
+## Pen 2 — Quick-Reference Decision Tree
+
+```
+Is it an adult? (all Pen 2 animals are currently adults)
+├── Ram?
+│   ├── Dark head + curling HORNS + heavy red-brown WOOL + white legs + ~300 lb ..... rocky
+│   └── (no other rams currently in photo — if you see a slick white hair ram,
+│        that's either windlestone-kat-dorper (stale Pen 2 assignment) or Buck
+│        (K/Aw/EF, tree fort) — confirm before IDing)
+└── Ewe?
+    └── White face, pink nose, cream wool body, no horns, medium frame ............. [UNCLEAR]
+        (flagged in DB pens.pen_2.unidentified — needs tag check)
+```
+
+---
+
+## Known visual confusion cases (Pen 2)
+
+| Confusable pair | Tell them apart |
+|---|---|
+| Rocky vs. Buck (Tree Fort) | Both ~48% Awassi wool, can look similar wooly. Rocky is 50% **BHD** → dark head. Buck is 50% **Katahdin** → would not show the same dark BHD head coloring. Different pens (Rocky = Pen 2, Buck = Tree Fort). |
+| Rocky vs. `windlestone-kat-dorper` | Rocky = heavy **wool** coat (shaggy, needs shearing). Windlestone-Kat-Dorper = 100% **hair** (slick). Coat type is the instant tell. **Flag:** Windlestone-Kat-Dorper's DB aliases ("Butthead", "Charlie's Ram") collide with Rocky's — possible duplicate record, pending owner resolution. |
+| Mystery ewe vs. `nuba-0053` | Owner ruled out 2026-04-24 — 0053 is in Pen 1 after lambing. Not a visual tell, a ground-truth rule. |
+| Mystery ewe vs. `tag-0044-wool-ewe` | Possible match if 0044 has a white face + pink nose (record is blank on color). Read 0044's tag at next pen pass — if she's there, roster moves her from Pen 1 to Pen 2. |
+
+---
+
+## Pen 2 — Provenance
+
+- **Built:** 2026-04-24 from owner identification of three Pen 2 photos dated 2026-04-24 (close-up of Rocky through fence + two golden-hour shots of both sheep).
+- **Owner-confirmed identifications:** Ram = Rocky/Jerkface/Butthead ("dorper awassi and ef"), confirmed by breed composition match vs. Buck ("kat awassi ef", in Tree Fort). Not-identifications: ewe is not 0053.
+- **DB corrections made in this pass (all 2026-04-24):**
+  - `pens.pen_2.ewes` emptied — 0053 belongs to Pen 1 per her individual record and owner confirmation; she was stale in the roster.
+  - `pens.pen_2.unidentified[]` added to formally track the unknown ewe without guessing her identity.
+  - `pens.pen_2.notes` rewritten to reflect current state (2 animals, not 3; Rocky + 1 unidentified).
+  - `elsie.pen` corrected from `"Pen 2"` → `"Pen 5"` (owner: *"elsie is in 5 with angus"*). Also corrected stale notes referencing "Now lives in Pen 6 permanently."
+  - `angus.pen` set from `null` → `"Pen 5"` per owner.
+  - `pens.pen_5` roster updated: added `angus` to new `other_rams` field, added `elsie` to `ewes`; census bumped 6 → 8.
+  - `nuba-0053.aliases` emptied (removed "Nubia" transcription error). Her notes now explicitly state "Nuba" was a Claude misread off the tag number, not a real name or notebook spelling.
+  - `rocky` visual_id block added (face, horns, coat, body, pen_context, distinguishes_from Buck + Windlestone-Kat-Dorper). `color_markings` written from photos. `last_verified` bumped 2026-02-16 → 2026-04-24.
+  - `windlestone-kat-dorper.status_notes` flagged — pen assignment Pen 2 is likely stale (ram not in photos), and aliases "Butthead" / "Charlie's Ram" collide with Rocky's aliases — possible duplicate-record risk. Deferred to owner.
+- **Open questions carried forward:**
+  1. Who is the white-faced wool ewe in Pen 2?
+  2. Where is `windlestone-kat-dorper` actually pastured?
+  3. Is `windlestone-kat-dorper` a distinct animal from Rocky or a duplicate record from confused notebook card-reading?
+
+---
+
+## Pen 4 — Provenance
 
 - **Built:** 2026-04-24 from owner identification of IMG_2026-04-24 Pen 4 photo set (4 images) + MC08 reference photo.
 - **Owner-confirmed identifications (Picture 1):** far-left dark = Serendipity; beside her = GG; half-behind GG = Gigi's 2026 baby; big sheep behind = FM; right of GG = FM2; right of FM2 = Gigi's 2025 ram; back-right = samson-daughter-p4 (full sister to MC08, Samson × Broken Tail).
