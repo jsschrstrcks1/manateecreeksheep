@@ -1603,7 +1603,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 2",
+      "pen": "Pen 5",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -1639,7 +1639,13 @@
       },
       "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026. Was in Pen 5 with Eclipse. Escaped to Pen 6 while pregnant. Had triplets (sire: Eclipse). Gave away black ram lamb to girl starting flock. 2 ewe lambs remain. Now lives in Pen 6 permanently. Triplets born 1-6-26 (not 1-6-25). Sire: Eclipse (tag 113). Black ram lamb gifted mid-March 2026. 2 white ewe lambs remain (1 large, 1 small). Weight ~175 per owner estimate.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "notes_history": [
+        {
+          "date": "2026-04-24",
+          "note": "CORRECTED pen from 'Pen 2' to 'Pen 5'. Owner confirmed Elsie is in Pen 5 with Angus and her one remaining triplet (MC-2618). Prior notes said 'Now in Pen 6' (also wrong — she moved back after the Eclipse escape)."
+        }
+      ]
     },
     {
       "id": "nori",
@@ -10939,7 +10945,7 @@
       "tag": null,
       "sex": "ewe",
       "pen": null,
-      "status": "alive",
+      "status": "deceased",
       "sire_id": "eclipse",
       "dam_id": "elsie",
       "dob": "2026-01-06",
@@ -10998,6 +11004,10 @@
         {
           "date": "2026-04-22",
           "note": "Size clarification: SECOND smallest (smallest was black ram, already gifted). Going to 4-26 auction."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Status corrected alive -> deceased. Owner 2026-04-24: 'one remaining triplet' (the lg white ewe MC-2618). Small untagged triplet died 2026-04-06. Prior pen: null. NOT a bulk-cleanup 2026-04-02 date — actual death."
         }
       ]
     },
@@ -11050,7 +11060,7 @@
       "status": "alive",
       "sire_id": "samson",
       "dam_id": "broken-tail",
-      "color_markings": "Cream/fawn heavy wool fleece. WHITE face (cream-tinted, NOT the Hampshire black face). Rounded muzzle, cream/pink nose, light ears. Yellow MC08 tag.",
+      "color_markings": "Cream/fawn heavy wool fleece, WHITE face (cream-tinted, NOT Hampshire black despite 50% Hampshire sire Samson — dam Broken Tail's hair-breed pigment dominated). Rounded muzzle, cream/pink nose, light ears. Polled (no horns). Yellow MC08 tag. Large frame — as tall/wide as an Awassi ewe but not quite the full size of 2139.",
       "breed_composition": {
         "primary": "Hampshire/St Augustine/Katahdin/BBB",
         "percentages": {
@@ -11067,11 +11077,17 @@
         "notes": "Samson (100% Hampshire) x Broken Tail (65.625 SA / 28.125 K / 6.25 BBB). Hampshire wool-coat dominance expressed, but face color did NOT inherit Hampshire black — both full siblings (MC08 + samson-daughter-p4) have white faces. Hair-breed dam face prevailed. Wide tail noted."
       },
       "visual_id": {
-        "face": "White, cream-tinted",
-        "muzzle": "Rounded (less pointed than full sister samson-daughter-p4)",
-        "coat": "Cream/fawn heavy wool",
+        "face": "White, cream-tinted (NOT Hampshire black)",
+        "muzzle": "Rounded, cream/pink nose",
+        "coat": "Cream/fawn heavy uniform wool fleece",
+        "horns": "Polled (no horns) — only hornless adult in Pen 6",
+        "body_size": "Large frame — comparable to an Awassi ewe but leaner than 2139",
+        "tag": "MC08 (yellow)",
+        "verified_from": "Photos 2026-04-24: head-on view (cream face, yellow tag on animal's left ear, no horns, heavy fleece) + side profile (same animal, right side, yellow tag visible). Owner confirmed both views = MC08, 2026-04-24.",
         "distinguishes_from": {
-          "samson-daughter-p4": "MC08 has a rounder nose and slightly less-white face than his sister. Both otherwise similar cream-wool white-faced phenotype."
+          "samson-daughter-p4": "MC08 has a rounder nose and slightly less-white (more cream-tinted) face than his full sister. Both otherwise similar cream-wool white-faced phenotype. Sister is in Pen 4.",
+          "windlestone_awassis": "MC08 is polled; all three Windlestone ewes have horns. MC08 is also paler/whiter in the face than the Awassis' brown faces.",
+          "elsie-triplet-lg-white-ewe": "MC-2618 is in Pen 5, not Pen 6 (owner correction 2026-04-24). Also a 3.5-mo lamb vs MC08 adult ram — smaller, less-developed fleece."
         }
       },
       "notes": "Tag MC08, yellow. Ram in Pen 6 with Windlestone Awassi ewes. Cream/fawn wool sheep, white face. Sire: Samson, dam: Broken Tail — owner-confirmed 2026-04-24. Full sibling to samson-daughter-p4 (in Pen 4). Source: notebook card pen 6 + owner photo 2026-04-24. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
@@ -11213,7 +11229,7 @@
         "wool_percentage": 95,
         "coat_prediction": "wool"
       },
-      "color_markings": "Big ewe w nice horns",
+      "color_markings": "Big ewe w nice horns. Heavy cream/buff Awassi fat-tail fleece. Brown/reddish face. Prominent dark curled horns — the largest horns of the three Pen-6 Windlestones. Biggest frame of the three. Tag 2139.",
       "notes": "Tag 2139. Windlestone Ranch fat tail (Awassi) ewe. Big ewe w nice horns. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
       "health": {
         "famacha_history": [
@@ -11261,7 +11277,20 @@
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
         }
       ],
-      "description": "Fat tail. Big ewe with nice horns. No babies this season."
+      "description": "Fat tail. Big ewe with nice horns. No babies this season.",
+      "visual_id": {
+        "coat": "Heavy uniform cream/buff wool fleece (Awassi fat-tail)",
+        "face": "Brown/reddish face",
+        "horns": "Large, curled, prominent — the biggest horns in Pen 6",
+        "body_size": "Largest frame of the three Windlestone ewes",
+        "legs": "Standard/light (NOT distinctly dark — that's 0055)",
+        "tag": "2139",
+        "verified_from": "Photo 2026-04-24: big ewe lying down in front of white outbuilding, heavy curled horns, brown face. Owner-confirmed 2026-04-24.",
+        "distinguishes_from": {
+          "windlestone-0056": "2139 has larger, more prominent horns and a bigger frame.",
+          "windlestone-0055": "2139 has large horns; 0055 has tiny horns and distinctive dark legs."
+        }
+      }
     },
     {
       "id": "windlestone-0056",
@@ -11282,7 +11311,7 @@
         "wool_percentage": 95,
         "coat_prediction": "wool"
       },
-      "color_markings": "Med thick long horns, nice to handle",
+      "color_markings": "Med thick long horns, nice to handle. Heavy cream/buff Awassi fat-tail fleece. Brown face. Curled horns — moderate size (between 2139's big and 0055's tiny). Orange/pink ear tag visible in 2026-04-24 photo. Tag 0056.",
       "notes": "Tag 0056. Windlestone Ranch fat tail (Awassi) ewe. Med thick long horns, nice to handle. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
       "health": {
         "famacha_history": [
@@ -11330,7 +11359,21 @@
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
         }
       ],
-      "description": "Fat tail. 1 med thick long horn + 1 hard thick & med long horn. Nice to handle."
+      "description": "Fat tail. 1 med thick long horn + 1 hard thick & med long horn. Nice to handle.",
+      "visual_id": {
+        "coat": "Heavy cream/buff wool fleece (Awassi fat-tail)",
+        "face": "Brown face",
+        "horns": "Medium-thick, long, curled — moderate size; smaller than 2139, larger than 0055",
+        "body_size": "Medium frame",
+        "legs": "Standard/light (NOT distinctly dark — that's 0055)",
+        "tag": "0056 (orange/pink visible tag color)",
+        "temperament": "Nice to handle (per notebook card)",
+        "verified_from": "Photo 2026-04-24: standing, both curled horns visible, brown face, orange/pink tag. Owner-confirmed 2026-04-24.",
+        "distinguishes_from": {
+          "windlestone-2139": "0056's horns are smaller than 2139's; 0056 is also a smaller frame.",
+          "windlestone-0055": "0056 has clearly curled horns; 0055 has tiny/nubby horns AND dark brown legs."
+        }
+      }
     },
     {
       "id": "windlestone-0055",
@@ -11351,7 +11394,7 @@
         "wool_percentage": 95,
         "coat_prediction": "wool"
       },
-      "color_markings": "Tiny/sm horns, dark legs",
+      "color_markings": "Tiny/sm horns, DARK LEGS. Cream/buff Awassi fat-tail fleece, brown face, and distinctly DARK BROWN legs — the single clearest visual tell among the Pen-6 Windlestones. Horns small/nubby. Tag 0055.",
       "notes": "Tag 0055. Windlestone Ranch fat tail (Awassi) ewe. Tiny/sm horns, dark legs. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
       "health": {
         "famacha_history": [
@@ -11399,7 +11442,20 @@
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
         }
-      ]
+      ],
+      "visual_id": {
+        "coat": "Cream/buff wool fleece (Awassi fat-tail)",
+        "face": "Brown face",
+        "horns": "Tiny/small — nubby compared to the other two Windlestones",
+        "body_size": "Medium frame",
+        "legs": "DARK BROWN legs — the clearest single tell; distinguishes her from 2139 and 0056",
+        "tag": "0055",
+        "verified_from": "Photo 2026-04-24: right-side profile at fence near water bucket, brown face, brown legs visible below fleece. Owner-confirmed 2026-04-24.",
+        "distinguishes_from": {
+          "windlestone-2139": "0055 has dark legs + tiny horns; 2139 has light legs + big horns.",
+          "windlestone-0056": "0055 has dark legs + tiny horns; 0056 has light legs + curled medium horns."
+        }
+      }
     },
     {
       "id": "tag-0035-white-ewe",
@@ -12185,10 +12241,13 @@
         "tag-02-ewe-p5",
         "fawn-wool-ewe-p5",
         "oav-2222",
-        "little-daisy"
+        "little-daisy",
+        "elsie"
       ],
-      "lambs": [],
-      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week — watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal.",
+      "lambs": [
+        "elsie-triplet-lg-white-ewe"
+      ],
+      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week — watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet deceased 2026-04-06. Angus presence noted — ram/roster role in Pen 5 needs owner clarification (not updated here).",
       "treatments": [
         {
           "date_start": "2026-03-08",
@@ -12229,16 +12288,12 @@
     "pen_6": {
       "ram": "mc08-ram",
       "ewes": [
-        "elsie",
         "windlestone-2139",
         "windlestone-0056",
         "windlestone-0055"
       ],
-      "lambs": [
-        "elsie-triplet-lg-white-ewe",
-        "elsie-triplet-sm-white-ewe"
-      ],
-      "notes": "Pen 6 as of April 2026. MC08 (ram, fawn wool, yellow tag). Elsie (triplets by Eclipse — black ram gifted, 2 white ewe lambs remain). 3 Windlestone fat tail Awassi ewes (2139, 0056, 0055) — no babies. OAV 2222 was here for months but back in Pen 5. Corid 2-13 to 2-17-26. Covexin 8 3-13-26. 1 wool + 3 fat tails need shearing. Source: notebook cards pen 6.",
+      "lambs": [],
+      "notes": "Pen 6 as of 2026-04-24 (owner-verified via photo session). Ram MC08 (fawn wool, yellow tag, polled) + 3 Windlestone fat-tail Awassi ewes (2139 big-horns, 0056 med-horns, 0055 small-horns + dark legs). CORRECTED 2026-04-24: Elsie and her one remaining triplet (lg white ewe MC-2618) moved to Pen 5 with Angus; small white triplet deceased 2026-04-06. Pen 6 roster now 4 animals (was 7). OAV 2222 already back in Pen 5 (prior correction). 1 wool (MC08) + 3 fat-tails need shearing. Source: notebook cards pen 6 + owner verbal 2026-04-24.",
       "census_snapshots": [
         {
           "source": "IMG_0616",
@@ -12252,6 +12307,18 @@
             "0055 fat-tail",
             "2 white #10 (unclear)"
           ]
+        },
+        {
+          "source": "IMG_2026-04-24 pen-6 photo session",
+          "as_of_approx": "2026-04-24",
+          "count_verified": 4,
+          "animals_identified": [
+            "mc08-ram (head-on + side profile, HIGH confidence, owner-confirmed)",
+            "windlestone-2139 (lying down, biggest horns, MEDIUM-HIGH, owner-confirmed)",
+            "windlestone-0056 (standing, curled horns, orange/pink tag visible, owner-confirmed)",
+            "windlestone-0055 (dark brown legs, HIGH — dark legs are unique tell, owner-confirmed)"
+          ],
+          "notes": "Group shot photo shows ~4 animals near hay, consistent with 4-animal roster."
         }
       ],
       "treatments": [
@@ -12891,7 +12958,7 @@
         "grok": "429 + DNS cache overflow",
         "gemini": "truncated response 640 chars mid-JSON; retry failures",
         "gpt_round_robin": "DNS cache overflow",
-        "notes": "Claude played Grok adversarial role inline in source doc. Useful orchestra artifact: GPT fan-out verdict WHEAT_WITH_REFINEMENT on Claude R1 with critique \"lacks explicit ram+ewe placement per pen and does not fully address complex integration of 22 breeds into a homogenized product\" \u2014 v5 answers both."
+        "notes": "Claude played Grok adversarial role inline in source doc. Useful orchestra artifact: GPT fan-out verdict WHEAT_WITH_REFINEMENT on Claude R1 with critique \"lacks explicit ram+ewe placement per pen and does not fully address complex integration of 22 breeds into a homogenized product\" — v5 answers both."
       }
     }
   },

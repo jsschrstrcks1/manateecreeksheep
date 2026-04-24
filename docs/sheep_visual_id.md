@@ -185,7 +185,112 @@ Is it an adult? (>9 months)
 - **Reference photos:** MC08 (Pen 6) photo provided 2026-04-24 — shows cream wool, white face, rounded muzzle, yellow MC08 tag. Used as reference for identifying his full sister samson-daughter-p4.
 - **Expansion plan:** replicate this structure for Pens 1, 2, 3, 5, 6, Goose, Chicken Coop, Tree Fort as owner verifies photos from each. Keep identity records in `data/flock_database.json` authoritative; this doc derives from them.
 
-## Maintenance rules
+---
+
+## Pen 6 — MC08 + Windlestone Awassi group (4 animals as of 2026-04-24)
+
+Pen 6 is the MC08 ram group. Ram is `mc08-ram` (fawn wool cross, Samson × Broken Tail); ewes are the three Windlestone Ranch fat-tail Awassi ewes (2139, 0056, 0055). **Only 4 animals in the pen** as of 2026-04-24 — Elsie and her one remaining triplet (MC-2618) are in Pen 5 with Angus; the small untagged triplet died 2026-04-06.
+
+**CORRECTED 2026-04-24 from prior roster assumption:** the DB listed Elsie + both triplets in Pen 6 and Elsie's own record said `pen: "Pen 2"`. Owner confirmed all three are in Pen 5 (sm triplet deceased). Pen 6 = 4, not 7.
+
+### Adults (4)
+
+#### `mc08-ram` — "MC08"
+- **Tag:** MC08 (yellow)
+- **Sex:** ram, adult
+- **Sire/Dam:** Samson (100% Hampshire) × Broken Tail (hair-breed dam)
+- **Breed:** 50% Hampshire / 32.8% St Augustine / 14.1% Katahdin / 3.1% BBB — **50% wool / 50% hair** (reads WOOL — heavy fleece)
+- **Phenotype:** **Cream/fawn heavy wool fleece**, **WHITE (cream-tinted) face** — NOT the Hampshire black face despite 50% Hampshire sire. Dam Broken Tail's hair-breed pigment dominated face. **Rounded muzzle**, cream/pink nose, light ears. **Polled** — the only hornless adult in Pen 6. Large frame (comparable to an Awassi ewe but leaner than 2139).
+- **How to tell from the Windlestones:** MC08 is **polled** — Awassis all have horns. Also MC08's face reads cream/white; Awassi faces are brown.
+- **How to tell from his full sister samson-daughter-p4 (Pen 4):** Same phenotype type (cream wool, white face) but MC08 has a **rounder nose** and **slightly less-white (more cream-tinted) face** than his sister. Sister is in Pen 4, not here.
+- **How to tell from Elsie's large triplet (MC-2618):** MC-2618 is a 3.5-mo ewe lamb and is in **Pen 5**, not Pen 6. Any cream-wool yellow-tagged animal in a Pen-6 photo is MC08.
+- **Notes:** Needs shearing (2026-02-20 observation).
+
+#### `windlestone-2139` — "Windlestone Fat Tail 2139"
+- **Tag:** 2139
+- **Sex:** ewe, adult
+- **Breed:** 95% Awassi — **100% wool** (fat-tail)
+- **Phenotype:** **Heavy uniform cream/buff Awassi fleece**, **brown/reddish face**, **big curled horns — the largest in Pen 6**. **Biggest frame of the three Windlestones.** Legs standard/light.
+- **How to tell from 0056:** 2139's horns are visibly larger and more prominent; 2139 is also a bigger-framed animal.
+- **How to tell from 0055:** 2139 has big horns and light legs; 0055 has tiny horns and distinctive dark brown legs.
+- **Notes:** No babies. "Big ewe w nice horns" (notebook). Covexin 8 3-13-26.
+
+#### `windlestone-0056` — "Windlestone Fat Tail 0056"
+- **Tag:** 0056 (orange/pink visible tag color in 2026-04-24 photo)
+- **Sex:** ewe, adult
+- **Breed:** 95% Awassi — **100% wool** (fat-tail)
+- **Phenotype:** **Heavy cream/buff Awassi fleece**, **brown face**, **medium curled horns** — long, thick, clearly curled, but **smaller than 2139's and larger than 0055's tiny**. Medium frame. Legs standard/light.
+- **Temperament tell:** "Nice to handle" per notebook — may approach closer to the handler than the other two.
+- **How to tell from 2139:** 0056's horns are smaller than 2139's; smaller overall frame.
+- **How to tell from 0055:** 0056 has clearly curled horns and light legs; 0055 has tiny/nubby horns and distinct dark brown legs.
+- **Notes:** No babies. Covexin 8 3-13-26.
+
+#### `windlestone-0055` — "Windlestone Fat Tail 0055"
+- **Tag:** 0055
+- **Sex:** ewe, adult
+- **Breed:** 95% Awassi — **100% wool** (fat-tail)
+- **Phenotype:** Cream/buff Awassi fleece, brown face, **tiny/nubby horns**, and — the single clearest visual tell — **DARK BROWN LEGS**. Medium frame.
+- **How to tell from 2139 & 0056:** **Dark legs.** Neither 2139 nor 0056 has distinctly dark legs. If you see dark brown legs on an Awassi in Pen 6, it's 0055. Tiny horns confirm.
+- **Notes:** No babies. Covexin 8 3-13-26.
+
+### Lambs
+None in Pen 6 as of 2026-04-24. (MC-2618, the one remaining Elsie triplet, is in Pen 5. The sm untagged triplet died 2026-04-06.)
+
+---
+
+## Pen 6 — Quick-Reference Decision Tree
+
+```
+Is it an adult? (>9 months)
+├── Polled (no horns)
+│   └── Cream/fawn heavy wool, white-cream face, yellow MC08 tag ..... mc08-ram
+└── Horned (Awassi fat-tail, 95% wool)
+    ├── BIG curled horns, biggest frame ............................... windlestone-2139
+    ├── MEDIUM curled horns, "nice to handle", orange/pink tag ......... windlestone-0056
+    └── TINY/nubby horns + DARK BROWN LEGS ............................ windlestone-0055
+```
+
+**Single best tell per animal:**
+- MC08 = polled
+- 2139 = biggest horns
+- 0056 = moderate curled horns (between the other two)
+- 0055 = dark brown legs
+
+---
+
+## Known visual confusion cases (Pen 6)
+
+| Confusable pair | Tell them apart |
+|---|---|
+| 2139 vs. 0056 | Both Awassi ewes with curled horns. **2139's horns are visibly larger** and she is the bigger-framed animal. If horns are big and prominent, it's 2139; if moderate, it's 0056. |
+| 0055 vs. 2139 or 0056 | **Dark brown legs = 0055.** Only 0055 has distinctly dark legs. Also: 0055's horns are tiny/nubby (both others have fully curled horns). |
+| MC08 vs. any Awassi | **MC08 is polled** (no horns). All three Awassi ewes have horns. Face color also differs (MC08 cream/white; Awassis brown). |
+| MC08 (Pen 6) vs. samson-daughter-p4 (Pen 4) | Full siblings, same cream-wool white-faced phenotype. MC08 has a **rounder nose**; sister has a **more pointed nose** and a **whiter face**. They are in different pens — pen context usually resolves this. |
+| MC08 vs. elsie-triplet-lg-white-ewe (MC-2618) | MC-2618 is in **Pen 5**, not Pen 6 (owner correction 2026-04-24). Also: MC-2618 is a 3.5-mo ewe lamb (smaller, less-developed fleece) vs MC08 adult ram. If you see a cream-wool yellow-tag animal in a Pen-6 photo, it's MC08. |
+| MC08 head-on vs. side profile (same animal) | Both 2026-04-24 photos of a cream-wool yellow-tag polled animal are MC08 from two angles — owner-confirmed 2026-04-24. Earlier speculation that the side-profile might be MC-2618 was wrong (she's not in Pen 6). |
+
+---
+
+## Provenance (Pen 6)
+
+- **Built:** 2026-04-24 from IMG_2026-04-24 Pen 6 photo set (6 images: MC08 head-on, MC08 side profile, 2139 lying down w/ big horns, 0056 standing w/ curled horns + orange tag, 0055 dark legs profile, group shot ~4 animals at hay bale).
+- **Owner-confirmed identifications (2026-04-24 verbal):**
+  - **Head-on cream-wool yellow-tag polled animal = MC08.** Same animal as the side-profile shot.
+  - **Side-profile cream-wool yellow-tag animal = MC08** (not MC-2618; MC-2618 is in Pen 5).
+  - **Big ewe lying down w/ big curled horns = windlestone-2139.**
+  - **Standing ewe w/ medium curled horns + orange/pink tag = windlestone-0056.**
+  - **Ewe w/ distinct dark brown legs + tiny horns = windlestone-0055.**
+- **Owner roster corrections (2026-04-24 verbal):**
+  - Elsie is in **Pen 5** (DB had `pen: "Pen 2"`, Pen 6 roster had her listed — both wrong). With Angus and her one remaining triplet.
+  - **MC-2618** (elsie-triplet-lg-white-ewe) is in **Pen 5**, not Pen 6 (and not Pen 5 lambs roster — added 2026-04-24).
+  - **Small untagged triplet (elsie-triplet-sm-white-ewe) is deceased** — status_date 2026-04-06 is the real death date, not a bulk-cleanup artifact.
+  - **Pen 6 roster size: 4** (1 ram + 3 ewes, no lambs), not 7.
+- **Group-shot photo:** backlit at hay bale; individual IDs not resolvable at that distance, but headcount is consistent with the 4-animal roster (owner in pink dress visible for scale).
+- **Uncertain / flagged for future verification:**
+  - Pen 5 currently lists `ram: "eclipse"` (tag 113, marked subfertile + "going to auction 4-26"). Owner mentioned **Angus** in Pen 5 on 2026-04-24; ram/roster role not updated in this commit pending owner clarification.
+  - Windlestone Awassi breed percentages sum to 95% (pre-existing warning, not corrected).
+
+
 
 1. **Never invent phenotype.** If the DB doesn't describe a sheep's markings and you haven't seen her, say so. Mark `[UNCLEAR]`.
 2. **Owner testimony beats DB** — the DB exists to encode owner knowledge, not override it.
