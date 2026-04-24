@@ -225,7 +225,7 @@
         "wool_percentage": 100,
         "coat_prediction": "wool"
       },
-      "color_markings": "",
+      "color_markings": "Classic Hampshire/Suffolk — solid black face, white wool body.",
       "weight_lbs": 212.5,
       "dob": null,
       "dob_approximate": true,
@@ -234,6 +234,18 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
+      "body_condition": {
+        "as_of": "2026-04-24",
+        "note": "Starting to lose condition. Nursing huge lamb MC-2613 on top of three FAMACHA-5 parasite emergencies. Owner-reported."
+      },
+      "visual_id": {
+        "size": "Largest black-faced animal in Pen 4",
+        "proximity_tell": "Usually near her lamb MC-2613 (Gigi's 2026 Baby), who is unusually large for age.",
+        "distinguishes_from": {
+          "gigi-2025-ram": "GG larger, condition visibly poorer (Apr 2026); MC-19 vs MC-09; mature ewe frame vs yearling ram.",
+          "samson-daughter-p4": "GG larger + condition poorer; MC-19 tag vs no tag; usually near huge lamb MC-2613."
+        }
+      },
       "pen": "Pen 3",
       "measurements": {},
       "health": {
@@ -9924,12 +9936,19 @@
         "coat_type": "unknown",
         "notes": "Sire believed to be Kelsier (100% Katahdin). Dam Gigi. Looks like Gigi."
       },
-      "color_markings": "Looks like Gigi",
+      "color_markings": "Looks like Gigi (Hampshire/Suffolk black face, white wool) but smaller. Owner note 2026-04-24.",
       "pen": "Pen 4",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
       "dob_approximate": true,
+      "visual_id": {
+        "size": "Smaller version of GG — same H/S phenotype, scaled down",
+        "distinguishes_from": {
+          "gg": "MC-09 is smaller than GG and in better condition (Apr 2026). Same face/coat type. Tag MC-09 vs MC-19.",
+          "samson-daughter-p4": "MC-09 mirrors GG (H/S cross from dam). Samson daughter is Samson (pure Hampshire) × Broken Tail (hair breeds) — different coat mix."
+        }
+      },
       "notes": "Tag 09 [UNCLEAR]. Gigis 2025 baby. Yearling ram, old enough to mate. Sire believed Kelsier. Moved from Goose Pen to Pen 4 on 2-11-26. Looks like Gigi. Watch FAMACHA to determine if inherited Kelsier parasite resistance or Gigi susceptibility. Source: notebook card pen 4. | UPDATED 4-10-26: 2-11-26: Moved from Goose Pen to Pen 4 | 2-20-26: Eyes good. 4 need to be sheared. | 2-21-26: Started Corid 5-day | 3-9-26: CDT Vac | 4-10-26: Eyes good",
       "confidence": "medium",
       "source_refs": {
