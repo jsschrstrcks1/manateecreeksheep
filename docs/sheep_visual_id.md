@@ -56,8 +56,9 @@ Pen 4 is the weak-resistance watch pen. All 2026 lambs sired by Kelsier (100% Ka
 - **Tag:** 0011 (older tag style) / secondary GA1568-011
 - **Sex:** ewe, adult (DOB 2021-02-14, ~5 yr)
 - **Breed:** 50% Cotswold / 50% Tunis — **100% wool**
-- **Phenotype:** **Reddish-brown ("Tunis Red") wool body**, ~200 lb. Heavier/stockier than FM2.
-- **How to tell from FM2 (her daughter):** FM is **larger and redder**; FM2 is smaller and more gray/cream.
+- **Phenotype (CORRECTED 2026-04-24):** **LIGHT CREAM / PALE WOOL body** — heavy uniform Cotswold/Tunis fleece, large-framed (~200 lb). The name "Tunis Red" refers to heritage, NOT her adult color. Tunis lambs are red but fade to cream. Any reddish tint, if any, is confined to face/legs — her body wool reads cream/pale.
+- **How to tell from Serendipity (the actual dark-brown pen-4 ewe):** FM is **light cream**, Serendipity is **dark brown/near-black**. Opposite color spectrum. If you see a pale cream wool mountain, it's FM. If you see a dark patchy small ewe, it's Serendipity.
+- **How to tell from FM2 (her daughter):** FM is **larger** and a slightly cleaner cream. FM2 is smaller with a **metallic gray sheen** in her cream.
 - **Notes:** No babies this season. Confident good eyes.
 
 #### `fm2-0051` — "FM2"
@@ -144,9 +145,9 @@ Is it an adult? (>9 months)
 │   │   └── Yearling ram, "looks like Gigi smaller", MC-09 gigi-2025-ram
 │   ├── White face, cream wool body (Samson × Broken Tail)
 │   │   └── Pointed nose, no tag ........................ samson-daughter-p4 (NEW)
-│   ├── Reddish-brown wool, ~200 lb, tag 0011 ............ fm
-│   ├── Cream/gray metallic wool, tag 0051 ............... fm2-0051
-│   └── Dark mixed piebald, MC157 ........................ serendipity
+│   ├── Large, light CREAM uniform fleece, ~200 lb, tag 0011 . fm
+│   ├── Smaller cream w/ metallic gray sheen, tag 0051 ....... fm2-0051
+│   └── Small, DARK brown/near-black mixed coat, MC157 ....... serendipity
 └── Lamb (<9 months)
     ├── Multi-color ewe, MC-2613 .................. gigi-2026-baby
     ├── White ram, MC2606 ......................... serendipity-twin-ram
@@ -165,7 +166,8 @@ Is it an adult? (>9 months)
 | samson-daughter-p4 vs. GG/MC-09 | **Face color separates them** — Samson daughter is WHITE-faced, GG and MC-09 are BLACK-faced. Earlier grouping as "three black-faced pen-4 animals" was wrong — owner correction 2026-04-24. |
 | GG's lamb (MC-2613) vs. other pen-4 lambs | MC-2613 is **unusually large for 3.5 mo** — close to adult size. If a "lamb" looks near-grown, it's her. Other lambs (MC2606/2607/2614) are normal size. |
 | GG vs. G023 (BHD) | Both black head + white body. GG = **wool**, G023 = **hair** — biggest tell. G023 leaner. |
-| FM vs. FM2 | Mother/daughter. FM = larger + redder wool. FM2 = smaller + cream/gray metallic. |
+| FM vs. FM2 | Mother/daughter. Both cream wool. **FM = larger (~200 lb), cleaner light cream.** **FM2 = smaller, metallic gray sheen in cream.** |
+| **FM vs. Serendipity** | **Do NOT confuse — opposite colors.** FM = LARGE, LIGHT CREAM, heavy uniform fleece. Serendipity = SMALL, DARK brown/near-black, patchy mixed hair+wool coat. (Claude error 2026-04-24: wrongly IDed a dark sheep at trough as "FM/Tunis Red" — it was Serendipity.) |
 | Small White Ewe vs. white lambs | All small and white, but SWE has **hair** coat + MC-189 tag. Lambs have softer lamb wool and MC-26## tags. |
 | Serendipity vs. her black ewe twin (MC2607) | Adult vs. lamb size difference. Serendipity has MC-157 tag; twin has MC-2607. |
 
@@ -175,7 +177,8 @@ Is it an adult? (>9 months)
 
 - **Built:** 2026-04-24 from owner identification of IMG_2026-04-24 Pen 4 photo set (4 images) + MC08 reference photo.
 - **Owner-confirmed identifications (Picture 1):** far-left dark = Serendipity; beside her = GG; half-behind GG = Gigi's 2026 baby; big sheep behind = FM; right of GG = FM2; right of FM2 = Gigi's 2025 ram; back-right = samson-daughter-p4 (full sister to MC08, Samson × Broken Tail).
-- **Owner-confirmed identifications (Picture 3):** center black-faced adult = GG; samson-daughter-p4 barely visible back-right. Owner correction: samson-daughter-p4 has a **white face like her brother MC08**, NOT a black Hampshire face — supersedes earlier pedigree-based assumption.
+- **Owner-confirmed identifications (Picture 3):** center black-faced adult = GG; samson-daughter-p4 barely visible back-right. Owner correction: samson-daughter-p4 has a **white face like her brother MC08**, NOT a black Hampshire face — supersedes earlier pedigree-based assumption. ⚠ Claude's picture-3 ID of "left at trough = FM" is suspect given FM/Serendipity confusion caught in picture 4 — may actually have been Serendipity. Needs re-verification.
+- **Owner-confirmed identifications (Picture 4):** left foreground at trough = Serendipity; right foreground black-faced = GG. Claude had wrongly said left = FM. Fix: FM is LIGHT cream, not dark brown.
 - **Reference photos:** MC08 (Pen 6) photo provided 2026-04-24 — shows cream wool, white face, rounded muzzle, yellow MC08 tag. Used as reference for identifying his full sister samson-daughter-p4.
 - **Expansion plan:** replicate this structure for Pens 1, 2, 3, 5, 6, Goose, Chicken Coop, Tree Fort as owner verifies photos from each. Keep identity records in `data/flock_database.json` authoritative; this doc derives from them.
 

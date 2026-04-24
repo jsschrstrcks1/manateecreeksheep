@@ -2011,7 +2011,7 @@
         "wool_percentage": 50,
         "coat_prediction": "mixed"
       },
-      "color_markings": "Black",
+      "color_markings": "Dark brown / near-black mixed coat. Jacob + Babydoll heritage produces dark chocolate-brown wool; may show Jacob-type piebald patches. 50% hair / 50% wool — coat texture reads patchy/mixed (not a solid fleece).",
       "weight_lbs": 138,
       "dob": "2022-03-25",
       "dob_approximate": true,
@@ -2020,6 +2020,15 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
+      "visual_id": {
+        "coat": "Dark brown / near-black mixed coat (50% hair / 50% wool). Patchy texture, not uniform fleece.",
+        "size": "Small-mid adult ewe (~138 lb) — notably smaller than FM (~200 lb)",
+        "confusion_risk": "Can be mistaken for FM at a glance — both appear dark brown. Distinguishers: Serendipity is smaller, coat texture is mixed/patchy, darker chocolate brown. FM is larger, uniformly heavy wool fleece, more reddish 'Tunis Red'.",
+        "confirmed_positions": [
+          "2026-04-24 Pen 4 picture 1: far-left dark animal",
+          "2026-04-24 Pen 4 picture 4: left foreground at trough"
+        ]
+      },
       "pen": "Pen 4",
       "measurements": {},
       "health": {
@@ -3082,7 +3091,7 @@
         "wool_percentage": 100,
         "coat_prediction": "wool"
       },
-      "color_markings": "Tunis Red",
+      "color_markings": "Light cream / pale wool fleece body. Heavy uniform Cotswold/Tunis fleece. Named 'Tunis Red' refers to heritage, NOT her adult color — Tunis lambs are red but fade to cream with age. Any reddish tint is confined to face/legs if present. Large-framed.",
       "weight_lbs": 212.5,
       "dob": "2021-02-14",
       "dob_approximate": true,
@@ -3091,6 +3100,17 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
+      "visual_id": {
+        "coat": "Light cream / pale wool, heavy uniform fleece (100% wool)",
+        "size": "Large (~200 lb) — noticeably bigger than Serendipity (~138 lb)",
+        "distinguishes_from": {
+          "serendipity": "FM is LIGHT cream, Serendipity is DARK brown/near-black. Opposite color spectrum — they are not visually similar despite both having 'brown' heritage keywords in records.",
+          "fm2-0051": "FM is larger and slightly lighter/cleaner cream. FM2 is smaller with a metallic-gray sheen."
+        },
+        "confirmed_positions": [
+          "2026-04-24 Pen 4 picture 1: big sheep behind Gigi (light-colored body)"
+        ]
+      },
       "pen": "Pen 4",
       "measurements": {},
       "health": {
