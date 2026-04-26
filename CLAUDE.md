@@ -181,7 +181,7 @@ All treatments should be logged in the database with:
 |-----|-----|-----|------|-------|-------|
 | Pen 1 | Orange Tag Ram (00110) | Charlie's Ewe, Azure, Hair Ewe 0033, Wool Ewe 0044, Fawn Wool Ewe 114, **00113** | Charlie's Ram Lamb, Baby Azure, 114 Black Ram Lamb | 10 | 00113 added 2026-04-25 (moved from Pen 5). 0033 twin rams sold at auction. |
 | Pen 2 | Rocky (Jerkface, tag 140) | 0053 (Nuba) | — | 2 | Reduced — many ewes moved to Pen 1. |
-| Pen 3 | Charlie | Charlie's Farm Ewe, Broken Tail, Nori | Charlie's Farm Ewe Baby, Broken Tail Twin Ewes ×2, Nori's Baby Ram | 8 | Merrie also in Pen 3 (intact ram, not dominant). |
+| Pen 3 | Charlie | Charlie's Farm Ewe, Broken Tail, Nori, **Cocoa's Daughter (Loki × Cocoa)** | Charlie's Farm Ewe Baby, Broken Tail Twin Ewes ×2, Nori's Baby Ram | 9 | Merrie also in Pen 3 (intact ram, not dominant). Cocoa's Daughter added 2026-04-22 (Danny's animal pedigree on file). |
 | Pen 4 | Gigi's 2025 Ram (MC-09) | GG, Lara, FM, Small White Ewe, Serendipity, FM2, Samson Daughter | Gigi's 2026 Baby, Serendipity twins ×2, FM2 Ram Lamb | 12 | Weak-resistance watch pen. All 2026 lambs sired by Kelsier. |
 | Pen 5 | **Angus** | Tag 31, Tag 02, Fawn Wool Ewe (240006), OAV 2222, Little Daisy, Elsie | Elsie Large White Ewe Triplet (MC-2618) | 8 | NoriSon sold at auction 2026-04-26; Angus (4 mo, Windlestone) replaced him. Small Elsie triplet also sold 2026-04-26. |
 | Pen 6 | MC08 | Windlestone 2139, Windlestone 0056, Windlestone 0055 | — | 4 | All 3 ewes are 95% Awassi fat-tail. |
@@ -189,7 +189,9 @@ All treatments should be logged in the database with:
 | Chicken Coop | Buck | — | — | 1 | — |
 | Tree Fort | — | White Ewe 0035, Orange Tag 31 Ewe, Bambii | 0035 Baby Ram, Orange 31 Ram Lamb, Bambii's Baby | 6 | No ram; nursing ewes + lambs. |
 
-**Total active flock: ~51 animals across 9 pens** (as of 2026-04-26 after auction sweep).
+**Total active flock: ~52 animals across 9 pens** (as of 2026-04-26 after auction sweep + Cocoa's Daughter arrival 2026-04-22).
+
+> **Sam correction (preserved from PR-23):** Sam was removed from active records 2026-04-26 — he died in Hurricane Helene on 2024-09-26 (off-farm, not on this property at time of death). Prior records had him with a 2026-04-02 bulk-cleanup status_date which was incorrect.
 
 ---
 
