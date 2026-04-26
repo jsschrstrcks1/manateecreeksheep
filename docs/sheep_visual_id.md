@@ -17,7 +17,181 @@
 
 ---
 
-## Pen 4 — Monitoring / Treatment Pen (11 animals as of 2026-04-24)
+## Pen 3 — Charlie's breeding group (8 animals as of 2026-04-26)
+
+Pen 3 is Charlie's hair-sheep breeding group. **No wool in this pen** (notebook 2026-02-20). Two rams co-resident — Charlie (MC-20, dominant, horned) and Merrie (00016, secondary, the largest animal in the pen per owner 2026-04-26). Three lactating adult ewes (Charlies Farm Ewe, Broken Tail, Nori) plus 3 surviving lambs after MC-2601's death.
+
+**CORRECTED 2026-04-26 from prior CLAUDE.md state:** Pen 3 ram was listed as "Sam" — Sam died in Hurricane Helene (2024-09-26). His DB record carried a stale `status_date: 2026-04-02` bulk-cleanup placeholder, now corrected to the actual death date.
+
+**CORRECTED 2026-04-26:** White twin lamb MC-2601 (`broken-tail-twin-ewe-2`) died 2026-04-22 from parasites. Was previously `status: alive` with stale `status_date: 2026-04-06` (bulk pattern). Roster reduced from 9 to 8.
+
+### Adults (5)
+
+#### `charlie-ram` — "Charlie"
+- **Tag:** MC-20 (yellow)
+- **Sex:** ram, adult
+- **Breed:** 50% Katahdin / 25% BHD / 12.5% ABB / 12.5% Wiltshire Horn — **100% hair**
+- **Phenotype:** White hair coat with **black spots**, **BLACK HORNS**. 108.2 lb (recorded 2026-02-28).
+- **How to tell from `charlies-farm-ewe-p3`:** Same breed comp + similar piebald pattern, but Charlie has **black horns** and is male (no udder). She is polled and lactating.
+- **How to tell from Merrie:** Charlie is white-with-black-spots and **HORNED**; Merrie is brown-and-tan and is the **larger** animal in the pen.
+- **Health:** Jaw abscess lanced 2026-02-27, treated 4.5 mL Nuflor 2026-02-28.
+- **Likely sired:** all 2026 Pen 3 lambs (Merrie possible alternate).
+
+#### `merrie` — "Merrieweather" / "Merrie"
+- **Tag:** 00016
+- **Sex:** ram, adult (DOB 2023-01-14)
+- **Sire/Dam:** S'More × Half Tail
+- **Breed:** 50% Cracker / 28.1% St Augustine / 12.5% Katahdin / 6.3% BBB / 3.1% White Dorper — **~50% hair / 50% wool composite** (visually reads more hair due to Cracker dominance)
+- **Phenotype:** **Brown and tan**. **OWNER-CONFIRMED 2026-04-26: BIGGEST animal in Pen 3** — has surpassed Broken Tail (DB 225 lb).
+- **Flag:** DB weight calculator value of ~99.2 lb is from a 2023 birth-weight projection and is **STALE**. Needs a real weigh-in. Owner testimony supersedes the calc.
+- **How to tell from Charlie:** Brown-and-tan vs. white-with-black-spots; larger frame; no prominent black horns.
+- **How to tell from Broken Tail:** Different sex (ram vs ewe), different color (brown-tan vs white).
+
+#### `broken-tail` — "Broken Tail" / "BT" / "Iron Lady"
+- **Tag:** MC-15 (yellow); `secondary_tags: ["0029"]` is **suspect** — see anomaly note below
+- **Sex:** ewe, adult (DOB 2018-01-18)
+- **Sire/Dam:** Sir Loin × Half Tail
+- **Breed:** 65.6% St Augustine / 28.1% Katahdin / 6.3% BBB — **100% hair**
+- **Phenotype:** Solid **white** hair coat, large adult ewe. DB weight 225 lb. In evening light her body reads cream-toned (the same lighting effect noted on Lara in Pen 4).
+- **Lambs this season:** twin ewes MC-2605 (brown, alive) and MC-2601 (white, **deceased 2026-04-22 parasites**).
+- **How to tell from Merrie (also large):** Different sex; Broken Tail is solid white hair, Merrie is brown-and-tan.
+- **How to tell from `charlies-farm-ewe-p3`:** Both lactating hair ewes, but BT is **solid white**, CFE is **multi-color piebald** with dark patches.
+- **Notes:** Important pedigree dam — mother of Dodge, MC08, samson-daughter-p4, BT1, BT2.
+
+#### `charlies-farm-ewe-p3` — "Charlies Farm Ewe" / "White Belly Ewe"
+- **Tag:** MC-16 (yellow)
+- **Sex:** ewe, adult
+- **Breed:** 50% Katahdin / 25% BHD / 12.5% ABB / 12.5% WH — **100% hair** (same comp as Charlie)
+- **Phenotype:** Multi-color piebald hair coat — white body with **dark patches on neck/shoulders**, white belly. Polled. Lactating (raising MC-2602).
+- **Proximity tell:** lamb MC-2602 nearby — but the lamb is on the LEFT of the hay cage while the dam was photographed mid-right; they don't always cluster.
+- **How to tell from Charlie:** **No horns** + visible **hanging udder**. Charlie is horned and male.
+- **Pedigree note:** Nori-line descendant; "Charlies sheep" history — BHD × Nori line.
+
+#### `nori` — "Nori"
+- **Tag:** 0029
+- **Sex:** ewe, adult (DOB 2023-02-01)
+- **Breed:** 50% American Blackbelly / 50% Wiltshire Horn — **100% hair**
+- **Phenotype:** **Badger pattern** — red/brown body with darker face and legs (classic ABB × WH cross). ~138 lb.
+- **Physical distinguisher:** **Knot under chin** (per pen-3 notebook).
+- **How to tell from Broken Tail:** Nori is badger-patterned (dark face, red body); BT is solid white. Different breed lines entirely.
+- **How to tell from `charlies-farm-ewe-p3`:** Nori is badger-red overall; CFE is white-with-black-patches.
+- **This-season lamb:** MC-2604 (ram, mottled brown/white).
+- **Confusable with brown lambs at distance** but is much larger (adult).
+
+### Lambs (3 surviving — fourth deceased 2026-04-22)
+
+#### `charlies-farm-ewe-baby-p3` — "Charlies Farm Ewe Baby"
+- **Tag:** MC-2602 (green)
+- **Sex:** ewe lamb, DOB 2025-12-06 (~4.7 mo as of 2026-04-26 — **largest lamb in Pen 3**)
+- **Dam:** Charlies Farm Ewe (sire most likely Charlie, possibly Merrie)
+- **Phenotype:** **Big brown** ewe lamb. **White tip on tail**, **2 white socks** (rear legs), **white on crown**, **front legs ALL BROWN** (no socks). Polled.
+- **How to tell from MC-2605 (BT brown twin):** MC-2602 is bigger (older + heavier), front legs are all brown. MC-2605 is smaller and the brown/white is more evenly mottled.
+- **How to tell from MC-2604 (Nori's ram):** MC-2602 is ewe with brown front legs and rear white socks; MC-2604 is ram with white blaze, white-tipped ears, full white tail.
+
+#### `broken-tail-twin-ewe` — "Broken Tail Twin Ewe (brown)"
+- **Tag:** MC-2605 (green)
+- **Sex:** ewe lamb, DOB 2025-12-31 (~3.8 mo)
+- **Dam:** Broken Tail (sire most likely Charlie)
+- **Phenotype:** Brown & white hair-coat ewe lamb. Polled.
+- **Surviving twin** — sister MC-2601 deceased 2026-04-22.
+- **How to tell from MC-2602:** smaller and more evenly brown-and-white mixed; not the largest brown lamb.
+
+#### `nori-baby-p3` — "Nori's Baby Ram"
+- **Tag:** MC-2604 (green)
+- **Sex:** ram lamb, DOB 2026-01-10 (~3.5 mo)
+- **Dam:** Nori (sire most likely Charlie)
+- **Phenotype:** Brown-and-white **mottled** ram lamb. **White on top of ears**, **white blaze on face**, **full white tail**. Polled.
+- **Proximity tell:** stays beside Nori on the right side of the pen.
+- **How to tell from MC-2605:** different sex (ram vs ewe), different dam, white blaze + white-tipped ears + white tail.
+
+### Deceased (1)
+
+#### `broken-tail-twin-ewe-2` — "Broken Tail Twin Ewe (white)" — **deceased 2026-04-22, parasites**
+- **Tag:** MC-2601
+- **Sex:** ewe lamb, DOB 2025-12-31
+- **Dam:** Broken Tail
+- **Phenotype:** Solid **white** hair-coat ewe lamb.
+- **Last known photo while alive:** the pre-2026-04-22 Pen 3 photo (provided 2026-04-26) — foreground center, small white lamb tucked behind her dam Broken Tail.
+- **CORRECTED 2026-04-26:** prior status was `alive` with stale `status_date: 2026-04-06` (bulk-cleanup pattern). Real death date 2026-04-22, cause parasites.
+
+---
+
+## Pen 3 — Quick-Reference Decision Tree
+
+```
+Is it an adult? (>9 months — and Pen 3 is HAIR ONLY)
+├── Ram
+│   ├── White-with-black-spots, BLACK HORNS, 108 lb .................. charlie-ram (MC-20)
+│   └── Brown-and-tan, biggest animal in pen, no prominent horns ..... merrie (00016)
+└── Ewe (all lactating spring 2026)
+    ├── Solid WHITE, large frame .................................... broken-tail (MC-15)
+    ├── Multi-color piebald, white belly, dark neck patches .......... charlies-farm-ewe-p3 (MC-16)
+    └── BADGER pattern (red body, dark face/legs), knot under chin ... nori (0029)
+
+Is it a lamb? (<6 months — all polled, all hair)
+├── Ewe
+│   ├── BIGGEST brown lamb, white tail tip + 2 white socks + brown front legs . charlies-farm-ewe-baby-p3 (MC-2602)
+│   └── Smaller brown-and-white mixed ......................................... broken-tail-twin-ewe (MC-2605)
+└── Ram
+    └── Mottled brown/white, white blaze + white-tipped ears + white tail ...... nori-baby-p3 (MC-2604)
+```
+
+**Single best tell per animal:**
+- charlie-ram = black horns
+- merrie = biggest in pen + brown-and-tan
+- broken-tail = solid white adult
+- charlies-farm-ewe-p3 = white-with-dark-patches lactating ewe
+- nori = badger pattern + knot under chin
+- MC-2602 = biggest lamb, brown front legs
+- MC-2605 = smaller brown-white twin (the surviving one)
+- MC-2604 = white blaze + white tail (the only ram lamb)
+
+---
+
+## Known visual confusion cases (Pen 3)
+
+| Confusable pair | Tell them apart |
+|---|---|
+| `charlie-ram` vs. `charlies-farm-ewe-p3` | Same breed comp, similar piebald look. **Charlie has BLACK HORNS and is male; she is polled with a hanging udder.** |
+| `merrie` vs. `broken-tail` (both large) | Different sex (ram vs ewe), different color (brown-tan vs solid white). Merrie is now the LARGEST animal in the pen per owner 2026-04-26. |
+| `broken-tail` vs. `charlies-farm-ewe-p3` | Both lactating hair ewes. **BT is solid white**; CFE is **multi-color piebald** with dark neck patches. |
+| `nori` vs. brown lambs at distance | Nori is much **larger** (adult ~138 lb) and has a darker badger face / dark legs. Lambs are smaller and lighter-faced. |
+| `charlies-farm-ewe-baby-p3` (MC-2602) vs. `broken-tail-twin-ewe` (MC-2605) | MC-2602 is the **biggest** brown lamb (born 12-6-25, ~5 mo) with **front legs all brown** + 2 rear white socks. MC-2605 is smaller (born 12-31-25, ~4 mo) with more evenly mixed brown/white. |
+| `nori-baby-p3` (MC-2604) vs. either brown ewe lamb | MC-2604 is the only **ram** lamb in the pen and has a distinctive **white blaze + white-tipped ears + full white tail**. The two ewe lambs are MC-2602 and MC-2605. |
+| `broken-tail` vs. `broken-tail-twin-ewe-2` (when MC-2601 was alive) | Same color (white) but adult-vs-lamb size. Now moot — MC-2601 deceased 2026-04-22. |
+| Photo-misread: animal in hay cage = Charlie, NOT Nori | Owner correction 2026-04-26 to Claude's first-pass guess: the dark-faced/spotted animal at the hay cage is **Charlie** (white body + black spots + black horns reads dark at distance). Nori is on the RIGHT side of the image, lying down with head up-right. |
+
+---
+
+## Provenance (Pen 3)
+
+- **Built:** 2026-04-26 from a single Pen 3 photo provided by owner that day. Photo was taken **before 2026-04-22** (white twin MC-2601 is visible alive in it; she died 2026-04-22).
+- **Owner-confirmed identifications (single photo, 2026-04-26 verbal):**
+  - **Foreground left, large lying ewe (cream in evening light)** = `broken-tail`.
+  - **Small white lamb tucked behind her** = `broken-tail-twin-ewe-2` (MC-2601). *Last known photo while alive — died 2026-04-22 parasites.*
+  - **Mid-right standing piebald ewe with hanging udder** = `charlies-farm-ewe-p3` (MC-16).
+  - **Brown lamb LEFT of the hay cage** = `charlies-farm-ewe-baby-p3` (MC-2602). *(Claude's first guess put her near her dam on the right — owner correction: she's on the LEFT.)*
+  - **At the hay cage** = `charlie-ram` (MC-20). *(Claude's first guess was Nori; owner correction: that's Charlie. Nori is elsewhere.)*
+  - **LEFT side of the hay cage, biggest animal in pen** = `merrie` (00016).
+  - **Right side of image, lying head up-right** = `nori` (0029).
+  - **Parallel to Nori, only head visible above her hindquarters** = `nori-baby-p3` (MC-2604).
+  - **Just to the right of the hay cage** = `broken-tail-twin-ewe` (MC-2605).
+- **DB corrections committed in this pass (2026-04-26):**
+  - `broken-tail-twin-ewe-2`: `status: alive → deceased`, `status_date: 2026-04-06 → 2026-04-22`, added `cause_of_death: parasites`. Removed from `pens.pen_3.lambs`. **CORRECTED from prior bulk-cleanup status_date.**
+  - `sam`: `status_date: 2026-04-02 → 2024-09-26`, added `cause_of_death: Hurricane Helene`. **CORRECTED from prior bulk-cleanup status_date** (owner 2026-04-26: Sam died in Helene, never in pen 3 since).
+  - `pens.pen_3.notes`: appended MC-2601 death note; surviving-lamb count noted.
+  - `CLAUDE.md` Pen Structure table: Pen 3 row updated — Sam removed, Charlie + Merrie + actual current roster shown.
+  - `visual_id` blocks added to all 9 Pen 3 sheep records.
+- **DB anomalies surfaced but NOT modified in this pass (deferred to index-card review):**
+  - **Tag `0029` conflict:** `nori.tag = "0029"` AND `broken-tail.secondary_tags: ["0029"]`. Pen-3 notebook says Nori is 0029. Broken Tail's `0029` secondary entry looks stale. Owner 2026-04-26: "I don't know what the current tags are for either BT or Nori, but the index card photos should have that data." → flagged for resolution against `IMG_0660`-series notebook cards.
+  - **`merrie` weight ~99 lb (2023 calc) is stale** — owner confirms he is now the largest animal in Pen 3. Needs a real weigh-in; weight number left untouched.
+  - **DOB missing** on `charlie-ram` and `charlies-farm-ewe-p3`. Lower priority — leave for next notebook-card pass.
+- **Photo gaps / not yet imaged from other angles:** The single photo is wide and partially occluded by the round hay cage. A close-up of Charlie's horns + a clean side profile of Merrie would lock the rams' phenotype permanently. Suggested for next session.
+- **Lighting note (consistent with Pen 4 finding):** Evening/golden-hour light makes white animals (Broken Tail) read as cream-toned. Same effect that misled the Pen 4 picture-2 ID of Lara. Prefer midday light for color truth.
+
+---
+
+
 
 Pen 4 is the weak-resistance watch pen. All 2026 lambs sired by Kelsier (100% Katahdin). Ram of the adult breeding group is Gigi's 2025 son.
 

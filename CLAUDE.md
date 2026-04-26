@@ -172,13 +172,13 @@ All treatments should be logged in the database with:
 
 ---
 
-## Pen Structure (as of Feb 2026)
+## Pen Structure (as of Feb 2026; Pen 3 updated 2026-04-26)
 
 | Pen | Ram | Notes |
 |-----|-----|-------|
 | Pen 1 | Kaladin | With Eclipse, Merrie, Abg, Fm |
 | Pen 2 | Sir Loin | With Azure, S2, Lara, Bambii, Unnamed, Pebbles |
-| Pen 3 | Sam | With Baby, Baby momma, Zara, Half tail, New big girl 2 |
+| Pen 3 | Charlie (MC-20) | With Merrie (secondary ram, biggest animal in pen), Charlies Farm Ewe, Broken Tail, Nori; 3 surviving lambs (MC-2602, MC-2604, MC-2605). White twin MC-2601 died 2026-04-22 (parasites). *(Sam removed 2026-04-26 — died in Hurricane Helene 2024-09-26, not on the farm; CORRECTED from prior 2026-04-02 bulk-cleanup status_date.)* |
 | Pen 4 | Samson | With Elsie, Nori, Trouble, Bsoe, Bsoed, Banana |
 | Pen 5 | Rocky/NoriSon | With Amber 24, Broken tail, Little daisy; NoriSon tag 54 |
 | Pen 6 | No ram | Shaggy, Serendipity, S1, Fm1, Fox tail, Circle tail |
