@@ -8691,7 +8691,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 00110, orange tag. Ram. Poop trimmed at butt 2-19-2026. Source: notebook card. Breeding rule R3: exclude from geriatric ewes (age >= 6) to reduce dystocia risk. Orange tag. Eyes consistently good all checks. Physically in Pen 1.",
+      "notes": "Tag 00110, orange tag. Ram. Poop trimmed at butt 2-19-2026. Source: notebook card. Breeding rule R3: exclude from geriatric ewes (age >= 6) to reduce dystocia risk. Orange tag. Eyes consistently good all checks. Physically in Pen 1. FULL SIBLINGS (owner-confirmed 2026-04-26): orange-tag-00110 (Pen 1 ram) + tag-00113-ewe-p1 + tag-114-fawn-wool. All three share the same parents (unknown) and identical breed composition 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Different phenotype expression: orange tag = ram (white body, orange tag); 00113 = ewe (cream wool body, BLACK FACE from Suffolk); tag 114 = ewe (fawn wool body).",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 8 pen 1"
@@ -8764,7 +8764,19 @@
           }
         ]
       },
-      "weight_lbs": 287.5
+      "weight_lbs": 287.5,
+      "relations": {
+        "full_siblings": [
+          "tag-00113-ewe-p1",
+          "tag-114-fawn-wool"
+        ]
+      },
+      "notes_history": [
+        {
+          "date": "2026-04-26",
+          "note": "Full-sibling relationship recorded. Siblings: tag-00113-ewe-p1, tag-114-fawn-wool. Owner verbal: 'Pen 1 Ram is something different [from Kaladin]. Full sister/sibling to 00113.'"
+        }
+      ]
     },
     {
       "id": "tag-0044-wool-ewe",
@@ -8894,7 +8906,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 114, orange tag. Fawn wool ewe. Was in Pen 2 but moved to Pen 1 because Rocky (Jerkface, tag 140) was keeping her away from her baby. Had black ram lamb born 3-29-2026. No babies as of 2-26-26 card check. Yearly booster 3-13-26. Source: notebook card (no pen circle — was Pen 2, now Pen 1). Full sister of Orange Tag 00110. Same breed mix. Cannot breed to 00110.",
+      "notes": "Tag 114, orange tag. Fawn wool ewe. Was in Pen 2 but moved to Pen 1 because Rocky (Jerkface, tag 140) was keeping her away from her baby. Had black ram lamb born 3-29-2026. No babies as of 2-26-26 card check. Yearly booster 3-13-26. Source: notebook card (no pen circle — was Pen 2, now Pen 1). Full sister of Orange Tag 00110. Same breed mix. Cannot breed to 00110. FULL SIBLINGS (owner-confirmed 2026-04-26): orange-tag-00110 (Pen 1 ram) + tag-00113-ewe-p1 + tag-114-fawn-wool. All three share the same parents (unknown) and identical breed composition 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Different phenotype expression: orange tag = ram (white body, orange tag); 00113 = ewe (cream wool body, BLACK FACE from Suffolk); tag 114 = ewe (fawn wool body).",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 11"
@@ -8955,7 +8967,19 @@
         ]
       },
       "weight_lbs": 145,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "relations": {
+        "full_siblings": [
+          "orange-tag-00110",
+          "tag-00113-ewe-p1"
+        ]
+      },
+      "notes_history": [
+        {
+          "date": "2026-04-26",
+          "note": "Full-sibling relationship recorded. Siblings: orange-tag-00110, tag-00113-ewe-p1. Owner verbal: 'Pen 1 Ram is something different [from Kaladin]. Full sister/sibling to 00113.'"
+        }
+      ]
     },
     {
       "id": "tag-114-black-ram-lamb",
@@ -12426,7 +12450,7 @@
         "notebook_image": [],
         "owner_verbal": "2026-04-26 photo session — 'middle ewe = full sister of the ram in pen 1, cracker/gcn/suffolk/katahdin'."
       },
-      "notes": "NEW RECORD 2026-04-26 (added from Pen 5 photo session). Full sister of orange-tag-00110 (Pen 1 ram) and tag-114-fawn-wool — same parents (unknown), identical breed comp 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Was in Pen 5 with NoriSon (sired by Sir Loin × Nori; sold at auction 2026-04-26). Had a singleton ram-or-ewe lamb born 2026-04-22 sired by NoriSon — lamb died 2026-04-25 of failure to thrive (3-day life). Owner: '00113 was a bad mom.' Moved to Pen 1 on 2026-04-25. No tag observed in photos beyond '00113' identification by owner; no FAMACHA history yet. HEALTH NOTE 2026-04-26: Owner confirmed very strong parasite resistance — kept on no weak-resistance list. Mothering ability is the weak trait (FTT singleton 4-22 to 4-25). Consider as a parasite-resistance breeder but watch lambing closely / consider lamb-supervision.",
+      "notes": "NEW RECORD 2026-04-26 (added from Pen 5 photo session). Full sister of orange-tag-00110 (Pen 1 ram) and tag-114-fawn-wool — same parents (unknown), identical breed comp 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Was in Pen 5 with NoriSon (sired by Sir Loin × Nori; sold at auction 2026-04-26). Had a singleton ram-or-ewe lamb born 2026-04-22 sired by NoriSon — lamb died 2026-04-25 of failure to thrive (3-day life). Owner: '00113 was a bad mom.' Moved to Pen 1 on 2026-04-25. No tag observed in photos beyond '00113' identification by owner; no FAMACHA history yet. HEALTH NOTE 2026-04-26: Owner confirmed very strong parasite resistance — kept on no weak-resistance list. Mothering ability is the weak trait (FTT singleton 4-22 to 4-25). Consider as a parasite-resistance breeder but watch lambing closely / consider lamb-supervision. FULL SIBLINGS (owner-confirmed 2026-04-26): orange-tag-00110 (Pen 1 ram) + tag-00113-ewe-p1 + tag-114-fawn-wool. All three share the same parents (unknown) and identical breed composition 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Different phenotype expression: orange tag = ram (white body, orange tag); 00113 = ewe (cream wool body, BLACK FACE from Suffolk); tag 114 = ewe (fawn wool body).",
       "confidence": "high",
       "last_verified": "2026-04-26",
       "visual_id": {
@@ -12449,8 +12473,18 @@
         {
           "date": "2026-04-26",
           "note": "Owner: very parasite resistant, terrible mother."
+        },
+        {
+          "date": "2026-04-26",
+          "note": "Full-sibling relationship recorded. Siblings: orange-tag-00110, tag-114-fawn-wool. Owner verbal: 'Pen 1 Ram is something different [from Kaladin]. Full sister/sibling to 00113.'"
         }
-      ]
+      ],
+      "relations": {
+        "full_siblings": [
+          "orange-tag-00110",
+          "tag-114-fawn-wool"
+        ]
+      }
     },
     {
       "id": "tag-00113-singleton-2026",

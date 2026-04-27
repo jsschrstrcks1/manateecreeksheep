@@ -318,7 +318,7 @@ Pen 5 was the NoriSon/Eclipse breeding group. As of **2026-04-26**, NoriSon was 
 #### `tag-00113-ewe-p1` — "00113" — **NEW record, added 2026-04-26**
 - **Tag:** 00113 (per owner; not directly readable in photos)
 - **Sex:** ewe, adult
-- **Sire/Dam:** unknown — same parents as `orange-tag-00110` (Pen 1 ram) and `tag-114-fawn-wool` (full siblings; identical breed comp).
+- **Sire/Dam:** unknown — same parents as `orange-tag-00110` (Pen 1 ram, **full brother**) and `tag-114-fawn-wool` (full sister). Owner-confirmed full-sibling trio 2026-04-26.
 - **Breed:** 50% Cracker / 25% Suffolk / 12.5% Gulf Coast Native / 12.5% Katahdin — **~87.5% wool**
 - **Phenotype:** **Heavy cream/light wool fleece**, **BLACK FACE** (Suffolk dominance), **black legs**, **large frame**. Largest ewe visible in the 2026-04-26 photos.
 - **Photo position:** **Center of photo 2 / right-foreground of photo 1**, standing on the sandy ground facing the camera (photo 2) or in profile (photo 1).
