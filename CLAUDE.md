@@ -41,7 +41,10 @@ The flock data comes from multiple sources. When sources conflict, use this prio
 - Mc11 = Charlie's ram = tag 12
 - Mc12 = 036 = Serendipity's baby ewe
 - Mc01 = Little Daisy's baby (baby's baby) = tag 35
-- NoriSon = ram in pen 5, tag 54
+- NoriSon = ram in pen 5, tag 54 — also called "Eclipse" (tag 113); same animal, records merged 2026-04-26. Sold at auction 2026-04-26.
+- **Angus** = Pen 5 ram (replaced NoriSon 2026-04-26). Windlestone, ~4 months old as of late Apr 2026. Breed: **50% Katahdin / 25% Dorper / 25% Awassi**.
+- **00113** = ewe, Cracker/Suffolk/GCN/Katahdin, full sister of orange-tag-00110 (Pen 1 ram) and tag-114-fawn-wool. Moved Pen 5 → Pen 1 on 2026-04-25. Very parasite resistant; terrible mother.
+- **Kaladin** is alive (NOT deceased — DB had a wrong 2026-04-02 bulk-cleanup flag, corrected 2026-04-26). NOT the Pen 1 ram — orange-tag-00110 is.
 
 ---
 
