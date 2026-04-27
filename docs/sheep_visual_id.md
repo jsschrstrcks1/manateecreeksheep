@@ -287,10 +287,138 @@ Is it an adult? (>9 months)
   - **Pen 6 roster size: 4** (1 ram + 3 ewes, no lambs), not 7.
 - **Group-shot photo:** backlit at hay bale; individual IDs not resolvable at that distance, but headcount is consistent with the 4-animal roster (owner in pink dress visible for scale).
 - **Uncertain / flagged for future verification:**
-  - Pen 5 currently lists `ram: "eclipse"` (tag 113, marked subfertile + "going to auction 4-26"). Owner mentioned **Angus** in Pen 5 on 2026-04-24; ram/roster role not updated in this commit pending owner clarification.
+  - Pen 5 currently lists `ram: "eclipse"` (tag 113, marked subfertile + "going to auction 4-26"). Owner mentioned **Angus** in Pen 5 on 2026-04-24; ram/roster role not updated in this commit pending owner clarification. *(Resolved 2026-04-26 — see Pen 5 section below.)*
   - Windlestone Awassi breed percentages sum to 95% (pre-existing warning, not corrected).
 
+---
 
+## Pen 5 — NoriSon → Angus transition (photo session 2026-04-26)
+
+Pen 5 was the NoriSon/Eclipse breeding group. As of **2026-04-26**, NoriSon was **sold at auction** and replaced by **Angus** (4-month-old Windlestone ram, arrived 2026-04-22). Two photos taken between 2026-04-22 and 2026-04-25 show a partial pen view: the new ram, two ewes, and a now-deceased lamb.
+
+**Owner verbal ground truth, 2026-04-26:**
+- Back-right corner of photo 1 = **Angus** (the new Pen 5 ram, 4 months old).
+- Middle ewe (photo 2 center, photo 1 right-foreground) = **tag 00113**, full sister of `orange-tag-00110` (the Pen 1 ram). Cracker/GCN/Suffolk/Katahdin. **Moved to Pen 1 on 2026-04-25** — no longer in Pen 5 as of today.
+- Right ewe in photo 2 = **OAV 2222** ("Kelsier's sister"), 100% Katahdin.
+- Brown lamb in foreground (both photos) = 00113's singleton ram-or-ewe by NoriSon, **born 2026-04-22, died 2026-04-25** of failure to thrive. Owner: "00113 was a bad mom."
+
+### Animals visible in the 2026-04-26 photo set (4)
+
+#### `angus` — "Angus"
+- **Tag:** none yet (new arrival)
+- **Sex:** ram (ram lamb, ~4 months as of 2026-04-26 — DOB ~Dec 2025/Jan 2026)
+- **Source:** Windlestone, picked up 2026-04-22
+- **Breed:** [UNCLEAR — owner stated "50% Awassi, 25% Dorper, 23% Awassi, 2% East Friesian"; Awassi appears twice, awaiting clarification]
+- **Phenotype:** **Black head + neck with a sharp boundary at the shoulders; WHITE body; short, slick shedding hair coat (no fleece).** Classic black-headed Dorper visual type by appearance. Young ram frame.
+- **Photo position:** **Back-right corner of photo 1**, standing near the round container/bin in mid-distance.
+- **How to lock him:** he is the **only** black-head/white-body hair-coat animal in Pen 5 — phenotype alone is sufficient. Confirmed by owner verbal 2026-04-26.
+- **Role:** Replaced NoriSon as the Pen 5 breeding ram on or before 2026-04-26.
+- **Flag:** Needs tag, breed comp clarification (one of the "Awassi" entries should likely be Katahdin), FAMACHA baseline at next handling.
+
+#### `tag-00113-ewe-p1` — "00113" — **NEW record, added 2026-04-26**
+- **Tag:** 00113 (per owner; not directly readable in photos)
+- **Sex:** ewe, adult
+- **Sire/Dam:** unknown — same parents as `orange-tag-00110` (Pen 1 ram) and `tag-114-fawn-wool` (full siblings; identical breed comp).
+- **Breed:** 50% Cracker / 25% Suffolk / 12.5% Gulf Coast Native / 12.5% Katahdin — **~87.5% wool**
+- **Phenotype:** **Heavy cream/light wool fleece**, **BLACK FACE** (Suffolk dominance), **black legs**, **large frame**. Largest ewe visible in the 2026-04-26 photos.
+- **Photo position:** **Center of photo 2 / right-foreground of photo 1**, standing on the sandy ground facing the camera (photo 2) or in profile (photo 1).
+- **Current pen:** **Pen 1** (moved 2026-04-25). She was in Pen 5 unrostered before that.
+- **2026 lambing:** Singleton lamb by NoriSon, born 2026-04-22, died 2026-04-25 (FTT). Owner: "00113 was a bad mom."
+- **How to tell from `tag-114-fawn-wool` (her full sister):** Tag 114 is **fawn-colored wool**; 00113 is **cream wool with a black face**. Different color expression of the same Cracker/Suffolk cross.
+- **How to tell from `orange-tag-00110` (her full brother):** Same breed comp & frame, but he is the ram in Pen 1 with an **orange tag**; she is a ewe.
+- **How to tell from OAV 2222 in the same photo:** OAV is **slick hair coat, light face**; 00113 is **heavy wool, black face**. Opposite ends of the coat-type axis.
+- **Flag:** Needs FAMACHA baseline, formal tag verification, age estimate at next handling.
+
+#### `oav-2222` — "OAV 2222" / "Kelsier's Sister"
+- **Tag:** 2222 (OAV/Oakvale Farm series)
+- **Sex:** ewe, adult
+- **Breed:** 100% Katahdin — **100% hair**
+- **Phenotype:** **Slick hair coat**, **cream/light body**, **light/white face**, medium adult frame (~140 lb). Quiet, docile.
+- **Photo position:** **Right of 00113 in photo 2** (looking at camera with one ear back); **far-right edge of photo 1** (partially cut off).
+- **2026 lambing:** **None this year.** *(CORRECTED 2026-04-26: prior 2026-02-10 lambing record entry — twins by NoriSon — was wrong. Owner verbal: "OAV had no twins this year." Her last known lambing was 2024 — 2 lambs by Spotted Katahdin × Dorper, born 3-13-24. Both believed died eventually.)*
+- **How to tell from 00113 (in same photo):** Hair coat vs wool, light face vs black face. Phenotype alone resolves the pair.
+- **Health:** FAMACHA consistently 1–2. Thiamine deficiency 2024 (treated B-complex). On weak-resistance watch list as of older notes.
+
+#### `tag-00113-singleton-2026` — "00113's Singleton (deceased)" — **NEW record, added 2026-04-26**
+- **Tag:** none
+- **Sex:** unknown
+- **Sire/Dam:** NoriSon × tag-00113-ewe-p1
+- **DOB / DOD:** **Born 2026-04-22, died 2026-04-25** (3-day life)
+- **Cause:** Failure to thrive. Owner: "00113 was a bad mom."
+- **Phenotype:** **Brown body** small lamb, visible at the bucket/feeder in the foreground of both 2026-04-26 photos before death.
+- **Pen:** none (now deceased)
+
+### Other Pen 5 roster animals NOT in these photos (still on roster, not visually verified this session)
+
+- `tag-31-ewe-p5` — Sir Loin daughter, hair, "proven breeder, Eclipse failure"
+- `tag-02-ewe-p5` — breed unclear, Pen 5
+- `fawn-wool-ewe-p5` — fawn wool, long ears, tag 240006
+- `little-daisy` — small white hair, Sir Loin × Daisy, sister of `sm-white-ewe-p4`. *(DB record currently lists `pen: "Pen 4"` — may be stale; pen5 roster includes her.)*
+- `elsie` — Katahdin/SA/BBB hair, primary 2026 lambing dam
+- `elsie-triplet-lg-white-ewe` (MC-2618) — Elsie's surviving triplet, sired by NoriSon
+
+### Removed from Pen 5 in the 2026-04-26 sweep
+- **NoriSon (= Eclipse, merged record)** — sold at auction 2026-04-26.
+- **`elsie-triplet-sm-white-ewe`** — small white triplet, sold at auction 2026-04-26.
+- **00113** — moved to Pen 1 on 2026-04-25.
+
+---
+
+## Pen 5 — Quick-Reference Decision Tree (visible animals 2026-04-26)
+
+```
+Is it an adult? (>9 months)
+├── Hair coat (slick, no fleece)
+│   ├── Light face + cream body, medium frame, tag 2222 ........ oav-2222 (Kelsier's sister)
+│   └── Black head + neck w/ sharp white-body boundary
+│       └── Young ram (~4 mo), no tag yet ...................... angus (NEW Pen 5 ram, Apr 2026)
+└── Wool coat (heavy fleece)
+    └── BLACK FACE + black legs, cream body, large frame, tag 00113 . tag-00113-ewe-p1
+        (full sister of orange-tag-00110; moved to Pen 1 on 2026-04-25)
+```
+
+Lamb (visible): **brown body, small, 3 days old when photographed**, foreground both photos = `tag-00113-singleton-2026` (now deceased).
+
+---
+
+## Known visual confusion cases (Pen 5)
+
+| Confusable pair | Tell them apart |
+|---|---|
+| 00113 vs. tag-114-fawn-wool (her full sister, Pen 1) | **Color**: 00113 is **cream-with-black-face wool**; 114 is **fawn wool**. Both have the same 50%Cr/25%Su/12.5%GCN/12.5%K breed comp. They are in different pens. |
+| 00113 vs. orange-tag-00110 (her full brother, Pen 1) | **Sex.** Same breed comp & frame; orange-tag is the ram, has an **orange tag**; 00113 is the ewe. |
+| 00113 vs. OAV 2222 (in same photo) | **Coat type.** 00113 is wool with black face; OAV is hair with light face. Opposite ends of the coat-type axis — phenotype alone resolves it. |
+| Angus vs. OAV 2222 | Both have light bodies, but **Angus has a sharply black head/neck**; OAV is **uniformly light**. Angus is also a young ram (smaller frame, 4 mo); OAV is an adult ewe. |
+| Angus vs. an adult Awassi (Pen 6) | Angus is **polled, slick hair**; Awassis are **horned, wool, fat-tailed**. Different pens, but if photo crops are ambiguous: hair-vs-wool resolves it. |
+| Photographed lamb vs. any of Elsie's triplets | The brown foreground lamb (now deceased 4-25) is **00113's singleton**, NOT an Elsie triplet. Elsie's triplets are white (or black-ram, gifted). The big white lamb in Pen 5 is `elsie-triplet-lg-white-ewe` (MC-2618), not in these two photos. |
+
+---
+
+## Provenance (Pen 5)
+
+- **Built:** 2026-04-26 from owner identification of the 2-photo Pen 5 set sent in this session (taken between 2026-04-22 and 2026-04-25).
+- **Owner-confirmed identifications (verbal, 2026-04-26):**
+  - **Back-right corner of photo 1 = Angus.** "4 months old."
+  - **Middle ewe of photo 2 / right-foreground photo 1 = tag 00113.** "Full sister of the ram in pen 1. Cracker/GCN/Suffolk/Katahdin." Moved to Pen 1 on 2026-04-25.
+  - **Right ewe of photo 2 = OAV 2222.** "Kelsier's sister, 2223 or 2222, something like that." (Tag confirmed 2222.)
+  - **Brown foreground lamb = 00113's singleton by NoriSon.** Born 2026-04-22, died 2026-04-25 (FTT). "00113 was a bad mom."
+- **Owner-confirmed DB corrections (verbal, 2026-04-26):**
+  - **NoriSon = Eclipse.** Same animal — two records, now merged. Canonical id: `nori-son`. Aliases preserve "Eclipse," "Tag 113," "Tag 22." CORRECTED from prior assumption that they were separate rams.
+  - **NoriSon/Eclipse sold at auction 2026-04-26**, along with `tag-0033-twin-ram-2` (the black ram lamb, dam tag-0033-hair-ewe) and `elsie-triplet-sm-white-ewe` (smaller of the two remaining Elsie triplet ewes). status="sold", status_date="2026-04-26".
+  - **Kaladin is NOT deceased.** DB had him wrongly bulk-marked deceased 2026-04-02. CORRECTED to alive. (Owner: "i forgot that was his name.") He is NOT the Pen 1 ram — `orange-tag-00110` is. Kaladin's current pen unknown; not updated here.
+  - **OAV 2222 had NO twins in 2026.** The 2026-02-10 lambing record was wrong and has been removed. Her prior twins (referenced in NoriSon's track record) were from earlier years.
+  - **Daisy's Daughter 2 had NO lamb in 2026.** The 2026-02-07 lambing record was wrong and has been removed.
+- **Owner assessment of NoriSon as a sire (verbal, 2026-04-26):** "Consistently hit or miss, in with 5 ewes for two years or so — only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor. One of the three of Elsie's lambs may have earned a place — I'm watching."
+- **New animals added to DB this session:**
+  - `tag-00113-ewe-p1` (Pen 1, alive, full sister of orange-tag-00110)
+  - `tag-00113-singleton-2026` (deceased FTT, NoriSon × 00113)
+- **New 2026 lambing record:** 2026-04-22, dam 00113, sire NoriSon, 1 born / 0 alive (Pen 5).
+- **Photo-only IDs (4) confirmed.** Other Pen 5 roster animals (tag-31, tag-02, fawn-wool 240006, little-daisy, elsie, MC-2618) are not in these photos and not visually verified this session.
+- **Pen-5 ram update applied:** `pens.pen_5.ram` changed from `eclipse` to `angus`.
+- **Pen-1 roster update applied:** `tag-00113-ewe-p1` added to `pens.pen_1.ewes`.
+- **Lighting note:** photos taken in low-angle morning/evening sun (long shadows visible). Body color may read warmer than midday truth — but the BLACK FACE on 00113 is clearly Suffolk-dominant, not a lighting artifact.
+
+---
 
 1. **Never invent phenotype.** If the DB doesn't describe a sheep's markings and you haven't seen her, say so. Mark `[UNCLEAR]`.
 2. **Owner testimony beats DB** — the DB exists to encode owner knowledge, not override it.
