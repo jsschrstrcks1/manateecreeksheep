@@ -308,7 +308,7 @@ Pen 5 was the NoriSon/Eclipse breeding group. As of **2026-04-26**, NoriSon was 
 - **Tag:** none yet (new arrival)
 - **Sex:** ram (ram lamb, ~4 months as of 2026-04-26 — DOB ~Dec 2025/Jan 2026)
 - **Source:** Windlestone, picked up 2026-04-22
-- **Breed:** [UNCLEAR — owner stated "50% Awassi, 25% Dorper, 23% Awassi, 2% East Friesian"; Awassi appears twice, awaiting clarification]
+- **Breed:** **50% Katahdin / 25% Dorper / 25% Awassi** (owner-confirmed 2026-04-26 — 75% hair, 25% wool; coat reads hair). *(CORRECTED from prior "low confidence, Awassi appears twice" placeholder.)*
 - **Phenotype:** **Black head + neck with a sharp boundary at the shoulders; WHITE body; short, slick shedding hair coat (no fleece).** Classic black-headed Dorper visual type by appearance. Young ram frame.
 - **Photo position:** **Back-right corner of photo 1**, standing near the round container/bin in mid-distance.
 - **How to lock him:** he is the **only** black-head/white-body hair-coat animal in Pen 5 — phenotype alone is sufficient. Confirmed by owner verbal 2026-04-26.
@@ -327,7 +327,8 @@ Pen 5 was the NoriSon/Eclipse breeding group. As of **2026-04-26**, NoriSon was 
 - **How to tell from `tag-114-fawn-wool` (her full sister):** Tag 114 is **fawn-colored wool**; 00113 is **cream wool with a black face**. Different color expression of the same Cracker/Suffolk cross.
 - **How to tell from `orange-tag-00110` (her full brother):** Same breed comp & frame, but he is the ram in Pen 1 with an **orange tag**; she is a ewe.
 - **How to tell from OAV 2222 in the same photo:** OAV is **slick hair coat, light face**; 00113 is **heavy wool, black face**. Opposite ends of the coat-type axis.
-- **Flag:** Needs FAMACHA baseline, formal tag verification, age estimate at next handling.
+- **Health (owner verbal 2026-04-26):** **Very parasite resistant.** *Mothering* is the weak trait, not parasite handling. Owner: "00113 has been very parasite resistant. just a terrible mother." Treat as a parasite-resistance breeding candidate, but supervise lambing closely.
+- **Flag:** Needs FAMACHA baseline (formal scoring), formal tag verification, age estimate at next handling.
 
 #### `oav-2222` — "OAV 2222" / "Kelsier's Sister"
 - **Tag:** 2222 (OAV/Oakvale Farm series)

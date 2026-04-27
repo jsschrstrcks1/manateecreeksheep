@@ -12316,12 +12316,20 @@
       "source": "Windlestone",
       "arrival_date": "2026-04-22",
       "breed_composition": {
-        "percentages": {},
-        "confidence": "low",
-        "notes": "Owner stated \"50% Awassi, 25% Dorper, 23% Awassi, 2% East Friesian\" — Awassi appears twice; typo. Awaiting clarification before committing percentages."
+        "primary": "Katahdin/Dorper/Awassi",
+        "percentages": {
+          "Katahdin": 50,
+          "Dorper": 25,
+          "Awassi": 25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 75,
+        "intermediate_percentage": 0,
+        "wool_percentage": 25,
+        "coat_prediction": "hair"
       },
       "description": "Black head + neck with sharp shoulder boundary, white body, short shedding hair coat. Classic black-headed Dorper phenotype by appearance.",
-      "confidence": "medium",
+      "confidence": "high",
       "notes_history": [
         {
           "date": "2026-04-22",
@@ -12334,6 +12342,10 @@
         {
           "date": "2026-04-26",
           "note": "Confirmed in Pen 5 from photo session — back-right corner of photo 1. Owner: 'Back right corner is the Ram - Angus. 4 months old.' Now the breeding ram in Pen 5 (succeeding NoriSon, sold today)."
+        },
+        {
+          "date": "2026-04-26",
+          "note": "Breed composition confirmed by owner: 50% Katahdin / 25% Dorper / 25% Awassi (sums to 100). CORRECTED from prior 'low confidence — Awassi appears twice; awaiting clarification' note."
         }
       ],
       "health": {
@@ -12394,7 +12406,12 @@
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
-        "notes": []
+        "notes": [
+          {
+            "date": "2026-04-26",
+            "note": "Owner: '00113 has been very parasite resistant. just a terrible mother.' Strong parasite resistance phenotype — KEEP for breeding-program parasite-resistance line. Mothering ability is the limiting trait, not health."
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -12409,7 +12426,7 @@
         "notebook_image": [],
         "owner_verbal": "2026-04-26 photo session — 'middle ewe = full sister of the ram in pen 1, cracker/gcn/suffolk/katahdin'."
       },
-      "notes": "NEW RECORD 2026-04-26 (added from Pen 5 photo session). Full sister of orange-tag-00110 (Pen 1 ram) and tag-114-fawn-wool — same parents (unknown), identical breed comp 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Was in Pen 5 with NoriSon (sired by Sir Loin × Nori; sold at auction 2026-04-26). Had a singleton ram-or-ewe lamb born 2026-04-22 sired by NoriSon — lamb died 2026-04-25 of failure to thrive (3-day life). Owner: '00113 was a bad mom.' Moved to Pen 1 on 2026-04-25. No tag observed in photos beyond '00113' identification by owner; no FAMACHA history yet.",
+      "notes": "NEW RECORD 2026-04-26 (added from Pen 5 photo session). Full sister of orange-tag-00110 (Pen 1 ram) and tag-114-fawn-wool — same parents (unknown), identical breed comp 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Was in Pen 5 with NoriSon (sired by Sir Loin × Nori; sold at auction 2026-04-26). Had a singleton ram-or-ewe lamb born 2026-04-22 sired by NoriSon — lamb died 2026-04-25 of failure to thrive (3-day life). Owner: '00113 was a bad mom.' Moved to Pen 1 on 2026-04-25. No tag observed in photos beyond '00113' identification by owner; no FAMACHA history yet. HEALTH NOTE 2026-04-26: Owner confirmed very strong parasite resistance — kept on no weak-resistance list. Mothering ability is the weak trait (FTT singleton 4-22 to 4-25). Consider as a parasite-resistance breeder but watch lambing closely / consider lamb-supervision.",
       "confidence": "high",
       "last_verified": "2026-04-26",
       "visual_id": {
@@ -12428,6 +12445,10 @@
         {
           "date": "2026-04-26",
           "note": "Record created from Pen 5 photo session. Owner confirmed identity, breed comp, lamb history, and 4/25 move to Pen 1."
+        },
+        {
+          "date": "2026-04-26",
+          "note": "Owner: very parasite resistant, terrible mother."
         }
       ]
     },
