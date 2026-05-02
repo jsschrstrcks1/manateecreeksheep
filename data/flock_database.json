@@ -12921,8 +12921,8 @@
       "photos": [
         "IMG_0679.JPG"
       ],
-      "inbreeding_coefficient": 0.0,
-      "inbreeding_notes": "Sire Loki carries 12.5% COI via Sir Loin double-up. Dam Cocoa pedigree (smore \u00d7 half-tail) does not include Sir Loin. Therefore niece F = 0 (parents not closely related), but she carries ~6.25% Sir Loin content from sire side.",
+      "inbreeding_coefficient": 0.031,
+      "inbreeding_notes": "F = 0.031 (3.1%) via Half-Tail double-up. Half-Tail appears as: (1) maternal grandmother through Cocoa, and (2) paternal great-great-grandmother through Broken Tail (mother of Dodge, who sires Loki). Sire Loki ALSO carries Sir Loin double-up (F=0.125 internally) but Sir Loin doesn't recur on niece's dam side, so Sir Loin doesn't contribute to NIECE's COI directly.",
       "notes_history": [
         {
           "date": "2026-04-22",
@@ -12939,11 +12939,40 @@
         {
           "date": "2026-04-22",
           "note": "Cleared up: Cocoa belongs to friend Danny. Niece is on our property in Pen 3 with uncle Merrieweather and Charlie. Niece is the only animal in this pedigree branch on Manatee Creek."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Owner-supplied on-property pedigree resistance data: Merrie pretty good, Sir Loin great, Broken Tail great. Lean-optimistic resistance genetics. Coat observed as intermediate-to-wool-leaning up close (smooth from distance). Built compactly, no conformation faults from photo. Transplant-environment watch protocol set: weekly FAMACHA + day 30/60 FEC, no advancement past Stage 1 until full wet-season here clears."
         }
       ],
       "dob": "2025-09",
       "dob_confidence": "low",
-      "on_property": true
+      "on_property": true,
+      "coat_observed": "intermediate-to-wool-leaning (per owner 2026-04-22 close inspection: smooth from distance, wool texture up close; consistent with dam-side Half-Tail/Cracker/St Augustine load)",
+      "coat_confidence": "medium \u2014 true coat type confirmed only after first peak-summer shed (July-August 2026)",
+      "pedigree_resistance_assessment": {
+        "date": "2026-04-22",
+        "on_property_data": {
+          "merrieweather (uncle, full sib of dam)": "pretty good \u2014 DB FAMACHA avg 1.31, max 1.5",
+          "sir-loin (paternal great-grandfather, doubled)": "great per owner \u2014 foundation ram",
+          "broken-tail (paternal great-grandmother)": "great \u2014 DB FAMACHA avg 1.33, twin producer",
+          "half-tail (grandmother + great-great-grandmother)": "implied solid \u2014 Broken Tail and Merrieweather descend from her"
+        },
+        "verdict": "Lean optimistic on resistance genetics. NOT confirmed \u2014 needs one full Manatee Creek wet-season cycle before advancement past Stage 1.",
+        "caveat": "Born + raised at Danny's lighter-pressure environment until 2026-04-22. Per owner observation, 'a few times bringing his sheep here they have struggled' \u2014 transplant-environment effect can mask true resistance. Watch protocol applies."
+      },
+      "transplant_watch_protocol": {
+        "set_on": "2026-04-22",
+        "set_by": "owner directive (Danny-source watch)",
+        "rules": [
+          "FAMACHA weekly for first 60-90 days (not monthly)",
+          "FEC at day 30 and day 60 if vet-affordable (~$5-10 each)",
+          "No Stage 2 promotion until at least one full Manatee Creek wet-season (summer 2026) clears",
+          "Do not breed in fall 2026 if struggling at peak parasite season",
+          "FAMACHA 4+ in first 60 days = treat AND flag; recurrence after treatment = downgrade to Pen 4 watch"
+        ]
+      },
+      "advancement_ceiling_estimate": "Stage 3-4 (Pen 5 production / Pen 6 proven). Wool-leaning coat blocks Stage 5+ elite placement under Pipeline v5 selection hierarchy (FAMACHA > Hair > Breed > Meat)."
     }
   ],
   "pens": {
@@ -13522,7 +13551,13 @@
       "Cracker coat type is VARIABLE per individual \u2014 Merrie sheds, 00110 does not. Cannot classify per breed.",
       "Every animal currently alive has survived Florida parasite pressure. That survival IS the genetics that work.",
       "Buying outside genetics is HIGH RISK. Even 'resistant' breeds die here. Safest investment is what's already proven on this land.",
-      "Spring 2026 is an extreme drought. Animals scoring FAMACHA 4-5 during DRY season (lowest parasite pressure) will be catastrophically worse when rains return. Dry-season FAMACHA failures are the strongest cull signal."
+      "Spring 2026 is an extreme drought. Animals scoring FAMACHA 4-5 during DRY season (lowest parasite pressure) will be catastrophically worse when rains return. Dry-season FAMACHA failures are the strongest cull signal.",
+      {
+        "date": "2026-04-22",
+        "lesson": "Transplant-environment caveat",
+        "detail": "Untreated-at-source-farm survival is a positive but ambiguous signal. Survivorship bias (animals that died untreated were not measured) and lower-pressure microenvironments can both inflate apparent resistance. Owner observation: animals brought to Manatee Creek from Danny's place (no-treatment philosophy) have sometimes struggled here. Rule: discount external 'never-treated' resistance claims by ~30-40% until one full Manatee Creek wet-season cycle establishes on-property data. Apply transplant-watch protocol (weekly FAMACHA + day 30/60 FEC + no early advancement) to all newly-arrived purchased or transferred animals from any external source.",
+        "source": "owner verbal 2026-04-22, prompted by Cocoa's Daughter (Loki \u00d7 Cocoa) arrival evaluation"
+      }
     ],
     "pipeline": {
       "version": "3.0.0",
