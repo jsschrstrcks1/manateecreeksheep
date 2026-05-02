@@ -1365,7 +1365,7 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "broken-tail",
-      "status": "unknown",
+      "status": "alive",
       "status_date": null,
       "status_notes": "",
       "pen": null,
@@ -1392,7 +1392,15 @@
       "notes": "Little Daisy's sire. Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB). Inbred: Sir Loin is Broken Tail's sire. Status unknown \u2014 from Little Daisy breeding page pedigree.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "weight_estimated": true
+      "weight_estimated": true,
+      "owner": "Danny",
+      "on_property": false,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
+        }
+      ]
     },
     {
       "id": "big-free-male",
@@ -10793,7 +10801,7 @@
       "name": "Dodge",
       "tag": null,
       "sex": "ram",
-      "status": "sold",
+      "status": "alive",
       "sire_id": "sir-loin",
       "dam_id": "broken-tail",
       "breed_composition": {
@@ -10801,7 +10809,15 @@
         "percentages": {}
       },
       "notes": "Sold off farm. Buyers named him Dodge. Sire of Little Daisy. Also sire of Loki (Dodge x Half Tail daughter).",
-      "pen": null
+      "pen": null,
+      "owner": "Danny",
+      "on_property": false,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
+        }
+      ]
     },
     {
       "id": "daisy",
@@ -11934,16 +11950,14 @@
         {
           "date": "2026-04-22",
           "note": "Alive \u2014 arrived today. Has milk. May be pregnant by Loki or Dodge. Pen TBD owner confirmation."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
         }
       ],
-      "arrival_date": "2026-04-22",
-      "arrival_note": "Brought home today with daughter cocoas-daughter-by-loki.",
-      "lactating": true,
-      "possibly_pregnant": true,
-      "possible_sires": [
-        "loki",
-        "dodge"
-      ]
+      "owner": "Danny",
+      "on_property": false
     },
     {
       "id": "daisy-of-sugar",
@@ -11952,7 +11966,7 @@
       "tag": null,
       "sire_id": "sir-loin",
       "dam_id": "sugar",
-      "status": "unknown",
+      "status": "alive",
       "pen": null,
       "confidence": "medium",
       "notes_history": [
@@ -11963,9 +11977,14 @@
         {
           "date": "2026-04-22",
           "note": "Not brought home today; remains off-property."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "owner": "Danny"
     },
     {
       "id": "loki",
@@ -11974,7 +11993,7 @@
       "tag": null,
       "sire_id": "dodge",
       "dam_id": "daisy-of-sugar",
-      "status": "unknown",
+      "status": "alive",
       "pen": null,
       "confidence": "medium",
       "inbreeding_coefficient": 0.125,
@@ -11987,9 +12006,14 @@
         {
           "date": "2026-04-22",
           "note": "Not brought home today; remains off-property."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "owner": "Danny"
     },
     {
       "id": "cocoas-daughter-by-loki",
@@ -12019,6 +12043,10 @@
         {
           "date": "2026-04-22",
           "note": "Pen 3 confirmed (with Merrieweather and Charlie). No tag yet."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Cleared up: Cocoa belongs to friend Danny. Niece is on our property in Pen 3 with uncle Merrieweather and Charlie. Niece is the only animal in this pedigree branch on Manatee Creek."
         }
       ],
       "dob": "2025-09",
