@@ -391,8 +391,14 @@
         {
           "date": "2026-04-22",
           "note": "PET \u2014 family/personal animal, never leaves flock regardless of resistance. Owner directive."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Planned breeding to Merrieweather (now Pen 4 sire) fall 2026. Lamb either sells at auction (~\\$300) or earns a place; Merrie's breeding-ram status will be evaluated based on progeny FAMACHA from this and other Pen 4 ewes."
         }
-      ]
+      ],
+      "planned_sire": "merrie",
+      "planned_breeding_season": "fall 2026 (Pen 4)"
     },
     {
       "id": "rocky",
@@ -1969,7 +1975,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": "Pen 4",
       "measurements": {
         "girth": 31.5,
         "length": 30,
@@ -2073,6 +2079,10 @@
         {
           "date": "2026-04-22",
           "note": "Photographed in IMG_0678.JPG \u2014 fawn wool coat, currently shaggy, needs shearing. Twin sister Cocoa added to DB on owner statement."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Moved Pen 3 -> Pen 4 per owner directive. Pen 4 reframed as weak-stock + auction-lamb breeding pen (NOT a no-breeding infirmary). Merrie's role: (a) progeny-test sire on Pen 4 weak ewes (Gigi/FM/Serendipity/G023) \u2014 his future ram status depends on whether his offspring out of these dams are parasite-clean or fail, (b) produce auction-grade lambs (~\\$300/head) regardless of long-term breeding utility, (c) clarifies paternity in Pen 3 (Charlie now sole sire there)."
         }
       ],
       "visual_id": {
@@ -2362,8 +2372,14 @@
         {
           "date": "2026-04-22",
           "note": "KEPT: Owner notes Serendipity has solid resistance most years; one-off 2026 FAMACHA 3 with VB12 treated. Not a cull candidate."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Planned breeding to Merrieweather (now Pen 4 sire) fall 2026. Lamb either sells at auction (~\\$300) or earns a place; Merrie's breeding-ram status will be evaluated based on progeny FAMACHA from this and other Pen 4 ewes."
         }
-      ]
+      ],
+      "planned_sire": "merrie",
+      "planned_breeding_season": "fall 2026 (Pen 4)"
     },
     {
       "id": "serendipity-ram-2024",
@@ -3429,8 +3445,14 @@
         {
           "date": "2026-04-22",
           "note": "PET \u2014 family/personal animal, never leaves flock. Owner directive."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Planned breeding to Merrieweather (now Pen 4 sire) fall 2026. Lamb either sells at auction (~\\$300) or earns a place; Merrie's breeding-ram status will be evaluated based on progeny FAMACHA from this and other Pen 4 ewes."
         }
-      ]
+      ],
+      "planned_sire": "merrie",
+      "planned_breeding_season": "fall 2026 (Pen 4)"
     },
     {
       "id": "fm1",
@@ -13091,7 +13113,7 @@
         "broken-tail-twin-ewe",
         "nori-baby-p3"
       ],
-      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) \u2014 5 adults yearly, 4 babies 1st dose. White twin MC-2601 deceased 2026-04-22 (parasites) \u2014 3 surviving lambs as of 2026-04-26. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3.",
+      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) \u2014 5 adults yearly, 4 babies 1st dose. White twin MC-2601 deceased 2026-04-22 (parasites) \u2014 3 surviving lambs as of 2026-04-26. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3. | 2026-04-22 update: Merrieweather moved out to Pen 4. Charlie now SOLE sire of Pen 3 \u2014 every 2026/27 Pen 3 lamb is unambiguously his.",
       "treatments": [
         {
           "date_start": "2026-02-27",
@@ -13119,10 +13141,11 @@
           "observation": "Hair sheep \u2014 no wool in this pen",
           "source": "IMG_0660"
         }
-      ]
+      ],
+      "secondary_rams": []
     },
     "pen_4": {
-      "ram": "gigi-2025-ram",
+      "ram": "merrie",
       "ewes": [
         "gg",
         "lara",
@@ -13138,7 +13161,7 @@
         "serendipity-twin-ewe",
         "fm2-ram-lamb"
       ],
-      "notes": "Pen 4 \u2014 monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility \u2014 even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4.",
+      "notes": "Pen 4 \u2014 monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility \u2014 even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4. | 2026-04-22 reframe: Pen 4 is the weak/pet/chronic pen, NOT a no-breeding pen. Merrieweather added as Pen 4 sire. Role: (a) progeny-test on weak ewes for Merrie's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed \u2014 Merrie has the breeding role.",
       "treatments": [
         {
           "date_start": "2026-02-21",
@@ -13565,6 +13588,12 @@
         "lesson": "Transplant-environment caveat",
         "detail": "Untreated-at-source-farm survival is a positive but ambiguous signal. Survivorship bias (animals that died untreated were not measured) and lower-pressure microenvironments can both inflate apparent resistance. Owner observation: animals brought to Manatee Creek from Danny's place (no-treatment philosophy) have sometimes struggled here. Rule: discount external 'never-treated' resistance claims by ~30-40% until one full Manatee Creek wet-season cycle establishes on-property data. Apply transplant-watch protocol (weekly FAMACHA + day 30/60 FEC + no early advancement) to all newly-arrived purchased or transferred animals from any external source.",
         "source": "owner verbal 2026-04-22, prompted by Cocoa's Daughter (Loki \u00d7 Cocoa) arrival evaluation"
+      },
+      {
+        "date": "2026-04-22",
+        "lesson": "Pen 4 reframe \u2014 weak pen breeds too",
+        "detail": "Earlier v5 spec called Pen 4 'off the breeding pipeline.' Owner correction: every ewe is a lamb-producing revenue asset, even pets and weak-resistance animals. Auction lambs are ~\\$300/head. Pen 4 has its own sire (Merrieweather, moved 2026-04-22 from Pen 3). Merrieweather's progeny across Pen 4 weak ewes serves as a multi-pen progeny test for his own resistance heritability \u2014 passes = upgrade ram, fails = sell ram. Sole sire in Pen 3 (Charlie) clarifies paternity. No biosecurity loss because Merrieweather is being TESTED not protected.",
+        "source": "owner verbal 2026-04-22, response to my Pen 4-as-quarantine framing"
       }
     ],
     "pipeline": {
@@ -13887,6 +13916,21 @@
         "gpt_round_robin": "DNS cache overflow",
         "notes": "Claude played Grok adversarial role inline in source doc. Useful orchestra artifact: GPT fan-out verdict WHEAT_WITH_REFINEMENT on Claude R1 with critique \"lacks explicit ram+ewe placement per pen and does not fully address complex integration of 22 breeds into a homogenized product\" \u2014 v5 answers both."
       }
+    },
+    "pen_4_role": {
+      "updated": "2026-04-22",
+      "role": "Weak-stock / pet / chronic / demotion pen \u2014 but NOT off-breeding. Pen 4 ewes still breed; their lambs go to auction (~$300) or earn a keeper place.",
+      "sire": "merrie (Merrieweather, MC 00016) \u2014 moved from Pen 3 sole sire role. Charlie is now sole Pen 3 sire.",
+      "logic": [
+        "Every ewe (including pets and weak ones) is a lamb-producing asset",
+        "Auction lambs are revenue (~$300/head), not waste",
+        "Sire parasite-resistance is judged via progeny across multiple pens \u2014 Pen 4 progeny is part of Merrieweather's evaluation",
+        "If Merrieweather's Pen 4 lambs are parasite-clean, he earns a Stage upgrade \u2014 meaning his weak-ewe progeny test is a positive screening",
+        "If his Pen 4 lambs fail, he's sold/replaced \u2014 Pen 4 is the test bed",
+        "Sole sire in Pen 3 (Charlie) gives unambiguous paternity for all Pen 3 lambs"
+      ],
+      "pets_still_bred": true,
+      "pet_lamb_disposition": "Sold at auction. Pets themselves never leave (owner directive)."
     }
   },
   "tagging": {
