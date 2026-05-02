@@ -1142,6 +1142,10 @@
         {
           "date": "2026-04-22",
           "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
+        },
+        {
+          "date": "2026-05-02",
+          "note": "FERTILITY RECORD REVISED: Prior 'subfertile, bred only 1 of 6 ewes' assessment is incorrect. Confirmed sired: (a) Elsie's triplets 2026-01-06 (2 white ewes + 1 black ram), (b) 00113's singleton 2026-04-22 (died FTT 4-25), (c) OAV 2222's twins 2026-04-30 (both ewe lambs alive, healthy). That's 3 of 5+ ewes settled, not 1 of 6. He was sold at auction 2026-04-26 \u2014 between his 00113 singleton and OAV's twins discovery, so his record looked worse than it was. Adjust expectation: he was middling-fertile, not severely subfertile."
         }
       ]
     },
@@ -5241,7 +5245,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": "Pen 5",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -5310,6 +5314,10 @@
         {
           "date": "2026-04-26",
           "note": "Owner: 'OAV had no twins this year.' Removed wrong 2026-02-10 lambing record. Cleared orphan offspring placeholders oav-2222-lamb-1/2."
+        },
+        {
+          "date": "2026-05-02",
+          "note": "LAMBING UPDATE: Lambed late Wed 2026-04-30 / early Thu 2026-05-01 in Pen 5. Twins, both ewes, both white-with-rust, both hair-coat. One has small black dot. Both healthy + good FAMACHA at birth. Sire most likely NoriSon (=Eclipse merged) per coat phenotype. Reinstated lamb records oav-2222-lamb-1/2 that the prior 4-26 'no twins' session deleted (correctly at the time \u2014 she hadn't lambed yet). She's now a proven 2026 dam."
         }
       ],
       "visual_id": {
@@ -5338,6 +5346,18 @@
           "Continue as proven Katahdin parasite-resistance line; consider re-breeding decision (sire selection now that NoriSon is sold)."
         ],
         "evaluator": "Claude (visual ID pass 2026-04-26, owner-confirmed positions)"
+      },
+      "last_lambed": "2026-04-30",
+      "lambing_2026": {
+        "date": "2026-04-30",
+        "count": 2,
+        "sex": "both ewes",
+        "sire": "nori-son",
+        "lamb_ids": [
+          "oav-2222-lamb-1",
+          "oav-2222-lamb-2"
+        ],
+        "all_alive_at_birth": true
       }
     },
     {
@@ -13011,6 +13031,75 @@
         ]
       },
       "advancement_ceiling_estimate": "Stage 3-4 (Pen 5 production / Pen 6 proven). Wool-leaning coat blocks Stage 5+ elite placement under Pipeline v5 selection hierarchy (FAMACHA > Hair > Breed > Meat)."
+    },
+    {
+      "id": "oav-2222-lamb-1",
+      "name": "OAV 2222 Lamb 1 (White-Rust)",
+      "sex": "ewe_lamb",
+      "tag": null,
+      "sire_id": "nori-son",
+      "dam_id": "oav-2222",
+      "dob": "2026-04-30",
+      "dob_confidence": "medium",
+      "status": "alive",
+      "pen": "Pen 5",
+      "description": "White with rust. No distinguishing mark. Hair coat (per owner observation).",
+      "coat_observed": "hair (per owner observation 2026-05-02)",
+      "confidence": "medium",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-05-02",
+            "score": "1",
+            "notes": "Healthy at 2-3 days old per owner. Good FAMACHA.",
+            "source": "owner verbal"
+          }
+        ],
+        "vaccinations": [],
+        "treatments": [],
+        "notes": []
+      },
+      "notes_history": [
+        {
+          "date": "2026-05-02",
+          "note": "Reinstated. Prior session deleted oav-2222-lamb-1/2 records on 2026-04-26 based on then-correct 'OAV had no twins this year' read. She lambed 4-30, AFTER that snapshot. Owner reports hair-coat phenotype on both lambs \u2192 sire most likely NoriSon (=Eclipse merged record), not MC08. Eclipse settled her right before his 4-26-26 auction \u2014 his 'subfertile' record was actually 3 of 5+ ewes, not 1 of 6."
+        }
+      ]
+    },
+    {
+      "id": "oav-2222-lamb-2",
+      "name": "OAV 2222 Lamb 2 (White-Rust + Black Dot)",
+      "sex": "ewe_lamb",
+      "tag": null,
+      "sire_id": "nori-son",
+      "dam_id": "oav-2222",
+      "dob": "2026-04-30",
+      "dob_confidence": "medium",
+      "status": "alive",
+      "pen": "Pen 5",
+      "description": "White with rust. SMALL BLACK DOT (distinguishing mark from her twin sister). Hair coat.",
+      "coat_observed": "hair (per owner observation 2026-05-02)",
+      "confidence": "medium",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-05-02",
+            "score": "1",
+            "notes": "Healthy at 2-3 days old per owner. Good FAMACHA.",
+            "source": "owner verbal"
+          }
+        ],
+        "vaccinations": [],
+        "treatments": [],
+        "notes": []
+      },
+      "twin_of": "oav-2222-lamb-1",
+      "notes_history": [
+        {
+          "date": "2026-05-02",
+          "note": "Reinstated with twin sister oav-2222-lamb-1. Identifying mark: small black dot. Same parents and DOB."
+        }
+      ]
     }
   ],
   "pens": {
@@ -13500,6 +13589,21 @@
       "lambs_alive": 0,
       "pen": "Pen 5",
       "notes": "Singleton, sex unknown. Lamb died 2026-04-25 of failure to thrive (3-day life). Owner: '00113 was a bad mom.' Owner verbal 2026-04-26."
+    },
+    {
+      "date": "2026-04-30",
+      "date_confidence": "medium (late Wed 4-30 or early Thu 5-1 per owner)",
+      "dam_id": "oav-2222",
+      "sire_id": "nori-son",
+      "sire_attribution_method": "Coat-based: lambs are hair-coat type \u2192 consistent with NoriSon/Eclipse (100% hair) sire. Gestation back-calc puts conception ~Dec 2025; OAV 2222's pen history overlapped both Pen 5 (NoriSon) and Pen 6 (MC08, Awassi-type) during that window. Owner's coat reading favors NoriSon.",
+      "lambs": [
+        "oav-2222-lamb-1",
+        "oav-2222-lamb-2"
+      ],
+      "lamb_count": 2,
+      "lamb_sex": "both ewes",
+      "pen_at_lambing": "Pen 5",
+      "notes": "Both healthy at birth, good FAMACHA. White with rust; one has a small black dot."
     }
   ],
   "breed_reference": {
