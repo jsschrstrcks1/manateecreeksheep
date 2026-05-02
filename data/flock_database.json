@@ -11989,8 +11989,14 @@
         {
           "date": "2026-04-22",
           "note": "Owner pedigree statement: 'Niece from Loki and Cocoa. Cocoa is Merrie's twin sister.' So her uncle is Merrieweather. Owner shared photo IMG_0679 \u2014 she's a young hair-coat ewe. Pen + tag + DOB + name TBD from owner."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "DOB September 2025 per owner ('she was born in September I believe'). Day unspecified; year inferred from her ~7-month-old appearance in IMG_0679. Marked dob_confidence=low until owner confirms."
         }
-      ]
+      ],
+      "dob": "2025-09",
+      "dob_confidence": "low"
     }
   ],
   "pens": {
