@@ -11923,14 +11923,26 @@
       "sire_id": "smore",
       "dam_id": "half-tail",
       "twin_of": "merrie",
-      "status": "unknown",
+      "status": "alive",
       "pen": null,
       "confidence": "medium",
       "notes_history": [
         {
           "date": "2026-04-22",
           "note": "Created from owner pedigree statement: Merrieweather and Cocoa are twins (sire=Smore, dam=Half-Tail). Status unknown \u2014 owner clarification needed (alive/sold/deceased)."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Alive \u2014 arrived today. Has milk. May be pregnant by Loki or Dodge. Pen TBD owner confirmation."
         }
+      ],
+      "arrival_date": "2026-04-22",
+      "arrival_note": "Brought home today with daughter cocoas-daughter-by-loki.",
+      "lactating": true,
+      "possibly_pregnant": true,
+      "possible_sires": [
+        "loki",
+        "dodge"
       ]
     },
     {
@@ -11947,8 +11959,13 @@
         {
           "date": "2026-04-22",
           "note": "DISAMBIGUATION: Owner clarified this is a DIFFERENT Daisy from the existing DB Daisys (those have dam=half-tail or dam=anna). This Daisy is sire=Sir Loin, dam=Sugar. Mother of Loki by Dodge."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Not brought home today; remains off-property."
         }
-      ]
+      ],
+      "on_property": false
     },
     {
       "id": "loki",
@@ -11966,8 +11983,13 @@
         {
           "date": "2026-04-22",
           "note": "Created from owner pedigree statement: Loki = Dodge \u00d7 Daisy. Sired by Dodge (Sir Loin \u00d7 Broken Tail) out of Daisy (Sir Loin \u00d7 Sugar). Inbred via Sir Loin double-up."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Not brought home today; remains off-property."
         }
-      ]
+      ],
+      "on_property": false
     },
     {
       "id": "cocoas-daughter-by-loki",
@@ -11977,7 +11999,7 @@
       "sire_id": "loki",
       "dam_id": "cocoa",
       "status": "alive",
-      "pen": null,
+      "pen": "Pen 3",
       "confidence": "medium",
       "description": "Cream/white hair coat ewe. Smooth shed appearance (NOT wool-felted). Photographed 2026-04-22 in IMG_0679.JPG.",
       "photos": [
@@ -11993,6 +12015,10 @@
         {
           "date": "2026-04-22",
           "note": "DOB September 2025 per owner ('she was born in September I believe'). Day unspecified; year inferred from her ~7-month-old appearance in IMG_0679. Marked dob_confidence=low until owner confirms."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Pen 3 confirmed (with Merrieweather and Charlie). No tag yet."
         }
       ],
       "dob": "2025-09",
