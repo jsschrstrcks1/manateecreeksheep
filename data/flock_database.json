@@ -10072,7 +10072,7 @@
         "notes": "Sire Kelsier (100% Katahdin). Dam Gigi (unknown breed). Multi color."
       },
       "color_markings": "Multi color ewe",
-      "pen": "Pen 4",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
@@ -10169,7 +10169,15 @@
         ]
       },
       "mc_tag": "MC2613",
-      "description": "Multi color ewe"
+      "description": "Multi color ewe",
+      "planned_sire": "charlie-ram",
+      "planned_breeding_season": "fall 2026 (when she reaches breeding age ~8 mo)",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Owner directive: move Pen 4 -> Pen 3 (Stage 1 intake), mate to Charlie when she cycles fall 2026. RATIONALE: dam Gigi has 3x FAMACHA 5 history (now flagged pet, never leaves) but Gigi's Baby herself is only ONE borderline event (FAM 3 on 4-10) on otherwise clean record (avg 1.75). Calculated test breeding: Charlie's Kat hair genetics shore up potential weakness; if her lambs are clean she earns Pen 5 next year, if she crashes herself or her lambs do she's culled. Better than indefinite Pen 4 infirmary hold."
+        }
+      ]
     },
     {
       "id": "gigi-2025-ram",
