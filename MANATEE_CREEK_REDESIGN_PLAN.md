@@ -34,7 +34,6 @@ model around three principles:
 
 ### Key decisions encoded
 - Kelsier (Katahdin) = gold standard sire — most parasite resistant
-- St Croix & BBB lineages DIED on this property — reject in favor of Katahdin/Awassi
 - Dorper is parasite-vulnerable despite hair coat — hair ≠ resistance
 - Spring 2026 drought = lowest parasite pressure = strongest cull signal possible
 - New tag convention: MC26xx green tags, rams in left ear, ewes in right
