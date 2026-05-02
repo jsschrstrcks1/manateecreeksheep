@@ -1894,7 +1894,17 @@
       "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1. Moved to Pen 3. Notebook card shows tag 000lb [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Tag 00016 confirmed. Intact ram. Descendant of Sir Loin and Smore (Cracker ram) through hair ewes (StA x Kat). Not the dominant ram in Pen 3 — Charlie is. Tag 00016. FAMACHA consistently good all checks Feb-Mar 2026. Physically in Pen 3.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "weight_estimated": false
+      "weight_estimated": false,
+      "twin_of": "cocoa",
+      "photos": [
+        "IMG_0678.JPG"
+      ],
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Photographed in IMG_0678.JPG \u2014 fawn wool coat, currently shaggy, needs shearing. Twin sister Cocoa added to DB on owner statement."
+        }
+      ]
     },
     {
       "id": "bella",
@@ -12339,6 +12349,89 @@
         "treatments": [],
         "notes": []
       }
+    },
+    {
+      "id": "cocoa",
+      "name": "Cocoa",
+      "sex": "ewe",
+      "tag": null,
+      "sire_id": "smore",
+      "dam_id": "half-tail",
+      "twin_of": "merrie",
+      "status": "unknown",
+      "pen": null,
+      "confidence": "medium",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Created from owner pedigree statement: Merrieweather and Cocoa are twins (sire=Smore, dam=Half-Tail). Status unknown \u2014 owner clarification needed (alive/sold/deceased)."
+        }
+      ]
+    },
+    {
+      "id": "daisy-of-sugar",
+      "name": "Daisy (of Sugar)",
+      "sex": "ewe",
+      "tag": null,
+      "sire_id": "sir-loin",
+      "dam_id": "sugar",
+      "status": "unknown",
+      "pen": null,
+      "confidence": "medium",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "DISAMBIGUATION: Owner clarified this is a DIFFERENT Daisy from the existing DB Daisys (those have dam=half-tail or dam=anna). This Daisy is sire=Sir Loin, dam=Sugar. Mother of Loki by Dodge."
+        }
+      ]
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "sex": "ram",
+      "tag": null,
+      "sire_id": "dodge",
+      "dam_id": "daisy-of-sugar",
+      "status": "unknown",
+      "pen": null,
+      "confidence": "medium",
+      "inbreeding_coefficient": 0.125,
+      "inbreeding_notes": "Sir Loin appears in both sire and dam line: sire Dodge's sire = Sir Loin; dam Daisy-of-Sugar's sire = Sir Loin. Half-sibling-via-sire mating produced Loki. F = (1/2)^3 = 0.125 (12.5%) from Sir Loin double-up.",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Created from owner pedigree statement: Loki = Dodge \u00d7 Daisy. Sired by Dodge (Sir Loin \u00d7 Broken Tail) out of Daisy (Sir Loin \u00d7 Sugar). Inbred via Sir Loin double-up."
+        }
+      ]
+    },
+    {
+      "id": "cocoas-daughter-by-loki",
+      "name": "Cocoa's Daughter (by Loki)",
+      "sex": "ewe",
+      "tag": null,
+      "sire_id": "loki",
+      "dam_id": "cocoa",
+      "status": "alive",
+      "pen": null,
+      "confidence": "medium",
+      "description": "Cream/white hair coat ewe. Smooth shed appearance (NOT wool-felted). Photographed 2026-04-22 in IMG_0679.JPG.",
+      "photos": [
+        "IMG_0679.JPG"
+      ],
+      "inbreeding_coefficient": 0.0,
+      "inbreeding_notes": "Sire Loki carries 12.5% COI via Sir Loin double-up. Dam Cocoa pedigree (smore \u00d7 half-tail) does not include Sir Loin. Therefore niece F = 0 (parents not closely related), but she carries ~6.25% Sir Loin content from sire side.",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Owner pedigree statement: 'Niece from Loki and Cocoa. Cocoa is Merrie's twin sister.' So her uncle is Merrieweather. Owner shared photo IMG_0679 \u2014 she's a young hair-coat ewe. Pen + tag + DOB + name TBD from owner."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "DOB September 2025 per owner ('she was born in September I believe'). Day unspecified; year inferred from her ~7-month-old appearance in IMG_0679. Marked dob_confidence=low until owner confirms."
+        }
+      ],
+      "dob": "2025-09",
+      "dob_confidence": "low"
     }
   ],
   "pens": {
