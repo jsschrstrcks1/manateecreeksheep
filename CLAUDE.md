@@ -12,6 +12,14 @@ This is a family operation. Accuracy matters because real animals depend on corr
 
 ---
 
+## Skills
+
+Full skill catalog (26 skills) is documented in [`SKILLS.md`](SKILLS.md) — human-facing index with activation modes, trigger keywords, the 7-pen breeding pipeline, and the FAMACHA-driven selection rubric. **Read SKILLS.md at session start** before any flock-database edits, breeding decisions, or notebook transcription.
+
+The sheep-domain skills (`careful-not-clever`, `breeding-advisor`, `flock-validation`, `health-tracker`, `pasture-planner`, `image-transcription`, `google-sheets-sync`) plus the standard household kit (16 skills) are configured under `.claude/skills/`. The orchestrator runs in `sheep` mode with **GPT as lead** (planning) and Claude as validator/safety.
+
+---
+
 ## Theological Foundation
 
 > *"The LORD is my shepherd; I shall not want."* — Psalm 23:1 (ESV)
