@@ -1548,7 +1548,9 @@
         "is_breeding_animal": false,
         "breeding_group": "",
         "offspring_ids": [
-          "little-daisy"
+          "little-daisy",
+          "sm-white-ewe-p4",
+          "loki"
         ],
         "lambing_records": []
       },
@@ -1556,9 +1558,9 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Little Daisy's sire. Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB). Inbred: Sir Loin is Broken Tail's sire. Status unknown — from Little Daisy breeding page pedigree.",
+      "notes": "Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB). Inbred: Sir Loin is Broken Tail's sire. Sire of Little Daisy, sm-white-ewe-p4, and Loki (Dodge x Half Tail daughter cross). Sold off farm to Danny — alive, off-property. CORRECTION 2026-05-13: merged duplicate dodge record (was indexed separately as a second 'dodge' id at index 157 with status=alive but notes saying 'Sold off farm. Buyers named him Dodge.'); offspring_ids now reflect all three known offspring; owner-confirmed 2026-05-13 these are the same animal.",
       "confidence": "high",
-      "last_verified": "2026-02-16",
+      "last_verified": "2026-05-13",
       "weight_estimated": true,
       "owner": "Danny",
       "on_property": false,
@@ -1566,6 +1568,10 @@
         {
           "date": "2026-04-22",
           "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
+        },
+        {
+          "date": "2026-05-13",
+          "note": "MERGE: Owner confirmed the second 'dodge' record (which said 'Sold off farm. Buyers named him Dodge. Sire of Little Daisy. Also sire of Loki') was the same animal as this one. Removed the duplicate; folded its notes here. offspring_ids expanded to include sm-white-ewe-p4 and loki."
         }
       ]
     },
@@ -11112,29 +11118,6 @@
       },
       "confidence": "medium",
       "last_verified": "2026-05-13"
-    },
-    {
-      "id": "dodge",
-      "name": "Dodge",
-      "tag": null,
-      "sex": "ram",
-      "status": "alive",
-      "sire_id": "sir-loin",
-      "dam_id": "broken-tail",
-      "breed_composition": {
-        "primary": "Sir Loin x Broken Tail offspring",
-        "percentages": {}
-      },
-      "notes": "Sold off farm. Buyers named him Dodge. Sire of Little Daisy. Also sire of Loki (Dodge x Half Tail daughter).",
-      "pen": null,
-      "owner": "Danny",
-      "on_property": false,
-      "notes_history": [
-        {
-          "date": "2026-04-22",
-          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
-        }
-      ]
     },
     {
       "id": "daisy",
