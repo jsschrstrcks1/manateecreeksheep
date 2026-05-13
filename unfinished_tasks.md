@@ -4,6 +4,43 @@ Audit of prior-thread work in `manateecreeksheep`. Skills applied:
 `flock-validation` (domain), `verification-before-completion` (process),
 `careful-not-clever` (integrity).
 
+## Sweep Progress — 2026-05-13 session 2
+
+Validator state after sweep: **2 errors, 7 warnings** (was 21 errors, 7 warnings).
+Both remaining errors are the dodge/daisy duplicate-id records that need
+owner judgement to resolve.
+
+| Item | Commit | Status |
+|------|--------|--------|
+| P0.2 — MC08/samson-daughter-p4 dam correction (bidirectional offspring_ids) | `14a6334` | ✅ Done |
+| P3.2 — null pen on sold 0033 twin rams | `dc9aab3` | ✅ Done |
+| P1.1 — add confidence to 16 of 20 missing records | `bc174ac` | ✅ Done (4 deferred) |
+| P0.3 — null charlies-ewe.dam_id (broken nori-line-f2 ref) | `efc3600` | ✅ Done |
+| P0.4 — add 'gifted' to validator VALID_STATUS + fix elsie record | `754a11c` | ✅ Done |
+| P1.3 — fix IMG_0661 broken ref (missing .JPG ext) | `25c1f37` | ✅ Done |
+
+**Still open — require owner input:**
+
+- **P0.1 dodge duplicate** — both records describe Sir Loin × Broken Tail,
+  but record #2 says "Sold off farm. Buyers named him Dodge. Also sire of
+  Loki." Status #1 = alive, status #2 = alive — but "sold off farm" contradicts.
+  Likely same animal; owner picks canonical version and disposition.
+- **P0.1 daisy duplicate** — these may be TWO DIFFERENT ewes both called
+  Daisy: record #1 dam=half-tail (Little Daisy's actual dam per breeding
+  page), record #2 dam=anna (sold off farm). Owner clarifies whether to
+  merge or keep separate.
+- **P0.5 GG-as-sire (3 lambs)** — `gg-daughter-45`, `lara-daughter-46`,
+  `gg-son-094` all have `sire_id: gg`. GG is an ewe. CLAUDE.md says "All
+  2026 Pen 4 lambs sired by Kelsier" — likely Kelsier for the GG offspring;
+  Lara's daughter sire needs owner ID.
+- **P0.6 tag-31 collision** — `tag-31-ewe-p5` (Pen 5) vs `tag-31-orange-tf`
+  (Tree Fort). Owner picks which retained the original tag.
+- **P1.2 Windlestone breed 95%** — what's the missing 5% on the three
+  Awassi ewes? Could be Unknown / unspecified other / or correct to 100%.
+- **L4 Charlie catch-panel puncture note** — owner provides the date so
+  the catch-panel correction can replace the abscess language in Charlie's
+  health log.
+
 Findings are grouped by severity. Each item lists the evidence command so a
 future session can reproduce. Items mark **STATE** = confirmed gap, **REGRESSION**
 = prior fix needs follow-up, or **STALE-CLAIM** = recorded as done but evidence
