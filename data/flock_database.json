@@ -11120,8 +11120,11 @@
       "last_verified": "2026-05-13"
     },
     {
-      "id": "daisy",
-      "name": "Daisy",
+      "id": "daisy-anna-line",
+      "name": "Daisy (Anna line)",
+      "aliases": [
+        "Daisy"
+      ],
       "tag": null,
       "sex": "ewe",
       "status": "sold",
@@ -11131,8 +11134,10 @@
         "primary": "Sir Loin x Anna offspring",
         "percentages": {}
       },
-      "notes": "Sold off farm. Buyers named her Daisy. Dam of Little Daisy.",
-      "pen": null
+      "notes": "Sold off farm. Buyers named her Daisy. CORRECTION 2026-05-13: prior note claimed she was 'Dam of Little Daisy' — owner clarified Little Daisy is from the half-tail-line Daisy (id=daisy), NOT this animal. This is a different ewe that happened to share the name. Renamed id from 'daisy' to 'daisy-anna-line' to break the duplicate-id collision.",
+      "pen": null,
+      "confidence": "low",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "elsie-triplet-lg-white-ewe",
