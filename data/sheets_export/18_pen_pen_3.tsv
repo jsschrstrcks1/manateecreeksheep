@@ -1,0 +1,10 @@
+Name	ID	Tag	Sex	DOB	Breed Primary	Weight (lb)	Sire ID	Dam ID	Status
+Broken Tail	broken-tail	MC-15	ewe	2018-01-18	St Augustine/Katahdin/BBB	225	sir-loin	half-tail	alive
+Broken Tail Twin Ewe	broken-tail-twin-ewe	MC-2605	ewe	2025-12-31	[UNCLEAR - Broken Tail offspring]			broken-tail	alive
+Charlies Farm Ewe (Pen 3)	charlies-farm-ewe-p3	MC16	ewe		Katahdin/BHD/ABB/Wiltshire Horn	155			alive
+Charlies Farm Ewe Baby	charlies-farm-ewe-baby-p3	MC-2602	ewe	2025-12-06	[UNCLEAR - Charlies Farm Ewe offspring]		charlie-ram	charlies-farm-ewe-p3	alive
+Cocoa's Daughter (by Loki)	cocoas-daughter-by-loki		ewe	2025-09			loki	cocoa	alive
+Gigis 2026 Baby	gigi-2026-baby	MC-2613	ewe	2026-01-10	[Kelsier x Gigi offspring]		kelsier	gg	alive
+Nori	nori	0029	ewe	2023-02-01	ABB/Wiltshire Horn	139			alive
+Charlie	charlie-ram	MC20	ram		Katahdin/BHD/ABB/Wiltshire Horn	232.2			alive
+Nori's Baby Ram (Pen 3)	nori-baby-p3	MC2604	ram	2026-01-10	[UNCLEAR - Nori offspring]			nori	alive
