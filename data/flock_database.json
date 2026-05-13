@@ -2983,8 +2983,6 @@
         "offspring_ids": [
           "bt-lamb-2023",
           "dodge",
-          "mc08-ram",
-          "samson-daughter-p4",
           "broken-tail-twin-ewe",
           "broken-tail-twin-ewe-2"
         ],
@@ -2997,7 +2995,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More), Dodge (by Sir Loin \u2014 inbred), MC08 and samson-daughter-p4 (twins by Samson \u2014 owner-confirmed 2026-04-24), and 2025-12-31 twins. Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3. MC15 yellow tag. Tag 0029. Had twins. FAMACHA consistently good all checks. SOLID.",
+      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More), Dodge (by Sir Loin \u2014 inbred), and 2025-12-31 twins. Lambed 2026-01-20 (twins). CORRECTION 2026-05-13: MC08 and samson-daughter-p4 were previously recorded as Broken Tail's twins by Samson (owner-confirmed 2026-04-24); owner restated 2026-05-13 that both are by Samson out of FM. Removed from this record's offspring_ids and notes; moved to fm.offspring_ids. In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3. MC15 yellow tag. Tag 0029. Had twins. FAMACHA consistently good all checks. SOLID.",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "secondary_tags": [
@@ -3427,7 +3425,9 @@
         "breeding_group": "",
         "offspring_ids": [
           "fm-lamb-2023",
-          "flan"
+          "flan",
+          "mc08-ram",
+          "samson-daughter-p4"
         ],
         "lambing_records": []
       },
@@ -3440,7 +3440,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Tag GA1568-011, 50% Cotswold / 50% Tunis, Tunis Red, 200lbs. DOB 2/14/2021 per breeding page. Acquired 2/27/2021. Sire: Tunis (red), Dam: Cotswold. 2023: FM1 ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days). Eclipse also listed on breeding page as potential 2023 offspring (dec?/April \u2014 may not have survived). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list. Tag 0011 confirmed. Now in Pen 4. No babies as of 2-12-26. Eyes good throughout. Source: notebook card pen 4. Tag 0011. FAMACHA consistently good all checks Feb-Apr 2026. NO babies this season.",
+      "notes": "Tag GA1568-011, 50% Cotswold / 50% Tunis, Tunis Red, 200lbs. DOB 2/14/2021 per breeding page. Acquired 2/27/2021. Sire: Tunis (red), Dam: Cotswold. 2023: FM1 ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days). Eclipse also listed on breeding page as potential 2023 offspring (dec?/April \u2014 may not have survived). 2026: Flan (by Sir Loin, born 2/1/2026). Earlier (by Samson, twins): MC08 (Pen 6 ram) + samson-daughter-p4 (Pen 4 ewe) \u2014 owner-confirmed 2026-05-13 (these had been mis-attributed to Broken Tail on 2026-04-24; corrected 2026-05-13). In Pen 1 (Kaladin group). On weak resistance list. Tag 0011 confirmed. Now in Pen 4. No babies as of 2-12-26. Eyes good throughout. Source: notebook card pen 4. Tag 0011. FAMACHA consistently good all checks Feb-Apr 2026. NO babies this season.",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "do_not_sell": true,
