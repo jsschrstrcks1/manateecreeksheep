@@ -1,0 +1,43 @@
+Name	ID	Tag	Pen	DOB	Breed Primary	Weight (lb)	Lambing Records	Sire ID	Dam ID
+Cocoa	cocoa						0	smore	half-tail
+Daisy (of Sugar)	daisy-of-sugar						0	sir-loin	sugar
+00113	tag-00113-ewe-p1	00113	Pen 1		Cracker/Suffolk/GCN/Katahdin		0		
+0053	nuba-0053	0053	Pen 1		Hampshire/St Augustine/Katahdin	175	0	samson	
+0053's Baby Ewe	nuba-baby-ewe		Pen 1	2026-03-24			0	rocky	nuba-0053
+Azure	azure	20	Pen 1		Hampshire/Suffolk	212.5	0		
+Baby Azure	baby-azure	MC-2610	Pen 1	2026-01-10	[UNCLEAR - Azure offspring]		0		azure
+Charlies Ewe	charlies-ewe	MC2620	Pen 1		Katahdin/BHD/ABB/Wiltshire Horn		0		
+Hair Ewe 0033	tag-0033-hair-ewe	0033	Pen 1		St Augustine/Katahdin	170	0	sir-loin	
+Wool Ewe 0044	tag-0044-wool-ewe	0044	Pen 1		Katahdin/Awassi/East Friesian	170	0		
+Broken Tail	broken-tail	MC-15	Pen 3	2018-01-18	St Augustine/Katahdin/BBB	225	0	sir-loin	half-tail
+Broken Tail Twin Ewe	broken-tail-twin-ewe	MC-2605	Pen 3	2025-12-31	[UNCLEAR - Broken Tail offspring]		0		broken-tail
+Charlies Farm Ewe (Pen 3)	charlies-farm-ewe-p3	MC16	Pen 3		Katahdin/BHD/ABB/Wiltshire Horn	155	0		
+Charlies Farm Ewe Baby	charlies-farm-ewe-baby-p3	MC-2602	Pen 3	2025-12-06	[UNCLEAR - Charlies Farm Ewe offspring]		0	charlie-ram	charlies-farm-ewe-p3
+Cocoa's Daughter (by Loki)	cocoas-daughter-by-loki		Pen 3	2025-09			0	loki	cocoa
+Gigis 2026 Baby	gigi-2026-baby	MC-2613	Pen 3	2026-01-10	[Kelsier x Gigi offspring]		0	kelsier	gg
+Nori	nori	0029	Pen 3	2023-02-01	ABB/Wiltshire Horn	139	0		
+FM	fm	0011	Pen 4	2021-02-14	Cotswold/Tunis	212.5	0	fm-sire	fm-dam
+FM2	fm2-0051	0051	Pen 4		Cotswold/Tunis/St Augustine/Katahdin	185	0	sir-loin	fm
+GG	gg	MC-19	Pen 4		Hampshire/Suffolk	212.5	0		
+Lara	lara	023	Pen 4	2018-01-01	Black Headed Dorper	160	0	lara-sire	lara-dam
+Little Daisy	little-daisy	035	Pen 4	2023-03-23	St Augustine/Katahdin/BBB	145	0	dodge	daisy
+Samson Daughter (Pen 4)	samson-daughter-p4		Pen 4		Hampshire/Cotswold/Tunis		0	samson	fm
+Serendipity	serendipity	MC157	Pen 4	2022-03-25	St Augustine/Babydoll/Jacob/Katahdin	138	0	sir-loin	shaggy
+Serendipity Black Ewe Twin	serendipity-twin-ewe	MC2607	Pen 4	2025-12-30	[Kelsier x Serendipity offspring]		0	kelsier	serendipity
+Small White Ewe (Pen 4)	sm-white-ewe-p4	MC189	Pen 4		St Augustine/Katahdin/BBB	145	0	dodge	daisy
+Elsie	elsie	025	Pen 5	2022-02-08	Katahdin/St Augustine/BBB	175	0	well-done	half-tail
+Elsie Large White Ewe Triplet	elsie-triplet-lg-white-ewe	MC-2618	Pen 5	2026-01-06			0	nori-son	elsie
+Ewe Tag 02	tag-02-ewe-p5	02	Pen 5		[UNCLEAR]		0		
+Ewe Tag 31	tag-31-ewe-p5	31	Pen 5		St Augustine/Katahdin	170	0	sir-loin	
+Fawn Wool Ewe (Pen 5)	fawn-wool-ewe-p5	240006	Pen 5		Wool		0		
+OAV 2222	oav-2222	2222	Pen 5		Katahdin	140	0		
+OAV 2222 Lamb 1 (White-Rust)	oav-2222-lamb-1		Pen 5	2026-04-30			0	nori-son	oav-2222
+OAV 2222 Lamb 2 (White-Rust + Black Dot)	oav-2222-lamb-2		Pen 5	2026-04-30			0	nori-son	oav-2222
+Windlestone Fat Tail 0055	windlestone-0055	0055	Pen 6		Awassi/East Friesian	200.0	0		
+Windlestone Fat Tail 0056	windlestone-0056	0056	Pen 6		Awassi/East Friesian	200.0	0		
+Windlestone Fat Tail 2139	windlestone-2139	2139	Pen 6		Awassi/East Friesian	200.0	0		
+Bambii	bambii	24/0003	Tree Fort				0		
+Bambiis Baby	bambii-baby	MC-2615	Tree Fort	2025-12-28			0		bambii
+Fawn Wool Ewe 114	tag-114-fawn-wool	114	Tree Fort		Cracker/Suffolk/GCN/Katahdin	145	0		
+Orange Tag 31 Ewe (Tree Fort)	tag-31-orange-tf	31	Tree Fort				0		
+White Ewe 0035	tag-0035-white-ewe	0035	Tree Fort		Black Headed Dorper/Katahdin	130	0		

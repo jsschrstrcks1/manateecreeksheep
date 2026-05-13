@@ -1,0 +1,11 @@
+Name	ID	Tag	Sex	DOB	Breed Primary	Weight (lb)	Sire ID	Dam ID	Status
+00113	tag-00113-ewe-p1	00113	ewe		Cracker/Suffolk/GCN/Katahdin				alive
+0053	nuba-0053	0053	ewe		Hampshire/St Augustine/Katahdin	175	samson		alive
+0053's Baby Ewe	nuba-baby-ewe		ewe	2026-03-24			rocky	nuba-0053	alive
+Azure	azure	20	ewe		Hampshire/Suffolk	212.5			alive
+Baby Azure	baby-azure	MC-2610	ewe	2026-01-10	[UNCLEAR - Azure offspring]			azure	alive
+Charlies Ewe	charlies-ewe	MC2620	ewe		Katahdin/BHD/ABB/Wiltshire Horn				alive
+Hair Ewe 0033	tag-0033-hair-ewe	0033	ewe		St Augustine/Katahdin	170	sir-loin		alive
+Wool Ewe 0044	tag-0044-wool-ewe	0044	ewe		Katahdin/Awassi/East Friesian	170			alive
+Charlies Ewe Ram Lamb	charlies-ram-lamb	MC-2619	ram	2025-12-26	Katahdin/Awassi/BHD/ABB/Wiltshire Horn		buck	charlies-ewe	alive
+Orange Tag Ram	orange-tag-00110	00110	ram		Cracker/Suffolk/GCN/Katahdin	287.5			alive

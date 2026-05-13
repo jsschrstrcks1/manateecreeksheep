@@ -1,6 +1,6 @@
 /**
  * Manatee Creek Flock  -  Google Sheets Updater
- * Generated: 2026-05-13 15:03
+ * Generated: 2026-05-13 15:07
  *
  * HOW TO USE:
  * 1. Open your Google Sheet
@@ -88,7 +88,6 @@ function updateActiveFlock(ss) {
     ['Pen 3','1','Gigis 2026 Baby','gigi-2026-baby','MC-2613','ewe','','[Kelsier x Gigi offspring]','','','','','kelsier','gg','','Born 1-10-26. Gigis baby. Multi color ewe. Sire: Kelsier. 5.'],
     ['Pen 3','1','Nori','nori','0029','ewe','139','ABB/Wiltshire Horn','100','0','','hair','','','','Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe wei'],
     ['Tree Fort','2','0035 Baby Ram','tag-0035-baby-ewe','MC-2617','ram_lamb','','','','','','','','tag-0035-white-ewe','','Born 1-2-26. 0035s baby ewe. 7 weeks old 2-20-26. Source: no'],
-    ['Tree Fort','2','Buck','buck','MC-2433','ram','270.8','Katahdin/Awassi/East Friesian','50','50','','mixed','','','','Current Buck in chicken coop. Brother of original Buck who d'],
     ['Tree Fort','2','Orange 31 Ram Lamb','tag-31-orange-tf-ram-lamb','MC2616','ram','','','','','','','','tag-31-orange-tf','','Born 1-2-26. Orange tag 31 ewes baby ram. 7 weeks old 2-20-2'],
     ['Tree Fort','2','Bambii','bambii','24/0003','ewe','','','','','','','','','','In Pen 2 (Sir Loin group) per spiral notebook (authoritative'],
     ['Tree Fort','2','Bambiis Baby','bambii-baby','MC-2615','ewe','','','','','','','','bambii','','Born 12-28-25. Bambiis baby. 7.5 weeks old 2-20-26. Sex UNCL'],
@@ -133,6 +132,7 @@ function updateActiveFlock(ss) {
     ['Pen 1','6','Wool Ewe 0044','tag-0044-wool-ewe','0044','ewe','170','Katahdin/Awassi/East Friesian','50','50','','mixed','','','','Tag 0044. Wool ewe. No babies. Source: notebook card, pen 1.'],
     ['Pen 2','7','Rocky','rocky','140','ram','300','Black Headed Dorper/Awassi/East Friesian','50','50','','mixed','teaser','dorper-ewe-198','YES','Also called Jerkface/Rock/Louises Ram. Tag 140. 44%Awassi/50'],
     ['Pen 2','7','Windlestone Kat/Dorper Ram','windlestone-kat-dorper','','ram','','Katahdin/Dorper','100.0','0','hair','hair','','','','Windlestone Kat/Dorper: 50% top-tier Katahdin x 50% elite Do'],
+    ['Chicken Coop','?','Buck','buck','MC-2433','ram','270.8','Katahdin/Awassi/East Friesian','50','50','','mixed','','','','Current Buck in chicken coop. Brother of original Buck who d'],
     ['','?','Dodge','dodge','','ram','277.3','St Augustine/Katahdin/BBB','100.0','0','','hair','sir-loin','broken-tail','','Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB)'],
     ['','?','Kaladin','kaladin','014','ram','52','Cracker/St Augustine/Babydoll/Jacob/Katahdin','25.0','75.0','','wool','smore','serendipity','','Living Kaladin tag 014. DOB 5/11/2023 per extension service.'],
     ['','?','Loki','loki','','ram','','','','','','','dodge','daisy-of-sugar','',''],
@@ -241,7 +241,7 @@ function updateRamEval(ss) {
   var data = [
     ['Ram','ID','Pen','Stage','Offspring FAMACHA (40%)','Offspring Shed % (25%)','Offspring ADG (15%)','Conception Rate (10%)','Offspring Survival (10%)','TOTAL','ACTION'],
     ['Rocky','rocky','Pen 2','7','','','','','','',''],
-    ['Buck','buck','Tree Fort','2','','','','','','',''],
+    ['Buck','buck','Chicken Coop','?','','','','','','',''],
     ['Merrieweather','merrie','Pen 4','3','','','','','','',''],
     ['Charlies Ewe Ram Lamb','charlies-ram-lamb','Pen 1','6','','','','','','',''],
     ['Orange Tag Ram','orange-tag-00110','Pen 1','6','','','','','','',''],
