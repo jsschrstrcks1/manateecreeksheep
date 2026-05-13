@@ -21,7 +21,7 @@ DB_PATH = REPO_ROOT / "data" / "flock_database.json"
 
 REQUIRED_FIELDS = ["id", "name", "sex", "status", "confidence"]
 VALID_SEX = ["ram", "ewe", "ram_lamb", "ewe_lamb", "wether", "unknown"]
-VALID_STATUS = ["alive", "deceased", "sold", "culled", "unknown"]
+VALID_STATUS = ["alive", "deceased", "sold", "culled", "gifted", "unknown"]
 VALID_CONFIDENCE = ["high", "medium", "low"]
 
 
