@@ -78,14 +78,14 @@
       "pen": "Pen 3",
       "stage": "",
       "scores": {
-        "offspring_avg_famacha": 2.5,
+        "offspring_avg_famacha": null,
         "offspring_shed_pct": null,
         "offspring_avg_daily_gain": null,
         "conception_rate": null,
         "offspring_survival_90d": null
       },
-      "total_score": 8.0,
-      "action": "Keep",
+      "total_score": null,
+      "action": "",
       "status": "alive",
       "archived": false
     },
