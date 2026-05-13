@@ -26,17 +26,25 @@ All P0/P1 validator issues from this audit closed.
 
 **Open work — bigger plan-doc phases** (per MANATEE_CREEK_REDESIGN_PLAN.md):
 
-- **L5** — `export_to_sheets.py` covers 7 tabs, target is 26
-- **L6** — `google-sheets-sync` MCP not wired
-- **L7** — annual eval persistence (`data/annual_evals/` doesn't exist)
-- **L8** — `breeding_policy.referenced_research[]` empty; 11 investigation files orphan
-- **L9** — cognitive memory (verify state from ken/ side)
-- **L10** — `data/processed/` directory doesn't exist; full image set unprocessed
-- **L11** — 2026 drought cull list never written
-- **L12** — no `docs/NOTEBOOK_CARD_WORKFLOW.md` SOP for ongoing card transcription
-- **L2 follow-up** — verify BT Twin Ewe 2 White against April 6 auction (still not located in DB)
-- **P4.1** — `sm-white-ewe-p4` (alive Pen 4, confidence low) — needs owner ID
-- **P4.3** — 7 lambing records with unknown sire (Broken Tail 1-20, Tag 33 1-27, Zara 1-28, Azure 1-29, Gigi 2-5, Tag 31 2-13, OAV 2222 4-30)
+| L# | Item | Status | Commit / file |
+|----|------|--------|---------------|
+| L5 | export to 26 tabs + --dry-run | ✅ Done | `8820e12` — 25 TSV tabs + Apps Script |
+| L6 | google-sheets-sync MCP wired | ⏸ Blocked | needs GCP project credentials |
+| L7 | annual eval persistence (data/annual_evals/) | ✅ Done | `384fa47` |
+| L8 | investigations -> breeding_policy.referenced_research | ✅ Done | `d3f72fc` |
+| L9 | cognitive memory protected entries | ✅ Done | 7 entries in ~/.memory/sheep/ |
+| L10 | data/processed/ + parity validator | ✅ Done | `b6c9472` (processed/ gitignored) |
+| L11 | 2026 drought cull list | ✅ Done | `d319b84` — data/2026_drought_cull_list.md |
+| L12 | docs/NOTEBOOK_CARD_WORKFLOW.md SOP | ✅ Done | `d354c6f` |
+| L2 follow-up | BT Twin Ewe 2 + Elsie sm-white triplet | ✅ Done | BT-2 deceased 2026-04-22; Elsie sold 2026-04-26 |
+
+**Still open — require owner input or external setup:**
+
+- **L6** — MCP wiring needs GOOGLE_CLOUD_PROJECT credentials + service account; owner action required to complete the round-trip sheet ↔ JSON sync.
+- **P4.1** — `sm-white-ewe-p4` (alive Pen 4, confidence low) — needs owner ID.
+- **P4.3** — 7 lambing records with unknown sire (Broken Tail 1-20, Tag 33 1-27, Zara 1-28, Azure 1-29, Gigi 2-5, Tag 31 2-13, OAV 2222 4-30); CLAUDE.md says Pen 4 lambs are all Kelsier, others need confirmation.
+- **Owner action from L11** — apply cull/auction decisions from `data/2026_drought_cull_list.md` once you've reviewed; update status / status_date / status_notes per animal.
+- **Owner action from L7** — fill in annual eval scores in the Google Sheet (or directly in `data/annual_evals/2026_*_eval.json`); they persist across re-runs.
 
 Findings are grouped by severity. Each item lists the evidence command so a
 future session can reproduce. Items mark **STATE** = confirmed gap, **REGRESSION**
