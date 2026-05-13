@@ -135,12 +135,50 @@ def validate_pen_assignments(db):
     return warnings
 
 
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".JPG", ".JPEG", ".PNG"}
+
+
+def validate_processed_parity():
+    """Every source image at the repo root should have a ≤1800px processed
+    counterpart at data/processed/<stem>.jpeg.
+
+    Closes L10 from MANATEE_CREEK_REDESIGN_PLAN.md. Run scripts/process_images.py
+    to fill any gaps reported here.
+    """
+    warnings = []
+    processed_dir = REPO_ROOT / "data" / "processed"
+    if not processed_dir.exists():
+        warnings.append(
+            "WARNING: data/processed/ does not exist — run scripts/process_images.py"
+        )
+        return warnings
+
+    source_imgs = []
+    for p in REPO_ROOT.iterdir():
+        if p.is_file() and p.suffix in IMAGE_EXTENSIONS:
+            source_imgs.append(p)
+
+    missing = []
+    for src in source_imgs:
+        target = processed_dir / (src.stem + ".jpeg")
+        if not target.exists():
+            missing.append(src.name)
+
+    if missing:
+        warnings.append(
+            f"WARNING: {len(missing)} source images lack a processed counterpart "
+            f"(run scripts/process_images.py). First few: {missing[:5]}"
+        )
+    return warnings
+
+
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="Validate flock database")
     parser.add_argument("--strict", action="store_true", help="Treat warnings as errors")
     parser.add_argument("--check-references", action="store_true", help="Only check sire/dam references")
     parser.add_argument("--check-images", action="store_true", help="Check image file references")
+    parser.add_argument("--check-processed-parity", action="store_true", help="Check every source image has a processed counterpart at ≤1800px")
     args = parser.parse_args()
 
     db = load_database()
@@ -164,6 +202,8 @@ def main():
                 processed_path = REPO_ROOT / "data" / "processed" / (Path(ref).stem + ".jpeg")
                 if not img_path.exists() and not processed_path.exists():
                     all_issues.append(f"WARNING [{sheep['id']}]: Image reference not found: {ref}")
+    elif args.check_processed_parity:
+        all_issues.extend(validate_processed_parity())
     else:
         all_issues.extend(validate_required_fields(sheep_list))
         all_issues.extend(validate_breed_percentages(sheep_list))
