@@ -6,40 +6,37 @@ Audit of prior-thread work in `manateecreeksheep`. Skills applied:
 
 ## Sweep Progress — 2026-05-13 session 2
 
-Validator state after sweep: **2 errors, 7 warnings** (was 21 errors, 7 warnings).
-Both remaining errors are the dodge/daisy duplicate-id records that need
-owner judgement to resolve.
+Validator state after sweep: **0 errors, 0 warnings** (was 21 errors, 7 warnings).
+All P0/P1 validator issues from this audit closed.
 
 | Item | Commit | Status |
 |------|--------|--------|
 | P0.2 — MC08/samson-daughter-p4 dam correction (bidirectional offspring_ids) | `14a6334` | ✅ Done |
 | P3.2 — null pen on sold 0033 twin rams | `dc9aab3` | ✅ Done |
-| P1.1 — add confidence to 16 of 20 missing records | `bc174ac` | ✅ Done (4 deferred) |
+| P1.1 — add confidence to 16 of 20 missing records | `bc174ac` | ✅ Done |
 | P0.3 — null charlies-ewe.dam_id (broken nori-line-f2 ref) | `efc3600` | ✅ Done |
 | P0.4 — add 'gifted' to validator VALID_STATUS + fix elsie record | `754a11c` | ✅ Done |
 | P1.3 — fix IMG_0661 broken ref (missing .JPG ext) | `25c1f37` | ✅ Done |
+| P0.5 — fix GG-as-sire on 3 lambs (Kelsier is the sire) | `20e7b20` | ✅ Done |
+| P0.1 dodge — merge duplicate (same animal, sold to Danny) | `60b9a00` | ✅ Done |
+| P0.1 daisy — split duplicates (two different ewes; Little Daisy is from half-tail line) | `29976fc` | ✅ Done |
+| P1.2 — Windlestone ewes: missing 5% is East Friesian | `2353de0` | ✅ Done |
+| L4 — Charlie: catch-panel puncture (NOT CL), resolved ~2 weeks | `07de324` | ✅ Done |
+| P0.6 — tag-31 collision: add tag_color field, validator now keys on (tag,color) | `e8cff46` | ✅ Done |
 
-**Still open — require owner input:**
+**Open work — bigger plan-doc phases** (per MANATEE_CREEK_REDESIGN_PLAN.md):
 
-- **P0.1 dodge duplicate** — both records describe Sir Loin × Broken Tail,
-  but record #2 says "Sold off farm. Buyers named him Dodge. Also sire of
-  Loki." Status #1 = alive, status #2 = alive — but "sold off farm" contradicts.
-  Likely same animal; owner picks canonical version and disposition.
-- **P0.1 daisy duplicate** — these may be TWO DIFFERENT ewes both called
-  Daisy: record #1 dam=half-tail (Little Daisy's actual dam per breeding
-  page), record #2 dam=anna (sold off farm). Owner clarifies whether to
-  merge or keep separate.
-- **P0.5 GG-as-sire (3 lambs)** — `gg-daughter-45`, `lara-daughter-46`,
-  `gg-son-094` all have `sire_id: gg`. GG is an ewe. CLAUDE.md says "All
-  2026 Pen 4 lambs sired by Kelsier" — likely Kelsier for the GG offspring;
-  Lara's daughter sire needs owner ID.
-- **P0.6 tag-31 collision** — `tag-31-ewe-p5` (Pen 5) vs `tag-31-orange-tf`
-  (Tree Fort). Owner picks which retained the original tag.
-- **P1.2 Windlestone breed 95%** — what's the missing 5% on the three
-  Awassi ewes? Could be Unknown / unspecified other / or correct to 100%.
-- **L4 Charlie catch-panel puncture note** — owner provides the date so
-  the catch-panel correction can replace the abscess language in Charlie's
-  health log.
+- **L5** — `export_to_sheets.py` covers 7 tabs, target is 26
+- **L6** — `google-sheets-sync` MCP not wired
+- **L7** — annual eval persistence (`data/annual_evals/` doesn't exist)
+- **L8** — `breeding_policy.referenced_research[]` empty; 11 investigation files orphan
+- **L9** — cognitive memory (verify state from ken/ side)
+- **L10** — `data/processed/` directory doesn't exist; full image set unprocessed
+- **L11** — 2026 drought cull list never written
+- **L12** — no `docs/NOTEBOOK_CARD_WORKFLOW.md` SOP for ongoing card transcription
+- **L2 follow-up** — verify BT Twin Ewe 2 White against April 6 auction (still not located in DB)
+- **P4.1** — `sm-white-ewe-p4` (alive Pen 4, confidence low) — needs owner ID
+- **P4.3** — 7 lambing records with unknown sire (Broken Tail 1-20, Tag 33 1-27, Zara 1-28, Azure 1-29, Gigi 2-5, Tag 31 2-13, OAV 2222 4-30)
 
 Findings are grouped by severity. Each item lists the evidence command so a
 future session can reproduce. Items mark **STATE** = confirmed gap, **REGRESSION**
