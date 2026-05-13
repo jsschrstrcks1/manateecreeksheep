@@ -10956,6 +10956,7 @@
       "id": "tag-31-ewe-p5",
       "name": "Ewe Tag 31",
       "tag": "31",
+      "tag_color": "yellow",
       "sex": "ewe",
       "pen": "Pen 5",
       "status": "alive",
@@ -12176,11 +12177,12 @@
       "id": "tag-31-orange-tf",
       "name": "Orange Tag 31 Ewe (Tree Fort)",
       "tag": "31",
+      "tag_color": "orange",
       "sex": "ewe",
       "pen": "Tree Fort",
       "status": "alive",
       "color_markings": "Wool w/ 2 brown socks on hind legs, orange tag",
-      "notes": "Tag 31, orange tag. DIFFERENT animal from Tag 31 in Pen 5. Came from another farm. Wool ewe. Single baby (ram, born 1-2-26). Source: notebook card TF.",
+      "notes": "Tag 31 (ORANGE tag — different from Pen 5's yellow Tag 31). Came from another farm (owner believes Charlie's farm, per 2026-05-13). Both animals kept their original tags; the color difference is the field-level disambiguator. Wool ewe. Single baby (ram, born 1-2-26). Source: notebook card TF.",
       "health": {
         "famacha_history": [
           {

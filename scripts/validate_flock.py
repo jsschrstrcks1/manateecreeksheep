@@ -94,16 +94,26 @@ def validate_references(sheep_list):
 
 
 def validate_tag_uniqueness(sheep_list):
-    """Check no two living sheep share a tag."""
+    """Check no two living sheep share a (tag, tag_color) pair.
+
+    Some animals arrive from other farms wearing tags that happen to match
+    a number already used on the property. When the tag colors differ, the
+    animals are still distinguishable in the field, so the pair (tag,
+    tag_color) is the real uniqueness key. tag_color defaults to 'yellow'
+    (the on-property default) when not set.
+    """
     warnings = []
-    living_tags = Counter()
+    living_pairs = Counter()
     for sheep in sheep_list:
         if sheep.get("status") == "alive" and sheep.get("tag"):
-            living_tags[sheep["tag"]] += 1
+            color = sheep.get("tag_color", "yellow")
+            living_pairs[(sheep["tag"], color)] += 1
 
-    for tag, count in living_tags.items():
+    for (tag, color), count in living_pairs.items():
         if count > 1:
-            warnings.append(f"WARNING: Tag '{tag}' is shared by {count} living sheep")
+            warnings.append(
+                f"WARNING: Tag '{tag}' ({color}) is shared by {count} living sheep"
+            )
 
     return warnings
 
