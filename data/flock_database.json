@@ -11601,15 +11601,16 @@
       "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
-        "primary": "Awassi (almost pure)",
+        "primary": "Awassi/East Friesian",
         "percentages": {
-          "Awassi": 95
+          "Awassi": 95,
+          "East Friesian": 5
         },
         "coat_type": "wool",
-        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi.",
+        "notes": "Windlestone Ranch fat tail ewes. Awassi + East Friesian cross (owner-confirmed 2026-05-13). Same Windlestone-origin Awassi/EF base as Buck (Katahdin added) and Rocky (Dorper added). 95/5 split inferred from prior 'almost full blooded Awassi' note plus owner's 2026-05-13 confirmation of EF as the second component.",
         "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 95,
+        "wool_percentage": 100,
         "coat_prediction": "wool"
       },
       "color_markings": "Big ewe w nice horns. Heavy cream/buff Awassi fat-tail fleece. Brown/reddish face. Prominent dark curled horns — the largest horns of the three Pen-6 Windlestones. Biggest frame of the three. Tag 2139.",
@@ -11745,15 +11746,16 @@
       "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
-        "primary": "Awassi (almost pure)",
+        "primary": "Awassi/East Friesian",
         "percentages": {
-          "Awassi": 95
+          "Awassi": 95,
+          "East Friesian": 5
         },
         "coat_type": "wool",
-        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi.",
+        "notes": "Windlestone Ranch fat tail ewes. Awassi + East Friesian cross (owner-confirmed 2026-05-13). Same Windlestone-origin Awassi/EF base as Buck (Katahdin added) and Rocky (Dorper added). 95/5 split inferred from prior 'almost full blooded Awassi' note plus owner's 2026-05-13 confirmation of EF as the second component.",
         "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 95,
+        "wool_percentage": 100,
         "coat_prediction": "wool"
       },
       "color_markings": "Med thick long horns, nice to handle. Heavy cream/buff Awassi fat-tail fleece. Brown face. Curled horns — moderate size (between 2139's big and 0055's tiny). Orange/pink ear tag visible in 2026-04-24 photo. Tag 0056.",
@@ -11887,15 +11889,16 @@
       "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
-        "primary": "Awassi (almost pure)",
+        "primary": "Awassi/East Friesian",
         "percentages": {
-          "Awassi": 95
+          "Awassi": 95,
+          "East Friesian": 5
         },
         "coat_type": "wool",
-        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi.",
+        "notes": "Windlestone Ranch fat tail ewes. Awassi + East Friesian cross (owner-confirmed 2026-05-13). Same Windlestone-origin Awassi/EF base as Buck (Katahdin added) and Rocky (Dorper added). 95/5 split inferred from prior 'almost full blooded Awassi' note plus owner's 2026-05-13 confirmation of EF as the second component.",
         "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 95,
+        "wool_percentage": 100,
         "coat_prediction": "wool"
       },
       "color_markings": "Tiny/sm horns, DARK LEGS. Cream/buff Awassi fat-tail fleece, brown face, and distinctly DARK BROWN legs — the single clearest visual tell among the Pen-6 Windlestones. Horns small/nubby. Tag 0055.",
