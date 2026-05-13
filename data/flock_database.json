@@ -9348,7 +9348,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "No tag (now tagged, number TBD). Charlies Ram. Horned. Had jaw abscess — lanced 2-27-26, treated with 4.5mL Nuflor 2-28-26 at 108.2 lbs. Flushed abscess. Source: notebook card pen 3. Sexually aggressive, dominant ram in Pen 3. Likely siring lambs in this pen. Needs to move to a new pen but has not been moved yet. Breed: BHD x Nori offspring bred to Katahdin. Charlie bought from friend Charlie who bred BHD to Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including this ram. MC20 yellow tag. Horned. Jaw abscess lanced 2-27, Nuflor 4.5mL, 105.2F fever. Flushed. Resolved by 3-9. FAMACHA consistently good. Monitor for CL.",
+      "notes": "No tag (now tagged, number TBD). Charlies Ram. Horned. CATCH-PANEL PUNCTURE on left jaw (NOT CL) — bump first noted 2-13-26, lanced 2-27-26, treated with 4.5mL Nuflor 2-28-26 at 108.2 lbs (105.2°F fever), flushed. Resolved in ~2 weeks (eyes/chin good by 3-13-26, owner-confirmed 2026-05-13). Source: notebook card pen 3. Sexually aggressive, dominant ram in Pen 3. Likely siring lambs in this pen. Needs to move to a new pen but has not been moved yet. Breed: BHD x Nori offspring bred to Katahdin. Charlie bought from friend Charlie who bred BHD to Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including this ram. MC20 yellow tag. Horned. FAMACHA consistently good.",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 1 pen 3"
@@ -9496,7 +9496,13 @@
         "confirmed_positions": [
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): at the hay cage (was previously misread by Claude as a black-faced animal — owner correction 2026-04-26: this is Charlie, NOT Nori)"
         ]
-      }
+      },
+      "notes_history": [
+        {
+          "date": "2026-05-13",
+          "note": "L4 close-out: catch-panel puncture vs CL clarification. Bump on left jaw appeared 2-13-26, soft by 2-26, lanced 2-27, Nuflor 4.5mL on 2-28 (105.2°F fever). Owner-confirmed 2026-05-13 the wound was a catch-panel puncture — NOT caseous lymphadenitis (CL). Resolved in ~2 weeks: eyes/chin good by 3-13-26. Removed 'Monitor for CL' wording from top-level notes since the original cause is identified. Health log already had this annotated in the 2026-02-28 famacha entry."
+        }
+      ]
     },
     {
       "id": "charlies-farm-ewe-p3",
