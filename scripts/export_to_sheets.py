@@ -225,42 +225,83 @@ def export_breed_reference(breeds):
     write_tsv("04_breed_reference.tsv", headers, rows)
 
 
-def export_annual_eval_template(db):
-    """Generate blank scoring templates for annual review."""
+def export_annual_eval_template(db, year=None):
+    """Export annual eval TSVs from the persisted per-year JSONs.
 
-    # Ram evaluation template
+    System of record: data/annual_evals/<year>_(ram|ewe)_eval.json.
+    Run scripts/run_annual_eval.py to (re)generate or merge the JSONs against
+    the current flock_database.json before re-exporting. Owner-typed scores
+    are preserved across re-runs.
+
+    Closes L7 from MANATEE_CREEK_REDESIGN_PLAN.md.
+    """
+    from datetime import datetime
+    from pathlib import Path
+
+    if year is None:
+        year = datetime.now().year
+
+    repo_root = Path(__file__).parent.parent
+    ram_json = repo_root / "data" / "annual_evals" / f"{year}_ram_eval.json"
+    ewe_json = repo_root / "data" / "annual_evals" / f"{year}_ewe_eval.json"
+
+    if not ram_json.exists() or not ewe_json.exists():
+        print(f"  [warn] {year} eval JSONs missing — run: python3 scripts/run_annual_eval.py --year {year}")
+        return
+
+    # Ram TSV — columns mirror RAM_SCORE_KEYS in run_annual_eval.py
+    with open(ram_json) as f:
+        ram_doc = json.load(f)
     headers = [
-        "Ram Name", "Ram ID", "Pen", "Stage",
+        "Ram Name", "Ram ID", "Pen", "Stage", "Status",
         "Offspring Avg FAMACHA (40%)", "Offspring Shed % (25%)",
         "Offspring Avg Daily Gain (15%)", "Conception Rate (10%)",
         "Offspring Survival 90d (10%)",
         "TOTAL SCORE", "ACTION (Keep/Demote/Replace/Cull)"
     ]
     rows = []
-    for s in db["sheep"]:
-        if s.get("status") == "alive" and s.get("sex") in ("ram", "ram_lamb"):
-            if s.get("pen") and s["pen"] != "Goose Pen":
-                rows.append([
-                    s["name"], s["id"], s.get("pen", ""), "",
-                    "", "", "", "", "", "", ""
-                ])
+    for a in ram_doc.get("animals", []):
+        if a.get("archived"):
+            continue
+        sc = a.get("scores", {})
+        rows.append([
+            a.get("name", ""), a["id"], a.get("pen", ""), a.get("stage", ""), a.get("status", ""),
+            sc.get("offspring_avg_famacha") or "",
+            sc.get("offspring_shed_pct") or "",
+            sc.get("offspring_avg_daily_gain") or "",
+            sc.get("conception_rate") or "",
+            sc.get("offspring_survival_90d") or "",
+            a.get("total_score") or "",
+            a.get("action", ""),
+        ])
     write_tsv("05_ram_annual_eval.tsv", headers, rows)
 
-    # Ewe evaluation template
+    # Ewe TSV — columns mirror EWE_SCORE_KEYS in run_annual_eval.py
+    with open(ewe_json) as f:
+        ewe_doc = json.load(f)
     headers = [
-        "Ewe Name", "Ewe ID", "Pen", "Stage",
+        "Ewe Name", "Ewe ID", "Pen", "Stage", "Status",
         "Own FAMACHA Avg (30%)", "Deworming Events (20%)",
         "Shedding Score 1-5 (15%)", "Lambing Success (15%)",
         "Offspring FAMACHA Avg (10%)", "BCS (10%)",
         "TOTAL SCORE", "ACTION (Advance/Hold/Drop/Cull)"
     ]
     rows = []
-    for s in db["sheep"]:
-        if s.get("status") == "alive" and s.get("sex") in ("ewe", "ewe_lamb"):
-            rows.append([
-                s["name"], s["id"], s.get("pen", ""), "",
-                "", "", "", "", "", "", "", ""
-            ])
+    for a in ewe_doc.get("animals", []):
+        if a.get("archived"):
+            continue
+        sc = a.get("scores", {})
+        rows.append([
+            a.get("name", ""), a["id"], a.get("pen", ""), a.get("stage", ""), a.get("status", ""),
+            sc.get("own_famacha_avg") or "",
+            sc.get("deworming_events") or "",
+            sc.get("shedding_score") or "",
+            sc.get("lambing_success") or "",
+            sc.get("offspring_famacha") or "",
+            sc.get("bcs") or "",
+            a.get("total_score") or "",
+            a.get("action", ""),
+        ])
     write_tsv("06_ewe_annual_eval.tsv", headers, rows)
 
 

@@ -1,0 +1,263 @@
+{
+  "year": 2026,
+  "kind": "ram",
+  "created": "2026-05-13T15:02:53Z",
+  "last_updated": "2026-05-13T15:03:35Z",
+  "animals": [
+    {
+      "id": "charlies-ram-lamb",
+      "name": "Charlies Ewe Ram Lamb",
+      "pen": "Pen 1",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "orange-tag-00110",
+      "name": "Orange Tag Ram",
+      "pen": "Pen 1",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "rocky",
+      "name": "Rocky",
+      "pen": "Pen 2",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "windlestone-kat-dorper",
+      "name": "Windlestone Kat/Dorper Ram",
+      "pen": "Pen 2",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "charlie-ram",
+      "name": "Charlie",
+      "pen": "Pen 3",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": 2.5,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": 8.0,
+      "action": "Keep",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "nori-baby-p3",
+      "name": "Nori's Baby Ram (Pen 3)",
+      "pen": "Pen 3",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "fm2-ram-lamb",
+      "name": "FM2 Ram Lamb",
+      "pen": "Pen 4",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "gigi-2025-ram",
+      "name": "Gigis 2025 Ram",
+      "pen": "Pen 4",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "merrie",
+      "name": "Merrieweather",
+      "pen": "Pen 4",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "serendipity-twin-ram",
+      "name": "Serendipity White Ram Twin",
+      "pen": "Pen 4",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "angus",
+      "name": "Angus",
+      "pen": "Pen 5",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "mc08-ram",
+      "name": "MC08",
+      "pen": "Pen 6",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "tag-0035-baby-ewe",
+      "name": "0035 Baby Ram",
+      "pen": "Tree Fort",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "buck",
+      "name": "Buck",
+      "pen": "Tree Fort",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    },
+    {
+      "id": "tag-31-orange-tf-ram-lamb",
+      "name": "Orange 31 Ram Lamb",
+      "pen": "Tree Fort",
+      "stage": "",
+      "scores": {
+        "offspring_avg_famacha": null,
+        "offspring_shed_pct": null,
+        "offspring_avg_daily_gain": null,
+        "conception_rate": null,
+        "offspring_survival_90d": null
+      },
+      "total_score": null,
+      "action": "",
+      "status": "alive",
+      "archived": false
+    }
+  ]
+}
