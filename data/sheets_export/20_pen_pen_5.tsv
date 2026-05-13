@@ -1,0 +1,10 @@
+Name	ID	Tag	Sex	DOB	Breed Primary	Weight (lb)	Sire ID	Dam ID	Status
+Elsie	elsie	025	ewe	2022-02-08	Katahdin/St Augustine/BBB	175	well-done	half-tail	alive
+Elsie Large White Ewe Triplet	elsie-triplet-lg-white-ewe	MC-2618	ewe	2026-01-06			nori-son	elsie	alive
+Ewe Tag 02	tag-02-ewe-p5	02	ewe		[UNCLEAR]				alive
+Ewe Tag 31	tag-31-ewe-p5	31	ewe		St Augustine/Katahdin	170	sir-loin		alive
+Fawn Wool Ewe (Pen 5)	fawn-wool-ewe-p5	240006	ewe		Wool				alive
+OAV 2222	oav-2222	2222	ewe		Katahdin	140			alive
+OAV 2222 Lamb 1 (White-Rust)	oav-2222-lamb-1		ewe_lamb	2026-04-30			nori-son	oav-2222	alive
+OAV 2222 Lamb 2 (White-Rust + Black Dot)	oav-2222-lamb-2		ewe_lamb	2026-04-30			nori-son	oav-2222	alive
+Angus	angus		ram		Katahdin/Dorper/Awassi				alive

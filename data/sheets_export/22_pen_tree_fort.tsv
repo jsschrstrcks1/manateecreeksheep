@@ -1,0 +1,8 @@
+Name	ID	Tag	Sex	DOB	Breed Primary	Weight (lb)	Sire ID	Dam ID	Status
+Bambii	bambii	24/0003	ewe						alive
+Bambiis Baby	bambii-baby	MC-2615	ewe	2025-12-28				bambii	alive
+Fawn Wool Ewe 114	tag-114-fawn-wool	114	ewe		Cracker/Suffolk/GCN/Katahdin	145			alive
+Orange Tag 31 Ewe (Tree Fort)	tag-31-orange-tf	31	ewe						alive
+White Ewe 0035	tag-0035-white-ewe	0035	ewe		Black Headed Dorper/Katahdin	130			alive
+Orange 31 Ram Lamb	tag-31-orange-tf-ram-lamb	MC2616	ram	2026-01-02				tag-31-orange-tf	alive
+0035 Baby Ram	tag-0035-baby-ewe	MC-2617	ram_lamb	2026-01-02				tag-0035-white-ewe	alive

@@ -1,0 +1,105 @@
+Animal ID	Name	Pen	Status	Current Weight (lb)	Estimated	30d Weight	60d Weight	90d Weight	ADG (lb/day)
+dodge	Dodge		alive	277.3	Y				
+kaladin	Kaladin		alive	52					
+buck	Buck	Chicken Coop	alive	270.8	Y				
+nuba-0053	0053	Pen 1	alive	175	Y				
+azure	Azure	Pen 1	alive	212.5					
+tag-0033-hair-ewe	Hair Ewe 0033	Pen 1	alive	170	Y				
+orange-tag-00110	Orange Tag Ram	Pen 1	alive	287.5					
+tag-0044-wool-ewe	Wool Ewe 0044	Pen 1	alive	170	Y				
+rocky	Rocky	Pen 2	alive	300					
+broken-tail	Broken Tail	Pen 3	alive	225					
+charlie-ram	Charlie	Pen 3	alive	232.2	Y				
+charlies-farm-ewe-p3	Charlies Farm Ewe (Pen 3)	Pen 3	alive	155	Y				
+nori	Nori	Pen 3	alive	139					
+fm	FM	Pen 4	alive	212.5					
+fm2-0051	FM2	Pen 4	alive	185	Y				
+gg	GG	Pen 4	alive	212.5					
+lara	Lara	Pen 4	alive	160					
+little-daisy	Little Daisy	Pen 4	alive	145					
+merrie	Merrieweather	Pen 4	alive	200					
+serendipity	Serendipity	Pen 4	alive	138					
+sm-white-ewe-p4	Small White Ewe (Pen 4)	Pen 4	alive	145	Y				
+elsie	Elsie	Pen 5	alive	175					
+tag-31-ewe-p5	Ewe Tag 31	Pen 5	alive	170	Y				
+oav-2222	OAV 2222	Pen 5	alive	140					
+mc08-ram	MC08	Pen 6	alive	190	Y				
+windlestone-0055	Windlestone Fat Tail 0055	Pen 6	alive	200.0	Y				
+windlestone-0056	Windlestone Fat Tail 0056	Pen 6	alive	200.0	Y				
+windlestone-2139	Windlestone Fat Tail 2139	Pen 6	alive	200.0	Y				
+tag-114-fawn-wool	Fawn Wool Ewe 114	Tree Fort	alive	145	Y				
+tag-0035-white-ewe	White Ewe 0035	Tree Fort	alive	130	Y				
+tag-430-2079	430-2079		deceased	335					
+anna	Anna		deceased	175					
+annas-big-one	Anna's Big One		deceased	200					
+bt-lamb-2023	BT's Lamb (2023)		unknown	247.9	Y				
+baby	Baby		deceased	165.3	Y				
+bambi	Bambi		deceased	81					
+banana-split	Banana Split		unknown	235					
+banana-split-baby	Banana Split Baby		unknown	282.2	Y				
+boots	Boots		culled	130					
+brown-knee	Brown Knee		unknown	150					
+bsoe	Bsoe		deceased	185					
+bsoed	Bsoed		deceased	175					
+bsoed-lamb-2023	Bsoed's Lamb (2023)		unknown	249.3	Y				
+buck-original	Buck (Original)		deceased	212					
+charlies-ram	Charlie's Ram		deceased	36					
+circle-tail	Circle Tail		deceased	64					
+daisy	Daisy		unknown	172.3	Y				
+daisys-daughter-1	Daisy's Daughter 1		unknown	173.9	Y				
+daisys-daughter-2	Daisy's Daughter 2		deceased	173.9	Y				
+dorper-ewe-198	Dorper Ewe 198		unknown	128.0	Y				
+dorpy	Dorpy		deceased	133.3	Y				
+fm-dam	FM's Dam (Cotswold)		unknown	200.0	Y				
+fm-lamb-2023	FM's Lamb (2023)		deceased	179.4	Y				
+fm-sire	FM's Sire (Tunis Red)		unknown	275.0	Y				
+fm1	FM1		deceased	67					
+fm2	FM2		unknown	179.4	Y				
+fl51870-0502	Fl51870-0502		deceased	286					
+fleecity	Fleecity		unknown	100					
+fox-tail	Fox Tail		deceased	118					
+bk1	Foxtail 1		unknown	142.0	Y				
+bk2	Foxtail 2		unknown	142.0	Y				
+frazzle	Frazzle		deceased	175					
+gm-twin1-2024	GM Twin 1 (2024)		deceased	146.9	Y				
+gm-twin2-2024	GM Twin 2 (2024)		deceased	146.9	Y				
+gertrude-moon	Gertrude Moon		deceased	144					
+gertrude-moon-dam	Gertrude Moon's Dam		unknown	115.0	Y				
+gertrude-moon-sire	Gertrude Moon's Sire		unknown	137.5	Y				
+ht-ext-lamb-2023	HT's Extension Lamb (2023)		unknown	241.4	Y				
+half-tail	Half Tail		deceased	180					
+ht-samson-2024	Half Tail's Lamb (2024)		unknown	183.0	Y				
+haylee-lawson	Haylee Lawson		deceased	175					
+hersheys	Hersheys		deceased	150					
+kelsier	Kelsier		deceased	250					
+kelsiers-sister	Kelsier's Sister		deceased	150					
+little-song	Little Song		deceased	60					
+new-black-belly-ram	New Black Belly Ram		deceased	137.5	Y				
+nori-son	NoriSon		sold	251.2					
+oliver	Oliver		unknown	153.4	Y				
+patches	Patches		deceased	66					
+pippin	Pippin		sold	80					
+pretzel	Pretzel		deceased	130					
+razzle	Razzle		deceased	125					
+smore	S'More		deceased	200					
+sam	Sam		deceased	165					
+samson	Samson		deceased	400					
+sb1-crown	Sb1 (Crown)		deceased	68					
+sb2-all-black	Sb2 (All Black)		deceased	66					
+serendipity-ram-2024	Serendipity's Ram (2024)		deceased	255.3	Y				
+shaggy	Shaggy		deceased	140					
+shaggy-1	Shaggy1		unknown	181.2	Y				
+shaggy-2	Shaggy2		unknown	181.2	Y				
+sir-loin	Sir Loin		deceased	309					
+skitters	Skitters		deceased	176					
+spicy	Spicy		unknown	153.4	Y				
+stew	Stew		unknown	235.0	Y				
+sugar	Sugar		deceased	224					
+tag-31-ewe	Tag 31		deceased	169.9	Y				
+tag-34-pen4	Tag 34 (Pen 4)		deceased	174.1	Y				
+tag-35-ewe	Tag 35		unknown	177.6	Y				
+teaser	Teaser		unknown	304.0	Y				
+trouble	Trouble		deceased	180					
+trouble-lamb-2023	Trouble's Lamb (2023)		unknown	243.2	Y				
+two-pence	Two Pence		deceased	163.2	Y				
+well-done	Well Done		deceased	175					

@@ -1,8 +1,16 @@
-Ram Name	Ram ID	Pen	Stage	Offspring Avg FAMACHA (40%)	Offspring Shed % (25%)	Offspring Avg Daily Gain (15%)	Conception Rate (10%)	Offspring Survival 90d (10%)	TOTAL SCORE	ACTION (Keep/Demote/Replace/Cull)
-Rocky	rocky	Pen 4								
-Buck	buck	Pen 5								
-Merrie	merrie	Pen 1								
-Orange Tag Ram	orange-tag-00110	Pen 3								
-Charlie	charlie-ram	Pen 2								
-Gigis 2025 Ram	gigi-2025-ram	Tree Fort								
-Serendipity White Ram Twin	serendipity-twin-ram	Pen 6								
+Ram Name	Ram ID	Pen	Stage	Status	Offspring Avg FAMACHA (40%)	Offspring Shed % (25%)	Offspring Avg Daily Gain (15%)	Conception Rate (10%)	Offspring Survival 90d (10%)	TOTAL SCORE	ACTION (Keep/Demote/Replace/Cull)
+Charlies Ewe Ram Lamb	charlies-ram-lamb	Pen 1		alive							
+Orange Tag Ram	orange-tag-00110	Pen 1		alive							
+Rocky	rocky	Pen 2		alive							
+Windlestone Kat/Dorper Ram	windlestone-kat-dorper	Pen 2		alive							
+Charlie	charlie-ram	Pen 3		alive							
+Nori's Baby Ram (Pen 3)	nori-baby-p3	Pen 3		alive							
+FM2 Ram Lamb	fm2-ram-lamb	Pen 4		alive							
+Gigis 2025 Ram	gigi-2025-ram	Pen 4		alive							
+Merrieweather	merrie	Pen 4		alive							
+Serendipity White Ram Twin	serendipity-twin-ram	Pen 4		alive							
+Angus	angus	Pen 5		alive							
+MC08	mc08-ram	Pen 6		alive							
+0035 Baby Ram	tag-0035-baby-ewe	Tree Fort		alive							
+Buck	buck	Tree Fort		alive							
+Orange 31 Ram Lamb	tag-31-orange-tf-ram-lamb	Tree Fort		alive							

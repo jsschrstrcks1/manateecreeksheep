@@ -1,39 +1,43 @@
-Ewe Name	Ewe ID	Pen	Stage	Own FAMACHA Avg (30%)	Deworming Events (20%)	Shedding Score 1-5 (15%)	Lambing Success (15%)	Offspring FAMACHA Avg (10%)	BCS (10%)	TOTAL SCORE	ACTION (Advance/Hold/Drop/Cull)
-GG	gg	Pen 3									
-Azure	azure	Pen 3									
-Elsie	elsie	Pen 2									
-Nori	nori	Pen 1									
-Serendipity	serendipity	Tree Fort									
-Little Daisy	little-daisy	Pen 4									
-Broken Tail	broken-tail	Pen 2									
-FM	fm	Pen 3									
-OAV 2222	oav-2222	Pen 6									
-Bambii	bambii	Pen 3									
-Charlies Ewe	charlies-ewe	Pen 3									
-Baby Azure	baby-azure	Pen 3									
-Hair Ewe 0033	tag-0033-hair-ewe	Pen 1									
-Wool Ewe 0044	tag-0044-wool-ewe	Pen 3									
-Fawn Wool Ewe 114	tag-114-fawn-wool	Tree Fort									
-Nuba	nuba-0053	Pen 3									
-Charlies Farm Ewe (Pen 3)	charlies-farm-ewe-p3	Pen 6									
-Charlies Farm Ewe Baby	charlies-farm-ewe-baby-p3	Pen 5									
-Broken Tail Twin Ewe	broken-tail-twin-ewe	Pen 4									
-Broken Tail Twin Ewe 2 (White)	broken-tail-twin-ewe-2	Pen 4									
-Noris Baby (Pen 3)	nori-baby-p3	Pen 5									
-BHD Ewe G023	g023-bhd-ewe	Pen 4									
-Gigis 2026 Baby	gigi-2026-baby	Pen 4									
-Small White Ewe (Pen 4)	sm-white-ewe-p4	Pen 4									
-Serendipity Black Ewe Twin	serendipity-twin-ewe	Pen 5									
-FM2	fm2-0051	Pen 3									
-Ewe Tag 31	tag-31-ewe-p5	Pen 1									
-Ewe Tag 02	tag-02-ewe-p5	Pen 3									
-Fawn Wool Ewe (Pen 5)	fawn-wool-ewe-p5	Pen 3									
-Elsie Large White Ewe Triplet	elsie-triplet-lg-white-ewe	Pen 5									
-Elsie Small White Ewe Triplet	elsie-triplet-sm-white-ewe	Pen 5									
-Windlestone Fat Tail 2139	windlestone-2139	Goose Pen									
-Windlestone Fat Tail 0056	windlestone-0056	Goose Pen									
-Windlestone Fat Tail 0055	windlestone-0055	Goose Pen									
-White Ewe 0035	tag-0035-white-ewe	Pen 4									
-0035 Baby Ewe	tag-0035-baby-ewe	Pen 4									
-Orange Tag 31 Ewe (Tree Fort)	tag-31-orange-tf	Tree Fort									
-Bambiis Baby	bambii-baby	Pen 4									
+Ewe Name	Ewe ID	Pen	Stage	Status	Own FAMACHA Avg (30%)	Deworming Events (20%)	Shedding Score 1-5 (15%)	Lambing Success (15%)	Offspring FAMACHA Avg (10%)	BCS (10%)	TOTAL SCORE	ACTION (Advance/Hold/Drop/Cull)
+Cocoa	cocoa			alive								
+Daisy (of Sugar)	daisy-of-sugar			alive								
+00113	tag-00113-ewe-p1	Pen 1		alive								
+0053	nuba-0053	Pen 1		alive								
+0053's Baby Ewe	nuba-baby-ewe	Pen 1		alive								
+Azure	azure	Pen 1		alive								
+Baby Azure	baby-azure	Pen 1		alive								
+Charlies Ewe	charlies-ewe	Pen 1		alive								
+Hair Ewe 0033	tag-0033-hair-ewe	Pen 1		alive								
+Wool Ewe 0044	tag-0044-wool-ewe	Pen 1		alive								
+Broken Tail	broken-tail	Pen 3		alive								
+Broken Tail Twin Ewe	broken-tail-twin-ewe	Pen 3		alive								
+Charlies Farm Ewe (Pen 3)	charlies-farm-ewe-p3	Pen 3		alive								
+Charlies Farm Ewe Baby	charlies-farm-ewe-baby-p3	Pen 3		alive								
+Cocoa's Daughter (by Loki)	cocoas-daughter-by-loki	Pen 3		alive								
+Gigis 2026 Baby	gigi-2026-baby	Pen 3		alive								
+Nori	nori	Pen 3		alive								
+FM	fm	Pen 4		alive								
+FM2	fm2-0051	Pen 4		alive								
+GG	gg	Pen 4		alive								
+Lara	lara	Pen 4		alive								
+Little Daisy	little-daisy	Pen 4		alive								
+Samson Daughter (Pen 4)	samson-daughter-p4	Pen 4		alive								
+Serendipity	serendipity	Pen 4		alive								
+Serendipity Black Ewe Twin	serendipity-twin-ewe	Pen 4		alive								
+Small White Ewe (Pen 4)	sm-white-ewe-p4	Pen 4		alive								
+Elsie	elsie	Pen 5		alive								
+Elsie Large White Ewe Triplet	elsie-triplet-lg-white-ewe	Pen 5		alive								
+Ewe Tag 02	tag-02-ewe-p5	Pen 5		alive								
+Ewe Tag 31	tag-31-ewe-p5	Pen 5		alive								
+Fawn Wool Ewe (Pen 5)	fawn-wool-ewe-p5	Pen 5		alive								
+OAV 2222	oav-2222	Pen 5		alive								
+OAV 2222 Lamb 1 (White-Rust)	oav-2222-lamb-1	Pen 5		alive								
+OAV 2222 Lamb 2 (White-Rust + Black Dot)	oav-2222-lamb-2	Pen 5		alive								
+Windlestone Fat Tail 0055	windlestone-0055	Pen 6		alive								
+Windlestone Fat Tail 0056	windlestone-0056	Pen 6		alive								
+Windlestone Fat Tail 2139	windlestone-2139	Pen 6		alive								
+Bambii	bambii	Tree Fort		alive								
+Bambiis Baby	bambii-baby	Tree Fort		alive								
+Fawn Wool Ewe 114	tag-114-fawn-wool	Tree Fort		alive								
+Orange Tag 31 Ewe (Tree Fort)	tag-31-orange-tf	Tree Fort		alive								
+White Ewe 0035	tag-0035-white-ewe	Tree Fort		alive								

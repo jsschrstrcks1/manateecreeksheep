@@ -1,0 +1,187 @@
+Name	ID	Tag	Tag Color	Sex	Status	Status Date	Pen	DOB	DOB Approx	Sire ID	Dam ID	Breed Primary	Breed %	Coat Type	Weight (lb)	Weight Estimated	Confidence
+Cocoa	cocoa			ewe	alive					smore	half-tail						medium
+Daisy (of Sugar)	daisy-of-sugar			ewe	alive					sir-loin	sugar						medium
+Dodge	dodge			ram	alive				Y	sir-loin	broken-tail	St Augustine/Katahdin/BBB	St Augustine 70.3125%, Katahdin 26.5625%, Barbados Blackbelly 3.125%	mixed	277.3	Y	high
+Kaladin	kaladin	014		ram	alive			2023-05-11	Y	smore	serendipity	Cracker/St Augustine/Babydoll/Jacob/Katahdin	Cracker 50%, St Augustine 18.75%, Babydoll 12.5%, Jacob 12.5%, Katahdin 6.25%	mixed	52		high
+Loki	loki			ram	alive					dodge	daisy-of-sugar						medium
+Buck	buck	MC-2433		ram	alive	2026-04-02	Chicken Coop		Y			Katahdin/Awassi/East Friesian	Katahdin 50%, Awassi 48%, East Friesian 2%	mixed	270.8	Y	high
+114 Black Ram Lamb	tag-114-black-ram-lamb			ram	alive		Goose Pen	2026-03-29		rocky	tag-114-fawn-wool	[UNCLEAR - 114 offspring]		unknown			high
+00113	tag-00113-ewe-p1	00113		ewe	alive	2026-04-25	Pen 1		Y			Cracker/Suffolk/GCN/Katahdin	Cracker 50%, Suffolk 25%, Gulf Coast Native 12.5%, Katahdin 12.5%	wool			high
+0053	nuba-0053	0053		ewe	alive		Pen 1			samson		Hampshire/St Augustine/Katahdin	Hampshire 50%, St Augustine 37.5%, Katahdin 12.5%	mixed	175	Y	medium
+0053's Baby Ewe	nuba-baby-ewe			ewe	alive	2026-03-24	Pen 1	2026-03-24		rocky	nuba-0053						high
+Azure	azure	20		ewe	alive		Pen 1		Y			Hampshire/Suffolk	Hampshire 50%, Suffolk 50%	wool	212.5		high
+Baby Azure	baby-azure	MC-2610		ewe	alive		Pen 1	2026-01-10			azure	[UNCLEAR - Azure offspring]		unknown			high
+Charlies Ewe	charlies-ewe	MC2620		ewe	alive		Pen 1					Katahdin/BHD/ABB/Wiltshire Horn	Katahdin 50%, Black Headed Dorper 25%, American Black Belly 12.5%, Wiltshire Horn 12.5%	hair			medium
+Charlies Ewe Ram Lamb	charlies-ram-lamb	MC-2619		ram	alive		Pen 1	2025-12-26		buck	charlies-ewe	Katahdin/Awassi/BHD/ABB/Wiltshire Horn	Katahdin 50%, Awassi 24%, Black Headed Dorper 12.5%, American Black Belly 6.25%, Wiltshire Horn 6.25%, East Friesian 1%	hair			medium
+Hair Ewe 0033	tag-0033-hair-ewe	0033		ewe	alive		Pen 1			sir-loin		St Augustine/Katahdin	St Augustine 37.5%, Katahdin 62.5%	hair	170	Y	medium
+Orange Tag Ram	orange-tag-00110	00110		ram	alive		Pen 1					Cracker/Suffolk/GCN/Katahdin	Cracker 50%, Suffolk 25%, Gulf Coast Native 12.5%, Katahdin 12.5%	wool	287.5		medium
+Wool Ewe 0044	tag-0044-wool-ewe	0044		ewe	alive		Pen 1					Katahdin/Awassi/East Friesian	Katahdin 50%, Awassi 48%, East Friesian 2%	wool	170	Y	medium
+Rocky	rocky	140		ram	alive		Pen 2		Y	teaser	dorper-ewe-198	Black Headed Dorper/Awassi/East Friesian	Awassi 44%, Black Headed Dorper 50%, East Friesian 6%	mixed	300		high
+Windlestone Kat/Dorper Ram	windlestone-kat-dorper			ram	alive	2026-04-03	Pen 2		Y			Katahdin/Dorper	Katahdin 50%, Black Headed Dorper 50%	hair			high
+Broken Tail	broken-tail	MC-15		ewe	alive		Pen 3	2018-01-18	Y	sir-loin	half-tail	St Augustine/Katahdin/BBB	St Augustine 65.625%, Katahdin 28.125%, Barbados Blackbelly 6.25%	mixed	225		high
+Broken Tail Twin Ewe	broken-tail-twin-ewe	MC-2605		ewe	alive		Pen 3	2025-12-31			broken-tail	[UNCLEAR - Broken Tail offspring]		unknown			medium
+Charlie	charlie-ram	MC20		ram	alive		Pen 3					Katahdin/BHD/ABB/Wiltshire Horn	Katahdin 50%, Black Headed Dorper 25%, American Black Belly 12.5%, Wiltshire Horn 12.5%	hair	232.2	Y	high
+Charlies Farm Ewe (Pen 3)	charlies-farm-ewe-p3	MC16		ewe	alive		Pen 3					Katahdin/BHD/ABB/Wiltshire Horn	Katahdin 50%, Black Headed Dorper 25%, American Black Belly 12.5%, Wiltshire Horn 12.5%	hair	155	Y	medium
+Charlies Farm Ewe Baby	charlies-farm-ewe-baby-p3	MC-2602		ewe	alive		Pen 3	2025-12-06		charlie-ram	charlies-farm-ewe-p3	[UNCLEAR - Charlies Farm Ewe offspring]		unknown			medium
+Cocoa's Daughter (by Loki)	cocoas-daughter-by-loki			ewe	alive		Pen 3	2025-09		loki	cocoa						medium
+Gigis 2026 Baby	gigi-2026-baby	MC-2613		ewe	alive		Pen 3	2026-01-10		kelsier	gg	[Kelsier x Gigi offspring]		unknown			high
+Nori	nori	0029		ewe	alive		Pen 3	2023-02-01	Y			ABB/Wiltshire Horn	American Blackbelly 50%, Wiltshire Horn 50%	hair	139		high
+Nori's Baby Ram (Pen 3)	nori-baby-p3	MC2604		ram	alive		Pen 3	2026-01-10			nori	[UNCLEAR - Nori offspring]		unknown			medium
+FM	fm	0011		ewe	alive		Pen 4	2021-02-14	Y	fm-sire	fm-dam	Cotswold/Tunis	Cotswold 50%, Tunis 50%	wool	212.5		high
+FM2	fm2-0051	0051		ewe	alive		Pen 4			sir-loin	fm	Cotswold/Tunis/St Augustine/Katahdin	Cotswold 25%, Tunis 25%, St Augustine 37.5%, Katahdin 12.5%	wool	185	Y	medium
+FM2 Ram Lamb	fm2-ram-lamb	MC2614		ram	alive		Pen 4	2026-01-31		kelsier	fm2-0051	[Kelsier x FM2 offspring]		unknown			medium
+GG	gg	MC-19		ewe	alive		Pen 4		Y			Hampshire/Suffolk	Hampshire 50%, Suffolk 50%	wool	212.5		medium
+Gigis 2025 Ram	gigi-2025-ram	MC-09		ram	alive		Pen 4		Y	kelsier	gg	[Kelsier x Gigi offspring]		unknown			medium
+Lara	lara	023		ewe	alive		Pen 4	2018-01-01	Y	lara-sire	lara-dam	Black Headed Dorper	Black Headed Dorper 100%	hair	160		high
+Little Daisy	little-daisy	035		ewe	alive		Pen 4	2023-03-23	Y	dodge	daisy	St Augustine/Katahdin/BBB	St Augustine 67.9625%, Katahdin 27.325%, Barbados Blackbelly 4.6875%	mixed	145		high
+Merrieweather	merrie	00016		ram	alive		Pen 4	2023-01-14	Y	smore	half-tail	Cracker/St Augustine/Katahdin/BBB/White Dorper	Cracker 50%, St Augustine 28.125%, Katahdin 12.5%, Barbados Blackbelly 6.25%, White Dorper 3.125%	mixed	200		high
+Samson Daughter (Pen 4)	samson-daughter-p4			ewe	alive		Pen 4		Y	samson	fm	Hampshire/Cotswold/Tunis	Hampshire 50%, Cotswold 25%, Tunis 25%	wool			medium
+Serendipity	serendipity	MC157		ewe	alive		Pen 4	2022-03-25	Y	sir-loin	shaggy	St Augustine/Babydoll/Jacob/Katahdin	St Augustine 37.5%, Babydoll 25%, Jacob 25%, Katahdin 12.5%	mixed	138		high
+Serendipity Black Ewe Twin	serendipity-twin-ewe	MC2607		ewe	alive		Pen 4	2025-12-30		kelsier	serendipity	[Kelsier x Serendipity offspring]		unknown			high
+Serendipity White Ram Twin	serendipity-twin-ram	MC2606		ram	alive		Pen 4	2025-12-30		kelsier	serendipity	[Kelsier x Serendipity offspring]		unknown			high
+Small White Ewe (Pen 4)	sm-white-ewe-p4	MC189		ewe	alive		Pen 4			dodge	daisy	St Augustine/Katahdin/BBB	St Augustine 67.96%, Katahdin 27.33%, Barbados Blackbelly 4.69%	mixed	145	Y	low
+Angus	angus			ram	alive		Pen 5					Katahdin/Dorper/Awassi	Katahdin 50%, Dorper 25%, Awassi 25%	mixed			high
+Elsie	elsie	025		ewe	alive		Pen 5	2022-02-08	Y	well-done	half-tail	Katahdin/St Augustine/BBB	Katahdin 65.625%, St Augustine 28.125%, Barbados Blackbelly 6.25%	hair	175		high
+Elsie Large White Ewe Triplet	elsie-triplet-lg-white-ewe	MC-2618		ewe	alive		Pen 5	2026-01-06		nori-son	elsie						medium
+Ewe Tag 02	tag-02-ewe-p5	02		ewe	alive		Pen 5					[UNCLEAR]					medium
+Ewe Tag 31	tag-31-ewe-p5	31	yellow	ewe	alive		Pen 5			sir-loin		St Augustine/Katahdin	St Augustine 50%, Katahdin 50%	mixed	170	Y	medium
+Fawn Wool Ewe (Pen 5)	fawn-wool-ewe-p5	240006		ewe	alive		Pen 5					Wool		wool			medium
+OAV 2222	oav-2222	2222		ewe	alive		Pen 5		Y			Katahdin	Katahdin 100%	hair	140		high
+OAV 2222 Lamb 1 (White-Rust)	oav-2222-lamb-1			ewe_lamb	alive		Pen 5	2026-04-30		nori-son	oav-2222						medium
+OAV 2222 Lamb 2 (White-Rust + Black Dot)	oav-2222-lamb-2			ewe_lamb	alive		Pen 5	2026-04-30		nori-son	oav-2222						medium
+MC08	mc08-ram	MC08		ram	alive		Pen 6			samson	fm	Hampshire/Cotswold/Tunis	Hampshire 50%, Cotswold 25%, Tunis 25%	wool	190	Y	medium
+Windlestone Fat Tail 0055	windlestone-0055	0055		ewe	alive		Pen 6					Awassi/East Friesian	Awassi 95%, East Friesian 5%	wool	200.0	Y	high
+Windlestone Fat Tail 0056	windlestone-0056	0056		ewe	alive		Pen 6					Awassi/East Friesian	Awassi 95%, East Friesian 5%	wool	200.0	Y	high
+Windlestone Fat Tail 2139	windlestone-2139	2139		ewe	alive		Pen 6					Awassi/East Friesian	Awassi 95%, East Friesian 5%	wool	200.0	Y	high
+0035 Baby Ram	tag-0035-baby-ewe	MC-2617		ram_lamb	alive		Tree Fort	2026-01-02			tag-0035-white-ewe						medium
+Bambii	bambii	24/0003		ewe	alive		Tree Fort		Y								high
+Bambiis Baby	bambii-baby	MC-2615		ewe	alive		Tree Fort	2025-12-28			bambii						medium
+Fawn Wool Ewe 114	tag-114-fawn-wool	114		ewe	alive		Tree Fort					Cracker/Suffolk/GCN/Katahdin	Cracker 50%, Suffolk 25%, Gulf Coast Native 12.5%, Katahdin 12.5%	wool	145	Y	high
+Orange 31 Ram Lamb	tag-31-orange-tf-ram-lamb	MC2616		ram	alive		Tree Fort	2026-01-02			tag-31-orange-tf						medium
+Orange Tag 31 Ewe (Tree Fort)	tag-31-orange-tf	31	orange	ewe	alive		Tree Fort										medium
+White Ewe 0035	tag-0035-white-ewe	0035		ewe	alive		Tree Fort					Black Headed Dorper/Katahdin	Black Headed Dorper 50%, Katahdin 50%	hair	130	Y	medium
+00113's Singleton (deceased)	tag-00113-singleton-2026			unknown	deceased	2026-04-25		2026-04-22		nori-son	tag-00113-ewe-p1	[Cracker/Suffolk/GCN/Katahdin × Sir Loin/Nori]	Cracker 25%, Suffolk 12.5%, Gulf Coast Native 6.25%, Katahdin 12.5%, St Augustine 18.75%, American Blackbelly 12.5%, Wiltshire Horn 12.5%	mixed			high
+0033 Twin Ram 1 (White/Brown)	tag-0033-twin-ram-1	MC2608		ram	sold	2026-04-06		2026-01-01	Y		tag-0033-hair-ewe	[UNCLEAR - 0033 offspring]		hair			medium
+0033 Twin Ram 2 (Black)	tag-0033-twin-ram-2	MC2609		ram	sold	2026-04-26		2026-01-01	Y		tag-0033-hair-ewe	[UNCLEAR - 0033 offspring]		hair			medium
+430-2079	tag-430-2079	430-2079		ewe	deceased	2023-08-21		2017-01-01	Y			Suffolk/Hampshire	Suffolk 75%, Hampshire 25%	wool	335		high
+Almond Joy	almond-joy			ram	deceased				Y								medium
+Anna	anna	1		ewe	deceased			2012-01-12	Y			Katahdin	Katahdin 100%	hair	175		high
+Anna's Big One	annas-big-one			ewe	deceased	2026-04-02		2014-12-01	Y	sir-loin	anna	Katahdin/St Augustine	Katahdin 62.5%, St Augustine 37.5%	hair	200		high
+BT's Lamb (2023)	bt-lamb-2023			ram	unknown			2022-12-12	Y	smore	broken-tail	Cracker/St Augustine/Katahdin/BBB	Cracker 50%, St Augustine 32.8125%, Katahdin 14.0625%, Barbados Blackbelly 3.125%	mixed	247.9	Y	high
+Baby	baby			ewe	deceased	2026-04-02			Y			Suffolk Cross	Suffolk 50%, Cracker 25%, Katahdin 18.75%, Gulf Coast Native 6.25%	wool	165.3	Y	medium
+Baby Momma	baby-momma			ewe	deceased	2026-04-02			Y								medium
+Bambi	bambi	037		ewe	deceased	2026-04-02			Y			Katahdin/Dorper	Katahdin 50%, Dorper 50%	hair	81		medium
+Banana Split	banana-split			ewe	unknown			2015-11-14	Y	sir-loin	bsoe	St Augustine/Katahdin	St Augustine 70.3125%, Katahdin 29.6875%	mixed	235		low
+Banana Split Baby	banana-split-baby	8		ram	unknown			2022-02-23	Y	sir-loin	banana-split	St Augustine/Katahdin	St Augustine 72.656%, Katahdin 27.344%	mixed	282.2	Y	low
+Bella	bella	027		ewe	deceased	2026-04-02			Y								high
+Big Free Male	big-free-male	005		ram	deceased	2026-04-02			Y								medium
+Black Rock	black-rock	010		ewe	deceased	2026-04-02			Y								low
+Boots	boots	7		ewe	culled			2020-02-14	Y			Dorper/Katahdin	Dorper 50%, Katahdin 50%	hair	130		high
+Broken Tail Twin Ewe 2 (White)	broken-tail-twin-ewe-2	MC-2601		ewe	deceased	2026-04-22		2025-12-31			broken-tail	[UNCLEAR - Broken Tail offspring]		unknown			medium
+Brown Knee	brown-knee			ewe	unknown			2016-02-14	Y	sir-loin	annas-big-one	St Augustine/Katahdin	Katahdin 43.75%, St Augustine 56.25%	mixed	150		medium
+Bsoe	bsoe	032		ewe	deceased	2026-04-02		2019-01-01	Y	sir-loin	two-pence	Katahdin/St Augustine	Katahdin 56%, St Augustine 44%	hair	185		high
+Bsoed	bsoed	031		ewe	deceased	2026-04-02		2020-01-18	Y	sir-loin	bsoe	St Augustine/Katahdin	Katahdin 40.5%, St Augustine 59.5%	mixed	175		high
+Bsoed's Lamb (2023)	bsoed-lamb-2023			ram	unknown			2023-02-22	Y	smore	bsoed	Cracker/St Augustine/Katahdin	Cracker 50%, St Augustine 29.75%, Katahdin 20.25%	mixed	249.3	Y	high
+Buck (Original)	buck-original			ram	deceased				Y			Katahdin/Awassi/East Friesian	Katahdin 50%, Awassi 48%, East Friesian 2%	mixed	212		high
+Butter Ball	butter-ball			ram	deceased				Y			Dorper	Dorper 100%	hair			high
+Charlie's Lamb	charlies-lamb-0017	0017		ram	deceased	2026-04-02			Y	charlies-ram							medium
+Charlie's Ram	charlies-ram	012		ram	deceased	2026-04-02			Y						36		high
+Cinderella	cinderella	028		ewe	deceased	2026-04-02			Y								high
+Circle Tail	circle-tail			ewe	deceased	2026-04-02		2023-01-22	Y	smore	brown-knee	Cracker/St Augustine/Katahdin	Cracker 50%, St Augustine 28.125%, Katahdin 21.875%	mixed	64		high
+Daisy	daisy			ewe	unknown				Y	sir-loin	half-tail	St Augustine/Katahdin/BBB	St Augustine 65.625%, Katahdin 28.125%, Barbados Blackbelly 6.25%	mixed	172.3	Y	high
+Daisy (Anna line)	daisy-anna-line			ewe	sold					sir-loin	anna	Sir Loin x Anna offspring					low
+Daisy's Daughter 1	daisys-daughter-1			ewe	unknown				Y		daisy	St Augustine/Katahdin/BBB	St Augustine 67.9625%, Katahdin 27.325%, Barbados Blackbelly 4.7%	mixed	173.9	Y	low
+Daisy's Daughter 2	daisys-daughter-2			ewe	deceased	2026-04-02			Y		daisy	St Augustine/Katahdin/BBB/Wiltshire	St Augustine 67.9625%, Katahdin 27.325%, Barbados Blackbelly 4.7%, Wiltshire Horn 0%	mixed	173.9	Y	low
+Dorper Ewe 198	dorper-ewe-198			ewe	unknown				Y			Black Headed Dorper	Black Headed Dorper 100%	hair	128.0	Y	high
+Dorper Ram (Deceased)	dorper-ram-deceased			ram	deceased				Y			Dorper	Dorper 100%	hair			medium
+Dorpy	dorpy			ewe	deceased	2026-04-02			Y			Katahdin/Dorper/Babydoll	Katahdin 50%, Dorper 25%, Babydoll 25%	mixed	133.3	Y	low
+Elsie Black Ram Triplet	elsie-triplet-black-ram			ram	gifted	2026-03-15		2026-01-06		nori-son	elsie						high
+Elsie Small White Ewe Triplet	elsie-triplet-sm-white-ewe			ewe	sold	2026-04-26		2026-01-06		nori-son	elsie						medium
+Ext Lamb 10	ext-lamb-10			ewe	unknown			2023-03-23	Y								low
+Ext Lamb 27	ext-lamb-27			ram	unknown			2023-02-01	Y								low
+Ext Lamb 35	ext-lamb-35			ram	unknown			2023-02-01	Y								medium
+Ext Lamb 8 (ABG)	ext-lamb-8			ram	deceased			2023-01-24	Y								low
+FM's Dam (Cotswold)	fm-dam			ewe	unknown				Y			Cotswold	Cotswold 100%	wool	200.0	Y	medium
+FM's Lamb (2023)	fm-lamb-2023			ewe	deceased	2026-04-02		2023-04-01	Y	sir-loin	fm	St Augustine/Cotswold/Tunis/Katahdin	St Augustine 37.5%, Cotswold 25%, Tunis 25%, Katahdin 12.5%	mixed	179.4	Y	high
+FM's Sire (Tunis Red)	fm-sire			ram	unknown				Y			Tunis	Tunis 100%	wool	275.0	Y	medium
+FM1	fm1	009		ewe	deceased	2026-04-02		2023-04-01	Y	sir-loin	fm	St Augustine/Cotswold/Tunis/Katahdin	St Augustine 37.5%, Cotswold 25%, Tunis 25%, Katahdin 12.5%	mixed	67		high
+FM2	fm2			ewe	unknown				Y			Katahdin/St Augustine/Cotswold/Tunis	Katahdin 12.5%, St Augustine 37.5%, Cotswold 25%, Tunis 25%	mixed	179.4	Y	low
+Female 004	female-004	004		ewe	deceased	2026-04-02			Y								medium
+Fl51870-0502	fl51870-0502	Fl51870-0502		ewe	deceased	2026-04-02			Y			Hampshire/Suffolk	Hampshire 50%, Suffolk 50%	wool	286		medium
+Fleecity	fleecity			ewe	unknown			2021-01-14	Y			Katahdin/Dorper	Katahdin 50%, Dorper 50%	hair	100		low
+Fox Tail	fox-tail	017		ewe	deceased				Y	smore	trouble	Cracker/St Augustine/Katahdin/Dorper	Cracker 50%, St Augustine 18.75%, Katahdin 18.75%, Black Headed Dorper 12.5%	mixed	118		high
+Foxtail 1	bk1			ewe	unknown			2023-01-24	Y	smore	brown-knee	Cracker/St Augustine/Katahdin	Cracker 50%, St Augustine 28.125%, Katahdin 21.875%	mixed	142.0	Y	high
+Foxtail 2	bk2			ewe	unknown			2023-01-24	Y	smore	brown-knee	Cracker/St Augustine/Katahdin	Cracker 50%, St Augustine 28.125%, Katahdin 21.875%	mixed	142.0	Y	high
+Frazzle	frazzle	6		ewe	deceased			2013-02-27	Y			Katahdin	Katahdin 100%	hair	175		high
+GG's Daughter	gg-daughter-45	045		ewe	deceased				Y	kelsier	gg						high
+GG's Son	gg-son-094	094		ram	deceased				Y	kelsier	gg						high
+GM Twin 1 (2024)	gm-twin1-2024			unknown	deceased			2024-01-02	Y	sir-loin	gertrude-moon	ABB/St Augustine/Katahdin	American Blackbelly 50%, St Augustine 37.5%, Katahdin 12.5%	hair	146.9	Y	high
+GM Twin 2 (2024)	gm-twin2-2024			unknown	deceased			2024-01-02	Y	sir-loin	gertrude-moon	ABB/St Augustine/Katahdin	American Blackbelly 50%, St Augustine 37.5%, Katahdin 12.5%	hair	146.9	Y	high
+Gertrude Moon	gertrude-moon	022		ewe	deceased			2020-01-01	Y	gertrude-moon-sire	gertrude-moon-dam	American Black Belly	American Blackbelly 100%	hair	144		high
+Gertrude Moon's Dam	gertrude-moon-dam			ewe	unknown				Y			American Black Belly	American Blackbelly 100%	hair	115.0	Y	medium
+Gertrude Moon's Sire	gertrude-moon-sire			ram	unknown				Y			American Black Belly	American Blackbelly 100%	hair	137.5	Y	medium
+Goose Pen 06	goose-06	06		ram	sold	2026-02-15											medium
+Goose Pen 09	goose-09	09		ram	sold	2026-02-15											medium
+Goose Pen 50	goose-50	50		ewe	sold	2026-02-15											medium
+Goose Pen L19	goose-l19	L19		ewe	sold	2026-02-15											medium
+HT's Extension Lamb (2023)	ht-ext-lamb-2023			ram	unknown			2023-02-04	Y	smore	half-tail	Cracker/St Augustine/Katahdin/BBB	Cracker 50%, St Augustine 28.125%, Katahdin 15.625%, Barbados Blackbelly 6.25%	mixed	241.4	Y	medium
+Half Tail	half-tail			ewe	deceased	2024-09-26		2017-01-01	Y	sir-loin	hersheys	St Augustine/Katahdin/BBB	St Augustine 56.25%, Katahdin 31.25%, Barbados Blackbelly 12.5%	mixed	180		high
+Half Tail's Baby	half-tails-baby	007		ewe	deceased	2026-04-02			Y		half-tail						medium
+Half Tail's Lamb (2024)	ht-samson-2024			unknown	unknown			2024-02-12	Y	samson	half-tail	Hampshire/St Augustine/Katahdin/BBB	Hampshire 50%, St Augustine 28.125%, Katahdin 15.625%, Barbados Blackbelly 6.25%	mixed	183.0	Y	high
+Haylee Lawson	haylee-lawson	14		ewe	deceased			2019-01-01	Y			Dorper/Katahdin	Dorper 50%, Katahdin 50%	hair	175		high
+Hersheys	hersheys	3		ewe	deceased			2015-02-01	Y	sir-loin	sugar	BBB/Katahdin/St Augustine	Barbados Blackbelly 25%, Katahdin 37.5%, St Augustine 37.5%	mixed	150		high
+Irish	irish			ewe	deceased	2026-04-02			Y		little-daisy						medium
+Kelsier	kelsier	2223		ram	deceased			2022-12-21	Y			Katahdin	Katahdin 100%	hair	250		high
+Kelsier's Sister	kelsiers-sister	2241		ewe	deceased				Y			Katahdin	Katahdin 100%	hair	150		high
+Lara's Dam	lara-dam			ewe	unknown				Y			Dorper	Dorper 100%	hair			medium
+Lara's Daughter	lara-daughter-46	046		ewe	sold				Y	kelsier	lara						high
+Lara's Sire	lara-sire			ram	unknown				Y			Dorper	Dorper 100%	hair			medium
+Little Daisy's Baby (Mc01)	little-daisys-baby-mc01			ewe	deceased	2026-04-02			Y		little-daisy						high
+Little Song	little-song	008		ewe	deceased	2026-04-02		2023-01-24	Y	sir-loin	annas-big-one	St Augustine/Katahdin	Katahdin 43.75%, St Augustine 56.25%	mixed	60		high
+Mc06	mc06			unknown	sold	2026-02-15			Y								high
+New Big Girl 2	new-big-girl-2			ewe	deceased	2026-04-02			Y								low
+New Black Belly Ram	new-black-belly-ram	018		ram	deceased	2026-04-02			Y			American Blackbelly	American Blackbelly 100%	hair	137.5	Y	medium
+NoriSon	nori-son	054		ram	sold	2026-04-26			Y	sir-loin	nori	St Augustine/ABB/Wiltshire Horn/Katahdin	American Blackbelly 25%, Katahdin 12.5%, St Augustine 37.5%, Wiltshire Horn 25%	hair	251.2		high
+Oliver	oliver			unknown	unknown			2023-12-30	Y	sir-loin	lara	Black Headed Dorper/St Augustine/Katahdin	Black Headed Dorper 50%, St Augustine 37.5%, Katahdin 12.5%	hair	153.4	Y	high
+Patches	patches	27		ewe	deceased	2026-04-02			Y						66		high
+Pebbles	pebbles			ewe	deceased	2026-04-02			Y								medium
+Penny	penny			ewe	deceased				Y								medium
+Pippin	pippin	015		ram	sold			2022-12-12	Y	smore	bsoed	Cracker/St Augustine/Katahdin	Cracker 50%, St Augustine 29.75%, Katahdin 20.25%	mixed	80		high
+Pretzel	pretzel	13		ewe	deceased			2022-01-20	Y			Dorper/Katahdin	Dorper 75%, Katahdin 25%	hair	130		high
+Question Tail	question-tail	001		ewe	deceased	2026-04-02			Y								medium
+Razzle	razzle	5		ram	deceased			2014-03-01	Y			Barbados Blackbelly	Barbados Blackbelly 100%	hair	125		high
+S'More	smore	22		ram	deceased			2021-01-14	Y			Cracker	Cracker 100%	mixed	200		high
+S1	s1			ewe	deceased	2026-04-02			Y								low
+S2	s2			ewe	deceased	2026-04-02			Y								low
+Sam	sam			ram	deceased	2024-09-26			Y			Gulf Coast Native	Gulf Coast Native 100%	wool	165		high
+Samson	samson			ram	deceased				Y			Hampshire	Hampshire 100%	wool	400		high
+Sb1 (Crown)	sb1-crown	002		ewe	deceased	2026-04-02			Y						68		medium
+Sb2 (All Black)	sb2-all-black	003		ewe	deceased	2026-04-02			Y						66		medium
+Serendipity's Baby	serendipitys-baby-036	036		ewe	deceased	2026-04-02			Y	kelsier	serendipity						high
+Serendipity's Ram (2024)	serendipity-ram-2024			ram	deceased	2026-04-02			Y	samson	serendipity	Hampshire/St Augustine/Babydoll/Jacob/Katahdin	Hampshire 50%, St Augustine 18.75%, Babydoll 12.5%, Jacob 12.5%, Katahdin 6.25%	mixed	255.3	Y	high
+Shaggy	shaggy			ewe	deceased			2019-01-01	Y			Babydoll/Jacob	Babydoll 50%, Jacob 50%	wool	140		high
+Shaggy1	shaggy-1			ram	unknown			2023-01-29	Y	smore	shaggy	Cracker/Babydoll/Jacob	Cracker 50%, Babydoll 25%, Jacob 25%	mixed	181.2	Y	high
+Shaggy2	shaggy-2			ram	unknown			2023-01-29	Y	smore	shaggy	Cracker/Babydoll/Jacob	Cracker 50%, Babydoll 25%, Jacob 25%	mixed	181.2	Y	high
+Sir Loin	sir-loin	2		ram	deceased	2026-04-02		2012-01-01	Y			St Augustine/Katahdin	St Augustine 75%, Katahdin 25%	mixed	309		high
+Skitters	skitters			ewe	deceased				Y			Karakul	Karakul 100%	wool	176		high
+Spicy	spicy			unknown	unknown			2023-12-30	Y	sir-loin	lara	Black Headed Dorper/St Augustine/Katahdin	Black Headed Dorper 50%, St Augustine 37.5%, Katahdin 12.5%	hair	153.4	Y	high
+Stew	stew	11		ram	unknown			2022-02-08	Y	well-done	fleecity	Katahdin/Dorper	Katahdin 75%, Dorper 25%	hair	235.0	Y	low
+Sugar	sugar	4		ewe	deceased			2014-02-14	Y	razzle	frazzle	BBB/Katahdin	Barbados Blackbelly 50%, Katahdin 50%	hair	224		high
+Tag 0049	tag-0049	0049		unknown	sold	2026-02-15			Y								high
+Tag 0050	tag-0050	0050		unknown	sold	2026-02-15			Y								high
+Tag 240001	tag-240001	240001		unknown	sold	2026-02-15			Y								high
+Tag 240002	tag-240002	240002		unknown	sold	2026-02-15			Y								high
+Tag 31	tag-31-ewe	031-pen2		ewe	deceased	2026-04-02			Y			Katahdin/St Augustine/Dorper/BBB	Katahdin 28.125%, St Augustine 49.625%, Dorper 16%, Barbados Blackbelly 6.25%	mixed	169.9	Y	low
+Tag 33	tag-33	033-pen1		ewe	deceased	2026-04-02			Y			Katahdin/St Augustine/BBB/Cracker/White Dorper/Suffolk/GCN		mixed			low
+Tag 34 (Pen 4)	tag-34-pen4			ewe	deceased	2026-04-02			Y			Katahdin/St Augustine	Katahdin 43.75%, St Augustine 56.25%	mixed	174.1	Y	low
+Tag 35	tag-35-ewe	035-pen3		ewe	unknown				Y			Katahdin/St Augustine	Katahdin 29.75%, St Augustine 70.25%	mixed	177.6	Y	low
+Teaser	teaser			ram	unknown				Y			Awassi/East Friesian	Awassi 88%, East Friesian 12%	wool	304.0	Y	high
+Trouble	trouble	033		ewe	deceased	2026-04-02		2021-01-01	Y	sir-loin	haylee-lawson	Katahdin/St Augustine/Dorper	Katahdin 37.5%, St Augustine 37.5%, Dorper 25%	hair	180		high
+Trouble's Lamb (2023)	trouble-lamb-2023			ram	unknown			2023-02-22	Y	smore	trouble	Cracker/Katahdin/St Augustine/Dorper	Cracker 50%, Katahdin 18.75%, St Augustine 18.75%, Dorper 12.5%	mixed	243.2	Y	high
+Two Pence	two-pence			ewe	deceased				Y			Katahdin/St Augustine	Katahdin 87%, St Augustine 13%	hair	163.2	Y	medium
+Unnamed (Deceased)	unnamed-deceased			unknown	deceased				Y								low
+Unnamed (Pen 2)	unnamed-pen2			ewe	deceased	2026-04-02			Y								low
+W136	w136			ewe	deceased				Y								high
+W140	w140			ewe	deceased	2026-04-02			Y								low
+Well Done	well-done	8		ram	deceased			2021-02-14	Y			Katahdin	Katahdin 100%	hair	175		high
+Zara	zara	025		ewe	deceased				Y			Dorper	Dorper 100%	hair			high
