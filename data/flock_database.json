@@ -6738,8 +6738,8 @@
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
-      "sire_id": "gg",
-      "dam_id": null,
+      "sire_id": "kelsier",
+      "dam_id": "gg",
       "status": "deceased",
       "status_date": null,
       "status_notes": "",
@@ -6764,9 +6764,9 @@
           "IMG_8634.PNG"
         ]
       },
-      "notes": "GG's daughter (GG is sire). Tag 45. Deceased.",
+      "notes": "GG's daughter. Tag 45. Sire: Kelsier, Dam: GG (owner-confirmed 2026-05-13 — prior sire_id 'gg' was wrong since GG is an ewe). Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-05-13"
     },
     {
       "id": "lara-daughter-46",
@@ -6780,7 +6780,7 @@
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
-      "sire_id": "gg",
+      "sire_id": "kelsier",
       "dam_id": "lara",
       "status": "sold",
       "status_date": null,
@@ -6806,9 +6806,9 @@
           "IMG_8634.PNG"
         ]
       },
-      "notes": "GG (sire) x Lara (dam) daughter. Tag 46. Sold because prone to Coccidia.",
+      "notes": "Kelsier (sire) x Lara (dam) daughter. Tag 46. Sold because prone to Coccidia. CORRECTION 2026-05-13: sire_id 'gg' was wrong (GG is an ewe, not a ram); sire is Kelsier per owner.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-05-13"
     },
     {
       "id": "gg-son-094",
@@ -6822,8 +6822,8 @@
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
-      "sire_id": "gg",
-      "dam_id": null,
+      "sire_id": "kelsier",
+      "dam_id": "gg",
       "status": "deceased",
       "status_date": null,
       "status_notes": "",
@@ -6848,9 +6848,9 @@
           "IMG_8634.PNG"
         ]
       },
-      "notes": "GG's son. Tag 094. Deceased.",
+      "notes": "GG's son. Tag 094. Sire: Kelsier, Dam: GG (owner-confirmed 2026-05-13 — prior sire_id 'gg' was wrong since GG is an ewe). Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-05-13"
     },
     {
       "id": "tag-430-2079",
