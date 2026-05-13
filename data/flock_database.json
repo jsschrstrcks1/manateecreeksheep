@@ -11378,7 +11378,7 @@
         "intermediate_percentage": 0,
         "wool_percentage": 100,
         "coat_prediction": "wool",
-        "notes": "Samson (100% Hampshire) x FM (50% Cotswold / 50% Tunis) per owner 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam). All-wool cross matches MC08's observed heavy uniform wool fleece. Prior 'full sibling' link to samson-daughter-p4 now uncertain \u2014 needs reverification."
+        "notes": "Samson (100% Hampshire) x FM (50% Cotswold / 50% Tunis) per owner 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam). All-wool cross matches MC08's observed heavy uniform wool fleece. Full sibling to samson-daughter-p4 in Pen 4 (same Samson x FM cross \u2014 owner-confirmed 2026-05-13)."
       },
       "visual_id": {
         "face": "White, cream-tinted (NOT Hampshire black)",
@@ -11394,7 +11394,7 @@
           "elsie-triplet-lg-white-ewe": "MC-2618 is in Pen 5, not Pen 6 (owner correction 2026-04-24). Also a 3.5-mo lamb vs MC08 adult ram \u2014 smaller, less-developed fleece."
         }
       },
-      "notes": "Tag MC08, yellow. Ram in Pen 6 with Windlestone Awassi ewes. Cream/fawn wool sheep, white face. Sire: Samson, dam: FM \u2014 owner statement 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam). Prior 'full sibling to samson-daughter-p4' claim now uncertain pending reverification. Source: notebook card pen 6 + owner verbal 2026-05-13. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
+      "notes": "Tag MC08, yellow. Ram in Pen 6 with Windlestone Awassi ewes. Cream/fawn wool sheep, white face. Sire: Samson, dam: FM \u2014 owner statement 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam). Full sibling to samson-daughter-p4 in Pen 4 (same Samson x FM cross \u2014 owner-confirmed 2026-05-13). Source: notebook card pen 6 + owner verbal 2026-05-13. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
       "confidence": "medium",
       "last_verified": "2026-05-13",
       "health": {
@@ -11453,7 +11453,7 @@
         },
         {
           "date": "2026-05-13",
-          "note": "Owner statement: MC08 (Pen 6 ram) is the son of Samson and FM — supersedes prior 2026-04-24 entry that identified the dam as Broken Tail. dam_id updated broken-tail → fm. Breed composition recalculated: Samson (100% Hampshire) × FM (50% Cotswold / 50% Tunis) → 50% Hampshire / 25% Cotswold / 25% Tunis, 100% wool. New cross matches MC08's observed heavy uniform wool fleece better than the prior mixed-coat Broken Tail calc. The samson-daughter-p4 'full sibling' identification from 2026-04-24 is now uncertain and needs reverification with the owner."
+          "note": "Owner statement: MC08 (Pen 6 ram) is the son of Samson and FM — supersedes prior 2026-04-24 entry that identified the dam as Broken Tail. dam_id updated broken-tail → fm. Breed composition recalculated: Samson (100% Hampshire) × FM (50% Cotswold / 50% Tunis) → 50% Hampshire / 25% Cotswold / 25% Tunis, 100% wool. New cross matches MC08's observed heavy uniform wool fleece better than the prior mixed-coat Broken Tail calc. Full sibling samson-daughter-p4 (Pen 4) also corrected to FM dam in the same update — owner confirmed both 2026-05-13."
         }
       ],
       "breeding_evaluation": {
@@ -11538,19 +11538,18 @@
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Hampshire/St Augustine/Katahdin/BBB",
+        "primary": "Hampshire/Cotswold/Tunis",
         "percentages": {
           "Hampshire": 50,
-          "St Augustine": 32.8125,
-          "Katahdin": 14.0625,
-          "Barbados Blackbelly": 3.125
+          "Cotswold": 25,
+          "Tunis": 25
         },
-        "coat_type": "mixed",
-        "hair_percentage": 50.0,
+        "coat_type": "wool",
+        "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 50.0,
+        "wool_percentage": 100,
         "coat_prediction": "wool",
-        "notes": "Same cross as full-sibling MC08. Face color did NOT inherit Hampshire black from sire \u2014 both siblings have WHITE faces. Broken Tail (hair-breed) face dominated."
+        "notes": "Same cross as full-sibling MC08: Samson (100% Hampshire) x FM (50% Cotswold / 50% Tunis) per owner 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam). All-wool cross matches both siblings' observed cream wool fleece."
       },
       "color_markings": "WHITE face (whiter than brother MC08), pointed nose (more pointed than MC08). Cream wool body. Owner photo ID 2026-04-24.",
       "visual_id": {
@@ -11568,7 +11567,7 @@
       "dob": null,
       "dob_approximate": true,
       "sire_id": "samson",
-      "dam_id": "broken-tail",
+      "dam_id": "fm",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -11591,9 +11590,9 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Identified by owner 2026-04-24 from Pen 4 photos (back-right position, picture 1). Full sibling to MC08 (Pen 6 ram). Both sired by Samson (100% Hampshire, deceased) \u2014 Hampshire face is the visual tell. Dam Broken Tail per owner 'good confidence' \u2014 alternative candidate Half Tail died during Hurricane Helene Sept 2024 so timing-dependent; owner selected Broken Tail. No tag recorded yet. DOB unknown \u2014 likely born same cohort as MC08 (pre-Samson's death). Not previously in database roster for Pen 4.",
+      "notes": "Identified by owner 2026-04-24 from Pen 4 photos (back-right position, picture 1). Full sibling to MC08 (Pen 6 ram). Both sired by Samson (100% Hampshire, deceased) out of FM (50% Cotswold / 50% Tunis) \u2014 owner 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam, which had been recorded with 'good confidence' but was corrected). All-wool sire+dam cross matches both siblings' cream wool fleece. No tag recorded yet. DOB unknown \u2014 likely born same cohort as MC08 (pre-Samson's death). Not previously in database roster for Pen 4.",
       "confidence": "medium",
-      "last_verified": "2026-04-24"
+      "last_verified": "2026-05-13"
     },
     {
       "id": "windlestone-2139",
