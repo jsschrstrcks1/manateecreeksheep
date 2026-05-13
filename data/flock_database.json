@@ -14083,7 +14083,75 @@
       ],
       "pets_still_bred": true,
       "pet_lamb_disposition": "Sold at auction. Pets themselves never leave (owner directive)."
-    }
+    },
+    "referenced_research": [
+      {
+        "file": "data/investigations/2026-04-03_diet_to_taste_synthesis.md",
+        "date": "2026-04-03",
+        "topic": "Diet → meat flavor (multi-model synthesis: GPT, Gemini, Grok, Perplexity, You.com)",
+        "decision_affected": "Pre-slaughter feed protocol. Confirms pasture finishing produces distinctive grassy/herbaceous flavor; grain finishing masks forage notes. Drives the pre-slaughter rosemary protocol referenced in `breeding_goals.market_uplift`."
+      },
+      {
+        "file": "data/investigations/2026-04-03_hay_forage_flavor_perplexity.md",
+        "date": "2026-04-03",
+        "topic": "Hay/forage variety impact on meat flavor (Perplexity)",
+        "decision_affected": "Forage selection at Manatee Creek: bahia/bermuda baseline OK; avoid brassicas in heavy quantities; legumes (clover/alfalfa) add sweet notes."
+      },
+      {
+        "file": "data/investigations/2026-04-03_rolled_oats_flavor_youdotcom.md",
+        "date": "2026-04-03",
+        "topic": "Rolled oats vs other grains for finishing (You.com)",
+        "decision_affected": "If grain-finishing pursued: oats preferred over corn for taste profile."
+      },
+      {
+        "file": "data/investigations/2026-04-03_rosemary_dosage_perplexity.md",
+        "date": "2026-04-03",
+        "topic": "Rosemary feeding dosage for pre-slaughter flavor enhancement (Perplexity)",
+        "decision_affected": "Pre-slaughter rosemary protocol: 14–21 day exposure window in a finishing pen with planted rosemary hedge. Concrete intervention recommended for market lambs."
+      },
+      {
+        "file": "data/investigations/2026-04-22_breed_complements_investigate.md",
+        "date": "2026-04-22",
+        "topic": "Breed complements for the composite hair-sheep flock (full /investigate pipeline)",
+        "decision_affected": "Sire-selection strategy. Identifies which breeds complement the current Katahdin/Dorper/Awassi/Cracker base for hardiness + parasite resistance."
+      },
+      {
+        "file": "data/investigations/2026-04-22_pen_reassignment_grok.md",
+        "date": "2026-04-22",
+        "topic": "Pen reassignment adversarial analysis (Grok-as-devil's-advocate, post-Angus, pre-Eclipse-auction)",
+        "decision_affected": "Pen 5/6 ram succession plan around Angus's arrival and NoriSon/Eclipse exit."
+      },
+      {
+        "file": "data/investigations/2026-04-22_pipeline_v4.md",
+        "date": "2026-04-22",
+        "topic": "8-Pen linear advancement flow proposal (v4)",
+        "decision_affected": "Pipeline design. Superseded by v5 (see below)."
+      },
+      {
+        "file": "data/investigations/2026-04-22_pipeline_v5.md",
+        "date": "2026-04-22",
+        "topic": "Homogenized parasite-resistant hair-sheep flow (v5)",
+        "decision_affected": "Current active pipeline framework. Captures the 'tighten as stages advance' principle now encoded in `pipeline_v5`."
+      },
+      {
+        "file": "data/investigations/2026-04-22_ram_subfertility_heritability.md",
+        "date": "2026-04-22",
+        "topic": "Ram subfertility — heritability, inheritance mode, daughter risk",
+        "decision_affected": "Sire-selection caution: factor subfertility-heritability risk when retaining sons of borderline-fertile rams. Affects Eclipse's gifted son disposition reasoning."
+      },
+      {
+        "file": "data/investigations/2026-04-03_taste_recon.json",
+        "date": "2026-04-03",
+        "topic": "Reconnaissance prompt skeleton for the diet-to-taste investigation chain",
+        "decision_affected": "Methodology artifact only — preserves the research question structure for re-running the chain on a new question."
+      },
+      {
+        "file": "data/investigations/2026-04-03_diet_to_taste_grok.md",
+        "date": "2026-04-03",
+        "topic": "Grok-leg of the diet-to-taste multi-model investigation",
+        "decision_affected": "Folded into the 2026-04-03 diet_to_taste_synthesis."
+      }
+    ]
   },
   "tagging": {
     "convention": "Rams = left ear tag, Ewes = right ear tag",
