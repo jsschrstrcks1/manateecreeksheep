@@ -13730,6 +13730,12 @@
       "Buying outside genetics is HIGH RISK. Even 'resistant' breeds die here. Safest investment is what's already proven on this land.",
       "Spring 2026 is an extreme drought. Animals scoring FAMACHA 4-5 during DRY season (lowest parasite pressure) will be catastrophically worse when rains return. Dry-season FAMACHA failures are the strongest cull signal.",
       {
+        "date": "2026-05-13",
+        "lesson": "Spring 2026 drought cull list (Phase 2 close-out)",
+        "detail": "Drought-season FAMACHA audit identified 5 living animals scoring FAMACHA 5 in the last 60 days plus 4 additional weak-resistance adults to watch. Recommendation document at data/2026_drought_cull_list.md. Pattern: Kelsier-sired Serendipity twins both failed (sire 'gold standard' + susceptible-dam = susceptible lambs) — confirms dam genetics dominate parasite vulnerability in this flock. GG's 3rd emergency in the cohort closes the case for culling her despite owner-skill keeping her alive.",
+        "source": "2026-05-13 audit (flock-validation skill + breeding_policy.selection_hierarchy rank 1)"
+      },
+      {
         "date": "2026-04-22",
         "lesson": "Transplant-environment caveat",
         "detail": "Untreated-at-source-farm survival is a positive but ambiguous signal. Survivorship bias (animals that died untreated were not measured) and lower-pressure microenvironments can both inflate apparent resistance. Owner observation: animals brought to Manatee Creek from Danny's place (no-treatment philosophy) have sometimes struggled here. Rule: discount external 'never-treated' resistance claims by ~30-40% until one full Manatee Creek wet-season cycle establishes on-property data. Apply transplant-watch protocol (weekly FAMACHA + day 30/60 FEC + no early advancement) to all newly-arrived purchased or transferred animals from any external source.",
