@@ -8166,9 +8166,9 @@
       "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
-      "dam_id": "nori-line-f2",
+      "dam_id": null,
       "dob": null,
-      "notes": "Nori line: Nori(ABB/WH) x Dorper -> x Katahdin -> Charlies Ewe. Same breed composition as Charlie. Technical half-siblings through Nori ancestry. 100% hair genetics. MC2620 + MC2611 green tags. Single baby (ram lamb, born 10-26-25). Full description recorded from card. Eyes good 2-13. In Pen 1.",
+      "notes": "Nori line: Nori(ABB/WH) x Dorper -> x Katahdin -> Charlies Ewe. Same breed composition as Charlie. Technical half-siblings through Nori ancestry. 100% hair genetics. MC2620 + MC2611 green tags. Single baby (ram lamb, born 10-26-25). Full description recorded from card. Eyes good 2-13. In Pen 1. PEDIGREE GAP: dam_id was set to 'nori-line-f2' (a placeholder for the unrecorded F1 Nori×Dorper ewe) which broke validator. Nulled 2026-05-13 pending owner identification of the actual dam — the F1 individual (Nori × Dorper) was never given its own record.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 1 pen 1"
