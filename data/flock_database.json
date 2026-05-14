@@ -1448,7 +1448,7 @@
       "status": "alive",
       "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Chicken Coop",
+      "pen": "Tree Fort",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1498,9 +1498,9 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).  ALIVE as of April 2026. In Tree Fort. Like Rocky but Katahdin instead of Dorper.",
+      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).  ALIVE as of April 2026. In Tree Fort. Like Rocky but Katahdin instead of Dorper. Tree Fort = Chicken Coop (same physical pen, names merged 2026-05-14).",
       "confidence": "high",
-      "last_verified": "2026-02-16",
+      "last_verified": "2026-05-14",
       "weight_estimated": true,
       "secondary_tags": [
         "240007"
@@ -1985,7 +1985,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": "Pen 3",
       "measurements": {
         "girth": 31.5,
         "length": 30,
@@ -2077,9 +2077,9 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1. Moved to Pen 3. Notebook card shows tag 000lb [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Tag 00016 confirmed. Intact ram. Descendant of Sir Loin and Smore (Cracker ram) through hair ewes (StA x Kat). Not the dominant ram in Pen 3 — Charlie is. Tag 00016. FAMACHA consistently good all checks Feb-Mar 2026. Physically in Pen 3.",
+      "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1. Moved to Pen 3. Notebook card shows tag 000lb [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Tag 00016 confirmed. Intact ram. Descendant of Sir Loin and Smore (Cracker ram) through hair ewes (StA x Kat). Not the dominant ram in Pen 3 — Charlie is. Tag 00016. FAMACHA consistently good all checks Feb-Mar 2026. Physically in Pen 3. Pen 3 dominant ram as of 2026-05-14 after Charlie moved to Pen 4.",
       "confidence": "high",
-      "last_verified": "2026-02-16",
+      "last_verified": "2026-05-14",
       "weight_estimated": false,
       "twin_of": "cocoa",
       "photos": [
@@ -8278,12 +8278,12 @@
         "coat_prediction": "hair"
       },
       "color_markings": "Brown & white, white tail, blk patches on legs. White face with brown patches around eyes. Brown back with white patches.",
-      "pen": "Pen 1",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": "buck",
       "dam_id": "charlies-ewe",
       "dob": "2025-12-26",
-      "notes": "Buck(Kat/Awassi/EF) x Charlies Ewe(Kat/BHD/ABB/WH). 75% hair, above shedding threshold. Heavy Katahdin from both parents. Awassi dairy backup potential. MC2619 + 2612 green tags. Born 10-26-25 (CORRECTED from 12-26). Eyes consistently good all checks. In Pen 1.",
+      "notes": "Buck(Kat/Awassi/EF) x Charlies Ewe(Kat/BHD/ABB/WH). 75% hair, above shedding threshold. Heavy Katahdin from both parents. Awassi dairy backup potential. MC2619 + 2612 green tags. Born 10-26-25 (CORRECTED from 12-26). Eyes consistently good all checks. In Pen 1. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 1"
@@ -8391,7 +8391,8 @@
       "secondary_tags": [
         "MC-2612"
       ],
-      "description": "Brown + white with white tail. Black patches on legs. Primarily white face with brown patches around eyes. Brown back with white patches."
+      "description": "Brown + white with white tail. Black patches on legs. Primarily white face with brown patches around eyes. Brown back with white patches.",
+      "last_verified": "2026-05-14"
     },
     {
       "id": "baby-azure",
@@ -8408,12 +8409,12 @@
         "coat_type": "unknown"
       },
       "color_markings": "Blk legs, ears, face. Lighter body.",
-      "pen": "Pen 1",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": null,
       "dam_id": "azure",
       "dob": "2026-01-10",
-      "notes": "No tag (now tagged, number TBD). Born 1-10-26. Azures baby, Gigis Sister. Single baby. FAMACHA 5 on 4-1-2026 — treated aggressively. Still bright and alert despite score. Source: notebook card, pen 1. MC2610 green tag (was 0034, then 2Y). Eyes good through 3-30-26, then CRASHED to FAMACHA 5 on 4-1-26. Sudden deterioration. In Pen 1.",
+      "notes": "No tag (now tagged, number TBD). Born 1-10-26. Azures baby, Gigis Sister. Single baby. FAMACHA 5 on 4-1-2026 — treated aggressively. Still bright and alert despite score. Source: notebook card, pen 1. MC2610 green tag (was 0034, then 2Y). Eyes good through 3-30-26, then CRASHED to FAMACHA 5 on 4-1-26. Sudden deterioration. In Pen 1. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 4 pen 1"
@@ -8529,7 +8530,8 @@
       "secondary_tags": [
         "26010"
       ],
-      "description": "Black legs, ears, face; lighter body"
+      "description": "Black legs, ears, face; lighter body",
+      "last_verified": "2026-05-14"
     },
     {
       "id": "tag-0033-hair-ewe",
@@ -9099,12 +9101,12 @@
         "coat_prediction": "wool"
       },
       "color_markings": "Fawn Wool, Orange tag",
-      "pen": "Tree Fort",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 114, orange tag. Fawn wool ewe. Was in Pen 2 but moved to Pen 1 because Rocky (Jerkface, tag 140) was keeping her away from her baby. Had black ram lamb born 3-29-2026. No babies as of 2-26-26 card check. Yearly booster 3-13-26. Source: notebook card (no pen circle — was Pen 2, now Pen 1). Full sister of Orange Tag 00110. Same breed mix. Cannot breed to 00110. FULL SIBLINGS (owner-confirmed 2026-04-26): orange-tag-00110 (Pen 1 ram) + tag-00113-ewe-p1 + tag-114-fawn-wool. All three share the same parents (unknown) and identical breed composition 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Different phenotype expression: orange tag = ram (white body, orange tag); 00113 = ewe (cream wool body, BLACK FACE from Suffolk); tag 114 = ewe (fawn wool body).",
+      "notes": "Tag 114, orange tag. Fawn wool ewe. Was in Pen 2 but moved to Pen 1 because Rocky (Jerkface, tag 140) was keeping her away from her baby. Had black ram lamb born 3-29-2026. No babies as of 2-26-26 card check. Yearly booster 3-13-26. Source: notebook card (no pen circle — was Pen 2, now Pen 1). Full sister of Orange Tag 00110. Same breed mix. Cannot breed to 00110. FULL SIBLINGS (owner-confirmed 2026-04-26): orange-tag-00110 (Pen 1 ram) + tag-00113-ewe-p1 + tag-114-fawn-wool. All three share the same parents (unknown) and identical breed composition 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Different phenotype expression: orange tag = ram (white body, orange tag); 00113 = ewe (cream wool body, BLACK FACE from Suffolk); tag 114 = ewe (fawn wool body). Pen reconciliation 2026-05-14: was Tree Fort in sheep[].pen but Pen 1 per pens-section + CLAUDE.md (with her ram lamb). Set to Pen 1.",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 11"
@@ -9177,7 +9179,8 @@
           "date": "2026-04-26",
           "note": "Full-sibling relationship recorded. Siblings: orange-tag-00110, tag-00113-ewe-p1. Owner verbal: 'Pen 1 Ram is something different [from Kaladin]. Full sister/sibling to 00113.'"
         }
-      ]
+      ],
+      "last_verified": "2026-05-14"
     },
     {
       "id": "tag-114-black-ram-lamb",
@@ -9191,7 +9194,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Black with white spot on head",
-      "pen": "Goose Pen",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": "rocky",
       "dam_id": "tag-114-fawn-wool",
@@ -9200,7 +9203,8 @@
       "confidence": "high",
       "source_refs": {
         "owner_verbal": "2026-04-01"
-      }
+      },
+      "last_verified": "2026-05-14"
     },
     {
       "id": "nuba-0053",
@@ -9343,7 +9347,7 @@
         "coat_prediction": "hair"
       },
       "color_markings": "White with black spots, black horns",
-      "pen": "Pen 3",
+      "pen": "Pen 4",
       "status": "alive",
       "sire_id": null,
       "dam_id": null,
@@ -9502,7 +9506,8 @@
           "date": "2026-05-13",
           "note": "L4 close-out: catch-panel puncture vs CL clarification. Bump on left jaw appeared 2-13-26, soft by 2-26, lanced 2-27, Nuflor 4.5mL on 2-28 (105.2°F fever). Owner-confirmed 2026-05-13 the wound was a catch-panel puncture — NOT caseous lymphadenitis (CL). Resolved in ~2 weeks: eyes/chin good by 3-13-26. Removed 'Monitor for CL' wording from top-level notes since the original cause is identified. Health log already had this annotated in the 2026-02-28 famacha entry."
         }
-      ]
+      ],
+      "last_verified": "2026-05-14"
     },
     {
       "id": "charlies-farm-ewe-p3",
@@ -9642,12 +9647,12 @@
         "coat_type": "unknown"
       },
       "color_markings": "Big brown, white tip on tail, 2 white socks, white on crown, front legs all brown",
-      "pen": "Pen 3",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": "charlie-ram",
       "dam_id": "charlies-farm-ewe-p3",
       "dob": "2025-12-06",
-      "notes": "No tag (now tagged TBD). Born 12-6-25. Baby ewe from Charlies Farm ewe. 10 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie but could be Merrie. No horns (good sign). Dam is Charlies Farm Ewe (Nori line). MC2602 green tag (was MC2609). Big brown ewe lamb. Eyes consistently good. SOLID.",
+      "notes": "No tag (now tagged TBD). Born 12-6-25. Baby ewe from Charlies Farm ewe. 10 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie but could be Merrie. No horns (good sign). Dam is Charlies Farm Ewe (Nori line). MC2602 green tag (was MC2609). Big brown ewe lamb. Eyes consistently good. SOLID. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 3 pen 3"
@@ -9756,7 +9761,8 @@
         "confirmed_positions": [
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): LEFT side of the hay cage (owner correction 2026-04-26 to earlier Claude assumption that placed her near her dam on the right)"
         ]
-      }
+      },
+      "last_verified": "2026-05-14"
     },
     {
       "id": "broken-tail-twin-ewe",
@@ -9770,12 +9776,12 @@
         "coat_type": "unknown"
       },
       "color_markings": "Brown & white",
-      "pen": "Pen 3",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": null,
       "dam_id": "broken-tail",
       "dob": "2025-12-31",
-      "notes": "No tag (now tagged TBD). Born 12-31-25. Broken Tails twin ewe. Brown & white. Escaped from catch pen 2-13-26. 6.6 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie (dominant) but could be Merrie. No horns on any Pen 3 lambs this year. MC2605 green tag (also MC2625 — keeps losing tags). Brown+white. Pen 3. EYES WHITE 4-9-26 — parasite vulnerable like white twin. Both BT twins failing.",
+      "notes": "No tag (now tagged TBD). Born 12-31-25. Broken Tails twin ewe. Brown & white. Escaped from catch pen 2-13-26. 6.6 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie (dominant) but could be Merrie. No horns on any Pen 3 lambs this year. MC2605 green tag (also MC2625 — keeps losing tags). Brown+white. Pen 3. EYES WHITE 4-9-26 — parasite vulnerable like white twin. Both BT twins failing. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 5 pen 3"
@@ -9883,7 +9889,8 @@
         "confirmed_positions": [
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): just to the right of the hay cage"
         ]
-      }
+      },
+      "last_verified": "2026-05-14"
     },
     {
       "id": "broken-tail-twin-ewe-2",
@@ -9998,12 +10005,12 @@
         "coat_type": "unknown"
       },
       "color_markings": "Brown & white mottled, full white tail, white on top of ears, white blaze",
-      "pen": "Pen 3",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": null,
       "dam_id": "nori",
       "dob": "2026-01-10",
-      "notes": "No tag (now tagged TBD). Born 1-10-26. 0029/Noris Baby. 5.3 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie (dominant) but could be Merrie. No horns on any Pen 3 lambs this year. MC2604 green tag (pulled out once). 0029 Noris Baby. MALE not female. Brown+white mottled. Eyes med (FAMACHA 3) on 4-9-26.",
+      "notes": "No tag (now tagged TBD). Born 1-10-26. 0029/Noris Baby. 5.3 weeks old as of 2-20-26. Source: notebook card pen 3. Sire probably Charlie (dominant) but could be Merrie. No horns on any Pen 3 lambs this year. MC2604 green tag (pulled out once). 0029 Noris Baby. MALE not female. Brown+white mottled. Eyes med (FAMACHA 3) on 4-9-26. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 8 pen 3"
@@ -10119,7 +10126,8 @@
         "confirmed_positions": [
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): right side of image, lying parallel to dam Nori — only his head is visible above Nori's hindquarters"
         ]
-      }
+      },
+      "last_verified": "2026-05-14"
     },
     {
       "id": "gigi-2026-baby",
@@ -10134,12 +10142,12 @@
         "notes": "Sire Kelsier (100% Katahdin). Dam Gigi (unknown breed). Multi color."
       },
       "color_markings": "Multi color ewe",
-      "pen": "Pen 3",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
       "dob": "2026-01-10",
-      "notes": "Born 1-10-26. Gigis baby. Multi color ewe. Sire: Kelsier. 5.2 weeks old as of 2-20-26. Eyes good throughout. Watch for inherited parasite susceptibility from dam line (Gigi/Azure/Baby Azure all show weak resistance). Source: notebook card pen 4. MC2613 green tag. Multi color ewe. Eyes medium (FAMACHA ~3) on 4-10-26. Trending like dam GG. Watch closely.",
+      "notes": "Born 1-10-26. Gigis baby. Multi color ewe. Sire: Kelsier. 5.2 weeks old as of 2-20-26. Eyes good throughout. Watch for inherited parasite susceptibility from dam line (Gigi/Azure/Baby Azure all show weak resistance). Source: notebook card pen 4. MC2613 green tag. Multi color ewe. Eyes medium (FAMACHA ~3) on 4-10-26. Trending like dam GG. Watch closely. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 3 pen 4"
@@ -10239,7 +10247,8 @@
           "date": "2026-04-22",
           "note": "Owner directive: move Pen 4 -> Pen 3 (Stage 1 intake), mate to Charlie when she cycles fall 2026. RATIONALE: dam Gigi has 3x FAMACHA 5 history (now flagged pet, never leaves) but Gigi's Baby herself is only ONE borderline event (FAM 3 on 4-10) on otherwise clean record (avg 1.75). Calculated test breeding: Charlie's Kat hair genetics shore up potential weakness; if her lambs are clean she earns Pen 5 next year, if she crashes herself or her lambs do she's culled. Better than indefinite Pen 4 infirmary hold."
         }
-      ]
+      ],
+      "last_verified": "2026-05-14"
     },
     {
       "id": "gigi-2025-ram",
@@ -10254,7 +10263,7 @@
         "notes": "Sire believed to be Kelsier (100% Katahdin). Dam Gigi. Looks like Gigi."
       },
       "color_markings": "Looks like Gigi (Hampshire/Suffolk black face, white wool) but smaller. Owner note 2026-04-24.",
-      "pen": "Pen 4",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
@@ -10343,7 +10352,8 @@
       "mc_tag": "MC09",
       "secondary_tags": [
         "09"
-      ]
+      ],
+      "last_verified": "2026-05-14"
     },
     {
       "id": "sm-white-ewe-p4",
@@ -10484,12 +10494,12 @@
         "coat_type": "unknown"
       },
       "color_markings": "White",
-      "pen": "Pen 4",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
       "dob": "2025-12-30",
-      "notes": "Born 12-30-25. Serendipitys white ram twin. Sire: Kelsier. FAMACHA 3 on 2-12-26, then eyes bad on 2-20-26 — treated with .5mL Iron, VB, Ivermectin, Fenbendazole. Eyes better by 2-27-26. Parasite susceptibility despite Kelsier sire — dam genetics dominant. Source: notebook card pen 4. MC2606 green tag. FAMACHA history: 3→5(treated)→better→WHITE AGAIN 4-10-26. Parasite vulnerable despite Kelsier sire. PIPELINE CONCERN.",
+      "notes": "Born 12-30-25. Serendipitys white ram twin. Sire: Kelsier. FAMACHA 3 on 2-12-26, then eyes bad on 2-20-26 — treated with .5mL Iron, VB, Ivermectin, Fenbendazole. Eyes better by 2-27-26. Parasite susceptibility despite Kelsier sire — dam genetics dominant. Source: notebook card pen 4. MC2606 green tag. FAMACHA history: 3→5(treated)→better→WHITE AGAIN 4-10-26. Parasite vulnerable despite Kelsier sire. PIPELINE CONCERN. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 7 pen 4"
@@ -10613,7 +10623,8 @@
           "date": "2026-04-22",
           "note": "KEPT: Owner retaining white ram twin to test cross with strong parasite-resistant sire. Despite two FAMACHA events as lamb, line testing continues."
         }
-      ]
+      ],
+      "last_verified": "2026-05-14"
     },
     {
       "id": "serendipity-twin-ewe",
@@ -10627,12 +10638,12 @@
         "coat_type": "unknown"
       },
       "color_markings": "Black",
-      "pen": "Pen 4",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
       "dob": "2025-12-30",
-      "notes": "Born 12-30-25. Serendipitys black ewe twin. Sire: Kelsier. FAMACHA 5 (white) on 2-12-26 — aggressive treatment Ivermectin+Fenbendazole+VB Iron+VB Shot 1mL. 2-20-26 eyes not white, retreated. Under 3 by late Feb. Severe parasite susceptibility despite Kelsier sire. Dam genetics dominant for susceptibility. Source: notebook card pen 4. MC2607 green tag. Blk & white female. FAMACHA: WHITE at 6wks, treated, NOT white 2-20, then ALMOST WHITE AGAIN 4-10-26. Severe parasite vulnerability.",
+      "notes": "Born 12-30-25. Serendipitys black ewe twin. Sire: Kelsier. FAMACHA 5 (white) on 2-12-26 — aggressive treatment Ivermectin+Fenbendazole+VB Iron+VB Shot 1mL. 2-20-26 eyes not white, retreated. Under 3 by late Feb. Severe parasite susceptibility despite Kelsier sire. Dam genetics dominant for susceptibility. Source: notebook card pen 4. MC2607 green tag. Blk & white female. FAMACHA: WHITE at 6wks, treated, NOT white 2-20, then ALMOST WHITE AGAIN 4-10-26. Severe parasite vulnerability. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 7-8 pen 4"
@@ -10775,7 +10786,8 @@
           "date": "2026-04-22",
           "note": "Scheduled for 4-26-26 auction. Black ewe twin of Serendipity — two FAMACHA 5 emergencies as lamb (2-12, 4-10). Owner keeping white ram twin MC-2606 for line test."
         }
-      ]
+      ],
+      "last_verified": "2026-05-14"
     },
     {
       "id": "fm2-0051",
@@ -10879,12 +10891,12 @@
         "coat_type": "unknown"
       },
       "color_markings": "",
-      "pen": "Pen 4",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "fm2-0051",
       "dob": "2026-01-31",
-      "notes": "Born 1-31-26. FM2s baby ram. Sire: Kelsier. 2.6 weeks old as of 2-20-26. Eyes good throughout. Source: notebook card pen 4. | UPDATED 4-10-26: Born 1-31-26. FM2 Baby Ram. | 2-12-26: Eyes good | 2-20-26: 2.6 weeks old, eyes good | 3-9-26: CDT Vac (1st round) | 4-10-26: Booster (2nd CDT), eyes good",
+      "notes": "Born 1-31-26. FM2s baby ram. Sire: Kelsier. 2.6 weeks old as of 2-20-26. Eyes good throughout. Source: notebook card pen 4. | UPDATED 4-10-26: Born 1-31-26. FM2 Baby Ram. | 2-12-26: Eyes good | 2-20-26: 2.6 weeks old, eyes good | 3-9-26: CDT Vac (1st round) | 4-10-26: Booster (2nd CDT), eyes good Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 10 pen 4"
@@ -10950,7 +10962,8 @@
           }
         ]
       },
-      "mc_tag": "MC2614"
+      "mc_tag": "MC2614",
+      "last_verified": "2026-05-14"
     },
     {
       "id": "tag-31-ewe-p5",
@@ -11151,13 +11164,13 @@
       "name": "Elsie Large White Ewe Triplet",
       "tag": "MC-2618",
       "sex": "ewe",
-      "pen": "Pen 5",
+      "pen": "Goose Pen",
       "status": "alive",
       "sire_id": "nori-son",
       "dam_id": "elsie",
       "dob": "2026-01-06",
       "color_markings": "White, large",
-      "notes": "Born 1-6-26. Elsies triplet. Large white female. Sire: Eclipse. Eyes good 2-13-26. Covexin 8 3-17-26. Source: notebook card pen 6.",
+      "notes": "Born 1-6-26. Elsies triplet. Large white female. Sire: Eclipse. Eyes good 2-13-26. Covexin 8 3-17-26. Source: notebook card pen 6. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "health": {
         "famacha_history": [
           {
@@ -11238,7 +11251,7 @@
         "set_by": "owner directive"
       },
       "confidence": "medium",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-05-14"
     },
     {
       "id": "elsie-triplet-sm-white-ewe",
@@ -12107,12 +12120,12 @@
       "name": "0035 Baby Ram",
       "tag": "MC-2617",
       "sex": "ram_lamb",
-      "pen": "Tree Fort",
+      "pen": "Goose Pen",
       "status": "alive",
       "dam_id": "tag-0035-white-ewe",
       "dob": "2026-01-02",
       "color_markings": "White with brown on front legs",
-      "notes": "Born 1-2-26. 0035s baby ewe. 7 weeks old 2-20-26. Source: notebook card TF.",
+      "notes": "Born 1-2-26. 0035s baby ewe. 7 weeks old 2-20-26. Source: notebook card TF. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "health": {
         "famacha_history": [
           {
@@ -12171,7 +12184,7 @@
       "secondary_tags": [],
       "description": "White with brown on front legs",
       "confidence": "medium",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-05-14"
     },
     {
       "id": "tag-31-orange-tf",
@@ -12236,12 +12249,12 @@
       "name": "Orange 31 Ram Lamb",
       "tag": "MC2616",
       "sex": "ram",
-      "pen": "Tree Fort",
+      "pen": "Goose Pen",
       "status": "alive",
       "dam_id": "tag-31-orange-tf",
       "dob": "2026-01-02",
       "color_markings": "White w/ brown circles around eyes that go down the neck. Brown dots.",
-      "notes": "Born 1-2-26. Orange tag 31 ewes baby ram. 7 weeks old 2-20-26. Source: notebook card TF. MC2616 green. Eyes good all checks. Tree Fort.",
+      "notes": "Born 1-2-26. Orange tag 31 ewes baby ram. 7 weeks old 2-20-26. Source: notebook card TF. MC2616 green. Eyes good all checks. Tree Fort. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "health": {
         "famacha_history": [
           {
@@ -12320,19 +12333,19 @@
       "mc_tag": "MC2616",
       "description": "White with brown circles around eyes that go down the neck, plus brown dots",
       "confidence": "medium",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-05-14"
     },
     {
       "id": "bambii-baby",
       "name": "Bambiis Baby",
       "tag": "MC-2615",
       "sex": "ewe",
-      "pen": "Tree Fort",
+      "pen": "Goose Pen",
       "status": "alive",
       "dam_id": "bambii",
       "dob": "2025-12-28",
       "color_markings": "All white w/ shadow on knees. Perfect circles around eyes. Grey and blk spots on ear.",
-      "notes": "Born 12-28-25. Bambiis baby. 7.5 weeks old 2-20-26. Sex UNCLEAR from card — marked ? Source: notebook card TF. MC2615 green. Born 12-28-25. Eyes good. Tree Fort.",
+      "notes": "Born 12-28-25. Bambiis baby. 7.5 weeks old 2-20-26. Sex UNCLEAR from card — marked ? Source: notebook card TF. MC2615 green. Born 12-28-25. Eyes good. Tree Fort. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "medium",
       "health": {
         "famacha_history": [
@@ -12399,7 +12412,8 @@
         ]
       },
       "mc_tag": "MC2615",
-      "description": "All white with shadow on knees. Eyes with perfect circles around them. Grey and black spots on ear."
+      "description": "All white with shadow on knees. Eyes with perfect circles around them. Grey and black spots on ear.",
+      "last_verified": "2026-05-14"
     },
     {
       "id": "goose-09",
@@ -12582,7 +12596,7 @@
       "dam_id": "nuba-0053",
       "status": "alive",
       "status_date": "2026-03-24",
-      "pen": "Pen 1",
+      "pen": "Goose Pen",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -12631,9 +12645,9 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Born 3-24-26 to Nuba (0053) in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9).",
+      "notes": "Born 3-24-26 to Nuba (0053) in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9). Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "high",
-      "last_verified": "2026-04-09",
+      "last_verified": "2026-05-14",
       "description": "Black with tan ear. White patch on top. White tip on tail.",
       "notes_history": [
         {
@@ -13148,8 +13162,6 @@
         "tag-00113-ewe-p1"
       ],
       "lambs": [
-        "charlies-ram-lamb",
-        "baby-azure",
         "tag-0033-twin-ram-1",
         "tag-0033-twin-ram-2",
         "tag-114-black-ram-lamb"
@@ -13230,7 +13242,7 @@
       "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references 'Nuba (tag 0053, white hair ewe)' — 'Nuba' was a Claude transcription error off the tag number, not a real name. STALE RECORDS TO AUDIT: windlestone-kat-dorper.pen still reads Pen 2 but he is not in the 2026-04-24 photos; elsie.pen corrected from Pen 2 to Pen 5 per owner 2026-04-24. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 2 currently need shearing (both visible animals are shaggy). Source: notebook cards with circled 2 + owner photo ID 2026-04-24."
     },
     "pen_3": {
-      "ram": "charlie-ram",
+      "ram": "merrie",
       "other_rams": [
         "merrie"
       ],
@@ -13239,11 +13251,7 @@
         "broken-tail",
         "nori"
       ],
-      "lambs": [
-        "charlies-farm-ewe-baby-p3",
-        "broken-tail-twin-ewe",
-        "nori-baby-p3"
-      ],
+      "lambs": [],
       "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) — 5 adults yearly, 4 babies 1st dose. White twin MC-2601 deceased 2026-04-22 (parasites) — 3 surviving lambs as of 2026-04-26. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3. | 2026-04-22 update: Merrieweather moved out to Pen 4. Charlie now SOLE sire of Pen 3 — every 2026/27 Pen 3 lamb is unambiguously his.",
       "treatments": [
         {
@@ -13276,7 +13284,7 @@
       "secondary_rams": []
     },
     "pen_4": {
-      "ram": "merrie",
+      "ram": "charlie-ram",
       "ewes": [
         "gg",
         "lara",
@@ -13286,12 +13294,7 @@
         "fm2-0051",
         "samson-daughter-p4"
       ],
-      "lambs": [
-        "gigi-2026-baby",
-        "serendipity-twin-ram",
-        "serendipity-twin-ewe",
-        "fm2-ram-lamb"
-      ],
+      "lambs": [],
       "notes": "Pen 4 — monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility — even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4. | 2026-04-22 reframe: Pen 4 is the weak/pet/chronic pen, NOT a no-breeding pen. Merrieweather added as Pen 4 sire. Role: (a) progeny-test on weak ewes for Merrie's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed — Merrie has the breeding role.",
       "treatments": [
         {
@@ -13327,7 +13330,8 @@
         "elsie"
       ],
       "lambs": [
-        "elsie-triplet-lg-white-ewe"
+        "oav-2222-lamb-1",
+        "oav-2222-lamb-2"
       ],
       "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week — watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet going to auction Sunday 2026-04-26 (alive, not in a pen roster currently). Angus presence noted — ram/roster role in Pen 5 needs owner clarification (not updated here). UPDATE 2026-04-26 (owner verbal photo session): NoriSon (= Eclipse, merged record) sold at auction. Angus (Windlestone, ~4 mo, arrived 2026-04-22) is now the breeding ram. Tag 00113 ewe (Cracker/Suffolk/GCN/Katahdin, full sister of orange-tag-00110) — was previously in Pen 5 unrostered, had a singleton lamb 2026-04-22 by NoriSon that died 2026-04-25 (FTT); 00113 herself moved to Pen 1 on 2026-04-25. Small Elsie triplet (elsie-triplet-sm-white-ewe) sold at auction 2026-04-26. tag-0033-twin-ram-2 (black ram, dam tag-0033-hair-ewe) also sold at auction 2026-04-26 (he was in Pen 1). NoriSon's track record per owner: 'consistently hit or miss, in with 5 ewes for two years or so — only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor.'",
       "treatments": [
@@ -13430,27 +13434,36 @@
     "goose_pen": {
       "ram": null,
       "ewes": [],
-      "lambs": [],
-      "notes": "Goose Pen EMPTY. Animals sold at auction 2-15-26. Tags: 09, 50, 06, L19, plus 2 untagged (1 white ewe, 1 tan wooly male). Sold for approx 00 each, total ~000 minus fees ~50 net. Buyer: Bobbie B [UNCLEAR]. Source: notebook goose pen card. | Goose Pen EMPTY as of April 2026 (per owner + card IMG_0617 auction log). Prior occupants: [] ram: None"
-    },
-    "chicken_coop": {
-      "ram": "buck",
-      "ewes": [],
-      "notes": "Buck (Katahdin/Awassi/EF ram) housed in chicken coop. Current Buck is brother of original Buck who died in Hurricane Helene. Both from Windlestone."
+      "lambs": [
+        "nuba-baby-ewe",
+        "fm2-ram-lamb",
+        "baby-azure",
+        "nori-baby-p3",
+        "gigi-2026-baby",
+        "elsie-triplet-lg-white-ewe",
+        "tag-0035-baby-ewe",
+        "tag-31-orange-tf-ram-lamb",
+        "broken-tail-twin-ewe",
+        "serendipity-twin-ram",
+        "serendipity-twin-ewe",
+        "bambii-baby",
+        "charlies-ram-lamb",
+        "charlies-farm-ewe-baby-p3"
+      ],
+      "notes": "Weaning pen as of 2026-05-14. Holds gigi-2025-ram (displaced from Pen 4 when Charlie moved in) plus 14-lamb wean batch. The 3 most recently born lambs (OAV 2222 twins, 114 Black Ram Lamb) stayed with mothers.",
+      "additional_residents": [
+        "gigi-2025-ram"
+      ]
     },
     "tree_fort": {
-      "ram": null,
+      "ram": "buck",
       "ewes": [
         "tag-0035-white-ewe",
         "tag-31-orange-tf",
         "bambii"
       ],
-      "lambs": [
-        "tag-0035-baby-ewe",
-        "tag-31-orange-tf-ram-lamb",
-        "bambii-baby"
-      ],
-      "notes": "Tree Fort as of April 2026. 3 ewes + 3 lambs = 6 animals. No ram in pen. Corid 3-8 to 3-13-26. Covexin 8 3-10-26. 1 needs shearing. Tag 31 orange is from another farm, different from Tag 31 in Pen 5. Source: notebook cards TF.",
+      "lambs": [],
+      "notes": "Tree Fort as of April 2026. 3 ewes + 3 lambs = 6 animals. No ram in pen. Corid 3-8 to 3-13-26. Covexin 8 3-10-26. 1 needs shearing. Tag 31 orange is from another farm, different from Tag 31 in Pen 5. Source: notebook cards TF. Tree Fort and \"Chicken Coop\" are the same physical pen (merged 2026-05-14). Buck is the ram with 3 ewes; lambs weaned to Goose Pen 2026-05-14.",
       "treatments": [
         {
           "date_start": "2026-03-08",

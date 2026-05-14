@@ -4,6 +4,36 @@ Audit of prior-thread work in `manateecreeksheep`. Skills applied:
 `flock-validation` (domain), `verification-before-completion` (process),
 `careful-not-clever` (integrity).
 
+## Planned Pen Moves — 2026-05-14 (not yet executed)
+
+Recorded after today's wean batch. **Not applied to flock_database.json yet** —
+update records when each move is physically done.
+
+| # | Move | From | To | Reason | Status |
+|---|------|------|-----|--------|--------|
+| 1 | Buck (Tree Fort ram) | Tree Fort (= Chicken Coop) | Pen 6 | Replace MC08 as Pen 6 ram (with the 3 Windlestone Awassi ewes) | ⏳ Planned |
+| 2 | Rocky (tag 140, Pen 2 ram) | Pen 2 | Tree Fort | Take over Tree Fort with the 3 ewes (0035, Tag 31 Orange, Bambii) after Buck leaves | ⏳ Planned |
+| 3 | MC08 (Pen 6 ram) | Pen 6 | Auction | Cull/sell — replaced by Buck on the Awassi ewes | ⏳ Planned |
+
+### Pre-existing pen-data drift surfaced 2026-05-14
+
+Found while doing the wean update; **not caused by today's changes**, but should be reconciled in a separate sweep:
+
+- **Nuba (0053)**: `sheep[].pen` says Pen 1, CLAUDE.md table row for Pen 2 still lists her as Pen 2's ewe. Pen 1 row in CLAUDE.md does not list her. Confirm with owner which is current and align both.
+- **Little Daisy**: `sheep[].pen` says Pen 4, but `pens.pen_5.ewes` list and CLAUDE.md table row for Pen 5 list her as Pen 5. Confirm and reconcile.
+- **windlestone-kat-dorper (ram)**: alive in `sheep[].pen` = "Pen 2" (alongside Rocky), not represented in CLAUDE.md table or `pens.pen_2`. Surfaced when listing Pen 2 alive sheep. Two rams in same pen is unusual — confirm placement.
+- **Tag 114 fawn wool ewe**: was listed Tree Fort in `sheep[].pen` but Pen 1 in `pens.pen_1.ewes` + CLAUDE.md text. Reconciled to Pen 1 on 2026-05-14 (with her ram lamb who stayed); flag if that's wrong.
+
+After execution:
+- Pen 2: Rocky out → only 0053 (Nuba) remains; Pen 2 effectively empty/holding pen
+- Pen 6: MC08 out, Buck in — sire change for the Windlestone Awassi group
+- Tree Fort: Buck out, Rocky in — sire change for the 3 nursing ewes (lambs already weaned today)
+
+When executed, update:
+- `data/flock_database.json` sheep records: pen + last_verified
+- `data/flock_database.json` `pens` section: ram fields
+- `CLAUDE.md` Pen Structure table — remove the **Planned:** notes, update rams
+
 ## Sweep Progress — 2026-05-13 session 2
 
 Validator state after sweep: **0 errors, 0 warnings** (was 21 errors, 7 warnings).
