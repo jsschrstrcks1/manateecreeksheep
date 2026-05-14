@@ -12,7 +12,7 @@ update records when each move is physically done.
 | # | Move | From | To | Reason | Status |
 |---|------|------|-----|--------|--------|
 | 1 | Buck (Tree Fort ram) | Tree Fort (= Chicken Coop) | Pen 6 | Replace MC08 as Pen 6 ram (with the 3 Windlestone Awassi ewes) | ⏳ Planned |
-| 2 | Rocky (tag 140, Pen 2 ram) | Pen 2 | Tree Fort | Take over Tree Fort with the 3 ewes (0035, Tag 31 Orange, Bambii) after Buck leaves | ⏳ Planned |
+| 2 | Rocky (tag 140, Pen 2 ram) | Pen 2 | Tree Fort | Take over Tree Fort with the 3 ewes (0035, Bambii, Ewe 24/0003) after Buck leaves | ⏳ Planned |
 | 3 | MC08 (Pen 6 ram) | Pen 6 | Auction | Cull/sell — replaced by Buck on the Awassi ewes | ⏳ Planned |
 
 ### Pen-data drift surfaced and fixed 2026-05-14
@@ -23,6 +23,15 @@ Found while doing the wean update; resolved in this commit:
 - **Little Daisy**: was Pen 4 in `sheep[].pen` and Pen 5 in `pens.pen_5.ewes` + CLAUDE.md table. Owner-confirmed 2026-05-14: Pen 2 (with Rocky). Reconciled across all three.
 - **windlestone-kat-dorper (ram)**: `sheep[].pen` was Pen 2 but he wasn't in 2026-04-24 photos and owner-confirmed Pen 2 = Rocky + Little Daisy only. `pen` field cleared to null pending owner verification of his actual location.
 - **Tag 114 fawn wool ewe**: was Tree Fort in `sheep[].pen` but Pen 1 in `pens.pen_1.ewes` + CLAUDE.md text (with her ram lamb). Reconciled to Pen 1.
+- **Bambii tag correction + new Tree Fort ewe (2026-05-14)**: Owner enumerated every Tree Fort animal — Buck, White Ewe 0035, Bambii, and a previously-unrecorded ewe tagged 24/0003 (= "240003"). Three corrections applied:
+  - **Bambii** had tag "24/0003" in DB (sourced from notebook card photo IMG_0627). Owner confirmed Bambii's actual tag is orange #35 and she came from Heather Oaks Farm; the 24/0003 reading was a transcription error. Tag, color (white with fawn markings), and origin fixed on the Bambii record.
+  - **New record `tag-24-0003-tf`** added — the actual holder of yellow scrapie tag 24/0003. All white with some wool on her back, Sir Loin daughter, no proper name, in Tree Fort.
+  - **Orange Tag 31 Ewe** (`tag-31-orange-tf`) removed from Tree Fort — owner confirmed she's no longer there but current pen is unknown. `pen` set to null; lamb (Orange 31 Ram Lamb) already weaned to Goose Pen.
+
+### Open follow-up — Orange Tag 31 Ewe location (2026-05-14)
+
+- Orange Tag 31 Ewe (`tag-31-orange-tf`) is **alive but unlocated**. Owner did not know which pen she is in as of 2026-05-14.
+- **Action:** locate her on the farm and update `pen` (and `pens.<pen>.ewes`) when found.
 
 After execution:
 - Pen 2: Rocky out → only Little Daisy remains; Pen 2 becomes a holding pen

@@ -6435,11 +6435,12 @@
       "id": "bambii",
       "name": "Bambii",
       "aliases": [],
-      "tag": "24/0003",
+      "tag": "35",
+      "tag_color": "orange",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {},
-      "color_markings": "All white w/ shadow on front knees",
+      "color_markings": "White with fawn markings",
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
@@ -6488,7 +6489,7 @@
         "notes": [
           {
             "source": "IMG_0627",
-            "note": "Card came inline 2026-04-22. Yellow scrapie tag \"24/0003\". Single baby (Bambiis Baby MC-2615)."
+            "note": "Card came inline 2026-04-22. Single baby (Bambiis Baby MC-2615). NOTE: Tag previously recorded as scrapie \"24/0003\" was a transcription error — owner clarified 2026-05-14 that Bambii's tag is orange #35 (came from Heather Oaks Farm); the 24/0003 scrapie tag belongs to a different Tree Fort ewe (Sir Loin daughter)."
           }
         ],
         "famacha_history": [
@@ -6530,10 +6531,53 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "In Pen 2 (Sir Loin group) per spiral notebook (authoritative). Was struck through in treatment list but notebook roster is definitive for alive/active status. Tree Fort pen. Single baby (born 12-28-25). Tan patches on knees and spots. Source: notebook card TF. Tag 24/0003 yellow. Single baby. Eyes consistently good. Tree Fort.",
+      "notes": "Tree Fort pen. White with fawn markings. Origin: Heather Oaks Farm. Tag: orange #35. Single baby (born 12-28-25, Bambii's Baby MC-2615 — weaned to Goose Pen 2026-05-14). Source: notebook card TF. Eyes consistently good. CORRECTION 2026-05-14: tag previously recorded as \"24/0003\" (yellow scrapie) was a transcription error — owner confirmed Bambii's tag is orange #35; the 24/0003 scrapie tag belongs to a different Tree Fort ewe (Sir Loin daughter, separate record).",
       "confidence": "high",
-      "last_verified": "2026-02-16",
-      "description": "All white with shadow on front knees."
+      "last_verified": "2026-05-14",
+      "description": "White with fawn markings."
+    },
+    {
+      "id": "tag-24-0003-tf",
+      "name": "Ewe 24/0003 (Tree Fort)",
+      "aliases": ["240003"],
+      "tag": "24/0003",
+      "tag_color": "yellow",
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {},
+      "color_markings": "All white with some wool on her back",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": "sir-loin",
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "",
+      "pen": "Tree Fort",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": [],
+        "famacha_history": []
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Owner-introduced 2026-05-14 as a Tree Fort resident. All white with some wool on her back. Yellow scrapie tag 24/0003 (also written 240003). Sire: Sir Loin (owner-confirmed). Dam: unknown. No proper name. CONTEXT: DB previously had scrapie tag 24/0003 attached to Bambii (transcription error); owner clarified 2026-05-14 — this is a separate Sir Loin daughter ewe, distinct from Bambii (whose tag is orange #35).",
+      "confidence": "medium",
+      "last_verified": "2026-05-14",
+      "description": "All white with some wool on her back."
     },
     {
       "id": "skitters",
@@ -12188,14 +12232,14 @@
     },
     {
       "id": "tag-31-orange-tf",
-      "name": "Orange Tag 31 Ewe (Tree Fort)",
+      "name": "Orange Tag 31 Ewe",
       "tag": "31",
       "tag_color": "orange",
       "sex": "ewe",
-      "pen": "Tree Fort",
+      "pen": null,
       "status": "alive",
       "color_markings": "Wool w/ 2 brown socks on hind legs, orange tag",
-      "notes": "Tag 31 (ORANGE tag — different from Pen 5's yellow Tag 31). Came from another farm (owner believes Charlie's farm, per 2026-05-13). Both animals kept their original tags; the color difference is the field-level disambiguator. Wool ewe. Single baby (ram, born 1-2-26). Source: notebook card TF.",
+      "notes": "Tag 31 (ORANGE tag — different from Pen 5's yellow Tag 31). Came from another farm (owner believes Charlie's farm, per 2026-05-13). Both animals kept their original tags; the color difference is the field-level disambiguator. Wool ewe. Single baby (ram, born 1-2-26 — Orange 31 Ram Lamb, weaned to Goose Pen 2026-05-14). Source: notebook card TF. PEN UPDATE 2026-05-14: Owner confirmed she is NO LONGER in Tree Fort; current pen location unknown. Needs locating on the farm.",
       "health": {
         "famacha_history": [
           {
@@ -12242,7 +12286,7 @@
         ]
       },
       "confidence": "medium",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-05-14"
     },
     {
       "id": "tag-31-orange-tf-ram-lamb",
@@ -13460,11 +13504,11 @@
       "ram": "buck",
       "ewes": [
         "tag-0035-white-ewe",
-        "tag-31-orange-tf",
+        "tag-24-0003-tf",
         "bambii"
       ],
       "lambs": [],
-      "notes": "Tree Fort as of April 2026. 3 ewes + 3 lambs = 6 animals. No ram in pen. Corid 3-8 to 3-13-26. Covexin 8 3-10-26. 1 needs shearing. Tag 31 orange is from another farm, different from Tag 31 in Pen 5. Source: notebook cards TF. Tree Fort and \"Chicken Coop\" are the same physical pen (merged 2026-05-14). Buck is the ram with 3 ewes; lambs weaned to Goose Pen 2026-05-14.",
+      "notes": "Tree Fort as of 2026-05-14: Buck (ram) + 3 ewes — Bambii (orange tag #35, from Heather Oaks Farm), White Ewe 0035 (no proper name, bred on this farm, Florida Dorper x Katahdin), and Ewe 24/0003 (no name yet, Sir Loin daughter, all white with wool on back). All lambs weaned to Goose Pen 2026-05-14. Tree Fort and \"Chicken Coop\" are the same physical pen (merged 2026-05-14). PEN MEMBERSHIP CORRECTIONS 2026-05-14: (1) Orange Tag 31 Ewe removed — owner confirmed she is no longer in Tree Fort, current location unknown; (2) Bambii's tag corrected from 24/0003 (transcription error) to orange #35; (3) added Ewe 24/0003 (Sir Loin daughter) — the actual holder of the 24/0003 scrapie tag.",
       "treatments": [
         {
           "date_start": "2026-03-08",
