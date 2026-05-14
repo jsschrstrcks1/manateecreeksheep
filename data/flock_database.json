@@ -6444,7 +6444,17 @@
       "tag_color": "orange",
       "mc_tag": null,
       "sex": "ewe",
-      "breed_composition": {},
+      "breed_composition": {
+        "primary": "Katahdin/Dorper",
+        "percentages": {"Katahdin": 50, "Dorper": 50},
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair",
+        "source": "Heather Oaks Farm (owner-stated 2026-05-14)",
+        "quality_caveat": "Owner notes Heather Oaks Dorper line is weak/'lame' — discount as a Dorper genetics source for breeding decisions."
+      },
       "color_markings": "White with fawn markings",
       "weight_lbs": null,
       "dob": null,
