@@ -15,17 +15,17 @@ update records when each move is physically done.
 | 2 | Rocky (tag 140, Pen 2 ram) | Pen 2 | Tree Fort | Take over Tree Fort with the 3 ewes (0035, Tag 31 Orange, Bambii) after Buck leaves | ⏳ Planned |
 | 3 | MC08 (Pen 6 ram) | Pen 6 | Auction | Cull/sell — replaced by Buck on the Awassi ewes | ⏳ Planned |
 
-### Pre-existing pen-data drift surfaced 2026-05-14
+### Pen-data drift surfaced and fixed 2026-05-14
 
-Found while doing the wean update; **not caused by today's changes**, but should be reconciled in a separate sweep:
+Found while doing the wean update; resolved in this commit:
 
-- **Nuba (0053)**: `sheep[].pen` says Pen 1, CLAUDE.md table row for Pen 2 still lists her as Pen 2's ewe. Pen 1 row in CLAUDE.md does not list her. Confirm with owner which is current and align both.
-- **Little Daisy**: `sheep[].pen` says Pen 4, but `pens.pen_5.ewes` list and CLAUDE.md table row for Pen 5 list her as Pen 5. Confirm and reconcile.
-- **windlestone-kat-dorper (ram)**: alive in `sheep[].pen` = "Pen 2" (alongside Rocky), not represented in CLAUDE.md table or `pens.pen_2`. Surfaced when listing Pen 2 alive sheep. Two rams in same pen is unusual — confirm placement.
-- **Tag 114 fawn wool ewe**: was listed Tree Fort in `sheep[].pen` but Pen 1 in `pens.pen_1.ewes` + CLAUDE.md text. Reconciled to Pen 1 on 2026-05-14 (with her ram lamb who stayed); flag if that's wrong.
+- **0053** (no proper name; prior "Nuba" was a Claude transcription error, owner-confirmed 2026-04-24): correctly placed in Pen 1 with her baby ewe. Live "Nuba" name uses scrubbed from CLAUDE.md, lambing records, and `nuba-baby-ewe` notes. **IDs `nuba-0053` and `nuba-baby-ewe` left as-is** — opaque identifiers with cross-references throughout (`dam_id`, `offspring_ids`, eval files); changing them risks cascading breaks. Explanatory notes about the original misread are preserved so the lesson isn't lost.
+- **Little Daisy**: was Pen 4 in `sheep[].pen` and Pen 5 in `pens.pen_5.ewes` + CLAUDE.md table. Owner-confirmed 2026-05-14: Pen 2 (with Rocky). Reconciled across all three.
+- **windlestone-kat-dorper (ram)**: `sheep[].pen` was Pen 2 but he wasn't in 2026-04-24 photos and owner-confirmed Pen 2 = Rocky + Little Daisy only. `pen` field cleared to null pending owner verification of his actual location.
+- **Tag 114 fawn wool ewe**: was Tree Fort in `sheep[].pen` but Pen 1 in `pens.pen_1.ewes` + CLAUDE.md text (with her ram lamb). Reconciled to Pen 1.
 
 After execution:
-- Pen 2: Rocky out → only 0053 (Nuba) remains; Pen 2 effectively empty/holding pen
+- Pen 2: Rocky out → only Little Daisy remains; Pen 2 becomes a holding pen
 - Pen 6: MC08 out, Buck in — sire change for the Windlestone Awassi group
 - Tree Fort: Buck out, Rocky in — sire change for the 3 nursing ewes (lambs already weaned today)
 

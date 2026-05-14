@@ -188,15 +188,15 @@ All treatments should be logged in the database with:
 | Pen | Ram | Ewes | Lambs | Total | Notes |
 |-----|-----|-----|------|-------|-------|
 | Pen 1 | Orange Tag Ram (00110) | Charlie's Ewe, Azure, Hair Ewe 0033, Wool Ewe 0044, Fawn Wool Ewe 114, **00113** | 114 Black Ram Lamb | 8 | 00113 added 2026-04-25 (moved from Pen 5). 0033 twin rams sold at auction. Charlie's Ram Lamb + Baby Azure weaned to Goose Pen 2026-05-14. 114 Black Ram Lamb stayed with mom (one of 3 youngest). |
-| Pen 2 | Rocky (Jerkface, tag 140) | 0053 (Nuba) | — | 2 | Reduced — many ewes moved to Pen 1. Planned: Rocky → Tree Fort. |
+| Pen 2 | Rocky (Jerkface, tag 140) | Little Daisy | — | 2 | Pen 2 contents owner-confirmed 2026-05-14: Rocky + Little Daisy only. (Little Daisy moved from Pen 4 on 2026-05-14. 0053 — no proper name; prior "Nuba" was a Claude transcription error — is in Pen 1.) Planned: Rocky → Tree Fort. |
 | Pen 3 | **Merrie** | Charlie's Farm Ewe, Broken Tail, Nori, Cocoa's Daughter (Loki × Cocoa) | — | 5 | Charlie moved to Pen 4; Merrie now dominant ram. Lambs (Charlie's Farm Ewe Baby, Broken Tail Twin Ewe, Nori's Baby Ram, Gigi's 2026 Baby) weaned to Goose Pen 2026-05-14. |
 | Pen 4 | **Charlie** | GG, Lara, FM, Small White Ewe, Serendipity, FM2, Samson Daughter | — | 8 | Gigi's 2025 Ram (MC-09) displaced to Goose Pen. Lambs (Serendipity twins ×2, FM2 Ram Lamb) weaned to Goose Pen 2026-05-14. All prior 2026 lambs sired by Kelsier. |
-| Pen 5 | Angus | Tag 31, Tag 02, Fawn Wool Ewe (240006), OAV 2222, Little Daisy, Elsie | OAV 2222 Lamb 1, OAV 2222 Lamb 2 | 9 | Elsie triplet weaned to Goose Pen 2026-05-14. OAV 2222 twins (born 2026-04-30) stayed with mom. NoriSon sold at auction 2026-04-26; Angus (Windlestone) replaced him. |
+| Pen 5 | Angus | Tag 31, Tag 02, Fawn Wool Ewe (240006), OAV 2222, Elsie | OAV 2222 Lamb 1, OAV 2222 Lamb 2 | 8 | Little Daisy moved to Pen 2 on 2026-05-14. Elsie triplet weaned to Goose Pen 2026-05-14. OAV 2222 twins (born 2026-04-30) stayed with mom. NoriSon sold at auction 2026-04-26; Angus (Windlestone) replaced him. |
 | Pen 6 | MC08 | Windlestone 2139, Windlestone 0056, Windlestone 0055 | — | 4 | All 3 ewes are 95% Awassi fat-tail. **Planned: MC08 → auction; Buck (Tree Fort) → Pen 6.** |
 | Goose Pen | — | — | Gigi's 2025 Ram (yearling) + 14 weaned lambs | 15 | Wean batch 2026-05-14 (14 lambs from Pens 1, 3, 4, 5, Tree Fort). Gigi's 2025 Ram also here (displaced from Pen 4). |
 | Tree Fort (= Chicken Coop) | Buck | White Ewe 0035, Orange Tag 31 Ewe, Bambii | — | 4 | Same physical pen — prior records split into two rows; merged 2026-05-14. Lambs (0035 Baby Ram, Orange 31 Ram Lamb, Bambii's Baby) weaned to Goose Pen 2026-05-14. **Planned: Buck → Pen 6; Rocky (Pen 2) → Tree Fort.** |
 
-**Total active flock: ~55 animals across 8 pens** (as of 2026-05-14 after lamb weaning; +3 lambs born after prior April snapshot — OAV 2222 twins 2026-04-30, plus reconciliation. No animals removed; 14 weaned lambs simply moved to Goose Pen.)
+**Total active flock: ~54 animals across 8 pens** (as of 2026-05-14 after wean batch + Little Daisy → Pen 2 move; OAV 2222 twins born 2026-04-30 since prior April snapshot of ~52. No animals removed today; 14 weaned lambs moved within-farm to Goose Pen.)
 
 > **Sam correction (preserved from PR-23):** Sam was removed from active records 2026-04-26 — he died in Hurricane Helene on 2024-09-26 (off-farm, not on this property at time of death). Prior records had him with a 2026-04-02 bulk-cleanup status_date which was incorrect.
 

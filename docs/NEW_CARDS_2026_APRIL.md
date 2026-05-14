@@ -47,7 +47,7 @@ same subjects — only the IMG number assignment would change.
 | 0625 | Orange Tag 31 ewe (`tag-31-orange-tf`) | Tree Fort | Wool+2 brown socks; 3-13 CDT; 4-11 good |
 | 0626 | Orange 31 Ram Lamb (MC2616) | Tree Fort | DOB 1-2-26 confirmed; CDT 3-10 + booster 4-11 |
 | 0629 | **Tree Fort group log** | Tree Fort | Corid 3-8 to 3-13; CDT 3-10 + booster 4-11; 3 lambs + Buck tagged |
-| 0630 | Lambing span note | — | Oldest 12-6-25 Pen 3, newest 1-31-26 Pen 4 (pre-Nuba) |
+| 0630 | Lambing span note | — | Oldest 12-6-25 Pen 3, newest 1-31-26 Pen 4 (pre-0053-baby-3-24-26) |
 | 0631 | **Master headcount** | — | 34 adults + 17 babies = 51 total |
 | 0632 | Charlies Ewe (MC-2620+MC-2611) | Pen 1 (was Pen 3) | Full markings description; 2-13 good; single baby |
 | 0633 | Charlies Ewe back | Pen 1 | 2-19 CDT 5mL; 3-30 booster+tag good |

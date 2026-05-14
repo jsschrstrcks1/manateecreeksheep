@@ -2517,7 +2517,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 4",
+      "pen": "Pen 2",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -2545,9 +2545,9 @@
           "IMG_8635.PNG"
         ]
       },
-      "notes": "Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 — notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides. Pen 5. NOT pregnant. Been with Eclipse since 10 weeks old — Eclipse failed to breed her. Escaped into yard, put back in 5. Parentage: Sire=Dodge (Sir Loin x Broken Tail, sold off farm), Dam=Daisy (Sir Loin x Anna, sold off farm). Heavily Sir Loin line both sides. Coming up on 1 year old. Source: owner verbal April 2026. LITTLE DAISY NEVER HAD BABIES. Never pregnant. Escaped into yard, put back in Pen 5.",
+      "notes": "Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 — notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides. Pen 5. NOT pregnant. Been with Eclipse since 10 weeks old — Eclipse failed to breed her. Escaped into yard, put back in 5. Parentage: Sire=Dodge (Sir Loin x Broken Tail, sold off farm), Dam=Daisy (Sir Loin x Anna, sold off farm). Heavily Sir Loin line both sides. Coming up on 1 year old. Source: owner verbal April 2026. LITTLE DAISY NEVER HAD BABIES. Never pregnant. Escaped into yard, put back in Pen 5. Moved Pen 4 -> Pen 2 on 2026-05-14 (owner-confirmed Pen 2 contents: Rocky + Little Daisy only).",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-05-14"
     },
     {
       "id": "little-daisys-baby-mc01",
@@ -12523,7 +12523,7 @@
       "status": "alive",
       "status_date": "2026-04-03",
       "status_notes": "Purchased from Windlestone. FLAG 2026-04-24: Pen 2 photo set shows only Rocky + one unidentified white-faced wool ewe — this hair ram is NOT in those photos. Pen assignment likely stale. Also: aliases 'Butthead' / 'Charlie's Ram' collide with Rocky's aliases — possible duplicate-record risk (same pattern as Pen 4's lara/g023-bhd-ewe). Owner needs to confirm (a) where this ram actually is, and (b) whether he is a distinct animal from Rocky or a duplicate. DO NOT breed or cull from this record until resolved.",
-      "pen": "Pen 2",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -12574,9 +12574,9 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Windlestone Kat/Dorper: 50% top-tier Katahdin x 50% elite Dorper (top in the country). FAMACHA 1 consistently for 1 year. 100% hair. HAS ATTITUDE — fractured handlers hand. Pen 2 is secure/built for dangerous rams. Handler protocol: pin on back, pinch nose to submit if charges. Elite genetics justify the management overhead.",
+      "notes": "Windlestone Kat/Dorper: 50% top-tier Katahdin x 50% elite Dorper (top in the country). FAMACHA 1 consistently for 1 year. 100% hair. HAS ATTITUDE — fractured handlers hand. Pen 2 is secure/built for dangerous rams. Handler protocol: pin on back, pinch nose to submit if charges. Elite genetics justify the management overhead. Pen cleared 2026-05-14: prior Pen 2 was stale (not in 2026-04-24 photos; owner-confirmed Pen 2 = Rocky + Little Daisy only on 2026-05-14). Verify actual location.",
       "confidence": "high",
-      "last_verified": "2026-04-03",
+      "last_verified": "2026-05-14",
       "temperament": "aggressive toward handlers — fractured hand. Requires dominant handling protocol.",
       "description": "Black headed Dorper with horns. Has attitude (\"Butthead\" per notebook)."
     },
@@ -12623,7 +12623,7 @@
         "notes": [
           {
             "source": "IMG_0648",
-            "note": "Nuba's Baby ewe. No tag. Dam 0053 (Nuba). Sire: Rocky per prior commit notes."
+            "note": "0053's Baby ewe. No tag. Dam 0053. Sire: Rocky per prior commit notes."
           }
         ],
         "famacha_history": [
@@ -12645,7 +12645,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Born 3-24-26 to Nuba (0053) in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9). Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
+      "notes": "Born 3-24-26 to 0053 in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9). Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "high",
       "last_verified": "2026-05-14",
       "description": "Black with tan ear. White patch on top. White tip on tail.",
@@ -13204,7 +13204,9 @@
     },
     "pen_2": {
       "ram": "rocky",
-      "ewes": [],
+      "ewes": [
+        "little-daisy"
+      ],
       "lambs": [],
       "unidentified": [
         {
@@ -13239,7 +13241,7 @@
           }
         }
       ],
-      "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references 'Nuba (tag 0053, white hair ewe)' — 'Nuba' was a Claude transcription error off the tag number, not a real name. STALE RECORDS TO AUDIT: windlestone-kat-dorper.pen still reads Pen 2 but he is not in the 2026-04-24 photos; elsie.pen corrected from Pen 2 to Pen 5 per owner 2026-04-24. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 2 currently need shearing (both visible animals are shaggy). Source: notebook cards with circled 2 + owner photo ID 2026-04-24."
+      "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references 'Nuba (tag 0053, white hair ewe)' — 'Nuba' was a Claude transcription error off the tag number, not a real name. STALE RECORDS TO AUDIT: windlestone-kat-dorper.pen still reads Pen 2 but he is not in the 2026-04-24 photos; elsie.pen corrected from Pen 2 to Pen 5 per owner 2026-04-24. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 2 currently need shearing (both visible animals are shaggy). Source: notebook cards with circled 2 + owner photo ID 2026-04-24. UPDATE 2026-05-14: Pen 2 contents owner-confirmed as Rocky + Little Daisy only. 0053 (no proper name; prior 'Nuba' was a transcription error) is in Pen 1, not Pen 2. windlestone-kat-dorper pen field cleared (stale)."
     },
     "pen_3": {
       "ram": "merrie",
@@ -13326,7 +13328,6 @@
         "tag-02-ewe-p5",
         "fawn-wool-ewe-p5",
         "oav-2222",
-        "little-daisy",
         "elsie"
       ],
       "lambs": [
@@ -14268,7 +14269,7 @@
     {
       "source": "IMG_0630",
       "as_of": "pre 2026-03-24",
-      "note": "Snapshot at time of writing: Oldest 2025-2026 baby in Pen 3, born 12-6-25. Newest in Pen 4, born 1-31-26. (Later Nuba's baby born 3-24-26 Pen 1 supersedes 'newest'.)"
+      "note": "Snapshot at time of writing: Oldest 2025-2026 baby in Pen 3, born 12-6-25. Newest in Pen 4, born 1-31-26. (Later 0053's baby born 3-24-26 Pen 1 supersedes 'newest'.)"
     }
   ]
 }
