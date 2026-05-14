@@ -12406,8 +12406,19 @@
       "sire_id": "buck",
       "dam_id": "bambii",
       "dob": "2025-12-28",
+      "breed_composition": {
+        "primary": "Katahdin/Dorper/Awassi",
+        "percentages": {"Katahdin": 50, "Dorper": 25, "Awassi": 24, "East Friesian": 1},
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair",
+        "derivation": "Sire Buck (50 Kat / 48 Aw / 2 EF) + Dam Bambii (50 Kat / 50 Dorper, Heather Oaks). Maternal half: 25 Kat + 25 Dorper. Paternal half: 25 Kat + 24 Aw + 1 EF.",
+        "quality_caveat": "25% Dorper comes from Bambii (Heather Oaks line, owner-noted as weak). Katahdin (Kelsier-line via Buck) and Awassi (Windlestone via Buck) are higher-quality."
+      },
       "color_markings": "All white w/ shadow on knees. Perfect circles around eyes. Grey and blk spots on ear.",
-      "notes": "Born 12-28-25. Bambiis baby. 7.5 weeks old 2-20-26. Sex UNCLEAR from card — marked ? Source: notebook card TF. MC2615 green. Born 12-28-25. Eyes good. Tree Fort. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
+      "notes": "Born 12-28-25. Bambiis baby. 7.5 weeks old 2-20-26. Sex UNCLEAR from card — marked ? Source: notebook card TF. MC2615 green. Born 12-28-25. Eyes good. Tree Fort. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch). Breed comp added 2026-05-14 from sire (buck) and dam (bambii) records.",
       "confidence": "medium",
       "health": {
         "famacha_history": [
