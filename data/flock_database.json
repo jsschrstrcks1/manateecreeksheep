@@ -1491,14 +1491,19 @@
       "breeding": {
         "is_breeding_animal": true,
         "breeding_group": "",
-        "offspring_ids": [],
+        "offspring_ids": [
+          "charlies-ram-lamb",
+          "tag-0035-baby-ewe",
+          "bambii-baby",
+          "tag-31-orange-tf-ram-lamb"
+        ],
         "lambing_records": []
       },
       "source_refs": {
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).  ALIVE as of April 2026. In Tree Fort. Like Rocky but Katahdin instead of Dorper. Tree Fort = Chicken Coop (same physical pen, names merged 2026-05-14).",
+      "notes": "Current Buck in chicken coop. Brother of original Buck who died in Hurricane Helene. Same breed: 48%Awassi/2%EF/50%Katahdin. From Windlestone (same source as brother).  ALIVE as of April 2026. In Tree Fort. Like Rocky but Katahdin instead of Dorper. Tree Fort = Chicken Coop (same physical pen, names merged 2026-05-14). Owner-confirmed 2026-05-14: sired all the Tree Fort lambs in the 2026 wean batch — 0035 Baby Ram (ram_lamb), Orange 31 Ram Lamb (ram), and Bambiis Baby (ewe). Also sired charlies-ram-lamb (out of Charlie's Ewe — relationship was already in DB).",
       "confidence": "high",
       "last_verified": "2026-05-14",
       "weight_estimated": true,
@@ -12166,6 +12171,7 @@
       "sex": "ram_lamb",
       "pen": "Goose Pen",
       "status": "alive",
+      "sire_id": "buck",
       "dam_id": "tag-0035-white-ewe",
       "dob": "2026-01-02",
       "color_markings": "White with brown on front legs",
@@ -12295,6 +12301,7 @@
       "sex": "ram",
       "pen": "Goose Pen",
       "status": "alive",
+      "sire_id": "buck",
       "dam_id": "tag-31-orange-tf",
       "dob": "2026-01-02",
       "color_markings": "White w/ brown circles around eyes that go down the neck. Brown dots.",
@@ -12386,6 +12393,7 @@
       "sex": "ewe",
       "pen": "Goose Pen",
       "status": "alive",
+      "sire_id": "buck",
       "dam_id": "bambii",
       "dob": "2025-12-28",
       "color_markings": "All white w/ shadow on knees. Perfect circles around eyes. Grey and blk spots on ear.",
