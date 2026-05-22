@@ -4074,7 +4074,8 @@
         "breeding_group": "",
         "offspring_ids": [
           "oliver",
-          "spicy"
+          "spicy",
+          "lara-2026-lamb"
         ],
         "lambing_records": []
       },
@@ -12028,6 +12029,73 @@
         "treatments": [],
         "notes": []
       }
+    },
+    {
+      "id": "lara-2026-lamb",
+      "name": "Lara's 2026 Lamb",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "breed_composition": {
+        "primary": "Black Headed Dorper/Katahdin",
+        "percentages": {
+          "Black Headed Dorper": 50.0,
+          "Katahdin": 50.0
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Both parents are hair breeds (BHD + Katahdin) — pure hair coat expected. Confirmed in photos."
+      },
+      "color_markings": "Piebald — predominantly WHITE body with BLACK patches; solid BLACK face with a white blaze between the ears; black legs with white feet/socks. Hair coat (slick). Umbilical cord still attached in birth photos.",
+      "weight_lbs": null,
+      "dob": "2026-05-21",
+      "dob_approximate": false,
+      "sire_id": "kelsier",
+      "dam_id": "lara",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "Born 2026-05-21. First photographed within hours of birth (umbilical cord still attached).",
+      "pen": "Pen 4",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": [
+          {
+            "source": "owner photo 2026-05-21",
+            "note": "Newborn lamb photographed today. Mom present, nursing. Appears healthy."
+          }
+        ]
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 2026-05-21 (today). Daughter of Lara (BHD) × Kelsier (Katahdin, NSIP). Piebald hair lamb — black face/legs, white body with black patches. Photographed within hours of birth — umbilical cord still attached. Pen 4. PENDING: tag assignment, birth weight, lamb health check. Watch for inherited parasite resistance — Kelsier sire is the gold standard, but dam Lara is on the weak resistance list.",
+      "confidence": "high",
+      "last_verified": "2026-05-21",
+      "visual_id": {
+        "face": "Solid black face with a white blaze on the crown between the ears",
+        "coat": "Hair (slick), predominantly white body with distinct black patches; black legs ending in white feet/socks",
+        "size": "Newborn — record birth weight at next handling",
+        "distinguishes_from": {
+          "serendipity-twin-ewe": "Both have black markings, but Lara's lamb is PIEBALD (white-dominant with black patches); MC2607 is mostly BLACK. Lara's lamb is also a newborn (May 21) vs. MC2607 born Dec 2025.",
+          "gigi-2026-baby": "Multi-color, but Gigi's daughter is older (born Jan 10) and near adult size; Lara's lamb is brand new and small."
+        }
+      }
     }
   ],
   "pens": {
@@ -12152,7 +12220,8 @@
         "gigi-2026-baby",
         "serendipity-twin-ram",
         "serendipity-twin-ewe",
-        "fm2-ram-lamb"
+        "fm2-ram-lamb",
+        "lara-2026-lamb"
       ],
       "notes": "Pen 4 — monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility — even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4.",
       "treatments": [

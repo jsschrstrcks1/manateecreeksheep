@@ -17,9 +17,9 @@
 
 ---
 
-## Pen 4 — Monitoring / Treatment Pen (11 animals as of 2026-04-24)
+## Pen 4 — Monitoring / Treatment Pen (12 animals as of 2026-05-21)
 
-Pen 4 is the weak-resistance watch pen. All 2026 lambs sired by Kelsier (100% Katahdin). Ram of the adult breeding group is Gigi's 2025 son.
+Pen 4 is the weak-resistance watch pen. All 2026 lambs sired by Kelsier (100% Katahdin). Ram of the adult breeding group is Gigi's 2025 son. New lamb born 2026-05-21: Lara's first 2026 daughter.
 
 ### Adults (8)
 
