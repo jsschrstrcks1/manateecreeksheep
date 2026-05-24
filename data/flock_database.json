@@ -10617,8 +10617,8 @@
         "coat_type": "unknown"
       },
       "color_markings": "White",
-      "pen": "Goose Pen",
-      "status": "alive",
+      "pen": null,
+      "status": "sold",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
       "dob": "2025-12-30",
@@ -10757,11 +10757,15 @@
         {
           "date": "2026-05-21",
           "note": "REVERT: previously marked sold at auction 2026-05-21 in error — operator clarified no lambs were sold that day, only mature rams. Tag MC2606 stays alive in Goose Pen."
+        },
+        {
+          "date": "2026-05-21",
+          "note": "Sold at auction (tag MC2606). RE-CONFIRMED: ram lambs were sold; my earlier revert was on a misread of operator's 'rams only' = 'only male sheep, not ewe lambs'."
         }
       ],
       "last_verified": "2026-05-21",
-      "status_date": null,
-      "status_notes": ""
+      "status_date": "2026-05-21",
+      "status_notes": "Sold at auction 2026-05-21 as ram lamb (operator confirmed 2026-05-21: ewe lambs not sold, ram lambs were)."
     },
     {
       "id": "serendipity-twin-ewe",
@@ -11028,8 +11032,8 @@
         "coat_type": "unknown"
       },
       "color_markings": "",
-      "pen": "Goose Pen",
-      "status": "alive",
+      "pen": null,
+      "status": "sold",
       "sire_id": "kelsier",
       "dam_id": "fm2-0051",
       "dob": "2026-01-31",
@@ -11101,8 +11105,8 @@
       },
       "mc_tag": "MC2614",
       "last_verified": "2026-05-21",
-      "status_date": null,
-      "status_notes": "",
+      "status_date": "2026-05-21",
+      "status_notes": "Sold at auction 2026-05-21 as ram lamb (operator confirmed 2026-05-21: ewe lambs not sold, ram lambs were).",
       "notes_history": [
         {
           "date": "2026-05-21",
@@ -11111,6 +11115,10 @@
         {
           "date": "2026-05-21",
           "note": "REVERT: previously marked sold at auction 2026-05-21 in error — operator clarified no lambs were sold that day, only mature rams. Tag MC2614 stays alive in Goose Pen."
+        },
+        {
+          "date": "2026-05-21",
+          "note": "Sold at auction (tag MC2614). RE-CONFIRMED: ram lambs were sold; my earlier revert was on a misread of operator's 'rams only' = 'only male sheep, not ewe lambs'."
         }
       ]
     },
@@ -12405,8 +12413,8 @@
       "name": "Orange 31 Ram Lamb",
       "tag": "MC2616",
       "sex": "ram",
-      "pen": "Goose Pen",
-      "status": "alive",
+      "pen": null,
+      "status": "sold",
       "sire_id": "buck",
       "dam_id": "tag-31-orange-tf",
       "dob": "2026-01-02",
@@ -12491,8 +12499,8 @@
       "description": "White with brown circles around eyes that go down the neck, plus brown dots",
       "confidence": "medium",
       "last_verified": "2026-05-21",
-      "status_date": null,
-      "status_notes": "",
+      "status_date": "2026-05-21",
+      "status_notes": "Sold at auction 2026-05-21 as ram lamb (operator confirmed 2026-05-21: ewe lambs not sold, ram lambs were).",
       "notes_history": [
         {
           "date": "2026-05-21",
@@ -12501,6 +12509,10 @@
         {
           "date": "2026-05-21",
           "note": "REVERT: previously marked sold at auction 2026-05-21 in error — operator clarified no lambs were sold that day, only mature rams. Tag MC2616 stays alive in Goose Pen."
+        },
+        {
+          "date": "2026-05-21",
+          "note": "Sold at auction (tag MC2616). RE-CONFIRMED: ram lambs were sold; my earlier revert was on a misread of operator's 'rams only' = 'only male sheep, not ewe lambs'."
         }
       ]
     },
@@ -13554,12 +13566,9 @@
         "serendipity-twin-ewe",
         "bambii-baby",
         "charlies-ram-lamb",
-        "charlies-farm-ewe-baby-p3",
-        "serendipity-twin-ram",
-        "fm2-ram-lamb",
-        "tag-31-orange-tf-ram-lamb"
+        "charlies-farm-ewe-baby-p3"
       ],
-      "notes": "Weaning pen as of 2026-05-14. Holds gigi-2025-ram (displaced from Pen 4 when Charlie moved in) plus 14-lamb wean batch. The 3 most recently born lambs (OAV 2222 twins, 114 Black Ram Lamb) stayed with mothers. | 2026-05-21: Auction sweep — gigi-2025-ram, serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold. | 2026-05-21 CORRECTION: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb restored to roster — they were NOT sold (operator clarified: only mature rams sold that day).",
+      "notes": "Weaning pen as of 2026-05-14. Holds gigi-2025-ram (displaced from Pen 4 when Charlie moved in) plus 14-lamb wean batch. The 3 most recently born lambs (OAV 2222 twins, 114 Black Ram Lamb) stayed with mothers. | 2026-05-21: Auction sweep — gigi-2025-ram, serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold. | 2026-05-21 CORRECTION: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb restored to roster — they were NOT sold (operator clarified: only mature rams sold that day). | 2026-05-21 RE-CONFIRMED: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold at auction (ram lambs).",
       "additional_residents": []
     },
     "tree_fort": {
@@ -14408,6 +14417,23 @@
         "Total auction count per operator was 7 (MC08 + 6 others). With lambs ruled out, need to re-identify 5 mature-ram sales."
       ],
       "next_step": "Operator to re-list auction sheep with the 'mature rams only' constraint, or share auction paperwork. Active mature rams in current DB: charlie-ram (Pen 4), merrie (Pen 3), buck (Pen 6), rocky (Tree Fort), kelsier (Pen 4 sire of lambs), orange-tag-00110 (Pen 1), eclipse (Pen 5, subfertile cull candidate). None of these except eclipse fit the 'sold' profile."
+    },
+    {
+      "date": "2026-05-21",
+      "issue": "2026-05-21 auction — final 2 sheep still unidentified.",
+      "rule_clarified": "Operator: 'we didn't sell any EWE LAMBS, only RAM LAMBS'. So sold = mature rams + male lambs of any age.",
+      "confirmed_sales_5_of_7": [
+        "MC08 = mc08-ram (Pen 6 ram)",
+        "MC09 = gigi-2025-ram (yearling ram, ~16 months)",
+        "MC2606 = serendipity-twin-ram (ram lamb)",
+        "MC2614 = fm2-ram-lamb (ram lamb)",
+        "MC2616 = tag-31-orange-tf-ram-lamb (ram lamb)"
+      ],
+      "remaining": [
+        "2503",
+        "2517"
+      ],
+      "candidate_pool": "Green tag (MC-26xx) ram lambs still in DB: MC2604 (nori-baby-p3, Pen 3->Goose), MC2608/2609 (tag-0033 twins — already sold prior), MC2612 (charlies-ram-lamb secondary tag, MC2619 primary), MC2617 (tag-0035-baby-ewe — id mis-named: actually a ram lamb), MC2619 (charlies-ram-lamb)."
     }
   ]
 }
