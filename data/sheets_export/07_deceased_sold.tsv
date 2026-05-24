@@ -2,12 +2,11 @@ Name	ID	Tag	Sex	Status	Status Date	Breed Primary	Sire ID	Dam ID	Notes
 Sir Loin	sir-loin	2	ram	deceased	2026-04-02	St Augustine/Katahdin	None	None	Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weigh
 Kelsier	kelsier	2223	ram	deceased	None	Katahdin	None	None	Most parasite resistant sheep in the flock. Deceased. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2
 Samson	samson	None	ram	deceased	None	Hampshire	None	None	Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says
-Sam	sam	None	ram	deceased	2026-04-02	Gulf Coast Native	None	None	Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Ram weight 165lbs, ewe weight prediction 125lbs (f
-Kaladin	kaladin	014	ram	deceased	2026-04-02	Cracker/St Augustine/Babydoll/Jacob/Katahdin	smore	serendipity	Living Kaladin tag 014. DOB 5/11/2023 per extension service. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/
+Sam	sam	None	ram	deceased	2024-09-26	Gulf Coast Native	None	None	Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Ram weight 165lbs, ewe weight prediction 125lbs (f
 S'More	smore	22	ram	deceased	None	Cracker	None	None	Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was m
 Well Done	well-done	8	ram	deceased	None	Katahdin	None	None	Flock spreadsheet: Tag 8, 100% Katahdin, 175lbs. Sire: Big Daddy, Dam: Gulf (off-farm). Father of Stew (by Fleecity) and
 Butter Ball	butter-ball	None	ram	deceased	None	Dorper	None	None	Dorper ram. Deceased per weak resistance list.
-NoriSon	nori-son	054	ram	deceased	2026-04-02		sir-loin	nori	Ram in pen 5 currently. Tag 54. Also was tag 22. Sir Loin son (confirmed by owner). Nori's son. Notebook lists associate
+NoriSon	nori-son	054	ram	sold	2026-04-26	St Augustine/ABB/Wiltshire Horn/Katahdin	sir-loin	nori	MERGED RECORD 2026-04-26: 'Eclipse' (tag 113) and 'NoriSon' (tag 054, was tag 22) were the same animal — owner confirmed
 Charlie's Ram	charlies-ram	012	ram	deceased	2026-04-02		None	None	Photos from March 18, 2024. Also called Mc11 or tag 12. White lamb with yellow ear tag in photos. Weight calculator: 36.
 Pippin	pippin	015	ram	sold	None	Cracker/St Augustine/Katahdin	smore	bsoed	Pippin/BSOE1. Tag 015. S'More (100%Cr) x BSOED (40.5K/59.5SA). DOB 12/12/2022 per BSOED breeding page. Sold. White body,
 New Black Belly Ram	new-black-belly-ram	018	ram	deceased	2026-04-02	American Blackbelly	None	None	New ABB ram from measurement list. Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/20
@@ -22,7 +21,7 @@ Little Daisy's Baby (Mc01)	little-daisys-baby-mc01	None	ewe	deceased	2026-04-02	
 Baby	baby	None	ewe	deceased	2026-04-02	Suffolk Cross	None	None	In pen 3 (Sam group). On weak resistance list. Google Sheet Pen 2 shows her as Suffolk Cross ewe offspring calculation p
 Baby Momma	baby-momma	None	ewe	deceased	2026-04-02		None	None	In pen 3 (Sam group). Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/2024 or natural
 Zara	zara	025	ewe	deceased	None	Dorper	None	None	Tag 25. Zara = Dorper 25 (same animal). 100% Dorper. Deceased per owner. Was in pen 3 (Sam group). On weak resistance li
-Half Tail	half-tail	None	ewe	deceased	2026-04-02	St Augustine/Katahdin/BBB	sir-loin	hersheys	Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersh
+Half Tail	half-tail	None	ewe	deceased	2024-09-26	St Augustine/Katahdin/BBB	sir-loin	hersheys	Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersh
 Trouble	trouble	033	ewe	deceased	2026-04-02	Katahdin/St Augustine/Dorper	sir-loin	haylee-lawson	Flock spreadsheet: Tag 9/retagged 33, 25%Dorper/37.5%K/37.5%SA, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Laws
 Bsoe	bsoe	032	ewe	deceased	2026-04-02	Katahdin/St Augustine	sir-loin	two-pence	Flock spreadsheet: 56%K/44%SA, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOED (by Sir Loin). Ta
 Bsoed	bsoed	031	ewe	deceased	2026-04-02	St Augustine/Katahdin	sir-loin	bsoe	Flock spreadsheet: ~40.5%K/~59.5%SA, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with
@@ -34,7 +33,6 @@ Circle Tail	circle-tail	None	ewe	deceased	2026-04-02	Cracker/St Augustine/Katahd
 Fox Tail	fox-tail	017	ewe	deceased	None	Cracker/St Augustine/Katahdin/Dorper	smore	trouble	Tag 17. S'More (100%Cr) x Trouble (37.5K/37.5SA/25Dorper). 50%Cr/18.75%SA/18.75%K/12.5%Dorper. Died in Hurricane Helene.
 S1	s1	None	ewe	deceased	2026-04-02		None	None	In pen 6 (no ram). Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/2024 or natural ca
 S2	s2	None	ewe	deceased	2026-04-02		None	None	In pen 2 (sirloin group). Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/2024 or nat
-Lara	lara	023	ewe	deceased	2026-04-02	Black Headed Dorper	lara-sire	lara-dam	Tag 23. 100% Black Headed Dorper per breeding page (previously listed as generic Dorper). DOB 2018. Sire: dorper ram, Da
 Pebbles	pebbles	None	ewe	deceased	2026-04-02		None	None	In pen 2 (sirloin group). FAMACHA 3, treated. Entry struck through in treatment list. Marked deceased April 2026 — not o
 Anna	anna	1	ewe	deceased	None	Katahdin	None	None	Flock spreadsheet: Tag 1, 100% Katahdin, 175lbs. DOB 1/12/2012. Sire: Show King, Dam: Show Queen (off-farm). Mother of A
 Boots	boots	7	ewe	culled	None	Dorper/Katahdin	None	None	Flock spreadsheet: Tag 7, 50% Dorper / 50% Katahdin, 130lbs. DOB 2/14/2020. Purchased from Maria (Sire: Maria 1, Dam: Ma
@@ -61,9 +59,9 @@ Skitters	skitters	None	ewe	deceased	None	Karakul	None	None	Deceased. 100% Karaku
 W136	w136	None	ewe	deceased	None		None	None	Deceased. On weak resistance list.
 Unnamed (Deceased)	unnamed-deceased	None	unknown	deceased	None		None	None	Deceased. On weak resistance list as 'Unnamed (deceased)'.
 Hersheys	hersheys	3	ewe	deceased	None	BBB/Katahdin/St Augustine	sir-loin	sugar	Flock spreadsheet: Tag 3, 25% BBB / 37.5% Katahdin / 37.5% St Augustine, 150lbs. DOB 2/1/2015. Sir Loin (25K/75SA) x Sug
-GG's Daughter	gg-daughter-45	045	ewe	deceased	None		gg	None	GG's daughter (GG is sire). Tag 45. Deceased.
-Lara's Daughter	lara-daughter-46	046	ewe	sold	None		gg	lara	GG (sire) x Lara (dam) daughter. Tag 46. Sold because prone to Coccidia.
-GG's Son	gg-son-094	094	ram	deceased	None		gg	None	GG's son. Tag 094. Deceased.
+GG's Daughter	gg-daughter-45	045	ewe	deceased	None		kelsier	gg	GG's daughter. Tag 45. Sire: Kelsier, Dam: GG (owner-confirmed 2026-05-13 — prior sire_id 'gg' was wrong since GG is an 
+Lara's Daughter	lara-daughter-46	046	ewe	sold	None		kelsier	lara	Kelsier (sire) x Lara (dam) daughter. Tag 46. Sold because prone to Coccidia. CORRECTION 2026-05-13: sire_id 'gg' was wr
+GG's Son	gg-son-094	094	ram	deceased	None		kelsier	gg	GG's son. Tag 094. Sire: Kelsier, Dam: GG (owner-confirmed 2026-05-13 — prior sire_id 'gg' was wrong since GG is an ewe)
 430-2079	tag-430-2079	430-2079	ewe	deceased	2023-08-21	Suffolk/Hampshire	None	None	Tag 430-2079 (pen 5). 25%Hampshire/75%Suffolk. Ewe weight 335.15lbs, ram weight prediction 400lbs. DOB 2017. Acquired 8-
 Kelsier's Sister	kelsiers-sister	2241	ewe	deceased	None	Katahdin	None	None	Kelsier's sister. Tag 2241. 100% Katahdin. Weight 150lbs. Breeding page attributes: Flighty?, Good Mother?, Attentive, P
 Dorper Ram (Deceased)	dorper-ram-deceased	None	ram	deceased	None	Dorper	None	None	Dorper ram from sick sheep note. Given iron and B on 10-24. Deceased.
@@ -84,10 +82,14 @@ W140	w140	None	ewe	deceased	2026-04-02		None	None	On weak resistance list. Statu
 Anna's Big One	annas-big-one	None	ewe	deceased	2026-04-02	Katahdin/St Augustine	sir-loin	anna	Flock spreadsheet: 62.5% Katahdin / 37.5% St Augustine, 200lbs. DOB 12/1/2014. Sir Loin x Anna. Called 'Banana' in noteb
 Dorpy	dorpy	None	ewe	deceased	2026-04-02	Katahdin/Dorper/Babydoll	None	None	From Google Sheet Pen 4. Tag 34 offspring row. Marked deceased April 2026 — not on notebook cards. Likely lost to hurric
 Tag 34 (Pen 4)	tag-34-pen4	None	ewe	deceased	2026-04-02	Katahdin/St Augustine	None	None	From Google Sheet Pen 4. 100% hair. Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/2
-Dodge	dodge	None	ram	sold		Sir Loin x Broken Tail offspring	sir-loin	broken-tail	Sold off farm. Buyers named him Dodge. Sire of Little Daisy. Also sire of Loki (Dodge x Half Tail daughter).
-Daisy	daisy	None	ewe	sold		Sir Loin x Anna offspring	sir-loin	anna	Sold off farm. Buyers named her Daisy. Dam of Little Daisy.
-Elsie Black Ram Triplet	elsie-triplet-black-ram	None	ram	gifted	2026-03-15		eclipse	elsie	Born 1-6-26. Elsies triplet. Black ram. Sire: Eclipse. Gifted mid-March 2026 to girl starting her flock. Eyes good 2-13-
+0033 Twin Ram 1 (White/Brown)	tag-0033-twin-ram-1	MC2608	ram	sold	2026-04-06	[UNCLEAR - 0033 offspring]	None	tag-0033-hair-ewe	No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook car
+0033 Twin Ram 2 (Black)	tag-0033-twin-ram-2	MC2609	ram	sold	2026-04-26	[UNCLEAR - 0033 offspring]	None	tag-0033-hair-ewe	No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook car
+Broken Tail Twin Ewe 2 (White)	broken-tail-twin-ewe-2	MC-2601	ewe	deceased	2026-04-22	[UNCLEAR - Broken Tail offspring]	None	broken-tail	No tag (now tagged TBD). Born 12-31-25. Broken Tails second twin. White ewe. Escaped from catch pen 2-13-26. 6.6 weeks o
+Daisy (Anna line)	daisy-anna-line	None	ewe	sold		Sir Loin x Anna offspring	sir-loin	anna	Sold off farm. Buyers named her Daisy. CORRECTION 2026-05-13: prior note claimed she was 'Dam of Little Daisy' — owner c
+Elsie Small White Ewe Triplet	elsie-triplet-sm-white-ewe	None	ewe	sold	2026-04-26		nori-son	elsie	Born 1-6-26. Elsies triplet. Small white female. Sire: NoriSon (formerly recorded as Eclipse — same ram, merged). Eyes g
+Elsie Black Ram Triplet	elsie-triplet-black-ram	None	ram	gifted	2026-03-15		nori-son	elsie	Born 1-6-26. Elsies triplet. Black ram. Sire: Eclipse. Gifted mid-March 2026 to girl starting her flock. Eyes good 2-13-
 Goose Pen 09	goose-09	09	ram	sold	2026-02-15				Sold at auction 2-15-26. ~00.
 Goose Pen 50	goose-50	50	ewe	sold	2026-02-15				Wooly Tan. Sold at auction 2-15-26. ~00.
 Goose Pen 06	goose-06	06	ram	sold	2026-02-15				White Hair/Tan. Sold at auction 2-15-26. ~00.
 Goose Pen L19	goose-l19	L19	ewe	sold	2026-02-15				Black, sheared. Sold at auction 2-15-26. ~00.
+00113's Singleton (deceased)	tag-00113-singleton-2026	None	unknown	deceased	2026-04-25	[Cracker/Suffolk/GCN/Katahdin × Sir Loin/Nori]	nori-son	tag-00113-ewe-p1	Singleton lamb of 00113 by NoriSon. Born 2026-04-22, died 2026-04-25 — failure to thrive. Brown body. Sex not determined

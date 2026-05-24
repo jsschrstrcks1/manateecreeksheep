@@ -225,43 +225,289 @@ def export_breed_reference(breeds):
     write_tsv("04_breed_reference.tsv", headers, rows)
 
 
-def export_annual_eval_template(db):
-    """Generate blank scoring templates for annual review."""
+def export_annual_eval_template(db, year=None):
+    """Export annual eval TSVs from the persisted per-year JSONs.
 
-    # Ram evaluation template
+    System of record: data/annual_evals/<year>_(ram|ewe)_eval.json.
+    Run scripts/run_annual_eval.py to (re)generate or merge the JSONs against
+    the current flock_database.json before re-exporting. Owner-typed scores
+    are preserved across re-runs.
+
+    Closes L7 from MANATEE_CREEK_REDESIGN_PLAN.md.
+    """
+    from datetime import datetime
+    from pathlib import Path
+
+    if year is None:
+        year = datetime.now().year
+
+    repo_root = Path(__file__).parent.parent
+    ram_json = repo_root / "data" / "annual_evals" / f"{year}_ram_eval.json"
+    ewe_json = repo_root / "data" / "annual_evals" / f"{year}_ewe_eval.json"
+
+    if not ram_json.exists() or not ewe_json.exists():
+        print(f"  [warn] {year} eval JSONs missing — run: python3 scripts/run_annual_eval.py --year {year}")
+        return
+
+    # Ram TSV — columns mirror RAM_SCORE_KEYS in run_annual_eval.py
+    with open(ram_json) as f:
+        ram_doc = json.load(f)
     headers = [
-        "Ram Name", "Ram ID", "Pen", "Stage",
+        "Ram Name", "Ram ID", "Pen", "Stage", "Status",
         "Offspring Avg FAMACHA (40%)", "Offspring Shed % (25%)",
         "Offspring Avg Daily Gain (15%)", "Conception Rate (10%)",
         "Offspring Survival 90d (10%)",
         "TOTAL SCORE", "ACTION (Keep/Demote/Replace/Cull)"
     ]
     rows = []
-    for s in db["sheep"]:
-        if s.get("status") == "alive" and s.get("sex") in ("ram", "ram_lamb"):
-            if s.get("pen") and s["pen"] != "Goose Pen":
-                rows.append([
-                    s["name"], s["id"], s.get("pen", ""), "",
-                    "", "", "", "", "", "", ""
-                ])
+    for a in ram_doc.get("animals", []):
+        if a.get("archived"):
+            continue
+        sc = a.get("scores", {})
+        rows.append([
+            a.get("name", ""), a["id"], a.get("pen", ""), a.get("stage", ""), a.get("status", ""),
+            sc.get("offspring_avg_famacha") or "",
+            sc.get("offspring_shed_pct") or "",
+            sc.get("offspring_avg_daily_gain") or "",
+            sc.get("conception_rate") or "",
+            sc.get("offspring_survival_90d") or "",
+            a.get("total_score") or "",
+            a.get("action", ""),
+        ])
     write_tsv("05_ram_annual_eval.tsv", headers, rows)
 
-    # Ewe evaluation template
+    # Ewe TSV — columns mirror EWE_SCORE_KEYS in run_annual_eval.py
+    with open(ewe_json) as f:
+        ewe_doc = json.load(f)
     headers = [
-        "Ewe Name", "Ewe ID", "Pen", "Stage",
+        "Ewe Name", "Ewe ID", "Pen", "Stage", "Status",
         "Own FAMACHA Avg (30%)", "Deworming Events (20%)",
         "Shedding Score 1-5 (15%)", "Lambing Success (15%)",
         "Offspring FAMACHA Avg (10%)", "BCS (10%)",
         "TOTAL SCORE", "ACTION (Advance/Hold/Drop/Cull)"
     ]
     rows = []
-    for s in db["sheep"]:
-        if s.get("status") == "alive" and s.get("sex") in ("ewe", "ewe_lamb"):
-            rows.append([
-                s["name"], s["id"], s.get("pen", ""), "",
-                "", "", "", "", "", "", "", ""
-            ])
+    for a in ewe_doc.get("animals", []):
+        if a.get("archived"):
+            continue
+        sc = a.get("scores", {})
+        rows.append([
+            a.get("name", ""), a["id"], a.get("pen", ""), a.get("stage", ""), a.get("status", ""),
+            sc.get("own_famacha_avg") or "",
+            sc.get("deworming_events") or "",
+            sc.get("shedding_score") or "",
+            sc.get("lambing_success") or "",
+            sc.get("offspring_famacha") or "",
+            sc.get("bcs") or "",
+            a.get("total_score") or "",
+            a.get("action", ""),
+        ])
     write_tsv("06_ewe_annual_eval.tsv", headers, rows)
+
+
+def _fmt_pct_dict(percentages):
+    if not percentages:
+        return ""
+    return ", ".join(f"{k} {v}%" for k, v in percentages.items())
+
+
+def _famacha_entries(sheep):
+    """Yield (date_str, score, notes) tuples flattened across both field shapes."""
+    h = sheep.get("health") or {}
+    for entry in h.get("famacha_history", []) or []:
+        yield entry.get("date", ""), entry.get("score", ""), entry.get("notes", "")
+    for entry in h.get("famacha_scores", []) or []:
+        yield entry.get("date", ""), entry.get("famacha", ""), entry.get("notes", "")
+
+
+def _treatment_entries(sheep):
+    h = sheep.get("health") or {}
+    for t in h.get("treatments", []) or []:
+        yield t.get("date", ""), t.get("treatment", ""), t.get("notes", "")
+
+
+def export_master_flock_list(db):
+    """Every animal (alive + deceased + sold + gifted + culled). Identity-first view."""
+    headers = [
+        "Name", "ID", "Tag", "Tag Color", "Sex", "Status", "Status Date", "Pen",
+        "DOB", "DOB Approx", "Sire ID", "Dam ID",
+        "Breed Primary", "Breed %", "Coat Type",
+        "Weight (lb)", "Weight Estimated", "Confidence",
+    ]
+    rows = []
+    for s in db["sheep"]:
+        bc = s.get("breed_composition") or {}
+        rows.append([
+            s.get("name", ""), s["id"], s.get("tag") or "", s.get("tag_color") or "",
+            s.get("sex", ""), s.get("status", ""), s.get("status_date") or "",
+            s.get("pen") or "",
+            s.get("dob") or "", "Y" if s.get("dob_approximate") else "",
+            s.get("sire_id") or "", s.get("dam_id") or "",
+            bc.get("primary", ""), _fmt_pct_dict(bc.get("percentages")),
+            bc.get("coat_type", ""),
+            s.get("weight_lbs") or "", "Y" if s.get("weight_estimated") else "",
+            s.get("confidence", ""),
+        ])
+    rows.sort(key=lambda r: (r[5] != "alive", r[7], r[0]))  # alive first, then pen, then name
+    write_tsv("08_master_flock_list.tsv", headers, rows)
+
+
+def export_active_rams(db):
+    """Registry of all alive rams and ram_lambs."""
+    headers = [
+        "Name", "ID", "Tag", "Pen", "DOB", "Breed Primary",
+        "Weight (lb)", "Offspring Count", "Sire ID", "Dam ID",
+    ]
+    rows = []
+    for s in db["sheep"]:
+        if s.get("status") != "alive": continue
+        if s.get("sex") not in ("ram", "ram_lamb"): continue
+        offspring = (s.get("breeding") or {}).get("offspring_ids") or []
+        bc = s.get("breed_composition") or {}
+        rows.append([
+            s.get("name", ""), s["id"], s.get("tag") or "",
+            s.get("pen") or "", s.get("dob") or "",
+            bc.get("primary", ""),
+            s.get("weight_lbs") or "",
+            len(offspring),
+            s.get("sire_id") or "", s.get("dam_id") or "",
+        ])
+    rows.sort(key=lambda r: (r[3], r[0]))
+    write_tsv("09_active_rams.tsv", headers, rows)
+
+
+def export_active_ewes(db):
+    """Registry of all alive ewes and ewe_lambs."""
+    headers = [
+        "Name", "ID", "Tag", "Pen", "DOB", "Breed Primary",
+        "Weight (lb)", "Lambing Records", "Sire ID", "Dam ID",
+    ]
+    rows = []
+    for s in db["sheep"]:
+        if s.get("status") != "alive": continue
+        if s.get("sex") not in ("ewe", "ewe_lamb"): continue
+        lr = (s.get("breeding") or {}).get("lambing_records") or []
+        bc = s.get("breed_composition") or {}
+        rows.append([
+            s.get("name", ""), s["id"], s.get("tag") or "",
+            s.get("pen") or "", s.get("dob") or "",
+            bc.get("primary", ""),
+            s.get("weight_lbs") or "",
+            len(lr),
+            s.get("sire_id") or "", s.get("dam_id") or "",
+        ])
+    rows.sort(key=lambda r: (r[3], r[0]))
+    write_tsv("10_active_ewes.tsv", headers, rows)
+
+
+def export_health_treatment_log(db):
+    """Date-indexed treatment log flattened across all sheep."""
+    headers = ["Date", "Animal ID", "Animal Name", "Pen", "Treatment", "Notes"]
+    rows = []
+    for s in db["sheep"]:
+        for date, treatment, notes in _treatment_entries(s):
+            if not date and not treatment: continue
+            rows.append([
+                date, s["id"], s.get("name", ""), s.get("pen") or "",
+                treatment, notes,
+            ])
+    rows.sort(key=lambda r: (r[0], r[2]), reverse=True)  # most recent first
+    write_tsv("11_health_treatment_log.tsv", headers, rows)
+
+
+def export_famacha_trend(db):
+    """Longitudinal FAMACHA per animal. One row per score event."""
+    headers = ["Date", "Animal ID", "Animal Name", "Pen", "Score", "Notes"]
+    rows = []
+    for s in db["sheep"]:
+        for date, score, notes in _famacha_entries(s):
+            if not date and score in (None, ""): continue
+            rows.append([
+                date, s["id"], s.get("name", ""), s.get("pen") or "",
+                score, notes,
+            ])
+    rows.sort(key=lambda r: (r[0], r[2]), reverse=True)
+    write_tsv("12_famacha_trend.tsv", headers, rows)
+
+
+def export_weight_history(db):
+    """Current weight + ADG slot per animal. ADG columns left blank for now —
+    populated once historical weight series are entered."""
+    headers = [
+        "Animal ID", "Name", "Pen", "Status", "Current Weight (lb)", "Estimated",
+        "30d Weight", "60d Weight", "90d Weight", "ADG (lb/day)",
+    ]
+    rows = []
+    for s in db["sheep"]:
+        if s.get("weight_lbs") is None: continue
+        rows.append([
+            s["id"], s.get("name", ""), s.get("pen") or "", s.get("status", ""),
+            s.get("weight_lbs") or "", "Y" if s.get("weight_estimated") else "",
+            "", "", "", "",
+        ])
+    rows.sort(key=lambda r: (r[3] != "alive", r[2], r[1]))
+    write_tsv("13_weight_history_adg.tsv", headers, rows)
+
+
+def export_breeding_season_tracker(db):
+    """Per-lamb tracker pulled from lambing_records_2026 + sheep[] cross-ref."""
+    headers = [
+        "Birth Date", "Dam", "Sire", "Pen", "Lambs Born", "Lambs Alive", "Notes",
+    ]
+    rows = []
+    for r in db.get("lambing_records_2026", []) or []:
+        rows.append([
+            r.get("date", ""), r.get("dam", "") or "", r.get("sire", "") or "",
+            r.get("pen", "") or "", r.get("lambs_born", ""), r.get("lambs_alive", ""),
+            r.get("notes", "") or "",
+        ])
+    rows.sort(key=lambda x: x[0], reverse=True)
+    write_tsv("14_breeding_season_tracker.tsv", headers, rows)
+
+
+def export_costs_financials_template(db):
+    """Owner-filled costs/financials tab. Schema only — values entered in sheet."""
+    headers = [
+        "Date", "Category", "Animal/Pen", "Item", "Vendor",
+        "Quantity", "Unit Cost", "Total Cost", "Notes",
+    ]
+    write_tsv("15_costs_financials.tsv", headers, [])
+
+
+def export_per_pen_rosters(db):
+    """One TSV per pen — same column shape as Active Flock but pen-filtered."""
+    headers = [
+        "Name", "ID", "Tag", "Sex", "DOB", "Breed Primary",
+        "Weight (lb)", "Sire ID", "Dam ID", "Status",
+    ]
+    pen_to_rows = {}
+    for s in db["sheep"]:
+        if s.get("status") != "alive": continue
+        pen = s.get("pen") or "no_pen"
+        bc = s.get("breed_composition") or {}
+        pen_to_rows.setdefault(pen, []).append([
+            s.get("name", ""), s["id"], s.get("tag") or "",
+            s.get("sex", ""), s.get("dob") or "",
+            bc.get("primary", ""),
+            s.get("weight_lbs") or "",
+            s.get("sire_id") or "", s.get("dam_id") or "",
+            s.get("status", ""),
+        ])
+    # Write one tab per pen, deterministic order
+    base = 16
+    pen_order = [
+        "Pen 1", "Pen 2", "Pen 3", "Pen 4", "Pen 5", "Pen 6",
+        "Tree Fort", "Chicken Coop", "Goose Pen", "no_pen",
+    ]
+    # numbering: 16=Pen 1 ... 21=Pen 6, 22=Tree Fort, 23=Chicken Coop, 24=Goose Pen, 25=no_pen
+    written = 0
+    for i, pen in enumerate(pen_order):
+        if pen not in pen_to_rows: continue
+        rows = sorted(pen_to_rows[pen], key=lambda r: (r[3], r[0]))
+        slug = pen.lower().replace(" ", "_")
+        write_tsv(f"{base + i:02d}_pen_{slug}.tsv", headers, rows)
+        written += 1
+    return written
 
 
 def export_deceased_sold(db):
@@ -610,10 +856,28 @@ function autoResize(sheet, numCols) {
 def main():
     tsv_only = "--tsv-only" in sys.argv
     gs_only = "--gs-only" in sys.argv
+    dry_run = "--dry-run" in sys.argv
 
     db, breeds = load_data()
     print(f"Exporting flock data ({len([s for s in db['sheep'] if s.get('status')=='alive'])} alive, {len(db['sheep'])} total)")
     print(f"Output: {OUT_DIR}/\n")
+
+    if dry_run:
+        # Compute expected tab count and per-tab row counts without writing.
+        alive = [s for s in db["sheep"] if s.get("status") == "alive"]
+        pens_used = sorted({s.get("pen") or "no_pen" for s in alive})
+        pen_count = len([p for p in pens_used if p in {"Pen 1","Pen 2","Pen 3","Pen 4","Pen 5","Pen 6","Tree Fort","Chicken Coop","Goose Pen","no_pen"}])
+        fixed_tabs = 15  # 01-15 baseline (excluding per-pen)
+        # 01 pipeline_overview, 02 active_flock, 03 breeding_policy, 04 breed_reference,
+        # 05 ram_eval, 06 ewe_eval, 07 deceased_sold, 08 master_flock_list,
+        # 09 active_rams, 10 active_ewes, 11 health_treatment_log, 12 famacha_trend,
+        # 13 weight_history_adg, 14 breeding_season_tracker, 15 costs_financials
+        total = fixed_tabs + pen_count
+        print(f"[dry-run] Planned tabs: {total} ({fixed_tabs} fixed + {pen_count} per-pen)")
+        print(f"[dry-run] Animals: {len(alive)} alive, {sum(1 for s in db['sheep'] if s.get('status')=='deceased')} deceased, {sum(1 for s in db['sheep'] if s.get('status')=='sold')} sold")
+        print(f"[dry-run] Per-pen tabs: {pens_used}")
+        print(f"[dry-run] Lambing records 2026: {len(db.get('lambing_records_2026',[]))}")
+        return
 
     if not gs_only:
         export_pipeline_overview(db)
@@ -623,6 +887,16 @@ def main():
             export_breed_reference(breeds)
         export_annual_eval_template(db)
         export_deceased_sold(db)
+        # L5 expansion: 08-15 fixed tabs + 16-24 per-pen rosters
+        export_master_flock_list(db)
+        export_active_rams(db)
+        export_active_ewes(db)
+        export_health_treatment_log(db)
+        export_famacha_trend(db)
+        export_weight_history(db)
+        export_breeding_season_tracker(db)
+        export_costs_financials_template(db)
+        export_per_pen_rosters(db)
 
     if not tsv_only:
         generate_apps_script(db, breeds)

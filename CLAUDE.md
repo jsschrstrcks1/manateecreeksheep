@@ -12,6 +12,14 @@ This is a family operation. Accuracy matters because real animals depend on corr
 
 ---
 
+## Skills
+
+Full skill catalog (26 skills) is documented in [`SKILLS.md`](SKILLS.md) — human-facing index with activation modes, trigger keywords, the 7-pen breeding pipeline, and the FAMACHA-driven selection rubric. **Read SKILLS.md at session start** before any flock-database edits, breeding decisions, or notebook transcription.
+
+The sheep-domain skills (`careful-not-clever`, `breeding-advisor`, `flock-validation`, `health-tracker`, `pasture-planner`, `image-transcription`, `google-sheets-sync`) plus the standard household kit (16 skills) are configured under `.claude/skills/`. The orchestrator runs in `sheep` mode with **GPT as lead** (planning) and Claude as validator/safety.
+
+---
+
 ## Theological Foundation
 
 > *"The LORD is my shepherd; I shall not want."* — Psalm 23:1 (ESV)
@@ -41,7 +49,10 @@ The flock data comes from multiple sources. When sources conflict, use this prio
 - Mc11 = Charlie's ram = tag 12
 - Mc12 = 036 = Serendipity's baby ewe
 - Mc01 = Little Daisy's baby (baby's baby) = tag 35
-- NoriSon = ram in pen 5, tag 54
+- NoriSon = ram in pen 5, tag 54 — also called "Eclipse" (tag 113); same animal, records merged 2026-04-26. Sold at auction 2026-04-26.
+- **Angus** = Pen 5 ram (replaced NoriSon 2026-04-26). Windlestone, ~4 months old as of late Apr 2026. Breed: **50% Katahdin / 25% Dorper / 25% Awassi**.
+- **00113** = ewe, Cracker/Suffolk/GCN/Katahdin, full sister of orange-tag-00110 (Pen 1 ram) and tag-114-fawn-wool. Moved Pen 5 → Pen 1 on 2026-04-25. Very parasite resistant; terrible mother.
+- **Kaladin** is alive (NOT deceased — DB had a wrong 2026-04-02 bulk-cleanup flag, corrected 2026-04-26). NOT the Pen 1 ram — orange-tag-00110 is.
 
 ---
 
@@ -172,17 +183,23 @@ All treatments should be logged in the database with:
 
 ---
 
-## Pen Structure (as of Feb 2026)
+## Pen Structure (as of April 2026)
 
-| Pen | Ram | Notes |
-|-----|-----|-------|
-| Pen 1 | Kaladin | With Eclipse, Merrie, Abg, Fm |
-| Pen 2 | Sir Loin | With Azure, S2, Lara, Bambii, Unnamed, Pebbles |
-| Pen 3 | Sam | With Baby, Baby momma, Zara, Half tail, New big girl 2 |
-| Pen 4 | Samson | With Elsie, Nori, Trouble, Bsoe, Bsoed, Banana |
-| Pen 5 | Rocky/NoriSon | With Amber 24, Broken tail, Little daisy; NoriSon tag 54 |
-| Pen 6 | No ram | Shaggy, Serendipity, S1, Fm1, Fox tail, Circle tail |
-| Goose Pen | — | Auction lambs (09, 50, 06, L19, others) |
+| Pen | Ram | Ewes | Lambs | Total | Notes |
+|-----|-----|-----|------|-------|-------|
+| Pen 1 | Orange Tag Ram (00110) | Charlie's Ewe, Azure, Hair Ewe 0033, Wool Ewe 0044, Fawn Wool Ewe 114, **00113** | Charlie's Ram Lamb, Baby Azure, 114 Black Ram Lamb | 10 | 00113 added 2026-04-25 (moved from Pen 5). 0033 twin rams sold at auction. |
+| Pen 2 | Rocky (Jerkface, tag 140) | 0053 (Nuba) | — | 2 | Reduced — many ewes moved to Pen 1. |
+| Pen 3 | Charlie | Charlie's Farm Ewe, Broken Tail, Nori, **Cocoa's Daughter (Loki × Cocoa)** | Charlie's Farm Ewe Baby, Broken Tail Twin Ewes ×2, Nori's Baby Ram | 9 | Merrie also in Pen 3 (intact ram, not dominant). Cocoa's Daughter added 2026-04-22 (Danny's animal pedigree on file). |
+| Pen 4 | Gigi's 2025 Ram (MC-09) | GG, Lara, FM, Small White Ewe, Serendipity, FM2, Samson Daughter | Gigi's 2026 Baby, Serendipity twins ×2, FM2 Ram Lamb | 12 | Weak-resistance watch pen. All 2026 lambs sired by Kelsier. |
+| Pen 5 | **Angus** | Tag 31, Tag 02, Fawn Wool Ewe (240006), OAV 2222, Little Daisy, Elsie | Elsie Large White Ewe Triplet (MC-2618) | 8 | NoriSon sold at auction 2026-04-26; Angus (4 mo, Windlestone) replaced him. Small Elsie triplet also sold 2026-04-26. |
+| Pen 6 | MC08 | Windlestone 2139, Windlestone 0056, Windlestone 0055 | — | 4 | All 3 ewes are 95% Awassi fat-tail. |
+| Goose Pen | — | — | — | 0 | Auction lambs sold 2-15-26. Currently empty. |
+| Chicken Coop | Buck | — | — | 1 | — |
+| Tree Fort | — | White Ewe 0035, Orange Tag 31 Ewe, Bambii | 0035 Baby Ram, Orange 31 Ram Lamb, Bambii's Baby | 6 | No ram; nursing ewes + lambs. |
+
+**Total active flock: ~52 animals across 9 pens** (as of 2026-04-26 after auction sweep + Cocoa's Daughter arrival 2026-04-22).
+
+> **Sam correction (preserved from PR-23):** Sam was removed from active records 2026-04-26 — he died in Hurricane Helene on 2024-09-26 (off-farm, not on this property at time of death). Prior records had him with a 2026-04-02 bulk-cleanup status_date which was incorrect.
 
 ---
 

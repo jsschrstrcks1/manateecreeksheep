@@ -57,7 +57,7 @@
       "pen_2": 2,
       "pen_3": 9,
       "pen_4": 11,
-      "pen_5": 6,
+      "pen_5": 8,
       "pen_6": 7,
       "tree_fort": 6,
       "goose_pen": 0
@@ -246,7 +246,7 @@
           "samson-daughter-p4": "GG larger + condition poorer; MC-19 tag vs no tag; usually near huge lamb MC-2613."
         }
       },
-      "pen": "Pen 3",
+      "pen": "Pen 4",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -391,8 +391,14 @@
         {
           "date": "2026-04-22",
           "note": "PET — family/personal animal, never leaves flock regardless of resistance. Owner directive."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Planned breeding to Merrieweather (now Pen 4 sire) fall 2026. Lamb either sells at auction (~\\$300) or earns a place; Merrie's breeding-ram status will be evaluated based on progeny FAMACHA from this and other Pen 4 ewes."
         }
-      ]
+      ],
+      "planned_sire": "merrie",
+      "planned_breeding_season": "fall 2026 (Pen 4)"
     },
     {
       "id": "rocky",
@@ -422,7 +428,18 @@
         "wool_percentage": 50,
         "coat_prediction": "mixed"
       },
-      "color_markings": "",
+      "color_markings": "Black head (BHD heritage) with heavy red-brown wool body (Awassi). Curling ram horns. White lower legs. Heavy/shaggy fleece as of 2026-04-24 — needs shearing. Large frame (~300 lb).",
+      "visual_id": {
+        "face": "Dark / near-black head with white hair-muzzle highlights",
+        "horns": "Curling ram horns — single strongest visual distinguisher",
+        "coat": "Heavy red-brown wool, shaggy/clumped; clearly needs shearing Apr 2026",
+        "body": "Large heavy frame (~300 lb), white lower legs",
+        "pen_context": "Only ram in Pen 2 with wool + horns. Windlestone-Kat-Dorper (if actually in Pen 2) would be slick hair, not wool — different animal.",
+        "distinguishes_from": {
+          "buck": "Rocky is 50% BHD (dark head) + 44% Awassi wool. Buck is 50% Katahdin + 48% Awassi and lives in Tree Fort — not Pen 2.",
+          "windlestone-kat-dorper": "Windlestone-Kat-Dorper is 100% HAIR (slick). Rocky reads heavily WOOL. Coat type alone separates them."
+        }
+      },
       "weight_lbs": 300,
       "dob": null,
       "dob_approximate": true,
@@ -478,6 +495,63 @@
         "offspring_ids": [],
         "lambing_records": []
       },
+      "plan_rebuild_evaluation": {
+        "date_evaluated": "2026-04-24",
+        "scope": "Pen 2 visual-ID pass — evaluation from photo observation + DB record + CLAUDE.md selection priorities.",
+        "breeding_soundness": {
+          "physical": "Sound. Mature active adult ram, ambulatory, horns intact with normal curl, standing square in all three 2026-04-24 photos.",
+          "fertility_evidence": "Proven sire — 2 confirmed 2026 offspring by sire_id search (tag-114-black-ram-lamb DOB 2026-03-29 out of tag-114-fawn-wool; nuba-baby-ewe DOB 2026-03-24 out of 0053). NOTE: his record's breeding.offspring_ids is empty — pre-existing DB inconsistency, not created by this pass.",
+          "behavior": "Aliased 'Jerkface' / 'Butthead' / 'Rock' — aggressive handler behavior noted across records. Requires caution but not logged as a handler-injury animal like windlestone-kat-dorper.",
+          "age": "Mature adult (DOB approximate, unknown). R2 breeding rule (known-DOB requirement) technically fails on record quality grounds — an age estimate would resolve.",
+          "eligibility_flag": "Not currently marked 'Eligible' in record. R4 consideration."
+        },
+        "conformation": {
+          "frame_size": "Large — ~300 lb on record. Heavy meat build consistent with Dorper/Awassi cross.",
+          "horns": "Curling ram horns, intact, no breakage visible in photos.",
+          "legs_feet": "White lower legs clean in photos; no visible lameness or swelling; stands square.",
+          "body_condition_score": "OBSCURED by heavy wool. BCS cannot be scored reliably until sheared. Needs shearing.",
+          "observations_2026_04_24": "Tongue-out in pic 1 — likely panting (Florida heat + heavy wool), not necessarily pathological. Re-check after shearing."
+        },
+        "health_parasite": {
+          "weak_resistance_list": true,
+          "weak_list_source": "CLAUDE.md Feb 14 2026 list",
+          "famacha_history_summary": "FAMACHA 3 (2023, treated Ivermectin+BPW); FAMACHA 4.5 on 2023-09-20 (treated Ivermectin+iron+nutridrench); sick episode 2023-10-23; FAMACHA 1 on 2026-02-16 (current stable); yearly Covexin 2026-03-13.",
+          "pattern": "Historical moderate parasite susceptibility. Currently stable but remains on weak-resistance list — his genetics should be assumed parasite-weak until proven otherwise by sustained FAMACHA 1-2 under pressure.",
+          "other": "On 'Rams to Upgrade' list per his record notes — owner already flagged him for replacement."
+        },
+        "meat_potential": {
+          "score": "HIGH",
+          "reasoning": "50% Black Headed Dorper + 44% Awassi = CLAUDE.md's explicit 'Meatiest: Dorper-Awassi cross' genetic profile. 300 lb adult weight supports this. Strong meat-trait carrier for the flock."
+        },
+        "milk_potential": {
+          "score": "MEDIUM",
+          "reasoning": "44% Awassi + 6% East Friesian from sire Teaser (88%Aw/12%EF) gives milk-gene carrier status. But dam was 100% BHD (not milky), so daughters' actual milk expression depends heavily on their own dam. Use on milky ewes if milk trait needs reinforcing; don't rely on Rocky alone to deliver milk in daughters."
+        },
+        "wool_management_burden": {
+          "score": "POOR for goals (heavy wool in Florida)",
+          "reasoning": "~50% wool percentage. Needs annual shearing. Counter to Selection Priority #4 (Hair coat selection — moving toward hair sheep for Florida heat). His wool is heritable — daughters and granddaughters will likely need shearing."
+        },
+        "hybrid_vigor": {
+          "score": "GOOD",
+          "reasoning": "3-breed contribution (BHD/Awassi/EF). Adds genetic diversity when bred to Katahdin-foundation ewes."
+        },
+        "inbreeding_risk": {
+          "score": "LOW to date",
+          "reasoning": "Only 2 confirmed offspring on record. Limited pedigree footprint in this flock. Watch if Awassi or BHD dams share maternal lines — not a current concern."
+        },
+        "plan_recommendation": {
+          "verdict": "CONDITIONAL USE — with restrictions",
+          "use_for": "Targeted meat/milk composite crosses where the DAM has proven strong parasite resistance (FAMACHA 1-2 under pressure) and strong hair-coat genetics. Rocky's role is to contribute meat mass + milk-gene potential, not parasite resistance or hair coat.",
+          "avoid": "Do NOT use Rocky on parasite-weak ewes (GG, Azure line, Baby, Bella, FM line, anyone on the Feb-2026 weak list). Compounding weakness on both sides produces unsellable offspring (see Serendipity x Kelsier twins MC2606/MC2607 for how even a strong sire cannot rescue a weak dam line).",
+          "replacement": "Angus (Windlestone, arrived 2026-04-22) is the likely upgrade path — once his pedigree is confirmed, compare his parasite-resistance history and coat type to Rocky. If Angus is a hair-coat ram with clean FAMACHA, he supersedes Rocky for general breeding duty.",
+          "cull_consideration": "Not urgent. Keep for this season if a suitable ewe match exists; re-evaluate end of 2026 season. 'Rams to Upgrade' list status confirms owner's direction."
+        },
+        "open_questions_for_owner": [
+          "Approximate DOB — even a year range resolves R2 eligibility.",
+          "Has he been officially eligibility-flagged, or should is_breeding_animal=true be downgraded?",
+          "Body condition after next shearing — weight re-check recommended."
+        ]
+      },
       "source_refs": {
         "csv_row": null,
         "notebook_image": [
@@ -487,9 +561,9 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool. Notebook card says Charlies Ram, BHD w/ horns. No tag on card but has tag 140. Eyes good 2-16-26. Yearly booster 3-13-26. Also called Butthead. BHD w/ horns. Physically in Pen 2. Card says \"Charlies Ram\" but this is Rocky. Card says \"Charlies Ram BHD w/ horns\" but this is Rocky/Butthead in Pen 2. Eyes good 2-16, booster 3-13.",
+      "notes": "Also called Jerkface/Rock/Louise's Ram. Tag 140. 44%Awassi/50%BHD/6%EF per breeding page. Sire: Awassi Ram 'Teaser' (88Aw/12EF). Dam: Dorper Ewe 198 (100%BHD). Born as multiple. Ram weight 300lbs, ewe weight 200lbs. Medical: FAMACHA 3 (BPW, Ivermectin); FAMACHA 4.5 9-20-23 (BPW, Ivermectin+iron+nutridrench). Sick episode 10-23-23. Breeding page says Pen 5, now in Pen 2 per owner. On weak resistance list. On 'Rams to Upgrade' list. Half wool. Notebook card says Charlies Ram, BHD w/ horns. No tag on card but has tag 140. Eyes good 2-16-26. Yearly booster 3-13-26. Also called Butthead. BHD w/ horns. Physically in Pen 2. Card says \"Charlies Ram\" but this is Rocky. Card says \"Charlies Ram BHD w/ horns\" but this is Rocky/Butthead in Pen 2. Eyes good 2-16, booster 3-13. Photo-confirmed in Pen 2 on 2026-04-24 (three-photo set): dark head, curling horns, heavy red-brown wool, white lower legs, needs shearing. Owner confirmed he is 'dorper awassi and ef' — distinguishing him from Buck (K/Aw/EF, Tree Fort).",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-04-24"
     },
     {
       "id": "teaser",
@@ -681,7 +755,7 @@
       "sire_id": null,
       "dam_id": null,
       "status": "deceased",
-      "status_date": "2026-04-02",
+      "status_date": "2024-09-26",
       "status_notes": "",
       "pen": null,
       "measurements": {},
@@ -711,7 +785,8 @@
       },
       "notes": "Ram for pen 3 group. 100% Gulf Coast Native per Merrie breeding page. Ram weight 165lbs, ewe weight prediction 125lbs (from multiple breeding pages). Given iron treatment. Pen 3 includes: Baby, Baby momma, Zara, Half tail, New big girl 2. Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "cause_of_death": "Hurricane Helene 2024-09-26 (owner-reported 2026-04-26). Prior status_date 2026-04-02 was a bulk-cleanup placeholder, not the real death date — CORRECTED."
     },
     {
       "id": "kaladin",
@@ -743,9 +818,9 @@
       "dob_approximate": true,
       "sire_id": "smore",
       "dam_id": "serendipity",
-      "status": "deceased",
-      "status_date": "2026-04-02",
-      "status_notes": "",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "CORRECTED 2026-04-26: was wrongly bulk-marked deceased 2026-04-02. Owner confirmed alive 2026-04-26 ('Kaladin is not deceased. i forgot that was his name').",
       "pen": null,
       "measurements": {
         "girth": 26,
@@ -775,7 +850,13 @@
       },
       "notes": "Living Kaladin tag 014. DOB 5/11/2023 per extension service. S'More (100%Cr) x Serendipity (25%Babydoll/25%Jacob/12.5%K/37.5%SA). Breed: 50%Cr/18.75%SA/12.5%Babydoll/12.5%Jacob/6.25%K. Birth weight 6lbs (single). Weaned 7/18/2023 at 52lbs (68 days). ADG 0.68. Adjusted WW 100 (ratio 137 — HIGHEST in 2023 class). Extension service lists sex as ewe (code 2) — likely data entry error, all other sources say ram. The deceased Kaladin (tag 24) was S'More x Anna = 50Cr/50K — different animal. With Merrie, Gertrude Moon (Abg), Fm in Pen 1. Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "notes_history": [
+        {
+          "date": "2026-04-26",
+          "note": "Owner confirmed alive (had been wrongly marked deceased 2026-04-02 in bulk cleanup). Pen unknown — NOT the Pen 1 ram (that's orange-tag-00110, Cracker/GCN/Suffolk/Katahdin)."
+        }
+      ]
     },
     {
       "id": "smore",
@@ -953,30 +1034,84 @@
       "id": "nori-son",
       "name": "NoriSon",
       "aliases": [
+        "Eclipse",
         "Nori's Son",
+        "Tag 113",
         "Tag 22"
       ],
       "tag": "054",
       "mc_tag": null,
       "sex": "ram",
-      "breed_composition": {},
-      "color_markings": "",
-      "weight_lbs": null,
+      "breed_composition": {
+        "primary": "St Augustine/ABB/Wiltshire Horn/Katahdin",
+        "percentages": {
+          "American Blackbelly": 25,
+          "Katahdin": 12.5,
+          "St Augustine": 37.5,
+          "Wiltshire Horn": 25
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
+      },
+      "color_markings": "White with beard",
+      "weight_lbs": 251.2,
       "dob": null,
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "nori",
-      "status": "deceased",
-      "status_date": "2026-04-02",
-      "status_notes": "",
+      "status": "sold",
+      "status_date": "2026-04-26",
+      "status_notes": "Sold at auction 2026-04-26.",
       "pen": null,
-      "measurements": {},
+      "measurements": {
+        "girth": 22,
+        "length": 26,
+        "calculated_weight": 41.9,
+        "date": "2023-2024"
+      },
       "health": {
         "famacha_scores": [],
         "weak_resistance": false,
         "treatments": [],
-        "vaccinations": [],
-        "notes": []
+        "vaccinations": [
+          {
+            "date": "2026-03-11",
+            "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-11",
+            "vaccine": "CDT",
+            "source": "IMG_0609"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0609",
+            "note": "Card description: white with beard. Ram Tag 113, Pen 5 before sale."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0609"
+          },
+          {
+            "date": "2026-03-11",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0609"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -987,12 +1122,32 @@
       "source_refs": {
         "csv_row": null,
         "notebook_image": [
+          "IMG_8624.PNG",
+          "IMG_8630.PNG",
           "IMG_8639.PNG"
         ]
       },
-      "notes": "Ram in pen 5 currently. Tag 54. Also was tag 22. Sir Loin son (confirmed by owner). Nori's son. Notebook lists associated tags: 47, Red ewe Lamb in 4, Little daisy (41 or 42), Tag 31, 2222, Elsie. Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
+      "notes": "MERGED RECORD 2026-04-26: 'Eclipse' (tag 113) and 'NoriSon' (tag 054, was tag 22) were the same animal — owner confirmed 2026-04-26. Sire Loin × Nori (50% ABB / 50% WH). Breed 25% ABB / 12.5% K / 37.5% SA / 25% WH (100% hair). White with beard. Pen 5 ram. Owner assessment 2026-04-26: 'consistently hit or miss, in with 5 ewes for two years or so — only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor.' Sold at auction 2026-04-26. CORRECTED from prior assumption: NoriSon record was wrongly bulk-marked deceased 2026-04-02 and Eclipse's notes wrongly said 'died after Hurricane Idalia' — neither was accurate; he was the active Pen 5 ram through 2025-26 and was sold today, alive.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-04-26",
+      "secondary_tags": [
+        "113",
+        "22"
+      ],
+      "notes_history": [
+        {
+          "date": "2026-04-26",
+          "note": "Eclipse + NoriSon merged into one record (owner confirmed same animal). Sold at auction today. Aliases preserve both names."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
+        },
+        {
+          "date": "2026-05-02",
+          "note": "FERTILITY RECORD REVISED: Prior 'subfertile, bred only 1 of 6 ewes' assessment is incorrect. Confirmed sired: (a) Elsie's triplets 2026-01-06 (2 white ewes + 1 black ram), (b) 00113's singleton 2026-04-22 (died FTT 4-25), (c) OAV 2222's twins 2026-04-30 (both ewe lambs alive, healthy). That's 3 of 5+ ewes settled, not 1 of 6. He was sold at auction 2026-04-26 — between his 00113 singleton and OAV's twins discovery, so his record looked worse than it was. Adjust expectation: he was middling-fertile, not severely subfertile."
+        }
+      ]
     },
     {
       "id": "charlies-ram",
@@ -1293,7 +1448,7 @@
       "status": "alive",
       "status_date": "2026-04-02",
       "status_notes": "",
-      "pen": "Tree Fort",
+      "pen": "Chicken Coop",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -1377,7 +1532,7 @@
       "dob_approximate": true,
       "sire_id": "sir-loin",
       "dam_id": "broken-tail",
-      "status": "unknown",
+      "status": "alive",
       "status_date": null,
       "status_notes": "",
       "pen": null,
@@ -1393,7 +1548,9 @@
         "is_breeding_animal": false,
         "breeding_group": "",
         "offspring_ids": [
-          "little-daisy"
+          "little-daisy",
+          "sm-white-ewe-p4",
+          "loki"
         ],
         "lambing_records": []
       },
@@ -1401,10 +1558,22 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Little Daisy's sire. Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB). Inbred: Sir Loin is Broken Tail's sire. Status unknown — from Little Daisy breeding page pedigree.",
+      "notes": "Sir Loin (25K/75SA) x Broken Tail (28.125K/65.625SA/6.25BBB). Inbred: Sir Loin is Broken Tail's sire. Sire of Little Daisy, sm-white-ewe-p4, and Loki (Dodge x Half Tail daughter cross). Sold off farm to Danny — alive, off-property. CORRECTION 2026-05-13: merged duplicate dodge record (was indexed separately as a second 'dodge' id at index 157 with status=alive but notes saying 'Sold off farm. Buyers named him Dodge.'); offspring_ids now reflect all three known offspring; owner-confirmed 2026-05-13 these are the same animal.",
       "confidence": "high",
-      "last_verified": "2026-02-16",
-      "weight_estimated": true
+      "last_verified": "2026-05-13",
+      "weight_estimated": true,
+      "owner": "Danny",
+      "on_property": false,
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
+        },
+        {
+          "date": "2026-05-13",
+          "note": "MERGE: Owner confirmed the second 'dodge' record (which said 'Sold off farm. Buyers named him Dodge. Sire of Little Daisy. Also sire of Loki') was the same animal as this one. Removed the duplicate; folded its notes here. offspring_ids expanded to include sm-white-ewe-p4 and loki."
+        }
+      ]
     },
     {
       "id": "big-free-male",
@@ -1603,7 +1772,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 2",
+      "pen": "Pen 5",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -1637,9 +1806,19 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026. Was in Pen 5 with Eclipse. Escaped to Pen 6 while pregnant. Had triplets (sire: Eclipse). Gave away black ram lamb to girl starting flock. 2 ewe lambs remain. Now lives in Pen 6 permanently. Triplets born 1-6-26 (not 1-6-25). Sire: Eclipse (tag 113). Black ram lamb gifted mid-March 2026. 2 white ewe lambs remain (1 large, 1 small). Weight ~175 per owner estimate.",
+      "notes": "Breeding page: Tag 25, 6.25%ABB(BBB)/65.625%K/28.125%SA. DOB 2/8/2022. Well Done (100K) x Half Tail (12.5BBB/31.25K/56.25SA). Ewe weight 140lbs. Black w White. Birth weight 12lbs, ADG 0.558. Offspring 2023: Rorshach and sister (by Sir Loin, mated Aug 17). FAMACHA 1 (9-6-23 and 9-18-23). Now in Pen 6 with triplets. Lambed 2026-01-23 (triplets). Had triplets 2026 lambing season. Male lamb given to girl starting her flock. Two ewe lambs remain with Elsie in Pen 6. April 2026. Was in Pen 5 with Eclipse. Escaped to Pen 6 while pregnant. Had triplets (sire: Eclipse). Gave away black ram lamb to girl starting flock. 2 ewe lambs remain. Now lives in Pen 6 permanently. Triplets born 1-6-26 (not 1-6-25). Sire: Eclipse (tag 113). Black ram lamb gifted mid-March 2026. 1 white ewe lamb remains (the large one, MC-2618). The small white ewe triplet was sold at auction 2026-04-26. Weight ~175 per owner estimate.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-04-24",
+      "notes_history": [
+        {
+          "date": "2026-04-24",
+          "note": "CORRECTED pen from 'Pen 2' to 'Pen 5'. Owner confirmed Elsie is in Pen 5 with Angus and her one remaining triplet (MC-2618). Prior notes said 'Now in Pen 6' (also wrong — she moved back after the Eclipse escape)."
+        },
+        {
+          "date": "2026-04-26",
+          "note": "Small white triplet sold at auction 2026-04-26 (owner confirmed). Only MC-2618 (lg white ewe) remains of her three triplets. Black ram was gifted 2026-03-15."
+        }
+      ]
     },
     {
       "id": "nori",
@@ -1756,7 +1935,20 @@
       },
       "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54) and Eclipse (2022, deceased Hurricane Idalia). In pen 4. Tag 0029 confirmed from notebook card. Pen 3. Single baby (born 1-10-26). Knot under chin noted 2-26-26. Nori is 50pct ABB / 50pct Wiltshire Horn. Charlie bought Nori, bred BHD to her, kept babies, bred those to Katahdin.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "visual_id": {
+        "coat": "Badger pattern — red/brown body with darker face and legs (classic ABB × WH cross). 100% hair.",
+        "size": "Mid-size adult ewe (~138 lb).",
+        "physical_distinguisher": "Knot under chin (per pen-3 notebook notes).",
+        "distinguishes_from": {
+          "broken-tail": "Nori is badger-patterned (dark face / red body); Broken Tail is solid white. Different breed lines entirely (Nori = ABB/WH; BT = St Aug/K/BBB).",
+          "charlies-farm-ewe-p3": "Nori is badger-red; Charlies Farm Ewe is white-with-black-patches.",
+          "nori-baby-p3": "Adult vs lamb size — Nori is far larger; her ram lamb is mottled brown/white with a white blaze."
+        },
+        "confirmed_positions": [
+          "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): RIGHT side of image, lying down, head pointing up and right; her ram lamb MC-2604 lying parallel with only his head visible above her hindquarters"
+        ]
+      }
     },
     {
       "id": "merrie",
@@ -1793,7 +1985,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 3",
+      "pen": "Pen 4",
       "measurements": {
         "girth": 31.5,
         "length": 30,
@@ -1888,7 +2080,33 @@
       "notes": "Flock spreadsheet: Tag 016, ram. S'More (100%Cr) x Half Tail (12.5%BBB/31.25%K/56.25%SA). DOB 1/14/2023. Brown and Tan. 50%Cr/28.125%SA/12.5%K/6.25%BBB/3.125%WD. Weight calculator: 99.2lbs. In Pen 1. Moved to Pen 3. Notebook card shows tag 000lb [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Tag 00016 confirmed. Intact ram. Descendant of Sir Loin and Smore (Cracker ram) through hair ewes (StA x Kat). Not the dominant ram in Pen 3 — Charlie is. Tag 00016. FAMACHA consistently good all checks Feb-Mar 2026. Physically in Pen 3.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "weight_estimated": false
+      "weight_estimated": false,
+      "twin_of": "cocoa",
+      "photos": [
+        "IMG_0678.JPG"
+      ],
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Photographed in IMG_0678.JPG — fawn wool coat, currently shaggy, needs shearing. Twin sister Cocoa added to DB on owner statement."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Moved Pen 3 -> Pen 4 per owner directive. Pen 4 reframed as weak-stock + auction-lamb breeding pen (NOT a no-breeding infirmary). Merrie's role: (a) progeny-test sire on Pen 4 weak ewes (Gigi/FM/Serendipity/G023) — his future ram status depends on whether his offspring out of these dams are parasite-clean or fail, (b) produce auction-grade lambs (~\\$300/head) regardless of long-term breeding utility, (c) clarifies paternity in Pen 3 (Charlie now sole sire there)."
+        }
+      ],
+      "visual_id": {
+        "coat": "Brown and tan, 50% hair / 50% wool composite (50% Cracker / 28% St Augustine / 12.5% Katahdin / 6.25% BBB / 3.1% White Dorper).",
+        "size": "OWNER-CONFIRMED 2026-04-26: LARGEST animal in Pen 3 — surpasses Broken Tail (DB 225 lb). DB weight calc of ~99 lb is from 2023 birth-weight projection and is STALE; needs a real weigh-in.",
+        "distinguishes_from": {
+          "charlie-ram": "Merrie is brown-and-tan, larger frame, no prominent horns. Charlie is white-with-black-spots, smaller frame, BLACK HORNS.",
+          "broken-tail": "Different sex (ram vs ewe), different color (brown-tan vs white).",
+          "nori": "Merrie is much larger; Nori has a darker badger face and reddish body."
+        },
+        "confirmed_positions": [
+          "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): LEFT side of the hay cage — owner 2026-04-26: 'biggest animal in that pen'"
+        ]
+      }
     },
     {
       "id": "bella",
@@ -2164,8 +2382,14 @@
         {
           "date": "2026-04-22",
           "note": "KEPT: Owner notes Serendipity has solid resistance most years; one-off 2026 FAMACHA 3 with VB12 treated. Not a cull candidate."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Planned breeding to Merrieweather (now Pen 4 sire) fall 2026. Lamb either sells at auction (~\\$300) or earns a place; Merrie's breeding-ram status will be evaluated based on progeny FAMACHA from this and other Pen 4 ewes."
         }
-      ]
+      ],
+      "planned_sire": "merrie",
+      "planned_breeding_season": "fall 2026 (Pen 4)"
     },
     {
       "id": "serendipity-ram-2024",
@@ -2765,8 +2989,6 @@
         "offspring_ids": [
           "bt-lamb-2023",
           "dodge",
-          "mc08-ram",
-          "samson-daughter-p4",
           "broken-tail-twin-ewe",
           "broken-tail-twin-ewe-2"
         ],
@@ -2779,12 +3001,25 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More), Dodge (by Sir Loin — inbred), MC08 and samson-daughter-p4 (twins by Samson — owner-confirmed 2026-04-24), and 2025-12-31 twins. Lambed 2026-01-20 (twins). In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3. MC15 yellow tag. Tag 0029. Had twins. FAMACHA consistently good all checks. SOLID.",
+      "notes": "Flock spreadsheet: 6.25% BBB / 28.125% Katahdin / 65.625% St Augustine, 225lbs. DOB 1/18/2018. Sir Loin (25K/75SA) x Half Tail (12.5BBB/31.25K/56.25SA). Mother of BT1 and BT2 lambs (by S'More), Dodge (by Sir Loin — inbred), and 2025-12-31 twins. Lambed 2026-01-20 (twins). CORRECTION 2026-05-13: MC08 and samson-daughter-p4 were previously recorded as Broken Tail's twins by Samson (owner-confirmed 2026-04-24); owner restated 2026-05-13 that both are by Samson out of FM. Removed from this record's offspring_ids and notes; moved to fm.offspring_ids. In pen 5 (Rocky group) per notebook. Owner note: 'Gentle and sturdy matriarch. She's survived coyotes, dogs, floods, always twins unassisted, and raises them well. They are always good sized. Crappy name for a phenomenal sheep.' Pen 3 as of 2026. Had twins. Tag on card: 0029 [UNCLEAR]. Eyes good 2-13, 2-26. CDT 3-9-26. Source: notebook card pen 3. MC15 yellow tag. Tag 0029. Had twins. FAMACHA consistently good all checks. SOLID.",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "secondary_tags": [
         "0029"
-      ]
+      ],
+      "visual_id": {
+        "coat": "Solid white hair coat (slick, no fleece). 100% hair (St Augustine 65.6% / Katahdin 28.1% / BBB 6.3%).",
+        "size": "Large adult ewe — DB weight 225 lb. Owner 2026-04-26 reports Merrie is now the LARGEST animal in Pen 3, suggesting Merrie has matched or surpassed her.",
+        "proximity_tell": "Often lies near her surviving brown twin MC-2605. Her white twin MC-2601 was with her in this photo but died 2026-04-22 (parasites).",
+        "distinguishes_from": {
+          "merrie": "Broken Tail is white hair-coat ewe; Merrie is brown-and-tan ram.",
+          "charlies-farm-ewe-p3": "Both lactating hair-coat ewes, but Broken Tail is solid WHITE while Charlies Farm Ewe is multi-color piebald with dark patches on neck/shoulders.",
+          "broken-tail-twin-ewe-2": "Same color (white) but Broken Tail is adult-sized; MC-2601 was lamb-sized."
+        },
+        "confirmed_positions": [
+          "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): foreground left, large lying ewe — cream-toned in evening light"
+        ]
+      }
     },
     {
       "id": "trouble",
@@ -3196,7 +3431,9 @@
         "breeding_group": "",
         "offspring_ids": [
           "fm-lamb-2023",
-          "flan"
+          "flan",
+          "mc08-ram",
+          "samson-daughter-p4"
         ],
         "lambing_records": []
       },
@@ -3209,7 +3446,7 @@
           "IMG_8641.PNG"
         ]
       },
-      "notes": "Tag GA1568-011, 50% Cotswold / 50% Tunis, Tunis Red, 200lbs. DOB 2/14/2021 per breeding page. Acquired 2/27/2021. Sire: Tunis (red), Dam: Cotswold. 2023: FM1 ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days). Eclipse also listed on breeding page as potential 2023 offspring (dec?/April — may not have survived). 2026: Flan (by Sir Loin, born 2/1/2026). In Pen 1 (Kaladin group). On weak resistance list. Tag 0011 confirmed. Now in Pen 4. No babies as of 2-12-26. Eyes good throughout. Source: notebook card pen 4. Tag 0011. FAMACHA consistently good all checks Feb-Apr 2026. NO babies this season.",
+      "notes": "Tag GA1568-011, 50% Cotswold / 50% Tunis, Tunis Red, 200lbs. DOB 2/14/2021 per breeding page. Acquired 2/27/2021. Sire: Tunis (red), Dam: Cotswold. 2023: FM1 ram lamb (ID 9) by Sir Loin born 4/1/2023 (12lb birth wt, single, weaned 67lbs at 52 days). Eclipse also listed on breeding page as potential 2023 offspring (dec?/April — may not have survived). 2026: Flan (by Sir Loin, born 2/1/2026). Earlier (by Samson, twins): MC08 (Pen 6 ram) + samson-daughter-p4 (Pen 4 ewe) — owner-confirmed 2026-05-13 (these had been mis-attributed to Broken Tail on 2026-04-24; corrected 2026-05-13). In Pen 1 (Kaladin group). On weak resistance list. Tag 0011 confirmed. Now in Pen 4. No babies as of 2-12-26. Eyes good throughout. Source: notebook card pen 4. Tag 0011. FAMACHA consistently good all checks Feb-Apr 2026. NO babies this season.",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "do_not_sell": true,
@@ -3218,8 +3455,14 @@
         {
           "date": "2026-04-22",
           "note": "PET — family/personal animal, never leaves flock. Owner directive."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Planned breeding to Merrieweather (now Pen 4 sire) fall 2026. Lamb either sells at auction (~\\$300) or earns a place; Merrie's breeding-ram status will be evaluated based on progeny FAMACHA from this and other Pen 4 ewes."
         }
-      ]
+      ],
+      "planned_sire": "merrie",
+      "planned_breeding_season": "fall 2026 (Pen 4)"
     },
     {
       "id": "fm1",
@@ -3283,109 +3526,6 @@
       "notes": "FM1 = Sir Loin × FM per FM breeding page. Tag 009. DOB 4/1/2023. 25%Cotswold/12.5%K/37.5%SA/25%Tunis. Same as extension service lamb ID 9 (sex may have been misrecorded as ram in extension service). In pen 6 (no ram). On weak resistance list. On 'Ewes to Upgrade' list. Half wool. Weight calculator: 66.7lbs. Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16"
-    },
-    {
-      "id": "eclipse",
-      "name": "Eclipse",
-      "aliases": [],
-      "tag": "113",
-      "mc_tag": null,
-      "sex": "ram",
-      "breed_composition": {
-        "primary": "St Augustine/ABB/Wiltshire Horn/Katahdin",
-        "percentages": {
-          "American Blackbelly": 25,
-          "Katahdin": 12.5,
-          "St Augustine": 37.5,
-          "Wiltshire Horn": 25
-        },
-        "coat_type": "hair",
-        "hair_percentage": 100.0,
-        "intermediate_percentage": 0,
-        "wool_percentage": 0,
-        "coat_prediction": "hair"
-      },
-      "color_markings": "White with beard",
-      "weight_lbs": 251.2,
-      "dob": null,
-      "dob_approximate": true,
-      "sire_id": "sir-loin",
-      "dam_id": "nori",
-      "status": "alive",
-      "status_date": "2026-04-06",
-      "status_notes": "Auction Sunday April 6, 2026",
-      "pen": null,
-      "measurements": {
-        "girth": 22,
-        "length": 26,
-        "calculated_weight": 41.9,
-        "date": "2023-2024"
-      },
-      "health": {
-        "famacha_scores": [],
-        "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [
-          {
-            "date": "2026-03-11",
-            "vaccine": "Covexin 8"
-          },
-          {
-            "date": "2026-03-11",
-            "vaccine": "CDT",
-            "source": "IMG_0609"
-          }
-        ],
-        "notes": [
-          {
-            "source": "IMG_0609",
-            "note": "Card description: white with beard. Ram Tag 113, Pen 5 before sale."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0609"
-          },
-          {
-            "date": "2026-03-11",
-            "score": "1-2",
-            "notes": "CDT vac",
-            "source": "IMG_0609"
-          }
-        ]
-      },
-      "breeding": {
-        "is_breeding_animal": false,
-        "breeding_group": "",
-        "offspring_ids": [],
-        "lambing_records": []
-      },
-      "source_refs": {
-        "csv_row": null,
-        "notebook_image": [
-          "IMG_8624.PNG",
-          "IMG_8630.PNG"
-        ]
-      },
-      "notes": "25%ABB/12.5%K/37.5%SA/25%WH. Sir Loin (25K/75SA) x Nori (50ABB/50WH). RAM (corrected from ewe). Nori's 2022 offspring. Weight calculator: 41.9lbs. Died after Hurricane Idalia (Aug/Sep 2023). Was in Pen 1 before death. Also listed on FM breeding page as potential offspring. Tag 113 confirmed. Pen 5 ram. White with beard. SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Tag 31, Tag 02, Fawn Wool Ewe, Little Daisy, OAV 2222 all unproven by him. The other ewes (except Little Daisy) are proven breeders year after year. Little Daisy has been with him since 10 weeks old — nothing. CULL CANDIDATE for subfertility. Elsie escaped to Pen 6 while pregnant by Eclipse, had triplets there.",
-      "confidence": "high",
-      "last_verified": "2026-02-16",
-      "weight_estimated": true,
-      "scheduled_auction": "2026-04-26",
-      "notes_history": [
-        {
-          "date": "2026-04-22",
-          "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
-        }
-      ]
     },
     {
       "id": "gertrude-moon",
@@ -4088,7 +4228,7 @@
           "IMG_8636.PNG",
           "IMG_8640.PNG",
           "IMG_8641.PNG",
-          "IMG_0661"
+          "IMG_0661.JPG"
         ],
         "notebook_card": "Card 1 pen 4 (as G023)"
       },
@@ -4118,6 +4258,14 @@
           "source": "g023-bhd-ewe estimate",
           "date": "2026",
           "note": "may reflect condition loss — \"CONDITION BAD\" 4-10-26"
+        }
+      ],
+      "planned_sire": "merrie",
+      "planned_breeding_season": "fall 2026 (Pen 4)",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Planned breeding to Merrieweather (Pen 4 sire) fall 2026. Lamb sells at auction or earns place; Merrie evaluated on progeny FAMACHA. (Note: Lara is canonical id; G023/BHD Ewe G023 are aliases.)"
         }
       ]
     },
@@ -5104,7 +5252,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "",
-      "pen": "Pen 6",
+      "pen": "Pen 5",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -5157,10 +5305,7 @@
       "breeding": {
         "is_breeding_animal": true,
         "breeding_group": "",
-        "offspring_ids": [
-          "oav-2222-lamb-1",
-          "oav-2222-lamb-2"
-        ],
+        "offspring_ids": [],
         "lambing_records": []
       },
       "source_refs": {
@@ -5169,9 +5314,58 @@
           "IMG_8639.PNG"
         ]
       },
-      "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 — notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Lambed 2026-02-10 (twins). Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko. Kelsier's sister (100% Katahdin, OAV/Oakvale Farm). Confirmed Pen 5, April 2026. Escaped with Elsie to Pen 6, spent months there. Moved back to Pen 5 this week (late March 2026). Escaped again. If she lambs, timing determines sire (Eclipse in Pen 5 vs unknown in Pen 6). Watch closely.",
+      "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 — notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko. Kelsier's sister (100% Katahdin, OAV/Oakvale Farm). Confirmed Pen 5, April 2026. Escaped with Elsie to Pen 6, spent months there. Moved back to Pen 5 this week (late March 2026). Escaped again. Watch closely. CORRECTED 2026-04-26 (owner verbal): 'OAV had no twins this year' — the 2026-02-10 lambing-record entry was wrong and has been removed. Her prior twins (referenced in NoriSon track record) were from earlier years (2024 lambs by Spotted Katahdin × Dorper, born 3-13-24). Did NOT lamb in 2026.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "notes_history": [
+        {
+          "date": "2026-04-26",
+          "note": "Owner: 'OAV had no twins this year.' Removed wrong 2026-02-10 lambing record. Cleared orphan offspring placeholders oav-2222-lamb-1/2."
+        },
+        {
+          "date": "2026-05-02",
+          "note": "LAMBING UPDATE: Lambed late Wed 2026-04-30 / early Thu 2026-05-01 in Pen 5. Twins, both ewes, both white-with-rust, both hair-coat. One has small black dot. Both healthy + good FAMACHA at birth. Sire most likely NoriSon (=Eclipse merged) per coat phenotype. Reinstated lamb records oav-2222-lamb-1/2 that the prior 4-26 'no twins' session deleted (correctly at the time — she hadn't lambed yet). She's now a proven 2026 dam."
+        }
+      ],
+      "visual_id": {
+        "coat": "Slick hair coat (100% Katahdin)",
+        "face": "White/cream",
+        "body": "Cream/light, even color",
+        "frame": "Medium adult ewe (~140 lb)",
+        "tell": "Only hair-coat ewe visible in 2026-04-26 Pen 5 photos. Stands to the right of 00113 in photo 2 (looking at camera with ear back).",
+        "distinguishes_from": {
+          "tag-00113-ewe-p1": "00113 is heavy wool with black face; OAV is slick hair, light face."
+        }
+      },
+      "photo_evaluation_2026_04_26": {
+        "date": "2026-04-26",
+        "source": "Pen 5 photo set, 2 images, owner-supplied 2026-04-26",
+        "photo_position": "Far-right edge of photo 1 (partially cropped, body and rear leg visible); right of 00113 in photo 2 (three-quarter rear view, head turned toward camera with one ear back).",
+        "body_condition": "Body reads moderate — leaner than the heavily-fleeced 00113, but that is partly the hair-vs-wool comparison effect. Visible flank and rump look adequately fleshed; no obvious thinness. No abdomen drag (not currently pregnant by visible profile, consistent with owner: 'OAV had no twins this year').",
+        "coat": "Slick, short hair coat — uniform cream/light body color. Classic 100% Katahdin coat. No wool tags, no fleece, nothing to shear. Coat looks smooth and intact, no rubs or bare patches.",
+        "head_face": "Light/cream face, no Suffolk-style pigment. Ears responsive — one back in photo 2. Hard to read eyes at this angle/distance.",
+        "behavior": "Standing close to 00113 in photo 2 — herd behavior with the other ewe. Not flighty, holding ground in front of camera, consistent with the DB note 'docile, not flighty.'",
+        "parasite_indicator_observations": "Coat smooth and clean; no rough/staring; body condition adequate; this is consistent with her FAMACHA 1-2 history (most recent: 2026-04-11 'eyes good').",
+        "limitations": "Photos taken in low-angle morning/evening sun (long shadows visible on sandy ground); body color reads warmer than midday truth. No close-up shots, so FAMACHA scoring, weight, and detailed health assessment are NOT possible from these images — only standoff phenotype and gross body-condition cues. Three-quarter rear view in photo 2 obscures udder and abdomen detail. No frontal head shot — face/eyes not assessable in detail.",
+        "concerns": "None visible from these photos.",
+        "next_actions": [
+          "Routine FAMACHA at next handling (per existing schedule).",
+          "Continue as proven Katahdin parasite-resistance line; consider re-breeding decision (sire selection now that NoriSon is sold)."
+        ],
+        "evaluator": "Claude (visual ID pass 2026-04-26, owner-confirmed positions)"
+      },
+      "last_lambed": "2026-04-30",
+      "lambing_2026": {
+        "date": "2026-04-30",
+        "count": 2,
+        "sex": "both ewes",
+        "sire": "nori-son",
+        "lamb_ids": [
+          "oav-2222-lamb-1",
+          "oav-2222-lamb-2"
+        ],
+        "all_alive_at_birth": true
+      }
     },
     {
       "id": "tag-31-ewe",
@@ -6551,8 +6745,8 @@
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
-      "sire_id": "gg",
-      "dam_id": null,
+      "sire_id": "kelsier",
+      "dam_id": "gg",
       "status": "deceased",
       "status_date": null,
       "status_notes": "",
@@ -6577,9 +6771,9 @@
           "IMG_8634.PNG"
         ]
       },
-      "notes": "GG's daughter (GG is sire). Tag 45. Deceased.",
+      "notes": "GG's daughter. Tag 45. Sire: Kelsier, Dam: GG (owner-confirmed 2026-05-13 — prior sire_id 'gg' was wrong since GG is an ewe). Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-05-13"
     },
     {
       "id": "lara-daughter-46",
@@ -6593,7 +6787,7 @@
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
-      "sire_id": "gg",
+      "sire_id": "kelsier",
       "dam_id": "lara",
       "status": "sold",
       "status_date": null,
@@ -6619,9 +6813,9 @@
           "IMG_8634.PNG"
         ]
       },
-      "notes": "GG (sire) x Lara (dam) daughter. Tag 46. Sold because prone to Coccidia.",
+      "notes": "Kelsier (sire) x Lara (dam) daughter. Tag 46. Sold because prone to Coccidia. CORRECTION 2026-05-13: sire_id 'gg' was wrong (GG is an ewe, not a ram); sire is Kelsier per owner.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-05-13"
     },
     {
       "id": "gg-son-094",
@@ -6635,8 +6829,8 @@
       "weight_lbs": null,
       "dob": null,
       "dob_approximate": true,
-      "sire_id": "gg",
-      "dam_id": null,
+      "sire_id": "kelsier",
+      "dam_id": "gg",
       "status": "deceased",
       "status_date": null,
       "status_notes": "",
@@ -6661,9 +6855,9 @@
           "IMG_8634.PNG"
         ]
       },
-      "notes": "GG's son. Tag 094. Deceased.",
+      "notes": "GG's son. Tag 094. Sire: Kelsier, Dam: GG (owner-confirmed 2026-05-13 — prior sire_id 'gg' was wrong since GG is an ewe). Deceased.",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-05-13"
     },
     {
       "id": "tag-430-2079",
@@ -7979,9 +8173,9 @@
       "pen": "Pen 1",
       "status": "alive",
       "sire_id": null,
-      "dam_id": "nori-line-f2",
+      "dam_id": null,
       "dob": null,
-      "notes": "Nori line: Nori(ABB/WH) x Dorper -> x Katahdin -> Charlies Ewe. Same breed composition as Charlie. Technical half-siblings through Nori ancestry. 100% hair genetics. MC2620 + MC2611 green tags. Single baby (ram lamb, born 10-26-25). Full description recorded from card. Eyes good 2-13. In Pen 1.",
+      "notes": "Nori line: Nori(ABB/WH) x Dorper -> x Katahdin -> Charlies Ewe. Same breed composition as Charlie. Technical half-siblings through Nori ancestry. 100% hair genetics. MC2620 + MC2611 green tags. Single baby (ram lamb, born 10-26-25). Full description recorded from card. Eyes good 2-13. In Pen 1. PEDIGREE GAP: dam_id was set to 'nori-line-f2' (a placeholder for the unrecorded F1 Nori×Dorper ewe) which broke validator. Nulled 2026-05-13 pending owner identification of the actual dam — the F1 individual (Nori × Dorper) was never given its own record.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 1 pen 1"
@@ -8446,13 +8640,13 @@
         "coat_type": "hair"
       },
       "color_markings": "White & brown ram. White blaze on face down on nose. Hind legs 2 white socks. White tail.",
-      "pen": "Pen 1",
+      "pen": null,
       "status": "sold",
       "sire_id": null,
       "dam_id": "tag-0033-hair-ewe",
       "dob": "2026-01-01",
       "dob_approximate": true,
-      "notes": "No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook card, pen 1. MC2608 green tag (was 2603). White/brown ram. Eyes good all checks. GOING TO AUCTION.",
+      "notes": "No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook card, pen 1. MC2608 green tag (was 2603). White/brown ram. Eyes good all checks. SOLD at auction 2026-04-06 (was in Pen 1 prior).",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 6 pen 1"
@@ -8555,13 +8749,13 @@
         "coat_type": "hair"
       },
       "color_markings": "Black ram, small patch of white on crown",
-      "pen": "Pen 1",
+      "pen": null,
       "status": "sold",
       "sire_id": null,
       "dam_id": "tag-0033-hair-ewe",
       "dob": "2026-01-01",
       "dob_approximate": true,
-      "notes": "No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook card, pen 1. MC2609 green tag (was 2603). Born 1-1-26. Blk ram. Eyes NOT GOOD 3-30-26 — treated. GOING TO AUCTION.",
+      "notes": "No tag (now tagged, number TBD). Born ~1-1-26. Twin from 003/0033 hair ewe. 7 weeks old as of 2-19. Source: notebook card, pen 1. MC2609 green tag (was 2603). Born 1-1-26. Blk ram. Eyes NOT GOOD 3-30-26 — treated. SOLD at auction 2026-04-26 (was in Pen 1 prior).",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 7 pen 1"
@@ -8652,13 +8846,19 @@
           }
         ]
       },
-      "status_date": "2026-04-06",
-      "status_notes": "Auction Sunday April 6, 2026",
+      "status_date": "2026-04-26",
+      "status_notes": "Sold at auction 2026-04-26.",
       "mc_tag": "MC2609",
       "secondary_tags": [
         "MC-2602"
       ],
-      "description": "Black ram with small patch of white on crown"
+      "description": "Black ram with small patch of white on crown",
+      "notes_history": [
+        {
+          "date": "2026-04-26",
+          "note": "Sold at auction 2026-04-26. Owner confirmed: 'the black lamb of 33' went today. CORRECTED status_date from 2026-04-06 (which was the prospective-auction-that-didn't-execute date) to actual sale date 2026-04-26."
+        }
+      ]
     },
     {
       "id": "orange-tag-00110",
@@ -8690,7 +8890,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 00110, orange tag. Ram. Poop trimmed at butt 2-19-2026. Source: notebook card. Breeding rule R3: exclude from geriatric ewes (age >= 6) to reduce dystocia risk. Orange tag. Eyes consistently good all checks. Physically in Pen 1.",
+      "notes": "Tag 00110, orange tag. Ram. Poop trimmed at butt 2-19-2026. Source: notebook card. Breeding rule R3: exclude from geriatric ewes (age >= 6) to reduce dystocia risk. Orange tag. Eyes consistently good all checks. Physically in Pen 1. FULL SIBLINGS (owner-confirmed 2026-04-26): orange-tag-00110 (Pen 1 ram) + tag-00113-ewe-p1 + tag-114-fawn-wool. All three share the same parents (unknown) and identical breed composition 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Different phenotype expression: orange tag = ram (white body, orange tag); 00113 = ewe (cream wool body, BLACK FACE from Suffolk); tag 114 = ewe (fawn wool body).",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 8 pen 1"
@@ -8763,7 +8963,19 @@
           }
         ]
       },
-      "weight_lbs": 287.5
+      "weight_lbs": 287.5,
+      "relations": {
+        "full_siblings": [
+          "tag-00113-ewe-p1",
+          "tag-114-fawn-wool"
+        ]
+      },
+      "notes_history": [
+        {
+          "date": "2026-04-26",
+          "note": "Full-sibling relationship recorded. Siblings: tag-00113-ewe-p1, tag-114-fawn-wool. Owner verbal: 'Pen 1 Ram is something different [from Kaladin]. Full sister/sibling to 00113.'"
+        }
+      ]
     },
     {
       "id": "tag-0044-wool-ewe",
@@ -8893,7 +9105,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 114, orange tag. Fawn wool ewe. Was in Pen 2 but moved to Pen 1 because Rocky (Jerkface, tag 140) was keeping her away from her baby. Had black ram lamb born 3-29-2026. No babies as of 2-26-26 card check. Yearly booster 3-13-26. Source: notebook card (no pen circle — was Pen 2, now Pen 1). Full sister of Orange Tag 00110. Same breed mix. Cannot breed to 00110.",
+      "notes": "Tag 114, orange tag. Fawn wool ewe. Was in Pen 2 but moved to Pen 1 because Rocky (Jerkface, tag 140) was keeping her away from her baby. Had black ram lamb born 3-29-2026. No babies as of 2-26-26 card check. Yearly booster 3-13-26. Source: notebook card (no pen circle — was Pen 2, now Pen 1). Full sister of Orange Tag 00110. Same breed mix. Cannot breed to 00110. FULL SIBLINGS (owner-confirmed 2026-04-26): orange-tag-00110 (Pen 1 ram) + tag-00113-ewe-p1 + tag-114-fawn-wool. All three share the same parents (unknown) and identical breed composition 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Different phenotype expression: orange tag = ram (white body, orange tag); 00113 = ewe (cream wool body, BLACK FACE from Suffolk); tag 114 = ewe (fawn wool body).",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 11"
@@ -8954,7 +9166,19 @@
         ]
       },
       "weight_lbs": 145,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "relations": {
+        "full_siblings": [
+          "orange-tag-00110",
+          "tag-00113-ewe-p1"
+        ]
+      },
+      "notes_history": [
+        {
+          "date": "2026-04-26",
+          "note": "Full-sibling relationship recorded. Siblings: orange-tag-00110, tag-00113-ewe-p1. Owner verbal: 'Pen 1 Ram is something different [from Kaladin]. Full sister/sibling to 00113.'"
+        }
+      ]
     },
     {
       "id": "tag-114-black-ram-lamb",
@@ -8982,9 +9206,7 @@
     {
       "id": "nuba-0053",
       "name": "0053",
-      "aliases": [
-        "Nubia"
-      ],
+      "aliases": [],
       "tag": "0053",
       "sex": "ewe",
       "breed_composition": {
@@ -9007,7 +9229,7 @@
       "sire_id": "samson",
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 0053. White Hair ewe. Name: Nuba (notebook spelling). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. White hair ewe. Samson x Sir Loin daughter. Sir Loin is maternal grandsire. 50% Hampshire / 37.5% StA / 12.5% Kat. Was in Pen 2 with Rocky, moved to Pen 1 after lambing 3-24-26. Single baby ewe. Eyes consistently very good.",
+      "notes": "Tag 0053. White hair ewe — no proper name; prior 'Nuba' / 'Nubia' was a Claude transcription error off the tag number, NOT a notebook spelling (owner-confirmed 2026-04-24). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. Samson x Sir Loin daughter. Sir Loin is maternal grandsire. 50% Hampshire / 37.5% StA / 12.5% Kat. Was in Pen 2 with Rocky, moved to Pen 1 after lambing 3-24-26. Single baby ewe. Eyes consistently very good. Photo-check 2026-04-24 (Pen 2 photos): the white-faced wool ewe visible in Pen 2 is NOT 0053 per owner — 0053 remains in Pen 1.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 2"
@@ -9127,7 +9349,7 @@
       "sire_id": null,
       "dam_id": null,
       "dob": null,
-      "notes": "No tag (now tagged, number TBD). Charlies Ram. Horned. Had jaw abscess — lanced 2-27-26, treated with 4.5mL Nuflor 2-28-26 at 108.2 lbs. Flushed abscess. Source: notebook card pen 3. Sexually aggressive, dominant ram in Pen 3. Likely siring lambs in this pen. Needs to move to a new pen but has not been moved yet. Breed: BHD x Nori offspring bred to Katahdin. Charlie bought from friend Charlie who bred BHD to Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including this ram. MC20 yellow tag. Horned. Jaw abscess lanced 2-27, Nuflor 4.5mL, 105.2F fever. Flushed. Resolved by 3-9. FAMACHA consistently good. Monitor for CL.",
+      "notes": "No tag (now tagged, number TBD). Charlies Ram. Horned. CATCH-PANEL PUNCTURE on left jaw (NOT CL) — bump first noted 2-13-26, lanced 2-27-26, treated with 4.5mL Nuflor 2-28-26 at 108.2 lbs (105.2°F fever), flushed. Resolved in ~2 weeks (eyes/chin good by 3-13-26, owner-confirmed 2026-05-13). Source: notebook card pen 3. Sexually aggressive, dominant ram in Pen 3. Likely siring lambs in this pen. Needs to move to a new pen but has not been moved yet. Breed: BHD x Nori offspring bred to Katahdin. Charlie bought from friend Charlie who bred BHD to Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including this ram. MC20 yellow tag. Horned. FAMACHA consistently good.",
       "confidence": "high",
       "source_refs": {
         "notebook_card": "Card 1 pen 3"
@@ -9263,7 +9485,25 @@
       },
       "weight_lbs": 232.2,
       "weight_estimated": true,
-      "mc_tag": "MC20"
+      "mc_tag": "MC20",
+      "visual_id": {
+        "coat": "White hair coat with black spots; BLACK HORNS. 100% hair (Katahdin 50% / BHD 25% / ABB 12.5% / WH 12.5%).",
+        "size": "Adult ram, 108.2 lb recorded 2026-02-28.",
+        "proximity_tell": "Dominant ram — often at the hay cage. Likely sire of all 2026 Pen 3 lambs (Merrie is secondary ram).",
+        "distinguishes_from": {
+          "charlies-farm-ewe-p3": "Same breed composition / similar piebald look, but Charlie has BLACK HORNS and no udder. Charlies Farm Ewe is polled and lactating.",
+          "merrie": "Charlie is white-with-black-spots and HORNED; Merrie is brown-and-tan and the larger animal in the pen."
+        },
+        "confirmed_positions": [
+          "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): at the hay cage (was previously misread by Claude as a black-faced animal — owner correction 2026-04-26: this is Charlie, NOT Nori)"
+        ]
+      },
+      "notes_history": [
+        {
+          "date": "2026-05-13",
+          "note": "L4 close-out: catch-panel puncture vs CL clarification. Bump on left jaw appeared 2-13-26, soft by 2-26, lanced 2-27, Nuflor 4.5mL on 2-28 (105.2°F fever). Owner-confirmed 2026-05-13 the wound was a catch-panel puncture — NOT caseous lymphadenitis (CL). Resolved in ~2 weeks: eyes/chin good by 3-13-26. Removed 'Monitor for CL' wording from top-level notes since the original cause is identified. Health log already had this annotated in the 2026-02-28 famacha entry."
+        }
+      ]
     },
     {
       "id": "charlies-farm-ewe-p3",
@@ -9377,7 +9617,19 @@
       },
       "weight_lbs": 155,
       "weight_estimated": true,
-      "mc_tag": "MC16"
+      "mc_tag": "MC16",
+      "visual_id": {
+        "coat": "Multi-color piebald hair coat — white body with dark patches on neck/shoulders, white belly. 100% hair (same breed-comp as Charlie: K 50% / BHD 25% / ABB 12.5% / WH 12.5%).",
+        "size": "Adult ewe, lactating (raising MC-2602).",
+        "proximity_tell": "Stands alert; lamb MC-2602 nearby (LEFT of hay cage).",
+        "distinguishes_from": {
+          "charlie-ram": "Same breed-comp + similar piebald markings, but she is POLLED with a visible hanging udder; Charlie has black horns and is male.",
+          "broken-tail": "Both hair-coat lactating ewes, but she is multi-color piebald while Broken Tail is solid white."
+        },
+        "confirmed_positions": [
+          "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): mid-right standing, facing camera, hanging udder clearly visible"
+        ]
+      }
     },
     {
       "id": "charlies-farm-ewe-baby-p3",
@@ -9493,7 +9745,19 @@
         ]
       },
       "mc_tag": "MC2602",
-      "description": "Big brown with white tip on tail. 2 white socks. White on crown. Front legs all brown."
+      "description": "Big brown with white tip on tail. 2 white socks. White on crown. Front legs all brown.",
+      "visual_id": {
+        "coat": "Big brown ewe lamb. White tip on tail, 2 white socks (rear legs), white on crown, FRONT LEGS ALL BROWN (no socks). Hair coat.",
+        "size": "Born 2025-12-06 — largest of the Pen 3 lambs (~4.7 mo as of 2026-04-26). Polled.",
+        "proximity_tell": "Daughter of charlies-farm-ewe-p3; sire most likely Charlie (Merrie possible).",
+        "distinguishes_from": {
+          "broken-tail-twin-ewe": "MC-2602 is the largest brown lamb and has front legs ALL BROWN. MC-2605 is smaller and described as 'brown & white' more generally.",
+          "nori-baby-p3": "MC-2602 is a ewe with brown front legs and 2 white rear socks; MC-2604 is a ram with white blaze, white-tipped ears, full white tail."
+        },
+        "confirmed_positions": [
+          "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): LEFT side of the hay cage (owner correction 2026-04-26 to earlier Claude assumption that placed her near her dam on the right)"
+        ]
+      }
     },
     {
       "id": "broken-tail-twin-ewe",
@@ -9608,7 +9872,19 @@
           "date": "2026-04-22",
           "note": "KEPT: Owner clarified BT_WHITE twin (MC-2601) goes to auction, brown twin (MC-2605) stays despite 4-9 FAMACHA 5."
         }
-      ]
+      ],
+      "visual_id": {
+        "coat": "Brown and white hair-coat ewe lamb.",
+        "size": "Born 2025-12-31 — ~3.8 mo as of 2026-04-26. Polled.",
+        "proximity_tell": "Surviving twin. Her sister MC-2601 (white twin) DIED 2026-04-22 from parasites — Broken Tail now has a single surviving lamb.",
+        "distinguishes_from": {
+          "charlies-farm-ewe-baby-p3": "MC-2605 is smaller and the colors are more evenly mixed brown+white; MC-2602 is the bigger brown lamb with brown front legs.",
+          "nori-baby-p3": "MC-2605 is ewe; MC-2604 is ram (different dams)."
+        },
+        "confirmed_positions": [
+          "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): just to the right of the hay cage"
+        ]
+      }
     },
     {
       "id": "broken-tail-twin-ewe-2",
@@ -9623,7 +9899,7 @@
       },
       "color_markings": "White ewe",
       "pen": null,
-      "status": "alive",
+      "status": "deceased",
       "sire_id": null,
       "dam_id": "broken-tail",
       "dob": "2025-12-31",
@@ -9688,7 +9964,7 @@
           }
         ]
       },
-      "status_date": "2026-04-06",
+      "status_date": "2026-04-22",
       "status_notes": "Auction Sunday April 6, 2026",
       "description": "White ewe",
       "scheduled_auction": "2026-04-26",
@@ -9697,7 +9973,19 @@
           "date": "2026-04-22",
           "note": "STATUS CORRECTION: was marked sold prospectively for 4-6 auction that did NOT execute. Back to alive. Scheduled for 4-26-26 (coming Sunday) auction per owner."
         }
-      ]
+      ],
+      "visual_id": {
+        "coat": "Solid white hair-coat ewe lamb.",
+        "size": "Born 2025-12-31 — ~3.8 mo at death.",
+        "deceased_note": "DIED 2026-04-22 — parasites (owner-reported 2026-04-26). This visual_id describes her as pictured pre-death.",
+        "distinguishes_from": {
+          "broken-tail": "Same color (white) but lamb-sized vs adult-sized."
+        },
+        "confirmed_positions": [
+          "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): foreground center, small white lamb tucked behind her dam Broken Tail. This is her last-known photo while alive."
+        ]
+      },
+      "cause_of_death": "Parasites — owner-reported 2026-04-26."
     },
     {
       "id": "nori-baby-p3",
@@ -9820,7 +10108,19 @@
         ]
       },
       "mc_tag": "MC2604",
-      "description": "Brown + white mottled. Full white tail. White on top of ears. White blaze."
+      "description": "Brown + white mottled. Full white tail. White on top of ears. White blaze.",
+      "visual_id": {
+        "coat": "Brown-and-white mottled ram lamb. White on top of ears, white blaze on face, full white tail. Hair coat.",
+        "size": "Born 2026-01-10 — ~3.5 mo as of 2026-04-26. Polled.",
+        "proximity_tell": "Stays beside dam Nori on the right side of the pen.",
+        "distinguishes_from": {
+          "charlies-farm-ewe-baby-p3": "MC-2604 is ram with white blaze + white-tipped ears + full white tail; MC-2602 is ewe with brown front legs.",
+          "broken-tail-twin-ewe": "MC-2604 is ram (mottled brown/white with white blaze); MC-2605 is ewe."
+        },
+        "confirmed_positions": [
+          "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): right side of image, lying parallel to dam Nori — only his head is visible above Nori's hindquarters"
+        ]
+      }
     },
     {
       "id": "gigi-2026-baby",
@@ -9835,7 +10135,7 @@
         "notes": "Sire Kelsier (100% Katahdin). Dam Gigi (unknown breed). Multi color."
       },
       "color_markings": "Multi color ewe",
-      "pen": "Pen 4",
+      "pen": "Pen 3",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
@@ -9932,7 +10232,15 @@
         ]
       },
       "mc_tag": "MC2613",
-      "description": "Multi color ewe"
+      "description": "Multi color ewe",
+      "planned_sire": "charlie-ram",
+      "planned_breeding_season": "fall 2026 (when she reaches breeding age ~8 mo)",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Owner directive: move Pen 4 -> Pen 3 (Stage 1 intake), mate to Charlie when she cycles fall 2026. RATIONALE: dam Gigi has 3x FAMACHA 5 history (now flagged pet, never leaves) but Gigi's Baby herself is only ONE borderline event (FAM 3 on 4-10) on otherwise clean record (avg 1.75). Calculated test breeding: Charlie's Kat hair genetics shore up potential weakness; if her lambs are clean she earns Pen 5 next year, if she crashes herself or her lambs do she's culled. Better than indefinite Pen 4 infirmary hold."
+        }
+      ]
     },
     {
       "id": "gigi-2025-ram",
@@ -10649,6 +10957,7 @@
       "id": "tag-31-ewe-p5",
       "name": "Ewe Tag 31",
       "tag": "31",
+      "tag_color": "yellow",
       "sex": "ewe",
       "pen": "Pen 5",
       "status": "alive",
@@ -10702,7 +11011,9 @@
       },
       "sire_id": "sir-loin",
       "weight_lbs": 170,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "tag-02-ewe-p5",
@@ -10755,7 +11066,9 @@
         ],
         "treatments": [],
         "notes": []
-      }
+      },
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "fawn-wool-ewe-p5",
@@ -10810,26 +11123,16 @@
             "note": "Yellow tag 240006. Wool, fawn color, long ears."
           }
         ]
-      }
-    },
-    {
-      "id": "dodge",
-      "name": "Dodge",
-      "tag": null,
-      "sex": "ram",
-      "status": "sold",
-      "sire_id": "sir-loin",
-      "dam_id": "broken-tail",
-      "breed_composition": {
-        "primary": "Sir Loin x Broken Tail offspring",
-        "percentages": {}
       },
-      "notes": "Sold off farm. Buyers named him Dodge. Sire of Little Daisy. Also sire of Loki (Dodge x Half Tail daughter).",
-      "pen": null
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
-      "id": "daisy",
-      "name": "Daisy",
+      "id": "daisy-anna-line",
+      "name": "Daisy (Anna line)",
+      "aliases": [
+        "Daisy"
+      ],
       "tag": null,
       "sex": "ewe",
       "status": "sold",
@@ -10839,8 +11142,10 @@
         "primary": "Sir Loin x Anna offspring",
         "percentages": {}
       },
-      "notes": "Sold off farm. Buyers named her Daisy. Dam of Little Daisy.",
-      "pen": null
+      "notes": "Sold off farm. Buyers named her Daisy. CORRECTION 2026-05-13: prior note claimed she was 'Dam of Little Daisy' — owner clarified Little Daisy is from the half-tail-line Daisy (id=daisy), NOT this animal. This is a different ewe that happened to share the name. Renamed id from 'daisy' to 'daisy-anna-line' to break the duplicate-id collision.",
+      "pen": null,
+      "confidence": "low",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "elsie-triplet-lg-white-ewe",
@@ -10849,7 +11154,7 @@
       "sex": "ewe",
       "pen": "Pen 5",
       "status": "alive",
-      "sire_id": "eclipse",
+      "sire_id": "nori-son",
       "dam_id": "elsie",
       "dob": "2026-01-06",
       "color_markings": "White, large",
@@ -10932,7 +11237,9 @@
         "trigger": "Cull if her offspring show parasite weakness (FAMACHA 4+ in early life)",
         "set_on": "2026-04-22",
         "set_by": "owner directive"
-      }
+      },
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "elsie-triplet-sm-white-ewe",
@@ -10940,12 +11247,12 @@
       "tag": null,
       "sex": "ewe",
       "pen": null,
-      "status": "alive",
-      "sire_id": "eclipse",
+      "status": "sold",
+      "sire_id": "nori-son",
       "dam_id": "elsie",
       "dob": "2026-01-06",
       "color_markings": "White, small",
-      "notes": "Born 1-6-26. Elsies triplet. Small white female. Sire: Eclipse. Eyes good 2-13-26. Covexin 8 3-17-26. Source: notebook card pen 6.",
+      "notes": "Born 1-6-26. Elsies triplet. Small white female. Sire: NoriSon (formerly recorded as Eclipse — same ram, merged). Eyes good 2-13-26. Covexin 8 3-17-26. Source: notebook card pen 6.",
       "health": {
         "famacha_history": [
           {
@@ -10984,9 +11291,8 @@
           }
         ]
       },
-      "status_date": "2026-04-06",
-      "status_notes": "Auction Sunday April 6, 2026",
-      "scheduled_auction": "2026-04-26",
+      "status_date": "2026-04-26",
+      "status_notes": "Sold at auction 2026-04-26.",
       "notes_history": [
         {
           "date": "2026-04-22",
@@ -10999,8 +11305,22 @@
         {
           "date": "2026-04-22",
           "note": "Size clarification: SECOND smallest (smallest was black ram, already gifted). Going to 4-26 auction."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Status corrected alive -> deceased. Owner 2026-04-24: 'one remaining triplet' (the lg white ewe MC-2618). Small untagged triplet died 2026-04-06. Prior pen: null. NOT a bulk-cleanup 2026-04-02 date — actual death."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "REVERTED my earlier 'deceased' change (made 2026-04-24 in same branch). Owner clarified 2026-04-24: of three triplets — black ram was gifted (2026-03-15), sm white ewe is going to auction Sunday 2026-04-26, lg white ewe (MC-2618) stays with Elsie in Pen 5. Sm triplet is ALIVE, not deceased. Prior status_date 2026-04-06 was NOT a death date — cleared. Pen left null: currently staged for auction, no permanent pen."
+        },
+        {
+          "date": "2026-04-26",
+          "note": "Sold at auction 2026-04-26. Owner confirmed: 'today (4/26/26) i took him [NoriSon], the black lamb of 33, and the second smallest of the two remaining lambs of elsie to the auction.'"
         }
-      ]
+      ],
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "elsie-triplet-black-ram",
@@ -11010,7 +11330,8 @@
       "pen": null,
       "status": "gifted",
       "status_date": "2026-03-15",
-      "sire_id": "eclipse",
+      "confidence": "high",
+      "sire_id": "nori-son",
       "dam_id": "elsie",
       "dob": "2026-01-06",
       "color_markings": "Black",
@@ -11050,34 +11371,39 @@
       "pen": "Pen 6",
       "status": "alive",
       "sire_id": "samson",
-      "dam_id": "broken-tail",
-      "color_markings": "Cream/fawn heavy wool fleece. WHITE face (cream-tinted, NOT the Hampshire black face). Rounded muzzle, cream/pink nose, light ears. Yellow MC08 tag.",
+      "dam_id": "fm",
+      "color_markings": "Cream/fawn heavy wool fleece, WHITE face (cream-tinted, NOT Hampshire black despite 50% Hampshire sire Samson — FM's Cotswold/Tunis wool-breed pigment expressed in face). Rounded muzzle, cream/pink nose, light ears. Polled (no horns). Yellow MC08 tag. Large frame — as tall/wide as an Awassi ewe but not quite the full size of 2139.",
       "breed_composition": {
-        "primary": "Hampshire/St Augustine/Katahdin/BBB",
+        "primary": "Hampshire/Cotswold/Tunis",
         "percentages": {
           "Hampshire": 50,
-          "St Augustine": 32.8125,
-          "Katahdin": 14.0625,
-          "Barbados Blackbelly": 3.125
+          "Cotswold": 25,
+          "Tunis": 25
         },
-        "coat_type": "mixed",
-        "hair_percentage": 50.0,
+        "coat_type": "wool",
+        "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 50.0,
+        "wool_percentage": 100,
         "coat_prediction": "wool",
-        "notes": "Samson (100% Hampshire) x Broken Tail (65.625 SA / 28.125 K / 6.25 BBB). Hampshire wool-coat dominance expressed, but face color did NOT inherit Hampshire black — both full siblings (MC08 + samson-daughter-p4) have white faces. Hair-breed dam face prevailed. Wide tail noted."
+        "notes": "Samson (100% Hampshire) x FM (50% Cotswold / 50% Tunis) per owner 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam). All-wool cross matches MC08's observed heavy uniform wool fleece. Full sibling to samson-daughter-p4 in Pen 4 (same Samson x FM cross — owner-confirmed 2026-05-13)."
       },
       "visual_id": {
-        "face": "White, cream-tinted",
-        "muzzle": "Rounded (less pointed than full sister samson-daughter-p4)",
-        "coat": "Cream/fawn heavy wool",
+        "face": "White, cream-tinted (NOT Hampshire black)",
+        "muzzle": "Rounded, cream/pink nose",
+        "coat": "Cream/fawn heavy uniform wool fleece",
+        "horns": "Polled (no horns) — only hornless adult in Pen 6",
+        "body_size": "Large frame — comparable to an Awassi ewe but leaner than 2139",
+        "tag": "MC08 (yellow)",
+        "verified_from": "Photos 2026-04-24: head-on view (cream face, yellow tag on animal's left ear, no horns, heavy fleece) + side profile (same animal, right side, yellow tag visible). Owner confirmed both views = MC08, 2026-04-24.",
         "distinguishes_from": {
-          "samson-daughter-p4": "MC08 has a rounder nose and slightly less-white face than his sister. Both otherwise similar cream-wool white-faced phenotype."
+          "samson-daughter-p4": "MC08 has a rounder nose and slightly less-white (more cream-tinted) face than his full sister. Both otherwise similar cream-wool white-faced phenotype. Sister is in Pen 4.",
+          "windlestone_awassis": "MC08 is polled; all three Windlestone ewes have horns. MC08 is also paler/whiter in the face than the Awassis' brown faces.",
+          "elsie-triplet-lg-white-ewe": "MC-2618 is in Pen 5, not Pen 6 (owner correction 2026-04-24). Also a 3.5-mo lamb vs MC08 adult ram — smaller, less-developed fleece."
         }
       },
-      "notes": "Tag MC08, yellow. Ram in Pen 6 with Windlestone Awassi ewes. Cream/fawn wool sheep, white face. Sire: Samson, dam: Broken Tail — owner-confirmed 2026-04-24. Full sibling to samson-daughter-p4 (in Pen 4). Source: notebook card pen 6 + owner photo 2026-04-24. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
+      "notes": "Tag MC08, yellow. Ram in Pen 6 with Windlestone Awassi ewes. Cream/fawn wool sheep, white face. Sire: Samson, dam: FM — owner statement 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam). Full sibling to samson-daughter-p4 in Pen 4 (same Samson x FM cross — owner-confirmed 2026-05-13). Source: notebook card pen 6 + owner verbal 2026-05-13. As tall and wide as Awassi ewe but not fully grown. ~190 lbs est, will grow.",
       "confidence": "medium",
-      "last_verified": "2026-04-24",
+      "last_verified": "2026-05-13",
       "health": {
         "famacha_history": [
           {
@@ -11127,8 +11453,89 @@
         {
           "date": "2026-04-24",
           "note": "Sire/dam resolved: Samson x Broken Tail (owner testimony). Full sister samson-daughter-p4 identified in Pen 4 photos same day."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Breeding evaluation added (see breeding_evaluation field). Framework: breeding-advisor skill. FAMACHA/FEC > hair/wool > breed > meat. For use when rebuilding the breeding plan."
+        },
+        {
+          "date": "2026-05-13",
+          "note": "Owner statement: MC08 (Pen 6 ram) is the son of Samson and FM — supersedes prior 2026-04-24 entry that identified the dam as Broken Tail. dam_id updated broken-tail → fm. Breed composition recalculated: Samson (100% Hampshire) × FM (50% Cotswold / 50% Tunis) → 50% Hampshire / 25% Cotswold / 25% Tunis, 100% wool. New cross matches MC08's observed heavy uniform wool fleece better than the prior mixed-coat Broken Tail calc. Full sibling samson-daughter-p4 (Pen 4) also corrected to FM dam in the same update — owner confirmed both 2026-05-13."
         }
-      ]
+      ],
+      "breeding_evaluation": {
+        "evaluated_date": "2026-04-24",
+        "evaluator": "breeding-advisor skill (Claude, 2026-04-24)",
+        "role": "Awassi dairy-line sire (outside main 7-pen breeding pipeline). Currently running with 3 Windlestone Awassi ewes in Pen 6.",
+        "health": {
+          "famacha_avg": "1-2 (3/3 scored 1-2; 2026-02-12, 2026-03-13)",
+          "dewormings_last_12_months": 0,
+          "weak_resistance_flag": false,
+          "vaccinations": "CDT 2026-03-13 current",
+          "assessment": "Excellent. No parasite treatments on record. Passes FAMACHA hard block comfortably."
+        },
+        "conformation": {
+          "frame": "Large — tall and wide as an Awassi ewe, NOT yet fully grown per owner note",
+          "weight_lbs": 190,
+          "weight_status": "Estimated; will grow",
+          "coat": "Heavy cream/fawn wool fleece (50% wool observed despite 50% hair breed calc) — needs shearing",
+          "polled": true,
+          "muzzle_nose": "Rounded, cream/pink",
+          "notes": "Large frame + good body condition. No BSE (breeding-soundness exam) on record."
+        },
+        "meatiness": "Good potential — Hampshire (meat breed) × Katahdin/SA hair. Large frame. Re-weigh at full maturity for growth-rate evaluation against pipeline benchmarks.",
+        "breeding_soundness": {
+          "status": "UNPROVEN",
+          "offspring_recorded": 0,
+          "current_exposure": "3 Windlestone ewes (2139, 0056, 0055), duration unknown",
+          "subfertility_trigger": "If >=3 ewes exposed for >=6 months and <=1 conceives → REJECT per skill hard-block #2 (Eclipse precedent: bred 1/6 in >1 year, flagged cull). Monitor.",
+          "age": "DOB unknown — visually yearling to 2yo; will grow further"
+        },
+        "genetics": {
+          "sire": "samson (100% Hampshire, DECEASED, was on WEAK RESISTANCE LIST 2026-02-14) — ⚠ concerning paternal line",
+          "dam": "broken-tail (hair-breed)",
+          "breed_composition": "50% Hampshire / 32.8% St Augustine / 14.1% Katahdin / 3.1% BBB",
+          "hair_wool_observed": "50% (carries heavy wool fleece)",
+          "full_sibling": "samson-daughter-p4 (Pen 4)"
+        },
+        "pipeline_placement": {
+          "current": "Pen 6 (Awassi dairy line, outside main breeding loop per breeding-advisor skill)",
+          "recommendation": "Keep on Awassi/dairy line. Do NOT move into main pipeline (Pen 3→TF→4→5→6→1→2) — that line demands hair-coat shedders, and MC08 carries too much fleece. His value is as a meat-carrier sire crossed into the Awassi dairy line.",
+          "alternative": "If owner prefers, move to Goose Pen (per skill table: 'MC08 (Awassi dairy) — Separate line')"
+        },
+        "recommended_pairings": [
+          {
+            "ewe": "windlestone-2139",
+            "verdict": "APPROVED (current exposure) — monitor for lambing",
+            "notes": "Large ewe × large ram — DYSTOCIA_RISK watch on predicted birthweight"
+          },
+          {
+            "ewe": "windlestone-0056",
+            "verdict": "APPROVED (current exposure)",
+            "notes": "Good temperament dam ('nice to handle')"
+          },
+          {
+            "ewe": "windlestone-0055",
+            "verdict": "APPROVED (current exposure)",
+            "notes": "Smallest horns; same frame as other two"
+          }
+        ],
+        "pairing_risk_notes": "Per skill rule 18 (WOOL_RISK): MC08 (observed wool) × Awassi (wool) offspring will carry <50% hair genetics AND both parents carry fleece → +2 pts per pairing. ACCEPTABLE here because this is the dairy line (coat is secondary to milk); would be unacceptable in the main pipeline.",
+        "red_flags": [
+          "Sire Samson was on weak-resistance list — MC08's own FAMACHA (currently 1-2) is fine, but his OFFSPRING's FAMACHA at 6mo is the real test",
+          "No DOB recorded",
+          "Zero offspring on record — fertility unproven",
+          "Heavy fleece is a FL-heat liability"
+        ],
+        "rebuild_plan_action_items": [
+          "Breeding-soundness exam before next breeding season",
+          "Estimate DOB from dentition at next handling",
+          "Weigh at full maturity (target: >220 lbs)",
+          "Pregnancy-check the 3 Windlestone ewes mid-2026; if none conceive, trigger subfertility protocol (Eclipse precedent)",
+          "Score any 2026 lambs' FAMACHA at 6 mo — this determines keep/cull on MC08",
+          "Annual review September 2026 per skill calendar"
+        ]
+      }
     },
     {
       "id": "samson-daughter-p4",
@@ -11138,19 +11545,18 @@
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Hampshire/St Augustine/Katahdin/BBB",
+        "primary": "Hampshire/Cotswold/Tunis",
         "percentages": {
           "Hampshire": 50,
-          "St Augustine": 32.8125,
-          "Katahdin": 14.0625,
-          "Barbados Blackbelly": 3.125
+          "Cotswold": 25,
+          "Tunis": 25
         },
-        "coat_type": "mixed",
-        "hair_percentage": 50.0,
+        "coat_type": "wool",
+        "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 50.0,
+        "wool_percentage": 100,
         "coat_prediction": "wool",
-        "notes": "Same cross as full-sibling MC08. Face color did NOT inherit Hampshire black from sire — both siblings have WHITE faces. Broken Tail (hair-breed) face dominated."
+        "notes": "Same cross as full-sibling MC08: Samson (100% Hampshire) x FM (50% Cotswold / 50% Tunis) per owner 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam). All-wool cross matches both siblings' observed cream wool fleece."
       },
       "color_markings": "WHITE face (whiter than brother MC08), pointed nose (more pointed than MC08). Cream wool body. Owner photo ID 2026-04-24.",
       "visual_id": {
@@ -11168,7 +11574,7 @@
       "dob": null,
       "dob_approximate": true,
       "sire_id": "samson",
-      "dam_id": "broken-tail",
+      "dam_id": "fm",
       "status": "alive",
       "status_date": null,
       "status_notes": "",
@@ -11191,9 +11597,9 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Identified by owner 2026-04-24 from Pen 4 photos (back-right position, picture 1). Full sibling to MC08 (Pen 6 ram). Both sired by Samson (100% Hampshire, deceased) — Hampshire face is the visual tell. Dam Broken Tail per owner 'good confidence' — alternative candidate Half Tail died during Hurricane Helene Sept 2024 so timing-dependent; owner selected Broken Tail. No tag recorded yet. DOB unknown — likely born same cohort as MC08 (pre-Samson's death). Not previously in database roster for Pen 4.",
+      "notes": "Identified by owner 2026-04-24 from Pen 4 photos (back-right position, picture 1). Full sibling to MC08 (Pen 6 ram). Both sired by Samson (100% Hampshire, deceased) out of FM (50% Cotswold / 50% Tunis) — owner 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam, which had been recorded with 'good confidence' but was corrected). All-wool sire+dam cross matches both siblings' cream wool fleece. No tag recorded yet. DOB unknown — likely born same cohort as MC08 (pre-Samson's death). Not previously in database roster for Pen 4.",
       "confidence": "medium",
-      "last_verified": "2026-04-24"
+      "last_verified": "2026-05-13"
     },
     {
       "id": "windlestone-2139",
@@ -11203,18 +11609,19 @@
       "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
-        "primary": "Awassi (almost pure)",
+        "primary": "Awassi/East Friesian",
         "percentages": {
-          "Awassi": 95
+          "Awassi": 95,
+          "East Friesian": 5
         },
         "coat_type": "wool",
-        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi.",
+        "notes": "Windlestone Ranch fat tail ewes. Awassi + East Friesian cross (owner-confirmed 2026-05-13). Same Windlestone-origin Awassi/EF base as Buck (Katahdin added) and Rocky (Dorper added). 95/5 split inferred from prior 'almost full blooded Awassi' note plus owner's 2026-05-13 confirmation of EF as the second component.",
         "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 95,
+        "wool_percentage": 100,
         "coat_prediction": "wool"
       },
-      "color_markings": "Big ewe w nice horns",
+      "color_markings": "Big ewe w nice horns. Heavy cream/buff Awassi fat-tail fleece. Brown/reddish face. Prominent dark curled horns — the largest horns of the three Pen-6 Windlestones. Biggest frame of the three. Tag 2139.",
       "notes": "Tag 2139. Windlestone Ranch fat tail (Awassi) ewe. Big ewe w nice horns. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
       "health": {
         "famacha_history": [
@@ -11260,9 +11667,84 @@
         {
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Breeding evaluation added (see breeding_evaluation field). Framework: breeding-advisor skill. FAMACHA/FEC > hair/wool > breed > meat. For use when rebuilding the breeding plan."
         }
       ],
-      "description": "Fat tail. Big ewe with nice horns. No babies this season."
+      "description": "Fat tail. Big ewe with nice horns. No babies this season.",
+      "visual_id": {
+        "coat": "Heavy uniform cream/buff wool fleece (Awassi fat-tail)",
+        "face": "Brown/reddish face",
+        "horns": "Large, curled, prominent — the biggest horns in Pen 6",
+        "body_size": "Largest frame of the three Windlestone ewes",
+        "legs": "Standard/light (NOT distinctly dark — that's 0055)",
+        "tag": "2139",
+        "verified_from": "Photo 2026-04-24: big ewe lying down in front of white outbuilding, heavy curled horns, brown face. Owner-confirmed 2026-04-24.",
+        "distinguishes_from": {
+          "windlestone-0056": "2139 has larger, more prominent horns and a bigger frame.",
+          "windlestone-0055": "2139 has large horns; 0055 has tiny horns and distinctive dark legs."
+        }
+      },
+      "breeding_evaluation": {
+        "evaluated_date": "2026-04-24",
+        "evaluator": "breeding-advisor skill (Claude, 2026-04-24)",
+        "role": "Awassi dairy ewe — foundational dam for Manatee Creek's 'most milky' line (per CLAUDE.md). Outside main pipeline.",
+        "health": {
+          "famacha_avg": "1-2 (3/3 scored 1-2)",
+          "dewormings_last_12_months": 0,
+          "weak_resistance_flag": false,
+          "vaccinations": "CDT/Covexin 8 2026-03-13 current",
+          "assessment": "Excellent. Passes all FAMACHA hard blocks. Has survived FL conditions."
+        },
+        "conformation": {
+          "frame": "Largest of the three Windlestones",
+          "weight_lbs": 200,
+          "coat": "Heavy cream/buff Awassi fat-tail fleece (needs shearing)",
+          "horns": "Large, curled, dark — biggest in Pen 6",
+          "notes": "Big ewe with good structure per notebook card."
+        },
+        "meatiness": "Good — 200 lb frame. Awassi fat-tail is adipose reserve (not muscle); moderate meatiness but excellent body-condition buffer for lambing.",
+        "breeding_soundness": {
+          "status": "UNPROVEN",
+          "offspring_recorded": 0,
+          "current_exposure": "MC08 (2026, ongoing)",
+          "age": "DOB unknown (purchased from Windlestone Ranch)",
+          "notes": "No babies recorded to date. First-time lambing will be high-risk per skill rule #10 (FIRST_TIMER_RISK +3)."
+        },
+        "genetics": {
+          "breed_composition": "95% Awassi (5% unrecorded — DB quality issue, pre-existing validator warning)",
+          "source": "Windlestone Ranch",
+          "dairy_value": "HIGH — per CLAUDE.md: 'Most milky: Awassi and Awassi crosses'"
+        },
+        "pipeline_placement": {
+          "current": "Pen 6 with MC08 (Awassi line)",
+          "recommendation": "KEEP on Awassi/dairy line. Do not move to main pipeline (wool coat disqualifies her from the hair-shedder progression)."
+        },
+        "recommended_pairings": [
+          {
+            "ram": "mc08-ram",
+            "verdict": "APPROVED (current)",
+            "notes": "Watch DYSTOCIA_RISK — both parents large-framed; predicted birthweight should be estimated if possible."
+          }
+        ],
+        "red_flags": [
+          "Age unknown — can't apply skill rule #5 (EWE_AGE_CHECK)",
+          "Never lambed — FIRST_TIMER_RISK applies at first breeding",
+          "Breed percentages sum 95% (data quality)"
+        ],
+        "rebuild_plan_action_items": [
+          "Age estimation at next handling (dentition)",
+          "Pregnancy-check mid-2026",
+          "Plan shearing before summer heat",
+          "At first lambing: record BW, lambing ease, and milk letdown (key trait for dairy-line decisions)",
+          "If produces good milking daughters → high-value foundational dam; tag daughters for line continuation",
+          "Annual review September 2026"
+        ]
+      },
+      "confidence": "high",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "windlestone-0056",
@@ -11272,18 +11754,19 @@
       "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
-        "primary": "Awassi (almost pure)",
+        "primary": "Awassi/East Friesian",
         "percentages": {
-          "Awassi": 95
+          "Awassi": 95,
+          "East Friesian": 5
         },
         "coat_type": "wool",
-        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi.",
+        "notes": "Windlestone Ranch fat tail ewes. Awassi + East Friesian cross (owner-confirmed 2026-05-13). Same Windlestone-origin Awassi/EF base as Buck (Katahdin added) and Rocky (Dorper added). 95/5 split inferred from prior 'almost full blooded Awassi' note plus owner's 2026-05-13 confirmation of EF as the second component.",
         "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 95,
+        "wool_percentage": 100,
         "coat_prediction": "wool"
       },
-      "color_markings": "Med thick long horns, nice to handle",
+      "color_markings": "Med thick long horns, nice to handle. Heavy cream/buff Awassi fat-tail fleece. Brown face. Curled horns — moderate size (between 2139's big and 0055's tiny). Orange/pink ear tag visible in 2026-04-24 photo. Tag 0056.",
       "notes": "Tag 0056. Windlestone Ranch fat tail (Awassi) ewe. Med thick long horns, nice to handle. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
       "health": {
         "famacha_history": [
@@ -11329,9 +11812,82 @@
         {
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Breeding evaluation added (see breeding_evaluation field). Framework: breeding-advisor skill. FAMACHA/FEC > hair/wool > breed > meat. For use when rebuilding the breeding plan."
         }
       ],
-      "description": "Fat tail. 1 med thick long horn + 1 hard thick & med long horn. Nice to handle."
+      "description": "Fat tail. 1 med thick long horn + 1 hard thick & med long horn. Nice to handle.",
+      "visual_id": {
+        "coat": "Heavy cream/buff wool fleece (Awassi fat-tail)",
+        "face": "Brown face",
+        "horns": "Medium-thick, long, curled — moderate size; smaller than 2139, larger than 0055",
+        "body_size": "Medium frame",
+        "legs": "Standard/light (NOT distinctly dark — that's 0055)",
+        "tag": "0056 (orange/pink visible tag color)",
+        "temperament": "Nice to handle (per notebook card)",
+        "verified_from": "Photo 2026-04-24: standing, both curled horns visible, brown face, orange/pink tag. Owner-confirmed 2026-04-24.",
+        "distinguishes_from": {
+          "windlestone-2139": "0056's horns are smaller than 2139's; 0056 is also a smaller frame.",
+          "windlestone-0055": "0056 has clearly curled horns; 0055 has tiny/nubby horns AND dark brown legs."
+        }
+      },
+      "breeding_evaluation": {
+        "evaluated_date": "2026-04-24",
+        "evaluator": "breeding-advisor skill (Claude, 2026-04-24)",
+        "role": "Awassi dairy ewe. Outside main pipeline.",
+        "health": {
+          "famacha_avg": "1-2 (3/3 scored 1-2)",
+          "dewormings_last_12_months": 0,
+          "weak_resistance_flag": false,
+          "vaccinations": "CDT/Covexin 8 2026-03-13 current",
+          "assessment": "Excellent. Passes FAMACHA hard block."
+        },
+        "conformation": {
+          "frame": "Medium (between 2139 and 0055)",
+          "weight_lbs": 200,
+          "coat": "Heavy cream/buff Awassi fat-tail fleece (needs shearing)",
+          "horns": "Medium-thick, long, curled — moderate (smaller than 2139, larger than 0055)",
+          "temperament_note": "'Nice to handle' per notebook — IMPORTANT soft trait for dairy (she'll submit to milking)"
+        },
+        "meatiness": "Good — 200 lb frame, similar to 2139. Fat-tail adipose reserve.",
+        "breeding_soundness": {
+          "status": "UNPROVEN",
+          "offspring_recorded": 0,
+          "current_exposure": "MC08 (2026, ongoing)",
+          "age": "DOB unknown (purchased from Windlestone Ranch)"
+        },
+        "genetics": {
+          "breed_composition": "95% Awassi (5% unrecorded)",
+          "source": "Windlestone Ranch",
+          "dairy_value": "HIGH (Awassi)"
+        },
+        "pipeline_placement": {
+          "current": "Pen 6 with MC08",
+          "recommendation": "KEEP on Awassi/dairy line. Her temperament ('nice to handle') makes her the strongest dairy-line candidate of the three Windlestones — prioritize her daughters for milking line."
+        },
+        "recommended_pairings": [
+          {
+            "ram": "mc08-ram",
+            "verdict": "APPROVED (current)",
+            "notes": "Lower DYSTOCIA_RISK than 2139×MC08 — smaller frame."
+          }
+        ],
+        "red_flags": [
+          "Age unknown",
+          "Never lambed — FIRST_TIMER_RISK applies"
+        ],
+        "rebuild_plan_action_items": [
+          "Age estimation",
+          "Pregnancy-check mid-2026",
+          "At first lambing: record lambing ease + milk letdown — flag for dairy-line prioritization if she milks out easy",
+          "If lambs → tag daughters as potential dairy replacements",
+          "Annual review September 2026"
+        ]
+      },
+      "confidence": "high",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "windlestone-0055",
@@ -11341,18 +11897,19 @@
       "pen": "Pen 6",
       "status": "alive",
       "breed_composition": {
-        "primary": "Awassi (almost pure)",
+        "primary": "Awassi/East Friesian",
         "percentages": {
-          "Awassi": 95
+          "Awassi": 95,
+          "East Friesian": 5
         },
         "coat_type": "wool",
-        "notes": "Windlestone Ranch fat tail ewes. Almost full blooded Awassi.",
+        "notes": "Windlestone Ranch fat tail ewes. Awassi + East Friesian cross (owner-confirmed 2026-05-13). Same Windlestone-origin Awassi/EF base as Buck (Katahdin added) and Rocky (Dorper added). 95/5 split inferred from prior 'almost full blooded Awassi' note plus owner's 2026-05-13 confirmation of EF as the second component.",
         "hair_percentage": 0,
         "intermediate_percentage": 0,
-        "wool_percentage": 95,
+        "wool_percentage": 100,
         "coat_prediction": "wool"
       },
-      "color_markings": "Tiny/sm horns, dark legs",
+      "color_markings": "Tiny/sm horns, DARK LEGS. Cream/buff Awassi fat-tail fleece, brown face, and distinctly DARK BROWN legs — the single clearest visual tell among the Pen-6 Windlestones. Horns small/nubby. Tag 0055.",
       "notes": "Tag 0055. Windlestone Ranch fat tail (Awassi) ewe. Tiny/sm horns, dark legs. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
       "health": {
         "famacha_history": [
@@ -11399,8 +11956,80 @@
         {
           "source": "IMG_0616",
           "note": "Moved from Goose Pen to Pen 6 per notebook census snapshot."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Breeding evaluation added (see breeding_evaluation field). Framework: breeding-advisor skill. FAMACHA/FEC > hair/wool > breed > meat. For use when rebuilding the breeding plan."
         }
-      ]
+      ],
+      "visual_id": {
+        "coat": "Cream/buff wool fleece (Awassi fat-tail)",
+        "face": "Brown face",
+        "horns": "Tiny/small — nubby compared to the other two Windlestones",
+        "body_size": "Medium frame",
+        "legs": "DARK BROWN legs — the clearest single tell; distinguishes her from 2139 and 0056",
+        "tag": "0055",
+        "verified_from": "Photo 2026-04-24: right-side profile at fence near water bucket, brown face, brown legs visible below fleece. Owner-confirmed 2026-04-24.",
+        "distinguishes_from": {
+          "windlestone-2139": "0055 has dark legs + tiny horns; 2139 has light legs + big horns.",
+          "windlestone-0056": "0055 has dark legs + tiny horns; 0056 has light legs + curled medium horns."
+        }
+      },
+      "breeding_evaluation": {
+        "evaluated_date": "2026-04-24",
+        "evaluator": "breeding-advisor skill (Claude, 2026-04-24)",
+        "role": "Awassi dairy ewe. Outside main pipeline.",
+        "health": {
+          "famacha_avg": "1-2 (3/3 scored 1-2)",
+          "dewormings_last_12_months": 0,
+          "weak_resistance_flag": false,
+          "vaccinations": "CDT/Covexin 8 2026-03-13 current",
+          "assessment": "Excellent. Passes FAMACHA hard block."
+        },
+        "conformation": {
+          "frame": "Medium",
+          "weight_lbs": 200,
+          "coat": "Cream/buff Awassi fat-tail fleece (needs shearing)",
+          "horns": "Tiny/nubby — smallest in Pen 6; 1 tiny + 1 small-long per notebook",
+          "distinguishing_mark": "DARK BROWN LEGS (unique among Pen 6 Windlestones)"
+        },
+        "meatiness": "Good — 200 lb frame. Fat-tail adipose.",
+        "breeding_soundness": {
+          "status": "UNPROVEN",
+          "offspring_recorded": 0,
+          "current_exposure": "MC08 (2026, ongoing)",
+          "age": "DOB unknown (purchased from Windlestone Ranch)"
+        },
+        "genetics": {
+          "breed_composition": "95% Awassi (5% unrecorded)",
+          "source": "Windlestone Ranch",
+          "dairy_value": "HIGH (Awassi)"
+        },
+        "pipeline_placement": {
+          "current": "Pen 6 with MC08",
+          "recommendation": "KEEP on Awassi/dairy line. No temperament flag either direction; behaves typical."
+        },
+        "recommended_pairings": [
+          {
+            "ram": "mc08-ram",
+            "verdict": "APPROVED (current)",
+            "notes": "Lower DYSTOCIA_RISK than 2139×MC08 — smaller frame."
+          }
+        ],
+        "red_flags": [
+          "Age unknown",
+          "Never lambed — FIRST_TIMER_RISK applies",
+          "Tiny horns may indicate genetic variation; not necessarily a concern but flagged for daughter evaluation"
+        ],
+        "rebuild_plan_action_items": [
+          "Age estimation",
+          "Pregnancy-check mid-2026",
+          "At first lambing: record ease + milk; compare to 0056 for dairy-line ranking",
+          "Annual review September 2026"
+        ]
+      },
+      "confidence": "high",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "tag-0035-white-ewe",
@@ -11470,7 +12099,9 @@
         "coat_prediction": "hair"
       },
       "weight_lbs": 130,
-      "weight_estimated": true
+      "weight_estimated": true,
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "tag-0035-baby-ewe",
@@ -11539,17 +12170,20 @@
         ]
       },
       "secondary_tags": [],
-      "description": "White with brown on front legs"
+      "description": "White with brown on front legs",
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "tag-31-orange-tf",
       "name": "Orange Tag 31 Ewe (Tree Fort)",
       "tag": "31",
+      "tag_color": "orange",
       "sex": "ewe",
       "pen": "Tree Fort",
       "status": "alive",
       "color_markings": "Wool w/ 2 brown socks on hind legs, orange tag",
-      "notes": "Tag 31, orange tag. DIFFERENT animal from Tag 31 in Pen 5. Came from another farm. Wool ewe. Single baby (ram, born 1-2-26). Source: notebook card TF.",
+      "notes": "Tag 31 (ORANGE tag — different from Pen 5's yellow Tag 31). Came from another farm (owner believes Charlie's farm, per 2026-05-13). Both animals kept their original tags; the color difference is the field-level disambiguator. Wool ewe. Single baby (ram, born 1-2-26). Source: notebook card TF.",
       "health": {
         "famacha_history": [
           {
@@ -11594,7 +12228,9 @@
             "note": "Wool coat with 2 brown socks on hind legs. Single baby this season."
           }
         ]
-      }
+      },
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "tag-31-orange-tf-ram-lamb",
@@ -11683,7 +12319,9 @@
         ]
       },
       "mc_tag": "MC2616",
-      "description": "White with brown circles around eyes that go down the neck, plus brown dots"
+      "description": "White with brown circles around eyes that go down the neck, plus brown dots",
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "bambii-baby",
@@ -11779,7 +12417,9 @@
           "source": "IMG_0617",
           "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
         }
-      ]
+      ],
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "goose-50",
@@ -11796,7 +12436,9 @@
           "source": "IMG_0617",
           "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
         }
-      ]
+      ],
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "goose-06",
@@ -11813,7 +12455,9 @@
           "source": "IMG_0617",
           "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
         }
-      ]
+      ],
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "goose-l19",
@@ -11830,7 +12474,9 @@
           "source": "IMG_0617",
           "note": "Sold 4-15-26 at auction per notebook auction card. Prices obscured/torn on card; not recorded without verification."
         }
-      ]
+      ],
+      "confidence": "medium",
+      "last_verified": "2026-05-13"
     },
     {
       "id": "windlestone-kat-dorper",
@@ -11863,7 +12509,7 @@
       "dam_id": null,
       "status": "alive",
       "status_date": "2026-04-03",
-      "status_notes": "Purchased from Windlestone",
+      "status_notes": "Purchased from Windlestone. FLAG 2026-04-24: Pen 2 photo set shows only Rocky + one unidentified white-faced wool ewe — this hair ram is NOT in those photos. Pen assignment likely stale. Also: aliases 'Butthead' / 'Charlie's Ram' collide with Rocky's aliases — possible duplicate-record risk (same pattern as Pen 4's lara/g023-bhd-ewe). Owner needs to confirm (a) where this ram actually is, and (b) whether he is a distinct animal from Rocky or a duplicate. DO NOT breed or cull from this record until resolved.",
       "pen": "Pen 2",
       "measurements": {},
       "health": {
@@ -12003,16 +12649,24 @@
       "tag": null,
       "sex": "ram",
       "status": "alive",
-      "pen": null,
+      "pen": "Pen 5",
       "source": "Windlestone",
       "arrival_date": "2026-04-22",
       "breed_composition": {
-        "percentages": {},
-        "confidence": "low",
-        "notes": "Owner stated \"50% Awassi, 25% Dorper, 23% Awassi, 2% East Friesian\" — Awassi appears twice; typo. Awaiting clarification before committing percentages."
+        "primary": "Katahdin/Dorper/Awassi",
+        "percentages": {
+          "Katahdin": 50,
+          "Dorper": 25,
+          "Awassi": 25
+        },
+        "coat_type": "mixed",
+        "hair_percentage": 75,
+        "intermediate_percentage": 0,
+        "wool_percentage": 25,
+        "coat_prediction": "hair"
       },
       "description": "Black head + neck with sharp shoulder boundary, white body, short shedding hair coat. Classic black-headed Dorper phenotype by appearance.",
-      "confidence": "medium",
+      "confidence": "high",
       "notes_history": [
         {
           "date": "2026-04-22",
@@ -12021,6 +12675,18 @@
         {
           "date": "2026-04-22",
           "note": "PEDIGREE PENDING: breed composition awaiting owner clarification (owner stated Awassi twice; likely one should be Katahdin)."
+        },
+        {
+          "date": "2026-04-24",
+          "note": "Pen assignment set to Pen 5 per owner: 'elsie is in 5 with angus'. Cohabiting with Eclipse (ram, listed subfertile/cull candidate) and other Pen 5 ewes including Elsie."
+        },
+        {
+          "date": "2026-04-26",
+          "note": "Confirmed in Pen 5 from photo session — back-right corner of photo 1. Owner: 'Back right corner is the Ram - Angus. 4 months old.' Now the breeding ram in Pen 5 (succeeding NoriSon, sold today)."
+        },
+        {
+          "date": "2026-04-26",
+          "note": "Breed composition confirmed by owner: 50% Katahdin / 25% Dorper / 25% Awassi (sums to 100). CORRECTED from prior 'low confidence — Awassi appears twice; awaiting clarification' note."
         }
       ],
       "health": {
@@ -12028,38 +12694,70 @@
         "vaccinations": [],
         "treatments": [],
         "notes": []
+      },
+      "visual_id": {
+        "coat": "Short, slick shedding hair coat — no fleece",
+        "face": "BLACK head + neck with a sharp boundary at the shoulders",
+        "body": "WHITE body",
+        "frame": "Young ram, ~4 months as of 2026-04-26 (DOB ~Dec 2025/Jan 2026)",
+        "tell": "Only black-head/white-body hair-coat sheep in Pen 5 — locked by phenotype alone.",
+        "photo_position": "Back-right corner of photo 1, near the round container/bin.",
+        "distinguishes_from": {
+          "oav-2222": "OAV is solid white-cream, slick (Katahdin), not black-headed. Angus has the sharp black-on-white Dorper-style boundary."
+        }
+      },
+      "photo_evaluation_2026_04_26": {
+        "date": "2026-04-26",
+        "source": "Pen 5 photo set, 2 images, owner-supplied 2026-04-26",
+        "photo_position": "Back-right corner of photo 1, mid-distance, standing near a tall round metal container/feeder. Visible again at distance in photo 2 background.",
+        "body_condition": "Standoff distance — cannot reliably assess body condition score. Posture is upright and alert; legs straight; no obvious lameness. Frame reads young-adult/late-lamb proportions consistent with ~4-month-old ram lamb.",
+        "coat": "Short, slick, even hair coat. NO fleece — confirms hair-breed dominance (50% Katahdin + 25% Dorper). The 25% Awassi has not produced visible wool tail or fleece patches in this image. Sharp boundary between black head/neck and white body — classic black-headed Dorper-style pigment pattern.",
+        "head_face": "BLACK head + neck with a clean line at the shoulders. White ear visible. Polled (no horns visible from this angle).",
+        "behavior": "Standing at the far side of the pen apart from the ewes — independent behavior, not herding with the ewes in this frame. No interaction captured with the dead lamb or with 00113.",
+        "limitations": "Photos taken in low-angle morning/evening sun (long shadows visible on sandy ground); body color reads warmer than midday truth. No close-up shots, so FAMACHA scoring, weight, and detailed health assessment are NOT possible from these images — only standoff phenotype and gross body-condition cues. Angus is at the back of the pen in both photos — no close-up; cannot evaluate testicle development, hoof condition, or facial expression in detail.",
+        "concerns": "None visible from these photos.",
+        "next_actions": [
+          "Tag at next handling.",
+          "FAMACHA baseline.",
+          "Body condition score on a measuring scale.",
+          "Confirm polled vs scur status close-up."
+        ],
+        "evaluator": "Claude (visual ID pass 2026-04-26, owner-confirmed positions)"
       }
     },
     {
-      "id": "lara-2026-lamb",
-      "name": "Lara's 2026 Lamb",
+      "id": "tag-00113-ewe-p1",
+      "name": "00113",
       "aliases": [],
-      "tag": null,
+      "tag": "00113",
+      "secondary_tags": [],
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Black Headed Dorper/Katahdin",
+        "primary": "Cracker/Suffolk/GCN/Katahdin",
         "percentages": {
-          "Black Headed Dorper": 50.0,
-          "Katahdin": 50.0
+          "Cracker": 50,
+          "Suffolk": 25,
+          "Gulf Coast Native": 12.5,
+          "Katahdin": 12.5
         },
-        "coat_type": "hair",
-        "hair_percentage": 100.0,
+        "coat_type": "wool",
+        "hair_percentage": 12.5,
         "intermediate_percentage": 0,
-        "wool_percentage": 0,
-        "coat_prediction": "hair",
-        "notes": "Both parents are hair breeds (BHD + Katahdin) — pure hair coat expected. Confirmed in photos."
+        "wool_percentage": 87.5,
+        "coat_prediction": "wool",
+        "notes": "Identical to orange-tag-00110 and tag-114-fawn-wool — full siblings. Owner ground truth 2026-04-26."
       },
-      "color_markings": "Piebald — predominantly WHITE body with BLACK patches; solid BLACK face with a white blaze between the ears; black legs with white feet/socks. Hair coat (slick). Umbilical cord still attached in birth photos.",
+      "color_markings": "Cream/light wool body, BLACK FACE (Suffolk influence), black legs, large frame. Heavy uniform fleece.",
       "weight_lbs": null,
-      "dob": "2026-05-21",
-      "dob_approximate": false,
-      "sire_id": "kelsier",
-      "dam_id": "lara",
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
       "status": "alive",
-      "status_date": null,
-      "status_notes": "Born 2026-05-21. First photographed within hours of birth (umbilical cord still attached).",
-      "pen": "Pen 4",
+      "status_date": "2026-04-25",
+      "status_notes": "Moved from Pen 5 to Pen 1 on 2026-04-25.",
+      "pen": "Pen 1",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -12069,8 +12767,121 @@
         "vaccinations": [],
         "notes": [
           {
-            "source": "owner photo 2026-05-21",
-            "note": "Newborn lamb photographed today. Mom present, nursing. Appears healthy."
+            "date": "2026-04-26",
+            "note": "Owner: '00113 has been very parasite resistant. just a terrible mother.' Strong parasite resistance phenotype — KEEP for breeding-program parasite-resistance line. Mothering ability is the limiting trait, not health."
+          }
+        ]
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "tag-00113-singleton-2026"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [],
+        "owner_verbal": "2026-04-26 photo session — 'middle ewe = full sister of the ram in pen 1, cracker/gcn/suffolk/katahdin'."
+      },
+      "notes": "NEW RECORD 2026-04-26 (added from Pen 5 photo session). Full sister of orange-tag-00110 (Pen 1 ram) and tag-114-fawn-wool — same parents (unknown), identical breed comp 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Was in Pen 5 with NoriSon (sired by Sir Loin × Nori; sold at auction 2026-04-26). Had a singleton ram-or-ewe lamb born 2026-04-22 sired by NoriSon — lamb died 2026-04-25 of failure to thrive (3-day life). Owner: '00113 was a bad mom.' Moved to Pen 1 on 2026-04-25. No tag observed in photos beyond '00113' identification by owner; no FAMACHA history yet. HEALTH NOTE 2026-04-26: Owner confirmed very strong parasite resistance — kept on no weak-resistance list. Mothering ability is the weak trait (FTT singleton 4-22 to 4-25). Consider as a parasite-resistance breeder but watch lambing closely / consider lamb-supervision. FULL SIBLINGS (owner-confirmed 2026-04-26): orange-tag-00110 (Pen 1 ram) + tag-00113-ewe-p1 + tag-114-fawn-wool. All three share the same parents (unknown) and identical breed composition 50%Cr/25%Suffolk/12.5%GCN/12.5%K. Different phenotype expression: orange tag = ram (white body, orange tag); 00113 = ewe (cream wool body, BLACK FACE from Suffolk); tag 114 = ewe (fawn wool body).",
+      "confidence": "high",
+      "last_verified": "2026-04-26",
+      "visual_id": {
+        "coat": "Heavy wool fleece, cream/light body",
+        "face": "Black face (Suffolk dominance)",
+        "legs": "Black legs",
+        "frame": "Large — biggest ewe in the 2026-04-26 Pen 5 photos",
+        "tag": "00113 (per owner; not directly visible in photos)",
+        "distinguishes_from": {
+          "orange-tag-00110": "Same breed comp & frame — but ram (orange tag, in Pen 1). 00113 is ewe, recently moved to Pen 1.",
+          "tag-114-fawn-wool": "Full sister, same parents. Tag 114 is FAWN-colored wool, has black ram lamb. 00113 has cream wool with black face/legs.",
+          "oav-2222": "OAV is hair-coat, slick (100% Katahdin); 00113 is heavy wool with black face."
+        }
+      },
+      "notes_history": [
+        {
+          "date": "2026-04-26",
+          "note": "Record created from Pen 5 photo session. Owner confirmed identity, breed comp, lamb history, and 4/25 move to Pen 1."
+        },
+        {
+          "date": "2026-04-26",
+          "note": "Owner: very parasite resistant, terrible mother."
+        },
+        {
+          "date": "2026-04-26",
+          "note": "Full-sibling relationship recorded. Siblings: orange-tag-00110, tag-114-fawn-wool. Owner verbal: 'Pen 1 Ram is something different [from Kaladin]. Full sister/sibling to 00113.'"
+        }
+      ],
+      "relations": {
+        "full_siblings": [
+          "orange-tag-00110",
+          "tag-114-fawn-wool"
+        ]
+      },
+      "photo_evaluation_2026_04_26": {
+        "date": "2026-04-26",
+        "source": "Pen 5 photo set, 2 images, owner-supplied 2026-04-26",
+        "photo_position": "Right-foreground of photo 1 (broadside profile, head turned left); center of photo 2 (three-quarter view, head turned toward camera, ear flicking).",
+        "body_condition": "Visibly GOOD body condition — well-rounded barrel and rump, no spine or hip bones visible through the fleece, good fill behind the shoulder. Not thin. Just lambed (singleton 4-22) and lost the lamb 4-25; body has carried through that stress without visible loss.",
+        "coat": "HEAVY uniform wool fleece — long staple, dense, ready for shearing. Cream/light-tan body wool reads warm in the evening light but is consistent with the cream-with-Suffolk-influence phenotype expected from 50%Cr/25%Su/12.5%GCN/12.5%K. No bare patches, no obvious wool break.",
+        "head_face": "SOLID BLACK FACE (Suffolk dominance over Cracker/GCN/Katahdin). Sharp boundary at the throat between black face and cream body wool. BLACK LEGS to the knees/hocks. Eyes appear alert in photo 2; cannot read FAMACHA from photo distance, but no obvious eye discharge or droop. Ears responsive (one back in photo 2).",
+        "behavior": "Standing close to the dead/dying lamb in both frames but NOT actively nursing or grooming it in either photo — consistent with owner's 'bad mom' assessment. Calm, not flighty, looks at the camera in photo 2 without retreating.",
+        "parasite_indicator_observations": "Coat is full and uniform; no rough/staring fleece, no dag visible at this distance, body condition holds well post-lambing — externally consistent with the owner's verbal confirmation of strong parasite resistance.",
+        "limitations": "Photos taken in low-angle morning/evening sun (long shadows visible on sandy ground); body color reads warmer than midday truth. No close-up shots, so FAMACHA scoring, weight, and detailed health assessment are NOT possible from these images — only standoff phenotype and gross body-condition cues. Heavy wool obscures much of the body — true body condition can only be verified by hand-feel at shearing. No FAMACHA possible.",
+        "concerns": "Mothering behavior visibly absent in the photos (no nursing posture, no head-down attendance to lamb). Consistent with owner report of FTT singleton — supervise next lambing closely or consider as a non-mothering breeder (donor for parasite-resistance line, lambs fostered to a known good mother).",
+        "next_actions": [
+          "SHEAR — fleece is heavy and ready.",
+          "FAMACHA baseline at shearing.",
+          "If bred again: schedule lambing supervision and have a foster dam ready.",
+          "Consider as a parasite-resistance donor in breeding plans (her health, not her mothering, is the kept trait)."
+        ],
+        "evaluator": "Claude (visual ID pass 2026-04-26, owner-confirmed positions)"
+      }
+    },
+    {
+      "id": "tag-00113-singleton-2026",
+      "name": "00113's Singleton (deceased)",
+      "aliases": [],
+      "tag": null,
+      "secondary_tags": [],
+      "mc_tag": null,
+      "sex": "unknown",
+      "breed_composition": {
+        "primary": "[Cracker/Suffolk/GCN/Katahdin × Sir Loin/Nori]",
+        "percentages": {
+          "Cracker": 25,
+          "Suffolk": 12.5,
+          "Gulf Coast Native": 6.25,
+          "Katahdin": 12.5,
+          "St Augustine": 18.75,
+          "American Blackbelly": 12.5,
+          "Wiltshire Horn": 12.5
+        },
+        "notes": "Half from 00113 (50Cr/25Su/12.5GCN/12.5K), half from NoriSon (25ABB/12.5K/37.5SA/25WH).",
+        "coat_type": "mixed"
+      },
+      "color_markings": "Brown body — visible in 2026-04-26 Pen 5 photos as a small brown lamb at the bucket/feeder.",
+      "weight_lbs": null,
+      "dob": "2026-04-22",
+      "dob_approximate": false,
+      "sire_id": "nori-son",
+      "dam_id": "tag-00113-ewe-p1",
+      "status": "deceased",
+      "status_date": "2026-04-25",
+      "status_notes": "Died 2026-04-25 of failure to thrive (3-day life). Owner: '00113 was a bad mom.'",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": [
+          {
+            "note": "Failure to thrive. Life 2026-04-22 to 2026-04-25 (3 days)."
           }
         ]
       },
@@ -12082,20 +12893,248 @@
       },
       "source_refs": {
         "csv_row": null,
-        "notebook_image": []
+        "notebook_image": [],
+        "owner_verbal": "2026-04-26 photo session — 'lamb in the foreground is her lamb (now deceased, failure to thrive) with NoriSon. born 4/22, deceased yesterday 4/25.'"
       },
-      "notes": "Born 2026-05-21 (today). Daughter of Lara (BHD) × Kelsier (Katahdin, NSIP). Piebald hair lamb — black face/legs, white body with black patches. Photographed within hours of birth — umbilical cord still attached. Pen 4. PENDING: tag assignment, birth weight, lamb health check. Watch for inherited parasite resistance — Kelsier sire is the gold standard, but dam Lara is on the weak resistance list.",
+      "notes": "Singleton lamb of 00113 by NoriSon. Born 2026-04-22, died 2026-04-25 — failure to thrive. Brown body. Sex not determined. Visible in 2026-04-26 Pen 5 photos before death (foreground, near bucket, both photos).",
       "confidence": "high",
-      "last_verified": "2026-05-21",
-      "visual_id": {
-        "face": "Solid black face with a white blaze on the crown between the ears",
-        "coat": "Hair (slick), predominantly white body with distinct black patches; black legs ending in white feet/socks",
-        "size": "Newborn — record birth weight at next handling",
-        "distinguishes_from": {
-          "serendipity-twin-ewe": "Both have black markings, but Lara's lamb is PIEBALD (white-dominant with black patches); MC2607 is mostly BLACK. Lara's lamb is also a newborn (May 21) vs. MC2607 born Dec 2025.",
-          "gigi-2026-baby": "Multi-color, but Gigi's daughter is older (born Jan 10) and near adult size; Lara's lamb is brand new and small."
-        }
+      "last_verified": "2026-04-26",
+      "photo_evaluation_2026_04_26": {
+        "date": "2026-04-26",
+        "source": "Pen 5 photo set, 2 images, owner-supplied 2026-04-26 (lamb visibly alive in photos; died 2026-04-25 per owner)",
+        "photo_position": "Foreground of both photos, near a black plastic bucket/water container at the front of the pen.",
+        "body_condition": "SMALL frame visible. Standing upright on its own, head up, but isolated from the dam (00113 is several body-lengths away in both frames, not nursing him). 1-3 days old at the time of these photos. Cannot estimate weight or pre-FTT body condition score reliably from a standoff shot — but the visible isolation from the dam is itself a flag for the FTT outcome the owner reported.",
+        "coat": "Solid brown body — a darker brown than either parent's primary color. Brown is plausible from the recessive expression of the parental Cracker/Suffolk × ABB/Wiltshire/Katahdin/SA mix. Coat looks short/young (neonatal lamb fleece).",
+        "head_face": "Brown head, no obvious distinguishing markings visible at this distance.",
+        "behavior_in_photos": "Photo 1: standing alone at the bucket on the LEFT side of the pen while the ewes and ram are on the right/back of the frame. Photo 2: still at the bucket area, dam (00113) standing nearby but looking AT the camera, not at him. NEITHER photo shows nursing behavior, dam-grooming, or lamb-following posture. This visual pattern is consistent with the FTT outcome and the owner's '00113 was a bad mom' assessment.",
+        "limitations": "Photos taken in low-angle morning/evening sun (long shadows visible on sandy ground); body color reads warmer than midday truth. No close-up shots, so FAMACHA scoring, weight, and detailed health assessment are NOT possible from these images — only standoff phenotype and gross body-condition cues. Lamb is small and partially backlit; cannot evaluate eye color, umbilical condition, or nursing reflex from images. Cause of death is owner-reported (failure to thrive), not visually confirmed.",
+        "concerns": "DECEASED 2026-04-25. Photographic record of his short life serves as documentation for the dam's mothering trait.",
+        "next_actions": [
+          "Record retained — no further action for the lamb.",
+          "Use this case as input for the breeding-plan review on whether to re-breed 00113 (parasite-resistance benefit vs mothering risk)."
+        ],
+        "evaluator": "Claude (visual ID pass 2026-04-26, owner-confirmed positions)"
       }
+    },
+    {
+      "id": "cocoa",
+      "name": "Cocoa",
+      "sex": "ewe",
+      "tag": null,
+      "sire_id": "smore",
+      "dam_id": "half-tail",
+      "twin_of": "merrie",
+      "status": "alive",
+      "pen": null,
+      "confidence": "medium",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Created from owner pedigree statement: Merrieweather and Cocoa are twins (sire=Smore, dam=Half-Tail). Status unknown — owner clarification needed (alive/sold/deceased)."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Alive — arrived today. Has milk. May be pregnant by Loki or Dodge. Pen TBD owner confirmation."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
+        }
+      ],
+      "owner": "Danny",
+      "on_property": false
+    },
+    {
+      "id": "daisy-of-sugar",
+      "name": "Daisy (of Sugar)",
+      "sex": "ewe",
+      "tag": null,
+      "sire_id": "sir-loin",
+      "dam_id": "sugar",
+      "status": "alive",
+      "pen": null,
+      "confidence": "medium",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "DISAMBIGUATION: Owner clarified this is a DIFFERENT Daisy from the existing DB Daisys (those have dam=half-tail or dam=anna). This Daisy is sire=Sir Loin, dam=Sugar. Mother of Loki by Dodge."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Not brought home today; remains off-property."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
+        }
+      ],
+      "on_property": false,
+      "owner": "Danny"
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "sex": "ram",
+      "tag": null,
+      "sire_id": "dodge",
+      "dam_id": "daisy-of-sugar",
+      "status": "alive",
+      "pen": null,
+      "confidence": "medium",
+      "inbreeding_coefficient": 0.125,
+      "inbreeding_notes": "Sir Loin appears in both sire and dam line: sire Dodge's sire = Sir Loin; dam Daisy-of-Sugar's sire = Sir Loin. Half-sibling-via-sire mating produced Loki. F = (1/2)^3 = 0.125 (12.5%) from Sir Loin double-up.",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Created from owner pedigree statement: Loki = Dodge × Daisy. Sired by Dodge (Sir Loin × Broken Tail) out of Daisy (Sir Loin × Sugar). Inbred via Sir Loin double-up."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Not brought home today; remains off-property."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "OWNERSHIP: This animal belongs to Danny (customer / friend, off-property). Not part of Manatee Creek breeding program inventory. Tracked here only for pedigree of cocoas-daughter-by-loki who IS on our property."
+        }
+      ],
+      "on_property": false,
+      "owner": "Danny"
+    },
+    {
+      "id": "cocoas-daughter-by-loki",
+      "name": "Cocoa's Daughter (by Loki)",
+      "sex": "ewe",
+      "tag": null,
+      "sire_id": "loki",
+      "dam_id": "cocoa",
+      "status": "alive",
+      "pen": "Pen 3",
+      "confidence": "medium",
+      "description": "Cream/white hair coat ewe. Smooth shed appearance (NOT wool-felted). Photographed 2026-04-22 in IMG_0679.JPG.",
+      "photos": [
+        "IMG_0679.JPG"
+      ],
+      "inbreeding_coefficient": 0.031,
+      "inbreeding_notes": "F = 0.031 (3.1%) via Half-Tail double-up. Half-Tail appears as: (1) maternal grandmother through Cocoa, and (2) paternal great-great-grandmother through Broken Tail (mother of Dodge, who sires Loki). Sire Loki ALSO carries Sir Loin double-up (F=0.125 internally) but Sir Loin doesn't recur on niece's dam side, so Sir Loin doesn't contribute to NIECE's COI directly.",
+      "notes_history": [
+        {
+          "date": "2026-04-22",
+          "note": "Owner pedigree statement: 'Niece from Loki and Cocoa. Cocoa is Merrie's twin sister.' So her uncle is Merrieweather. Owner shared photo IMG_0679 — she's a young hair-coat ewe. Pen + tag + DOB + name TBD from owner."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "DOB September 2025 per owner ('she was born in September I believe'). Day unspecified; year inferred from her ~7-month-old appearance in IMG_0679. Marked dob_confidence=low until owner confirms."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Pen 3 confirmed (with Merrieweather and Charlie). No tag yet."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Cleared up: Cocoa belongs to friend Danny. Niece is on our property in Pen 3 with uncle Merrieweather and Charlie. Niece is the only animal in this pedigree branch on Manatee Creek."
+        },
+        {
+          "date": "2026-04-22",
+          "note": "Owner-supplied on-property pedigree resistance data: Merrie pretty good, Sir Loin great, Broken Tail great. Lean-optimistic resistance genetics. Coat observed as intermediate-to-wool-leaning up close (smooth from distance). Built compactly, no conformation faults from photo. Transplant-environment watch protocol set: weekly FAMACHA + day 30/60 FEC, no advancement past Stage 1 until full wet-season here clears."
+        }
+      ],
+      "dob": "2025-09",
+      "dob_confidence": "low",
+      "on_property": true,
+      "coat_observed": "intermediate-to-wool-leaning (per owner 2026-04-22 close inspection: smooth from distance, wool texture up close; consistent with dam-side Half-Tail/Cracker/St Augustine load)",
+      "coat_confidence": "medium — true coat type confirmed only after first peak-summer shed (July-August 2026)",
+      "pedigree_resistance_assessment": {
+        "date": "2026-04-22",
+        "on_property_data": {
+          "merrieweather (uncle, full sib of dam)": "pretty good — DB FAMACHA avg 1.31, max 1.5",
+          "sir-loin (paternal great-grandfather, doubled)": "great per owner — foundation ram",
+          "broken-tail (paternal great-grandmother)": "great — DB FAMACHA avg 1.33, twin producer",
+          "half-tail (grandmother + great-great-grandmother)": "implied solid — Broken Tail and Merrieweather descend from her"
+        },
+        "verdict": "Lean optimistic on resistance genetics. NOT confirmed — needs one full Manatee Creek wet-season cycle before advancement past Stage 1.",
+        "caveat": "Born + raised at Danny's lighter-pressure environment until 2026-04-22. Per owner observation, 'a few times bringing his sheep here they have struggled' — transplant-environment effect can mask true resistance. Watch protocol applies."
+      },
+      "transplant_watch_protocol": {
+        "set_on": "2026-04-22",
+        "set_by": "owner directive (Danny-source watch)",
+        "rules": [
+          "FAMACHA weekly for first 60-90 days (not monthly)",
+          "FEC at day 30 and day 60 if vet-affordable (~$5-10 each)",
+          "No Stage 2 promotion until at least one full Manatee Creek wet-season (summer 2026) clears",
+          "Do not breed in fall 2026 if struggling at peak parasite season",
+          "FAMACHA 4+ in first 60 days = treat AND flag; recurrence after treatment = downgrade to Pen 4 watch"
+        ]
+      },
+      "advancement_ceiling_estimate": "Stage 3-4 (Pen 5 production / Pen 6 proven). Wool-leaning coat blocks Stage 5+ elite placement under Pipeline v5 selection hierarchy (FAMACHA > Hair > Breed > Meat)."
+    },
+    {
+      "id": "oav-2222-lamb-1",
+      "name": "OAV 2222 Lamb 1 (White-Rust)",
+      "sex": "ewe_lamb",
+      "tag": null,
+      "sire_id": "nori-son",
+      "dam_id": "oav-2222",
+      "dob": "2026-04-30",
+      "dob_confidence": "medium",
+      "status": "alive",
+      "pen": "Pen 5",
+      "description": "White with rust. No distinguishing mark. Hair coat (per owner observation).",
+      "coat_observed": "hair (per owner observation 2026-05-02)",
+      "confidence": "medium",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-05-02",
+            "score": "1",
+            "notes": "Healthy at 2-3 days old per owner. Good FAMACHA.",
+            "source": "owner verbal"
+          }
+        ],
+        "vaccinations": [],
+        "treatments": [],
+        "notes": []
+      },
+      "notes_history": [
+        {
+          "date": "2026-05-02",
+          "note": "Reinstated. Prior session deleted oav-2222-lamb-1/2 records on 2026-04-26 based on then-correct 'OAV had no twins this year' read. She lambed 4-30, AFTER that snapshot. Owner reports hair-coat phenotype on both lambs → sire most likely NoriSon (=Eclipse merged record), not MC08. Eclipse settled her right before his 4-26-26 auction — his 'subfertile' record was actually 3 of 5+ ewes, not 1 of 6."
+        }
+      ]
+    },
+    {
+      "id": "oav-2222-lamb-2",
+      "name": "OAV 2222 Lamb 2 (White-Rust + Black Dot)",
+      "sex": "ewe_lamb",
+      "tag": null,
+      "sire_id": "nori-son",
+      "dam_id": "oav-2222",
+      "dob": "2026-04-30",
+      "dob_confidence": "medium",
+      "status": "alive",
+      "pen": "Pen 5",
+      "description": "White with rust. SMALL BLACK DOT (distinguishing mark from her twin sister). Hair coat.",
+      "coat_observed": "hair (per owner observation 2026-05-02)",
+      "confidence": "medium",
+      "health": {
+        "famacha_history": [
+          {
+            "date": "2026-05-02",
+            "score": "1",
+            "notes": "Healthy at 2-3 days old per owner. Good FAMACHA.",
+            "source": "owner verbal"
+          }
+        ],
+        "vaccinations": [],
+        "treatments": [],
+        "notes": []
+      },
+      "twin_of": "oav-2222-lamb-1",
+      "notes_history": [
+        {
+          "date": "2026-05-02",
+          "note": "Reinstated with twin sister oav-2222-lamb-1. Identifying mark: small black dot. Same parents and DOB."
+        }
+      ]
     }
   ],
   "pens": {
@@ -12106,7 +13145,8 @@
         "azure",
         "tag-0033-hair-ewe",
         "tag-0044-wool-ewe",
-        "tag-114-fawn-wool"
+        "tag-114-fawn-wool",
+        "tag-00113-ewe-p1"
       ],
       "lambs": [
         "charlies-ram-lamb",
@@ -12115,7 +13155,7 @@
         "tag-0033-twin-ram-2",
         "tag-114-black-ram-lamb"
       ],
-      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total.",
+      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total. UPDATE 2026-04-26: tag 00113 ewe added — moved from Pen 5 on 2026-04-25 (full sister of orange-tag-00110, same farm/litter as tag-114-fawn-wool). NEW record added to DB.",
       "treatments": [
         {
           "date_start": "2026-02-11",
@@ -12153,11 +13193,42 @@
     },
     "pen_2": {
       "ram": "rocky",
-      "ewes": [
-        "nuba-0053"
-      ],
+      "ewes": [],
       "lambs": [],
-      "notes": "Pen 2 as of April 2026. Rocky (Jerkface/Butthead, tag 140) is the ram. Nuba (tag 0053, white hair ewe, possibly pregnant). Tag 114 fawn wool ewe was here but moved to Pen 1 with newborn. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 3 need shearing. Eyes to be checked again soon. Source: notebook cards with circled 2."
+      "unidentified": [
+        {
+          "observed": "2026-04-24",
+          "phenotype": "Adult ewe, clean WHITE face with PINK nose, cream/off-white wool body, medium-small frame, no visible horns, needs shearing",
+          "pen_context": "Pen 2 photo set (3 images, 2026-04-24) shows this ewe beside Rocky. Owner does not currently know her identity — ruled out 0053. Pink nose suggests spot gene in her coloration (owner note).",
+          "confidence": "low",
+          "next_step": "Eyeball ear tag at next pen handling; compare against Pen 1 roster (tag-0044-wool-ewe has no color description on record) and any ewes whose pen is unassigned.",
+          "plan_rebuild_evaluation": {
+            "date_evaluated": "2026-04-24",
+            "status": "HOLD — identity unknown, full evaluation deferred",
+            "photo_visible_only": {
+              "breeding_soundness": "Ambulatory, standing normally in 3 photos, calm near Rocky, no obvious lameness or injury. Adult ewe frame — sexually mature. Cannot assess fertility history until identified.",
+              "conformation": "Medium-small frame, upright ears, clean white legs. Body condition OBSCURED by heavy unshorn wool — BCS cannot be scored reliably. Needs shearing before any weight/condition assessment.",
+              "health_parasite": "Cannot assess. No FAMACHA history retrievable without identity. Visible eye color / mucous-membrane color not assessable from photos at this range.",
+              "meat_potential": "Cannot assess without breed composition. Medium frame visually does not suggest a heavy meat phenotype (unlike Rocky).",
+              "milk_potential": "Cannot assess without pedigree.",
+              "wool_management_burden": "POOR for hair-coat goal — clearly wool, needs shearing. Same wool burden as Rocky. If her genetics feed into the flock, her wool is heritable.",
+              "hybrid_vigor": "Cannot assess without breed composition.",
+              "spot_gene": "Owner observation (2026-04-24): pink nose indicates spot-coloration gene carrier. Mild genetic-diversity positive but not a trait we actively select for."
+            },
+            "plan_recommendation": {
+              "verdict": "DO NOT include in any rebuilt plan until identified.",
+              "reasoning": "Unknown pedigree, unknown parasite history, unknown age. Any breeding recommendation would violate non-negotiable rule 2 ('NEVER invent data') and priority #1 (parasite resistance — which cannot be verified without FAMACHA history). She's also currently penned with a ram (Rocky) — if she conceives before ID, her lamb's sire will be known but her own lineage will still be unresolved.",
+              "immediate_action": "Tag-check at next handling. If no ear tag, consider a new MC-series tag + new sheep record. Pull any notebook cards referencing a white-faced pink-nosed wool ewe that don't match an already-identified animal."
+            },
+            "open_questions_for_owner": [
+              "When will she be in handling chute next? (Dictates resolution timeline.)",
+              "Any recent notebook cards from Pen 2 that mention a ewe other than 0053?",
+              "Did any Pen-1 or Pen-4 roster animal get moved to Pen 2 recently?"
+            ]
+          }
+        }
+      ],
+      "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references 'Nuba (tag 0053, white hair ewe)' — 'Nuba' was a Claude transcription error off the tag number, not a real name. STALE RECORDS TO AUDIT: windlestone-kat-dorper.pen still reads Pen 2 but he is not in the 2026-04-24 photos; elsie.pen corrected from Pen 2 to Pen 5 per owner 2026-04-24. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 2 currently need shearing (both visible animals are shaggy). Source: notebook cards with circled 2 + owner photo ID 2026-04-24."
     },
     "pen_3": {
       "ram": "charlie-ram",
@@ -12172,10 +13243,9 @@
       "lambs": [
         "charlies-farm-ewe-baby-p3",
         "broken-tail-twin-ewe",
-        "broken-tail-twin-ewe-2",
         "nori-baby-p3"
       ],
-      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) — 5 adults yearly, 4 babies 1st dose. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3.",
+      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) — 5 adults yearly, 4 babies 1st dose. White twin MC-2601 deceased 2026-04-22 (parasites) — 3 surviving lambs as of 2026-04-26. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3. | 2026-04-22 update: Merrieweather moved out to Pen 4. Charlie now SOLE sire of Pen 3 — every 2026/27 Pen 3 lamb is unambiguously his.",
       "treatments": [
         {
           "date_start": "2026-02-27",
@@ -12203,10 +13273,11 @@
           "observation": "Hair sheep — no wool in this pen",
           "source": "IMG_0660"
         }
-      ]
+      ],
+      "secondary_rams": []
     },
     "pen_4": {
-      "ram": "gigi-2025-ram",
+      "ram": "merrie",
       "ewes": [
         "gg",
         "lara",
@@ -12223,7 +13294,7 @@
         "fm2-ram-lamb",
         "lara-2026-lamb"
       ],
-      "notes": "Pen 4 — monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility — even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4.",
+      "notes": "Pen 4 — monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility — even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4. | 2026-04-22 reframe: Pen 4 is the weak/pet/chronic pen, NOT a no-breeding pen. Merrieweather added as Pen 4 sire. Role: (a) progeny-test on weak ewes for Merrie's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed — Merrie has the breeding role.",
       "treatments": [
         {
           "date_start": "2026-02-21",
@@ -12248,16 +13319,19 @@
       ]
     },
     "pen_5": {
-      "ram": "eclipse",
+      "ram": "angus",
       "ewes": [
         "tag-31-ewe-p5",
         "tag-02-ewe-p5",
         "fawn-wool-ewe-p5",
         "oav-2222",
-        "little-daisy"
+        "little-daisy",
+        "elsie"
       ],
-      "lambs": [],
-      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week — watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal.",
+      "lambs": [
+        "elsie-triplet-lg-white-ewe"
+      ],
+      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE — only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week — watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet going to auction Sunday 2026-04-26 (alive, not in a pen roster currently). Angus presence noted — ram/roster role in Pen 5 needs owner clarification (not updated here). UPDATE 2026-04-26 (owner verbal photo session): NoriSon (= Eclipse, merged record) sold at auction. Angus (Windlestone, ~4 mo, arrived 2026-04-22) is now the breeding ram. Tag 00113 ewe (Cracker/Suffolk/GCN/Katahdin, full sister of orange-tag-00110) — was previously in Pen 5 unrostered, had a singleton lamb 2026-04-22 by NoriSon that died 2026-04-25 (FTT); 00113 herself moved to Pen 1 on 2026-04-25. Small Elsie triplet (elsie-triplet-sm-white-ewe) sold at auction 2026-04-26. tag-0033-twin-ram-2 (black ram, dam tag-0033-hair-ewe) also sold at auction 2026-04-26 (he was in Pen 1). NoriSon's track record per owner: 'consistently hit or miss, in with 5 ewes for two years or so — only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor.'",
       "treatments": [
         {
           "date_start": "2026-03-08",
@@ -12298,16 +13372,12 @@
     "pen_6": {
       "ram": "mc08-ram",
       "ewes": [
-        "elsie",
         "windlestone-2139",
         "windlestone-0056",
         "windlestone-0055"
       ],
-      "lambs": [
-        "elsie-triplet-lg-white-ewe",
-        "elsie-triplet-sm-white-ewe"
-      ],
-      "notes": "Pen 6 as of April 2026. MC08 (ram, fawn wool, yellow tag). Elsie (triplets by Eclipse — black ram gifted, 2 white ewe lambs remain). 3 Windlestone fat tail Awassi ewes (2139, 0056, 0055) — no babies. OAV 2222 was here for months but back in Pen 5. Corid 2-13 to 2-17-26. Covexin 8 3-13-26. 1 wool + 3 fat tails need shearing. Source: notebook cards pen 6.",
+      "lambs": [],
+      "notes": "Pen 6 as of 2026-04-24 (owner-verified via photo session). Ram MC08 (fawn wool, yellow tag, polled) + 3 Windlestone fat-tail Awassi ewes (2139 big-horns, 0056 med-horns, 0055 small-horns + dark legs). CORRECTED 2026-04-24: Elsie and lg triplet (MC-2618) moved to Pen 5 with Angus; sm white triplet going to auction Sunday 2026-04-26 (not deceased — earlier commit had that wrong). Pen 6 roster now 4 animals (was 7). OAV 2222 already back in Pen 5 (prior correction). 1 wool (MC08) + 3 fat-tails need shearing. Source: notebook cards pen 6 + owner verbal 2026-04-24. UPDATE 2026-04-26: elsie-triplet-sm-white-ewe sold at auction (was 'going to auction Sunday 2026-04-26'). Confirmed by owner.",
       "census_snapshots": [
         {
           "source": "IMG_0616",
@@ -12321,6 +13391,18 @@
             "0055 fat-tail",
             "2 white #10 (unclear)"
           ]
+        },
+        {
+          "source": "IMG_2026-04-24 pen-6 photo session",
+          "as_of_approx": "2026-04-24",
+          "count_verified": 4,
+          "animals_identified": [
+            "mc08-ram (head-on + side profile, HIGH confidence, owner-confirmed)",
+            "windlestone-2139 (lying down, biggest horns, MEDIUM-HIGH, owner-confirmed)",
+            "windlestone-0056 (standing, curled horns, orange/pink tag visible, owner-confirmed)",
+            "windlestone-0055 (dark brown legs, HIGH — dark legs are unique tell, owner-confirmed)"
+          ],
+          "notes": "Group shot photo shows ~4 animals near hay, consistent with 4-animal roster."
         }
       ],
       "treatments": [
@@ -12525,24 +13607,6 @@
       "pen": ""
     },
     {
-      "date": "2026-02-07",
-      "dam": "Daisy's Daughter 2",
-      "sire": "NoriSon",
-      "lambs_born": 1,
-      "lambs_alive": 1,
-      "notes": "Sire confirmed by owner (NoriSon was pen 5 ram).",
-      "pen": "Pen 5"
-    },
-    {
-      "date": "2026-02-10",
-      "dam": "OAV 2222",
-      "sire": "NoriSon",
-      "lambs_born": 2,
-      "lambs_alive": 2,
-      "notes": "Twins. Sire confirmed by owner (NoriSon was pen 5 ram).",
-      "pen": "Pen 5"
-    },
-    {
       "date": "2026-02-13",
       "dam": "Tag 31",
       "sire": "[UNCLEAR]",
@@ -12550,6 +13614,32 @@
       "lambs_alive": 1,
       "notes": "FM",
       "pen": ""
+    },
+    {
+      "date": "2026-04-22",
+      "dam": "00113",
+      "dam_id": "tag-00113-ewe-p1",
+      "sire": "NoriSon",
+      "sire_id": "nori-son",
+      "lambs_born": 1,
+      "lambs_alive": 0,
+      "pen": "Pen 5",
+      "notes": "Singleton, sex unknown. Lamb died 2026-04-25 of failure to thrive (3-day life). Owner: '00113 was a bad mom.' Owner verbal 2026-04-26."
+    },
+    {
+      "date": "2026-04-30",
+      "date_confidence": "medium (late Wed 4-30 or early Thu 5-1 per owner)",
+      "dam_id": "oav-2222",
+      "sire_id": "nori-son",
+      "sire_attribution_method": "Coat-based: lambs are hair-coat type → consistent with NoriSon/Eclipse (100% hair) sire. Gestation back-calc puts conception ~Dec 2025; OAV 2222's pen history overlapped both Pen 5 (NoriSon) and Pen 6 (MC08, Awassi-type) during that window. Owner's coat reading favors NoriSon.",
+      "lambs": [
+        "oav-2222-lamb-1",
+        "oav-2222-lamb-2"
+      ],
+      "lamb_count": 2,
+      "lamb_sex": "both ewes",
+      "pen_at_lambing": "Pen 5",
+      "notes": "Both healthy at birth, good FAMACHA. White with rust; one has a small black dot."
     }
   ],
   "breed_reference": {
@@ -12640,7 +13730,25 @@
       "Cracker coat type is VARIABLE per individual — Merrie sheds, 00110 does not. Cannot classify per breed.",
       "Every animal currently alive has survived Florida parasite pressure. That survival IS the genetics that work.",
       "Buying outside genetics is HIGH RISK. Even 'resistant' breeds die here. Safest investment is what's already proven on this land.",
-      "Spring 2026 is an extreme drought. Animals scoring FAMACHA 4-5 during DRY season (lowest parasite pressure) will be catastrophically worse when rains return. Dry-season FAMACHA failures are the strongest cull signal."
+      "Spring 2026 is an extreme drought. Animals scoring FAMACHA 4-5 during DRY season (lowest parasite pressure) will be catastrophically worse when rains return. Dry-season FAMACHA failures are the strongest cull signal.",
+      {
+        "date": "2026-05-13",
+        "lesson": "Spring 2026 drought cull list (Phase 2 close-out)",
+        "detail": "Drought-season FAMACHA audit identified 5 living animals scoring FAMACHA 5 in the last 60 days plus 4 additional weak-resistance adults to watch. Recommendation document at data/2026_drought_cull_list.md. Pattern: Kelsier-sired Serendipity twins both failed (sire 'gold standard' + susceptible-dam = susceptible lambs) — confirms dam genetics dominate parasite vulnerability in this flock. GG's 3rd emergency in the cohort closes the case for culling her despite owner-skill keeping her alive.",
+        "source": "2026-05-13 audit (flock-validation skill + breeding_policy.selection_hierarchy rank 1)"
+      },
+      {
+        "date": "2026-04-22",
+        "lesson": "Transplant-environment caveat",
+        "detail": "Untreated-at-source-farm survival is a positive but ambiguous signal. Survivorship bias (animals that died untreated were not measured) and lower-pressure microenvironments can both inflate apparent resistance. Owner observation: animals brought to Manatee Creek from Danny's place (no-treatment philosophy) have sometimes struggled here. Rule: discount external 'never-treated' resistance claims by ~30-40% until one full Manatee Creek wet-season cycle establishes on-property data. Apply transplant-watch protocol (weekly FAMACHA + day 30/60 FEC + no early advancement) to all newly-arrived purchased or transferred animals from any external source.",
+        "source": "owner verbal 2026-04-22, prompted by Cocoa's Daughter (Loki × Cocoa) arrival evaluation"
+      },
+      {
+        "date": "2026-04-22",
+        "lesson": "Pen 4 reframe — weak pen breeds too",
+        "detail": "Earlier v5 spec called Pen 4 'off the breeding pipeline.' Owner correction: every ewe is a lamb-producing revenue asset, even pets and weak-resistance animals. Auction lambs are ~\\$300/head. Pen 4 has its own sire (Merrieweather, moved 2026-04-22 from Pen 3). Merrieweather's progeny across Pen 4 weak ewes serves as a multi-pen progeny test for his own resistance heritability — passes = upgrade ram, fails = sell ram. Sole sire in Pen 3 (Charlie) clarifies paternity. No biosecurity loss because Merrieweather is being TESTED not protected.",
+        "source": "owner verbal 2026-04-22, response to my Pen 4-as-quarantine framing"
+      }
     ],
     "pipeline": {
       "version": "3.0.0",
@@ -12856,7 +13964,196 @@
         "Gigi + FM pet placement — dedicated pet pen or co-mingled with Pen 4 Stage 3 breeders"
       ],
       "source_doc": "data/investigations/2026-04-22_pipeline_v4.md"
-    }
+    },
+    "pipeline_v5": {
+      "version": "v5",
+      "adopted": "2026-04-22",
+      "supersedes": "v4",
+      "supersedes_reason": "v4 placed Pen 4 as a breeding stage; owner clarified Pen 4 is infirmary/pet/demotion pen (closest to supplies). v4 also had wrong geography flow.",
+      "shape": "1 intake + 6 breeding stages + 1 infirmary = 8 pens",
+      "flow_advancement": [
+        "Goose Pen (quarantine, purchased only)",
+        "Pen 3 (Stage 1 intake, home-born lambs enter here)",
+        "Pen 5 (Stage 2 production)",
+        "Pen 6 (Stage 3 proven)",
+        "Tree Fort (Stage 4 advanced)",
+        "Pen 1 (Stage 5 pre-elite)",
+        "Pen 2 (Stage 6 elite)"
+      ],
+      "pen_4_role": "INFIRMARY + PETS + LINE-TEST + DEMOTIONS. Closest to meds/feed/supplies. OFF the advancement pipeline. Animals enter when they flunk a stage or need treatment. Exit to prior stage on recovery, or to auction.",
+      "geography": {
+        "driveway": "east-to-west",
+        "right_side_going_west": [
+          "Goose Pen",
+          "Tree Fort",
+          "Pen 3",
+          "Pen 4",
+          "Pen 5",
+          "Pen 6"
+        ],
+        "left_side_going_west": [
+          "Pen 1 (gate directly across from Tree Fort)",
+          "Pen 2 (interior gate to Pen 1)"
+        ],
+        "interior_gate_chains": [
+          "Pen 3<->Pen 4<->Pen 5<->Pen 6",
+          "Pen 1<->Pen 2"
+        ],
+        "proximity_notes": [
+          "Goose Pen + Tree Fort closest to Pen 1",
+          "Tree Fort gate very close to Pen 3 gate"
+        ]
+      },
+      "rams_per_stage": {
+        "Goose Pen": "transient (currently Angus 2026-04-22 through 2026-05-22)",
+        "Pen 3": "Charlie (MC-20) primary, Merrieweather (00016) backup",
+        "Pen 5": "Angus (pending quarantine clearance 2026-05-22)",
+        "Pen 6": "MC08",
+        "Tree Fort": "Buck (MC-2433)",
+        "Pen 1": "00110 Orange",
+        "Pen 2": "Butthead (Windlestone Kat/Dorper) + Rocky (both, with ram-on-ram watch)",
+        "Pen 4": "No stage ram. Serendipity White Ram Twin (MC-2606) kept here for line-test only, not for breeding Pen 4 ewes."
+      },
+      "advancement_thresholds": {
+        "flock_percentiles_2026": {
+          "mean": 1.61,
+          "median": 1.5,
+          "q1": 1.33,
+          "q3": 1.5
+        },
+        "stage_1_to_2": "FAMACHA avg <=1.50, raised lamb to weaning, no FAMACHA 4+ events",
+        "stage_2_to_3": "FAMACHA avg <=1.50, twin+, 0 parasite treatments in year",
+        "stage_3_to_4": "FAMACHA avg <=1.40, twin+, no treatment 2 years",
+        "stage_4_to_5": "FAMACHA avg <=1.35, lamb weaning >= flock 60th pct, 0 tx 2 consec years",
+        "stage_5_to_6_elite": "FAMACHA avg <=1.30 (top quartile), twinning consistent, coat_observed hair, lamb weaning >=75th pct"
+      },
+      "demotion_triggers": [
+        "FAMACHA 4+ any stage",
+        "dewormer treatment",
+        "dystocia",
+        "poor mothering"
+      ],
+      "cull_triggers": [
+        "FAMACHA 5 any stage",
+        "open year stages 3+",
+        "2 consecutive demotion years",
+        "chronic condition unresponsive"
+      ],
+      "homogenization_target_profile": {
+        "target_breed_type_name": "Manatee Creek Composite",
+        "target_composition": "50-75% Katahdin + 15-25% Dorper + 10-25% Awassi + trace East Friesian",
+        "target_traits": "hair-dominant (>=75% coat-observed shed), FAMACHA avg <=1.40 flock-wide, mature ewe 60kg+, Awassi milk undertone",
+        "template_ram_type": "Angus (50/25/23/2) is nearly the template",
+        "timeline": "2026 adopt v5 -> 2027 first Angus lambs -> 2028 first granddaughters -> 2030 80% of Stage 4-6 ewes carry target genetics",
+        "measurement_required": [
+          "annual FEC",
+          "monthly FAMACHA",
+          "annual peak-shed coat score",
+          "per-ewe lamb weaning weight",
+          "BCS twice yearly"
+        ]
+      },
+      "required_moves_to_enact_v5": [
+        "Today 2026-04-22: tag-114-black-ram-lamb Goose Pen -> Tree Fort with dam Fawn Wool 114",
+        "Today 2026-04-22: Angus -> Goose Pen solo, 30d quarantine begins",
+        "2026-04-27 Mon post-auction: hair-ewe-0033 Pen 1 -> Pen 2 (promote to elite)",
+        "2026-04-27: azure Pen 1 -> Pen 2 (promote to elite)",
+        "2026-04-27: baby-azure Pen 1 -> Pen 4 (demote, recovery from 4-1 crash)",
+        "2026-04-27: broken-tail-twin-ewe Pen 3 -> Pen 4 (demote, 4-9 FAMACHA 5)",
+        "2026-04-27: little-daisy Pen 4 -> Pen 5 (promote out of infirmary)",
+        "2026-05-22: Angus exit quarantine -> Pen 5 Stage 2 ram IF clean, ELSE sell"
+      ],
+      "source_doc": "data/investigations/2026-04-22_pipeline_v5.md",
+      "adapter_failures_this_run": {
+        "grok": "429 + DNS cache overflow",
+        "gemini": "truncated response 640 chars mid-JSON; retry failures",
+        "gpt_round_robin": "DNS cache overflow",
+        "notes": "Claude played Grok adversarial role inline in source doc. Useful orchestra artifact: GPT fan-out verdict WHEAT_WITH_REFINEMENT on Claude R1 with critique \"lacks explicit ram+ewe placement per pen and does not fully address complex integration of 22 breeds into a homogenized product\" — v5 answers both."
+      }
+    },
+    "pen_4_role": {
+      "updated": "2026-04-22",
+      "role": "Weak-stock / pet / chronic / demotion pen — but NOT off-breeding. Pen 4 ewes still breed; their lambs go to auction (~$300) or earn a keeper place.",
+      "sire": "merrie (Merrieweather, MC 00016) — moved from Pen 3 sole sire role. Charlie is now sole Pen 3 sire.",
+      "logic": [
+        "Every ewe (including pets and weak ones) is a lamb-producing asset",
+        "Auction lambs are revenue (~$300/head), not waste",
+        "Sire parasite-resistance is judged via progeny across multiple pens — Pen 4 progeny is part of Merrieweather's evaluation",
+        "If Merrieweather's Pen 4 lambs are parasite-clean, he earns a Stage upgrade — meaning his weak-ewe progeny test is a positive screening",
+        "If his Pen 4 lambs fail, he's sold/replaced — Pen 4 is the test bed",
+        "Sole sire in Pen 3 (Charlie) gives unambiguous paternity for all Pen 3 lambs"
+      ],
+      "pets_still_bred": true,
+      "pet_lamb_disposition": "Sold at auction. Pets themselves never leave (owner directive)."
+    },
+    "referenced_research": [
+      {
+        "file": "data/investigations/2026-04-03_diet_to_taste_synthesis.md",
+        "date": "2026-04-03",
+        "topic": "Diet → meat flavor (multi-model synthesis: GPT, Gemini, Grok, Perplexity, You.com)",
+        "decision_affected": "Pre-slaughter feed protocol. Confirms pasture finishing produces distinctive grassy/herbaceous flavor; grain finishing masks forage notes. Drives the pre-slaughter rosemary protocol referenced in `breeding_goals.market_uplift`."
+      },
+      {
+        "file": "data/investigations/2026-04-03_hay_forage_flavor_perplexity.md",
+        "date": "2026-04-03",
+        "topic": "Hay/forage variety impact on meat flavor (Perplexity)",
+        "decision_affected": "Forage selection at Manatee Creek: bahia/bermuda baseline OK; avoid brassicas in heavy quantities; legumes (clover/alfalfa) add sweet notes."
+      },
+      {
+        "file": "data/investigations/2026-04-03_rolled_oats_flavor_youdotcom.md",
+        "date": "2026-04-03",
+        "topic": "Rolled oats vs other grains for finishing (You.com)",
+        "decision_affected": "If grain-finishing pursued: oats preferred over corn for taste profile."
+      },
+      {
+        "file": "data/investigations/2026-04-03_rosemary_dosage_perplexity.md",
+        "date": "2026-04-03",
+        "topic": "Rosemary feeding dosage for pre-slaughter flavor enhancement (Perplexity)",
+        "decision_affected": "Pre-slaughter rosemary protocol: 14–21 day exposure window in a finishing pen with planted rosemary hedge. Concrete intervention recommended for market lambs."
+      },
+      {
+        "file": "data/investigations/2026-04-22_breed_complements_investigate.md",
+        "date": "2026-04-22",
+        "topic": "Breed complements for the composite hair-sheep flock (full /investigate pipeline)",
+        "decision_affected": "Sire-selection strategy. Identifies which breeds complement the current Katahdin/Dorper/Awassi/Cracker base for hardiness + parasite resistance."
+      },
+      {
+        "file": "data/investigations/2026-04-22_pen_reassignment_grok.md",
+        "date": "2026-04-22",
+        "topic": "Pen reassignment adversarial analysis (Grok-as-devil's-advocate, post-Angus, pre-Eclipse-auction)",
+        "decision_affected": "Pen 5/6 ram succession plan around Angus's arrival and NoriSon/Eclipse exit."
+      },
+      {
+        "file": "data/investigations/2026-04-22_pipeline_v4.md",
+        "date": "2026-04-22",
+        "topic": "8-Pen linear advancement flow proposal (v4)",
+        "decision_affected": "Pipeline design. Superseded by v5 (see below)."
+      },
+      {
+        "file": "data/investigations/2026-04-22_pipeline_v5.md",
+        "date": "2026-04-22",
+        "topic": "Homogenized parasite-resistant hair-sheep flow (v5)",
+        "decision_affected": "Current active pipeline framework. Captures the 'tighten as stages advance' principle now encoded in `pipeline_v5`."
+      },
+      {
+        "file": "data/investigations/2026-04-22_ram_subfertility_heritability.md",
+        "date": "2026-04-22",
+        "topic": "Ram subfertility — heritability, inheritance mode, daughter risk",
+        "decision_affected": "Sire-selection caution: factor subfertility-heritability risk when retaining sons of borderline-fertile rams. Affects Eclipse's gifted son disposition reasoning."
+      },
+      {
+        "file": "data/investigations/2026-04-03_taste_recon.json",
+        "date": "2026-04-03",
+        "topic": "Reconnaissance prompt skeleton for the diet-to-taste investigation chain",
+        "decision_affected": "Methodology artifact only — preserves the research question structure for re-running the chain on a new question."
+      },
+      {
+        "file": "data/investigations/2026-04-03_diet_to_taste_grok.md",
+        "date": "2026-04-03",
+        "topic": "Grok-leg of the diet-to-taste multi-model investigation",
+        "decision_affected": "Folded into the 2026-04-03 diet_to_taste_synthesis."
+      }
+    ]
   },
   "tagging": {
     "convention": "Rams = left ear tag, Ewes = right ear tag",
@@ -12946,7 +14243,8 @@
         "adults": 4,
         "babies": 3,
         "total": 7
-      }
+      },
+      "pen_1": 1
     },
     "shearing_backlog": {
       "IMG_0675": {

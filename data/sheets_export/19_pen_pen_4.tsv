@@ -1,0 +1,14 @@
+Name	ID	Tag	Sex	DOB	Breed Primary	Weight (lb)	Sire ID	Dam ID	Status
+FM	fm	0011	ewe	2021-02-14	Cotswold/Tunis	212.5	fm-sire	fm-dam	alive
+FM2	fm2-0051	0051	ewe		Cotswold/Tunis/St Augustine/Katahdin	185	sir-loin	fm	alive
+GG	gg	MC-19	ewe		Hampshire/Suffolk	212.5			alive
+Lara	lara	023	ewe	2018-01-01	Black Headed Dorper	160	lara-sire	lara-dam	alive
+Little Daisy	little-daisy	035	ewe	2023-03-23	St Augustine/Katahdin/BBB	145	dodge	daisy	alive
+Samson Daughter (Pen 4)	samson-daughter-p4		ewe		Hampshire/Cotswold/Tunis		samson	fm	alive
+Serendipity	serendipity	MC157	ewe	2022-03-25	St Augustine/Babydoll/Jacob/Katahdin	138	sir-loin	shaggy	alive
+Serendipity Black Ewe Twin	serendipity-twin-ewe	MC2607	ewe	2025-12-30	[Kelsier x Serendipity offspring]		kelsier	serendipity	alive
+Small White Ewe (Pen 4)	sm-white-ewe-p4	MC189	ewe		St Augustine/Katahdin/BBB	145	dodge	daisy	alive
+FM2 Ram Lamb	fm2-ram-lamb	MC2614	ram	2026-01-31	[Kelsier x FM2 offspring]		kelsier	fm2-0051	alive
+Gigis 2025 Ram	gigi-2025-ram	MC-09	ram		[Kelsier x Gigi offspring]		kelsier	gg	alive
+Merrieweather	merrie	00016	ram	2023-01-14	Cracker/St Augustine/Katahdin/BBB/White Dorper	200	smore	half-tail	alive
+Serendipity White Ram Twin	serendipity-twin-ram	MC2606	ram	2025-12-30	[Kelsier x Serendipity offspring]		kelsier	serendipity	alive
