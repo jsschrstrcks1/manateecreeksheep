@@ -10617,8 +10617,8 @@
         "coat_type": "unknown"
       },
       "color_markings": "White",
-      "pen": null,
-      "status": "sold",
+      "pen": "Goose Pen",
+      "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
       "dob": "2025-12-30",
@@ -10753,11 +10753,15 @@
         {
           "date": "2026-05-21",
           "note": "Sold at auction (tag MC2606)."
+        },
+        {
+          "date": "2026-05-21",
+          "note": "REVERT: previously marked sold at auction 2026-05-21 in error — operator clarified no lambs were sold that day, only mature rams. Tag MC2606 stays alive in Goose Pen."
         }
       ],
       "last_verified": "2026-05-21",
-      "status_date": "2026-05-21",
-      "status_notes": "Sold at auction 2026-05-21. Pre-sale location: Was in Goose Pen wean batch."
+      "status_date": null,
+      "status_notes": ""
     },
     {
       "id": "serendipity-twin-ewe",
@@ -11024,8 +11028,8 @@
         "coat_type": "unknown"
       },
       "color_markings": "",
-      "pen": null,
-      "status": "sold",
+      "pen": "Goose Pen",
+      "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "fm2-0051",
       "dob": "2026-01-31",
@@ -11097,12 +11101,16 @@
       },
       "mc_tag": "MC2614",
       "last_verified": "2026-05-21",
-      "status_date": "2026-05-21",
-      "status_notes": "Sold at auction 2026-05-21. Pre-sale location: Was in Goose Pen wean batch.",
+      "status_date": null,
+      "status_notes": "",
       "notes_history": [
         {
           "date": "2026-05-21",
           "note": "Sold at auction (tag MC2614)."
+        },
+        {
+          "date": "2026-05-21",
+          "note": "REVERT: previously marked sold at auction 2026-05-21 in error — operator clarified no lambs were sold that day, only mature rams. Tag MC2614 stays alive in Goose Pen."
         }
       ]
     },
@@ -12397,8 +12405,8 @@
       "name": "Orange 31 Ram Lamb",
       "tag": "MC2616",
       "sex": "ram",
-      "pen": null,
-      "status": "sold",
+      "pen": "Goose Pen",
+      "status": "alive",
       "sire_id": "buck",
       "dam_id": "tag-31-orange-tf",
       "dob": "2026-01-02",
@@ -12483,12 +12491,16 @@
       "description": "White with brown circles around eyes that go down the neck, plus brown dots",
       "confidence": "medium",
       "last_verified": "2026-05-21",
-      "status_date": "2026-05-21",
-      "status_notes": "Sold at auction 2026-05-21. Pre-sale location: Was in Goose Pen wean batch.",
+      "status_date": null,
+      "status_notes": "",
       "notes_history": [
         {
           "date": "2026-05-21",
           "note": "Sold at auction (tag MC2616)."
+        },
+        {
+          "date": "2026-05-21",
+          "note": "REVERT: previously marked sold at auction 2026-05-21 in error — operator clarified no lambs were sold that day, only mature rams. Tag MC2616 stays alive in Goose Pen."
         }
       ]
     },
@@ -13542,9 +13554,12 @@
         "serendipity-twin-ewe",
         "bambii-baby",
         "charlies-ram-lamb",
-        "charlies-farm-ewe-baby-p3"
+        "charlies-farm-ewe-baby-p3",
+        "serendipity-twin-ram",
+        "fm2-ram-lamb",
+        "tag-31-orange-tf-ram-lamb"
       ],
-      "notes": "Weaning pen as of 2026-05-14. Holds gigi-2025-ram (displaced from Pen 4 when Charlie moved in) plus 14-lamb wean batch. The 3 most recently born lambs (OAV 2222 twins, 114 Black Ram Lamb) stayed with mothers. | 2026-05-21: Auction sweep — gigi-2025-ram, serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold.",
+      "notes": "Weaning pen as of 2026-05-14. Holds gigi-2025-ram (displaced from Pen 4 when Charlie moved in) plus 14-lamb wean batch. The 3 most recently born lambs (OAV 2222 twins, 114 Black Ram Lamb) stayed with mothers. | 2026-05-21: Auction sweep — gigi-2025-ram, serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold. | 2026-05-21 CORRECTION: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb restored to roster — they were NOT sold (operator clarified: only mature rams sold that day).",
       "additional_residents": []
     },
     "tree_fort": {
@@ -14375,6 +14390,24 @@
       "issue": "Auction list includes tags 2503 and 2517 — neither tag exists in flock_database.json (searched primary tag, mc_tag, secondary_tags, aliases, names).",
       "context": "Owner reported 7 animals sold at auction 2026-05-21: MC08, MC-09, MC2606, MC2614, MC2616, 2503, 2517. Five resolved; 2503 and 2517 need identification.",
       "next_step": "Owner to identify which animals these are (likely lambs not yet entered). Once known, create records and set status=sold/status_date=2026-05-21."
+    },
+    {
+      "date": "2026-05-21",
+      "issue": "2026-05-21 auction sheep — full list still uncertain after operator clarification 'only rams, no lambs'.",
+      "confirmed_sales": [
+        "MC08 = mc08-ram (Pen 6 ram, mature)",
+        "MC09 = gigi-2025-ram (yearling, ~16 months — operator originally called him 'Pen 4 ram')"
+      ],
+      "reverted_in_error": [
+        "MC2606 = serendipity-twin-ram (LAMB, born Dec 2025 — restored alive in Goose Pen)",
+        "MC2614 = fm2-ram-lamb (LAMB, born Jan 2026 — restored alive in Goose Pen)",
+        "MC2616 = tag-31-orange-tf-ram-lamb (LAMB, born Jan 2026 — restored alive in Goose Pen)"
+      ],
+      "still_unresolved": [
+        "Tags 2503 and 2517 — operator said both are green tags (MC-26xx series). Phonetic match for 2517 = MC-2612 (charlies-ram-lamb — but he's a LAMB, ruled out). MC-2603, MC-2611 also exist but on alive ewes/already-sold animal.",
+        "Total auction count per operator was 7 (MC08 + 6 others). With lambs ruled out, need to re-identify 5 mature-ram sales."
+      ],
+      "next_step": "Operator to re-list auction sheep with the 'mature rams only' constraint, or share auction paperwork. Active mature rams in current DB: charlie-ram (Pen 4), merrie (Pen 3), buck (Pen 6), rocky (Tree Fort), kelsier (Pen 4 sire of lambs), orange-tag-00110 (Pen 1), eclipse (Pen 5, subfertile cull candidate). None of these except eclipse fit the 'sold' profile."
     }
   ]
 }
