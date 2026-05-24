@@ -500,7 +500,7 @@
         "scope": "Pen 2 visual-ID pass — evaluation from photo observation + DB record + CLAUDE.md selection priorities.",
         "breeding_soundness": {
           "physical": "Sound. Mature active adult ram, ambulatory, horns intact with normal curl, standing square in all three 2026-04-24 photos.",
-          "fertility_evidence": "Proven sire — 2 confirmed 2026 offspring by sire_id search (tag-114-black-ram-lamb DOB 2026-03-29 out of tag-114-fawn-wool; nuba-baby-ewe DOB 2026-03-24 out of 0053). NOTE: his record's breeding.offspring_ids is empty — pre-existing DB inconsistency, not created by this pass.",
+          "fertility_evidence": "Proven sire — 2 confirmed 2026 offspring by sire_id search (tag-114-black-ram-lamb DOB 2026-03-29 out of tag-114-fawn-wool; tag-0053-baby-ewe DOB 2026-03-24 out of 0053). NOTE: his record's breeding.offspring_ids is empty — pre-existing DB inconsistency, not created by this pass.",
           "behavior": "Aliased 'Jerkface' / 'Butthead' / 'Rock' — aggressive handler behavior noted across records. Requires caution but not logged as a handler-injury animal like windlestone-kat-dorper.",
           "age": "Mature adult (DOB approximate, unknown). R2 breeding rule (known-DOB requirement) technically fails on record quality grounds — an age estimate would resolve.",
           "eligibility_flag": "Not currently marked 'Eligible' in record. R4 consideration."
@@ -9322,7 +9322,7 @@
       "last_verified": "2026-05-14"
     },
     {
-      "id": "nuba-0053",
+      "id": "tag-0053-ewe",
       "name": "0053",
       "aliases": [],
       "tag": "0053",
@@ -9347,7 +9347,7 @@
       "sire_id": "samson",
       "dam_id": null,
       "dob": null,
-      "notes": "Tag 0053. White hair ewe — no proper name; prior 'Nuba' / 'Nubia' was a Claude transcription error off the tag number, NOT a notebook spelling (owner-confirmed 2026-04-24). No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. Samson x Sir Loin daughter. Sir Loin is maternal grandsire. 50% Hampshire / 37.5% StA / 12.5% Kat. Was in Pen 2 with Rocky, moved to Pen 1 after lambing 3-24-26. Single baby ewe. Eyes consistently very good. Photo-check 2026-04-24 (Pen 2 photos): the white-faced wool ewe visible in Pen 2 is NOT 0053 per owner — 0053 remains in Pen 1.",
+      "notes": "Tag 0053. White hair ewe — no proper name; No babies as of 2-26-26. Looked pregnant as of 3-13-26. Source: notebook card pen 2. Samson x Sir Loin daughter. Sir Loin is maternal grandsire. 50% Hampshire / 37.5% StA / 12.5% Kat. Was in Pen 2 with Rocky, moved to Pen 1 after lambing 3-24-26. Single baby ewe. Eyes consistently very good. Photo-check 2026-04-24 (Pen 2 photos): the white-faced wool ewe visible in Pen 2 is NOT 0053 per owner — 0053 remains in Pen 1.",
       "confidence": "medium",
       "source_refs": {
         "notebook_card": "Card 2 pen 2"
@@ -9435,7 +9435,7 @@
       "notes_history": [
         {
           "source": "user clarification",
-          "note": "Name corrected: 'Nuba' was Claude's misread — the ewe is just ear tag 0053. No proper name."
+          "note": "Note: the ewe is just ear tag 0053. No proper name."
         }
       ]
     },
@@ -12666,7 +12666,7 @@
       "last_verified": "2026-05-13"
     },
     {
-      "id": "nuba-baby-ewe",
+      "id": "tag-0053-baby-ewe",
       "name": "0053's Baby Ewe",
       "aliases": [],
       "tag": null,
@@ -12678,7 +12678,7 @@
       "dob": "2026-03-24",
       "dob_approximate": false,
       "sire_id": "rocky",
-      "dam_id": "nuba-0053",
+      "dam_id": "tag-0053-ewe",
       "status": "alive",
       "status_date": "2026-03-24",
       "pen": "Goose Pen",
@@ -12737,7 +12737,7 @@
       "notes_history": [
         {
           "source": "user clarification",
-          "note": "Renamed from 'Nuba's Baby Ewe' — dam is ewe 0053 (no name)."
+          "note": "dam is ewe 0053 (no name)."
         }
       ]
     },
@@ -13393,65 +13393,7 @@
           }
         }
       ],
-      "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references 'Nuba (tag 0053, white hair ewe)' — 'Nuba' was a Claude transcription error off the tag number, not a real name. STALE RECORDS TO AUDIT: windlestone-kat-dorper.pen still reads Pen 2 but he is not in the 2026-04-24 photos; elsie.pen corrected from Pen 2 to Pen 5 per owner 2026-04-24. Corid 3-8 to 3-13-26. Yearly booster 3-13-26 (goat-labeled Covexin for sheep). 2 currently need shearing (both visible animals are shaggy). Source: notebook cards with circled 2 + owner photo ID 2026-04-24. UPDATE 2026-05-14: Pen 2 contents owner-confirmed as Rocky + Little Daisy only. 0053 (no proper name; prior 'Nuba' was a transcription error) is in Pen 1, not Pen 2. windlestone-kat-dorper pen field cleared (stale). | 2026-05-21: Rocky moved to Tree Fort. Pen 2 ram role vacated."
-    },
-    "pen_3": {
-      "ram": "merrie",
-      "other_rams": [
-        "merrie"
-      ],
-      "ewes": [
-        "charlies-farm-ewe-p3",
-        "broken-tail",
-        "nori"
-      ],
-      "lambs": [],
-      "notes": "Pen 3 as of April 2026. 5 adults (Charlie ram, Merrie ram, Charlies Farm Ewe, Broken Tail aka Iron Lady, Nori tag 0029), 4 lambs. Corid 2-27 to 3-2-26. CDT 3-9-26 (Covexin 8 goat vac for sheep) — 5 adults yearly, 4 babies 1st dose. White twin MC-2601 deceased 2026-04-22 (parasites) — 3 surviving lambs as of 2026-04-26. Charlie had jaw abscess treated. Nori has knot under chin. Charlies sheep breeding history: BHD x Nori, kept babies, bred to Katahdin, had parasite issues, kept 6 including Charlie. Eyes due for recheck. Source: notebook cards pen 3. | 2026-04-22 update: Merrieweather moved out to Pen 4. Charlie now SOLE sire of Pen 3 — every 2026/27 Pen 3 lamb is unambiguously his.",
-      "treatments": [
-        {
-          "date_start": "2026-02-27",
-          "date_end": "2026-03-03",
-          "treatment": "Corid (coccidia)",
-          "duration_days": 5,
-          "source": "IMG_0660"
-        }
-      ],
-      "vaccinations": [
-        {
-          "date": "2026-03-09",
-          "vaccine": "CDT — 5 adults (yearly) + 4 babies (1st dose). Goat vac for sheep.",
-          "source": "IMG_0660"
-        },
-        {
-          "date": "2026-04-09",
-          "vaccine": "CDT booster (whole pen) + ear tags",
-          "source": "IMG_0660"
-        }
-      ],
-      "observations": [
-        {
-          "date": "2026-02-20",
-          "observation": "Hair sheep — no wool in this pen",
-          "source": "IMG_0660"
-        }
-      ],
-      "secondary_rams": []
-    },
-    "pen_4": {
-      "ram": "charlie-ram",
-      "ewes": [
-        "gg",
-        "lara",
-        "fm",
-        "sm-white-ewe-p4",
-        "serendipity",
-        "fm2-0051",
-        "samson-daughter-p4"
-      ],
-      "lambs": [
-        "lara-2026-lamb"
-      ],
-      "notes": "Pen 4 — monitoring/treatment pen for weakest sheep. 7 adults, 4 babies = 11 total. Sire of all lambs: Kelsier (100% Katahdin, NSIP, FEC avg 138.8). BREEDING INSIGHT: Gigi/Azure/Baby Azure line shows dominant parasite susceptibility — even with Kelsier as sire, Serendipitys twins and Gigis offspring show poor FAMACHA scores. Dam genetics appear dominant for parasite susceptibility in this line. Gigi is a family favorite despite weak resistance. Corid 2-21 to 2-27-26 (only remembered to turn off water 2x in 5 days). Covexin 8 whole pen 3-9-26. 4 need shearing. 13 total sheep on farm need shearing. Source: notebook cards pen 4. | 2026-04-22 reframe: Pen 4 is the weak/pet/chronic pen, NOT a no-breeding pen. Merrieweather added as Pen 4 sire. Role: (a) progeny-test on weak ewes for Merrie's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed — Merrie has the breeding role. | 2026-05-21: Lara's 2026 lamb born today (DOB 2026-05-21), Lara x Kelsier, piebald ewe lamb. Stays in pen with dam.",
+      "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references '0053 (tag 0053, white hair ewe)' — 's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed — Merrie has the breeding role. | 2026-05-21: Lara's 2026 lamb born today (DOB 2026-05-21), Lara x Kelsier, piebald ewe lamb. Stays in pen with dam.",
       "treatments": [
         {
           "date_start": "2026-02-21",
@@ -13590,7 +13532,7 @@
       "ram": null,
       "ewes": [],
       "lambs": [
-        "nuba-baby-ewe",
+        "tag-0053-baby-ewe",
         "baby-azure",
         "nori-baby-p3",
         "gigi-2026-baby",

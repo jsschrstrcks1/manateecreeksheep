@@ -1,764 +1,764 @@
 {
-  "year": 2026,
-  "kind": "ewe",
-  "created": "2026-05-13T15:02:53Z",
-  "last_updated": "2026-05-13T15:03:35Z",
-  "animals": [
-    {
-      "id": "cocoa",
-      "name": "Cocoa",
-      "pen": "",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "daisy-of-sugar",
-      "name": "Daisy (of Sugar)",
-      "pen": "",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "tag-00113-ewe-p1",
-      "name": "00113",
-      "pen": "Pen 1",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "nuba-0053",
-      "name": "0053",
-      "pen": "Pen 1",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "nuba-baby-ewe",
-      "name": "0053's Baby Ewe",
-      "pen": "Pen 1",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "azure",
-      "name": "Azure",
-      "pen": "Pen 1",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "baby-azure",
-      "name": "Baby Azure",
-      "pen": "Pen 1",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "charlies-ewe",
-      "name": "Charlies Ewe",
-      "pen": "Pen 1",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "tag-0033-hair-ewe",
-      "name": "Hair Ewe 0033",
-      "pen": "Pen 1",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "tag-0044-wool-ewe",
-      "name": "Wool Ewe 0044",
-      "pen": "Pen 1",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "broken-tail",
-      "name": "Broken Tail",
-      "pen": "Pen 3",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "broken-tail-twin-ewe",
-      "name": "Broken Tail Twin Ewe",
-      "pen": "Pen 3",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "charlies-farm-ewe-p3",
-      "name": "Charlies Farm Ewe (Pen 3)",
-      "pen": "Pen 3",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "charlies-farm-ewe-baby-p3",
-      "name": "Charlies Farm Ewe Baby",
-      "pen": "Pen 3",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "cocoas-daughter-by-loki",
-      "name": "Cocoa's Daughter (by Loki)",
-      "pen": "Pen 3",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "gigi-2026-baby",
-      "name": "Gigis 2026 Baby",
-      "pen": "Pen 3",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "nori",
-      "name": "Nori",
-      "pen": "Pen 3",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "fm",
-      "name": "FM",
-      "pen": "Pen 4",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "fm2-0051",
-      "name": "FM2",
-      "pen": "Pen 4",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "gg",
-      "name": "GG",
-      "pen": "Pen 4",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "lara",
-      "name": "Lara",
-      "pen": "Pen 4",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "little-daisy",
-      "name": "Little Daisy",
-      "pen": "Pen 4",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "samson-daughter-p4",
-      "name": "Samson Daughter (Pen 4)",
-      "pen": "Pen 4",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "serendipity",
-      "name": "Serendipity",
-      "pen": "Pen 4",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "serendipity-twin-ewe",
-      "name": "Serendipity Black Ewe Twin",
-      "pen": "Pen 4",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "sm-white-ewe-p4",
-      "name": "Small White Ewe (Pen 4)",
-      "pen": "Pen 4",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "elsie",
-      "name": "Elsie",
-      "pen": "Pen 5",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "elsie-triplet-lg-white-ewe",
-      "name": "Elsie Large White Ewe Triplet",
-      "pen": "Pen 5",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "tag-02-ewe-p5",
-      "name": "Ewe Tag 02",
-      "pen": "Pen 5",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "tag-31-ewe-p5",
-      "name": "Ewe Tag 31",
-      "pen": "Pen 5",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "fawn-wool-ewe-p5",
-      "name": "Fawn Wool Ewe (Pen 5)",
-      "pen": "Pen 5",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "oav-2222",
-      "name": "OAV 2222",
-      "pen": "Pen 5",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "oav-2222-lamb-1",
-      "name": "OAV 2222 Lamb 1 (White-Rust)",
-      "pen": "Pen 5",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "oav-2222-lamb-2",
-      "name": "OAV 2222 Lamb 2 (White-Rust + Black Dot)",
-      "pen": "Pen 5",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "windlestone-0055",
-      "name": "Windlestone Fat Tail 0055",
-      "pen": "Pen 6",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "windlestone-0056",
-      "name": "Windlestone Fat Tail 0056",
-      "pen": "Pen 6",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "windlestone-2139",
-      "name": "Windlestone Fat Tail 2139",
-      "pen": "Pen 6",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "bambii",
-      "name": "Bambii",
-      "pen": "Tree Fort",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "bambii-baby",
-      "name": "Bambiis Baby",
-      "pen": "Tree Fort",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "tag-114-fawn-wool",
-      "name": "Fawn Wool Ewe 114",
-      "pen": "Tree Fort",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "tag-31-orange-tf",
-      "name": "Orange Tag 31 Ewe (Tree Fort)",
-      "pen": "Tree Fort",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    },
-    {
-      "id": "tag-0035-white-ewe",
-      "name": "White Ewe 0035",
-      "pen": "Tree Fort",
-      "stage": "",
-      "scores": {
-        "own_famacha_avg": null,
-        "deworming_events": null,
-        "shedding_score": null,
-        "lambing_success": null,
-        "offspring_famacha": null,
-        "bcs": null
-      },
-      "total_score": null,
-      "action": "",
-      "status": "alive",
-      "archived": false
-    }
-  ]
+ "year": 2026,
+ "kind": "ewe",
+ "created": "2026-05-13T15:02:53Z",
+ "last_updated": "2026-05-13T15:03:35Z",
+ "animals": [
+ {
+ "id": "cocoa",
+ "name": "Cocoa",
+ "pen": "",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "daisy-of-sugar",
+ "name": "Daisy (of Sugar)",
+ "pen": "",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-00113-ewe-p1",
+ "name": "00113",
+ "pen": "Pen 1",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-0053-ewe",
+ "name": "0053",
+ "pen": "Pen 1",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-0053-baby-ewe",
+ "name": "0053's Baby Ewe",
+ "pen": "Pen 1",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "azure",
+ "name": "Azure",
+ "pen": "Pen 1",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "baby-azure",
+ "name": "Baby Azure",
+ "pen": "Pen 1",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "charlies-ewe",
+ "name": "Charlies Ewe",
+ "pen": "Pen 1",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-0033-hair-ewe",
+ "name": "Hair Ewe 0033",
+ "pen": "Pen 1",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-0044-wool-ewe",
+ "name": "Wool Ewe 0044",
+ "pen": "Pen 1",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "broken-tail",
+ "name": "Broken Tail",
+ "pen": "Pen 3",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "broken-tail-twin-ewe",
+ "name": "Broken Tail Twin Ewe",
+ "pen": "Pen 3",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "charlies-farm-ewe-p3",
+ "name": "Charlies Farm Ewe (Pen 3)",
+ "pen": "Pen 3",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "charlies-farm-ewe-baby-p3",
+ "name": "Charlies Farm Ewe Baby",
+ "pen": "Pen 3",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "cocoas-daughter-by-loki",
+ "name": "Cocoa's Daughter (by Loki)",
+ "pen": "Pen 3",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "gigi-2026-baby",
+ "name": "Gigis 2026 Baby",
+ "pen": "Pen 3",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "nori",
+ "name": "Nori",
+ "pen": "Pen 3",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "fm",
+ "name": "FM",
+ "pen": "Pen 4",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "fm2-0051",
+ "name": "FM2",
+ "pen": "Pen 4",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "gg",
+ "name": "GG",
+ "pen": "Pen 4",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "lara",
+ "name": "Lara",
+ "pen": "Pen 4",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "little-daisy",
+ "name": "Little Daisy",
+ "pen": "Pen 4",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "samson-daughter-p4",
+ "name": "Samson Daughter (Pen 4)",
+ "pen": "Pen 4",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "serendipity",
+ "name": "Serendipity",
+ "pen": "Pen 4",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "serendipity-twin-ewe",
+ "name": "Serendipity Black Ewe Twin",
+ "pen": "Pen 4",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "sm-white-ewe-p4",
+ "name": "Small White Ewe (Pen 4)",
+ "pen": "Pen 4",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "elsie",
+ "name": "Elsie",
+ "pen": "Pen 5",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "elsie-triplet-lg-white-ewe",
+ "name": "Elsie Large White Ewe Triplet",
+ "pen": "Pen 5",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-02-ewe-p5",
+ "name": "Ewe Tag 02",
+ "pen": "Pen 5",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-31-ewe-p5",
+ "name": "Ewe Tag 31",
+ "pen": "Pen 5",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "fawn-wool-ewe-p5",
+ "name": "Fawn Wool Ewe (Pen 5)",
+ "pen": "Pen 5",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "oav-2222",
+ "name": "OAV 2222",
+ "pen": "Pen 5",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "oav-2222-lamb-1",
+ "name": "OAV 2222 Lamb 1 (White-Rust)",
+ "pen": "Pen 5",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "oav-2222-lamb-2",
+ "name": "OAV 2222 Lamb 2 (White-Rust + Black Dot)",
+ "pen": "Pen 5",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "windlestone-0055",
+ "name": "Windlestone Fat Tail 0055",
+ "pen": "Pen 6",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "windlestone-0056",
+ "name": "Windlestone Fat Tail 0056",
+ "pen": "Pen 6",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "windlestone-2139",
+ "name": "Windlestone Fat Tail 2139",
+ "pen": "Pen 6",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "bambii",
+ "name": "Bambii",
+ "pen": "Tree Fort",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "bambii-baby",
+ "name": "Bambiis Baby",
+ "pen": "Tree Fort",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-114-fawn-wool",
+ "name": "Fawn Wool Ewe 114",
+ "pen": "Tree Fort",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-31-orange-tf",
+ "name": "Orange Tag 31 Ewe (Tree Fort)",
+ "pen": "Tree Fort",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ },
+ {
+ "id": "tag-0035-white-ewe",
+ "name": "White Ewe 0035",
+ "pen": "Tree Fort",
+ "stage": "",
+ "scores": {
+ "own_famacha_avg": null,
+ "deworming_events": null,
+ "shedding_score": null,
+ "lambing_success": null,
+ "offspring_famacha": null,
+ "bcs": null
+ },
+ "total_score": null,
+ "action": "",
+ "status": "alive",
+ "archived": false
+ }
+ ]
 }

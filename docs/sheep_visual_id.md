@@ -121,19 +121,19 @@ Pen 3 is Charlie's hair-sheep breeding group. **No wool in this pen** (notebook 
 ```
 Is it an adult? (>9 months — and Pen 3 is HAIR ONLY)
 ├── Ram
-│   ├── White-with-black-spots, BLACK HORNS, 108 lb .................. charlie-ram (MC-20)
-│   └── Brown-and-tan, biggest animal in pen, no prominent horns ..... merrie (00016)
+│ ├── White-with-black-spots, BLACK HORNS, 108 lb.................. charlie-ram (MC-20)
+│ └── Brown-and-tan, biggest animal in pen, no prominent horns..... merrie (00016)
 └── Ewe (all lactating spring 2026)
-    ├── Solid WHITE, large frame .................................... broken-tail (MC-15)
-    ├── Multi-color piebald, white belly, dark neck patches .......... charlies-farm-ewe-p3 (MC-16)
-    └── BADGER pattern (red body, dark face/legs), knot under chin ... nori (0029)
+ ├── Solid WHITE, large frame.................................... broken-tail (MC-15)
+ ├── Multi-color piebald, white belly, dark neck patches.......... charlies-farm-ewe-p3 (MC-16)
+ └── BADGER pattern (red body, dark face/legs), knot under chin... nori (0029)
 
 Is it a lamb? (<6 months — all polled, all hair)
 ├── Ewe
-│   ├── BIGGEST brown lamb, white tail tip + 2 white socks + brown front legs . charlies-farm-ewe-baby-p3 (MC-2602)
-│   └── Smaller brown-and-white mixed ......................................... broken-tail-twin-ewe (MC-2605)
+│ ├── BIGGEST brown lamb, white tail tip + 2 white socks + brown front legs. charlies-farm-ewe-baby-p3 (MC-2602)
+│ └── Smaller brown-and-white mixed......................................... broken-tail-twin-ewe (MC-2605)
 └── Ram
-    └── Mottled brown/white, white blaze + white-tipped ears + white tail ...... nori-baby-p3 (MC-2604)
+ └── Mottled brown/white, white blaze + white-tipped ears + white tail...... nori-baby-p3 (MC-2604)
 ```
 
 **Single best tell per animal:**
@@ -167,25 +167,25 @@ Is it a lamb? (<6 months — all polled, all hair)
 
 - **Built:** 2026-04-26 from a single Pen 3 photo provided by owner that day. Photo was taken **before 2026-04-22** (white twin MC-2601 is visible alive in it; she died 2026-04-22).
 - **Owner-confirmed identifications (single photo, 2026-04-26 verbal):**
-  - **Foreground left, large lying ewe (cream in evening light)** = `broken-tail`.
-  - **Small white lamb tucked behind her** = `broken-tail-twin-ewe-2` (MC-2601). *Last known photo while alive — died 2026-04-22 parasites.*
-  - **Mid-right standing piebald ewe with hanging udder** = `charlies-farm-ewe-p3` (MC-16).
-  - **Brown lamb LEFT of the hay cage** = `charlies-farm-ewe-baby-p3` (MC-2602). *(Claude's first guess put her near her dam on the right — owner correction: she's on the LEFT.)*
-  - **At the hay cage** = `charlie-ram` (MC-20). *(Claude's first guess was Nori; owner correction: that's Charlie. Nori is elsewhere.)*
-  - **LEFT side of the hay cage, biggest animal in pen** = `merrie` (00016).
-  - **Right side of image, lying head up-right** = `nori` (0029).
-  - **Parallel to Nori, only head visible above her hindquarters** = `nori-baby-p3` (MC-2604).
-  - **Just to the right of the hay cage** = `broken-tail-twin-ewe` (MC-2605).
+ - **Foreground left, large lying ewe (cream in evening light)** = `broken-tail`.
+ - **Small white lamb tucked behind her** = `broken-tail-twin-ewe-2` (MC-2601). *Last known photo while alive — died 2026-04-22 parasites.*
+ - **Mid-right standing piebald ewe with hanging udder** = `charlies-farm-ewe-p3` (MC-16).
+ - **Brown lamb LEFT of the hay cage** = `charlies-farm-ewe-baby-p3` (MC-2602). *(Claude's first guess put her near her dam on the right — owner correction: she's on the LEFT.)*
+ - **At the hay cage** = `charlie-ram` (MC-20). *(Claude's first guess was Nori; owner correction: that's Charlie. Nori is elsewhere.)*
+ - **LEFT side of the hay cage, biggest animal in pen** = `merrie` (00016).
+ - **Right side of image, lying head up-right** = `nori` (0029).
+ - **Parallel to Nori, only head visible above her hindquarters** = `nori-baby-p3` (MC-2604).
+ - **Just to the right of the hay cage** = `broken-tail-twin-ewe` (MC-2605).
 - **DB corrections committed in this pass (2026-04-26):**
-  - `broken-tail-twin-ewe-2`: `status: alive → deceased`, `status_date: 2026-04-06 → 2026-04-22`, added `cause_of_death: parasites`. Removed from `pens.pen_3.lambs`. **CORRECTED from prior bulk-cleanup status_date.**
-  - `sam`: `status_date: 2026-04-02 → 2024-09-26`, added `cause_of_death: Hurricane Helene`. **CORRECTED from prior bulk-cleanup status_date** (owner 2026-04-26: Sam died in Helene, never in pen 3 since).
-  - `pens.pen_3.notes`: appended MC-2601 death note; surviving-lamb count noted.
-  - `CLAUDE.md` Pen Structure table: Pen 3 row updated — Sam removed, Charlie + Merrie + actual current roster shown.
-  - `visual_id` blocks added to all 9 Pen 3 sheep records.
+ - `broken-tail-twin-ewe-2`: `status: alive → deceased`, `status_date: 2026-04-06 → 2026-04-22`, added `cause_of_death: parasites`. Removed from `pens.pen_3.lambs`. **CORRECTED from prior bulk-cleanup status_date.**
+ - `sam`: `status_date: 2026-04-02 → 2024-09-26`, added `cause_of_death: Hurricane Helene`. **CORRECTED from prior bulk-cleanup status_date** (owner 2026-04-26: Sam died in Helene, never in pen 3 since).
+ - `pens.pen_3.notes`: appended MC-2601 death note; surviving-lamb count noted.
+ - `CLAUDE.md` Pen Structure table: Pen 3 row updated — Sam removed, Charlie + Merrie + actual current roster shown.
+ - `visual_id` blocks added to all 9 Pen 3 sheep records.
 - **DB anomalies surfaced but NOT modified in this pass (deferred to index-card review):**
-  - **Tag `0029` conflict:** `nori.tag = "0029"` AND `broken-tail.secondary_tags: ["0029"]`. Pen-3 notebook says Nori is 0029. Broken Tail's `0029` secondary entry looks stale. Owner 2026-04-26: "I don't know what the current tags are for either BT or Nori, but the index card photos should have that data." → flagged for resolution against `IMG_0660`-series notebook cards.
-  - **`merrie` weight ~99 lb (2023 calc) is stale** — owner confirms he is now the largest animal in Pen 3. Needs a real weigh-in; weight number left untouched.
-  - **DOB missing** on `charlie-ram` and `charlies-farm-ewe-p3`. Lower priority — leave for next notebook-card pass.
+ - **Tag `0029` conflict:** `nori.tag = "0029"` AND `broken-tail.secondary_tags: ["0029"]`. Pen-3 notebook says Nori is 0029. Broken Tail's `0029` secondary entry looks stale. Owner 2026-04-26: "I don't know what the current tags are for either BT or Nori, but the index card photos should have that data." → flagged for resolution against `IMG_0660`-series notebook cards.
+ - **`merrie` weight ~99 lb (2023 calc) is stale** — owner confirms he is now the largest animal in Pen 3. Needs a real weigh-in; weight number left untouched.
+ - **DOB missing** on `charlie-ram` and `charlies-farm-ewe-p3`. Lower priority — leave for next notebook-card pass.
 - **Photo gaps / not yet imaged from other angles:** The single photo is wide and partially occluded by the round hay cage. A close-up of Charlie's horns + a clean side profile of Merrie would lock the rams' phenotype permanently. Suggested for next session.
 - **Lighting note (consistent with Pen 4 finding):** Evening/golden-hour light makes white animals (Broken Tail) read as cream-toned. Same effect that misled the Pen 4 picture-2 ID of Lara. Prefer midday light for color truth.
 
@@ -314,22 +314,22 @@ Pen 4 is the weak-resistance watch pen. All 2026 lambs sired by Kelsier (100% Ka
 ```
 Is it an adult? (>9 months)
 ├── Hair coat (slick, no fleece)
-│   ├── Black head, white body, medium frame ...... g023-bhd-ewe (G023)
-│   └── Small white, MC189 tag .................... sm-white-ewe-p4
+│ ├── Black head, white body, medium frame...... g023-bhd-ewe (G023)
+│ └── Small white, MC189 tag.................... sm-white-ewe-p4
 ├── Wool coat (thick fleece)
-│   ├── Black face, white wool body (Hampshire/Suffolk cross)
-│   │   ├── Larger mature ewe, poor condition, MC-19 ..... gg (Gigi)
-│   │   └── Yearling ram, "looks like Gigi smaller", MC-09 gigi-2025-ram
-│   ├── White face, cream wool body (Samson × Broken Tail)
-│   │   └── Pointed nose, no tag ........................ samson-daughter-p4 (NEW)
-│   ├── Large, light CREAM uniform fleece, ~200 lb, tag 0011 . fm
-│   ├── Smaller cream w/ metallic gray sheen, tag 0051 ....... fm2-0051
-│   └── Small, DARK brown/near-black mixed coat, MC157 ....... serendipity
+│ ├── Black face, white wool body (Hampshire/Suffolk cross)
+│ │ ├── Larger mature ewe, poor condition, MC-19..... gg (Gigi)
+│ │ └── Yearling ram, "looks like Gigi smaller", MC-09 gigi-2025-ram
+│ ├── White face, cream wool body (Samson × Broken Tail)
+│ │ └── Pointed nose, no tag........................ samson-daughter-p4 (NEW)
+│ ├── Large, light CREAM uniform fleece, ~200 lb, tag 0011. fm
+│ ├── Smaller cream w/ metallic gray sheen, tag 0051....... fm2-0051
+│ └── Small, DARK brown/near-black mixed coat, MC157....... serendipity
 └── Lamb (<9 months)
-    ├── Multi-color ewe, MC-2613 .................. gigi-2026-baby
-    ├── White ram, MC2606 ......................... serendipity-twin-ram
-    ├── Black ewe, MC2607 ......................... serendipity-twin-ewe
-    └── Cream/light ram, MC2614 ................... fm2-ram-lamb
+ ├── Multi-color ewe, MC-2613.................. gigi-2026-baby
+ ├── White ram, MC2606......................... serendipity-twin-ram
+ ├── Black ewe, MC2607......................... serendipity-twin-ewe
+ └── Cream/light ram, MC2614................... fm2-ram-lamb
 ```
 
 ---
@@ -374,11 +374,11 @@ Pen 2 is currently a small two-animal pen: Rocky (the Awassi/BHD/EF ram) plus on
 - **Sex:** ewe, adult
 - **Phenotype (photo only, 2026-04-24):** **Clean white face, pink nose**, upright white ears, no dark pigment around eyes or muzzle. **Cream / off-white wool body** — shaggy/clumped fleece, needs shearing. Medium-small adult frame, clean white legs. **No visible horns.** Calm around Rocky.
 - **Owner note 2026-04-24:** *"a pink nose generally indicates a gene for spots in their coloration"* — so she likely carries a spot-coloration allele even if she appears solid cream now.
-- **Owner ruled OUT:** `nuba-0053` (she is in Pen 1 after lambing 3-24-26; owner confirmed the Pen 2 ewe is not her). "Nuba" was a Claude transcription error off the tag number, not a real name.
+- **Owner ruled OUT:** `tag-0053-ewe` (she is in Pen 1 after lambing 3-24-26; owner confirmed the Pen 2 ewe is not her). not a real name.
 - **Confidence:** **low — pending tag check or clearer ID photo.** Do NOT assign her to an existing record without ground truth. If she is not in the current roster she may need a new record, same pattern as `samson-daughter-p4` in Pen 4.
 - **Candidates to check when tag is readable:**
-  - `tag-0044-wool-ewe` (Pen 1, tag 0044, 50% wool mixed, no color description on record) — phenotype plausible, pen assignment would need updating if it's her.
-  - A roster-missing ewe not yet in the DB.
+ - `tag-0044-wool-ewe` (Pen 1, tag 0044, 50% wool mixed, no color description on record) — phenotype plausible, pen assignment would need updating if it's her.
+ - A roster-missing ewe not yet in the DB.
 
 ### Lambs (0)
 None currently in Pen 2. Any lambs from 0053's 3-24-26 single-ewe birth stayed with her in Pen 1.
@@ -390,13 +390,13 @@ None currently in Pen 2. Any lambs from 0053's 3-24-26 single-ewe birth stayed w
 ```
 Is it an adult? (all Pen 2 animals are currently adults)
 ├── Ram?
-│   ├── Dark head + curling HORNS + heavy red-brown WOOL + white legs + ~300 lb ..... rocky
-│   └── (no other rams currently in photo — if you see a slick white hair ram,
-│        that's either windlestone-kat-dorper (stale Pen 2 assignment) or Buck
-│        (K/Aw/EF, tree fort) — confirm before IDing)
+│ ├── Dark head + curling HORNS + heavy red-brown WOOL + white legs + ~300 lb..... rocky
+│ └── (no other rams currently in photo — if you see a slick white hair ram,
+│ that's either windlestone-kat-dorper (stale Pen 2 assignment) or Buck
+│ (K/Aw/EF, tree fort) — confirm before IDing)
 └── Ewe?
-    └── White face, pink nose, cream wool body, no horns, medium frame ............. [UNCLEAR]
-        (flagged in DB pens.pen_2.unidentified — needs tag check)
+ └── White face, pink nose, cream wool body, no horns, medium frame............. [UNCLEAR]
+ (flagged in DB pens.pen_2.unidentified — needs tag check)
 ```
 
 ---
@@ -407,7 +407,7 @@ Is it an adult? (all Pen 2 animals are currently adults)
 |---|---|
 | Rocky vs. Buck (Tree Fort) | Both ~48% Awassi wool, can look similar wooly. Rocky is 50% **BHD** → dark head. Buck is 50% **Katahdin** → would not show the same dark BHD head coloring. Different pens (Rocky = Pen 2, Buck = Tree Fort). |
 | Rocky vs. `windlestone-kat-dorper` | Rocky = heavy **wool** coat (shaggy, needs shearing). Windlestone-Kat-Dorper = 100% **hair** (slick). Coat type is the instant tell. **Flag:** Windlestone-Kat-Dorper's DB aliases ("Butthead", "Charlie's Ram") collide with Rocky's — possible duplicate record, pending owner resolution. |
-| Mystery ewe vs. `nuba-0053` | Owner ruled out 2026-04-24 — 0053 is in Pen 1 after lambing. Not a visual tell, a ground-truth rule. |
+| Mystery ewe vs. `tag-0053-ewe` | Owner ruled out 2026-04-24 — 0053 is in Pen 1 after lambing. Not a visual tell, a ground-truth rule. |
 | Mystery ewe vs. `tag-0044-wool-ewe` | Possible match if 0044 has a white face + pink nose (record is blank on color). Read 0044's tag at next pen pass — if she's there, roster moves her from Pen 1 to Pen 2. |
 
 ---
@@ -417,19 +417,19 @@ Is it an adult? (all Pen 2 animals are currently adults)
 - **Built:** 2026-04-24 from owner identification of three Pen 2 photos dated 2026-04-24 (close-up of Rocky through fence + two golden-hour shots of both sheep).
 - **Owner-confirmed identifications:** Ram = Rocky/Jerkface/Butthead ("dorper awassi and ef"), confirmed by breed composition match vs. Buck ("kat awassi ef", in Tree Fort). Not-identifications: ewe is not 0053.
 - **DB corrections made in this pass (all 2026-04-24):**
-  - `pens.pen_2.ewes` emptied — 0053 belongs to Pen 1 per her individual record and owner confirmation; she was stale in the roster.
-  - `pens.pen_2.unidentified[]` added to formally track the unknown ewe without guessing her identity.
-  - `pens.pen_2.notes` rewritten to reflect current state (2 animals, not 3; Rocky + 1 unidentified).
-  - `elsie.pen` corrected from `"Pen 2"` → `"Pen 5"` (owner: *"elsie is in 5 with angus"*). Also corrected stale notes referencing "Now lives in Pen 6 permanently."
-  - `angus.pen` set from `null` → `"Pen 5"` per owner.
-  - `pens.pen_5` roster updated: added `angus` to new `other_rams` field, added `elsie` to `ewes`; census bumped 6 → 8.
-  - `nuba-0053.aliases` emptied (removed "Nubia" transcription error). Her notes now explicitly state "Nuba" was a Claude misread off the tag number, not a real name or notebook spelling.
-  - `rocky` visual_id block added (face, horns, coat, body, pen_context, distinguishes_from Buck + Windlestone-Kat-Dorper). `color_markings` written from photos. `last_verified` bumped 2026-02-16 → 2026-04-24.
-  - `windlestone-kat-dorper.status_notes` flagged — pen assignment Pen 2 is likely stale (ram not in photos), and aliases "Butthead" / "Charlie's Ram" collide with Rocky's aliases — possible duplicate-record risk. Deferred to owner.
+ - `pens.pen_2.ewes` emptied — 0053 belongs to Pen 1 per her individual record and owner confirmation; she was stale in the roster.
+ - `pens.pen_2.unidentified[]` added to formally track the unknown ewe without guessing her identity.
+ - `pens.pen_2.notes` rewritten to reflect current state (2 animals, not 3; Rocky + 1 unidentified).
+ - `elsie.pen` corrected from `"Pen 2"` → `"Pen 5"` (owner: *"elsie is in 5 with angus"*). Also corrected stale notes referencing "Now lives in Pen 6 permanently."
+ - `angus.pen` set from `null` → `"Pen 5"` per owner.
+ - `pens.pen_5` roster updated: added `angus` to new `other_rams` field, added `elsie` to `ewes`; census bumped 6 → 8.
+ - `tag-0053-ewe.aliases` emptied (removed "0053" transcription error). Her notes now explicitly state "0053" was a Claude misread off the tag number, not a real name or notebook spelling.
+ - `rocky` visual_id block added (face, horns, coat, body, pen_context, distinguishes_from Buck + Windlestone-Kat-Dorper). `color_markings` written from photos. `last_verified` bumped 2026-02-16 → 2026-04-24.
+ - `windlestone-kat-dorper.status_notes` flagged — pen assignment Pen 2 is likely stale (ram not in photos), and aliases "Butthead" / "Charlie's Ram" collide with Rocky's aliases — possible duplicate-record risk. Deferred to owner.
 - **Open questions carried forward:**
-  1. Who is the white-faced wool ewe in Pen 2?
-  2. Where is `windlestone-kat-dorper` actually pastured?
-  3. Is `windlestone-kat-dorper` a distinct animal from Rocky or a duplicate record from confused notebook card-reading?
+ 1. Who is the white-faced wool ewe in Pen 2?
+ 2. Where is `windlestone-kat-dorper` actually pastured?
+ 3. Is `windlestone-kat-dorper` a distinct animal from Rocky or a duplicate record from confused notebook card-reading?
 
 ---
 
@@ -500,11 +500,11 @@ None in Pen 6 as of 2026-04-24. (MC-2618, the one remaining Elsie triplet, is in
 ```
 Is it an adult? (>9 months)
 ├── Polled (no horns)
-│   └── Cream/fawn heavy wool, white-cream face, yellow MC08 tag ..... mc08-ram
+│ └── Cream/fawn heavy wool, white-cream face, yellow MC08 tag..... mc08-ram
 └── Horned (Awassi fat-tail, 95% wool)
-    ├── BIG curled horns, biggest frame ............................... windlestone-2139
-    ├── MEDIUM curled horns, "nice to handle", orange/pink tag ......... windlestone-0056
-    └── TINY/nubby horns + DARK BROWN LEGS ............................ windlestone-0055
+ ├── BIG curled horns, biggest frame............................... windlestone-2139
+ ├── MEDIUM curled horns, "nice to handle", orange/pink tag......... windlestone-0056
+ └── TINY/nubby horns + DARK BROWN LEGS............................ windlestone-0055
 ```
 
 **Single best tell per animal:**
@@ -532,20 +532,20 @@ Is it an adult? (>9 months)
 
 - **Built:** 2026-04-24 from IMG_2026-04-24 Pen 6 photo set (6 images: MC08 head-on, MC08 side profile, 2139 lying down w/ big horns, 0056 standing w/ curled horns + orange tag, 0055 dark legs profile, group shot ~4 animals at hay bale).
 - **Owner-confirmed identifications (2026-04-24 verbal):**
-  - **Head-on cream-wool yellow-tag polled animal = MC08.** Same animal as the side-profile shot.
-  - **Side-profile cream-wool yellow-tag animal = MC08** (not MC-2618; MC-2618 is in Pen 5).
-  - **Big ewe lying down w/ big curled horns = windlestone-2139.**
-  - **Standing ewe w/ medium curled horns + orange/pink tag = windlestone-0056.**
-  - **Ewe w/ distinct dark brown legs + tiny horns = windlestone-0055.**
+ - **Head-on cream-wool yellow-tag polled animal = MC08.** Same animal as the side-profile shot.
+ - **Side-profile cream-wool yellow-tag animal = MC08** (not MC-2618; MC-2618 is in Pen 5).
+ - **Big ewe lying down w/ big curled horns = windlestone-2139.**
+ - **Standing ewe w/ medium curled horns + orange/pink tag = windlestone-0056.**
+ - **Ewe w/ distinct dark brown legs + tiny horns = windlestone-0055.**
 - **Owner roster corrections (2026-04-24 verbal):**
-  - Elsie is in **Pen 5** (DB had `pen: "Pen 2"`, Pen 6 roster had her listed — both wrong). With Angus and her one remaining triplet.
-  - **MC-2618** (elsie-triplet-lg-white-ewe) is in **Pen 5**, not Pen 6 (and not Pen 5 lambs roster — added 2026-04-24).
-  - **Small untagged triplet (elsie-triplet-sm-white-ewe) is ALIVE**, going to auction Sunday 2026-04-26 — currently has no permanent pen. *(CORRECTED from the earlier commit in this same branch which wrongly marked her deceased. Owner clarified 2026-04-24: one triplet gifted (black ram), one to auction (sm white ewe), one with Elsie in Pen 5 (lg white ewe MC-2618). The 2026-04-06 status_date was a stale/meaningless value, not a death date — cleared.)*
-  - **Pen 6 roster size: 4** (1 ram + 3 ewes, no lambs), not 7.
+ - Elsie is in **Pen 5** (DB had `pen: "Pen 2"`, Pen 6 roster had her listed — both wrong). With Angus and her one remaining triplet.
+ - **MC-2618** (elsie-triplet-lg-white-ewe) is in **Pen 5**, not Pen 6 (and not Pen 5 lambs roster — added 2026-04-24).
+ - **Small untagged triplet (elsie-triplet-sm-white-ewe) is ALIVE**, going to auction Sunday 2026-04-26 — currently has no permanent pen. *(CORRECTED from the earlier commit in this same branch which wrongly marked her deceased. Owner clarified 2026-04-24: one triplet gifted (black ram), one to auction (sm white ewe), one with Elsie in Pen 5 (lg white ewe MC-2618). The 2026-04-06 status_date was a stale/meaningless value, not a death date — cleared.)*
+ - **Pen 6 roster size: 4** (1 ram + 3 ewes, no lambs), not 7.
 - **Group-shot photo:** backlit at hay bale; individual IDs not resolvable at that distance, but headcount is consistent with the 4-animal roster (owner in pink dress visible for scale).
 - **Uncertain / flagged for future verification:**
-  - Pen 5 currently lists `ram: "eclipse"` (tag 113, marked subfertile + "going to auction 4-26"). Owner mentioned **Angus** in Pen 5 on 2026-04-24; ram/roster role not updated in this commit pending owner clarification. *(Resolved 2026-04-26 — see Pen 5 section below.)*
-  - Windlestone Awassi breed percentages sum to 95% (pre-existing warning, not corrected).
+ - Pen 5 currently lists `ram: "eclipse"` (tag 113, marked subfertile + "going to auction 4-26"). Owner mentioned **Angus** in Pen 5 on 2026-04-24; ram/roster role not updated in this commit pending owner clarification. *(Resolved 2026-04-26 — see Pen 5 section below.)*
+ - Windlestone Awassi breed percentages sum to 95% (pre-existing warning, not corrected).
 
 ---
 
@@ -627,12 +627,12 @@ Pen 5 was the NoriSon/Eclipse breeding group. As of **2026-04-26**, NoriSon was 
 ```
 Is it an adult? (>9 months)
 ├── Hair coat (slick, no fleece)
-│   ├── Light face + cream body, medium frame, tag 2222 ........ oav-2222 (Kelsier's sister)
-│   └── Black head + neck w/ sharp white-body boundary
-│       └── Young ram (~4 mo), no tag yet ...................... angus (NEW Pen 5 ram, Apr 2026)
+│ ├── Light face + cream body, medium frame, tag 2222........ oav-2222 (Kelsier's sister)
+│ └── Black head + neck w/ sharp white-body boundary
+│ └── Young ram (~4 mo), no tag yet...................... angus (NEW Pen 5 ram, Apr 2026)
 └── Wool coat (heavy fleece)
-    └── BLACK FACE + black legs, cream body, large frame, tag 00113 . tag-00113-ewe-p1
-        (full sister of orange-tag-00110; moved to Pen 1 on 2026-04-25)
+ └── BLACK FACE + black legs, cream body, large frame, tag 00113. tag-00113-ewe-p1
+ (full sister of orange-tag-00110; moved to Pen 1 on 2026-04-25)
 ```
 
 Lamb (visible): **brown body, small, 3 days old when photographed**, foreground both photos = `tag-00113-singleton-2026` (now deceased).
@@ -656,20 +656,20 @@ Lamb (visible): **brown body, small, 3 days old when photographed**, foreground 
 
 - **Built:** 2026-04-26 from owner identification of the 2-photo Pen 5 set sent in this session (taken between 2026-04-22 and 2026-04-25).
 - **Owner-confirmed identifications (verbal, 2026-04-26):**
-  - **Back-right corner of photo 1 = Angus.** "4 months old."
-  - **Middle ewe of photo 2 / right-foreground photo 1 = tag 00113.** "Full sister of the ram in pen 1. Cracker/GCN/Suffolk/Katahdin." Moved to Pen 1 on 2026-04-25.
-  - **Right ewe of photo 2 = OAV 2222.** "Kelsier's sister, 2223 or 2222, something like that." (Tag confirmed 2222.)
-  - **Brown foreground lamb = 00113's singleton by NoriSon.** Born 2026-04-22, died 2026-04-25 (FTT). "00113 was a bad mom."
+ - **Back-right corner of photo 1 = Angus.** "4 months old."
+ - **Middle ewe of photo 2 / right-foreground photo 1 = tag 00113.** "Full sister of the ram in pen 1. Cracker/GCN/Suffolk/Katahdin." Moved to Pen 1 on 2026-04-25.
+ - **Right ewe of photo 2 = OAV 2222.** "Kelsier's sister, 2223 or 2222, something like that." (Tag confirmed 2222.)
+ - **Brown foreground lamb = 00113's singleton by NoriSon.** Born 2026-04-22, died 2026-04-25 (FTT). "00113 was a bad mom."
 - **Owner-confirmed DB corrections (verbal, 2026-04-26):**
-  - **NoriSon = Eclipse.** Same animal — two records, now merged. Canonical id: `nori-son`. Aliases preserve "Eclipse," "Tag 113," "Tag 22." CORRECTED from prior assumption that they were separate rams.
-  - **NoriSon/Eclipse sold at auction 2026-04-26**, along with `tag-0033-twin-ram-2` (the black ram lamb, dam tag-0033-hair-ewe) and `elsie-triplet-sm-white-ewe` (smaller of the two remaining Elsie triplet ewes). status="sold", status_date="2026-04-26".
-  - **Kaladin is NOT deceased.** DB had him wrongly bulk-marked deceased 2026-04-02. CORRECTED to alive. (Owner: "i forgot that was his name.") He is NOT the Pen 1 ram — `orange-tag-00110` is. Kaladin's current pen unknown; not updated here.
-  - **OAV 2222 had NO twins in 2026.** The 2026-02-10 lambing record was wrong and has been removed. Her prior twins (referenced in NoriSon's track record) were from earlier years.
-  - **Daisy's Daughter 2 had NO lamb in 2026.** The 2026-02-07 lambing record was wrong and has been removed.
+ - **NoriSon = Eclipse.** Same animal — two records, now merged. Canonical id: `nori-son`. Aliases preserve "Eclipse," "Tag 113," "Tag 22." CORRECTED from prior assumption that they were separate rams.
+ - **NoriSon/Eclipse sold at auction 2026-04-26**, along with `tag-0033-twin-ram-2` (the black ram lamb, dam tag-0033-hair-ewe) and `elsie-triplet-sm-white-ewe` (smaller of the two remaining Elsie triplet ewes). status="sold", status_date="2026-04-26".
+ - **Kaladin is NOT deceased.** DB had him wrongly bulk-marked deceased 2026-04-02. CORRECTED to alive. (Owner: "i forgot that was his name.") He is NOT the Pen 1 ram — `orange-tag-00110` is. Kaladin's current pen unknown; not updated here.
+ - **OAV 2222 had NO twins in 2026.** The 2026-02-10 lambing record was wrong and has been removed. Her prior twins (referenced in NoriSon's track record) were from earlier years.
+ - **Daisy's Daughter 2 had NO lamb in 2026.** The 2026-02-07 lambing record was wrong and has been removed.
 - **Owner assessment of NoriSon as a sire (verbal, 2026-04-26):** "Consistently hit or miss, in with 5 ewes for two years or so — only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor. One of the three of Elsie's lambs may have earned a place — I'm watching."
 - **New animals added to DB this session:**
-  - `tag-00113-ewe-p1` (Pen 1, alive, full sister of orange-tag-00110)
-  - `tag-00113-singleton-2026` (deceased FTT, NoriSon × 00113)
+ - `tag-00113-ewe-p1` (Pen 1, alive, full sister of orange-tag-00110)
+ - `tag-00113-singleton-2026` (deceased FTT, NoriSon × 00113)
 - **New 2026 lambing record:** 2026-04-22, dam 00113, sire NoriSon, 1 born / 0 alive (Pen 5).
 - **Photo-only IDs (4) confirmed.** Other Pen 5 roster animals (tag-31, tag-02, fawn-wool 240006, little-daisy, elsie, MC-2618) are not in these photos and not visually verified this session.
 - **Pen-5 ram update applied:** `pens.pen_5.ram` changed from `eclipse` to `angus`.

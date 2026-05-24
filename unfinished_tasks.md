@@ -19,14 +19,14 @@ update records when each move is physically done.
 
 Found while doing the wean update; resolved in this commit:
 
-- **0053** (no proper name; prior "Nuba" was a Claude transcription error, owner-confirmed 2026-04-24): correctly placed in Pen 1 with her baby ewe. Live "Nuba" name uses scrubbed from CLAUDE.md, lambing records, and `nuba-baby-ewe` notes. **IDs `nuba-0053` and `nuba-baby-ewe` left as-is** — opaque identifiers with cross-references throughout (`dam_id`, `offspring_ids`, eval files); changing them risks cascading breaks. Explanatory notes about the original misread are preserved so the lesson isn't lost.
+- **0053** (no proper name; owner-confirmed 2026-04-24): correctly placed in Pen 1 with her baby ewe. Live "0053" name uses scrubbed from CLAUDE.md, lambing records, and `tag-0053-baby-ewe` notes. **IDs `tag-0053-ewe` and `tag-0053-baby-ewe` left as-is** — opaque identifiers with cross-references throughout (`dam_id`, `offspring_ids`, eval files); changing them risks cascading breaks. Explanatory notes about the original misread are preserved so the lesson isn't lost.
 - **Little Daisy**: was Pen 4 in `sheep[].pen` and Pen 5 in `pens.pen_5.ewes` + CLAUDE.md table. Owner-confirmed 2026-05-14: Pen 2 (with Rocky). Reconciled across all three.
 - **windlestone-kat-dorper (ram)**: `sheep[].pen` was Pen 2 but he wasn't in 2026-04-24 photos and owner-confirmed Pen 2 = Rocky + Little Daisy only. `pen` field cleared to null pending owner verification of his actual location.
 - **Tag 114 fawn wool ewe**: was Tree Fort in `sheep[].pen` but Pen 1 in `pens.pen_1.ewes` + CLAUDE.md text (with her ram lamb). Reconciled to Pen 1.
 - **Bambii tag correction + new Tree Fort ewe (2026-05-14)**: Owner enumerated every Tree Fort animal — Buck, White Ewe 0035, Bambii, and a previously-unrecorded ewe tagged 24/0003 (= "240003"). Three corrections applied:
-  - **Bambii** had tag "24/0003" in DB (sourced from notebook card photo IMG_0627). Owner confirmed Bambii's actual tag is orange #35 and she came from Heather Oaks Farm; the 24/0003 reading was a transcription error. Tag, color (white with fawn markings), and origin fixed on the Bambii record.
-  - **New record `tag-24-0003-tf`** added — the actual holder of yellow scrapie tag 24/0003. All white with some wool on her back, Sir Loin daughter, no proper name, in Tree Fort.
-  - **Orange Tag 31 Ewe** (`tag-31-orange-tf`) removed from Tree Fort — owner confirmed she's no longer there but current pen is unknown. `pen` set to null; lamb (Orange 31 Ram Lamb) already weaned to Goose Pen.
+ - **Bambii** had tag "24/0003" in DB (sourced from notebook card photo IMG_0627). Owner confirmed Bambii's actual tag is orange #35 and she came from Heather Oaks Farm; the 24/0003 reading was a transcription error. Tag, color (white with fawn markings), and origin fixed on the Bambii record.
+ - **New record `tag-24-0003-tf`** added — the actual holder of yellow scrapie tag 24/0003. All white with some wool on her back, Sir Loin daughter, no proper name, in Tree Fort.
+ - **Orange Tag 31 Ewe** (`tag-31-orange-tf`) removed from Tree Fort — owner confirmed she's no longer there but current pen is unknown. `pen` set to null; lamb (Orange 31 Ram Lamb) already weaned to Goose Pen.
 
 ### Open follow-up — Orange Tag 31 Ewe location (2026-05-14)
 
@@ -55,7 +55,7 @@ All P0/P1 validator issues from this audit closed.
 | P1.1 — add confidence to 16 of 20 missing records | `bc174ac` | ✅ Done |
 | P0.3 — null charlies-ewe.dam_id (broken nori-line-f2 ref) | `efc3600` | ✅ Done |
 | P0.4 — add 'gifted' to validator VALID_STATUS + fix elsie record | `754a11c` | ✅ Done |
-| P1.3 — fix IMG_0661 broken ref (missing .JPG ext) | `25c1f37` | ✅ Done |
+| P1.3 — fix IMG_0661 broken ref (missing.JPG ext) | `25c1f37` | ✅ Done |
 | P0.5 — fix GG-as-sire on 3 lambs (Kelsier is the sire) | `20e7b20` | ✅ Done |
 | P0.1 dodge — merge duplicate (same animal, sold to Danny) | `60b9a00` | ✅ Done |
 | P0.1 daisy — split duplicates (two different ewes; Little Daisy is from half-tail line) | `29976fc` | ✅ Done |
@@ -99,9 +99,9 @@ These are validator ERRORs and pedigree consistency bugs. The
 
 ### P0.1 Duplicate sheep IDs (REGRESSION)
 - `id: dodge` appears twice, both `status=alive` — sire/dam refs to "dodge" are
-  ambiguous.
+ ambiguous.
 - `id: daisy` appears twice — one `status=unknown`, one `status=sold`.
-- **Repro:** `python3 -c "import json; d=json.load(open('data/flock_database.json')); ids={}; [ids.setdefault(s['id'],[]).append(s.get('status')) for s in d['sheep']]; [print('DUP:',i,v) for i,v in ids.items() if len(v)>1]"`
+- **Repro:** `python3 -c "import json; d=json.load(open('data/flock_database.json')); ids={}; [ids.setdefault(s['id'],[]).append(s.get('status')) for s in d['sheep']]; [print('DUP:',i,v) for i,v in ids.items if len(v)>1]"`
 - **Fix:** merge or rename. Owner verification required to pick the canonical row.
 
 ### P0.2 Today's dam correction is half-applied (REGRESSION — from this session)
@@ -110,37 +110,37 @@ After today's commits 3e932a0 + 9d820a0 moved MC08 + samson-daughter-p4 dam to F
 - `broken-tail.notes` still reads "Mother of … MC08 and samson-daughter-p4 (twins by Samson — owner-confirmed 2026-04-24)".
 - `fm.breeding.offspring_ids` is missing `mc08-ram` and `samson-daughter-p4`.
 - **Fix:** remove the two IDs from `broken-tail.offspring_ids`, update its notes,
-  add the two IDs to `fm.offspring_ids`. Then `python3 scripts/validate_flock.py
-  --check-references` should still pass.
+ add the two IDs to `fm.offspring_ids`. Then `python3 scripts/validate_flock.py
+ --check-references` should still pass.
 
 ### P0.3 Broken dam reference
 - `charlies-ewe` references `dam_id: nori-line-f2` which does not exist in the database.
 - **Repro:** `python3 scripts/validate_flock.py --check-references` → 1 ERROR.
 - **Fix:** either create the `nori-line-f2` placeholder record (low-confidence,
-  status=unknown, off-property) or null out the dam_id pending owner clarification.
+ status=unknown, off-property) or null out the dam_id pending owner clarification.
 
 ### P0.4 Invalid status enum
 - `elsie-triplet-black-ram` has `status: gifted` — not in the allowed
-  enum (`alive | deceased | sold | unknown`).
+ enum (`alive | deceased | sold | unknown`).
 - **Fix:** extend the enum to include `gifted` (it's a real disposition the flock
-  uses — git log shows L1 plan added enum tightening but didn't anticipate gifting),
-  OR remap to `sold` with `sold_price=0` and a note. Owner preference required.
+ uses — git log shows L1 plan added enum tightening but didn't anticipate gifting),
+ OR remap to `sold` with `sold_price=0` and a note. Owner preference required.
 
 ### P0.5 GG (ewe) listed as sire on 3 lambs (WARNING but pedigree-fatal)
 - `gg-daughter-45`, `lara-daughter-46`, `gg-son-094` all have `sire_id: gg`.
 - `gg.sex = ewe` — she is the dam, not the sire.
 - **Repro:** `python3 scripts/validate_flock.py` → 3 WARNINGs.
 - **Fix:** for each lamb, identify the real ram (CLAUDE.md says "All 2026 lambs
-  in Pen 4 sired by Kelsier" — likely Kelsier for the GG offspring; Lara's
-  daughter sire needs owner confirmation). Swap so `sire_id` points to a ram
-  and `dam_id` to gg (or the right ewe).
+ in Pen 4 sired by Kelsier" — likely Kelsier for the GG offspring; Lara's
+ daughter sire needs owner confirmation). Swap so `sire_id` points to a ram
+ and `dam_id` to gg (or the right ewe).
 
 ### P0.6 Tag collision among living sheep
 - Tag `31` shared by `tag-31-ewe-p5` (Pen 5) and `tag-31-orange-tf` (Tree Fort).
 - Notebook policy: tag uniqueness among living animals.
 - **Fix:** owner confirms which animal got retagged; rename one. The Tree Fort
-  one is "Orange Tag 31" per CLAUDE.md, so the Pen 5 one likely kept the original
-  number — likely the Tree Fort animal needs an alternate tag annotation.
+ one is "Orange Tag 31" per CLAUDE.md, so the Pen 5 one likely kept the original
+ number — likely the Tree Fort animal needs an alternate tag annotation.
 
 ---
 
@@ -148,26 +148,26 @@ After today's commits 3e932a0 + 9d820a0 moved MC08 + samson-daughter-p4 dam to F
 
 ### P1.1 20 records missing required `confidence` field
 - Validator strict mode errors 20 records: `tag-31-ewe-p5`, `tag-02-ewe-p5`,
-  `fawn-wool-ewe-p5`, `dodge`, `daisy`, three `elsie-triplet-*`, three
-  `windlestone-*`, two `tag-0035-*`, two `tag-31-orange-tf-*`, four `goose-*`.
+ `fawn-wool-ewe-p5`, `dodge`, `daisy`, three `elsie-triplet-*`, three
+ `windlestone-*`, two `tag-0035-*`, two `tag-31-orange-tf-*`, four `goose-*`.
 - **Repro:** `python3 scripts/validate_flock.py | grep "Missing required field"`
 - **Fix:** add `"confidence": "medium"` (or `"high"` / `"low"` as appropriate)
-  to each. The Windlestone Awassi trio is owner-verified — should be high.
+ to each. The Windlestone Awassi trio is owner-verified — should be high.
 
 ### P1.2 Windlestone breed percentages sum to 95%
 - `windlestone-2139`, `windlestone-0056`, `windlestone-0055` each declare
-  95% Awassi, no other breed.
+ 95% Awassi, no other breed.
 - **Fix:** add the missing 5% (likely "Unknown" or owner-stated other breed)
-  OR change to 100% if they're full Awassi. The CLAUDE.md pen table says
-  "All 3 ewes are 95% Awassi fat-tail" so 95% may be intentional — but the
-  validator expects 100% sum. Decide: add 5% Unknown breed entry, or update
-  validator tolerance.
+ OR change to 100% if they're full Awassi. The CLAUDE.md pen table says
+ "All 3 ewes are 95% Awassi fat-tail" so 95% may be intentional — but the
+ validator expects 100% sum. Decide: add 5% Unknown breed entry, or update
+ validator tolerance.
 
 ### P1.3 Image reference broken
 - `lara` record references `IMG_0661` which does not exist on disk.
 - **Repro:** `python3 scripts/validate_flock.py --check-images`
 - **Fix:** locate the actual notebook image for Lara, update the reference, or
-  remove the ref if the photo is lost.
+ remove the ref if the photo is lost.
 
 ---
 
@@ -197,16 +197,16 @@ The plan documents L1–L12 loose ends. Reverified 2026-05-13:
 ### P3.1 Six alive sheep have no pen
 - `kaladin`, `dodge` (×2 — see P0.1), `cocoa`, `daisy-of-sugar`, `loki`.
 - CLAUDE.md notes Cocoa/Loki/Daisy-of-Sugar are off-property (Danny's animals,
-  pedigree-only). Kaladin's pen is open. dodge duplicate compounds this.
+ pedigree-only). Kaladin's pen is open. dodge duplicate compounds this.
 - **Fix:** add an explicit pen value for on-property sheep (or a marker
-  like `"pen": null` + `"on_property": false` for Danny's animals — that
-  pattern is in use for Niece).
+ like `"pen": null` + `"on_property": false` for Danny's animals — that
+ pattern is in use for Niece).
 
 ### P3.2 Two sold sheep still tagged with a pen
 - `tag-0033-twin-ram-1` (sold 2026-04-06) and `tag-0033-twin-ram-2` (sold
-  2026-04-26) both still have `pen: Pen 1`.
+ 2026-04-26) both still have `pen: Pen 1`.
 - **Fix:** null the `pen` on sold animals; alternatively, the plan's exit
-  criterion is "no deceased/sold sheep in active pens".
+ criterion is "no deceased/sold sheep in active pens".
 
 ---
 
@@ -216,12 +216,12 @@ The plan documents L1–L12 loose ends. Reverified 2026-05-13:
 24 records carry `confidence: low`. Many are historical (deceased, "likely
 hurricane casualty"); some are unresolved current animals:
 - `sm-white-ewe-p4` — **alive, Pen 4, confidence low** — needs owner ID
-  (visible in 2026-04-24 photo set).
+ (visible in 2026-04-24 photo set).
 - `daisys-daughter-1`, `tag-35-ewe`, `ext-lamb-27`, `ext-lamb-10`,
-  `banana-split`, `banana-split-baby`, `fleecity`, `stew`, `fm2` —
-  `status: unknown`. Decide alive/deceased/sold for each at next owner sync.
+ `banana-split`, `banana-split-baby`, `fleecity`, `stew`, `fm2` —
+ `status: unknown`. Decide alive/deceased/sold for each at next owner sync.
 - **Repro:** `python3 -c "import json; d=json.load(open('data/flock_database.json'));
-  [print(s['id'], s.get('status')) for s in d['sheep'] if s.get('confidence')=='low']"`
+ [print(s['id'], s.get('status')) for s in d['sheep'] if s.get('confidence')=='low']"`
 
 ### P4.2 Twelve `[UNCLEAR]` markers still in DB
 Includes 1 breed `primary` field (`"primary": "[UNCLEAR]"`), a tag number for
@@ -247,17 +247,17 @@ Seven 2026 lambing records have an unknown or blank sire:
 
 ### P5.1 No HANDOFF.md
 - Repo has no `HANDOFF.md` files anywhere. CLAUDE.md mandates them per the
-  Handoff Protocol (ken/CLAUDE.md §Handoff Protocol).
+ Handoff Protocol (ken/CLAUDE.md §Handoff Protocol).
 - **Fix:** when next significant work starts, write `HANDOFF.md` at repo root
-  with what-was-done / what's-next.
+ with what-was-done / what's-next.
 
 ### P5.2 No `unfinished_tasks.md` baseline before this audit
 - This document is the first one. Going forward, update it after each
-  multi-session campaign so the gap list stays current.
+ multi-session campaign so the gap list stays current.
 
 ### P5.3 No NOTEBOOK_CARD_WORKFLOW.md (L12)
 - Mom keeps photographing notebook cards. There's no SOP for converting a
-  fresh photo → JSON diff → review → commit. Each session reinvents it.
+ fresh photo → JSON diff → review → commit. Each session reinvents it.
 
 ---
 
@@ -266,11 +266,11 @@ Seven 2026 lambing records have an unknown or blank sire:
 Ordered by smallest-risk-to-largest:
 
 1. **Fix P0.2** — finish today's MC08/samson-daughter-p4 dam correction by
-   editing `broken-tail.offspring_ids`, `broken-tail.notes`, and
-   `fm.offspring_ids` for bidirectional consistency.
+ editing `broken-tail.offspring_ids`, `broken-tail.notes`, and
+ `fm.offspring_ids` for bidirectional consistency.
 2. **Fix P0.1** — resolve `dodge` and `daisy` duplicates (owner pick).
 3. **Fix P1.1** — add `confidence` field to the 20 missing records (most
-   are pen-roster animals already known to high confidence).
+ are pen-roster animals already known to high confidence).
 4. **Fix P0.6** — resolve tag-31 collision.
 5. **Fix P0.4** — decide on `gifted` enum policy.
 6. **Fix P3.2** — null pens on sold sheep.
