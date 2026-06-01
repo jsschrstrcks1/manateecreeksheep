@@ -4120,7 +4120,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "Prior record incorrectly marked deceased 2026-04-02 (bulk-cleanup date, same as half-tail/nori-son bulk error). Confirmed alive and in Pen 4 by owner photo ID 2026-04-24.",
-      "pen": "Pen 4",
+      "pen": "Pen 1",
       "measurements": {
         "girth": 36.75,
         "length": 35.5,
@@ -4209,6 +4209,11 @@
           {
             "source": "IMG_0661",
             "note": "Black headed. No babies. Borderline FAMACHA Feb 20-27. Condition poor 4-10 despite good eyes."
+          },
+          {
+            "date": "2026-05-21",
+            "source": "owner verbal 2026-05-21",
+            "note": "Producing very little milk after 2026-05-21 twin lambing. NO infection. Twins were skinny — moved with dam to Pen 1 stall for supplemental grain AND hay. Both lambs thriving. Low milk yield flagged for breeding-program review."
           }
         ],
         "famacha_history": [
@@ -4270,7 +4275,8 @@
         "offspring_ids": [
           "oliver",
           "spicy",
-          "lara-2026-lamb"
+          "lara-2026-lamb",
+          "lara-2026-ram-twin"
         ],
         "lambing_records": []
       },
@@ -4289,7 +4295,7 @@
       },
       "notes": "MERGED 2026-04-24: This record (Lara, tag 023) was duplicated as 'g023-bhd-ewe' (tag G023 — green-tag convention for the same 023 number). The g023-bhd-ewe record had all 2026 health/FAMACHA/pen data; this lara record had the richer pedigree (DOB, sire/dam, offspring Oliver & Spicy, historical health). Owner confirmed Lara is alive in Pen 4. Duplicate g023-bhd-ewe record removed; all data merged here. | Tag 23. 100% Black Headed Dorper per breeding page (previously listed as generic Dorper). DOB 2018. Sire: dorper ram, Dam: dorper ewe (both off-farm). Received from Charles Elingham. Multiple: Y. Ewe weight 159.82lbs, ram weight projection 300lbs. 2023: bred to Sir Loin 7-4-23, due Nov 23. Born 12-30-23: Oliver (3.75lbs) and Spicy (5.8lbs) — twins by Sir Loin. FAMACHA 3 on 9-6-23 (Ivermectin, post-Idalia stress), FAMACHA 2 on 9-18-23 (no treatment). Weight calculator: 159.8lbs. On 'Ewes to Upgrade' and weak resistance list. Marked deceased April 2026 — not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
-      "last_verified": "2026-04-24",
+      "last_verified": "2026-05-21",
       "secondary_tags": [
         "G023"
       ],
@@ -4321,8 +4327,13 @@
         {
           "date": "2026-04-22",
           "note": "Planned breeding to Merrieweather (Pen 4 sire) fall 2026. Lamb sells at auction or earns place; Merrie evaluated on progeny FAMACHA. (Note: Lara is canonical id; G023/BHD Ewe G023 are aliases.)"
+        },
+        {
+          "date": "2026-05-21",
+          "note": "Moved Pen 4 -> Pen 1 stall with both twin lambs. Lara producing very little milk (no infection). Lambs were skinny; moved to stall so all three can access grain AND hay. Lambs now thriving."
         }
-      ]
+      ],
+      "pen_location": "Stall"
     },
     {
       "id": "lara-sire",
@@ -13260,11 +13271,11 @@
     },
     {
       "id": "lara-2026-lamb",
-      "name": "Lara's 2026 Lamb",
+      "name": "Lara's 2026 Ewe Twin",
       "aliases": [],
       "tag": null,
       "mc_tag": null,
-      "sex": "ewe",
+      "sex": "ewe_lamb",
       "breed_composition": {
         "primary": "Black Headed Dorper/Katahdin",
         "percentages": {
@@ -13287,7 +13298,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "Born 2026-05-21. First photographed within hours of birth (umbilical cord still attached).",
-      "pen": "Pen 4",
+      "pen": "Pen 1",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -13312,7 +13323,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Born 2026-05-21 (today). Daughter of Lara (BHD) × Kelsier (Katahdin, NSIP). Piebald hair lamb — black face/legs, white body with black patches. Pen 4. PENDING tag/weight at next handling. Re-added 2026-05-21 after the main-merge dropped the original record.",
+      "notes": "Born 2026-05-21 (today). Daughter of Lara (BHD) × Kelsier (Katahdin, NSIP). Piebald hair lamb — black face/legs, white body with black patches. Pen 4. PENDING tag/weight at next handling. Re-added 2026-05-21 after the main-merge dropped the original record. | UPDATED 2026-05-21: Lara actually had TWINS (this = EWE twin). Ram twin added as lara-2026-ram-twin. All three (dam + twins) in Pen 1 stall for supplemental grain + hay. Lara low milk (no infection); lambs were skinny, now thriving.",
       "confidence": "high",
       "last_verified": "2026-05-21",
       "visual_id": {
@@ -13322,6 +13333,83 @@
         "distinguishes_from": {
           "serendipity-twin-ewe": "Lara's lamb is PIEBALD (white-dominant); MC2607 is mostly BLACK.",
           "gigi-2026-baby": "Lara's lamb is a newborn; MC-2613 is ~4.5 months and near adult size."
+        }
+      },
+      "pen_location": "Stall",
+      "twin_of": "lara-2026-ram-twin",
+      "notes_history": [
+        {
+          "date": "2026-05-21",
+          "note": "Same-day update: confirmed ewe twin (not singleton). In Pen 1 stall on grain + hay supplementation."
+        }
+      ]
+    },
+    {
+      "id": "lara-2026-ram-twin",
+      "name": "Lara's 2026 Ram Twin",
+      "aliases": [],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram_lamb",
+      "breed_composition": {
+        "primary": "Black Headed Dorper/Katahdin",
+        "percentages": {
+          "Black Headed Dorper": 50.0,
+          "Katahdin": 50.0
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100.0,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Both parents hair breeds. Twin to lara-2026-lamb (ewe)."
+      },
+      "color_markings": "Phenotype not yet photographed individually (added from owner verbal 2026-05-21). Hair coat. Details at next handling.",
+      "weight_lbs": null,
+      "dob": "2026-05-21",
+      "dob_approximate": false,
+      "sire_id": "kelsier",
+      "dam_id": "lara",
+      "twin_of": "lara-2026-lamb",
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "Born 2026-05-21 as twin to lara-2026-lamb (ewe). In Pen 1 stall with dam and twin sister.",
+      "pen": "Pen 1",
+      "pen_location": "Stall",
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": [
+          {
+            "date": "2026-05-21",
+            "source": "owner verbal 2026-05-21",
+            "note": "Was skinny on dam's low milk — now thriving on supplemental grain + hay in stall. No infection."
+          }
+        ]
+      },
+      "breeding": {
+        "is_breeding_animal": false,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": []
+      },
+      "notes": "Born 2026-05-21 as twin brother to lara-2026-lamb (ewe). Lara × Kelsier. Initially skinny — Lara producing very little milk (no infection). Moved with dam and twin sister to Pen 1 stall for grain + hay access. Now thriving. PENDING tag, weight, phenotype photo, health baseline at next handling.",
+      "confidence": "high",
+      "last_verified": "2026-05-21",
+      "visual_id": {
+        "face": "Not yet recorded — pending photo",
+        "coat": "Hair (slick), both parents hair breeds",
+        "size": "Newborn — was skinny pre-supplementation, now thriving",
+        "distinguishes_from": {
+          "lara-2026-lamb": "Twin brother (ram) of the piebald ewe twin. Phenotype details pending."
         }
       }
     }
@@ -13335,14 +13423,15 @@
         "tag-0033-hair-ewe",
         "tag-0044-wool-ewe",
         "tag-114-fawn-wool",
-        "tag-00113-ewe-p1"
+        "tag-00113-ewe-p1",
+        "lara"
       ],
       "lambs": [
-        "tag-0033-twin-ram-1",
-        "tag-0033-twin-ram-2",
-        "tag-114-black-ram-lamb"
+        "tag-114-black-ram-lamb",
+        "lara-2026-lamb",
+        "lara-2026-ram-twin"
       ],
-      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total. UPDATE 2026-04-26: tag 00113 ewe added — moved from Pen 5 on 2026-04-25 (full sister of orange-tag-00110, same farm/litter as tag-114-fawn-wool). NEW record added to DB.",
+      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total. UPDATE 2026-04-26: tag 00113 ewe added — moved from Pen 5 on 2026-04-25 (full sister of orange-tag-00110, same farm/litter as tag-114-fawn-wool). NEW record added to DB. | 2026-05-21: Lara + her twin lambs (lara-2026-lamb ewe + lara-2026-ram-twin) moved into Pen 1 STALL from Pen 4. On grain + hay supplementation. Lara low milk (no infection).",
       "treatments": [
         {
           "date_start": "2026-02-11",
@@ -13631,6 +13720,32 @@
           "source": "IMG_0650"
         }
       ]
+    },
+    "pen_3": {
+      "ram": "merrie",
+      "ewes": [
+        "nori",
+        "broken-tail",
+        "charlies-farm-ewe-p3",
+        "cocoas-daughter-by-loki"
+      ],
+      "lambs": [],
+      "notes": "RECONSTRUCTED 2026-05-21: this roster was silently dropped from the pens dict in an earlier merge. Rebuilt from sheep.pen field assignments. Other rams (if any) in 'additional_rams'.",
+      "additional_rams": []
+    },
+    "pen_4": {
+      "ram": "charlie-ram",
+      "ewes": [
+        "gg",
+        "serendipity",
+        "fm",
+        "sm-white-ewe-p4",
+        "fm2-0051",
+        "samson-daughter-p4"
+      ],
+      "lambs": [],
+      "notes": "RECONSTRUCTED 2026-05-21: this roster was silently dropped from the pens dict in an earlier merge. Rebuilt from sheep.pen field assignments. Other rams (if any) in 'additional_rams'. | 2026-05-21: Lara had TWINS not singleton; all three (Lara + ewe twin + ram twin) moved to Pen 1 STALL. Lara low milk (no infection); lambs were skinny, thriving on grain + hay.",
+      "additional_rams": []
     }
   },
   "lambing_records_2026": [
