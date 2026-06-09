@@ -14550,5 +14550,227 @@
       ],
       "candidate_pool": "Green tag (MC-26xx) ram lambs still in DB: MC2604 (nori-baby-p3, Pen 3->Goose), MC2608/2609 (tag-0033 twins — already sold prior), MC2612 (charlies-ram-lamb secondary tag, MC2619 primary), MC2617 (tag-0035-baby-ewe — id mis-named: actually a ram lamb), MC2619 (charlies-ram-lamb)."
     }
+  ],
+  "breeding_plans": [
+    {
+      "id": "pen-5-spring-2026-pairings",
+      "computed_on": "2026-05-21",
+      "pen": "Pen 5",
+      "sire": "angus",
+      "sire_timing_flag": "Angus DOB ~Dec 2025/Jan 2026 — ~5 mo as of 2026-05-21. Per breeding-advisor R2 (>=9 mo), not breeding-age until ~Sept 2026. Pairings assume he matures while co-resident; this cycle's conception may be unreliable.",
+      "rankings": [
+        {
+          "rank": 1,
+          "dam": "oav-2222",
+          "rationale": "Highest projected parasite resistance + lowest inbreeding + best hybrid-vigor profile."
+        },
+        {
+          "rank": 2,
+          "dam": "elsie",
+          "rationale": "K-heavy resistance + meat-frame upgrade. Piebald color expression possible."
+        },
+        {
+          "rank": 3,
+          "dam": "tag-31-ewe-p5",
+          "rationale": "Solid Florida hair cross with Dorper meat upgrade."
+        },
+        {
+          "rank": 4,
+          "dam": "fawn-wool-ewe-p5",
+          "rationale": "Viable but introduces wool against the hair-coat goal; deprioritize."
+        },
+        {
+          "rank": 5,
+          "dam": "tag-02-ewe-p5",
+          "rationale": "DEFERRED — dam breed [UNCLEAR]; cannot project until recorded."
+        }
+      ],
+      "ewe_projections": [
+        {
+          "id": "breed-tag-31-ewe-p5-x-angus",
+          "dam": "tag-31-ewe-p5",
+          "sire": "angus",
+          "computed_on": "2026-05-21",
+          "breed_composition_projection": {
+            "method": "mid-parent average",
+            "dam_breed": {
+              "St Augustine": 50,
+              "Katahdin": 50
+            },
+            "sire_breed": {
+              "Katahdin": 50,
+              "Dorper": 25,
+              "Awassi": 25
+            },
+            "offspring_breed": {
+              "Dorper": 12.5,
+              "Katahdin": 50.0,
+              "Awassi": 12.5,
+              "St Augustine": 25.0
+            },
+            "confidence": "high"
+          },
+          "coat_projection": {
+            "dam_hair_pct": 100,
+            "sire_hair_pct": 75,
+            "offspring_hair_pct": 87.5,
+            "offspring_wool_pct": 12.5,
+            "confidence": "high"
+          },
+          "parasite_resistance_projection": "MEDIUM-HIGH — 50% Katahdin + 50% St Augustine (both hair, Florida-adapted); mid-parent with Angus's K-heavy sire side yields strong projected resistance.",
+          "meat_potential": "GOOD — Angus's 25% Dorper adds meat genetics over the SA/K base.",
+          "milk_potential": "LOW — 12.5% Aw too dilute to express milk gain.",
+          "inbreeding_risk": "LOW — Tag 31's sire is sir-loin (on-farm); Angus is off-farm (Windlestone). No known shared ancestors.",
+          "flags": [],
+          "narrative": "Classic Florida hair cross. Adds Dorper meat over an already-resistant base. Solid pairing."
+        },
+        {
+          "id": "breed-tag-02-ewe-p5-x-angus",
+          "dam": "tag-02-ewe-p5",
+          "sire": "angus",
+          "computed_on": "2026-05-21",
+          "breed_composition_projection": {
+            "method": "mid-parent average",
+            "dam_breed": {},
+            "sire_breed": {
+              "Katahdin": 50,
+              "Dorper": 25,
+              "Awassi": 25
+            },
+            "offspring_breed": "UNCLEAR — dam breed not enrolled",
+            "confidence": "none"
+          },
+          "coat_projection": {
+            "dam_hair_pct": null,
+            "sire_hair_pct": 75,
+            "offspring_hair_pct": null,
+            "offspring_wool_pct": null,
+            "confidence": "none"
+          },
+          "parasite_resistance_projection": "UNKNOWN — breed not enrolled.",
+          "meat_potential": "UNKNOWN.",
+          "milk_potential": "UNKNOWN.",
+          "inbreeding_risk": "UNKNOWN.",
+          "flags": [
+            "DAM BREED [UNCLEAR] — projection deferred until breed composition is documented."
+          ],
+          "narrative": "Cannot project meaningfully until Tag 02's breed/pedigree is recorded."
+        },
+        {
+          "id": "breed-fawn-wool-ewe-p5-x-angus",
+          "dam": "fawn-wool-ewe-p5",
+          "sire": "angus",
+          "computed_on": "2026-05-21",
+          "breed_composition_projection": {
+            "method": "mid-parent average",
+            "dam_breed": {},
+            "sire_breed": {
+              "Katahdin": 50,
+              "Dorper": 25,
+              "Awassi": 25
+            },
+            "offspring_breed": "UNCLEAR — dam breed not enrolled",
+            "confidence": "none"
+          },
+          "coat_projection": {
+            "dam_hair_pct": null,
+            "sire_hair_pct": 75,
+            "offspring_hair_pct": null,
+            "offspring_wool_pct": null,
+            "confidence": "none"
+          },
+          "parasite_resistance_projection": "UNKNOWN — breed % not specified; only 'wool' on record.",
+          "meat_potential": "UNKNOWN.",
+          "milk_potential": "UNKNOWN.",
+          "inbreeding_risk": "UNKNOWN.",
+          "flags": [
+            "WOOL DAM — pairing introduces wool genes into a 75% hair sire's offspring; reduces the hair-coat selection target.",
+            "Proven breeder ('Eclipse failure' is on Eclipse, not on her) — fertility is good.",
+            "Breed % unknown — record exact breed before relying on this pairing for the program."
+          ],
+          "narrative": "Pairing is viable but pulls AGAINST the hair-coat goal. If breed data fills in and she's hair-carrier, projection improves."
+        },
+        {
+          "id": "breed-oav-2222-x-angus",
+          "dam": "oav-2222",
+          "sire": "angus",
+          "computed_on": "2026-05-21",
+          "breed_composition_projection": {
+            "method": "mid-parent average",
+            "dam_breed": {
+              "Katahdin": 100
+            },
+            "sire_breed": {
+              "Katahdin": 50,
+              "Dorper": 25,
+              "Awassi": 25
+            },
+            "offspring_breed": {
+              "Katahdin": 75.0,
+              "Awassi": 12.5,
+              "Dorper": 12.5
+            },
+            "confidence": "high"
+          },
+          "coat_projection": {
+            "dam_hair_pct": 100,
+            "sire_hair_pct": 75,
+            "offspring_hair_pct": 87.5,
+            "offspring_wool_pct": 12.5,
+            "confidence": "high"
+          },
+          "parasite_resistance_projection": "VERY HIGH — Kelsier's full sister (gold-standard parasite-resistance line) × K-heavy hair sire. Top of flock.",
+          "meat_potential": "GOOD — 12.5% D + 12.5% Aw in offspring brings meat genetics over a 100%-K dam.",
+          "milk_potential": "LOW — 12.5% Aw too dilute to express.",
+          "inbreeding_risk": "LOW — OAV (off-farm, Sam Mu/UF) and Windlestone (Angus's origin) are separate lines.",
+          "flags": [
+            "Angus is ~5 months old (DOB Dec 2025/Jan 2026); not breeding-age per R2 (>=9 months) until ~Sept 2026. Conception may be unreliable this cycle."
+          ],
+          "narrative": "Highest-value pairing in Pen 5. Exactly the flock-vision cross."
+        },
+        {
+          "id": "breed-elsie-x-angus",
+          "dam": "elsie",
+          "sire": "angus",
+          "computed_on": "2026-05-21",
+          "breed_composition_projection": {
+            "method": "mid-parent average",
+            "dam_breed": {
+              "Katahdin": 65.625,
+              "St Augustine": 28.125,
+              "Barbados Blackbelly": 6.25
+            },
+            "sire_breed": {
+              "Katahdin": 50,
+              "Dorper": 25,
+              "Awassi": 25
+            },
+            "offspring_breed": {
+              "Dorper": 12.5,
+              "Barbados Blackbelly": 3.125,
+              "Katahdin": 57.812,
+              "Awassi": 12.5,
+              "St Augustine": 14.062
+            },
+            "confidence": "high"
+          },
+          "coat_projection": {
+            "dam_hair_pct": 100.0,
+            "sire_hair_pct": 75,
+            "offspring_hair_pct": 87.5,
+            "offspring_wool_pct": 12.5,
+            "confidence": "high"
+          },
+          "parasite_resistance_projection": "HIGH — 65.6% K + 28.1% SA + 6.25% BBB in dam, all hair-resistant lines; with Angus brings further K + meat.",
+          "meat_potential": "VERY GOOD — Elsie at 175 lb + Angus's Dorper/Awassi adds frame.",
+          "milk_potential": "LOW — 12.5% Aw.",
+          "inbreeding_risk": "LOW — Elsie's pedigree (Well Done × Half Tail) is on-farm, Angus is off-farm. No shared lines.",
+          "flags": [
+            "Elsie is 'Black w White' — piebald color expression possible in offspring."
+          ],
+          "narrative": "Second-best Pen 5 pairing after OAV 2222. K-heavy resistance + meat frame upgrade."
+        }
+      ]
+    }
   ]
 }
