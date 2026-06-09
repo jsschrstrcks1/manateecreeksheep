@@ -14898,6 +14898,101 @@
       "overall_assessment": "REVISED 2026-05-21. Milk-risk downgraded from VERY LOW/heritable to MEDIUM/probably-not-heritable per owner: Lara raised her 2023 twins to adult weight without issue, so the 2026 dry-up is likely age or environmental, not genetic. Cross is now a strong candidate — moves up the ranking. Decision still benefits from waiting for weaning evaluations on lara-2026-lamb's own FAMACHA expression and from confirming Angus's Katahdin pedigree to rule out distant overlap.",
       "revised_on": "2026-05-21",
       "revision_reason": "Operator clarified Lara's 2026 low-milk is new this year (not historical); 2023 twins thrived on her milk to adult weight ~153 lb each."
+    },
+    {
+      "id": "angus-next-band-fall-2026",
+      "computed_on": "2026-05-21",
+      "sire": "angus",
+      "sire_status": "DOB ~Dec 2025/Jan 2026. ~5 mo as of 2026-05-21. Breeding-age ~Sept 2026. Recommended mating window: late Sept – Nov 2026 for Feb–April 2027 lambs.",
+      "scoring_method": "0.35×parasite + 0.20×coat + 0.15×inbreeding-distance + 0.20×meat + 0.10×milk (1-5 each).",
+      "recommended_band": [
+        {
+          "rank": 1,
+          "ewe": "oav-2222",
+          "composite": 4.3,
+          "action": "KEEP IN PEN 5 (already with Angus)",
+          "rationale": "Top choice. Kelsier full sister (gold parasite resistance). 100% Katahdin. 87.5% hair coat in offspring. No inbreeding risk."
+        },
+        {
+          "rank": 2,
+          "ewe": "bambii",
+          "composite": 4.15,
+          "action": "MOVE TO PEN 5 from Tree Fort",
+          "rationale": "50% Katahdin / 50% Dorper. Heather Oaks origin (off-farm — no shared ancestry). Strong parasite + meat stack."
+        },
+        {
+          "rank": 3,
+          "ewe": "tag-0035-white-ewe",
+          "composite": 4.15,
+          "action": "MOVE TO PEN 5 from Tree Fort",
+          "rationale": "Florida Dorper × Katahdin. 100% hair. Already proven breeder (single in 2026)."
+        },
+        {
+          "rank": 4,
+          "ewe": "charlies-farm-ewe-p3",
+          "composite": 4.0,
+          "action": "MOVE TO PEN 5 from Pen 3 (subject to operator confirmation — she's currently lactating MC-2602)",
+          "rationale": "50%K / 25%BHD / 12.5%ABB / 12.5%WH. 100% hair. Strong base. Move only after MC-2602 weaned."
+        },
+        {
+          "rank": 5,
+          "ewe": "elsie",
+          "composite": 3.74,
+          "action": "KEEP IN PEN 5 (already with Angus)",
+          "rationale": "65.6% K / 28.1% SA / 6.25% BBB. 100% hair. Adds frame (175 lb). Black-and-white piebald color possible."
+        },
+        {
+          "rank": 6,
+          "ewe": "tag-31-ewe-p5",
+          "composite": 3.7,
+          "action": "KEEP IN PEN 5 (already with Angus)",
+          "rationale": "50% K / 50% SA. Florida hair sheep. Solid Dorper-meat upgrade in offspring."
+        }
+      ],
+      "band_size": 6,
+      "remove_from_pen_5": [
+        {
+          "ewe": "fawn-wool-ewe-p5",
+          "reason": "Wool dam — reintroduces wool against hair-coat goal. Move to a different sire group or cull from breeding line."
+        },
+        {
+          "ewe": "tag-02-ewe-p5",
+          "reason": "Breed [UNCLEAR] — cannot project responsibly. Document breed at next handling before deciding."
+        }
+      ],
+      "consider_for_LATER_cycle_2027": [
+        {
+          "ewe": "lara",
+          "reason": "Currently nursing 2026-05-21 twins in Chicken Coop; low milk this year. If she re-breeds well in 2027, reconsider then."
+        },
+        {
+          "ewe": "bambii-baby",
+          "reason": "Young (5 mo). Breeding-age ~Sept 2026 but tight; consider for spring 2027 instead."
+        },
+        {
+          "ewe": "charlies-farm-ewe-baby-p3",
+          "reason": "Young (5 mo). Same timing as above."
+        },
+        {
+          "ewe": "lara-2026-lamb",
+          "reason": "Newborn 2026-05-21. Earliest breeding-age Feb 2027; realistic for fall 2027 band."
+        }
+      ],
+      "exclude_permanently_from_angus_pairing": [
+        {
+          "ewe": "gigi-2026-baby",
+          "reason": "Kelsier daughter — distant Katahdin overlap risk with Angus. Pair her with a non-Katahdin sire instead."
+        },
+        {
+          "ewe": "serendipity-twin-ewe",
+          "reason": "Same as above — Kelsier daughter."
+        }
+      ],
+      "open_questions": [
+        "Confirm Angus's Katahdin pedigree source (Windlestone breeding page) — if his K is from the same Sam Mu / UF line as Kelsier, the Kelsier-daughter exclusion list grows. Currently treated as distant overlap.",
+        "Decide whether to move Charlies-Farm-Ewe out of Pen 3 (she's currently with Charlie+Merrie and lactating MC-2602)."
+      ],
+      "notes": "Composite scoring weights parasite resistance heaviest per CLAUDE.md priority #1. Tied scores at 4.15 (Bambii vs tag-0035-white-ewe) broken by Bambii's slightly stronger Heather Oaks documentation."
     }
   ]
 }
