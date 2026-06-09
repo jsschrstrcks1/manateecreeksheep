@@ -13455,6 +13455,90 @@
           "note": "Moved from Pen 1 stall to Chicken Coop (chicken coop is being used as a stall — small enclosed grain-access space). Lara nearly dry; lambs almost fully on grain since day 3 of life."
         }
       ]
+    },
+    {
+      "id": "centralia-ram-214168",
+      "name": "Centralia Ram (BZE 0001)",
+      "aliases": [
+        "BZE 0001",
+        "Reg 214168"
+      ],
+      "tag": "BZE 0001",
+      "mc_tag": null,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "214168",
+        "flock_name_number": "BZE 0001",
+        "status": "Purebred Katahdin",
+        "coi_pct": 19.4,
+        "sire_reg": "195241 HBK 708",
+        "dam_reg": "182183 FAC FL087-00088",
+        "prior_owner": "Zack Clark",
+        "service_type": "Natural Service",
+        "source": "Registration screenshot (digitalovine.com), owner-supplied 2026-06-09",
+        "notable_ancestors": [
+          "CENTRALIA (SHU 3320)",
+          "ZAC BROWN (SRS 294)",
+          "20 GRAND (LHB 20)",
+          "PRIME TIME (JM 9-36)",
+          "THE OLD MAN (SBR 1154)",
+          "PURE POWER (COR 05-22)"
+        ]
+      },
+      "sex": "ram",
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Registered Purebred Katahdin (KHSI reg 214168)."
+      },
+      "color_markings": "PENDING photo confirmation of which animal is this ram. Candidate photos show (a) adult ram with dark/grey face + black legs, slick hair coat, and (b) a young white/cream hair lamb. Owner to confirm.",
+      "weight_lbs": null,
+      "dob": "2023-09-29",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": "2026-06-09",
+      "status_notes": "Purchased 2026-06-09 (owner). Registered Purebred Katahdin ram. 'Centralia offspring' per owner.",
+      "pen": null,
+      "acquisition": {
+        "date": "2026-06-09",
+        "type": "purchase",
+        "prior_owner": "Zack Clark",
+        "note": "Purchased as a registered Purebred Katahdin ram with Centralia-line ancestry."
+      },
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "ram_2.jpg (registration)",
+          "ram_1.jpg / ram_4.jpg / ram_5.jpg (photos, pending which-is-which)"
+        ]
+      },
+      "notes": "Purchased 2026-06-09. Registered Purebred Katahdin ram, KHSI reg 214168, flock BZE 0001, DOB 2023-09-29. Sire 195241 HBK 708, Dam 182183 FAC FL087-00088. COI ~19.4%. Prior owner Zack Clark. Carries CENTRALIA, ZAC BROWN, 20 GRAND, PRIME TIME, THE OLD MAN, PURE POWER lines. BREEDING SIGNIFICANCE: 100% registered Katahdin — potential parasite-resistance sire in the tier of the late Kelsier (the flock's prior gold-standard 100% Katahdin). PENDING owner confirmation: (1) which photo is this ram; (2) whether the accompanying Purebred Katahdin EWE registration (reg 181084X, flock SRM 46) was also purchased.",
+      "confidence": "high",
+      "last_verified": "2026-06-09"
     }
   ],
   "pens": {
