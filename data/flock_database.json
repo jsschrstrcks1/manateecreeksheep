@@ -14817,6 +14817,79 @@
           "narrative": "Second-best Pen 5 pairing after OAV 2222. K-heavy resistance + meat frame upgrade."
         }
       ]
+    },
+    {
+      "id": "breed-lara-2026-lamb-x-angus-future",
+      "computed_on": "2026-05-21",
+      "projection_type": "FUTURE / HYPOTHETICAL (dam is a newborn lamb DOB 2026-05-21; earliest breeding window ~late 2027)",
+      "dam": "lara-2026-lamb",
+      "dam_pedigree": "Sire Kelsier (100% Katahdin, gold-standard parasite resistance, off-farm OAV/UF). Dam Lara (100% BHD, off-farm Charles Elingham, on flock weak-resistance list AND new LOW MILK YIELD flag).",
+      "sire": "angus",
+      "sire_pedigree": "Off-farm Windlestone Ranch. 50%K / 25%D / 25%Aw. Currently ~5 mo; not breeding-age until ~Sept 2026.",
+      "breed_composition_projection": {
+        "method": "mid-parent average",
+        "dam_breed_inferred": {
+          "Black Headed Dorper": 50.0,
+          "Katahdin": 50.0
+        },
+        "sire_breed": {
+          "Katahdin": 50,
+          "Dorper": 25,
+          "Awassi": 25
+        },
+        "offspring_breed": {
+          "Dorper": 12.5,
+          "Katahdin": 50.0,
+          "Black Headed Dorper": 25.0,
+          "Awassi": 12.5
+        },
+        "dorper_family_total": 37.5,
+        "confidence": "high"
+      },
+      "coat_projection": {
+        "dam_hair_pct": 100,
+        "sire_hair_pct": 75,
+        "offspring_hair_pct": 87.5,
+        "offspring_wool_pct": 12.5,
+        "confidence": "high",
+        "narrative": "Excellent hair-coat phenotype expected — slick shedder."
+      },
+      "parasite_resistance_projection": {
+        "rating": "MIXED — kelsier-line strength from dam's sire offset by Lara's weak-resistance line from dam's dam.",
+        "narrative": "Dam (lara-2026-lamb) is 50% Kelsier (gold standard) + 50% Lara (weak-resistance flagged Feb 2026). She personally segregates — could lean either way. Track her FAMACHA before using her as a breeder. Mid-parent with Angus = moderate-high IF she expresses Kelsier-side; moderate-low IF she expresses Lara-side.",
+        "confidence": "low — depends on dam's own expression which is currently unknown (she is days old)"
+      },
+      "meat_potential": {
+        "rating": "VERY HIGH",
+        "narrative": "Offspring carries 50% K + 25% BHD + 12.5% D + 12.5% Aw — Dorper-family total 37.5%. CLAUDE.md flags Dorper-Awassi cross as the meatiest combo; this stacks Dorper (BHD + regular D) on top of Awassi at meaningful concentrations.",
+        "confidence": "medium-high"
+      },
+      "milk_potential": {
+        "rating": "VERY LOW — LIKELY HERITABLE LOW-YIELD RISK",
+        "narrative": "BIG FLAG. Dam (lara-2026-lamb) inherits Lara's low-milk genetics; milk yield is moderately heritable (~0.2-0.3). 12.5% Awassi in offspring too dilute to rescue. Risk: this future ewe lamb is also a poor mother. Strongly recommend tracking dam's first lambing milk performance before using offspring in breeding line.",
+        "confidence": "medium"
+      },
+      "inbreeding_risk": {
+        "rating": "LOW overall, MEDIUM-LOW with one watch-item",
+        "narrative": "All four grandparents are off-farm and from different sources (Kelsier=OAV, Lara=Charles Elingham, Angus's parents=Windlestone). Watch item: Angus is 50% Katahdin and Kelsier is 100% Katahdin — both Katahdin lines could share distant ancestry in the relatively small Florida Katahdin pool. Verify Angus's Katahdin breeding-page source before relying on this cross.",
+        "confidence": "medium-high"
+      },
+      "phenotype_guesses": {
+        "color": "Piebald dam × black-head/white-body sire — could throw classic BHD pattern (black head, white body), or piebald, or solid. Low confidence.",
+        "horns": "K/D/BHD polled, Aw often horned. 12.5% Aw — mostly polled expected.",
+        "frame": "Large — both parents are large-frame genetics."
+      },
+      "timing_flags": [
+        "Dam (lara-2026-lamb) DOB 2026-05-21 — earliest breeding age ~Feb 2027 (9 mo); realistic first lambing ~Aug 2027.",
+        "Sire (angus) DOB ~Dec 2025/Jan 2026 — breeding-age ~Sept 2026.",
+        "Pairing timing: realistically achievable late 2027 or 2028 at the earliest."
+      ],
+      "decision_flags": [
+        "Track lara-2026-lamb's FAMACHA at weaning and onward — her own parasite-resistance expression is the deciding factor.",
+        "Verify Angus's Katahdin pedigree (breeding page) to rule out distant Katahdin overlap with Kelsier line.",
+        "Low-milk inheritance is the largest risk; consider not breeding lara-2026-lamb AT ALL until Lara's milk-yield genetics are better characterized."
+      ],
+      "overall_assessment": "Genetically interesting trait-stack (resistance + meat + hair coat) but milk inheritance is a real risk and dam's own resistance expression is unknown. Defer the decision until weaning evaluations are available. Rated AFTER OAV2222 × Angus (which has none of these flags)."
     }
   ]
 }
