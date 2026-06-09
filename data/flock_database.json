@@ -4120,7 +4120,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "Prior record incorrectly marked deceased 2026-04-02 (bulk-cleanup date, same as half-tail/nori-son bulk error). Confirmed alive and in Pen 4 by owner photo ID 2026-04-24.",
-      "pen": "Pen 1",
+      "pen": "Chicken Coop",
       "measurements": {
         "girth": 36.75,
         "length": 35.5,
@@ -4214,6 +4214,11 @@
             "date": "2026-05-21",
             "source": "owner verbal 2026-05-21",
             "note": "Producing very little milk after 2026-05-21 twin lambing. NO infection. Twins were skinny — moved with dam to Pen 1 stall for supplemental grain AND hay. Both lambs thriving. Low milk yield flagged for breeding-program review."
+          },
+          {
+            "date": "2026-05-21",
+            "source": "owner verbal 2026-05-21",
+            "note": "Pretty much out of milk now (no infection). Lambs almost completely on grain since day 3 of life. Lara is essentially functioning as a non-lactating dam already. STRONG MILK-YIELD FLAG for breeding-program review."
           }
         ],
         "famacha_history": [
@@ -4331,9 +4336,21 @@
         {
           "date": "2026-05-21",
           "note": "Moved Pen 4 -> Pen 1 stall with both twin lambs. Lara producing very little milk (no infection). Lambs were skinny; moved to stall so all three can access grain AND hay. Lambs now thriving."
+        },
+        {
+          "date": "2026-05-21",
+          "note": "Moved from Pen 1 stall to Chicken Coop (chicken coop is being used as a stall — small enclosed grain-access space). Lara nearly dry; lambs almost fully on grain since day 3 of life."
         }
       ],
-      "pen_location": "Stall"
+      "pen_location": "Chicken Coop (used as stall — small enclosed space for grain access and shelter)",
+      "breeding_flags": [
+        {
+          "date": "2026-05-21",
+          "flag": "LOW MILK YIELD",
+          "evidence": "May 2026 twins: dam pretty much out of milk by day 3-4; lambs hand-raised on grain. No mastitis or infection — appears to be intrinsic capacity.",
+          "implication": "Re-breeding decision requires either (a) accept hand-rearing burden, (b) foster lambs to a better-milk dam, or (c) cull from breeding program. Parasite-resistance contribution from Kelsier-line still valuable; mothering ability is the limiting trait."
+        }
+      ]
     },
     {
       "id": "lara-sire",
@@ -13298,7 +13315,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "Born 2026-05-21. First photographed within hours of birth (umbilical cord still attached).",
-      "pen": "Pen 1",
+      "pen": "Chicken Coop",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -13310,6 +13327,11 @@
           {
             "source": "owner photo 2026-05-21",
             "note": "Newborn lamb photographed today. Mom present. Appears healthy."
+          },
+          {
+            "date": "2026-05-21",
+            "source": "owner verbal 2026-05-21",
+            "note": "Almost completely on grain since day 3 of life — dam Lara out of milk. Thriving on grain. Functionally hand-raised."
           }
         ]
       },
@@ -13323,7 +13345,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Born 2026-05-21 (today). Daughter of Lara (BHD) × Kelsier (Katahdin, NSIP). Piebald hair lamb — black face/legs, white body with black patches. Pen 4. PENDING tag/weight at next handling. Re-added 2026-05-21 after the main-merge dropped the original record. | UPDATED 2026-05-21: Lara actually had TWINS (this = EWE twin). Ram twin added as lara-2026-ram-twin. All three (dam + twins) in Pen 1 stall for supplemental grain + hay. Lara low milk (no infection); lambs were skinny, now thriving.",
+      "notes": "Born 2026-05-21 (today). Daughter of Lara (BHD) × Kelsier (Katahdin, NSIP). Piebald hair lamb — black face/legs, white body with black patches. Pen 4. PENDING tag/weight at next handling. Re-added 2026-05-21 after the main-merge dropped the original record. | UPDATED 2026-05-21: Lara actually had TWINS (this = EWE twin). Ram twin added as lara-2026-ram-twin. All three (dam + twins) in Pen 1 stall for supplemental grain + hay. Lara low milk (no infection); lambs were skinny, now thriving. | 2026-05-21: On grain since day 3. Functionally hand-raised — dam Lara nearly dry by day 3-4. No infection.",
       "confidence": "high",
       "last_verified": "2026-05-21",
       "visual_id": {
@@ -13335,12 +13357,16 @@
           "gigi-2026-baby": "Lara's lamb is a newborn; MC-2613 is ~4.5 months and near adult size."
         }
       },
-      "pen_location": "Stall",
+      "pen_location": "Chicken Coop (used as stall — small enclosed space for grain access and shelter)",
       "twin_of": "lara-2026-ram-twin",
       "notes_history": [
         {
           "date": "2026-05-21",
           "note": "Same-day update: confirmed ewe twin (not singleton). In Pen 1 stall on grain + hay supplementation."
+        },
+        {
+          "date": "2026-05-21",
+          "note": "Moved from Pen 1 stall to Chicken Coop (chicken coop is being used as a stall — small enclosed grain-access space). Lara nearly dry; lambs almost fully on grain since day 3 of life."
         }
       ]
     },
@@ -13374,8 +13400,8 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "Born 2026-05-21 as twin to lara-2026-lamb (ewe). In Pen 1 stall with dam and twin sister.",
-      "pen": "Pen 1",
-      "pen_location": "Stall",
+      "pen": "Chicken Coop",
+      "pen_location": "Chicken Coop (used as stall — small enclosed space for grain access and shelter)",
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -13388,6 +13414,11 @@
             "date": "2026-05-21",
             "source": "owner verbal 2026-05-21",
             "note": "Was skinny on dam's low milk — now thriving on supplemental grain + hay in stall. No infection."
+          },
+          {
+            "date": "2026-05-21",
+            "source": "owner verbal 2026-05-21",
+            "note": "Almost completely on grain since day 3 of life — dam Lara out of milk. Thriving on grain. Functionally hand-raised."
           }
         ]
       },
@@ -13401,7 +13432,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Born 2026-05-21 as twin brother to lara-2026-lamb (ewe). Lara × Kelsier. Initially skinny — Lara producing very little milk (no infection). Moved with dam and twin sister to Pen 1 stall for grain + hay access. Now thriving. PENDING tag, weight, phenotype photo, health baseline at next handling.",
+      "notes": "Born 2026-05-21 as twin brother to lara-2026-lamb (ewe). Lara × Kelsier. Initially skinny — Lara producing very little milk (no infection). Moved with dam and twin sister to Pen 1 stall for grain + hay access. Now thriving. PENDING tag, weight, phenotype photo, health baseline at next handling. | 2026-05-21: On grain since day 3. Functionally hand-raised — dam Lara nearly dry by day 3-4. No infection.",
       "confidence": "high",
       "last_verified": "2026-05-21",
       "visual_id": {
@@ -13411,7 +13442,13 @@
         "distinguishes_from": {
           "lara-2026-lamb": "Twin brother (ram) of the piebald ewe twin. Phenotype details pending."
         }
-      }
+      },
+      "notes_history": [
+        {
+          "date": "2026-05-21",
+          "note": "Moved from Pen 1 stall to Chicken Coop (chicken coop is being used as a stall — small enclosed grain-access space). Lara nearly dry; lambs almost fully on grain since day 3 of life."
+        }
+      ]
     }
   ],
   "pens": {
@@ -13423,15 +13460,12 @@
         "tag-0033-hair-ewe",
         "tag-0044-wool-ewe",
         "tag-114-fawn-wool",
-        "tag-00113-ewe-p1",
-        "lara"
+        "tag-00113-ewe-p1"
       ],
       "lambs": [
-        "tag-114-black-ram-lamb",
-        "lara-2026-lamb",
-        "lara-2026-ram-twin"
+        "tag-114-black-ram-lamb"
       ],
-      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total. UPDATE 2026-04-26: tag 00113 ewe added — moved from Pen 5 on 2026-04-25 (full sister of orange-tag-00110, same farm/litter as tag-114-fawn-wool). NEW record added to DB. | 2026-05-21: Lara + her twin lambs (lara-2026-lamb ewe + lara-2026-ram-twin) moved into Pen 1 STALL from Pen 4. On grain + hay supplementation. Lara low milk (no infection).",
+      "notes": "Pen 1 as of April 2026. 5 adults, 4 lambs. Source: notebook cards with circled 1. Corid treatment started 2-11-2026 for 5 days. All FAMACHA good (1-2) on 2-13, 2-19, and 4-1-2026 except Baby Azure (FAMACHA 5 on 4-1-2026, treated). All lambs got CDT booster 4-1-2026. All adults got yearly CDT 4-1-2026. 3 sheep need shearing. All previously untagged animals now tagged (new numbers TBD). Tag 114 fawn wool ewe moved from Pen 2 (Rocky/Jerkface keeping her from baby). Her black ram lamb born 3-29-2026. Now 6 adults, 5 lambs = 11 total. UPDATE 2026-04-26: tag 00113 ewe added — moved from Pen 5 on 2026-04-25 (full sister of orange-tag-00110, same farm/litter as tag-114-fawn-wool). NEW record added to DB. | 2026-05-21: Lara + her twin lambs (lara-2026-lamb ewe + lara-2026-ram-twin) moved into Pen 1 STALL from Pen 4. On grain + hay supplementation. Lara low milk (no infection). | 2026-05-21 CORRECTION (later same day): Lara + twins moved out of Pen 1 stall to Chicken Coop (used as stall) — Lara now nearly dry; lambs on grain since day 3.",
       "treatments": [
         {
           "date_start": "2026-02-11",
@@ -13746,6 +13780,18 @@
       "lambs": [],
       "notes": "RECONSTRUCTED 2026-05-21: this roster was silently dropped from the pens dict in an earlier merge. Rebuilt from sheep.pen field assignments. Other rams (if any) in 'additional_rams'. | 2026-05-21: Lara had TWINS not singleton; all three (Lara + ewe twin + ram twin) moved to Pen 1 STALL. Lara low milk (no infection); lambs were skinny, thriving on grain + hay.",
       "additional_rams": []
+    },
+    "chicken_coop": {
+      "ram": null,
+      "ewes": [
+        "lara"
+      ],
+      "lambs": [
+        "lara-2026-lamb",
+        "lara-2026-ram-twin"
+      ],
+      "notes": " | 2026-05-21: Lara + 2 twin lambs moved in (originally to Pen 1 stall same day, then moved to Chicken Coop for use as stall). Lara nearly dry, lambs on grain since day 3 of life. Buck (prior occupant) had moved to Pen 6 earlier today as the new Pen 6 ram.",
+      "function": "Used as a stall (small enclosed space for hand-rearing / grain access)."
     }
   },
   "lambing_records_2026": [
