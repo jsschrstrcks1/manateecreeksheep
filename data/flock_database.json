@@ -14876,9 +14876,9 @@
         "confidence": "medium (depends on whether 2026 low milk recurs in Lara's next lambing)"
       },
       "inbreeding_risk": {
-        "rating": "LOW overall, MEDIUM-LOW with one watch-item",
-        "narrative": "All four grandparents are off-farm and from different sources (Kelsier=OAV, Lara=Charles Elingham, Angus's parents=Windlestone). Watch item: Angus is 50% Katahdin and Kelsier is 100% Katahdin — both Katahdin lines could share distant ancestry in the relatively small Florida Katahdin pool. Verify Angus's Katahdin breeding-page source before relying on this cross.",
-        "confidence": "medium-high"
+        "rating": "LOW",
+        "narrative": "CORRECTED 2026-05-21: Angus and Kelsier are entirely unrelated (operator confirmation). All four grandparents come from different unrelated lines (Kelsier=OAV, Lara=Charles Elingham, Angus's parents=Windlestone). No overlap concern.",
+        "confidence": "high"
       },
       "phenotype_guesses": {
         "color": "Piebald dam × black-head/white-body sire — could throw classic BHD pattern (black head, white body), or piebald, or solid. Low confidence.",
@@ -14892,12 +14892,14 @@
       ],
       "decision_flags": [
         "Track lara-2026-lamb's FAMACHA at weaning and onward — her own parasite-resistance expression is the deciding factor.",
-        "Verify Angus's Katahdin pedigree (breeding page) to rule out distant Katahdin overlap with Kelsier line.",
+        "Inbreeding watch CLEARED 2026-05-21: operator confirmed Angus and Kelsier are entirely unrelated.",
         "Milk-yield risk substantially downgraded 2026-05-21 — Lara's 2023 record confirms adequate milk. Monitor any future Lara lambing for recurrence before revisiting heritability concern."
       ],
       "overall_assessment": "REVISED 2026-05-21. Milk-risk downgraded from VERY LOW/heritable to MEDIUM/probably-not-heritable per owner: Lara raised her 2023 twins to adult weight without issue, so the 2026 dry-up is likely age or environmental, not genetic. Cross is now a strong candidate — moves up the ranking. Decision still benefits from waiting for weaning evaluations on lara-2026-lamb's own FAMACHA expression and from confirming Angus's Katahdin pedigree to rule out distant overlap.",
       "revised_on": "2026-05-21",
-      "revision_reason": "Operator clarified Lara's 2026 low-milk is new this year (not historical); 2023 twins thrived on her milk to adult weight ~153 lb each."
+      "revision_reason": "Operator clarified Lara's 2026 low-milk is new this year (not historical); 2023 twins thrived on her milk to adult weight ~153 lb each.",
+      "revised_again_on": "2026-05-21",
+      "revision_2_reason": "Operator confirmed Angus and Kelsier are entirely unrelated. K-overlap watch-item removed; inbreeding risk downgraded to LOW."
     },
     {
       "id": "angus-next-band-fall-2026",
@@ -14976,23 +14978,23 @@
         {
           "ewe": "lara-2026-lamb",
           "reason": "Newborn 2026-05-21. Earliest breeding-age Feb 2027; realistic for fall 2027 band."
-        }
-      ],
-      "exclude_permanently_from_angus_pairing": [
+        },
         {
           "ewe": "gigi-2026-baby",
-          "reason": "Kelsier daughter — distant Katahdin overlap risk with Angus. Pair her with a non-Katahdin sire instead."
+          "reason": "Kelsier daughter, but K-overlap concern CLEARED 2026-05-21 (Angus unrelated to Kelsier). Currently ~4.5 mo — breeding-age ~Oct 2026. Consider for spring 2027 band."
         },
         {
           "ewe": "serendipity-twin-ewe",
-          "reason": "Same as above — Kelsier daughter."
+          "reason": "Kelsier daughter, but K-overlap concern CLEARED 2026-05-21. Currently ~5 mo — breeding-age ~late 2026. Consider for spring 2027 band."
         }
       ],
+      "exclude_permanently_from_angus_pairing": [],
       "open_questions": [
-        "Confirm Angus's Katahdin pedigree source (Windlestone breeding page) — if his K is from the same Sam Mu / UF line as Kelsier, the Kelsier-daughter exclusion list grows. Currently treated as distant overlap.",
+        "RESOLVED 2026-05-21: Operator confirmed Angus and Kelsier are entirely unrelated. Kelsier-daughter pairings with Angus are now permissible.",
         "Decide whether to move Charlies-Farm-Ewe out of Pen 3 (she's currently with Charlie+Merrie and lactating MC-2602)."
       ],
-      "notes": "Composite scoring weights parasite resistance heaviest per CLAUDE.md priority #1. Tied scores at 4.15 (Bambii vs tag-0035-white-ewe) broken by Bambii's slightly stronger Heather Oaks documentation."
+      "notes": "Composite scoring weights parasite resistance heaviest per CLAUDE.md priority #1. Tied scores at 4.15 (Bambii vs tag-0035-white-ewe) broken by Bambii's slightly stronger Heather Oaks documentation.",
+      "revised_on": "2026-05-21"
     }
   ]
 }
