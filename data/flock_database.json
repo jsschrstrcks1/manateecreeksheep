@@ -14995,6 +14995,491 @@
       ],
       "notes": "Composite scoring weights parasite resistance heaviest per CLAUDE.md priority #1. Tied scores at 4.15 (Bambii vs tag-0035-white-ewe) broken by Bambii's slightly stronger Heather Oaks documentation.",
       "revised_on": "2026-05-21"
+    },
+    {
+      "id": "ram-orange-tag-00110-pairings-2026-05-21",
+      "computed_on": "2026-05-21",
+      "sire": "orange-tag-00110",
+      "method": "Composite 0.35×parasite + 0.20×coat + 0.15×inbreeding-distance + 0.20×meat + 0.10×milk",
+      "top_5_ewes": [
+        {
+          "ewe": "lara",
+          "composite": 4.35,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 5,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "oav-2222",
+          "composite": 4.3,
+          "scores": {
+            "parasite": 5,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "bambii",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "tag-0035-white-ewe",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "charlies-ewe",
+          "composite": 4.0,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.25,
+            "milk": 2.0
+          },
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "ram-charlie-ram-pairings-2026-05-21",
+      "computed_on": "2026-05-21",
+      "sire": "charlie-ram",
+      "method": "Composite 0.35×parasite + 0.20×coat + 0.15×inbreeding-distance + 0.20×meat + 0.10×milk",
+      "top_5_ewes": [
+        {
+          "ewe": "lara",
+          "composite": 4.35,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 5,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "oav-2222",
+          "composite": 4.3,
+          "scores": {
+            "parasite": 5,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "bambii",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "tag-0035-white-ewe",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "charlies-ewe",
+          "composite": 4.0,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.25,
+            "milk": 2.0
+          },
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "ram-merrie-pairings-2026-05-21",
+      "computed_on": "2026-05-21",
+      "sire": "merrie",
+      "method": "Composite 0.35×parasite + 0.20×coat + 0.15×inbreeding-distance + 0.20×meat + 0.10×milk",
+      "top_5_ewes": [
+        {
+          "ewe": "lara",
+          "composite": 4.35,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 5,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "oav-2222",
+          "composite": 4.3,
+          "scores": {
+            "parasite": 5,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "bambii",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "tag-0035-white-ewe",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "charlies-ewe",
+          "composite": 4.0,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.25,
+            "milk": 2.0
+          },
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "ram-buck-pairings-2026-05-21",
+      "computed_on": "2026-05-21",
+      "sire": "buck",
+      "method": "Composite 0.35×parasite + 0.20×coat + 0.15×inbreeding-distance + 0.20×meat + 0.10×milk",
+      "top_5_ewes": [
+        {
+          "ewe": "lara",
+          "composite": 4.35,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 5,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "oav-2222",
+          "composite": 4.3,
+          "scores": {
+            "parasite": 5,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "bambii",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "tag-0035-white-ewe",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "charlies-ewe",
+          "composite": 4.0,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.25,
+            "milk": 2.0
+          },
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "ram-rocky-pairings-2026-05-21",
+      "computed_on": "2026-05-21",
+      "sire": "rocky",
+      "method": "Composite 0.35×parasite + 0.20×coat + 0.15×inbreeding-distance + 0.20×meat + 0.10×milk",
+      "top_5_ewes": [
+        {
+          "ewe": "lara",
+          "composite": 4.35,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 5,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "oav-2222",
+          "composite": 4.3,
+          "scores": {
+            "parasite": 5,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "bambii",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "tag-0035-white-ewe",
+          "composite": 4.15,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 4.0,
+            "milk": 2.0
+          },
+          "flags": []
+        },
+        {
+          "ewe": "charlies-ewe",
+          "composite": 4.0,
+          "scores": {
+            "parasite": 4,
+            "coat": 5.0,
+            "inbreeding": 5,
+            "meat": 3.25,
+            "milk": 2.0
+          },
+          "flags": []
+        }
+      ]
+    },
+    {
+      "id": "recommended-allocation-2026-05-21",
+      "computed_on": "2026-05-21",
+      "method": "Round-robin draft. Rams ordered by best-pair score. Target band 6 ewes/ram. Min ewe age 8mo. Breed must be known.",
+      "ram_draft_order": [
+        "charlie-ram",
+        "angus",
+        "rocky",
+        "merrie",
+        "buck",
+        "orange-tag-00110"
+      ],
+      "ram_bands": {
+        "angus": [
+          {
+            "ewe": "oav-2222",
+            "composite": 4.01
+          },
+          {
+            "ewe": "tag-0033-hair-ewe",
+            "composite": 3.8
+          },
+          {
+            "ewe": "sm-white-ewe-p4",
+            "composite": 3.77
+          },
+          {
+            "ewe": "tag-0044-wool-ewe",
+            "composite": 3.51
+          },
+          {
+            "ewe": "samson-daughter-p4",
+            "composite": 2.99
+          }
+        ],
+        "orange-tag-00110": [
+          {
+            "ewe": "charlies-farm-ewe-p3",
+            "composite": 3.36
+          },
+          {
+            "ewe": "little-daisy",
+            "composite": 3.27
+          },
+          {
+            "ewe": "windlestone-0056",
+            "composite": 3.02
+          },
+          {
+            "ewe": "tag-0053-ewe",
+            "composite": 2.7
+          }
+        ],
+        "charlie-ram": [
+          {
+            "ewe": "lara",
+            "composite": 4.17
+          },
+          {
+            "ewe": "elsie",
+            "composite": 3.94
+          },
+          {
+            "ewe": "broken-tail",
+            "composite": 3.9
+          },
+          {
+            "ewe": "windlestone-0055",
+            "composite": 3.66
+          },
+          {
+            "ewe": "fm2-0051",
+            "composite": 3.34
+          }
+        ],
+        "merrie": [
+          {
+            "ewe": "tag-0035-white-ewe",
+            "composite": 3.77
+          },
+          {
+            "ewe": "nori",
+            "composite": 3.57
+          },
+          {
+            "ewe": "windlestone-2139",
+            "composite": 3.36
+          },
+          {
+            "ewe": "tag-00113-ewe-p1",
+            "composite": 3.06
+          },
+          {
+            "ewe": "azure",
+            "composite": 2.65
+          }
+        ],
+        "buck": [
+          {
+            "ewe": "charlies-ewe",
+            "composite": 3.64
+          },
+          {
+            "ewe": "daisy-of-sugar",
+            "composite": 3.56
+          },
+          {
+            "ewe": "cocoa",
+            "composite": 3.33
+          },
+          {
+            "ewe": "serendipity",
+            "composite": 2.98
+          },
+          {
+            "ewe": "fm",
+            "composite": 2.59
+          }
+        ],
+        "rocky": [
+          {
+            "ewe": "bambii",
+            "composite": 3.81
+          },
+          {
+            "ewe": "tag-31-ewe-p5",
+            "composite": 3.66
+          },
+          {
+            "ewe": "cocoas-daughter-by-loki",
+            "composite": 3.53
+          },
+          {
+            "ewe": "tag-114-fawn-wool",
+            "composite": 3.09
+          },
+          {
+            "ewe": "gg",
+            "composite": 2.68
+          }
+        ]
+      },
+      "unassigned": [],
+      "weighting": "0.35 parasite + 0.20 coat + 0.15 inbreeding + 0.20 meat + 0.10 milk"
     }
   ]
 }
