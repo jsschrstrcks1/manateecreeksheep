@@ -8427,7 +8427,7 @@
         "coat_prediction": "hair"
       },
       "color_markings": "Brown & white, white tail, blk patches on legs. White face with brown patches around eyes. Brown back with white patches.",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": "buck",
       "dam_id": "charlies-ewe",
@@ -8541,7 +8541,13 @@
         "MC-2612"
       ],
       "description": "Brown + white with white tail. Black patches on legs. Primarily white face with brown patches around eyes. Brown back with white patches.",
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09",
+      "notes_history": [
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
+        }
+      ]
     },
     {
       "id": "baby-azure",
@@ -8558,7 +8564,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Blk legs, ears, face. Lighter body.",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": null,
       "dam_id": "azure",
@@ -8680,7 +8686,13 @@
         "26010"
       ],
       "description": "Black legs, ears, face; lighter body",
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09",
+      "notes_history": [
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
+        }
+      ]
     },
     {
       "id": "tag-0033-hair-ewe",
@@ -9796,7 +9808,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Big brown, white tip on tail, 2 white socks, white on crown, front legs all brown",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": "charlie-ram",
       "dam_id": "charlies-farm-ewe-p3",
@@ -9911,7 +9923,13 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): LEFT side of the hay cage (owner correction 2026-04-26 to earlier Claude assumption that placed her near her dam on the right)"
         ]
       },
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09",
+      "notes_history": [
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
+        }
+      ]
     },
     {
       "id": "broken-tail-twin-ewe",
@@ -9925,7 +9943,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Brown & white",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": null,
       "dam_id": "broken-tail",
@@ -10025,6 +10043,10 @@
         {
           "date": "2026-04-22",
           "note": "KEPT: Owner clarified BT_WHITE twin (MC-2601) goes to auction, brown twin (MC-2605) stays despite 4-9 FAMACHA 5."
+        },
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
       "visual_id": {
@@ -10039,7 +10061,7 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): just to the right of the hay cage"
         ]
       },
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09"
     },
     {
       "id": "broken-tail-twin-ewe-2",
@@ -10154,7 +10176,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Brown & white mottled, full white tail, white on top of ears, white blaze",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": null,
       "dam_id": "nori",
@@ -10276,7 +10298,13 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): right side of image, lying parallel to dam Nori — only his head is visible above Nori's hindquarters"
         ]
       },
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09",
+      "notes_history": [
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
+        }
+      ]
     },
     {
       "id": "gigi-2026-baby",
@@ -10291,7 +10319,7 @@
         "notes": "Sire Kelsier (100% Katahdin). Dam Gigi (unknown breed). Multi color."
       },
       "color_markings": "Multi color ewe",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "gg",
@@ -10395,9 +10423,13 @@
         {
           "date": "2026-04-22",
           "note": "Owner directive: move Pen 4 -> Pen 3 (Stage 1 intake), mate to Charlie when she cycles fall 2026. RATIONALE: dam Gigi has 3x FAMACHA 5 history (now flagged pet, never leaves) but Gigi's Baby herself is only ONE borderline event (FAM 3 on 4-10) on otherwise clean record (avg 1.75). Calculated test breeding: Charlie's Kat hair genetics shore up potential weakness; if her lambs are clean she earns Pen 5 next year, if she crashes herself or her lambs do she's culled. Better than indefinite Pen 4 infirmary hold."
+        },
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09"
     },
     {
       "id": "gigi-2025-ram",
@@ -10813,7 +10845,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Black",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": "kelsier",
       "dam_id": "serendipity",
@@ -10960,9 +10992,13 @@
         {
           "date": "2026-04-22",
           "note": "Scheduled for 4-26-26 auction. Black ewe twin of Serendipity — two FAMACHA 5 emergencies as lamb (2-12, 4-10). Owner keeping white ram twin MC-2606 for line test."
+        },
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09"
     },
     {
       "id": "fm2-0051",
@@ -11355,7 +11391,7 @@
       "name": "Elsie Large White Ewe Triplet",
       "tag": "MC-2618",
       "sex": "ewe",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": "nori-son",
       "dam_id": "elsie",
@@ -11433,6 +11469,10 @@
         {
           "date": "2026-04-22",
           "note": "CONDITIONAL CULL: Kept for now (largest of 3 triplets). Sire Eclipse (subfertile except with Elsie). If she throws bad babies, she's gone too — evaluate at her first lambing."
+        },
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
       "conditional_cull": {
@@ -11442,7 +11482,7 @@
         "set_by": "owner directive"
       },
       "confidence": "medium",
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09"
     },
     {
       "id": "elsie-triplet-sm-white-ewe",
@@ -12317,7 +12357,7 @@
       "name": "0035 Baby Ram",
       "tag": "MC-2617",
       "sex": "ram_lamb",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": "buck",
       "dam_id": "tag-0035-white-ewe",
@@ -12382,7 +12422,13 @@
       "secondary_tags": [],
       "description": "White with brown on front legs",
       "confidence": "medium",
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09",
+      "notes_history": [
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
+        }
+      ]
     },
     {
       "id": "tag-31-orange-tf",
@@ -12555,7 +12601,7 @@
       "name": "Bambiis Baby",
       "tag": "MC-2615",
       "sex": "ewe",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "status": "alive",
       "sire_id": "buck",
       "dam_id": "bambii",
@@ -12645,7 +12691,13 @@
       },
       "mc_tag": "MC2615",
       "description": "All white with shadow on knees. Eyes with perfect circles around them. Grey and black spots on ear.",
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-06-09",
+      "notes_history": [
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
+        }
+      ]
     },
     {
       "id": "goose-09",
@@ -12739,7 +12791,7 @@
       "dam_id": "tag-0053-ewe",
       "status": "alive",
       "status_date": "2026-03-24",
-      "pen": "Goose Pen",
+      "pen": "Pen 2",
       "measurements": {},
       "health": {
         "famacha_scores": [
@@ -12790,12 +12842,16 @@
       },
       "notes": "Born 3-24-26 to 0053 in Pen 1. Sire: Rocky. Black w/ white patch on top, white tip tail. Eyes good 4-9-26. 1st CDT shot 4-9. TOO YOUNG TO WEAN (16 days old on 4-9). Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "confidence": "high",
-      "last_verified": "2026-05-14",
+      "last_verified": "2026-06-09",
       "description": "Black with tan ear. White patch on top. White tip on tail.",
       "notes_history": [
         {
           "source": "user clarification",
           "note": "dam is ewe 0053 (no name)."
+        },
+        {
+          "date": "2026-06-09",
+          "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ]
     },
@@ -13484,7 +13540,8 @@
           "PRIME TIME (JM 9-36)",
           "THE OLD MAN (SBR 1154)",
           "PURE POWER (COR 05-22)"
-        ]
+        ],
+        "nsip_note": "Owner 2026-06-09: 'Some of the rams in his pedigree have NSIP numbers too.' NSIP data could provide EBVs (Estimated Breeding Values) for parasite resistance, growth, milk, etc. on notable ancestors — particularly worth checking on CENTRALIA (SHU 3320), ZAC BROWN (SRS 294), 20 GRAND (LHB 20), PRIME TIME (JM 9-36), THE OLD MAN (SBR 1154), and PURE POWER (COR 05-22)."
       },
       "sex": "ram",
       "breed_composition": {
@@ -13569,7 +13626,8 @@
           "SIXTEEN TONS (JM 8-16)",
           "THOR OLYMPUS (POY 61)",
           "THE OLD MAN (SBR 1154)"
-        ]
+        ],
+        "nsip_note": "Per owner 2026-06-09: NSIP numbers may exist for pedigree ancestors. Check SIXTEEN TONS (JM 8-16), THOR OLYMPUS (POY 61), THE OLD MAN (SBR 1154 — same as sire-side, possible shared ancestor enrichment)."
       },
       "breed_composition": {
         "primary": "Katahdin",
@@ -13648,8 +13706,8 @@
       "dam_id": "centralia-dam-181084x",
       "status": "alive",
       "status_date": "2026-06-09",
-      "status_notes": "Purchased 2026-06-09. Brought home / coming home. Pen TBD.",
-      "pen": null,
+      "status_notes": "Purchased 2026-06-09. Added to Pen 2 (kept-lambs grow-out pen) with the rest of the kept lambs. No quarantine.",
+      "pen": "Pen 2",
       "acquisition": {
         "date": "2026-06-09",
         "type": "purchase, no quarantine — direct integration",
@@ -13701,7 +13759,13 @@
         "sex": "ram lamb (confirmed)"
       },
       "weaning_date": "2026-05-15",
-      "tag_pending_read": true
+      "tag_pending_read": true,
+      "notes_history": [
+        {
+          "date": "2026-06-09",
+          "note": "Placed in Pen 2 on arrival. Joins kept-lambs grow-out cohort. No quarantine per owner."
+        }
+      ]
     }
   ],
   "pens": {
@@ -13756,44 +13820,22 @@
     },
     "pen_2": {
       "ram": null,
-      "ewes": [
-        "little-daisy"
+      "ewes": [],
+      "lambs": [
+        "tag-0053-baby-ewe",
+        "baby-azure",
+        "nori-baby-p3",
+        "gigi-2026-baby",
+        "elsie-triplet-lg-white-ewe",
+        "tag-0035-baby-ewe",
+        "broken-tail-twin-ewe",
+        "serendipity-twin-ewe",
+        "bambii-baby",
+        "charlies-ram-lamb",
+        "charlies-farm-ewe-baby-p3",
+        "centralia-lamb-2026"
       ],
-      "lambs": [],
-      "unidentified": [
-        {
-          "observed": "2026-04-24",
-          "phenotype": "Adult ewe, clean WHITE face with PINK nose, cream/off-white wool body, medium-small frame, no visible horns, needs shearing",
-          "pen_context": "Pen 2 photo set (3 images, 2026-04-24) shows this ewe beside Rocky. Owner does not currently know her identity — ruled out 0053. Pink nose suggests spot gene in her coloration (owner note).",
-          "confidence": "low",
-          "next_step": "Eyeball ear tag at next pen handling; compare against Pen 1 roster (tag-0044-wool-ewe has no color description on record) and any ewes whose pen is unassigned.",
-          "plan_rebuild_evaluation": {
-            "date_evaluated": "2026-04-24",
-            "status": "HOLD — identity unknown, full evaluation deferred",
-            "photo_visible_only": {
-              "breeding_soundness": "Ambulatory, standing normally in 3 photos, calm near Rocky, no obvious lameness or injury. Adult ewe frame — sexually mature. Cannot assess fertility history until identified.",
-              "conformation": "Medium-small frame, upright ears, clean white legs. Body condition OBSCURED by heavy unshorn wool — BCS cannot be scored reliably. Needs shearing before any weight/condition assessment.",
-              "health_parasite": "Cannot assess. No FAMACHA history retrievable without identity. Visible eye color / mucous-membrane color not assessable from photos at this range.",
-              "meat_potential": "Cannot assess without breed composition. Medium frame visually does not suggest a heavy meat phenotype (unlike Rocky).",
-              "milk_potential": "Cannot assess without pedigree.",
-              "wool_management_burden": "POOR for hair-coat goal — clearly wool, needs shearing. Same wool burden as Rocky. If her genetics feed into the flock, her wool is heritable.",
-              "hybrid_vigor": "Cannot assess without breed composition.",
-              "spot_gene": "Owner observation (2026-04-24): pink nose indicates spot-coloration gene carrier. Mild genetic-diversity positive but not a trait we actively select for."
-            },
-            "plan_recommendation": {
-              "verdict": "DO NOT include in any rebuilt plan until identified.",
-              "reasoning": "Unknown pedigree, unknown parasite history, unknown age. Any breeding recommendation would violate non-negotiable rule 2 ('NEVER invent data') and priority #1 (parasite resistance — which cannot be verified without FAMACHA history). She's also currently penned with a ram (Rocky) — if she conceives before ID, her lamb's sire will be known but her own lineage will still be unresolved.",
-              "immediate_action": "Tag-check at next handling. If no ear tag, consider a new MC-series tag + new sheep record. Pull any notebook cards referencing a white-faced pink-nosed wool ewe that don't match an already-identified animal."
-            },
-            "open_questions_for_owner": [
-              "When will she be in handling chute next? (Dictates resolution timeline.)",
-              "Any recent notebook cards from Pen 2 that mention a ewe other than 0053?",
-              "Did any Pen-1 or Pen-4 roster animal get moved to Pen 2 recently?"
-            ]
-          }
-        }
-      ],
-      "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references '0053 (tag 0053, white hair ewe)' — 's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed — Merrie has the breeding role. | 2026-05-21: Lara's 2026 lamb born today (DOB 2026-05-21), Lara x Kelsier, piebald ewe lamb. Stays in pen with dam.",
+      "notes": "Pen 2 as of 2026-04-24 — 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed — her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here — already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references '0053 (tag 0053, white hair ewe)' — 's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed — Merrie has the breeding role. | 2026-05-21: Lara's 2026 lamb born today (DOB 2026-05-21), Lara x Kelsier, piebald ewe lamb. Stays in pen with dam. | 2026-06-09: Pen 2 = kept-lambs grow-out pen. All prior wean-batch lambs from Goose Pen moved here. New Centralia ram lamb (centralia-lamb-2026) added direct from purchase (no quarantine per owner).",
       "treatments": [
         {
           "date_start": "2026-02-21",
@@ -13815,7 +13857,8 @@
           "vaccine": "CDT booster — 4 babies 2nd shot + 4 adults tagged",
           "source": "IMG_0674"
         }
-      ]
+      ],
+      "function": "Kept-lambs grow-out pen (post-weaning, pre-breeding)."
     },
     "pen_5": {
       "ram": "angus",
@@ -13931,20 +13974,8 @@
     "goose_pen": {
       "ram": null,
       "ewes": [],
-      "lambs": [
-        "tag-0053-baby-ewe",
-        "baby-azure",
-        "nori-baby-p3",
-        "gigi-2026-baby",
-        "elsie-triplet-lg-white-ewe",
-        "tag-0035-baby-ewe",
-        "broken-tail-twin-ewe",
-        "serendipity-twin-ewe",
-        "bambii-baby",
-        "charlies-ram-lamb",
-        "charlies-farm-ewe-baby-p3"
-      ],
-      "notes": "Weaning pen as of 2026-05-14. Holds gigi-2025-ram (displaced from Pen 4 when Charlie moved in) plus 14-lamb wean batch. The 3 most recently born lambs (OAV 2222 twins, 114 Black Ram Lamb) stayed with mothers. | 2026-05-21: Auction sweep — gigi-2025-ram, serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold. | 2026-05-21 CORRECTION: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb restored to roster — they were NOT sold (operator clarified: only mature rams sold that day). | 2026-05-21 RE-CONFIRMED: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold at auction (ram lambs).",
+      "lambs": [],
+      "notes": "Weaning pen as of 2026-05-14. Holds gigi-2025-ram (displaced from Pen 4 when Charlie moved in) plus 14-lamb wean batch. The 3 most recently born lambs (OAV 2222 twins, 114 Black Ram Lamb) stayed with mothers. | 2026-05-21: Auction sweep — gigi-2025-ram, serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold. | 2026-05-21 CORRECTION: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb restored to roster — they were NOT sold (operator clarified: only mature rams sold that day). | 2026-05-21 RE-CONFIRMED: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold at auction (ram lambs). | 2026-06-09: Goose Pen EMPTY. All prior wean-batch lambs moved to Pen 2 (kept-lambs grow-out pen).",
       "additional_residents": []
     },
     "tree_fort": {
@@ -14848,6 +14879,22 @@
         "2517"
       ],
       "candidate_pool": "Green tag (MC-26xx) ram lambs still in DB: MC2604 (nori-baby-p3, Pen 3->Goose), MC2608/2609 (tag-0033 twins — already sold prior), MC2612 (charlies-ram-lamb secondary tag, MC2619 primary), MC2617 (tag-0035-baby-ewe — id mis-named: actually a ram lamb), MC2619 (charlies-ram-lamb)."
+    },
+    {
+      "date": "2026-06-09",
+      "type": "research-todo",
+      "issue": "NSIP EBV data may be available for centralia-lamb-2026's pedigree ancestors (owner observation 2026-06-09).",
+      "action": "Look up NSIP records (via http://nsip.org or KHSI database) for the named ancestors and back-fill EBVs (FEC, ADG, etc.) onto sire/dam records. Inform breeding plans once retrieved.",
+      "lookup_list": [
+        "CENTRALIA SHU 3320",
+        "ZAC BROWN SRS 294",
+        "20 GRAND LHB 20",
+        "PRIME TIME JM 9-36",
+        "THE OLD MAN SBR 1154",
+        "PURE POWER COR 05-22",
+        "SIXTEEN TONS JM 8-16",
+        "THOR OLYMPUS POY 61"
+      ]
     }
   ],
   "breeding_plans": [
