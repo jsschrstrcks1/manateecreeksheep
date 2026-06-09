@@ -13622,11 +13622,11 @@
     },
     {
       "id": "centralia-lamb-2026",
-      "name": "Centralia Lamb (purchased 2026-06-09)",
+      "name": "Centralia Ram Lamb (purchased 2026-06-09)",
       "aliases": [],
-      "tag": null,
+      "tag": "[UNKNOWN — has a tag but number not yet recorded]",
       "mc_tag": null,
-      "sex": "unknown",
+      "sex": "ram_lamb",
       "on_farm": true,
       "breed_composition": {
         "primary": "Katahdin",
@@ -13642,7 +13642,7 @@
       },
       "color_markings": "WHITE / cream hair coat (slick, no fleece). Visible in photos: grazing in tall grass (photo_white_lamb_grazing) and rear view (photo_white_lamb_rear). Young lamb — fairly small body, but solidly standing.",
       "weight_lbs": null,
-      "dob": null,
+      "dob": "2026-03-06",
       "dob_approximate": true,
       "sire_id": "centralia-ram-214168",
       "dam_id": "centralia-dam-181084x",
@@ -13652,10 +13652,11 @@
       "pen": null,
       "acquisition": {
         "date": "2026-06-09",
-        "type": "purchase",
+        "type": "purchase, no quarantine — direct integration",
         "prior_owner": "Zack Clark (sire's owner)",
         "registry_eligible": true,
-        "note": "Purchased as a young Purebred Katahdin lamb. Both parents KHSI registered."
+        "note": "Purchased as a young Purebred Katahdin lamb. Both parents KHSI registered.",
+        "weaned_before_transport": true
       },
       "measurements": {},
       "health": {
@@ -13669,6 +13670,11 @@
             "date": "2026-06-09",
             "source": "owner photo 2026-06-09",
             "note": "Healthy-appearing lamb at time of purchase. No visible health concerns in photos."
+          },
+          {
+            "date": "2026-06-09",
+            "source": "owner verbal 2026-06-09",
+            "note": "Weaned 2026-05-15 (~25 days before purchase). Healthy. No quarantine planned. Has an ear tag but number pending read."
           }
         ]
       },
@@ -13685,14 +13691,17 @@
           "photo_adult_ram_or_lamb_1.jpg (grazing)"
         ]
       },
-      "notes": "Purchased 2026-06-09 from Zack Clark. 100% Katahdin (both parents registered Purebred Katahdin, KHSI eligible). Sire centralia-ram-214168 (BZE 0001), Dam centralia-dam-181084x (SRM 46). BREEDING SIGNIFICANCE: pure Katahdin lamb from registered parents — direct successor to Kelsier (deceased) for the parasite-resistance breeding line, once mature. PENDING: sex confirmation, DOB, tag assignment, pen assignment, weight.",
+      "notes": "Purchased 2026-06-09 from Zack Clark. 100% Katahdin (both parents registered Purebred Katahdin, KHSI eligible). Sire centralia-ram-214168 (BZE 0001), Dam centralia-dam-181084x (SRM 46). Sex: ram lamb. Weaned 2026-05-15 — DOB estimated early-March 2026 based on ~10-wk weaning age. Has an ear tag but number not yet read. No quarantine — direct integration. BREEDING SIGNIFICANCE: pure Katahdin RAM LAMB from registered parents — direct future-sire successor to Kelsier (deceased) for the parasite-resistance breeding line. Breeding-age (>=9 mo) reachable ~Dec 2026 — could enter first mating cycle late 2026 / early 2027. PENDING: tag number read, pen assignment, weight at first handling, KHSI registration filing.",
       "confidence": "high",
       "last_verified": "2026-06-09",
       "visual_id": {
         "coat": "White / cream hair coat, slick, no fleece — characteristic Katahdin",
-        "size": "Young lamb, fairly small but solidly standing",
-        "tell": "First registered-Katahdin animal in the flock since Kelsier."
-      }
+        "size": "Ram lamb, ~3 months old at purchase (weaned May 15). Solid stance, healthy frame.",
+        "tell": "First registered-Katahdin animal in the flock since Kelsier.",
+        "sex": "ram lamb (confirmed)"
+      },
+      "weaning_date": "2026-05-15",
+      "tag_pending_read": true
     }
   ],
   "pens": {
