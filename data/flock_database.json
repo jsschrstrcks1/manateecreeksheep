@@ -4219,6 +4219,11 @@
             "date": "2026-05-21",
             "source": "owner verbal 2026-05-21",
             "note": "Pretty much out of milk now (no infection). Lambs almost completely on grain since day 3 of life. Lara is essentially functioning as a non-lactating dam already. STRONG MILK-YIELD FLAG for breeding-program review."
+          },
+          {
+            "date": "2026-05-21",
+            "source": "owner clarification 2026-05-21",
+            "note": "REVISION on prior 'low milk' flag: this is NEW to her 2026 lambing. 2023 twins Oliver + Spicy thrived on her milk (both reached ~153 lb adult weight). Most likely cause is age (~8 yr) or one-off environmental factor rather than genetic. Track in any future lambing but do not weight as a heritable strike against her line."
           }
         ],
         "famacha_history": [
@@ -4346,9 +4351,10 @@
       "breeding_flags": [
         {
           "date": "2026-05-21",
-          "flag": "LOW MILK YIELD",
-          "evidence": "May 2026 twins: dam pretty much out of milk by day 3-4; lambs hand-raised on grain. No mastitis or infection — appears to be intrinsic capacity.",
-          "implication": "Re-breeding decision requires either (a) accept hand-rearing burden, (b) foster lambs to a better-milk dam, or (c) cull from breeding program. Parasite-resistance contribution from Kelsier-line still valuable; mothering ability is the limiting trait."
+          "flag": "NEW 2026 LOW MILK — possibly NOT heritable",
+          "evidence": "May 2026 twins: dam pretty much out of milk by day 3-4; lambs hand-raised on grain. No mastitis or infection. HOWEVER prior 2023 lambing (twins Oliver + Spicy by Sir Loin) raised both lambs to ~153 lb adult weight — clear evidence that her milk was adequate then. Lara is now ~8 years old (DOB 2018), so age + environmental factors are the most likely cause, not heritable low yield.",
+          "implication": "Owner assessment 2026-05-21: doubts heritability given 2023 history. Worth tracking but not a strong cull/foster signal. Re-breeding next cycle is reasonable; supervise lambing and have grain supplementation ready. If a SECOND season of low milk recurs, then revisit the heritability question.",
+          "updated": "2026-05-21"
         }
       ]
     },
@@ -14865,9 +14871,9 @@
         "confidence": "medium-high"
       },
       "milk_potential": {
-        "rating": "VERY LOW — LIKELY HERITABLE LOW-YIELD RISK",
-        "narrative": "BIG FLAG. Dam (lara-2026-lamb) inherits Lara's low-milk genetics; milk yield is moderately heritable (~0.2-0.3). 12.5% Awassi in offspring too dilute to rescue. Risk: this future ewe lamb is also a poor mother. Strongly recommend tracking dam's first lambing milk performance before using offspring in breeding line.",
-        "confidence": "medium"
+        "rating": "MEDIUM — most likely NOT heritable risk",
+        "narrative": "REVISED 2026-05-21 per owner clarification. Lara's low-milk issue is NEW to her 2026 lambing (no prior issue: 2023 twins Oliver+Spicy both raised to ~153 lb on her milk). Likely age or one-off environmental, NOT heritable. 12.5% Awassi in offspring (the milky breed at any concentration) provides some additional buffer — operator's note: 'the Awassi genes should possibly balance it.' Probabilistic risk: low. Still worth tracking lara-2026-lamb's first lambing performance before breeding her further.",
+        "confidence": "medium (depends on whether 2026 low milk recurs in Lara's next lambing)"
       },
       "inbreeding_risk": {
         "rating": "LOW overall, MEDIUM-LOW with one watch-item",
@@ -14887,9 +14893,11 @@
       "decision_flags": [
         "Track lara-2026-lamb's FAMACHA at weaning and onward — her own parasite-resistance expression is the deciding factor.",
         "Verify Angus's Katahdin pedigree (breeding page) to rule out distant Katahdin overlap with Kelsier line.",
-        "Low-milk inheritance is the largest risk; consider not breeding lara-2026-lamb AT ALL until Lara's milk-yield genetics are better characterized."
+        "Milk-yield risk substantially downgraded 2026-05-21 — Lara's 2023 record confirms adequate milk. Monitor any future Lara lambing for recurrence before revisiting heritability concern."
       ],
-      "overall_assessment": "Genetically interesting trait-stack (resistance + meat + hair coat) but milk inheritance is a real risk and dam's own resistance expression is unknown. Defer the decision until weaning evaluations are available. Rated AFTER OAV2222 × Angus (which has none of these flags)."
+      "overall_assessment": "REVISED 2026-05-21. Milk-risk downgraded from VERY LOW/heritable to MEDIUM/probably-not-heritable per owner: Lara raised her 2023 twins to adult weight without issue, so the 2026 dry-up is likely age or environmental, not genetic. Cross is now a strong candidate — moves up the ranking. Decision still benefits from waiting for weaning evaluations on lara-2026-lamb's own FAMACHA expression and from confirming Angus's Katahdin pedigree to rule out distant overlap.",
+      "revised_on": "2026-05-21",
+      "revision_reason": "Operator clarified Lara's 2026 low-milk is new this year (not historical); 2023 twins thrived on her milk to adult weight ~153 lb each."
     }
   ]
 }
