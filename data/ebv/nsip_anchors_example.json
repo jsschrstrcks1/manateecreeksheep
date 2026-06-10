@@ -1,0 +1,16 @@
+{
+  "_comment": "NSIP anchor file. Each key is a sheep_id from data/flock_database.json. Values are EBVs for the trait codes (see scripts/ebv/traits.py). Positive values = better than average. Use this file as a TEMPLATE — fill with actual NSIP EBVs once retrieved.",
+  "_traits": "PR=Parasite Resistance | WWT=Weaning Weight | PWT=Post-Weaning Weight | ADG=Average Daily Gain | NLW=Lambs Weaned per Lambing",
+  "_example": "Below are PLACEHOLDER values — these are NOT real NSIP EBVs. Replace with actuals once retrieved from KHSI/NSIP database.",
+  "centralia-ram-214168": {
+    "PR": 0.45,
+    "WWT": 3.2,
+    "PWT": 4.1,
+    "ADG": 0.05
+  },
+  "centralia-dam-181084x": {
+    "PR": 0.30,
+    "WWT": 2.1,
+    "NLW": 0.15
+  }
+}
