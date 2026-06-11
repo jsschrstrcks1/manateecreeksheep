@@ -14080,6 +14080,108 @@
       },
       "nsip_ebvs": {
         "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 58,
+        "flocks_represented": 5,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.177,
+            "se": 0.17,
+            "acc": 85,
+            "rank": 30
+          },
+          "MBWT": {
+            "val": -0.294,
+            "se": null,
+            "acc": 88,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": -0.047,
+            "se": 1.25,
+            "acc": 80,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": -0.24,
+            "se": null,
+            "acc": 82,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -0.14,
+            "se": 2.02,
+            "acc": 79,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -0.119,
+            "se": 2.28,
+            "acc": 71,
+            "rank": 5
+          },
+          "HWT": {
+            "val": -0.467,
+            "se": null,
+            "acc": 66,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.849,
+            "se": 1.03,
+            "acc": 68,
+            "rank": 90
+          },
+          "PEMD": {
+            "val": -0.386,
+            "se": 0.9,
+            "acc": 53,
+            "rank": 20
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -11.3,
+            "se": null,
+            "acc": 46,
+            "rank": 25
+          },
+          "PFEC": {
+            "val": -0.425,
+            "se": null,
+            "acc": 52,
+            "rank": "-"
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.096,
+            "se": null,
+            "acc": 72,
+            "rank": "<5"
+          },
+          "NLB": {
+            "val": -0.064,
+            "se": null,
+            "acc": 66,
+            "rank": "<5"
+          },
+          "NLW": {
+            "val": 98.9,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped from digitalovine.com 2026-06-11"
+      },
+      "notes": "87730 SHU 3320 CENTRALIA. Line founder of the 'Centralia' Katahdin bloodline. Off-farm. Ancestor of centralia-ram-214168 (sire of our purchased lamb).",
+      "confidence": "high",
+      "last_verified": "2026-06-11",
+      "nsip_ebvs_prior": {
+        "snapshot_date": "2025-09-22",
         "as_active_sire": true,
         "progeny_evaluated": 58,
         "flocks_represented": 5,
@@ -14168,10 +14270,7 @@
           "rank": "<5"
         },
         "source": "Owner-supplied NSIP detail screen 2025-09-22"
-      },
-      "notes": "87730 SHU 3320 CENTRALIA. Line founder of the 'Centralia' Katahdin bloodline. Off-farm. Ancestor of centralia-ram-214168 (sire of our purchased lamb).",
-      "confidence": "high",
-      "last_verified": "2026-06-11"
+      }
     },
     {
       "id": "centralia-founder-sire-81385",
@@ -14223,6 +14322,96 @@
       },
       "source_refs": {},
       "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 33,
+        "flocks_represented": 2,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.014,
+            "se": 0.2,
+            "acc": 78,
+            "rank": 15
+          },
+          "MBWT": {
+            "val": -0.439,
+            "se": null,
+            "acc": 91,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": -1.22,
+            "se": 1.49,
+            "acc": 77,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": -0.416,
+            "se": null,
+            "acc": 86,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -2.316,
+            "se": 2.02,
+            "acc": 78,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -2.276,
+            "se": 2.56,
+            "acc": 69,
+            "rank": "<5"
+          },
+          "HWT": {
+            "val": -2.239,
+            "se": null,
+            "acc": 62,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 28.89,
+            "se": null,
+            "acc": 43,
+            "rank": 5
+          },
+          "PEMD": {
+            "val": -0.384,
+            "se": null,
+            "acc": 47,
+            "rank": "-"
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -0.003,
+            "se": null,
+            "acc": 69,
+            "rank": 5
+          },
+          "PFEC": {
+            "val": 0.039,
+            "se": null,
+            "acc": 63,
+            "rank": "<5"
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 100.55,
+            "se": null,
+            "acc": 5,
+            "rank": null
+          }
+        },
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped from digitalovine.com 2026-06-11"
+      },
+      "notes": "81385 SHU 2132. CENTRALIA's (87730) sire. Source: 'Sire' row of CENTRALIA NSIP detail screen.",
+      "confidence": "medium",
+      "last_verified": "2026-06-11",
+      "nsip_ebvs_prior": {
         "snapshot_date": "2025-09-22",
         "progeny_evaluated": 33,
         "flocks_represented": 2,
@@ -14296,10 +14485,7 @@
           "val": 100.55,
           "rank": 5
         }
-      },
-      "notes": "81385 SHU 2132. CENTRALIA's (87730) sire. Source: 'Sire' row of CENTRALIA NSIP detail screen.",
-      "confidence": "medium",
-      "last_verified": "2026-06-11"
+      }
     },
     {
       "id": "zac-brown-146843",
@@ -14358,6 +14544,111 @@
       },
       "source_refs": {},
       "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 204,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.211,
+            "se": 0.12,
+            "acc": 94,
+            "rank": 35
+          },
+          "MBWT": {
+            "val": -0.299,
+            "se": null,
+            "acc": 89,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": 1.128,
+            "se": 0.91,
+            "acc": 92,
+            "rank": 20
+          },
+          "MWWT": {
+            "val": -0.115,
+            "se": null,
+            "acc": 79,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": 2.573,
+            "se": 1.23,
+            "acc": 93,
+            "rank": 30
+          },
+          "YWT": {
+            "val": 2.423,
+            "se": 1.92,
+            "acc": 81,
+            "rank": 35
+          },
+          "HWT": {
+            "val": 1.651,
+            "se": null,
+            "acc": 74,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.165,
+            "se": 0.92,
+            "acc": 72,
+            "rank": 60
+          },
+          "PEMD": {
+            "val": -0.103,
+            "se": 0.9,
+            "acc": 52,
+            "rank": 45
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -24.31,
+            "se": null,
+            "acc": 50,
+            "rank": 40
+          },
+          "PFEC": {
+            "val": 32.61,
+            "se": null,
+            "acc": 38,
+            "rank": 15
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.539,
+            "se": null,
+            "acc": 58,
+            "rank": "-"
+          },
+          "NLB": {
+            "val": -0.057,
+            "se": null,
+            "acc": 69,
+            "rank": "<5"
+          },
+          "NLW": {
+            "val": -0.037,
+            "se": null,
+            "acc": 62,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 99.53,
+          "rank": "<5"
+        },
+        "source": "Auto-scraped from digitalovine.com 2026-06-11"
+      },
+      "notes": "146843 SRS 294 ZAC BROWN. Son of CENTRALIA (87730). Larger frame than his sire (positive weight traits). Strong parasite resistance (WFEC -24.31). Appears in centralia-ram-214168's pedigree path (BZE 0001).",
+      "confidence": "high",
+      "last_verified": "2026-06-11",
+      "nsip_ebvs_prior": {
         "snapshot_date": "2025-09-22",
         "as_active_sire": true,
         "progeny_evaluated": 204,
@@ -14452,10 +14743,7 @@
           "val": 99.53,
           "rank": "<5"
         }
-      },
-      "notes": "146843 SRS 294 ZAC BROWN. Son of CENTRALIA (87730). Larger frame than his sire (positive weight traits). Strong parasite resistance (WFEC -24.31). Appears in centralia-ram-214168's pedigree path (BZE 0001).",
-      "confidence": "high",
-      "last_verified": "2026-06-11"
+      }
     },
     {
       "id": "zwt-6295-dam-of-zac-brown",
@@ -14558,6 +14846,89 @@
       "source_refs": {},
       "nsip_ebvs": {
         "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 38,
+        "flocks_represented": 4,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.302,
+            "se": 0.2,
+            "acc": 79,
+            "rank": 50
+          },
+          "MBWT": {
+            "val": -0.343,
+            "se": null,
+            "acc": 80,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": -0.201,
+            "se": 1.49,
+            "acc": 76,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": 0.396,
+            "se": null,
+            "acc": 74,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -0.273,
+            "se": 2.02,
+            "acc": 76,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": 0.046,
+            "se": 2.56,
+            "acc": 64,
+            "rank": 5
+          },
+          "HWT": {
+            "val": -0.18,
+            "se": null,
+            "acc": 56,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 6.74,
+            "se": null,
+            "acc": 37,
+            "rank": 15
+          },
+          "PEMD": {
+            "val": -0.076,
+            "se": null,
+            "acc": 61,
+            "rank": "<5"
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -0.06,
+            "se": null,
+            "acc": 54,
+            "rank": "<5"
+          },
+          "PFEC": {
+            "val": 99.14,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped from digitalovine.com 2026-06-11"
+      },
+      "notes": "52391 LHB 20 20 GRAND. Appears in centralia-ram-214168's pedigree path.",
+      "confidence": "high",
+      "last_verified": "2026-06-11",
+      "nsip_ebvs_prior": {
+        "snapshot_date": "2025-09-22",
         "as_active_sire": true,
         "progeny_evaluated": 38,
         "flocks_represented": 4,
@@ -14625,10 +14996,7 @@
           "val": 99.14,
           "rank": "<5"
         }
-      },
-      "notes": "52391 LHB 20 20 GRAND. Appears in centralia-ram-214168's pedigree path.",
-      "confidence": "high",
-      "last_verified": "2026-06-11"
+      }
     },
     {
       "id": "twenty-grand-sire-placeholder",
