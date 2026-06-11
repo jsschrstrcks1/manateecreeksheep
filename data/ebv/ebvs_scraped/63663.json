@@ -1,0 +1,201 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": 1,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 101.16,
+          "se": null,
+          "acc": 20,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 101.16,
+          "se": null,
+          "acc": 20,
+          "rank": null
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    },
+    {
+      "role": "sire",
+      "progeny_evaluated": 21,
+      "flocks_represented": 2,
+      "raw_traits": {
+        "BWT": {
+          "val": 0.352,
+          "se": 0.23,
+          "acc": 63,
+          "rank": 60
+        },
+        "MBWT": {
+          "val": 0.036,
+          "se": null,
+          "acc": 51,
+          "rank": 25
+        },
+        "WWT": {
+          "val": 1.232,
+          "se": 1.67,
+          "acc": 60,
+          "rank": 20
+        },
+        "MWWT": {
+          "val": 0.514,
+          "se": null,
+          "acc": 44,
+          "rank": "<5"
+        },
+        "PWWT": {
+          "val": 1.787,
+          "se": 2.45,
+          "acc": 56,
+          "rank": 15
+        },
+        "YWT": {
+          "val": -0.627,
+          "se": 1.18,
+          "acc": 40,
+          "rank": 80
+        },
+        "HWT": {
+          "val": 3.64,
+          "se": null,
+          "acc": 37,
+          "rank": 20
+        },
+        "PFAT": {
+          "val": -13.91,
+          "se": null,
+          "acc": 37,
+          "rank": 40
+        },
+        "PEMD": {
+          "val": 0.062,
+          "se": null,
+          "acc": 32,
+          "rank": 25
+        },
+        "WFEC": {
+          "val": 0.065,
+          "se": null,
+          "acc": 28,
+          "rank": 30
+        },
+        "PFEC": {
+          "val": 101.54,
+          "se": null,
+          "acc": 20,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 0.352,
+          "se": 0.23,
+          "acc": 63,
+          "rank": 60
+        },
+        "MBWT": {
+          "val": 0.036,
+          "se": null,
+          "acc": 51,
+          "rank": 25
+        },
+        "WWT": {
+          "val": 1.232,
+          "se": 1.67,
+          "acc": 60,
+          "rank": 20
+        },
+        "MWWT": {
+          "val": 0.514,
+          "se": null,
+          "acc": 44,
+          "rank": "<5"
+        },
+        "PWWT": {
+          "val": 1.787,
+          "se": 2.45,
+          "acc": 56,
+          "rank": 15
+        },
+        "YWT": {
+          "val": -0.627,
+          "se": 1.18,
+          "acc": 40,
+          "rank": 80
+        },
+        "HWT": {
+          "val": 3.64,
+          "se": null,
+          "acc": 37,
+          "rank": 20
+        }
+      },
+      "carcass_traits": {
+        "PFAT": {
+          "val": -13.91,
+          "se": null,
+          "acc": 37,
+          "rank": 40
+        },
+        "PEMD": {
+          "val": 0.062,
+          "se": null,
+          "acc": 32,
+          "rank": 25
+        }
+      },
+      "parasite_resistance": {
+        "WFEC": {
+          "val": 0.065,
+          "se": null,
+          "acc": 28,
+          "rank": 30
+        },
+        "PFEC": {
+          "val": 101.54,
+          "se": null,
+          "acc": 20,
+          "rank": null
+        }
+      },
+      "reproduction": {}
+    },
+    {
+      "role": "dam",
+      "progeny_evaluated": 4,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 100.7,
+          "se": null,
+          "acc": 15,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 100.7,
+          "se": null,
+          "acc": 15,
+          "rank": null
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "63663",
+  "scraped_at": 1781185673
+}

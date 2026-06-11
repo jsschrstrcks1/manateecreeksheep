@@ -1,0 +1,79 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": 7,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 97.66,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 97.66,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    },
+    {
+      "role": "sire",
+      "progeny_evaluated": 211,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 97.9,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 97.9,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    },
+    {
+      "role": "dam",
+      "progeny_evaluated": 14,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 98.87,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 98.87,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "60275",
+  "scraped_at": 1781185651
+}

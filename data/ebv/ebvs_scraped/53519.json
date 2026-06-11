@@ -1,0 +1,31 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": 1,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 100.48,
+          "se": null,
+          "acc": 5,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 100.48,
+          "se": null,
+          "acc": 5,
+          "rank": null
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "53519",
+  "scraped_at": 1781185576
+}
