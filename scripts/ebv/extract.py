@@ -36,15 +36,29 @@ def _parse_famacha(val) -> float | None:
 
 
 def extract_parasite_resistance(db: dict) -> dict:
-    """Mean FAMACHA per sheep, INVERTED so higher = more resistant.
+    """Composite parasite-resistance phenotype, higher = more resistant.
 
-    FAMACHA ranges 1-5 (1 = healthy, 5 = severely anemic). We invert by
-    computing (5 - mean(FAMACHA)) so higher = better.
+    Combines two data sources, in priority order:
+
+    1. FEC (fecal egg count) from any source — direct measurement.
+       Lower FEC = better. We convert to inverted-log scale:
+           PR_from_fec = -log10(max(1, mean_FEC))
+       so 0 FEC ~ 0 (neutral), 100 -> -2, 1000 -> -3, etc., and we
+       negate again so higher = better: PR_from_fec = 5 - log10.
+
+    2. FAMACHA scores (1-5 scale, 1 = healthy). Inverted:
+           PR_from_famacha = (5 - mean(FAMACHA))
+
+    When both are present we average them (with weighting toward FEC,
+    which is the more sensitive measurement).
     """
+    import math
+
     out = {}
     for s in db["sheep"]:
         h = s.get("health") or {}
-        scores = []
+        # FAMACHA
+        famacha_scores = []
         for src in (h.get("famacha_scores") or [], h.get("famacha_history") or []):
             for entry in src:
                 if not isinstance(entry, dict):
@@ -52,9 +66,51 @@ def extract_parasite_resistance(db: dict) -> dict:
                 v = entry.get("score") or entry.get("famacha")
                 f = _parse_famacha(v)
                 if f is not None and 1.0 <= f <= 5.0:
-                    scores.append(f)
-        if scores:
-            out[s["id"]] = round(5.0 - mean(scores), 3)
+                    famacha_scores.append(f)
+        # FEC
+        fec_values = []
+        for src in (h.get("fec_history") or [],):
+            for entry in src:
+                if not isinstance(entry, dict):
+                    continue
+                v = entry.get("fec") or entry.get("FEC")
+                if isinstance(v, (int, float)) and v >= 0:
+                    fec_values.append(float(v))
+        # Also pull UF Ram Test direct values
+        urt = s.get("uf_ram_test")
+        if urt and isinstance(urt, dict):
+            avg = urt.get("fec_average")
+            if isinstance(avg, (int, float)):
+                fec_values.append(float(avg))
+            for r in urt.get("fec_readings", []):
+                if isinstance(r, dict) and isinstance(r.get("fec"), (int, float)):
+                    fec_values.append(float(r["fec"]))
+
+        # Compute components
+        components = []
+        if fec_values:
+            mean_fec = mean(fec_values)
+            # Higher = better, with log10 scaling. 0 FEC -> 5 (excellent), 200 -> ~2.7, 1000 -> ~2.0
+            pr_fec = 5.0 - math.log10(max(1.0, mean_fec))
+            components.append(("FEC", pr_fec, 2.0))  # double-weighted
+        if famacha_scores:
+            pr_fam = 5.0 - mean(famacha_scores)
+            components.append(("FAMACHA", pr_fam, 1.0))
+
+        # UF Ram Test Tx=0 bonus: under standardized parasite-challenge
+        # conditions, going through without treatment is far more
+        # diagnostic than any single FAMACHA check. Add +1.0 if Tx=0
+        # over a UF Ram Test run.
+        urt_bonus = 0.0
+        if urt and isinstance(urt, dict):
+            tx = urt.get("treatments")
+            if isinstance(tx, int) and tx == 0:
+                urt_bonus = 1.0
+
+        if components:
+            weighted_sum = sum(v * w for _, v, w in components)
+            total_w = sum(w for _, _, w in components)
+            out[s["id"]] = round(weighted_sum / total_w + urt_bonus, 3)
     return out
 
 

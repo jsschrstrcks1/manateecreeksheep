@@ -174,7 +174,12 @@
       "status_date": null,
       "status_notes": "",
       "pen": null,
-      "measurements": {},
+      "measurements": {
+        "birth_weight_lb": 10,
+        "wda_lb_day": 0.51,
+        "birth_to_weaning_adg_lb_day": 0.36,
+        "adult_weight_lb": 250
+      },
       "health": {
         "famacha_scores": [],
         "weak_resistance": false,
@@ -185,7 +190,118 @@
             "vaccine": "CDT"
           }
         ],
-        "notes": []
+        "notes": [],
+        "fec_history": [
+          {
+            "date": "2023-02-18",
+            "fec": 100,
+            "source": "UF Ram Test 2023"
+          },
+          {
+            "date": "2023-04-06",
+            "fec": 300,
+            "source": "UF Ram Test 2023"
+          },
+          {
+            "date": "2023-05-25",
+            "fec": 350,
+            "source": "UF Ram Test 2023"
+          },
+          {
+            "date": "2023-06-15",
+            "fec": 0,
+            "source": "UF Ram Test 2023"
+          },
+          {
+            "date": "2023-06-29",
+            "fec": 0,
+            "source": "UF Ram Test 2023"
+          },
+          {
+            "date": "2023-07-13",
+            "fec": 50,
+            "source": "UF Ram Test 2023"
+          },
+          {
+            "date": "2023-07-27",
+            "fec": 200,
+            "source": "UF Ram Test 2023"
+          },
+          {
+            "date": "2023-08-10",
+            "fec": 50,
+            "source": "UF Ram Test 2023"
+          },
+          {
+            "date": "2023-08-24",
+            "fec": 200,
+            "source": "UF Ram Test 2023"
+          }
+        ],
+        "famacha_proxy_from_fec": [
+          {
+            "date_range": "2023-02-18 to 2023-08-24",
+            "source": "UF Ram Test 2023 (Tx=0)",
+            "famacha_equivalent": "1-2",
+            "note": "FEC readings 0-350 (avg 157) with Tx=0 = animal was never anemic. FAMACHA proxy: 1-2 throughout test."
+          }
+        ],
+        "famacha_history": [
+          {
+            "date": "2023-02-18",
+            "score": "1-2",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
+            "note": "Derived from FEC < anemia threshold"
+          },
+          {
+            "date": "2023-04-06",
+            "score": "1-2",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
+            "note": "Derived from FEC < anemia threshold"
+          },
+          {
+            "date": "2023-05-25",
+            "score": "1-2",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
+            "note": "Derived from FEC < anemia threshold"
+          },
+          {
+            "date": "2023-06-15",
+            "score": "1-2",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
+            "note": "Derived from FEC < anemia threshold"
+          },
+          {
+            "date": "2023-06-29",
+            "score": "1-2",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
+            "note": "Derived from FEC < anemia threshold"
+          },
+          {
+            "date": "2023-07-13",
+            "score": "1-2",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
+            "note": "Derived from FEC < anemia threshold"
+          },
+          {
+            "date": "2023-07-27",
+            "score": "1-2",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
+            "note": "Derived from FEC < anemia threshold"
+          },
+          {
+            "date": "2023-08-10",
+            "score": "1-2",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
+            "note": "Derived from FEC < anemia threshold"
+          },
+          {
+            "date": "2023-08-24",
+            "score": "1-2",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
+            "note": "Derived from FEC < anemia threshold"
+          }
+        ]
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -201,7 +317,76 @@
       },
       "notes": "Most parasite resistant sheep in the flock. Deceased. Pure Katahdin. OAV 2223 = Kelsier = UF Ram Test. NSIP ID: 640301-2022-222223. Born as twin. Birth weight 10lbs, ADG 0.36. Received from OAV Sam Mushko, DVM (Oakvale Farm, DeLeon Springs FL) on 10-5-23. Ram weight 250lbs, ewe weight prediction 150lbs. UF Ram Test 2023: Ranked 5th of 40 rams, never dewormed (Tx=0), ADG=0.07 (test period), WDA=0.51, Avg FEC=157 (FEC Ratio=446.65), Overall Index=257.10. Individual FEC readings: 2-18-23: 100, 4-6-23: 300, 5-25-23: 350, 6-15-23: 0, 6-29-23: 0, 7-13-23: 50, 7-27-23: 200, 8-10-23: 50, 8-24-23: 200 (avg 138.9). CDT vaccinated 10-23-23. Attributes: Parasite Resistant, Heat/Cold/Wet Tolerant, Breed All Year. Sister OAV 2222 (alive). Sister tag 2241 (deceased). Sire of all pen 4 lambs (2026 lambing: Nori 1/25, Dorpy 1/30, FM 2/1, Tag 34 2/2, Serendipity twins 2/3). Also sire of Serendipity's Baby (036/Mc12).",
       "confidence": "high",
-      "last_verified": "2026-02-16"
+      "last_verified": "2026-02-16",
+      "uf_ram_test": {
+        "year": 2023,
+        "test_site": "University of Florida Ram Performance Test",
+        "rank": 5,
+        "rank_total": 40,
+        "rank_percentile": 87.5,
+        "treatments": 0,
+        "tx_zero_note": "Never dewormed during 90-day test — exceptional parasite resistance",
+        "wda_lb_day": 0.51,
+        "test_period_adg_lb_day": 0.07,
+        "birth_to_weaning_adg_lb_day": 0.36,
+        "birth_weight_lb": 10,
+        "fec_average": 157,
+        "fec_ratio": 446.65,
+        "fec_ratio_interpretation": "Per UF/NSIP convention: ratio of group mean / individual FEC × 100. Higher = MORE parasite resistant. Kelsier's 446.65 means his FEC was ~22% of group mean (4.5× better than average).",
+        "overall_index": 257.1,
+        "overall_index_interpretation": "Index 100 = test mean. 257.10 = exceptional (top tier).",
+        "fec_readings": [
+          {
+            "date": "2023-02-18",
+            "fec": 100
+          },
+          {
+            "date": "2023-04-06",
+            "fec": 300
+          },
+          {
+            "date": "2023-05-25",
+            "fec": 350
+          },
+          {
+            "date": "2023-06-15",
+            "fec": 0
+          },
+          {
+            "date": "2023-06-29",
+            "fec": 0
+          },
+          {
+            "date": "2023-07-13",
+            "fec": 50
+          },
+          {
+            "date": "2023-07-27",
+            "fec": 200
+          },
+          {
+            "date": "2023-08-10",
+            "fec": 50
+          },
+          {
+            "date": "2023-08-24",
+            "fec": 200
+          }
+        ],
+        "vaccination_after_test": {
+          "date": "2023-10-23",
+          "vaccine": "CDT"
+        },
+        "attributes": [
+          "Parasite Resistant",
+          "Heat Tolerant",
+          "Cold Tolerant",
+          "Wet Tolerant",
+          "Breed All Year"
+        ],
+        "received_at_farm": "2023-10-05",
+        "source": "Owner-supplied test results, structured 2026-06-10 from prior free-text notes"
+      }
     },
     {
       "id": "gg",

@@ -1,0 +1,6538 @@
+{
+  "computed_on": "2026-06-11",
+  "n_animals": 191,
+  "traits": {
+    "PR": {
+      "name": "Parasite Resistance",
+      "long_name": "Parasite resistance (composite from FAMACHA history)",
+      "h2": 0.25,
+      "units": "FAMACHA-score-inverted-deviation",
+      "direction": "higher_better"
+    },
+    "WWT": {
+      "name": "Weaning Weight",
+      "long_name": "60-day weaning weight",
+      "h2": 0.3,
+      "units": "lb",
+      "direction": "higher_better"
+    },
+    "PWT": {
+      "name": "Post-Weaning Weight",
+      "long_name": "120-day post-weaning weight",
+      "h2": 0.35,
+      "units": "lb",
+      "direction": "higher_better"
+    },
+    "ADG": {
+      "name": "Average Daily Gain",
+      "long_name": "Average daily gain birth-to-weaning",
+      "h2": 0.3,
+      "units": "lb/day",
+      "direction": "higher_better"
+    },
+    "NLW": {
+      "name": "Lambs Weaned per Lambing",
+      "long_name": "Number of lambs weaned per dam-lambing",
+      "h2": 0.1,
+      "units": "lambs",
+      "direction": "higher_better"
+    }
+  },
+  "nsip_anchors_used": [],
+  "ebvs": {
+    "almond-joy": {
+      "name": "Almond Joy",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "angus": {
+      "name": "Angus",
+      "sex": "ram",
+      "pen": "Pen 5",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "anna": {
+      "name": "Anna",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -1.1648,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0103,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "annas-big-one": {
+      "name": "Anna's Big One",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 10.2854,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0546,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "azure": {
+      "name": "Azure",
+      "sex": "ewe",
+      "pen": "Pen 1",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0065,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 13.3,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.02,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "baby": {
+      "name": "Baby",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 5.5733,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "baby-azure": {
+      "name": "Baby Azure",
+      "sex": "ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0931,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "baby-momma": {
+      "name": "Baby Momma",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "bambi": {
+      "name": "Bambi",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -23.9317,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "bambii": {
+      "name": "Bambii",
+      "sex": "ewe",
+      "pen": "Tree Fort",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0209,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "bambii-baby": {
+      "name": "Bambiis Baby",
+      "sex": "ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.2434,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 16.1826,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        }
+      }
+    },
+    "banana-split": {
+      "name": "Banana Split",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.25,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 37.1662,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0051,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "banana-split-baby": {
+      "name": "Banana Split Baby",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.375,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 49.056,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0025,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "bella": {
+      "name": "Bella",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "big-free-male": {
+      "name": "Big Free Male",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "bk1": {
+      "name": "Foxtail 1",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": -0.075,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 15.6434,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0674,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "bk2": {
+      "name": "Foxtail 2",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": -0.075,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 15.6434,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0674,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "black-rock": {
+      "name": "Black Rock",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "boots": {
+      "name": "Boots",
+      "sex": "ewe",
+      "pen": null,
+      "status": "culled",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -6.8833,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "broken-tail": {
+      "name": "Broken Tail",
+      "sex": "ewe",
+      "pen": "Pen 3",
+      "status": "alive",
+      "inbreeding_F": 0.375,
+      "ebvs": {
+        "PR": {
+          "value": 0.1037,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 27.1361,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.021,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.4353,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "broken-tail-twin-ewe": {
+      "name": "Broken Tail Twin Ewe",
+      "sex": "ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0061,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "broken-tail-twin-ewe-2": {
+      "name": "Broken Tail Twin Ewe 2 (White)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1008,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "brown-knee": {
+      "name": "Brown Knee",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.25,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 8.292,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1348,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "bsoe": {
+      "name": "Bsoe",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 22.8531,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0113,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "bsoed": {
+      "name": "Bsoed",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.25,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 31.1579,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0052,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "bsoed-lamb-2023": {
+      "name": "Bsoed's Lamb (2023)",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.3,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 31.819,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0026,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "bt-lamb-2023": {
+      "name": "BT's Lamb (2023)",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0518,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": -0.1,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 20.3491,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.0105,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.2177,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "buck": {
+      "name": "Buck",
+      "sex": "ram",
+      "pen": "Pen 6",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0619,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 32.3652,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "buck-original": {
+      "name": "Buck (Original)",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0313,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -2.8233,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "butter-ball": {
+      "name": "Butter Ball",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "centralia-dam-181084x": {
+      "name": "Centralia Dam (KHSI 181084X, SRM 46) \u2014 off-farm",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "centralia-lamb-2026": {
+      "name": "Centralia Ram Lamb (purchased 2026-06-09)",
+      "sex": "ram_lamb",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        }
+      }
+    },
+    "centralia-ram-214168": {
+      "name": "Centralia Sire (KHSI 214168, BZE 0001) \u2014 off-farm",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "charlie-ram": {
+      "name": "Charlie",
+      "sex": "ram",
+      "pen": "Pen 4",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1004,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 18.8552,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "charlies-ewe": {
+      "name": "Charlies Ewe",
+      "sex": "ewe",
+      "pen": "Pen 1",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0132,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.02,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "charlies-farm-ewe-baby-p3": {
+      "name": "Charlies Farm Ewe Baby",
+      "sex": "ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.3014,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 5.3452,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0449,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "charlies-farm-ewe-p3": {
+      "name": "Charlies Farm Ewe (Pen 3)",
+      "sex": "ewe",
+      "pen": "Pen 3",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1037,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -8.1648,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.0897,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "charlies-lamb-0017": {
+      "name": "Charlie's Lamb",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "charlies-ram": {
+      "name": "Charlie's Ram",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -64.4233,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "charlies-ram-lamb": {
+      "name": "Charlies Ewe Ram Lamb",
+      "sex": "ram",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1302,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 16.1826,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.01,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "cinderella": {
+      "name": "Cinderella",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "circle-tail": {
+      "name": "Circle Tail",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.8131,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": -11.6566,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0674,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "cocoa": {
+      "name": "Cocoa",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": -4.0634,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": -0.021,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.2001,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "cocoas-daughter-by-loki": {
+      "name": "Cocoa's Daughter (by Loki)",
+      "sex": "ewe",
+      "pen": "Pen 3",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.013,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 14.3334,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": -0.0131,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "NLW": {
+          "value": 0.1426,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "daisy": {
+      "name": "Daisy",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.375,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 18.8242,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.021,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.4001,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "daisy-anna-line": {
+      "name": "Daisy (Anna line)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 22.2852,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0051,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "daisy-of-sugar": {
+      "name": "Daisy (of Sugar)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 21.7453,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0475,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "daisys-daughter-1": {
+      "name": "Daisy's Daughter 1",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 14.7012,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "daisys-daughter-2": {
+      "name": "Daisy's Daughter 2",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 14.7012,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "dodge": {
+      "name": "Dodge",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.4375,
+      "ebvs": {
+        "PR": {
+          "value": 0.0518,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 43.7149,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.0105,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.2177,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "dorper-ewe-198": {
+      "name": "Dorper Ewe 198",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -7.4817,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.025,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "dorper-ram-deceased": {
+      "name": "Dorper Ram (Deceased)",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "dorpy": {
+      "name": "Dorpy",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -5.6267,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "elsie": {
+      "name": "Elsie",
+      "sex": "ewe",
+      "pen": "Pen 5",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1869,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 1.2545,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": -6.6497,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.021,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.3353,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "elsie-triplet-black-ram": {
+      "name": "Elsie Black Ram Triplet",
+      "sex": "ram",
+      "pen": null,
+      "status": "gifted",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0771,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.6272,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 7.3187,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": -0.0105,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.1702,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "elsie-triplet-lg-white-ewe": {
+      "name": "Elsie Large White Ewe Triplet",
+      "sex": "ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1044,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.6272,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 7.3187,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": -0.0105,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.1702,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "elsie-triplet-sm-white-ewe": {
+      "name": "Elsie Small White Ewe Triplet",
+      "sex": "ewe",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1368,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.6272,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 7.3187,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": -0.0105,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.1702,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "ext-lamb-10": {
+      "name": "Ext Lamb 10",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": -0.975,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "ext-lamb-27": {
+      "name": "Ext Lamb 27",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "ext-lamb-35": {
+      "name": "Ext Lamb 35",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "ext-lamb-8": {
+      "name": "Ext Lamb 8 (ABG)",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.3,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "fawn-wool-ewe-p5": {
+      "name": "Fawn Wool Ewe (Pen 5)",
+      "sex": "ewe",
+      "pen": "Pen 5",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "female-004": {
+      "name": "Female 004",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "fl51870-0502": {
+      "name": "Fl51870-0502",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0938,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 47.8183,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "fleecity": {
+      "name": "Fleecity",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -14.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "fm": {
+      "name": "FM",
+      "sex": "ewe",
+      "pen": "Pen 4",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1037,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 23.9674,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.299,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "fm-dam": {
+      "name": "FM's Dam (Cotswold)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 17.7183,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.025,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "fm-lamb-2023": {
+      "name": "FM's Lamb (2023)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0518,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 1.125,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 47.27,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1495,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "fm-sire": {
+      "name": "FM's Sire (Tunis Red)",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 19.2267,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "fm1": {
+      "name": "FM1",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0518,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 7.93,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1495,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "fm2": {
+      "name": "FM2",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 10.5083,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "fm2-0051": {
+      "name": "FM2",
+      "sex": "ewe",
+      "pen": "Pen 4",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1619,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 24.1117,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0846,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "fm2-ram-lamb": {
+      "name": "FM2 Ram Lamb",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1365,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 17.4773,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0423,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "fox-tail": {
+      "name": "Fox Tail",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 0.1291,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0225,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "frazzle": {
+      "name": "Frazzle",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -1.1648,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "gertrude-moon": {
+      "name": "Gertrude Moon",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.3131,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": -15.2856,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        }
+      }
+    },
+    "gertrude-moon-dam": {
+      "name": "Gertrude Moon's Dam",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -12.0317,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "gertrude-moon-sire": {
+      "name": "Gertrude Moon's Sire",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -28.8983,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "gg": {
+      "name": "GG",
+      "sex": "ewe",
+      "pen": "Pen 4",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.2878,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 11.0833,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.05,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "gg-daughter-45": {
+      "name": "GG's Daughter",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0458,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 10.9632,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.025,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "gg-son-094": {
+      "name": "GG's Son",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0458,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 10.9632,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.025,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "gigi-2025-ram": {
+      "name": "Gigis 2025 Ram",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0448,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 10.9632,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.025,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "gigi-2026-baby": {
+      "name": "Gigis 2026 Baby",
+      "sex": "ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0603,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 10.9632,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.025,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "gm-twin1-2024": {
+      "name": "GM Twin 1 (2024)",
+      "sex": "unknown",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.1565,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 5.6845,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        }
+      }
+    },
+    "gm-twin2-2024": {
+      "name": "GM Twin 2 (2024)",
+      "sex": "unknown",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.1565,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 5.6845,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        }
+      }
+    },
+    "goose-06": {
+      "name": "Goose Pen 06",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "goose-09": {
+      "name": "Goose Pen 09",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "goose-50": {
+      "name": "Goose Pen 50",
+      "sex": "ewe",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "goose-l19": {
+      "name": "Goose Pen L19",
+      "sex": "ewe",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "half-tail": {
+      "name": "Half Tail",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.25,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": -12.5017,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.042,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "NLW": {
+          "value": 0.5001,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "half-tails-baby": {
+      "name": "Half Tail's Baby",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "haylee-lawson": {
+      "name": "Haylee Lawson",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 2.9167,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.1,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "hersheys": {
+      "name": "Hersheys",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": -0.7405,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0225,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "ht-ext-lamb-2023": {
+      "name": "HT's Extension Lamb (2023)",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 14.8646,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.021,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.2501,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "ht-samson-2024": {
+      "name": "Half Tail's Lamb (2024)",
+      "sex": "unknown",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.6545,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 24.8277,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.021,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.2501,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "irish": {
+      "name": "Irish",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "kaladin": {
+      "name": "Kaladin",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.2205,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": -0.3,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": -48.1046,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0776,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "kelsier": {
+      "name": "Kelsier",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1962,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.2,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 10.843,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "kelsiers-sister": {
+      "name": "Kelsier's Sister",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0938,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.2183,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "lara": {
+      "name": "Lara",
+      "sex": "ewe",
+      "pen": "Chicken Coop",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0866,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": -6.4148,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.299,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "lara-2026-lamb": {
+      "name": "Lara's 2026 Ewe Twin",
+      "sex": "ewe_lamb",
+      "pen": "Chicken Coop",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0548,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 2.2141,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1495,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "lara-2026-ram-twin": {
+      "name": "Lara's 2026 Ram Twin",
+      "sex": "ram_lamb",
+      "pen": "Chicken Coop",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0548,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 2.2141,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1495,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "lara-dam": {
+      "name": "Lara's Dam",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.025,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "lara-daughter-46": {
+      "name": "Lara's Daughter",
+      "sex": "ewe",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0548,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 2.2141,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1495,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "lara-sire": {
+      "name": "Lara's Sire",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "little-daisy": {
+      "name": "Little Daisy",
+      "sex": "ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0259,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 8.6604,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.0157,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "NLW": {
+          "value": 0.3089,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "little-daisys-baby-mc01": {
+      "name": "Little Daisy's Baby (Mc01)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "little-song": {
+      "name": "Little Song",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.25,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 1.0334,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0273,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "loki": {
+      "name": "Loki",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0259,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 32.7301,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": -0.0052,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.0851,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "mc06": {
+      "name": "Mc06",
+      "sex": "unknown",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "mc08-ram": {
+      "name": "MC08",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0284,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 17.7335,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1495,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "merrie": {
+      "name": "Merrieweather",
+      "sex": "ram",
+      "pen": "Pen 3",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1089,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 4.9441,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.021,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "NLW": {
+          "value": 0.2501,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "new-big-girl-2": {
+      "name": "New Big Girl 2",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "new-black-belly-ram": {
+      "name": "New Black Belly Ram",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -28.8983,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "nori": {
+      "name": "Nori",
+      "sex": "ewe",
+      "pen": "Pen 3",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0619,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -13.7648,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0103,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "nori-baby-p3": {
+      "name": "Nori's Baby Ram (Pen 3)",
+      "sex": "ram",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0539,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "nori-son": {
+      "name": "NoriSon",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0128,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 21.2871,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0051,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "oav-2222": {
+      "name": "OAV 2222",
+      "sex": "ewe",
+      "pen": "Pen 5",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -5.25,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0103,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "oav-2222-lamb-1": {
+      "name": "OAV 2222 Lamb 1 (White-Rust)",
+      "sex": "ewe_lamb",
+      "pen": "Pen 5",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0048,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 8.0185,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0077,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "oav-2222-lamb-2": {
+      "name": "OAV 2222 Lamb 2 (White-Rust + Black Dot)",
+      "sex": "ewe_lamb",
+      "pen": "Pen 5",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0048,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 8.0185,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0077,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "oliver": {
+      "name": "Oliver",
+      "sex": "unknown",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0433,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": -0.3075,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 12.7792,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1495,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "orange-tag-00110": {
+      "name": "Orange Tag Ram",
+      "sex": "ram",
+      "pen": "Pen 1",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1174,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 38.2102,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "patches": {
+      "name": "Patches",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -29.1817,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "pebbles": {
+      "name": "Pebbles",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0938,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "penny": {
+      "name": "Penny",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "pippin": {
+      "name": "Pippin",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": -0.1,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": -37.1088,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0026,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "pretzel": {
+      "name": "Pretzel",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -16.9148,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "question-tail": {
+      "name": "Question Tail",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "razzle": {
+      "name": "Razzle",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -18.6648,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "rocky": {
+      "name": "Rocky",
+      "sex": "ram",
+      "pen": "Tree Fort",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1244,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 49.7011,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0125,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "s1": {
+      "name": "S1",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "s2": {
+      "name": "S2",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "sam": {
+      "name": "Sam",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -19.2733,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "samson": {
+      "name": "Samson",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 62.9767,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "samson-daughter-p4": {
+      "name": "Samson Daughter (Pen 4)",
+      "sex": "ewe",
+      "pen": "Pen 4",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0518,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 43.472,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1495,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "sb1-crown": {
+      "name": "Sb1 (Crown)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -28.4817,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "sb2-all-black": {
+      "name": "Sb2 (All Black)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -29.1817,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "serendipity": {
+      "name": "Serendipity",
+      "sex": "ewe",
+      "pen": "Pen 4",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.441,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": -2.2841,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1553,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "serendipity-ram-2024": {
+      "name": "Serendipity's Ram (2024)",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.2205,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 32.0567,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0776,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "serendipity-twin-ewe": {
+      "name": "Serendipity Black Ewe Twin",
+      "sex": "ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.484,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 4.2794,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0776,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "serendipity-twin-ram": {
+      "name": "Serendipity White Ram Twin",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.4779,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 4.2794,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0776,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "serendipitys-baby-036": {
+      "name": "Serendipity's Baby",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.1224,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "WWT": {
+          "value": 0.1,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "PWT": {
+          "value": 4.2794,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0776,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "shaggy": {
+      "name": "Shaggy",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.5631,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -9.3333,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.1,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "shaggy-1": {
+      "name": "Shaggy1",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.2815,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": -0.3,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": -5.1756,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.05,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "shaggy-2": {
+      "name": "Shaggy2",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.2815,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": -0.3,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": -5.1756,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.05,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "sir-loin": {
+      "name": "Sir Loin",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 45.7352,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "skitters": {
+      "name": "Skitters",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 9.3183,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "sm-white-ewe-p4": {
+      "name": "Small White Ewe (Pen 4)",
+      "sex": "ewe",
+      "pen": "Pen 4",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1842,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 7.7835,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": -0.0157,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "NLW": {
+          "value": 0.3089,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "smore": {
+      "name": "S'More",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 4.375,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "spicy": {
+      "name": "Spicy",
+      "sex": "unknown",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0433,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.3075,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 12.7792,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.1495,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "stew": {
+      "name": "Stew",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": -0.3789,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        }
+      }
+    },
+    "sugar": {
+      "name": "Sugar",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": -2.2446,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.05,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "tag-00113-ewe-p1": {
+      "name": "00113",
+      "sex": "ewe",
+      "pen": "Pen 1",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-00113-singleton-2026": {
+      "name": "00113's Singleton (deceased)",
+      "sex": "unknown",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0064,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 10.6435,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0026,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "tag-0033-hair-ewe": {
+      "name": "Hair Ewe 0033",
+      "sex": "ewe",
+      "pen": "Pen 1",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0135,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 13.289,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.08,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "tag-0033-twin-ram-1": {
+      "name": "0033 Twin Ram 1 (White/Brown)",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0698,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-0033-twin-ram-2": {
+      "name": "0033 Twin Ram 2 (Black)",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.1022,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-0035-baby-ewe": {
+      "name": "0035 Baby Ram",
+      "sex": "ram_lamb",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0773,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 7.7252,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        }
+      }
+    },
+    "tag-0035-white-ewe": {
+      "name": "White Ewe 0035",
+      "sex": "ewe",
+      "pen": "Tree Fort",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0209,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -16.9148,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "tag-0044-wool-ewe": {
+      "name": "Wool Ewe 0044",
+      "sex": "ewe",
+      "pen": "Pen 1",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0065,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -1.575,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-0049": {
+      "name": "Tag 0049",
+      "sex": "unknown",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-0050": {
+      "name": "Tag 0050",
+      "sex": "unknown",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-0053-baby-ewe": {
+      "name": "0053's Baby Ewe",
+      "sex": "ewe",
+      "pen": "Pen 2",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1403,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 35.1718,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0163,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "tag-0053-ewe": {
+      "name": "0053",
+      "sex": "ewe",
+      "pen": "Pen 1",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0045,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 20.6424,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.02,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "tag-02-ewe-p5": {
+      "name": "Ewe Tag 02",
+      "sex": "ewe",
+      "pen": "Pen 5",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-114-black-ram-lamb": {
+      "name": "114 Black Ram Lamb",
+      "sex": "ram",
+      "pen": "Pen 1",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0533,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 19.6881,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0163,
+          "method": "mid-parent",
+          "accuracy": 0.75
+        }
+      }
+    },
+    "tag-114-fawn-wool": {
+      "name": "Fawn Wool Ewe 114",
+      "sex": "ewe",
+      "pen": "Pen 1",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0177,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -10.325,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.02,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "tag-24-0003-tf": {
+      "name": "Ewe 24/0003 (Tree Fort)",
+      "sex": "ewe",
+      "pen": "Tree Fort",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-240001": {
+      "name": "Tag 240001",
+      "sex": "unknown",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-240002": {
+      "name": "Tag 240002",
+      "sex": "unknown",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-31-ewe": {
+      "name": "Tag 31",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 7.1833,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-31-ewe-p5": {
+      "name": "Ewe Tag 31",
+      "sex": "ewe",
+      "pen": "Pen 5",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 20.114,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-31-orange-tf": {
+      "name": "Orange Tag 31 Ewe",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.2812,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.025,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "tag-31-orange-tf-ram-lamb": {
+      "name": "Orange 31 Ram Lamb",
+      "sex": "ram",
+      "pen": null,
+      "status": "sold",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.1667,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 16.1826,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.0125,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "tag-33": {
+      "name": "Tag 33",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-34-pen4": {
+      "name": "Tag 34 (Pen 4)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 8.6533,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-35-ewe": {
+      "name": "Tag 35",
+      "sex": "ewe",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 9.8783,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "tag-430-2079": {
+      "name": "430-2079",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 27.125,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "teaser": {
+      "name": "Teaser",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 29.3767,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "trouble": {
+      "name": "Trouble",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "PWT": {
+          "value": 29.8119,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "NLW": {
+          "value": -0.045,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "trouble-lamb-2023": {
+      "name": "Trouble's Lamb (2023)",
+      "sex": "ram",
+      "pen": null,
+      "status": "unknown",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "mid-parent",
+          "accuracy": 0.35
+        },
+        "WWT": {
+          "value": 0.3,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": 29.2466,
+          "method": "blup-light",
+          "accuracy": 0.9
+        },
+        "ADG": {
+          "value": 0.042,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "NLW": {
+          "value": -0.0225,
+          "method": "mid-parent",
+          "accuracy": 0.55
+        }
+      }
+    },
+    "two-pence": {
+      "name": "Two Pence",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 4.8383,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.025,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "unnamed-deceased": {
+      "name": "Unnamed (Deceased)",
+      "sex": "unknown",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "unnamed-pen2": {
+      "name": "Unnamed (Pen 2)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "w136": {
+      "name": "W136",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "w140": {
+      "name": "W140",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "well-done": {
+      "name": "Well Done",
+      "sex": "ram",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": -4.375,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "windlestone-0055": {
+      "name": "Windlestone Fat Tail 0055",
+      "sex": "ewe",
+      "pen": "Pen 6",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "windlestone-0056": {
+      "name": "Windlestone Fat Tail 0056",
+      "sex": "ewe",
+      "pen": "Pen 6",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "windlestone-2139": {
+      "name": "Windlestone Fat Tail 2139",
+      "sex": "ewe",
+      "pen": "Pen 6",
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "zara": {
+      "name": "Zara",
+      "sex": "ewe",
+      "pen": null,
+      "status": "deceased",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    }
+  }
+}

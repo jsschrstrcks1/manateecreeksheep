@@ -91,9 +91,17 @@ def compute_trait_ebvs(
             mid_parent_ebv = 0.5 * (sire_ebv + dam_ebv)
 
             if own_phen is not None:
-                # BLUP-light: own deviation + mid-parent
+                # BLUP-light: own deviation + mid-parent.
+                # Use flock mean if contemporary group has fewer than 2 animals
+                # (a single-member group gives a meaningless 0 deviation).
                 group_key = contemporary_group_key(sheep)
                 group_mean_v = means["groups"].get(group_key, means["flock"])
+                group_size = sum(
+                    1 for s in sheep_by_id.values()
+                    if contemporary_group_key(s) == group_key and s["id"] in phenotypes
+                )
+                if group_size < 2:
+                    group_mean_v = means["flock"]
                 deviation = own_phen - group_mean_v
                 new_ebv = h2 * deviation + (1.0 - h2) * mid_parent_ebv
                 new_method = "blup-light"
@@ -108,7 +116,8 @@ def compute_trait_ebvs(
                 new_method = "default-zero"
                 new_acc = 0.0
 
-            if abs(new_ebv - ebv[sid]) > 1e-6:
+            # Update if EBV value changed OR method category changed.
+            if abs(new_ebv - ebv[sid]) > 1e-6 or method[sid] != new_method:
                 ebv[sid] = new_ebv
                 method[sid] = new_method
                 accuracy[sid] = new_acc
