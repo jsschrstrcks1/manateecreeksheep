@@ -13745,7 +13745,7 @@
       "weight_lbs": null,
       "dob": "2023-09-29",
       "dob_approximate": false,
-      "sire_id": null,
+      "sire_id": "centralia-grandsire-195241",
       "dam_id": null,
       "status": "alive",
       "status_date": "2026-06-09",
@@ -13783,7 +13783,13 @@
       "notes": "OFF-FARM. Registered Purebred Katahdin ram, KHSI reg 214168, flock BZE 0001, DOB 2023-09-29. Sire 195241 HBK 708, Dam 182183 FAC FL087-00088, COI ~19.4%. Owner Zack Clark. Centralia / Zac Brown / 20 Grand / Prime Time / The Old Man / Pure Power lines. This ram is the SIRE of the lamb purchased 2026-06-09 and recorded here for the lamb's pedigree resolution.",
       "confidence": "high",
       "last_verified": "2026-06-09",
-      "on_farm": false
+      "on_farm": false,
+      "notes_history": [
+        {
+          "date": "2026-06-11",
+          "note": "CORRECTION: NSIP EBVs previously attached to this record (BZE 0001) were actually for 87730 SHU 3320 CENTRALIA (the line founder, 4+ generations back), per cross-reference with the ZAC BROWN page (his Sire row matches identically). Removed from this record; moved to proper ancestor record. We do NOT yet have NSIP EBVs specifically for BZE 0001 / KHSI 214168."
+        }
+      ]
     },
     {
       "id": "centralia-dam-181084x",
@@ -13951,6 +13957,837 @@
           "note": "Placed in Pen 2 on arrival. Joins kept-lambs grow-out cohort. No quarantine per owner."
         }
       ]
+    },
+    {
+      "id": "centralia-grandsire-195241",
+      "name": "Centralia Grandsire (KHSI 195241, HBK 708) — off-farm",
+      "aliases": [
+        "HBK 708",
+        "KHSI 195241"
+      ],
+      "tag": "HBK 708",
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "195241",
+        "flock_name_number": "HBK 708",
+        "status": "Purebred Katahdin",
+        "source": "Centralia ram's pedigree page (digitalovine.com)"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair"
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": null,
+      "dob_approximate": true,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_notes": "Off-farm. Recorded for pedigree completeness. Grandsire of centralia-lamb-2026.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "centralia-ram-214168"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "registration_ram_214168.jpg"
+        ]
+      },
+      "notes": "Grandsire of centralia-lamb-2026. Off-farm. NSIP-anchored. | CORRECTION 2026-06-11: previously attributed NSIP EBVs were actually for CENTRALIA's sire (81385 SHU 2132 per pedigree position), not HBK 708. Removed; we do not yet have NSIP EBVs specifically for HBK 708.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "centralia-founder-87730",
+      "name": "CENTRALIA (87730 SHU 3320)",
+      "aliases": [
+        "SHU 3320",
+        "KHSI 87730",
+        "Centralia line founder"
+      ],
+      "tag": "SHU 3320",
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "KHSI",
+        "reg_number": "87730",
+        "flock_name_number": "SHU 3320",
+        "status": "Purebred Katahdin",
+        "source": "Owner-supplied NSIP detail screen + ZAC BROWN's pedigree page"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair"
+      },
+      "sire_id": "centralia-founder-sire-81385",
+      "dam_id": null,
+      "status": "alive",
+      "status_notes": "Off-farm Katahdin line founder. Ancestor of centralia-ram-214168 via several intermediate generations.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "offspring_ids": [
+          "zac-brown-146843"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "notebook_image": [
+          "owner-supplied NSIP detail screen 2025-09-22"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "as_active_sire": true,
+        "progeny_evaluated": 58,
+        "flocks_represented": 5,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.177,
+            "se": 0.17,
+            "acc": 85,
+            "rank": 30
+          },
+          "MBWT": {
+            "val": -0.294,
+            "acc": 88,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": -0.047,
+            "se": 1.25,
+            "acc": 80,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": -0.24,
+            "acc": 82,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -0.14,
+            "se": 2.02,
+            "acc": 79,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -0.119,
+            "se": 2.28,
+            "acc": 71,
+            "rank": 5
+          },
+          "HWT": {
+            "val": -0.467,
+            "acc": 66,
+            "rank": null
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.849,
+            "se": 1.03,
+            "acc": 68,
+            "rank": 90
+          },
+          "PEMD": {
+            "val": -0.386,
+            "se": 0.9,
+            "acc": 53,
+            "rank": 20
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -11.3,
+            "acc": 46,
+            "rank": 25,
+            "description": "WFEC EBV; negative = lower egg counts. -11.30 is excellent."
+          },
+          "PFEC": {
+            "val": -0.425,
+            "acc": 52,
+            "rank": null
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.096,
+            "acc": 72,
+            "rank": "<5"
+          },
+          "NLB": {
+            "val": -0.064,
+            "acc": 66,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 98.9,
+          "rank": "<5"
+        },
+        "source": "Owner-supplied NSIP detail screen 2025-09-22"
+      },
+      "notes": "87730 SHU 3320 CENTRALIA. Line founder of the 'Centralia' Katahdin bloodline. Off-farm. Ancestor of centralia-ram-214168 (sire of our purchased lamb).",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "centralia-founder-sire-81385",
+      "name": "SHU 2132 (81385) — CENTRALIA's sire",
+      "aliases": [
+        "SHU 2132",
+        "KHSI 81385"
+      ],
+      "tag": "SHU 2132",
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "KHSI",
+        "reg_number": "81385",
+        "flock_name_number": "SHU 2132",
+        "status": "Purebred Katahdin",
+        "source": "Owner-supplied NSIP detail screen 2025-09-22 (Sire row of CENTRALIA's detail page)"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair"
+      },
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "offspring_ids": [
+          "centralia-founder-87730"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {},
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 33,
+        "flocks_represented": 2,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.014,
+            "se": 0.2,
+            "acc": 78,
+            "rank": 15
+          },
+          "MBWT": {
+            "val": -0.439,
+            "acc": 91,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": -1.22,
+            "se": 1.49,
+            "acc": 77,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": -0.416,
+            "acc": 86,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -2.316,
+            "se": 2.02,
+            "acc": 78,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -2.276,
+            "se": 2.56,
+            "acc": 69,
+            "rank": "<5"
+          },
+          "HWT": {
+            "val": -2.239,
+            "acc": 62,
+            "rank": null
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 28.89,
+            "acc": 43,
+            "rank": 5,
+            "description": "Positive WFEC — review NSIP direction convention"
+          },
+          "PFEC": {
+            "val": -0.384,
+            "acc": 47,
+            "rank": null
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.003,
+            "acc": 69,
+            "rank": 5
+          },
+          "NLB": {
+            "val": 0.039,
+            "acc": 63,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 100.55,
+          "rank": 5
+        }
+      },
+      "notes": "81385 SHU 2132. CENTRALIA's (87730) sire. Source: 'Sire' row of CENTRALIA NSIP detail screen.",
+      "confidence": "medium",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "zac-brown-146843",
+      "name": "ZAC BROWN (146843 SRS 294)",
+      "aliases": [
+        "SRS 294",
+        "KHSI 146843",
+        "NSIP 6401372018SRS294"
+      ],
+      "tag": "SRS 294",
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "KHSI",
+        "reg_number": "146843",
+        "flock_name_number": "SRS 294",
+        "nsip_id": "6401372018SRS294",
+        "status": "Purebred Katahdin",
+        "coi_pct": 5.98,
+        "service_type": "Natural Service - Twin",
+        "dob": "2018-03-14",
+        "breeder": "Leslie Raber (5217)",
+        "owner": "Allen & Valerie Pittman (7704)",
+        "source": "Owner-supplied NSIP detail screen 2025-09-22"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair"
+      },
+      "sire_id": "centralia-founder-87730",
+      "dam_id": "zwt-6295-dam-of-zac-brown",
+      "dob": "2018-03-14",
+      "dob_approximate": false,
+      "status": "alive",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {},
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "as_active_sire": true,
+        "progeny_evaluated": 204,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.211,
+            "se": 0.12,
+            "acc": 94,
+            "rank": 35
+          },
+          "MBWT": {
+            "val": -0.299,
+            "acc": 89,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": 1.128,
+            "se": 0.91,
+            "acc": 92,
+            "rank": 20
+          },
+          "MWWT": {
+            "val": -0.115,
+            "acc": 79,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": 2.573,
+            "se": 1.23,
+            "acc": 93,
+            "rank": 30
+          },
+          "YWT": {
+            "val": 2.423,
+            "se": 1.92,
+            "acc": 81,
+            "rank": 35
+          },
+          "HWT": {
+            "val": 1.651,
+            "acc": 74,
+            "rank": null
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.165,
+            "se": 0.92,
+            "acc": 72,
+            "rank": 60
+          },
+          "PEMD": {
+            "val": -0.103,
+            "se": 0.9,
+            "acc": 52,
+            "rank": 45
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -24.31,
+            "acc": 50,
+            "rank": 40,
+            "description": "Excellent — much lower egg counts than breed average"
+          },
+          "PFEC": {
+            "val": 32.61,
+            "acc": 38,
+            "rank": 15,
+            "description": "Positive — unclear NSIP direction convention here"
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.539,
+            "acc": 58,
+            "rank": null
+          },
+          "NLB": {
+            "val": -0.057,
+            "acc": 69,
+            "rank": "<5"
+          },
+          "NLW": {
+            "val": -0.037,
+            "acc": 62,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 99.53,
+          "rank": "<5"
+        }
+      },
+      "notes": "146843 SRS 294 ZAC BROWN. Son of CENTRALIA (87730). Larger frame than his sire (positive weight traits). Strong parasite resistance (WFEC -24.31). Appears in centralia-ram-214168's pedigree path (BZE 0001).",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "zwt-6295-dam-of-zac-brown",
+      "name": "ZWT 6295 (98055) — ZAC BROWN's dam",
+      "aliases": [
+        "ZWT 6295",
+        "KHSI 98055"
+      ],
+      "tag": "ZWT 6295",
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "KHSI",
+        "reg_number": "98055",
+        "flock_name_number": "ZWT 6295",
+        "status": "Purebred Katahdin"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair"
+      },
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "offspring_ids": [
+          "zac-brown-146843"
+        ],
+        "is_breeding_animal": true,
+        "lambing_records": []
+      },
+      "source_refs": {},
+      "notes": "98055 ZWT 6295. ZAC BROWN's dam per his NSIP detail page header. No NSIP EBVs available yet.",
+      "confidence": "medium",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "twenty-grand-52391",
+      "name": "20 GRAND (52391 LHB 20)",
+      "aliases": [
+        "LHB 20",
+        "KHSI 52391",
+        "20 GRAND"
+      ],
+      "tag": "LHB 20",
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "KHSI",
+        "reg_number": "52391",
+        "flock_name_number": "LHB 20",
+        "status": "Purebred Katahdin"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair"
+      },
+      "sire_id": "twenty-grand-sire-placeholder",
+      "dam_id": "twenty-grand-dam-placeholder",
+      "status": "alive",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {},
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "as_active_sire": true,
+        "progeny_evaluated": 38,
+        "flocks_represented": 4,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.302,
+            "se": 0.2,
+            "acc": 79,
+            "rank": 50
+          },
+          "MBWT": {
+            "val": -0.343,
+            "acc": 80,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": -0.201,
+            "se": 1.49,
+            "acc": 76,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": 0.396,
+            "acc": 74,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -0.273,
+            "se": 2.02,
+            "acc": 76,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": 0.046,
+            "se": 2.56,
+            "acc": 64,
+            "rank": 5
+          },
+          "HWT": {
+            "val": -0.18,
+            "acc": 56,
+            "rank": null
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 6.74,
+            "acc": 37,
+            "rank": 15
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.076,
+            "acc": 61,
+            "rank": "<5"
+          },
+          "NLB": {
+            "val": -0.06,
+            "acc": 54,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 99.14,
+          "rank": "<5"
+        }
+      },
+      "notes": "52391 LHB 20 20 GRAND. Appears in centralia-ram-214168's pedigree path.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "twenty-grand-sire-placeholder",
+      "name": "20 GRAND's sire (NSIP-anchored, KHSI reg unknown)",
+      "tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair"
+      },
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "offspring_ids": [
+          "twenty-grand-52391"
+        ],
+        "is_breeding_animal": true,
+        "lambing_records": []
+      },
+      "source_refs": {},
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "weight_traits": {
+          "BWT": {
+            "val": 0.136,
+            "se": 0.2,
+            "acc": 70,
+            "rank": 25
+          },
+          "MBWT": {
+            "val": -0.188,
+            "acc": 69,
+            "rank": 5
+          },
+          "WWT": {
+            "val": 1.884,
+            "se": 1.67,
+            "acc": 68,
+            "rank": 40
+          },
+          "MWWT": {
+            "val": 0.594,
+            "acc": 65,
+            "rank": 5
+          },
+          "PWWT": {
+            "val": 2.842,
+            "se": 2.26,
+            "acc": 67,
+            "rank": 35
+          },
+          "YWT": {
+            "val": 2.143,
+            "se": 2.77,
+            "acc": 57,
+            "rank": 30
+          },
+          "HWT": {
+            "val": 1.784,
+            "acc": 51,
+            "rank": null
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -11.14,
+            "acc": 35,
+            "rank": 25
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 0.003,
+            "acc": 52,
+            "rank": 5
+          },
+          "NLB": {
+            "val": 0.057,
+            "acc": 47,
+            "rank": 30
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 101.73,
+          "rank": 20
+        }
+      },
+      "notes": "Sire of 20 GRAND (52391). KHSI registration number unknown from supplied data. Has NSIP EBVs.",
+      "confidence": "medium",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "twenty-grand-dam-placeholder",
+      "name": "20 GRAND's dam (NSIP-anchored, partial)",
+      "tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair"
+      },
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "offspring_ids": [
+          "twenty-grand-52391"
+        ],
+        "is_breeding_animal": true,
+        "lambing_records": []
+      },
+      "source_refs": {},
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "us_hair_composite_index": {
+          "val": 102.08,
+          "rank": 40
+        },
+        "_note": "Only US Hair composite index available from supplied data; individual trait EBVs not shown."
+      },
+      "notes": "Dam of 20 GRAND (52391). KHSI registration number unknown from supplied data.",
+      "confidence": "medium",
+      "last_verified": "2026-06-11"
     }
   ],
   "pens": {

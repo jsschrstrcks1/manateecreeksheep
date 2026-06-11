@@ -1,0 +1,36 @@
+{
+  "_documentation": {
+    "scale_note": "EBV values here are in NSIP-native scale (egg counts for FEC, lb for weights). The pipeline uses them as anchor inputs but does not auto-rescale to flock-internal PR units. Treat anchored-animal rankings as a separate confidence band.",
+    "convention": "For WFEC and PFEC: MORE NEGATIVE = MORE PARASITE RESISTANT. The pipeline inverts the sign internally for PR (so anchored positive PR = more resistant).",
+    "snapshot_date": "2025-09-22 (NSIP data)",
+    "regenerated_on": "2026-06-11"
+  },
+  "centralia-ram-214168": {
+    "_label": "Centralia ram (KHSI 214168, BZE 0001) — sire of centralia-lamb-2026",
+    "PR": 11.30,
+    "PR_source": "NSIP WFEC -11.30 inverted (-WFEC). Note: NSIP scale, not flock FAMACHA-equivalent. Rank 25 of Katahdin breed.",
+    "PWT": -0.140,
+    "PWT_source": "NSIP PWWT (post-weaning weight EBV, lb)",
+    "WWT": -0.047,
+    "WWT_source": "NSIP WWT (weaning weight EBV, lb)",
+    "NLW": -0.064,
+    "NLW_source": "NSIP NLB (number lambs born — closest proxy for NLW we have)",
+    "_progeny": 58,
+    "_flocks": 5,
+    "_us_hair_index": 98.90
+  },
+  "centralia-grandsire-195241": {
+    "_label": "Centralia grandsire (KHSI 195241, HBK 708) — sire of centralia-ram-214168",
+    "PR": -28.89,
+    "PR_source": "NSIP WFEC +28.89 inverted (-WFEC). Note: this value is unusual; positive raw WFEC normally means HIGHER FEC. Recorded as-is from source — please verify direction with NSIP documentation.",
+    "PWT": -2.316,
+    "PWT_source": "NSIP PWWT",
+    "WWT": -1.220,
+    "WWT_source": "NSIP WWT",
+    "NLW": 0.039,
+    "NLW_source": "NSIP NLB",
+    "_progeny": 33,
+    "_flocks": 2,
+    "_us_hair_index": 100.55
+  }
+}
