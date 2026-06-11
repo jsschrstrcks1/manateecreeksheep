@@ -36,12 +36,73 @@ Outputs land in `data/ebv/`:
 
 ```
 scripts/ebv/
-├── pedigree.py      Wright's tabular method (A-matrix, F, path coef)
-├── traits.py        Trait definitions + heritabilities (literature)
-├── extract.py       Pull phenotypes from data/flock_database.json
-├── estimate.py      EBV math (BLUP-light, mid-parent, NSIP-anchored)
-└── compute_ebvs.py  CLI + output formatting
+├── pedigree.py           Wright's tabular method (A-matrix, F, path coef)
+├── traits.py             Trait definitions + heritabilities (literature)
+├── extract.py             Pull phenotypes from data/flock_database.json
+├── estimate.py           EBV math (BLUP-light, mid-parent, NSIP-anchored)
+├── compute_ebvs.py       CLI: compute EBVs across all traits
+├── scrape_khsi.py        Public scraper: identification + pedigree only
+├── scrape_khsi_ebvs.py   Authenticated scraper: EBV tables via Playwright
+└── parse_nsip_paste.py   Parse copy-pasted EBV tables (alternative to scraper)
 ```
+
+## Three ways to get NSIP EBV data into the flock
+
+| Method | What it gets | Auth needed | When to use |
+|---|---|---|---|
+| `scrape_khsi.py` | identification + sire/dam links across whole pedigrees | None (public) | Initial pedigree walk — figure out who's an ancestor |
+| `scrape_khsi_ebvs.py` | EBV tables for multiple animals | Yes (interactive login once) | Batch retrieval of EBVs once you know who to query |
+| `parse_nsip_paste.py` | EBV tables for one animal at a time | No (manual paste) | Quick one-offs, or when scraper hits an edge case |
+
+### Path 1: Public pedigree scrape
+
+```bash
+# Single animal:
+python3 scripts/ebv/scrape_khsi.py 87730
+
+# Walk a 5-generation pedigree:
+python3 scripts/ebv/scrape_khsi.py --ancestors-of 214168 --max-depth 5
+```
+
+Output: `data/ebv/khsi_pedigree_dump.json` + cached HTML in `data/ebv/khsi_cache/`.
+
+### Path 2: Authenticated EBV scrape (recommended for batch)
+
+```bash
+# One-time login (opens a real browser — log in manually, then close):
+python3 scripts/ebv/scrape_khsi_ebvs.py login
+
+# Scrape one or many animals:
+python3 scripts/ebv/scrape_khsi_ebvs.py scrape 87730 146843 52391
+
+# Scrape every animal already in the pedigree dump:
+python3 scripts/ebv/scrape_khsi_ebvs.py scrape --from-pedigree-dump
+```
+
+Output: `data/ebv/ebvs_scraped/<reg>.json` per animal. Re-runs skip
+already-cached results unless `--force` is given.
+
+Session lives in `data/ebv/khsi_session.json` (cookies/state only,
+NEVER your password). Re-run `login` if the session expires.
+
+### Path 3: Manual paste (zero-setup, single animal)
+
+For one-off lookups when the scraper hits an edge case (or you don't
+want to set up Playwright):
+
+```bash
+# 1. Open the animal's EBV page in your browser (logged in)
+# 2. Select the EBV table, copy
+# 3. Paste into a text file
+# 4. Run:
+python3 scripts/ebv/parse_nsip_paste.py \
+    --reg 87730 \
+    --snapshot 2025-09-22 \
+    --paste tmp/centralia.txt
+```
+
+It parses the column-interleaved `VAL / ±SE / ACC / RANK` format and
+writes into the sheep's `nsip_ebvs` field.
 
 ---
 
