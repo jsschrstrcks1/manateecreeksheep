@@ -1,6 +1,6 @@
 {
   "computed_on": "2026-06-11",
-  "n_animals": 191,
+  "n_animals": 224,
   "traits": {
     "PR": {
       "name": "Parasite Resistance",
@@ -38,7 +38,20 @@
       "direction": "higher_better"
     }
   },
-  "nsip_anchors_used": [],
+  "nsip_anchors_used": [
+    "centralia-founder-87730",
+    "centralia-founder-sire-81385",
+    "zac-brown-146843",
+    "twenty-grand-52391",
+    "twenty-grand-sire-placeholder",
+    "khsi-107303",
+    "top-shelf-33299",
+    "sure-thing-34924",
+    "khsi-41580",
+    "khsi-49536",
+    "khsi-49537",
+    "khsi-52794"
+  ],
   "ebvs": {
     "almond-joy": {
       "name": "Almond Joy",
@@ -136,7 +149,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0103,
+          "value": 0.025,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -151,13 +164,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 10.2854,
@@ -166,11 +179,11 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0546,
+          "value": 0.0613,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -262,9 +275,9 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 6.65,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
           "value": 0.0,
@@ -272,9 +285,9 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.01,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -394,23 +407,23 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 16.1826,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
@@ -423,13 +436,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 37.1662,
@@ -438,11 +451,11 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0051,
+          "value": -0.004,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -457,13 +470,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 49.056,
@@ -472,13 +485,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0025,
+          "value": -0.002,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -559,8 +572,8 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": -0.075,
@@ -574,13 +587,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0674,
+          "value": 0.0763,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -593,8 +606,8 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": -0.075,
@@ -608,13 +621,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0674,
+          "value": 0.0763,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -700,8 +713,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 27.1361,
@@ -711,10 +724,10 @@
         "ADG": {
           "value": -0.021,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.4353,
+          "value": 0.4567,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -738,19 +751,19 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 13.5681,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.0105,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.2283,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -772,19 +785,19 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 13.5681,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.0105,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.2283,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -797,13 +810,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 8.292,
@@ -812,11 +825,11 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1348,
+          "value": 0.1526,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -831,13 +844,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 22.8531,
@@ -846,11 +859,11 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0113,
+          "value": -0.009,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -865,13 +878,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 31.1579,
@@ -880,11 +893,11 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0052,
+          "value": 0.021,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -899,8 +912,8 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.3,
@@ -914,13 +927,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0026,
+          "value": 0.0105,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -934,7 +947,7 @@
         "PR": {
           "value": 0.0518,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": -0.1,
@@ -949,12 +962,12 @@
         "ADG": {
           "value": -0.0105,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2177,
+          "value": 0.2283,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -1094,6 +1107,108 @@
         }
       }
     },
+    "centralia-founder-87730": {
+      "name": "CENTRALIA (87730 SHU 3320)",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 11.3,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -0.047,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -0.14,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.064,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
+    "centralia-founder-sire-81385": {
+      "name": "SHU 2132 (81385) \u2014 CENTRALIA's sire",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.003,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -1.22,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -2.316,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "centralia-grandsire-195241": {
+      "name": "Centralia Grandsire (KHSI 195241, HBK 708) \u2014 off-farm",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 12.155,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": 0.564,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": 1.2865,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.0285,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        }
+      }
+    },
     "centralia-lamb-2026": {
       "name": "Centralia Ram Lamb (purchased 2026-06-09)",
       "sex": "ram_lamb",
@@ -1102,29 +1217,29 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.0,
+          "value": 3.0387,
           "method": "mid-parent",
-          "accuracy": 0.35
+          "accuracy": 0.6
         },
         "WWT": {
-          "value": 0.0,
+          "value": 0.141,
           "method": "mid-parent",
-          "accuracy": 0.35
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 0.0,
+          "value": 0.3216,
           "method": "mid-parent",
-          "accuracy": 0.35
+          "accuracy": 0.6
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0,
+          "value": -0.0071,
           "method": "mid-parent",
-          "accuracy": 0.35
+          "accuracy": 0.6
         }
       }
     },
@@ -1136,19 +1251,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 6.0775,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.282,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.6432,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
           "value": 0.0,
@@ -1156,9 +1271,9 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.0143,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -1244,23 +1359,23 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 5.3452,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0449,
+          "value": -0.0375,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -1292,7 +1407,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0897,
+          "value": -0.075,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -1316,9 +1431,9 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -32.2117,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
           "value": 0.0,
@@ -1380,23 +1495,23 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 16.1826,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": -0.01,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -1448,8 +1563,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": -11.6566,
@@ -1458,13 +1573,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0674,
+          "value": 0.0763,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -1477,26 +1592,26 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": -4.0634,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": -0.021,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2001,
+          "value": 0.2117,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -1512,27 +1627,27 @@
         "PR": {
           "value": 0.013,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 14.3334,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": -0.0131,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "NLW": {
-          "value": 0.1426,
+          "value": 0.1523,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -1545,13 +1660,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 18.8242,
@@ -1561,10 +1676,10 @@
         "ADG": {
           "value": -0.021,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.4001,
+          "value": 0.4117,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -1579,28 +1694,28 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 22.2852,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0051,
+          "value": 0.0125,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -1613,26 +1728,26 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 21.7453,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0475,
+          "value": -0.0425,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -1661,14 +1776,14 @@
           "accuracy": 0.9
         },
         "ADG": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.0105,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.2058,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -1695,14 +1810,14 @@
           "accuracy": 0.9
         },
         "ADG": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.0105,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.2058,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -1716,12 +1831,12 @@
         "PR": {
           "value": 0.0518,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 43.7149,
@@ -1731,12 +1846,12 @@
         "ADG": {
           "value": -0.0105,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2177,
+          "value": 0.2283,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -1768,7 +1883,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.025,
+          "value": -0.02,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -1867,10 +1982,10 @@
         "ADG": {
           "value": -0.021,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.3353,
+          "value": 0.3567,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -1891,22 +2006,22 @@
         "WWT": {
           "value": 0.6272,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 7.3187,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": -0.0105,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.1702,
+          "value": 0.1846,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -1925,22 +2040,22 @@
         "WWT": {
           "value": 0.6272,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 7.3187,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": -0.0105,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.1702,
+          "value": 0.1846,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -1959,22 +2074,22 @@
         "WWT": {
           "value": 0.6272,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 7.3187,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": -0.0105,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.1702,
+          "value": 0.1846,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -2264,8 +2379,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 23.9674,
@@ -2274,11 +2389,11 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.299,
+          "value": 0.316,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -2312,7 +2427,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.025,
+          "value": -0.02,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -2328,7 +2443,7 @@
         "PR": {
           "value": 0.0518,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 1.125,
@@ -2342,13 +2457,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1495,
+          "value": 0.158,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -2396,12 +2511,12 @@
         "PR": {
           "value": 0.0518,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 7.93,
@@ -2410,13 +2525,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1495,
+          "value": 0.158,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -2468,8 +2583,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 24.1117,
@@ -2478,11 +2593,11 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0846,
+          "value": 0.0922,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -2503,22 +2618,22 @@
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 17.4773,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0423,
+          "value": 0.0461,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -2531,13 +2646,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 0.1291,
@@ -2546,13 +2661,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": -0.0225,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -2604,8 +2719,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": -15.2856,
@@ -2614,13 +2729,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
@@ -2736,27 +2851,27 @@
         "PR": {
           "value": -0.0458,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 10.9632,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.025,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -2770,27 +2885,27 @@
         "PR": {
           "value": -0.0458,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 10.9632,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.025,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -2809,22 +2924,22 @@
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 10.9632,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.025,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -2843,22 +2958,22 @@
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 10.9632,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.025,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -2872,12 +2987,12 @@
         "PR": {
           "value": -0.1565,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 5.6845,
@@ -2886,13 +3001,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
@@ -2906,12 +3021,12 @@
         "PR": {
           "value": -0.1565,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 5.6845,
@@ -2920,13 +3035,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
@@ -3075,13 +3190,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": -12.5017,
@@ -3094,7 +3209,7 @@
           "accuracy": 0.7
         },
         "NLW": {
-          "value": 0.5001,
+          "value": 0.5149,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -3118,19 +3233,19 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -6.2509,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.021,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.2574,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -3177,13 +3292,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": -0.7405,
@@ -3192,8 +3307,8 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": -0.0225,
@@ -3211,13 +3326,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 14.8646,
@@ -3227,12 +3342,12 @@
         "ADG": {
           "value": -0.021,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2501,
+          "value": 0.2574,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -3245,8 +3360,8 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.6545,
@@ -3261,12 +3376,12 @@
         "ADG": {
           "value": -0.021,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2501,
+          "value": 0.2574,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -3278,9 +3393,9 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.013,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "WWT": {
           "value": 0.0,
@@ -3288,19 +3403,19 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 4.3302,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.0079,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.16,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -3314,7 +3429,7 @@
         "PR": {
           "value": -0.2205,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": -0.3,
@@ -3328,13 +3443,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0776,
+          "value": 0.085,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -3406,6 +3521,720 @@
         }
       }
     },
+    "khsi-107303": {
+      "name": "KHSI 107303",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -32.26,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 0.248,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 1.387,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.009,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
+    "khsi-28358": {
+      "name": "KHSI 28358",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.075,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-34933": {
+      "name": "KHSI 34933",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.075,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-38477": {
+      "name": "KHSI 38477",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 2.5,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": 0.026,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": 0.4855,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 46.032,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "khsi-41580": {
+      "name": "KHSI 41580",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.044,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 1.133,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 1.653,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-42793": {
+      "name": "KHSI 42793",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.0338,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "khsi-43759": {
+      "name": "KHSI 43759",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -22.1,
+          "method": "mid-parent",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": -0.319,
+          "method": "mid-parent",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": -0.1187,
+          "method": "mid-parent",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 23.0165,
+          "method": "mid-parent",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-45211": {
+      "name": "KHSI 45211",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-45212": {
+      "name": "KHSI 45212",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-49536": {
+      "name": "KHSI 49536",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.065,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 1.232,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 1.787,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-49537": {
+      "name": "KHSI 49537",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.417,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 0.715,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-52760": {
+      "name": "KHSI 52760",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 1.25,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "WWT": {
+          "value": 0.013,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "PWT": {
+          "value": 0.2427,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 25.5794,
+          "method": "mid-parent",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-52794": {
+      "name": "KHSI 52794",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -14.85,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -1.076,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -1.508,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.05,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
+    "khsi-53036": {
+      "name": "KHSI 53036",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.05,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-53519": {
+      "name": "KHSI 53519",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-54459": {
+      "name": "KHSI 54459",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.05,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-59039": {
+      "name": "KHSI 59039",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -7.425,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": -0.538,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": -0.754,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.025,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        }
+      }
+    },
+    "khsi-60275": {
+      "name": "KHSI 60275",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-63660": {
+      "name": "KHSI 63660",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.2085,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "PWT": {
+          "value": 0.3575,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.025,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        }
+      }
+    },
+    "khsi-63663": {
+      "name": "KHSI 63663",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0325,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "WWT": {
+          "value": 0.616,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "PWT": {
+          "value": 0.8935,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.025,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        }
+      }
+    },
+    "khsi-63664": {
+      "name": "KHSI 63664",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0325,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "WWT": {
+          "value": 0.616,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "PWT": {
+          "value": 0.8935,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.025,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        }
+      }
+    },
     "lara": {
       "name": "Lara",
       "sex": "ewe",
@@ -3420,8 +4249,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": -6.4148,
@@ -3430,11 +4259,11 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.299,
+          "value": 0.316,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -3450,27 +4279,27 @@
         "PR": {
           "value": 0.0548,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 2.2141,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1495,
+          "value": 0.158,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -3484,27 +4313,27 @@
         "PR": {
           "value": 0.0548,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 2.2141,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1495,
+          "value": 0.158,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -3536,7 +4365,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.025,
+          "value": -0.02,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -3552,27 +4381,27 @@
         "PR": {
           "value": 0.0548,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 2.2141,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1495,
+          "value": 0.158,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -3620,12 +4449,12 @@
         "PR": {
           "value": 0.0259,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 8.6604,
@@ -3635,12 +4464,12 @@
         "ADG": {
           "value": -0.0157,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "NLW": {
-          "value": 0.3089,
+          "value": 0.32,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -3652,9 +4481,9 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.013,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "WWT": {
           "value": 0.0,
@@ -3662,19 +4491,19 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 4.3302,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.0079,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.16,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -3687,13 +4516,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 1.0334,
@@ -3702,13 +4531,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0273,
+          "value": 0.0306,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -3722,27 +4551,27 @@
         "PR": {
           "value": 0.0259,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 32.7301,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": -0.0052,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.0851,
+          "value": 0.0929,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -3794,8 +4623,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 17.7335,
@@ -3804,13 +4633,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1495,
+          "value": 0.158,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -3828,8 +4657,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 4.9441,
@@ -3839,12 +4668,12 @@
         "ADG": {
           "value": -0.021,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2501,
+          "value": 0.2574,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -3944,7 +4773,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0103,
+          "value": 0.025,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -3968,9 +4797,9 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -6.8824,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
           "value": 0.0,
@@ -3978,9 +4807,9 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.0125,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -3998,8 +4827,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 21.2871,
@@ -4008,13 +4837,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0051,
+          "value": 0.0125,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4046,7 +4875,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0103,
+          "value": 0.025,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -4066,23 +4895,23 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 8.0185,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0077,
+          "value": 0.0188,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -4100,23 +4929,23 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 8.0185,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0077,
+          "value": 0.0188,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -4130,7 +4959,7 @@
         "PR": {
           "value": -0.0433,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": -0.3075,
@@ -4144,13 +4973,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1495,
+          "value": 0.158,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4299,8 +5128,8 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": -0.1,
@@ -4314,13 +5143,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0026,
+          "value": 0.0105,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4355,6 +5184,40 @@
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0
+        }
+      }
+    },
+    "pure-power-42776": {
+      "name": "PURE POWER",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 2.5,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "WWT": {
+          "value": 0.026,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "PWT": {
+          "value": 0.4855,
+          "method": "mid-parent",
+          "accuracy": 0.6
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 51.1925,
+          "method": "mid-parent",
+          "accuracy": 0.7
         }
       }
     },
@@ -4440,8 +5303,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 49.7011,
@@ -4450,13 +5313,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0125,
+          "value": -0.01,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4606,27 +5469,27 @@
         "PR": {
           "value": 0.0518,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 43.472,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1495,
+          "value": 0.158,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4712,8 +5575,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": -2.2841,
@@ -4722,11 +5585,11 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1553,
+          "value": 0.17,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -4742,12 +5605,12 @@
         "PR": {
           "value": -0.2205,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 32.0567,
@@ -4756,13 +5619,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0776,
+          "value": 0.085,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4781,22 +5644,22 @@
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 4.2794,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0776,
+          "value": 0.085,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4815,22 +5678,22 @@
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 4.2794,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0776,
+          "value": 0.085,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4844,27 +5707,27 @@
         "PR": {
           "value": -0.1224,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "WWT": {
           "value": 0.1,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "PWT": {
           "value": 4.2794,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0776,
+          "value": 0.085,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4912,7 +5775,7 @@
         "PR": {
           "value": -0.2815,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": -0.3,
@@ -4926,13 +5789,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.05,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4946,7 +5809,7 @@
         "PR": {
           "value": -0.2815,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": -0.3,
@@ -4960,13 +5823,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.05,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -4991,6 +5854,40 @@
           "value": 45.7352,
           "method": "blup-light",
           "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "sixteen-tons-59830": {
+      "name": "SIXTEEN TONS",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.0325,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": 0.616,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": 0.8935,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
           "value": 0.0,
@@ -5052,8 +5949,8 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 7.7835,
@@ -5063,12 +5960,12 @@
         "ADG": {
           "value": -0.0157,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "NLW": {
-          "value": 0.3089,
+          "value": 0.32,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -5116,7 +6013,7 @@
         "PR": {
           "value": -0.0433,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.3075,
@@ -5130,13 +6027,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1495,
+          "value": 0.158,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -5149,13 +6046,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": -0.3789,
@@ -5164,13 +6061,13 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
@@ -5183,13 +6080,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": -2.2446,
@@ -5198,13 +6095,47 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": -0.05,
           "method": "blup-light",
           "accuracy": 0.7
+        }
+      }
+    },
+    "sure-thing-34924": {
+      "name": "SURE THING",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -46.7,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -0.664,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -0.723,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.001,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         }
       }
     },
@@ -5252,27 +6183,27 @@
         "PR": {
           "value": 0.0064,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 10.6435,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0026,
+          "value": 0.0063,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -5328,9 +6259,9 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 6.6445,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
           "value": 0.0,
@@ -5338,9 +6269,9 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.04,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -5362,9 +6293,9 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 6.6445,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
           "value": 0.0,
@@ -5372,9 +6303,9 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.04,
+          "method": "mid-parent",
+          "accuracy": 0.45
         }
       }
     },
@@ -5392,23 +6323,23 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 7.7252,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
@@ -5562,23 +6493,23 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 35.1718,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0163,
+          "value": -0.015,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -5660,27 +6591,27 @@
         "PR": {
           "value": 0.0533,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 19.6881,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0163,
+          "value": -0.015,
           "method": "mid-parent",
-          "accuracy": 0.75
+          "accuracy": 0.7
         }
       }
     },
@@ -5736,9 +6667,9 @@
           "accuracy": 0.0
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 22.8676,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
           "value": 0.0,
@@ -5916,7 +6847,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.025,
+          "value": -0.02,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -5936,23 +6867,23 @@
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 16.1826,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0125,
+          "value": -0.01,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
         }
       }
     },
@@ -6126,6 +7057,40 @@
         }
       }
     },
+    "top-shelf-33299": {
+      "name": "TOP SHELF",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 5.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 0.052,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 0.971,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 102.46,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
     "trouble": {
       "name": "Trouble",
       "sex": "ewe",
@@ -6135,13 +7100,13 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "PWT": {
           "value": 29.8119,
@@ -6150,8 +7115,8 @@
         },
         "ADG": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "NLW": {
           "value": -0.045,
@@ -6169,8 +7134,8 @@
       "ebvs": {
         "PR": {
           "value": 0.0,
-          "method": "mid-parent",
-          "accuracy": 0.35
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "WWT": {
           "value": 0.3,
@@ -6190,7 +7155,109 @@
         "NLW": {
           "value": -0.0225,
           "method": "mid-parent",
-          "accuracy": 0.55
+          "accuracy": 0.6
+        }
+      }
+    },
+    "twenty-grand-52391": {
+      "name": "20 GRAND (52391 LHB 20)",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.06,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -0.201,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -0.273,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0185,
+          "method": "mid-parent",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "twenty-grand-dam-placeholder": {
+      "name": "20 GRAND's dam (NSIP-anchored, partial)",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.02,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "twenty-grand-sire-placeholder": {
+      "name": "20 GRAND's sire (NSIP-anchored, KHSI reg unknown)",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 11.14,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 1.884,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 2.842,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.057,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         }
       }
     },
@@ -6222,7 +7289,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.025,
+          "value": -0.02,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -6500,6 +7567,40 @@
         }
       }
     },
+    "zac-brown-146843": {
+      "name": "ZAC BROWN (146843 SRS 294)",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 24.31,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 1.128,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 2.573,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.057,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
     "zara": {
       "name": "Zara",
       "sex": "ewe",
@@ -6531,6 +7632,40 @@
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0
+        }
+      }
+    },
+    "zwt-6295-dam-of-zac-brown": {
+      "name": "ZWT 6295 (98055) \u2014 ZAC BROWN's dam",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.02,
+          "method": "blup-light",
+          "accuracy": 0.7
         }
       }
     }

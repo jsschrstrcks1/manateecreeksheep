@@ -106,11 +106,16 @@ def compute_trait_ebvs(
                 new_ebv = h2 * deviation + (1.0 - h2) * mid_parent_ebv
                 new_method = "blup-light"
                 new_acc = min(0.90, 0.55 + 0.20 * (1 if mid_parent_ebv != 0 else 0) + 0.15)
-            elif sire in ped and dam in ped:
-                # Mid-parent
+            elif (sire in ped or dam in ped) and (sire_ebv != 0 or dam_ebv != 0):
+                # Mid-parent: at least one parent is in the pedigree AND has a
+                # non-zero EBV. Unknown parents contribute 0 (the population
+                # mean by definition). This propagates ancestor EBVs down.
                 new_ebv = mid_parent_ebv
                 new_method = "mid-parent"
-                new_acc = min(0.75, 0.35 + 0.20 * (1 if sire_ebv != 0 else 0) + 0.20 * (1 if dam_ebv != 0 else 0))
+                known_parents = (1 if sire in ped else 0) + (1 if dam in ped else 0)
+                new_acc = min(0.75, 0.20 + 0.15 * known_parents +
+                              0.10 * (1 if sire_ebv != 0 else 0) +
+                              0.10 * (1 if dam_ebv != 0 else 0))
             else:
                 new_ebv = 0.0
                 new_method = "default-zero"
