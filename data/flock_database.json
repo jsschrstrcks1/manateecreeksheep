@@ -10904,9 +10904,20 @@
         {
           "date": "2026-06-09",
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
+        },
+        {
+          "date": "2026-06-11",
+          "note": "Operator: move to a hair-sheep pen, include her genetics in Line 1. Favorite. Reassigned from Rocky (Line 2) to a hair ram. PR +12.63 (Kelsier daughter)."
         }
       ],
-      "last_verified": "2026-06-09"
+      "last_verified": "2026-06-09",
+      "line_assignment": {
+        "line": "Line 1 — hair composite",
+        "assigned": "2026-06-11",
+        "rationale": "Operator favorite (2026-06-11). 50% Kelsier (PR +12.63 inherited) + 50% Gigi. Moving to a hair-sheep pen to fold her resistance genetics into the hair line. Breed to a HAIR ram (not Rocky) so offspring trend toward hair.",
+        "recommended_pen": "Pen 3 (Charlie's hair group — no wool) or another hair-sheep pen",
+        "breeding_note": "Born 2026-01-10 — ~9 months at fall 2026 mating (R2 borderline). Either breed late in the fall window or hold to spring 2027. Operator decision."
+      }
     },
     {
       "id": "gigi-2025-ram",
@@ -29002,6 +29013,351 @@
           }
         }
       ]
+    },
+    {
+      "id": "gigi-2026-baby-line1-reassignment",
+      "computed_on": "2026-06-11",
+      "ewe": "gigi-2026-baby",
+      "from_ram": "rocky (Line 2 BHD/Awassi)",
+      "to_ram": "centralia-lamb-2026 (Line 1 hair, 100% Katahdin)",
+      "projected_offspring": {
+        "pr_ebv": 7.8,
+        "hair_pct": 71.8,
+        "breed": "Katahdin ~72% / Suffolk 12.5% / Hampshire 12.5%"
+      },
+      "alt_ram": "charlie-ram (off PR +6.4, 72% hair) — mature proven alternative if centralia-lamb is too young at mating",
+      "age_flag": "gigi-2026-baby ~9 mo at fall 2026 mating (R2 borderline); may hold to spring 2027.",
+      "rationale": "Operator wants her hair-composite genetics retained; pairing with a hair ram trends offspring to ~72% hair while stacking Kelsier (maternal) + Centralia/ZacBrown (paternal) resistance lines."
+    },
+    {
+      "id": "projected-f1-2027-two-line",
+      "computed_on": "2026-06-11",
+      "line1_index_formula": "0.45*PR + 0.25*(hair%/20) + 0.30*PWT",
+      "line2_index_formula": "0.40*PR + 0.30*(fattail%/20) + 0.30*PWT",
+      "line1": [
+        {
+          "sire": "orange-tag-00110",
+          "dam": "samson-daughter-p4",
+          "index": 12.76,
+          "pr": 0.08,
+          "pwt": 40.84,
+          "hair_pct": 37.5
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "tag-24-0003-tf",
+          "index": 9.19,
+          "pr": 0.06,
+          "pwt": 30.54,
+          "hair_pct": null
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "oav-2222",
+          "index": 8.4,
+          "pr": 9.88,
+          "pwt": 9.01,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "sm-white-ewe-p4",
+          "index": 8.06,
+          "pr": 0.15,
+          "pwt": 23.0,
+          "hair_pct": 87.5
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "broken-tail-twin-ewe",
+          "index": 7.79,
+          "pr": 0.06,
+          "pwt": 25.89,
+          "hair_pct": null
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "daisy-of-sugar",
+          "index": 7.36,
+          "pr": 0.05,
+          "pwt": 20.3,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "merrie",
+          "dam": "broken-tail",
+          "index": 6.11,
+          "pr": 0.11,
+          "pwt": 16.04,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "tag-0033-hair-ewe",
+          "index": 6.1,
+          "pr": 0.06,
+          "pwt": 16.07,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "lara",
+          "index": 5.87,
+          "pr": 0.02,
+          "pwt": 15.9,
+          "hair_pct": 87.5
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "fawn-wool-ewe-p5",
+          "index": 5.76,
+          "pr": 0.06,
+          "pwt": 19.11,
+          "hair_pct": null
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "baby-azure",
+          "index": 5.52,
+          "pr": 7.86,
+          "pwt": 3.61,
+          "hair_pct": 71.8
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "gigi-2026-baby",
+          "index": 5.34,
+          "pr": 7.84,
+          "pwt": 3.06,
+          "hair_pct": 71.8
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "tag-0053-ewe",
+          "index": 4.77,
+          "pr": 1.52,
+          "pwt": 10.48,
+          "hair_pct": 75.0
+        },
+        {
+          "sire": "angus",
+          "dam": "fm2-0051",
+          "index": 4.44,
+          "pr": 0.08,
+          "pwt": 12.06,
+          "hair_pct": 62.5
+        },
+        {
+          "sire": "merrie",
+          "dam": "serendipity-twin-ewe",
+          "index": 4.43,
+          "pr": 6.16,
+          "pwt": 2.03,
+          "hair_pct": 84.2
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "elsie",
+          "index": 4.21,
+          "pr": 0.08,
+          "pwt": 9.75,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "tag-00113-ewe-p1",
+          "index": 3.95,
+          "pr": 0.05,
+          "pwt": 9.43,
+          "hair_pct": 87.5
+        },
+        {
+          "sire": "merrie",
+          "dam": "tag-31-ewe-p5",
+          "index": 3.81,
+          "pr": 0.05,
+          "pwt": 8.45,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "rocky",
+          "dam": "bambii-baby",
+          "index": 3.64,
+          "pr": 4.86,
+          "pwt": 2.25,
+          "hair_pct": 62.5
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "azure",
+          "index": 3.35,
+          "pr": 1.52,
+          "pwt": 6.81,
+          "hair_pct": 50.0
+        },
+        {
+          "sire": "angus",
+          "dam": "cocoas-daughter-by-loki",
+          "index": 3.25,
+          "pr": 0.01,
+          "pwt": 7.17,
+          "hair_pct": 87.5
+        },
+        {
+          "sire": "rocky",
+          "dam": "elsie-triplet-lg-white-ewe",
+          "index": 3.07,
+          "pr": 0.09,
+          "pwt": 6.98,
+          "hair_pct": 75.0
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "charlies-farm-ewe-p3",
+          "index": 2.9,
+          "pr": 0.1,
+          "pwt": 5.35,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "charlies-farm-ewe-baby-p3",
+          "index": 2.85,
+          "pr": 1.67,
+          "pwt": 2.83,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "angus",
+          "dam": "little-daisy",
+          "index": 2.4,
+          "pr": 0.01,
+          "pwt": 4.33,
+          "hair_pct": 87.5
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "charlies-ewe",
+          "index": 1.98,
+          "pr": 1.51,
+          "pwt": 0.16,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "merrie",
+          "dam": "tag-0044-wool-ewe",
+          "index": 1.47,
+          "pr": 0.06,
+          "pwt": 1.68,
+          "hair_pct": 75.0
+        },
+        {
+          "sire": "rocky",
+          "dam": "bambii",
+          "index": 1.42,
+          "pr": 0.07,
+          "pwt": 1.5,
+          "hair_pct": 75.0
+        },
+        {
+          "sire": "merrie",
+          "dam": "tag-31-orange-tf",
+          "index": 0.83,
+          "pr": 0.2,
+          "pwt": 2.47,
+          "hair_pct": null
+        },
+        {
+          "sire": "rocky",
+          "dam": "serendipity",
+          "index": 0.66,
+          "pr": -0.16,
+          "pwt": 0.36,
+          "hair_pct": 50.0
+        },
+        {
+          "sire": "angus",
+          "dam": "cocoa",
+          "index": 0.48,
+          "pr": 0.0,
+          "pwt": -2.03,
+          "hair_pct": 87.5
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "tag-114-fawn-wool",
+          "index": 0.27,
+          "pr": 1.51,
+          "pwt": -5.0,
+          "hair_pct": 87.5
+        },
+        {
+          "sire": "angus",
+          "dam": "tag-02-ewe-p5",
+          "index": 0.0,
+          "pr": 0.0,
+          "pwt": 0.0,
+          "hair_pct": null
+        },
+        {
+          "sire": "merrie",
+          "dam": "nori",
+          "index": -0.03,
+          "pr": 0.09,
+          "pwt": -4.41,
+          "hair_pct": 100.0
+        },
+        {
+          "sire": "rocky",
+          "dam": "tag-0035-white-ewe",
+          "index": -1.13,
+          "pr": 0.05,
+          "pwt": -6.96,
+          "hair_pct": 75.0
+        }
+      ],
+      "line2": [
+        {
+          "sire": "buck",
+          "dam": "fm",
+          "index": 9.8,
+          "pr": 12.55,
+          "pwt": 13.48,
+          "fattail_pct": 49.0
+        },
+        {
+          "sire": "buck",
+          "dam": "gg",
+          "index": 7.42,
+          "pr": 12.36,
+          "pwt": 7.04,
+          "fattail_pct": 24.0
+        },
+        {
+          "sire": "buck",
+          "dam": "windlestone-2139",
+          "index": 7.12,
+          "pr": 12.5,
+          "pwt": 3.5,
+          "fattail_pct": 71.5
+        },
+        {
+          "sire": "buck",
+          "dam": "windlestone-0055",
+          "index": 7.12,
+          "pr": 12.5,
+          "pwt": 3.5,
+          "fattail_pct": 71.5
+        },
+        {
+          "sire": "buck",
+          "dam": "windlestone-0056",
+          "index": 7.12,
+          "pr": 12.5,
+          "pwt": 3.5,
+          "fattail_pct": 71.5
+        }
+      ]
     }
   ],
   "breeder_relationships": {
@@ -29062,6 +29418,12 @@
         "FM via 50% Tunis (secondary, independent)"
       ]
     },
-    "scoring_implication": "A flock-vision index should be applied SEPARATELY per line: Line 1 (hair composite) weights hair coat heavily; Line 2 (Awassi dual-purpose) weights fat-tail/size/milk and IGNORES coat type. The earlier 'wool caveat' on FM/Gigi and Awassi crosses does NOT apply as a negative — those animals are in Line 2 where wool is accepted."
+    "scoring_implication": "A flock-vision index should be applied SEPARATELY per line: Line 1 (hair composite) weights hair coat heavily; Line 2 (Awassi dual-purpose) weights fat-tail/size/milk and IGNORES coat type. The earlier 'wool caveat' on FM/Gigi and Awassi crosses does NOT apply as a negative — those animals are in Line 2 where wool is accepted.",
+    "line_permeability": {
+      "added": "2026-06-11",
+      "principle": "The two lines are NOT sealed. An exceptionally superior individual from the Awassi dual-purpose line (e.g., a Gigi × Buck × Rocky F2) may be bred back INTO the broader flock — over or under other lambs in either line. Standout individuals override line boundaries.",
+      "rationale": "Operator 2026-06-11: 'if we have a super exceptional lamb (gigi × buck × rock) we may breed him over or her under some other lambs.' Selection on individual merit can promote a Line 2 animal into Line 1 use, or vice versa.",
+      "decision_rule": "Evaluate truly exceptional individuals on their own EBVs + phenotype, independent of which line produced them."
+    }
   }
 }
