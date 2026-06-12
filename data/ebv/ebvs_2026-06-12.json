@@ -9285,12 +9285,12 @@
           "accuracy": 0.7
         },
         "WWT": {
-          "value": 2.0,
+          "value": 2.5,
           "method": "nsip-anchored",
           "accuracy": 0.95
         },
         "PWT": {
-          "value": 3.0,
+          "value": 4.0,
           "method": "nsip-anchored",
           "accuracy": 0.95
         },
@@ -9319,12 +9319,12 @@
           "accuracy": 0.7
         },
         "WWT": {
-          "value": 2.0,
+          "value": 2.5,
           "method": "nsip-anchored",
           "accuracy": 0.95
         },
         "PWT": {
-          "value": 3.0,
+          "value": 4.0,
           "method": "nsip-anchored",
           "accuracy": 0.95
         },
@@ -9353,12 +9353,12 @@
           "accuracy": 0.7
         },
         "WWT": {
-          "value": 2.0,
+          "value": 2.5,
           "method": "nsip-anchored",
           "accuracy": 0.95
         },
         "PWT": {
-          "value": 3.0,
+          "value": 4.0,
           "method": "nsip-anchored",
           "accuracy": 0.95
         },

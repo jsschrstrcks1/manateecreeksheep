@@ -495,6 +495,12 @@
         "intermediate_percentage": 0,
         "wool_percentage": 0,
         "coat_prediction": "hair"
+      },
+      "breeder_provenance": {
+        "buyer": "Samantha Musho (OAV / Oakvale Farm)",
+        "philosophy": "Best she can find, cost is no barrier (operator 2026-06-11)",
+        "implication": "Animals purchased FROM Samantha's flock have been curated to her top-tier standard. NSIP EBVs already document Kelsier/OAV 2222 directly; this note adds provenance confidence to those values.",
+        "date_added": "2026-06-11"
       }
     },
     {
@@ -1916,6 +1922,10 @@
         "reproduction": {},
         "summary": "Operator-anchored 2026-06-11: ELITE parasite resistance + maximum size.",
         "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
+      },
+      "breeder_provenance": {
+        "source": "Windlestone Ranch — TOP FEW % Dorper / TOP 10% Awassi breeder (operator 2026-06-11)",
+        "implication": "Operator-anchored elite PR + size values are reinforced by Windlestone provenance."
       }
     },
     {
@@ -5891,6 +5901,12 @@
         },
         "summary": "Kelsier's full twin sister (born 12/21/2022, same NSIP flock 640301). Strong parasite resistance (WFEC -19.65) — slightly less extreme than Kelsier (-34.05) but still well above breed average. Top 5% US Hair Composite Index, top 5% Weaning Weight. Strong maternal birth weight rank 10 (top 10% for ease of lambing). Excellent foundation ewe with documented full-sib relationship to the gold-standard ram.",
         "source": "Auto-scraped digitalovine.com via KHSI reg 198290X 2026-06-11"
+      },
+      "breeder_provenance": {
+        "buyer": "Samantha Musho (OAV / Oakvale Farm)",
+        "philosophy": "Best she can find, cost is no barrier (operator 2026-06-11)",
+        "implication": "Animals purchased FROM Samantha's flock have been curated to her top-tier standard. NSIP EBVs already document Kelsier/OAV 2222 directly; this note adds provenance confidence to those values.",
+        "date_added": "2026-06-11"
       }
     },
     {
@@ -12451,18 +12467,18 @@
         "operator_anchor_rationale": "Operator-anchored 2026-06-11 as ELITE fat-tail, maximum size, and growth (big horns). 95% Awassi / 5% East Friesian; the fat-tail trait is a breed-distinct asset for the dual-purpose composite goal.",
         "weight_traits": {
           "PWWT": {
-            "val": 3.0,
+            "val": 4.0,
             "acc": 60,
             "rank": "<5",
-            "description": "Operator-anchored ELITE size + growth"
+            "description": "Operator-anchored ELITE — Windlestone Ranch top few % Dorper / top 10% Awassi breeder"
           },
           "WWT": {
-            "val": 2.0,
+            "val": 2.5,
             "acc": 60,
             "rank": "<5"
           },
           "YWT": {
-            "val": 3.0,
+            "val": 4.0,
             "acc": 55,
             "rank": "<5",
             "description": "Awassis grow large"
@@ -12475,8 +12491,13 @@
           "value_to_program": "Awassi fat-tail is a heritable energy-reserve trait useful for drought tolerance and milk yield support. Operator considers these three ewes top-tier expressions of this trait."
         },
         "us_hair_composite_index": null,
-        "summary": "Operator-anchored 2026-06-11: ELITE fat-tail expression, maximum size, growth. Phenotype = big horns.",
+        "summary": "Operator-anchored 2026-06-11 + Windlestone breeder context: ELITE fat-tail, growth, size. Windlestone is top few % nationwide for Dorpers, top 10% for Awassi breeders.",
         "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
+      },
+      "breeder_provenance": {
+        "breeder_tier": "ELITE — Windlestone Ranch is top few % of Dorper breeders in the country, and top 10% of Awassi breeders (operator 2026-06-11)",
+        "implication": "Genetic quality of stock from Windlestone is exceptional even without NSIP documentation. The phenotypic anchor (elite growth, size, fat tail) is reinforced by the breeder's known curation standards.",
+        "date_added": "2026-06-11"
       }
     },
     {
@@ -12627,18 +12648,18 @@
         "operator_anchor_rationale": "Operator-anchored 2026-06-11 as ELITE fat-tail, maximum size, and growth (med horns). 95% Awassi / 5% East Friesian; the fat-tail trait is a breed-distinct asset for the dual-purpose composite goal.",
         "weight_traits": {
           "PWWT": {
-            "val": 3.0,
+            "val": 4.0,
             "acc": 60,
             "rank": "<5",
-            "description": "Operator-anchored ELITE size + growth"
+            "description": "Operator-anchored ELITE — Windlestone Ranch top few % Dorper / top 10% Awassi breeder"
           },
           "WWT": {
-            "val": 2.0,
+            "val": 2.5,
             "acc": 60,
             "rank": "<5"
           },
           "YWT": {
-            "val": 3.0,
+            "val": 4.0,
             "acc": 55,
             "rank": "<5",
             "description": "Awassis grow large"
@@ -12651,8 +12672,13 @@
           "value_to_program": "Awassi fat-tail is a heritable energy-reserve trait useful for drought tolerance and milk yield support. Operator considers these three ewes top-tier expressions of this trait."
         },
         "us_hair_composite_index": null,
-        "summary": "Operator-anchored 2026-06-11: ELITE fat-tail expression, maximum size, growth. Phenotype = med horns.",
+        "summary": "Operator-anchored 2026-06-11 + Windlestone breeder context: ELITE fat-tail, growth, size. Windlestone is top few % nationwide for Dorpers, top 10% for Awassi breeders.",
         "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
+      },
+      "breeder_provenance": {
+        "breeder_tier": "ELITE — Windlestone Ranch is top few % of Dorper breeders in the country, and top 10% of Awassi breeders (operator 2026-06-11)",
+        "implication": "Genetic quality of stock from Windlestone is exceptional even without NSIP documentation. The phenotypic anchor (elite growth, size, fat tail) is reinforced by the breeder's known curation standards.",
+        "date_added": "2026-06-11"
       }
     },
     {
@@ -12802,18 +12828,18 @@
         "operator_anchor_rationale": "Operator-anchored 2026-06-11 as ELITE fat-tail, maximum size, and growth (small horns / dark legs). 95% Awassi / 5% East Friesian; the fat-tail trait is a breed-distinct asset for the dual-purpose composite goal.",
         "weight_traits": {
           "PWWT": {
-            "val": 3.0,
+            "val": 4.0,
             "acc": 60,
             "rank": "<5",
-            "description": "Operator-anchored ELITE size + growth"
+            "description": "Operator-anchored ELITE — Windlestone Ranch top few % Dorper / top 10% Awassi breeder"
           },
           "WWT": {
-            "val": 2.0,
+            "val": 2.5,
             "acc": 60,
             "rank": "<5"
           },
           "YWT": {
-            "val": 3.0,
+            "val": 4.0,
             "acc": 55,
             "rank": "<5",
             "description": "Awassis grow large"
@@ -12826,8 +12852,13 @@
           "value_to_program": "Awassi fat-tail is a heritable energy-reserve trait useful for drought tolerance and milk yield support. Operator considers these three ewes top-tier expressions of this trait."
         },
         "us_hair_composite_index": null,
-        "summary": "Operator-anchored 2026-06-11: ELITE fat-tail expression, maximum size, growth. Phenotype = small horns / dark legs.",
+        "summary": "Operator-anchored 2026-06-11 + Windlestone breeder context: ELITE fat-tail, growth, size. Windlestone is top few % nationwide for Dorpers, top 10% for Awassi breeders.",
         "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
+      },
+      "breeder_provenance": {
+        "breeder_tier": "ELITE — Windlestone Ranch is top few % of Dorper breeders in the country, and top 10% of Awassi breeders (operator 2026-06-11)",
+        "implication": "Genetic quality of stock from Windlestone is exceptional even without NSIP documentation. The phenotypic anchor (elite growth, size, fat tail) is reinforced by the breeder's known curation standards.",
+        "date_added": "2026-06-11"
       }
     },
     {
@@ -13485,6 +13516,10 @@
           "Confirm polled vs scur status close-up."
         ],
         "evaluator": "Claude (visual ID pass 2026-04-26, owner-confirmed positions)"
+      },
+      "breeder_provenance": {
+        "source": "Windlestone Ranch — TOP FEW % Dorper / TOP 10% Awassi breeder (operator 2026-06-11)",
+        "implication": "While Angus has no NSIP record yet, his Windlestone provenance is high-confidence elite. Consider adding operator-anchored EBVs once his FAMACHA/weight data accumulates on-farm."
       }
     },
     {
@@ -27851,5 +27886,29 @@
       },
       "unassigned": []
     }
-  ]
+  ],
+  "breeder_relationships": {
+    "samantha_musho_oav": {
+      "buying_philosophy": "Best she can find, cost is no barrier (operator 2026-06-11)",
+      "implication": "Any Katahdin sourced from Samantha's flock can be assumed top-tier even without NSIP data.",
+      "our_animals_from_her": [
+        "kelsier (KHSI 198291X)",
+        "oav-2222 (KHSI 198290X)"
+      ],
+      "date_added": "2026-06-11"
+    },
+    "windlestone_ranch": {
+      "tier_dorper": "TOP FEW % in the country",
+      "tier_awassi": "TOP 10%",
+      "our_animals_from_them": [
+        "windlestone-2139",
+        "windlestone-0055",
+        "windlestone-0056",
+        "buck (windlestone-katahdin/Dorper/Awassi cross)",
+        "angus (windlestone, K/D/Aw)"
+      ],
+      "implication": "Genetic stock from Windlestone is high-confidence elite even without NSIP records.",
+      "date_added": "2026-06-11"
+    }
+  }
 }

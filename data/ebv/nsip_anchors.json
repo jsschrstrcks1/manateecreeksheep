@@ -60,9 +60,9 @@
     "_label": "OAV 2222"
   },
   "windlestone-2139": {
-    "PWT": 3.0,
+    "PWT": 4.0,
     "PWT_source": "NSIP PWWT",
-    "WWT": 2.0,
+    "WWT": 2.5,
     "WWT_source": "NSIP WWT",
     "_progeny": null,
     "_flocks": null,
@@ -70,9 +70,9 @@
     "_label": "Windlestone Fat Tail 2139"
   },
   "windlestone-0056": {
-    "PWT": 3.0,
+    "PWT": 4.0,
     "PWT_source": "NSIP PWWT",
-    "WWT": 2.0,
+    "WWT": 2.5,
     "WWT_source": "NSIP WWT",
     "_progeny": null,
     "_flocks": null,
@@ -80,9 +80,9 @@
     "_label": "Windlestone Fat Tail 0056"
   },
   "windlestone-0055": {
-    "PWT": 3.0,
+    "PWT": 4.0,
     "PWT_source": "NSIP PWWT",
-    "WWT": 2.0,
+    "WWT": 2.5,
     "WWT_source": "NSIP WWT",
     "_progeny": null,
     "_flocks": null,
