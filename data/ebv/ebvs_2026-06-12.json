@@ -40,7 +40,12 @@
   },
   "nsip_anchors_used": [
     "kelsier",
+    "rocky",
+    "buck",
     "oav-2222",
+    "windlestone-2139",
+    "windlestone-0056",
+    "windlestone-0055",
     "centralia-founder-87730",
     "centralia-founder-sire-81385",
     "zac-brown-146843",
@@ -435,17 +440,17 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.2434,
+          "value": 9.5951,
           "method": "blup-light",
           "accuracy": 0.9
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 1.0,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 16.1826,
+          "value": 1.5,
           "method": "mid-parent",
           "accuracy": 0.6
         },
@@ -1013,19 +1018,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.0619,
-          "method": "blup-light",
-          "accuracy": 0.7
+          "value": 25.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 2.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "PWT": {
-          "value": 32.3652,
-          "method": "blup-light",
-          "accuracy": 0.7
+          "value": 3.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "ADG": {
           "value": 0.0,
@@ -1523,17 +1528,17 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.1302,
+          "value": 9.482,
           "method": "blup-light",
           "accuracy": 0.9
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 1.0,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 16.1826,
+          "value": 1.5,
           "method": "mid-parent",
           "accuracy": 0.6
         },
@@ -7070,14 +7075,14 @@
           "accuracy": 0.7
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 2.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "PWT": {
-          "value": 49.7011,
-          "method": "blup-light",
-          "accuracy": 0.9
+          "value": 3.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "ADG": {
           "value": 0.0,
@@ -8119,17 +8124,17 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.0773,
+          "value": 9.4291,
           "method": "blup-light",
           "accuracy": 0.9
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 1.0,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 7.7252,
+          "value": -6.9574,
           "method": "mid-parent",
           "accuracy": 0.7
         },
@@ -8294,12 +8299,12 @@
           "accuracy": 0.9
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 1.0,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 35.1718,
+          "value": 11.8212,
           "method": "mid-parent",
           "accuracy": 0.7
         },
@@ -8396,12 +8401,12 @@
           "accuracy": 0.7
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 1.0,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 19.6881,
+          "value": -3.6625,
           "method": "mid-parent",
           "accuracy": 0.7
         },
@@ -8663,17 +8668,17 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.1667,
+          "value": 9.5185,
           "method": "blup-light",
           "accuracy": 0.9
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 1.0,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 16.1826,
+          "value": 1.5,
           "method": "mid-parent",
           "accuracy": 0.6
         },
@@ -9280,14 +9285,14 @@
           "accuracy": 0.7
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 2.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "PWT": {
-          "value": 0.0,
-          "method": "blup-light",
-          "accuracy": 0.7
+          "value": 3.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "ADG": {
           "value": 0.0,
@@ -9314,14 +9319,14 @@
           "accuracy": 0.7
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 2.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "PWT": {
-          "value": 0.0,
-          "method": "blup-light",
-          "accuracy": 0.7
+          "value": 3.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "ADG": {
           "value": 0.0,
@@ -9348,14 +9353,14 @@
           "accuracy": 0.7
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 2.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "PWT": {
-          "value": 0.0,
-          "method": "blup-light",
-          "accuracy": 0.7
+          "value": 3.0,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         },
         "ADG": {
           "value": 0.0,

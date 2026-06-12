@@ -23,6 +23,28 @@
     "_snapshot_date": "2025-09-22",
     "_label": "Kelsier"
   },
+  "rocky": {
+    "PWT": 3.0,
+    "PWT_source": "NSIP PWWT",
+    "WWT": 2.0,
+    "WWT_source": "NSIP WWT",
+    "_progeny": null,
+    "_flocks": null,
+    "_snapshot_date": "2026-06-11",
+    "_label": "Rocky"
+  },
+  "buck": {
+    "PR": 25.0,
+    "PR_source": "NSIP WFEC=-25.0 (negated; positive PR = more resistant)",
+    "PWT": 3.0,
+    "PWT_source": "NSIP PWWT",
+    "WWT": 2.0,
+    "WWT_source": "NSIP WWT",
+    "_progeny": null,
+    "_flocks": null,
+    "_snapshot_date": "2026-06-11",
+    "_label": "Buck"
+  },
   "oav-2222": {
     "PR": 19.65,
     "PR_source": "NSIP WFEC=-19.65 (negated; positive PR = more resistant)",
@@ -36,6 +58,36 @@
     "_flocks": null,
     "_snapshot_date": "2025-09-22",
     "_label": "OAV 2222"
+  },
+  "windlestone-2139": {
+    "PWT": 3.0,
+    "PWT_source": "NSIP PWWT",
+    "WWT": 2.0,
+    "WWT_source": "NSIP WWT",
+    "_progeny": null,
+    "_flocks": null,
+    "_snapshot_date": "2026-06-11",
+    "_label": "Windlestone Fat Tail 2139"
+  },
+  "windlestone-0056": {
+    "PWT": 3.0,
+    "PWT_source": "NSIP PWWT",
+    "WWT": 2.0,
+    "WWT_source": "NSIP WWT",
+    "_progeny": null,
+    "_flocks": null,
+    "_snapshot_date": "2026-06-11",
+    "_label": "Windlestone Fat Tail 0056"
+  },
+  "windlestone-0055": {
+    "PWT": 3.0,
+    "PWT_source": "NSIP PWWT",
+    "WWT": 2.0,
+    "WWT_source": "NSIP WWT",
+    "_progeny": null,
+    "_flocks": null,
+    "_snapshot_date": "2026-06-11",
+    "_label": "Windlestone Fat Tail 0055"
   },
   "centralia-founder-87730": {
     "PR": 11.3,

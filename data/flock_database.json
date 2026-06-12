@@ -867,7 +867,36 @@
           "date": "2026-05-21",
           "note": "Moved Pen 2 -> Tree Fort. Replaces Buck as Tree Fort ram."
         }
-      ]
+      ],
+      "nsip_ebvs": {
+        "snapshot_date": "2026-06-11",
+        "source_type": "operator-anchored",
+        "operator_anchor_rationale": "Operator-anchored 2026-06-11 as ELITE growth + maximum size. No NSIP record available; values set to match top-tier growth EBVs observed in known animals (ZAC BROWN +2.573 PWWT). Used for downstream EBV propagation only — not equivalent to multi-flock NSIP validation.",
+        "weight_traits": {
+          "PWWT": {
+            "val": 3.0,
+            "acc": 60,
+            "rank": "<5",
+            "description": "Operator-anchored ELITE growth"
+          },
+          "WWT": {
+            "val": 2.0,
+            "acc": 60,
+            "rank": "<5",
+            "description": "Operator-anchored ELITE size"
+          },
+          "YWT": {
+            "val": 2.5,
+            "acc": 55,
+            "rank": "<5",
+            "description": "Operator-anchored ELITE yearling weight"
+          }
+        },
+        "parasite_resistance": {},
+        "reproduction": {},
+        "summary": "Operator-anchored 2026-06-11: ELITE growth and maximum size. No documented NSIP record but observable phenotype is top-tier.",
+        "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
+      }
     },
     {
       "id": "teaser",
@@ -1853,7 +1882,41 @@
           "date": "2026-05-21",
           "note": "Moved Tree Fort -> Pen 6. Replaces MC08 (sold at auction) as Pen 6 ram."
         }
-      ]
+      ],
+      "nsip_ebvs": {
+        "snapshot_date": "2026-06-11",
+        "source_type": "operator-anchored",
+        "operator_anchor_rationale": "Operator-anchored 2026-06-11 as ELITE parasite resistance + maximum size. PR set close to OAV 2222 (+19.65) and Kelsier (+34.05) tier.",
+        "weight_traits": {
+          "PWWT": {
+            "val": 3.0,
+            "acc": 60,
+            "rank": "<5",
+            "description": "Operator-anchored ELITE size"
+          },
+          "WWT": {
+            "val": 2.0,
+            "acc": 60,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": 2.5,
+            "acc": 55,
+            "rank": "<5"
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -25.0,
+            "acc": 60,
+            "rank": 5,
+            "description": "Operator-anchored ELITE parasite resistance — between OAV 2222 (-19.65) and ZAC BROWN (-24.31) tiers"
+          }
+        },
+        "reproduction": {},
+        "summary": "Operator-anchored 2026-06-11: ELITE parasite resistance + maximum size.",
+        "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
+      }
     },
     {
       "id": "dodge",
@@ -12381,7 +12444,40 @@
         ]
       },
       "confidence": "high",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-05-13",
+      "nsip_ebvs": {
+        "snapshot_date": "2026-06-11",
+        "source_type": "operator-anchored",
+        "operator_anchor_rationale": "Operator-anchored 2026-06-11 as ELITE fat-tail, maximum size, and growth (big horns). 95% Awassi / 5% East Friesian; the fat-tail trait is a breed-distinct asset for the dual-purpose composite goal.",
+        "weight_traits": {
+          "PWWT": {
+            "val": 3.0,
+            "acc": 60,
+            "rank": "<5",
+            "description": "Operator-anchored ELITE size + growth"
+          },
+          "WWT": {
+            "val": 2.0,
+            "acc": 60,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": 3.0,
+            "acc": 55,
+            "rank": "<5",
+            "description": "Awassis grow large"
+          }
+        },
+        "parasite_resistance": {},
+        "reproduction": {},
+        "fat_tail_trait": {
+          "operator_anchor": "ELITE",
+          "value_to_program": "Awassi fat-tail is a heritable energy-reserve trait useful for drought tolerance and milk yield support. Operator considers these three ewes top-tier expressions of this trait."
+        },
+        "us_hair_composite_index": null,
+        "summary": "Operator-anchored 2026-06-11: ELITE fat-tail expression, maximum size, growth. Phenotype = big horns.",
+        "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
+      }
     },
     {
       "id": "windlestone-0056",
@@ -12524,7 +12620,40 @@
         ]
       },
       "confidence": "high",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-05-13",
+      "nsip_ebvs": {
+        "snapshot_date": "2026-06-11",
+        "source_type": "operator-anchored",
+        "operator_anchor_rationale": "Operator-anchored 2026-06-11 as ELITE fat-tail, maximum size, and growth (med horns). 95% Awassi / 5% East Friesian; the fat-tail trait is a breed-distinct asset for the dual-purpose composite goal.",
+        "weight_traits": {
+          "PWWT": {
+            "val": 3.0,
+            "acc": 60,
+            "rank": "<5",
+            "description": "Operator-anchored ELITE size + growth"
+          },
+          "WWT": {
+            "val": 2.0,
+            "acc": 60,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": 3.0,
+            "acc": 55,
+            "rank": "<5",
+            "description": "Awassis grow large"
+          }
+        },
+        "parasite_resistance": {},
+        "reproduction": {},
+        "fat_tail_trait": {
+          "operator_anchor": "ELITE",
+          "value_to_program": "Awassi fat-tail is a heritable energy-reserve trait useful for drought tolerance and milk yield support. Operator considers these three ewes top-tier expressions of this trait."
+        },
+        "us_hair_composite_index": null,
+        "summary": "Operator-anchored 2026-06-11: ELITE fat-tail expression, maximum size, growth. Phenotype = med horns.",
+        "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
+      }
     },
     {
       "id": "windlestone-0055",
@@ -12666,7 +12795,40 @@
         ]
       },
       "confidence": "high",
-      "last_verified": "2026-05-13"
+      "last_verified": "2026-05-13",
+      "nsip_ebvs": {
+        "snapshot_date": "2026-06-11",
+        "source_type": "operator-anchored",
+        "operator_anchor_rationale": "Operator-anchored 2026-06-11 as ELITE fat-tail, maximum size, and growth (small horns / dark legs). 95% Awassi / 5% East Friesian; the fat-tail trait is a breed-distinct asset for the dual-purpose composite goal.",
+        "weight_traits": {
+          "PWWT": {
+            "val": 3.0,
+            "acc": 60,
+            "rank": "<5",
+            "description": "Operator-anchored ELITE size + growth"
+          },
+          "WWT": {
+            "val": 2.0,
+            "acc": 60,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": 3.0,
+            "acc": 55,
+            "rank": "<5",
+            "description": "Awassis grow large"
+          }
+        },
+        "parasite_resistance": {},
+        "reproduction": {},
+        "fat_tail_trait": {
+          "operator_anchor": "ELITE",
+          "value_to_program": "Awassi fat-tail is a heritable energy-reserve trait useful for drought tolerance and milk yield support. Operator considers these three ewes top-tier expressions of this trait."
+        },
+        "us_hair_composite_index": null,
+        "summary": "Operator-anchored 2026-06-11: ELITE fat-tail expression, maximum size, growth. Phenotype = small horns / dark legs.",
+        "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
+      }
     },
     {
       "id": "tag-0035-white-ewe",
@@ -27410,6 +27572,280 @@
             "offspring_pr": 1.5105,
             "ewe_pr": -0.0177,
             "pair_acc": 0.6499999999999999
+          }
+        ]
+      },
+      "unassigned": []
+    },
+    {
+      "id": "ebv-weighted-allocation-v2-2026-06-11",
+      "computed_on": "2026-06-11",
+      "method": "Round-robin draft. Composite = 0.5×PR + 0.3×PWT + 0.2×WWT (offspring mid-parent EBVs). Includes operator-anchored EBVs for rocky/buck/windlestone Awassis.",
+      "operator_holds": [
+        "lara-2026-lamb"
+      ],
+      "ram_draft_order": [
+        "buck",
+        "orange-tag-00110",
+        "charlie-ram",
+        "centralia-lamb-2026",
+        "merrie",
+        "rocky",
+        "angus"
+      ],
+      "ram_bands": {
+        "charlie-ram": [
+          {
+            "ewe": "baby-azure",
+            "composite": 7.102830000000001,
+            "off_pr": 6.388050000000001,
+            "off_pwt": 12.876850000000001
+          },
+          {
+            "ewe": "tag-0053-ewe",
+            "composite": 5.950864999999999,
+            "off_pr": 0.052450000000000004,
+            "off_pwt": 19.7488
+          },
+          {
+            "ewe": "tag-31-ewe-p5",
+            "composite": 4.64576,
+            "off_pr": 0.0502,
+            "off_pwt": 15.4022
+          },
+          {
+            "ewe": "windlestone-0056",
+            "composite": 3.5033800000000004,
+            "off_pr": 0.0502,
+            "off_pwt": 10.9276
+          },
+          {
+            "ewe": "tag-00113-ewe-p1",
+            "composite": 2.85338,
+            "off_pr": 0.0502,
+            "off_pwt": 9.4276
+          },
+          {
+            "ewe": "tag-114-fawn-wool",
+            "composite": 1.300205,
+            "off_pr": 0.04135,
+            "off_pwt": 4.2651
+          }
+        ],
+        "angus": [
+          {
+            "ewe": "fm",
+            "composite": 3.621035,
+            "off_pr": 0.05185,
+            "off_pwt": 11.9837
+          },
+          {
+            "ewe": "broken-tail-twin-ewe",
+            "composite": 2.03369,
+            "off_pr": -0.00305,
+            "off_pwt": 6.78405
+          },
+          {
+            "ewe": "sm-white-ewe-p4",
+            "composite": 1.2135749999999998,
+            "off_pr": 0.0921,
+            "off_pwt": 3.89175
+          },
+          {
+            "ewe": "bambii",
+            "composite": 0.005225,
+            "off_pr": 0.01045,
+            "off_pwt": 0.0
+          },
+          {
+            "ewe": "cocoa",
+            "composite": -0.6095099999999999,
+            "off_pr": 0.0,
+            "off_pwt": -2.0317
+          }
+        ],
+        "rocky": [
+          {
+            "ewe": "fm2-0051",
+            "composite": 4.33833,
+            "off_pr": 0.14315,
+            "off_pwt": 13.55585
+          },
+          {
+            "ewe": "cocoas-daughter-by-loki",
+            "composite": 2.8343599999999998,
+            "off_pr": 0.0687,
+            "off_pwt": 8.666699999999999
+          },
+          {
+            "ewe": "little-daisy",
+            "composite": 1.9866349999999997,
+            "off_pr": 0.07515,
+            "off_pwt": 5.8302
+          },
+          {
+            "ewe": "tag-31-orange-tf",
+            "composite": 0.7514000000000001,
+            "off_pr": 0.2028,
+            "off_pwt": 1.5
+          },
+          {
+            "ewe": "serendipity",
+            "composite": 0.22823500000000002,
+            "off_pr": -0.1583,
+            "off_pwt": 0.35795
+          }
+        ],
+        "merrie": [
+          {
+            "ewe": "gigi-2026-baby",
+            "composite": 4.84182,
+            "off_pr": 6.37185,
+            "off_pwt": 5.36715
+          },
+          {
+            "ewe": "bambii-baby",
+            "composite": 3.4926150000000002,
+            "off_pr": 4.852,
+            "off_pwt": 3.22205
+          },
+          {
+            "ewe": "gg",
+            "composite": 2.3593849999999996,
+            "off_pr": -0.08945,
+            "off_pwt": 8.0137
+          },
+          {
+            "ewe": "elsie",
+            "composite": 1.00593,
+            "off_pr": 0.0857,
+            "off_pwt": 2.7921
+          },
+          {
+            "ewe": "tag-0044-wool-ewe",
+            "composite": 0.534215,
+            "off_pr": 0.0577,
+            "off_pwt": 1.6845499999999998
+          },
+          {
+            "ewe": "tag-0035-white-ewe",
+            "composite": -1.773605,
+            "off_pr": 0.044,
+            "off_pwt": -5.98535
+          }
+        ],
+        "buck": [
+          {
+            "ewe": "samson-daughter-p4",
+            "composite": 13.43375,
+            "off_pr": 12.5259,
+            "off_pwt": 23.236
+          },
+          {
+            "ewe": "tag-24-0003-tf",
+            "composite": 10.33014,
+            "off_pr": 12.5,
+            "off_pwt": 12.9338
+          },
+          {
+            "ewe": "tag-0033-hair-ewe",
+            "composite": 8.896725,
+            "off_pr": 12.50675,
+            "off_pwt": 8.1445
+          },
+          {
+            "ewe": "charlies-farm-ewe-baby-p3",
+            "composite": 7.7771300000000005,
+            "off_pr": 12.6507,
+            "off_pwt": 4.1726
+          },
+          {
+            "ewe": "tag-02-ewe-p5",
+            "composite": 6.9,
+            "off_pr": 12.5,
+            "off_pwt": 1.5
+          },
+          {
+            "ewe": "lara",
+            "composite": 5.91613,
+            "off_pr": 12.4567,
+            "off_pwt": -1.7073999999999998
+          }
+        ],
+        "orange-tag-00110": [
+          {
+            "ewe": "oav-2222",
+            "composite": 10.55333,
+            "off_pr": 9.8837,
+            "off_pwt": 18.6856
+          },
+          {
+            "ewe": "daisy-of-sugar",
+            "composite": 9.022675000000001,
+            "off_pr": 0.0587,
+            "off_pwt": 29.97775
+          },
+          {
+            "ewe": "azure",
+            "composite": 7.757504999999999,
+            "off_pr": 0.061950000000000005,
+            "off_pwt": 25.7551
+          },
+          {
+            "ewe": "windlestone-2139",
+            "composite": 6.41088,
+            "off_pr": 0.0587,
+            "off_pwt": 20.6051
+          },
+          {
+            "ewe": "fawn-wool-ewe-p5",
+            "composite": 5.76088,
+            "off_pr": 0.0587,
+            "off_pwt": 19.1051
+          },
+          {
+            "ewe": "charlies-farm-ewe-p3",
+            "composite": 4.562085,
+            "off_pr": 0.11055000000000001,
+            "off_pwt": 15.0227
+          }
+        ],
+        "centralia-lamb-2026": [
+          {
+            "ewe": "broken-tail",
+            "composite": 4.918354999999999,
+            "off_pr": 1.5712,
+            "off_pwt": 13.72885
+          },
+          {
+            "ewe": "serendipity-twin-ewe",
+            "composite": 3.786525,
+            "off_pr": 7.62495,
+            "off_pwt": -0.286
+          },
+          {
+            "ewe": "elsie-triplet-lg-white-ewe",
+            "composite": 2.5437,
+            "off_pr": 1.5482,
+            "off_pwt": 5.6426
+          },
+          {
+            "ewe": "windlestone-0055",
+            "composite": 1.472015,
+            "off_pr": 1.51935,
+            "off_pwt": 1.6608
+          },
+          {
+            "ewe": "charlies-ewe",
+            "composite": 0.818715,
+            "off_pr": 1.51275,
+            "off_pwt": 0.1608
+          },
+          {
+            "ewe": "nori",
+            "composite": -1.2272299999999996,
+            "off_pr": 1.5503,
+            "off_pwt": -6.7216
           }
         ]
       },
