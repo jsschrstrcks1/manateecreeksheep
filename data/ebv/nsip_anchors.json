@@ -23,6 +23,20 @@
     "_snapshot_date": "2025-09-22",
     "_label": "Kelsier"
   },
+  "oav-2222": {
+    "PR": 19.65,
+    "PR_source": "NSIP WFEC=-19.65 (negated; positive PR = more resistant)",
+    "PR_pfec_recorded": -33.19,
+    "PWT": -0.839,
+    "PWT_source": "NSIP PWWT",
+    "WWT": 0.058,
+    "WWT_source": "NSIP WWT",
+    "_us_hair_index": 100.36,
+    "_progeny": null,
+    "_flocks": null,
+    "_snapshot_date": "2025-09-22",
+    "_label": "OAV 2222"
+  },
   "centralia-founder-87730": {
     "PR": 11.3,
     "PR_source": "NSIP WFEC=-11.3 (negated; positive PR = more resistant)",

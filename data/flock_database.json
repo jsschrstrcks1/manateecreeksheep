@@ -5610,7 +5610,9 @@
       "id": "oav-2222",
       "name": "OAV 2222",
       "aliases": [
-        "2222"
+        "2222",
+        "198290X",
+        "KHSI 198290X"
       ],
       "tag": "2222",
       "mc_tag": null,
@@ -5628,8 +5630,8 @@
       },
       "color_markings": "",
       "weight_lbs": 140,
-      "dob": null,
-      "dob_approximate": true,
+      "dob": "2022-12-21",
+      "dob_approximate": false,
       "sire_id": null,
       "dam_id": null,
       "status": "alive",
@@ -5697,9 +5699,9 @@
           "IMG_8639.PNG"
         ]
       },
-      "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 — notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko. Kelsier's sister (100% Katahdin, OAV/Oakvale Farm). Confirmed Pen 5, April 2026. Escaped with Elsie to Pen 6, spent months there. Moved back to Pen 5 this week (late March 2026). Escaped again. Watch closely. CORRECTED 2026-04-26 (owner verbal): 'OAV had no twins this year' — the 2026-02-10 lambing-record entry was wrong and has been removed. Her prior twins (referenced in NoriSon track record) were from earlier years (2024 lambs by Spotted Katahdin × Dorper, born 3-13-24). Did NOT lamb in 2026.",
+      "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 — notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko. Kelsier's sister (100% Katahdin, OAV/Oakvale Farm). Confirmed Pen 5, April 2026. Escaped with Elsie to Pen 6, spent months there. Moved back to Pen 5 this week (late March 2026). Escaped again. Watch closely. CORRECTED 2026-04-26 (owner verbal): 'OAV had no twins this year' — the 2026-02-10 lambing-record entry was wrong and has been removed. Her prior twins (referenced in NoriSon track record) were from earlier years (2024 lambs by Spotted Katahdin × Dorper, born 3-13-24). Did NOT lamb in 2026. | 2026-06-11: KHSI registration FOUND (198290X). Full twin to Kelsier (198291X — same DOB, NSIP flock, owners). NSIP EBVs captured: WFEC -19.65 (parasite resistant), PWWT rank <5 (top 5%), US Hair Index 100.36 rank <5.",
       "confidence": "high",
-      "last_verified": "2026-02-16",
+      "last_verified": "2026-06-11",
       "notes_history": [
         {
           "date": "2026-04-26",
@@ -5748,6 +5750,84 @@
           "oav-2222-lamb-2"
         ],
         "all_alive_at_birth": true
+      },
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "198290X",
+        "reg_suffix_meaning": "X suffix = Percent Registry",
+        "flock_name_number": "OAV 2222",
+        "nsip_id": "6403012022222222",
+        "nsip_flock_id": "640301",
+        "status": "Percent Registry — Katahdin",
+        "owners": [
+          "Ken Baker (KHSI 17006)",
+          "Samantha Musho (KHSI 7986)"
+        ],
+        "breeder": "OAV (Sam Mushko, Oakvale Farm, DeLeon Springs FL)",
+        "service_type": "Natural Service - Twin",
+        "date_of_birth": "2022-12-21",
+        "twin_to": "kelsier (198291X)",
+        "source": "Auto-scraped digitalovine.com via NSIP search 2026-06-11"
+      },
+      "full_siblings": [
+        "kelsier"
+      ],
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "as_non_parent": true,
+        "progeny_evaluated": null,
+        "flocks_represented": null,
+        "weight_traits": {
+          "BWT": {
+            "val": -0.006,
+            "se": 0.24,
+            "acc": 50,
+            "rank": 10,
+            "description": "Birth Weight EBV, rank 10 = top 10%"
+          },
+          "MBWT": {
+            "val": -0.069,
+            "acc": 38,
+            "rank": 10,
+            "description": "Maternal Birth Weight EBV, rank 10 = top 10% (easy lambing)"
+          },
+          "WWT": {
+            "val": 0.058,
+            "se": 1.92,
+            "acc": 48,
+            "rank": "<5",
+            "description": "Weaning Weight EBV, RANK <5 = TOP 5%"
+          },
+          "PWWT": {
+            "val": -0.839,
+            "se": 2.45,
+            "acc": 51,
+            "rank": "<5",
+            "description": "Post-Weaning Weight EBV. Rank <5 from NSIP — NSIP convention for this trait should be verified given the negative value; record as-is."
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -19.65,
+            "acc": 56,
+            "rank": 30,
+            "description": "Weaning FEC EBV. Strong negative = parasite resistant. Compare: full brother Kelsier WFEC -34.05; she's slightly less extreme but still strongly resistant."
+          },
+          "PFEC": {
+            "val": -33.19,
+            "acc": 57,
+            "rank": 40,
+            "description": "Post-weaning FEC EBV. Strong negative."
+          }
+        },
+        "reproduction": {},
+        "us_hair_composite_index": {
+          "val": 100.36,
+          "rank": "<5",
+          "description": "US Hair Composite Index, RANK <5 = TOP 5%"
+        },
+        "summary": "Kelsier's full twin sister (born 12/21/2022, same NSIP flock 640301). Strong parasite resistance (WFEC -19.65) — slightly less extreme than Kelsier (-34.05) but still well above breed average. Top 5% US Hair Composite Index, top 5% Weaning Weight. Strong maternal birth weight rank 10 (top 10% for ease of lambing). Excellent foundation ewe with documented full-sib relationship to the gold-standard ram.",
+        "source": "Auto-scraped digitalovine.com via KHSI reg 198290X 2026-06-11"
       }
     },
     {
@@ -13737,8 +13817,21 @@
         {
           "date": "2026-05-21",
           "note": "Moved from Pen 1 stall to Chicken Coop (chicken coop is being used as a stall — small enclosed grain-access space). Lara nearly dry; lambs almost fully on grain since day 3 of life."
+        },
+        {
+          "date": "2026-06-11",
+          "note": "Operator decision: hold from fall 2026 breeding. First mating target spring 2027 at ~11 mo, out of season. Goal: preserve high-PR-EBV ewe through first lambing safely."
         }
-      ]
+      ],
+      "breeding_plan": {
+        "first_breeding_target": "spring 2027 (~11 months old)",
+        "out_of_season_breeding": true,
+        "rationale": "Operator decision 2026-06-11: hold until 11 months. Will be bred out of season (spring 2027). Trades a year of generation turnover for reducing dystocia/growth-stunt risk on the highest-PR-EBV ewe in the line.",
+        "exclude_from_fall_2026_band": true,
+        "expected_breeding_age_at_mating": 11,
+        "earliest_lambing": "~Aug-Sept 2027",
+        "decided_on": "2026-06-11"
+      }
     },
     {
       "id": "lara-2026-ram-twin",
