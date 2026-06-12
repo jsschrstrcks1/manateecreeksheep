@@ -1,0 +1,103 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": null,
+      "flocks_represented": null,
+      "raw_traits": {
+        "BWT": {
+          "val": 0.118,
+          "se": 0.24,
+          "acc": 51,
+          "rank": 30
+        },
+        "MBWT": {
+          "val": -0.069,
+          "se": null,
+          "acc": 38,
+          "rank": 10
+        },
+        "WWT": {
+          "val": 0.915,
+          "se": 1.92,
+          "acc": 49,
+          "rank": 20
+        },
+        "MWWT": {
+          "val": 0.497,
+          "se": 2.45,
+          "acc": 52,
+          "rank": 5
+        },
+        "PWWT": {
+          "val": -34.05,
+          "se": null,
+          "acc": 57,
+          "rank": 40
+        },
+        "YWT": {
+          "val": -46.31,
+          "se": null,
+          "acc": 58,
+          "rank": 55
+        },
+        "HWT": {
+          "val": 100.63,
+          "se": null,
+          "acc": 5,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 0.118,
+          "se": 0.24,
+          "acc": 51,
+          "rank": 30
+        },
+        "MBWT": {
+          "val": -0.069,
+          "se": null,
+          "acc": 38,
+          "rank": 10
+        },
+        "WWT": {
+          "val": 0.915,
+          "se": 1.92,
+          "acc": 49,
+          "rank": 20
+        },
+        "MWWT": {
+          "val": 0.497,
+          "se": 2.45,
+          "acc": 52,
+          "rank": 5
+        },
+        "PWWT": {
+          "val": -34.05,
+          "se": null,
+          "acc": 57,
+          "rank": 40
+        },
+        "YWT": {
+          "val": -46.31,
+          "se": null,
+          "acc": 58,
+          "rank": 55
+        },
+        "HWT": {
+          "val": 100.63,
+          "se": null,
+          "acc": 5,
+          "rank": null
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "198291X",
+  "scraped_at": 1781231687
+}

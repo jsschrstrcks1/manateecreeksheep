@@ -154,15 +154,16 @@
       "mc_tag": null,
       "sex": "ram",
       "breed_composition": {
-        "primary": "Katahdin",
+        "primary": "Katahdin (87%) + unknown (13%)",
         "percentages": {
-          "Katahdin": 100
+          "Katahdin": 87
         },
         "coat_type": "hair",
         "hair_percentage": 100,
         "intermediate_percentage": 0,
         "wool_percentage": 0,
-        "coat_prediction": "hair"
+        "coat_prediction": "hair",
+        "notes": "REVISED 2026-06-11 from prior 100% Katahdin classification: KHSI registers Kelsier as Percent Registry at 87% Katahdin (his X-suffix reg 198291X confirms this). The unknown 13% comes from his pedigree and is not detailed in available records."
       },
       "color_markings": "",
       "weight_lbs": 250,
@@ -398,8 +399,100 @@
             "Request Sam Mushko's NSIP EBV printout for Kelsier (OAV 2223 / NSIP 6403012022222223)",
             "Use Kelsier's existing UF Ram Test 2023 data as flock-internal anchor (already structured in uf_ram_test field)"
           ]
+        },
+        {
+          "date": "2026-06-11",
+          "attempted_via": "AJAX endpoint /modules/DigitalOvine-Landing/ajax/search_results_animal.php?search_type=nsip_id",
+          "result": "FOUND — KHSI registration 198291X (X-suffix percent registry)",
+          "notes": "Earlier 0-result searches were caused by hitting the form-render endpoint rather than the AJAX search endpoint. Direct AJAX URL works."
         }
-      ]
+      ],
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "198291X",
+        "reg_suffix_meaning": "X suffix = Percent Registry (Kelsier is 87% Katahdin, below the 93.75% threshold for full purebred registry)",
+        "flock_name_number": "OAV 2223",
+        "nsip_id": "6403012022222223",
+        "nsip_flock_id": "640301",
+        "status": "Percent Registry — 87% Katahdin",
+        "owners": [
+          "Ken Baker (KHSI 17006)",
+          "Samantha Musho (KHSI 7986)"
+        ],
+        "breeder": "OAV (Sam Mushko, Oakvale Farm, DeLeon Springs FL)",
+        "service_type": "Natural Service",
+        "date_of_birth": "2022-12-21",
+        "source": "Auto-scraped digitalovine.com via NSIP-id search 2026-06-11"
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "as_active_sire": false,
+        "as_non_parent": true,
+        "progeny_evaluated": null,
+        "flocks_represented": null,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.118,
+            "se": 0.24,
+            "acc": 51,
+            "rank": 30,
+            "description": "Birth Weight EBV (lb), rank 30 = above-average birth weight"
+          },
+          "MBWT": {
+            "val": -0.069,
+            "acc": 38,
+            "rank": 10,
+            "description": "Maternal Birth Weight EBV (lb), rank 10 = top 10% for ease of lambing (lower MBWT = easier lambing)"
+          },
+          "WWT": {
+            "val": 0.915,
+            "se": 1.92,
+            "acc": 49,
+            "rank": 20,
+            "description": "Weaning Weight EBV (lb), rank 20 = top 20%"
+          },
+          "PWWT": {
+            "val": 0.497,
+            "se": 2.45,
+            "acc": 52,
+            "rank": 5,
+            "description": "Post-Weaning Weight EBV (lb), RANK 5 = TOP 5% — exceptional growth"
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -34.05,
+            "acc": 57,
+            "rank": 40,
+            "description": "Weaning FEC EBV. -34.05 = STRONGER than ZAC BROWN (-24.31) and CENTRALIA (-11.30). Lower egg count = more parasite resistant."
+          },
+          "PFEC": {
+            "val": -46.31,
+            "acc": 58,
+            "rank": 55,
+            "description": "Post-weaning FEC EBV. Very negative — strong resistance signal (note: NSIP percentile rank 55 — interpret with caution given the rank-vs-value ambiguity)"
+          }
+        },
+        "reproduction": {},
+        "us_hair_composite_index": {
+          "val": 100.63,
+          "rank": 5,
+          "description": "US Hair Composite Index, RANK 5 = TOP 5% of Katahdin breed"
+        },
+        "summary": "STRONGEST parasite resistance signal in the flock's anchored ancestor set (WFEC -34.05, stronger than ZAC BROWN -24.31). Post-weaning weight rank 5 (top 5%). Composite index rank 5 (top 5%). Maternal birth weight rank 10 (top 10% for ease of lambing). This is exactly the trait stack that earned him 'most parasite resistant in flock' designation and 5/40 UF Ram Test ranking.",
+        "source": "Auto-scraped digitalovine.com via KHSI reg 198291X 2026-06-11"
+      },
+      "breed_composition_prior": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair"
+      }
     },
     {
       "id": "gg",

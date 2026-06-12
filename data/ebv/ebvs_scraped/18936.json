@@ -1,0 +1,405 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": 14,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": -0.338,
+          "se": 0.2,
+          "acc": 77,
+          "rank": "<5"
+        },
+        "MBWT": {
+          "val": -0.014,
+          "se": null,
+          "acc": 90,
+          "rank": 30
+        },
+        "WWT": {
+          "val": -0.444,
+          "se": 1.49,
+          "acc": 74,
+          "rank": "<5"
+        },
+        "MWWT": {
+          "val": -0.025,
+          "se": null,
+          "acc": 82,
+          "rank": 5
+        },
+        "PWWT": {
+          "val": -0.123,
+          "se": 2.02,
+          "acc": 75,
+          "rank": 5
+        },
+        "YWT": {
+          "val": -0.822,
+          "se": 2.56,
+          "acc": 67,
+          "rank": 5
+        },
+        "HWT": {
+          "val": -1.102,
+          "se": null,
+          "acc": 62,
+          "rank": "-"
+        },
+        "PFAT": {
+          "val": 0.402,
+          "se": 1.03,
+          "acc": 63,
+          "rank": 40
+        },
+        "PEMD": {
+          "val": -0.313,
+          "se": 0.9,
+          "acc": 55,
+          "rank": 25
+        },
+        "WFEC": {
+          "val": 48.22,
+          "se": null,
+          "acc": 58,
+          "rank": 5
+        },
+        "PFEC": {
+          "val": 58.1,
+          "se": null,
+          "acc": 58,
+          "rank": 10
+        },
+        "PSC": {
+          "val": 0.656,
+          "se": null,
+          "acc": 53,
+          "rank": "-"
+        },
+        "NLB": {
+          "val": 0.315,
+          "se": null,
+          "acc": 66,
+          "rank": 98
+        },
+        "NLW": {
+          "val": 0.17,
+          "se": null,
+          "acc": 62,
+          "rank": 90
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": -0.338,
+          "se": 0.2,
+          "acc": 77,
+          "rank": "<5"
+        },
+        "MBWT": {
+          "val": -0.014,
+          "se": null,
+          "acc": 90,
+          "rank": 30
+        },
+        "WWT": {
+          "val": -0.444,
+          "se": 1.49,
+          "acc": 74,
+          "rank": "<5"
+        },
+        "MWWT": {
+          "val": -0.025,
+          "se": null,
+          "acc": 82,
+          "rank": 5
+        },
+        "PWWT": {
+          "val": -0.123,
+          "se": 2.02,
+          "acc": 75,
+          "rank": 5
+        },
+        "YWT": {
+          "val": -0.822,
+          "se": 2.56,
+          "acc": 67,
+          "rank": 5
+        },
+        "HWT": {
+          "val": -1.102,
+          "se": null,
+          "acc": 62,
+          "rank": "-"
+        }
+      },
+      "carcass_traits": {
+        "PFAT": {
+          "val": 0.402,
+          "se": 1.03,
+          "acc": 63,
+          "rank": 40
+        },
+        "PEMD": {
+          "val": -0.313,
+          "se": 0.9,
+          "acc": 55,
+          "rank": 25
+        }
+      },
+      "parasite_resistance": {
+        "WFEC": {
+          "val": 48.22,
+          "se": null,
+          "acc": 58,
+          "rank": 5
+        },
+        "PFEC": {
+          "val": 58.1,
+          "se": null,
+          "acc": 58,
+          "rank": 10
+        }
+      },
+      "reproduction": {
+        "PSC": {
+          "val": 0.656,
+          "se": null,
+          "acc": 53,
+          "rank": "-"
+        },
+        "NLB": {
+          "val": 0.315,
+          "se": null,
+          "acc": 66,
+          "rank": 98
+        },
+        "NLW": {
+          "val": 0.17,
+          "se": null,
+          "acc": 62,
+          "rank": 90
+        }
+      },
+      "us_hair_composite_index": {
+        "val": 102.32,
+        "rank": 45
+      }
+    },
+    {
+      "role": "sire",
+      "progeny_evaluated": 7,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": -0.112,
+          "se": 0.23,
+          "acc": 68,
+          "rank": 5
+        },
+        "MBWT": {
+          "val": -0.247,
+          "se": null,
+          "acc": 84,
+          "rank": "<5"
+        },
+        "WWT": {
+          "val": 0.24,
+          "se": 1.67,
+          "acc": 66,
+          "rank": 5
+        },
+        "MWWT": {
+          "val": -0.6,
+          "se": null,
+          "acc": 75,
+          "rank": "<5"
+        },
+        "PWWT": {
+          "val": 0.689,
+          "se": 2.26,
+          "acc": 67,
+          "rank": 5
+        },
+        "YWT": {
+          "val": 0.528,
+          "se": 2.56,
+          "acc": 60,
+          "rank": 5
+        },
+        "HWT": {
+          "val": 0.158,
+          "se": null,
+          "acc": 55,
+          "rank": "-"
+        },
+        "PFAT": {
+          "val": 0.459,
+          "se": 1.12,
+          "acc": 56,
+          "rank": 25
+        },
+        "PEMD": {
+          "val": -0.386,
+          "se": 0.95,
+          "acc": 48,
+          "rank": 20
+        },
+        "WFEC": {
+          "val": 29.5,
+          "se": null,
+          "acc": 49,
+          "rank": 5
+        },
+        "PFEC": {
+          "val": 50.54,
+          "se": null,
+          "acc": 46,
+          "rank": 10
+        },
+        "PSC": {
+          "val": 0.047,
+          "se": null,
+          "acc": 46,
+          "rank": "-"
+        },
+        "NLB": {
+          "val": 0.11,
+          "se": null,
+          "acc": 60,
+          "rank": 45
+        },
+        "NLW": {
+          "val": 0.071,
+          "se": null,
+          "acc": 56,
+          "rank": 30
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": -0.112,
+          "se": 0.23,
+          "acc": 68,
+          "rank": 5
+        },
+        "MBWT": {
+          "val": -0.247,
+          "se": null,
+          "acc": 84,
+          "rank": "<5"
+        },
+        "WWT": {
+          "val": 0.24,
+          "se": 1.67,
+          "acc": 66,
+          "rank": 5
+        },
+        "MWWT": {
+          "val": -0.6,
+          "se": null,
+          "acc": 75,
+          "rank": "<5"
+        },
+        "PWWT": {
+          "val": 0.689,
+          "se": 2.26,
+          "acc": 67,
+          "rank": 5
+        },
+        "YWT": {
+          "val": 0.528,
+          "se": 2.56,
+          "acc": 60,
+          "rank": 5
+        },
+        "HWT": {
+          "val": 0.158,
+          "se": null,
+          "acc": 55,
+          "rank": "-"
+        }
+      },
+      "carcass_traits": {
+        "PFAT": {
+          "val": 0.459,
+          "se": 1.12,
+          "acc": 56,
+          "rank": 25
+        },
+        "PEMD": {
+          "val": -0.386,
+          "se": 0.95,
+          "acc": 48,
+          "rank": 20
+        }
+      },
+      "parasite_resistance": {
+        "WFEC": {
+          "val": 29.5,
+          "se": null,
+          "acc": 49,
+          "rank": 5
+        },
+        "PFEC": {
+          "val": 50.54,
+          "se": null,
+          "acc": 46,
+          "rank": 10
+        }
+      },
+      "reproduction": {
+        "PSC": {
+          "val": 0.047,
+          "se": null,
+          "acc": 46,
+          "rank": "-"
+        },
+        "NLB": {
+          "val": 0.11,
+          "se": null,
+          "acc": 60,
+          "rank": 45
+        },
+        "NLW": {
+          "val": 0.071,
+          "se": null,
+          "acc": 56,
+          "rank": 30
+        }
+      },
+      "us_hair_composite_index": {
+        "val": 100.88,
+        "rank": 10
+      }
+    },
+    {
+      "role": "dam",
+      "progeny_evaluated": 6,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 99.79,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 99.79,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "18936",
+  "scraped_at": 1781231856
+}
