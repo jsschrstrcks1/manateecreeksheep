@@ -27885,6 +27885,279 @@
         ]
       },
       "unassigned": []
+    },
+    {
+      "id": "awassi-multi-year-plan-2026-06-11",
+      "computed_on": "2026-06-11",
+      "operator_strategy": "Multi-year line-breeding to concentrate Awassi genetics via Buck/Rocky alternation, with eventual Windlestone upgrade",
+      "year_1_fall_2026_mating": {
+        "season": "Fall 2026 mating → Spring 2027 lambs",
+        "ewes": [
+          "windlestone-2139",
+          "windlestone-0055",
+          "windlestone-0056"
+        ],
+        "ram": "buck",
+        "cross": "Buck × pure Awassi → F1 'Buck × Awassi' (50% Buck / 50% Awassi)",
+        "expected_lamb_breed_comp": "Buck (50% K / 48% Aw / 2% EF) × Awassi (95% Aw / 5% EF) = ~25% K / 71.5% Aw / 3.5% EF per offspring"
+      },
+      "year_2_fall_2027_mating": {
+        "season": "Fall 2027 mating → Spring 2028 lambs",
+        "ewes": [
+          "windlestone-2139 (re-bred to new ram)",
+          "windlestone-0055",
+          "windlestone-0056",
+          "Buck × Awassi ewe lambs from year 1 (if any born)"
+        ],
+        "ram": "rocky",
+        "cross": "Rocky × pure Awassi AND Rocky × F1 (Buck × Awassi)",
+        "rationale": "Rocky brings 50% BHD / 44% Aw / 6% EF — pairing him with pure Awassis adds further Awassi concentration; pairing him with F1 Buck × Awassi backcrosses to create F2 lambs"
+      },
+      "year_3_planning": {
+        "cull_decisions": [
+          "Sell/cull F1 Buck × Awassi animals (they served their purpose introducing Buck genetics)",
+          "Sell/cull F1 Rocky × Awassi animals (same)"
+        ],
+        "keep": [
+          "Original pure Awassi ewes (windlestone-2139, -0055, -0056)",
+          "F2 'Buck × Rocky × Awassi' lambs from year 2 mating",
+          "Purebred Awassi-line offspring"
+        ],
+        "sire_upgrade": "Source a better ram from Windlestone Ranch (top few % Dorper / top 10% Awassi breeder) — replacing Buck and/or Rocky in the Awassi breeding rotation"
+      },
+      "objective": "Concentrate Awassi genetics in flock while introducing controlled diversity via Buck (Katahdin-Awassi) then Rocky (BHD-Awassi). Each generation crosses to a partially-related ram, then the line is purified by culling F1s and keeping F2 backcrosses + the original pure-Awassi base. Endgame: better Awassi-Katahdin composite with milk yield, fat-tail energy reserve, parasite resistance from Buck's anchor, and growth/size from both BUck and Rocky.",
+      "ebv_implication": "Awassi ewes locked to Buck for fall 2026 — they leave the round-robin draft for the rest of the flock."
+    },
+    {
+      "id": "ebv-weighted-allocation-v3-2026-06-11",
+      "computed_on": "2026-06-11",
+      "lock_applied": "All 3 Windlestone Awassi ewes -> Buck (Year 1 Awassi line-breeding)",
+      "ram_draft_order_post_lock": [
+        "buck",
+        "orange-tag-00110",
+        "charlie-ram",
+        "centralia-lamb-2026",
+        "merrie",
+        "rocky",
+        "angus"
+      ],
+      "ram_bands": {
+        "charlie-ram": [
+          {
+            "ewe": "baby-azure",
+            "composite": 7.102830000000001,
+            "off_pr": 6.388050000000001
+          },
+          {
+            "ewe": "tag-0053-ewe",
+            "composite": 5.950864999999999,
+            "off_pr": 0.052450000000000004
+          },
+          {
+            "ewe": "tag-31-ewe-p5",
+            "composite": 4.64576,
+            "off_pr": 0.0502
+          },
+          {
+            "ewe": "elsie",
+            "composite": 3.09047,
+            "off_pr": 0.08145
+          },
+          {
+            "ewe": "charlies-ewe",
+            "composite": 2.8500799999999997,
+            "off_pr": 0.0436
+          },
+          {
+            "ewe": "tag-114-fawn-wool",
+            "composite": 1.300205,
+            "off_pr": 0.04135
+          }
+        ],
+        "angus": [
+          {
+            "ewe": "fm",
+            "composite": 3.621035,
+            "off_pr": 0.05185
+          },
+          {
+            "ewe": "broken-tail-twin-ewe",
+            "composite": 2.03369,
+            "off_pr": -0.00305
+          },
+          {
+            "ewe": "sm-white-ewe-p4",
+            "composite": 1.2135749999999998,
+            "off_pr": 0.0921
+          },
+          {
+            "ewe": "fawn-wool-ewe-p5",
+            "composite": 0.0,
+            "off_pr": 0.0
+          },
+          {
+            "ewe": "lara",
+            "composite": -0.9838699999999998,
+            "off_pr": -0.0433
+          }
+        ],
+        "rocky": [
+          {
+            "ewe": "fm2-0051",
+            "composite": 4.33833,
+            "off_pr": 0.14315
+          },
+          {
+            "ewe": "cocoas-daughter-by-loki",
+            "composite": 2.8343599999999998,
+            "off_pr": 0.0687
+          },
+          {
+            "ewe": "little-daisy",
+            "composite": 1.9866349999999997,
+            "off_pr": 0.07515
+          },
+          {
+            "ewe": "tag-02-ewe-p5",
+            "composite": 0.6811,
+            "off_pr": 0.0622
+          },
+          {
+            "ewe": "cocoa",
+            "composite": 0.07159000000000004,
+            "off_pr": 0.0622
+          }
+        ],
+        "merrie": [
+          {
+            "ewe": "gigi-2026-baby",
+            "composite": 4.84182,
+            "off_pr": 6.37185
+          },
+          {
+            "ewe": "bambii-baby",
+            "composite": 3.4926150000000002,
+            "off_pr": 4.852
+          },
+          {
+            "ewe": "gg",
+            "composite": 2.3593849999999996,
+            "off_pr": -0.08945
+          },
+          {
+            "ewe": "bambii",
+            "composite": 0.7740649999999999,
+            "off_pr": 0.0649
+          },
+          {
+            "ewe": "serendipity",
+            "composite": 0.31597499999999995,
+            "off_pr": -0.16605
+          },
+          {
+            "ewe": "tag-0035-white-ewe",
+            "composite": -1.773605,
+            "off_pr": 0.044
+          }
+        ],
+        "buck": [
+          {
+            "ewe": "samson-daughter-p4",
+            "composite": 13.43375,
+            "off_pr": 12.5259
+          },
+          {
+            "ewe": "tag-24-0003-tf",
+            "composite": 10.33014,
+            "off_pr": 12.5
+          },
+          {
+            "ewe": "tag-0033-hair-ewe",
+            "composite": 8.896725,
+            "off_pr": 12.50675
+          },
+          {
+            "ewe": "windlestone-2139",
+            "composite": 7.75,
+            "off_pr": 12.5
+          },
+          {
+            "ewe": "windlestone-0056",
+            "composite": 7.75,
+            "off_pr": 12.5
+          },
+          {
+            "ewe": "windlestone-0055",
+            "composite": 7.75,
+            "off_pr": 12.5
+          }
+        ],
+        "orange-tag-00110": [
+          {
+            "ewe": "oav-2222",
+            "composite": 10.55333,
+            "off_pr": 9.8837
+          },
+          {
+            "ewe": "daisy-of-sugar",
+            "composite": 9.022675000000001,
+            "off_pr": 0.0587
+          },
+          {
+            "ewe": "azure",
+            "composite": 7.757504999999999,
+            "off_pr": 0.061950000000000005
+          },
+          {
+            "ewe": "charlies-farm-ewe-baby-p3",
+            "composite": 6.6380099999999995,
+            "off_pr": 0.2094
+          },
+          {
+            "ewe": "tag-00113-ewe-p1",
+            "composite": 5.76088,
+            "off_pr": 0.0587
+          },
+          {
+            "ewe": "charlies-farm-ewe-p3",
+            "composite": 4.562085,
+            "off_pr": 0.11055000000000001
+          }
+        ],
+        "centralia-lamb-2026": [
+          {
+            "ewe": "broken-tail",
+            "composite": 4.918354999999999,
+            "off_pr": 1.5712
+          },
+          {
+            "ewe": "serendipity-twin-ewe",
+            "composite": 3.786525,
+            "off_pr": 7.62495
+          },
+          {
+            "ewe": "elsie-triplet-lg-white-ewe",
+            "composite": 2.5437,
+            "off_pr": 1.5482
+          },
+          {
+            "ewe": "tag-31-orange-tf",
+            "composite": 0.892315,
+            "off_pr": 1.65995
+          },
+          {
+            "ewe": "tag-0044-wool-ewe",
+            "composite": 0.58739,
+            "off_pr": 1.5226
+          },
+          {
+            "ewe": "nori",
+            "composite": -1.2272299999999996,
+            "off_pr": 1.5503
+          }
+        ]
+      },
+      "unassigned": []
     }
   ],
   "breeder_relationships": {
