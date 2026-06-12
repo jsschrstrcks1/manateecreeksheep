@@ -386,7 +386,20 @@
         ],
         "received_at_farm": "2023-10-05",
         "source": "Owner-supplied test results, structured 2026-06-10 from prior free-text notes"
-      }
+      },
+      "nsip_lookup_history": [
+        {
+          "date": "2026-06-11",
+          "attempted_via": "digitalovine.com (KHSI lookup) — by NSIP id, KHSI reg, name, and flock id",
+          "result": "NOT FOUND",
+          "conclusion": "Kelsier's NSIP flock 640301 (Sam Mushko / OAV / Oakvale Farm) is NSIP-only — the flock does not appear to enroll in KHSI registry. KHSI digitalovine.com only shows EBVs for KHSI-registered animals.",
+          "alternative_paths": [
+            "nsip.org direct EBV lookup (requires NSIP membership credentials)",
+            "Request Sam Mushko's NSIP EBV printout for Kelsier (OAV 2223 / NSIP 6403012022222223)",
+            "Use Kelsier's existing UF Ram Test 2023 data as flock-internal anchor (already structured in uf_ram_test field)"
+          ]
+        }
+      ]
     },
     {
       "id": "gg",
