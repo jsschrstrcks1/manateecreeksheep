@@ -28225,6 +28225,202 @@
         "tag-0033-hair-ewe"
       ],
       "pen_logistics": "Buck is in Pen 6 with the 3 Awassi ewes. FM and Gigi need to move from Pen 4 to Buck's breeding group for fall 2026 mating."
+    },
+    {
+      "id": "ebv-weighted-allocation-v4-2026-06-11",
+      "computed_on": "2026-06-11",
+      "buck_locked_band": [
+        "windlestone-2139",
+        "windlestone-0055",
+        "windlestone-0056",
+        "fm",
+        "gg"
+      ],
+      "ram_draft_order_other": [
+        "orange-tag-00110",
+        "charlie-ram",
+        "centralia-lamb-2026",
+        "merrie",
+        "rocky",
+        "angus"
+      ],
+      "ram_bands": {
+        "buck": [
+          {
+            "ewe": "fm",
+            "composite": 10.521035
+          },
+          {
+            "ewe": "gg",
+            "composite": 8.490545
+          },
+          {
+            "ewe": "windlestone-2139",
+            "composite": 7.75
+          },
+          {
+            "ewe": "windlestone-0055",
+            "composite": 7.75
+          },
+          {
+            "ewe": "windlestone-0056",
+            "composite": 7.75
+          }
+        ],
+        "orange-tag-00110": [
+          {
+            "ewe": "samson-daughter-p4",
+            "composite": 12.294629999999998
+          },
+          {
+            "ewe": "tag-24-0003-tf",
+            "composite": 9.19102
+          },
+          {
+            "ewe": "broken-tail-twin-ewe",
+            "composite": 7.79457
+          },
+          {
+            "ewe": "sm-white-ewe-p4",
+            "composite": 6.974455000000001
+          },
+          {
+            "ewe": "fawn-wool-ewe-p5",
+            "composite": 5.76088
+          },
+          {
+            "ewe": "lara",
+            "composite": 4.77701
+          }
+        ],
+        "charlie-ram": [
+          {
+            "ewe": "oav-2222",
+            "composite": 7.645829999999999
+          },
+          {
+            "ewe": "daisy-of-sugar",
+            "composite": 6.115175
+          },
+          {
+            "ewe": "tag-0033-hair-ewe",
+            "composite": 4.850105
+          },
+          {
+            "ewe": "elsie",
+            "composite": 3.09047
+          },
+          {
+            "ewe": "tag-00113-ewe-p1",
+            "composite": 2.85338
+          },
+          {
+            "ewe": "charlies-farm-ewe-p3",
+            "composite": 1.6545850000000002
+          }
+        ],
+        "centralia-lamb-2026": [
+          {
+            "ewe": "baby-azure",
+            "composite": 5.071465000000001
+          },
+          {
+            "ewe": "tag-0053-ewe",
+            "composite": 3.9194999999999998
+          },
+          {
+            "ewe": "azure",
+            "composite": 2.81864
+          },
+          {
+            "ewe": "charlies-farm-ewe-baby-p3",
+            "composite": 1.6991450000000001
+          },
+          {
+            "ewe": "charlies-ewe",
+            "composite": 0.818715
+          },
+          {
+            "ewe": "tag-114-fawn-wool",
+            "composite": -0.7311599999999998
+          }
+        ],
+        "merrie": [
+          {
+            "ewe": "broken-tail",
+            "composite": 4.865179999999999
+          },
+          {
+            "ewe": "serendipity-twin-ewe",
+            "composite": 3.7333499999999997
+          },
+          {
+            "ewe": "tag-31-ewe-p5",
+            "composite": 2.56122
+          },
+          {
+            "ewe": "tag-31-orange-tf",
+            "composite": 0.8391399999999999
+          },
+          {
+            "ewe": "tag-0044-wool-ewe",
+            "composite": 0.534215
+          },
+          {
+            "ewe": "nori",
+            "composite": -1.2804049999999998
+          }
+        ],
+        "rocky": [
+          {
+            "ewe": "gigi-2026-baby",
+            "composite": 4.75408
+          },
+          {
+            "ewe": "bambii-baby",
+            "composite": 3.4048749999999997
+          },
+          {
+            "ewe": "elsie-triplet-lg-white-ewe",
+            "composite": 2.4027849999999997
+          },
+          {
+            "ewe": "bambii",
+            "composite": 0.686325
+          },
+          {
+            "ewe": "serendipity",
+            "composite": 0.22823500000000002
+          },
+          {
+            "ewe": "tag-0035-white-ewe",
+            "composite": -1.8613449999999998
+          }
+        ],
+        "angus": [
+          {
+            "ewe": "fm2-0051",
+            "composite": 3.6572299999999993
+          },
+          {
+            "ewe": "cocoas-daughter-by-loki",
+            "composite": 2.15326
+          },
+          {
+            "ewe": "little-daisy",
+            "composite": 1.305535
+          },
+          {
+            "ewe": "tag-02-ewe-p5",
+            "composite": 0.0
+          },
+          {
+            "ewe": "cocoa",
+            "composite": -0.6095099999999999
+          }
+        ]
+      },
+      "unassigned": []
     }
   ],
   "breeder_relationships": {
