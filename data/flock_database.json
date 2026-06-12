@@ -28421,6 +28421,587 @@
         ]
       },
       "unassigned": []
+    },
+    {
+      "id": "projected-f1-2027-cohort",
+      "computed_on": "2026-06-11",
+      "method": "Mid-parent projection of EBVs + breed composition for all Fall 2026 v4 pairings",
+      "projections": [
+        {
+          "sire": "buck",
+          "dam": "fm",
+          "offspring_pr_ebv": 12.55,
+          "offspring_pwt_ebv": 13.48,
+          "offspring_wwt_ebv": 1.0,
+          "offspring_hair_pct": 25.0,
+          "offspring_breed": {
+            "Tunis": 25.0,
+            "Awassi": 24.0,
+            "East Friesian": 1.0,
+            "Cotswold": 25.0,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "buck",
+          "dam": "windlestone-2139",
+          "offspring_pr_ebv": 12.5,
+          "offspring_pwt_ebv": 3.5,
+          "offspring_wwt_ebv": 2.25,
+          "offspring_hair_pct": 25.0,
+          "offspring_breed": {
+            "Awassi": 71.5,
+            "East Friesian": 3.5,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "buck",
+          "dam": "windlestone-0055",
+          "offspring_pr_ebv": 12.5,
+          "offspring_pwt_ebv": 3.5,
+          "offspring_wwt_ebv": 2.25,
+          "offspring_hair_pct": 25.0,
+          "offspring_breed": {
+            "Awassi": 71.5,
+            "East Friesian": 3.5,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "buck",
+          "dam": "windlestone-0056",
+          "offspring_pr_ebv": 12.5,
+          "offspring_pwt_ebv": 3.5,
+          "offspring_wwt_ebv": 2.25,
+          "offspring_hair_pct": 25.0,
+          "offspring_breed": {
+            "Awassi": 71.5,
+            "East Friesian": 3.5,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "buck",
+          "dam": "gg",
+          "offspring_pr_ebv": 12.36,
+          "offspring_pwt_ebv": 7.04,
+          "offspring_wwt_ebv": 1.0,
+          "offspring_hair_pct": 25.0,
+          "offspring_breed": {
+            "Hampshire": 25.0,
+            "Suffolk": 25.0,
+            "Awassi": 24.0,
+            "East Friesian": 1.0,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "oav-2222",
+          "offspring_pr_ebv": 9.88,
+          "offspring_pwt_ebv": 9.01,
+          "offspring_wwt_ebv": 0.03,
+          "offspring_hair_pct": 100.0,
+          "offspring_breed": {
+            "American Black Belly": 6.25,
+            "Wiltshire Horn": 6.25,
+            "Black Headed Dorper": 12.5,
+            "Katahdin": 75.0
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "baby-azure",
+          "offspring_pr_ebv": 7.86,
+          "offspring_pwt_ebv": 3.61,
+          "offspring_wwt_ebv": 0.3,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "Suffolk": 12.5,
+            "Hampshire": 12.5,
+            "Katahdin": 71.75
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "gigi-2026-baby",
+          "offspring_pr_ebv": 6.38,
+          "offspring_pwt_ebv": 4.4,
+          "offspring_wwt_ebv": 1.23,
+          "offspring_hair_pct": 50.0,
+          "offspring_breed": {
+            "Hampshire": 12.5,
+            "Suffolk": 12.5,
+            "Awassi": 22.0,
+            "East Friesian": 3.0,
+            "Black Headed Dorper": 25.0,
+            "Katahdin": 21.75
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "serendipity-twin-ewe",
+          "offspring_pr_ebv": 6.16,
+          "offspring_pwt_ebv": 2.03,
+          "offspring_wwt_ebv": 0.23,
+          "offspring_hair_pct": 62.5,
+          "offspring_breed": {
+            "Barbados Blackbelly": 3.12,
+            "Jacob": 6.25,
+            "St Augustine": 23.44,
+            "Babydoll": 6.25,
+            "White Dorper": 1.56,
+            "Cracker": 25.0,
+            "Katahdin": 31.12
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "bambii-baby",
+          "offspring_pr_ebv": 4.86,
+          "offspring_pwt_ebv": 2.25,
+          "offspring_wwt_ebv": 1.5,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "Dorper": 12.5,
+            "Awassi": 34.0,
+            "East Friesian": 3.5,
+            "Black Headed Dorper": 25.0,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "charlies-farm-ewe-baby-p3",
+          "offspring_pr_ebv": 1.67,
+          "offspring_pwt_ebv": 2.83,
+          "offspring_wwt_ebv": 0.07,
+          "offspring_hair_pct": 100.0,
+          "offspring_breed": {
+            "American Black Belly": 6.25,
+            "Wiltshire Horn": 6.25,
+            "Black Headed Dorper": 12.5,
+            "Katahdin": 75.0
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "tag-0053-ewe",
+          "offspring_pr_ebv": 1.52,
+          "offspring_pwt_ebv": 10.48,
+          "offspring_wwt_ebv": 0.07,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "St Augustine": 18.75,
+            "Hampshire": 25.0,
+            "Katahdin": 56.25
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "azure",
+          "offspring_pr_ebv": 1.52,
+          "offspring_pwt_ebv": 6.81,
+          "offspring_wwt_ebv": 0.07,
+          "offspring_hair_pct": 50.0,
+          "offspring_breed": {
+            "Suffolk": 25.0,
+            "Hampshire": 25.0,
+            "Katahdin": 50.0
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "charlies-ewe",
+          "offspring_pr_ebv": 1.51,
+          "offspring_pwt_ebv": 0.16,
+          "offspring_wwt_ebv": 0.07,
+          "offspring_hair_pct": 100.0,
+          "offspring_breed": {
+            "American Black Belly": 6.25,
+            "Wiltshire Horn": 6.25,
+            "Black Headed Dorper": 12.5,
+            "Katahdin": 75.0
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "tag-114-fawn-wool",
+          "offspring_pr_ebv": 1.51,
+          "offspring_pwt_ebv": -5.0,
+          "offspring_wwt_ebv": 0.07,
+          "offspring_hair_pct": 56.2,
+          "offspring_breed": {
+            "Gulf Coast Native": 6.25,
+            "Suffolk": 12.5,
+            "Cracker": 25.0,
+            "Katahdin": 56.25
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "tag-31-orange-tf",
+          "offspring_pr_ebv": 0.2,
+          "offspring_pwt_ebv": 2.47,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": null,
+          "offspring_breed": null
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "sm-white-ewe-p4",
+          "offspring_pr_ebv": 0.15,
+          "offspring_pwt_ebv": 23.0,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 56.2,
+          "offspring_breed": {
+            "St Augustine": 33.98,
+            "Gulf Coast Native": 6.25,
+            "Suffolk": 12.5,
+            "Barbados Blackbelly": 2.35,
+            "Cracker": 25.0,
+            "Katahdin": 19.91
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "broken-tail",
+          "offspring_pr_ebv": 0.11,
+          "offspring_pwt_ebv": 16.04,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "St Augustine": 46.88,
+            "White Dorper": 1.56,
+            "Barbados Blackbelly": 6.25,
+            "Cracker": 25.0,
+            "Katahdin": 20.31
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "charlies-farm-ewe-p3",
+          "offspring_pr_ebv": 0.1,
+          "offspring_pwt_ebv": 5.35,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 100.0,
+          "offspring_breed": {
+            "Black Headed Dorper": 25.0,
+            "American Black Belly": 12.5,
+            "Wiltshire Horn": 12.5,
+            "Katahdin": 50.0
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "nori",
+          "offspring_pr_ebv": 0.09,
+          "offspring_pwt_ebv": -4.41,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "St Augustine": 14.06,
+            "Wiltshire Horn": 25.0,
+            "White Dorper": 1.56,
+            "Barbados Blackbelly": 3.12,
+            "American Blackbelly": 25.0,
+            "Cracker": 25.0,
+            "Katahdin": 6.25
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "elsie-triplet-lg-white-ewe",
+          "offspring_pr_ebv": 0.09,
+          "offspring_pwt_ebv": 6.98,
+          "offspring_wwt_ebv": 1.31,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "Awassi": 22.0,
+            "East Friesian": 3.0,
+            "Barbados Blackbelly": 1.56,
+            "American Blackbelly": 6.25,
+            "Black Headed Dorper": 25.0,
+            "St Augustine": 16.41,
+            "Wiltshire Horn": 6.25,
+            "Katahdin": 19.53
+          }
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "samson-daughter-p4",
+          "offspring_pr_ebv": 0.08,
+          "offspring_pwt_ebv": 40.84,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 6.2,
+          "offspring_breed": {
+            "Gulf Coast Native": 6.25,
+            "Tunis": 12.5,
+            "Suffolk": 12.5,
+            "Hampshire": 25.0,
+            "Cotswold": 12.5,
+            "Cracker": 25.0,
+            "Katahdin": 6.25
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "elsie",
+          "offspring_pr_ebv": 0.08,
+          "offspring_pwt_ebv": 9.75,
+          "offspring_wwt_ebv": 0.63,
+          "offspring_hair_pct": 100.0,
+          "offspring_breed": {
+            "American Black Belly": 6.25,
+            "St Augustine": 14.06,
+            "Wiltshire Horn": 6.25,
+            "Barbados Blackbelly": 3.12,
+            "Black Headed Dorper": 12.5,
+            "Katahdin": 57.81
+          }
+        },
+        {
+          "sire": "angus",
+          "dam": "fm2-0051",
+          "offspring_pr_ebv": 0.08,
+          "offspring_pwt_ebv": 12.06,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 62.5,
+          "offspring_breed": {
+            "St Augustine": 18.75,
+            "Dorper": 12.5,
+            "Tunis": 12.5,
+            "Awassi": 12.5,
+            "Cotswold": 12.5,
+            "Katahdin": 31.25
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "bambii",
+          "offspring_pr_ebv": 0.07,
+          "offspring_pwt_ebv": 1.5,
+          "offspring_wwt_ebv": 1.0,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "Dorper": 25.0,
+            "Awassi": 22.0,
+            "East Friesian": 3.0,
+            "Black Headed Dorper": 25.0,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "tag-24-0003-tf",
+          "offspring_pr_ebv": 0.06,
+          "offspring_pwt_ebv": 30.54,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": null,
+          "offspring_breed": null
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "broken-tail-twin-ewe",
+          "offspring_pr_ebv": 0.06,
+          "offspring_pwt_ebv": 25.89,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": null,
+          "offspring_breed": null
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "fawn-wool-ewe-p5",
+          "offspring_pr_ebv": 0.06,
+          "offspring_pwt_ebv": 19.11,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": null,
+          "offspring_breed": null
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "tag-0033-hair-ewe",
+          "offspring_pr_ebv": 0.06,
+          "offspring_pwt_ebv": 16.07,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 100.0,
+          "offspring_breed": {
+            "American Black Belly": 6.25,
+            "St Augustine": 18.75,
+            "Wiltshire Horn": 6.25,
+            "Black Headed Dorper": 12.5,
+            "Katahdin": 56.25
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "tag-0044-wool-ewe",
+          "offspring_pr_ebv": 0.06,
+          "offspring_pwt_ebv": 1.68,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 50.0,
+          "offspring_breed": {
+            "St Augustine": 14.06,
+            "East Friesian": 1.0,
+            "White Dorper": 1.56,
+            "Awassi": 24.0,
+            "Barbados Blackbelly": 3.12,
+            "Cracker": 25.0,
+            "Katahdin": 31.25
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "daisy-of-sugar",
+          "offspring_pr_ebv": 0.05,
+          "offspring_pwt_ebv": 20.3,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 100.0,
+          "offspring_breed": {
+            "American Black Belly": 6.25,
+            "St Augustine": 18.75,
+            "Wiltshire Horn": 6.25,
+            "Barbados Blackbelly": 12.5,
+            "Black Headed Dorper": 12.5,
+            "Katahdin": 43.75
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "tag-00113-ewe-p1",
+          "offspring_pr_ebv": 0.05,
+          "offspring_pwt_ebv": 9.43,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 56.2,
+          "offspring_breed": {
+            "Gulf Coast Native": 6.25,
+            "Black Headed Dorper": 12.5,
+            "American Black Belly": 6.25,
+            "Wiltshire Horn": 6.25,
+            "Suffolk": 12.5,
+            "Cracker": 25.0,
+            "Katahdin": 31.25
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "tag-31-ewe-p5",
+          "offspring_pr_ebv": 0.05,
+          "offspring_pwt_ebv": 8.45,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "St Augustine": 39.06,
+            "White Dorper": 1.56,
+            "Barbados Blackbelly": 3.12,
+            "Cracker": 25.0,
+            "Katahdin": 31.25
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "tag-0035-white-ewe",
+          "offspring_pr_ebv": 0.05,
+          "offspring_pwt_ebv": -6.96,
+          "offspring_wwt_ebv": 1.0,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "Awassi": 22.0,
+            "East Friesian": 3.0,
+            "Black Headed Dorper": 50.0,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "lara",
+          "offspring_pr_ebv": 0.02,
+          "offspring_pwt_ebv": 15.9,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 56.2,
+          "offspring_breed": {
+            "Gulf Coast Native": 6.25,
+            "Suffolk": 12.5,
+            "Black Headed Dorper": 50.0,
+            "Cracker": 25.0,
+            "Katahdin": 6.25
+          }
+        },
+        {
+          "sire": "angus",
+          "dam": "cocoas-daughter-by-loki",
+          "offspring_pr_ebv": 0.01,
+          "offspring_pwt_ebv": 7.17,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 75.0,
+          "offspring_breed": {
+            "St Augustine": 20.51,
+            "Dorper": 12.5,
+            "Awassi": 12.5,
+            "Barbados Blackbelly": 5.08,
+            "Cracker": 12.5,
+            "Katahdin": 36.91
+          }
+        },
+        {
+          "sire": "angus",
+          "dam": "little-daisy",
+          "offspring_pr_ebv": 0.01,
+          "offspring_pwt_ebv": 4.33,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 87.5,
+          "offspring_breed": {
+            "St Augustine": 33.98,
+            "Dorper": 12.5,
+            "Awassi": 12.5,
+            "Barbados Blackbelly": 2.34,
+            "Katahdin": 38.66
+          }
+        },
+        {
+          "sire": "angus",
+          "dam": "tag-02-ewe-p5",
+          "offspring_pr_ebv": 0.0,
+          "offspring_pwt_ebv": 0.0,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": null,
+          "offspring_breed": null
+        },
+        {
+          "sire": "angus",
+          "dam": "cocoa",
+          "offspring_pr_ebv": 0.0,
+          "offspring_pwt_ebv": -2.03,
+          "offspring_wwt_ebv": 0.0,
+          "offspring_hair_pct": 62.5,
+          "offspring_breed": {
+            "St Augustine": 14.06,
+            "Dorper": 12.5,
+            "Awassi": 12.5,
+            "Barbados Blackbelly": 3.12,
+            "Cracker": 25.0,
+            "Katahdin": 32.81
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "serendipity",
+          "offspring_pr_ebv": -0.16,
+          "offspring_pwt_ebv": 0.36,
+          "offspring_wwt_ebv": 1.0,
+          "offspring_hair_pct": 50.0,
+          "offspring_breed": {
+            "St Augustine": 18.75,
+            "Babydoll": 12.5,
+            "Awassi": 22.0,
+            "East Friesian": 3.0,
+            "Jacob": 12.5,
+            "Black Headed Dorper": 25.0,
+            "Katahdin": 6.25
+          }
+        }
+      ]
     }
   ],
   "breeder_relationships": {
