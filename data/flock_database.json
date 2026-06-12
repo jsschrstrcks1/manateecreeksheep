@@ -308,7 +308,10 @@
         "is_breeding_animal": true,
         "breeding_group": "",
         "offspring_ids": [
-          "serendipitys-baby-036"
+          "serendipitys-baby-036",
+          "baby-azure",
+          "tag-0033-twin-ram-1",
+          "tag-0033-twin-ram-2"
         ],
         "lambing_records": []
       },
@@ -8857,7 +8860,7 @@
       "color_markings": "Blk legs, ears, face. Lighter body.",
       "pen": "Pen 2",
       "status": "alive",
-      "sire_id": null,
+      "sire_id": "kelsier",
       "dam_id": "azure",
       "dob": "2026-01-10",
       "notes": "No tag (now tagged, number TBD). Born 1-10-26. Azures baby, Gigis Sister. Single baby. FAMACHA 5 on 4-1-2026 — treated aggressively. Still bright and alert despite score. Source: notebook card, pen 1. MC2610 green tag (was 0034, then 2Y). Eyes good through 3-30-26, then CRASHED to FAMACHA 5 on 4-1-26. Sudden deterioration. In Pen 1. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
@@ -8982,6 +8985,10 @@
         {
           "date": "2026-06-09",
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
+        },
+        {
+          "date": "2026-06-11",
+          "note": "Sire set to Kelsier per operator 2026-06-11: every Pen 4 ewe that lambed in 2026 had a Kelsier baby (Pen 4 = Kelsier breeding pen for fall 2025 mating)."
         }
       ]
     },
@@ -9095,7 +9102,7 @@
       "color_markings": "White & brown ram. White blaze on face down on nose. Hind legs 2 white socks. White tail.",
       "pen": null,
       "status": "sold",
-      "sire_id": null,
+      "sire_id": "kelsier",
       "dam_id": "tag-0033-hair-ewe",
       "dob": "2026-01-01",
       "dob_approximate": true,
@@ -9188,7 +9195,13 @@
       "secondary_tags": [
         "MC-2603"
       ],
-      "description": "White + brown ram. White blaze on face down onto nose. 2 white socks on hind legs. White tail."
+      "description": "White + brown ram. White blaze on face down onto nose. 2 white socks on hind legs. White tail.",
+      "notes_history": [
+        {
+          "date": "2026-06-11",
+          "note": "Sire set to Kelsier per operator 2026-06-11: every Pen 4 ewe that lambed in 2026 had a Kelsier baby (Pen 4 = Kelsier breeding pen for fall 2025 mating)."
+        }
+      ]
     },
     {
       "id": "tag-0033-twin-ram-2",
@@ -9204,7 +9217,7 @@
       "color_markings": "Black ram, small patch of white on crown",
       "pen": null,
       "status": "sold",
-      "sire_id": null,
+      "sire_id": "kelsier",
       "dam_id": "tag-0033-hair-ewe",
       "dob": "2026-01-01",
       "dob_approximate": true,
@@ -9310,6 +9323,10 @@
         {
           "date": "2026-04-26",
           "note": "Sold at auction 2026-04-26. Owner confirmed: 'the black lamb of 33' went today. CORRECTED status_date from 2026-04-06 (which was the prospective-auction-that-didn't-execute date) to actual sale date 2026-04-26."
+        },
+        {
+          "date": "2026-06-11",
+          "note": "Sire set to Kelsier per operator 2026-06-11: every Pen 4 ewe that lambed in 2026 had a Kelsier baby (Pen 4 = Kelsier breeding pen for fall 2025 mating)."
         }
       ]
     },
