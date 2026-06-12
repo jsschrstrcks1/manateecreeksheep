@@ -30,7 +30,8 @@ from traits import TRAITS
 from extract import (
     load_db,
     extract_parasite_resistance,
-    extract_adult_weight,
+    extract_mature_weight,
+    extract_post_weaning_weight,
     extract_birth_weight,
     extract_adg,
     extract_lambs_weaned,
@@ -40,8 +41,9 @@ from estimate import compute_trait_ebvs, rank_for_trait
 
 TRAIT_EXTRACTORS = {
     "PR": extract_parasite_resistance,
-    "WWT": extract_birth_weight,   # nearest proxy for "growth potential at weaning"
-    "PWT": extract_adult_weight,
+    "WWT": extract_birth_weight,        # nearest flock proxy for weaning growth
+    "PWT": extract_post_weaning_weight, # TRUE post-weaning only (mostly NSIP-anchored)
+    "MWT": extract_mature_weight,       # adult weight = SIZE axis (was wrongly in PWT)
     "ADG": extract_adg,
     "NLW": extract_lambs_weaned,
 }

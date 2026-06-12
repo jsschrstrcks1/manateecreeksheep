@@ -23,6 +23,13 @@
       "units": "lb",
       "direction": "higher_better"
     },
+    "MWT": {
+      "name": "Mature Weight",
+      "long_name": "Adult/mature body weight",
+      "h2": 0.4,
+      "units": "lb",
+      "direction": "higher_better"
+    },
     "ADG": {
       "name": "Average Daily Gain",
       "long_name": "Average daily gain birth-to-weaning",
@@ -123,6 +130,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -172,6 +187,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -214,11 +237,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -1.1648,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -1.3312,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.362,
+          "scale": "MWT:flock",
+          "z": -0.434,
           "has_data": true
         },
         "ADG": {
@@ -263,11 +294,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 10.2854,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 10.4813,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.273,
+          "scale": "MWT:flock",
+          "z": 0.106,
           "has_data": true
         },
         "ADG": {
@@ -312,11 +351,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 13.3,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 15.2,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.44,
+          "scale": "MWT:flock",
+          "z": 0.322,
           "has_data": true
         },
         "ADG": {
@@ -361,11 +408,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 5.5733,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 6.3695,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.012,
+          "scale": "MWT:flock",
+          "z": -0.082,
           "has_data": true
         },
         "ADG": {
@@ -410,11 +465,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 6.8985,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 13.796,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.085,
+          "scale": "MWT:flock",
+          "z": 0.258,
           "has_data": true
         },
         "ADG": {
@@ -466,6 +529,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -508,11 +579,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -23.9317,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -27.3505,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.625,
+          "scale": "MWT:flock",
+          "z": -1.624,
           "has_data": true
         },
         "ADG": {
@@ -557,6 +636,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -610,7 +697,15 @@
           "method": "mid-parent",
           "accuracy": 0.6,
           "scale": "PWT:flock",
-          "z": -0.214,
+          "z": 1.826,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 18.4944,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "MWT:flock",
+          "z": 0.473,
           "has_data": true
         },
         "ADG": {
@@ -655,11 +750,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 37.1662,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 40.0825,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.764,
+          "scale": "MWT:flock",
+          "z": 1.46,
           "has_data": true
         },
         "ADG": {
@@ -704,11 +807,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 49.056,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 52.9774,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 2.424,
+          "scale": "MWT:flock",
+          "z": 2.05,
           "has_data": true
         },
         "ADG": {
@@ -753,6 +864,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -809,6 +928,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -851,11 +978,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 15.6434,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 16.9215,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.57,
+          "scale": "MWT:flock",
+          "z": 0.401,
           "has_data": true
         },
         "ADG": {
@@ -900,11 +1035,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 15.6434,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 16.9215,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.57,
+          "scale": "MWT:flock",
+          "z": 0.401,
           "has_data": true
         },
         "ADG": {
@@ -956,6 +1099,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -998,11 +1149,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -6.8833,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -7.8667,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.679,
+          "scale": "MWT:flock",
+          "z": -0.733,
           "has_data": true
         },
         "ADG": {
@@ -1047,11 +1206,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 27.1361,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 29.581,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.208,
+          "scale": "MWT:flock",
+          "z": 0.98,
           "has_data": true
         },
         "ADG": {
@@ -1096,11 +1263,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 13.5681,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 14.7905,
           "method": "mid-parent",
           "accuracy": 0.45,
-          "scale": "PWT:flock",
-          "z": 0.455,
+          "scale": "MWT:flock",
+          "z": 0.303,
           "has_data": true
         },
         "ADG": {
@@ -1145,11 +1320,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 13.5681,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 14.7905,
           "method": "mid-parent",
           "accuracy": 0.45,
-          "scale": "PWT:flock",
-          "z": 0.455,
+          "scale": "MWT:flock",
+          "z": 0.303,
           "has_data": true
         },
         "ADG": {
@@ -1194,11 +1377,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 8.292,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 7.4939,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.163,
+          "scale": "MWT:flock",
+          "z": -0.031,
           "has_data": true
         },
         "ADG": {
@@ -1243,11 +1434,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 22.8531,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 24.6728,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.97,
+          "scale": "MWT:flock",
+          "z": 0.755,
           "has_data": true
         },
         "ADG": {
@@ -1292,11 +1491,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 31.1579,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 33.2158,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.431,
+          "scale": "MWT:flock",
+          "z": 1.146,
           "has_data": true
         },
         "ADG": {
@@ -1341,11 +1548,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 31.819,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 34.6314,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.468,
+          "scale": "MWT:flock",
+          "z": 1.211,
           "has_data": true
         },
         "ADG": {
@@ -1390,11 +1605,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 20.3491,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 21.9263,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.831,
+          "scale": "MWT:flock",
+          "z": 0.63,
           "has_data": true
         },
         "ADG": {
@@ -1446,6 +1669,14 @@
           "z": 1.529,
           "has_data": true
         },
+        "MWT": {
+          "value": 36.9888,
+          "method": "blup-light",
+          "accuracy": 0.7,
+          "scale": "MWT:flock",
+          "z": 1.319,
+          "has_data": true
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -1488,11 +1719,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -2.8233,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -3.2267,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.454,
+          "scale": "MWT:flock",
+          "z": -0.521,
           "has_data": true
         },
         "ADG": {
@@ -1537,6 +1776,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -1593,6 +1840,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -1641,6 +1896,14 @@
           "scale": "PWT:nsip",
           "z": -0.452,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -1691,6 +1954,14 @@
           "z": -1.825,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -1737,8 +2008,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.226,
+          "z": 1.483,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -1786,8 +2065,16 @@
           "method": "mid-parent",
           "accuracy": 0.6,
           "scale": "PWT:flock",
-          "z": -0.279,
+          "z": -0.069,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -1835,8 +2122,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.262,
+          "z": 0.448,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -1880,11 +2175,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 18.8552,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 21.5488,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.749,
+          "scale": "MWT:flock",
+          "z": 0.612,
           "has_data": true
         },
         "ADG": {
@@ -1936,6 +2239,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -1978,11 +2289,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 5.3452,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 6.1088,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.001,
+          "scale": "MWT:flock",
+          "z": -0.094,
           "has_data": true
         },
         "ADG": {
@@ -2027,11 +2346,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -8.1648,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -9.3312,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.75,
+          "scale": "MWT:flock",
+          "z": -0.8,
           "has_data": true
         },
         "ADG": {
@@ -2076,11 +2403,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -32.2117,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -36.8133,
           "method": "mid-parent",
           "accuracy": 0.45,
-          "scale": "PWT:flock",
-          "z": -2.084,
+          "scale": "MWT:flock",
+          "z": -2.057,
           "has_data": true
         },
         "ADG": {
@@ -2125,11 +2460,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -64.4233,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -73.6267,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -3.871,
+          "scale": "MWT:flock",
+          "z": -3.741,
           "has_data": true
         },
         "ADG": {
@@ -2178,7 +2521,15 @@
           "method": "mid-parent",
           "accuracy": 0.6,
           "scale": "PWT:flock",
-          "z": -0.214,
+          "z": 1.826,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 18.4944,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "MWT:flock",
+          "z": 0.473,
           "has_data": true
         },
         "ADG": {
@@ -2230,6 +2581,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -2272,11 +2631,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -11.6566,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -14.2785,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.944,
+          "scale": "MWT:flock",
+          "z": -1.026,
           "has_data": true
         },
         "ADG": {
@@ -2321,11 +2688,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -4.0634,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -5.4475,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.523,
+          "scale": "MWT:flock",
+          "z": -0.623,
           "has_data": true
         },
         "ADG": {
@@ -2370,11 +2745,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 14.3334,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 15.4221,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.498,
+          "scale": "MWT:flock",
+          "z": 0.332,
           "has_data": true
         },
         "ADG": {
@@ -2426,6 +2809,14 @@
           "z": 1.43,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -2468,11 +2859,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 18.8242,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 20.0817,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.747,
+          "scale": "MWT:flock",
+          "z": 0.545,
           "has_data": true
         },
         "ADG": {
@@ -2517,11 +2916,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 22.2852,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 25.4688,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.939,
+          "scale": "MWT:flock",
+          "z": 0.792,
           "has_data": true
         },
         "ADG": {
@@ -2566,11 +2973,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 21.7453,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 25.1351,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.909,
+          "scale": "MWT:flock",
+          "z": 0.776,
           "has_data": true
         },
         "ADG": {
@@ -2615,11 +3030,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 14.7012,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 15.834,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.518,
+          "scale": "MWT:flock",
+          "z": 0.351,
           "has_data": true
         },
         "ADG": {
@@ -2664,11 +3087,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 14.7012,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 15.834,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.518,
+          "scale": "MWT:flock",
+          "z": 0.351,
           "has_data": true
         },
         "ADG": {
@@ -2713,11 +3144,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 43.7149,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 47.4483,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 2.127,
+          "scale": "MWT:flock",
+          "z": 1.797,
           "has_data": true
         },
         "ADG": {
@@ -2762,11 +3201,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -7.4817,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -8.5505,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.712,
+          "scale": "MWT:flock",
+          "z": -0.764,
           "has_data": true
         },
         "ADG": {
@@ -2818,6 +3265,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -2860,11 +3315,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -5.6267,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -6.4305,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.609,
+          "scale": "MWT:flock",
+          "z": -0.668,
           "has_data": true
         },
         "ADG": {
@@ -2909,11 +3372,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 0.6401,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 0.7315,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.262,
+          "scale": "MWT:flock",
+          "z": -0.34,
           "has_data": true
         },
         "ADG": {
@@ -2958,11 +3429,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 10.9636,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 12.0731,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.311,
+          "scale": "MWT:flock",
+          "z": 0.179,
           "has_data": true
         },
         "ADG": {
@@ -3007,11 +3486,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 10.9636,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 12.0731,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.311,
+          "scale": "MWT:flock",
+          "z": 0.179,
           "has_data": true
         },
         "ADG": {
@@ -3056,11 +3543,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 10.9636,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 12.0731,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.311,
+          "scale": "MWT:flock",
+          "z": 0.179,
           "has_data": true
         },
         "ADG": {
@@ -3105,6 +3600,14 @@
           "has_data": true
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -3161,6 +3664,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -3203,6 +3714,14 @@
           "has_data": true
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -3259,6 +3778,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -3301,6 +3828,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -3357,6 +3892,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -3399,11 +3942,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 47.8183,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 54.6495,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 2.355,
+          "scale": "MWT:flock",
+          "z": 2.126,
           "has_data": true
         },
         "ADG": {
@@ -3448,11 +3999,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -14.0,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -16.0,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.074,
+          "scale": "MWT:flock",
+          "z": -1.105,
           "has_data": true
         },
         "ADG": {
@@ -3497,11 +4056,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 23.9674,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 26.3357,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.032,
+          "scale": "MWT:flock",
+          "z": 0.831,
           "has_data": true
         },
         "ADG": {
@@ -3546,11 +4113,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 17.7183,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 20.2495,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.685,
+          "scale": "MWT:flock",
+          "z": 0.553,
           "has_data": true
         },
         "ADG": {
@@ -3595,11 +4170,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 47.27,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 51.7147,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 2.325,
+          "scale": "MWT:flock",
+          "z": 1.992,
           "has_data": true
         },
         "ADG": {
@@ -3644,11 +4227,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 19.2267,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 21.9733,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.769,
+          "scale": "MWT:flock",
+          "z": 0.632,
           "has_data": true
         },
         "ADG": {
@@ -3693,11 +4284,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 7.93,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 6.7547,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.143,
+          "scale": "MWT:flock",
+          "z": -0.064,
           "has_data": true
         },
         "ADG": {
@@ -3742,11 +4341,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 10.5083,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 12.0095,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.286,
+          "scale": "MWT:flock",
+          "z": 0.176,
           "has_data": true
         },
         "ADG": {
@@ -3791,11 +4398,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 24.1117,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 25.248,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.04,
+          "scale": "MWT:flock",
+          "z": 0.782,
           "has_data": true
         },
         "ADG": {
@@ -3840,11 +4455,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 12.3043,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 18.82,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.385,
+          "scale": "MWT:flock",
+          "z": 0.488,
           "has_data": true
         },
         "ADG": {
@@ -3889,11 +4512,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 0.1291,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -1.2463,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.29,
+          "scale": "MWT:flock",
+          "z": -0.43,
           "has_data": true
         },
         "ADG": {
@@ -3938,11 +4569,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -1.1648,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -1.3312,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.362,
+          "scale": "MWT:flock",
+          "z": -0.434,
           "has_data": true
         },
         "ADG": {
@@ -3987,11 +4626,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -15.2856,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -16.2998,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -1.145,
+          "scale": "MWT:flock",
+          "z": -1.119,
           "has_data": true
         },
         "ADG": {
@@ -4036,11 +4683,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -12.0317,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -13.7505,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.965,
+          "scale": "MWT:flock",
+          "z": -1.002,
           "has_data": true
         },
         "ADG": {
@@ -4085,11 +4740,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -28.8983,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -33.0267,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.9,
+          "scale": "MWT:flock",
+          "z": -1.884,
           "has_data": true
         },
         "ADG": {
@@ -4134,11 +4797,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 11.0833,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 12.6667,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.317,
+          "scale": "MWT:flock",
+          "z": 0.206,
           "has_data": true
         },
         "ADG": {
@@ -4183,11 +4854,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 5.7902,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 12.5293,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.024,
+          "scale": "MWT:flock",
+          "z": 0.2,
           "has_data": true
         },
         "ADG": {
@@ -4232,11 +4911,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 5.7902,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 12.5293,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.024,
+          "scale": "MWT:flock",
+          "z": 0.2,
           "has_data": true
         },
         "ADG": {
@@ -4281,11 +4968,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 5.7902,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 12.5293,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.024,
+          "scale": "MWT:flock",
+          "z": 0.2,
           "has_data": true
         },
         "ADG": {
@@ -4330,11 +5025,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 5.7902,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 12.5293,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.024,
+          "scale": "MWT:flock",
+          "z": 0.2,
           "has_data": true
         },
         "ADG": {
@@ -4379,11 +5082,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 5.6845,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 5.9774,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.018,
+          "scale": "MWT:flock",
+          "z": -0.1,
           "has_data": true
         },
         "ADG": {
@@ -4428,11 +5139,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 5.6845,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 5.9774,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.018,
+          "scale": "MWT:flock",
+          "z": -0.1,
           "has_data": true
         },
         "ADG": {
@@ -4477,6 +5196,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -4533,6 +5260,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -4575,6 +5310,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -4631,6 +5374,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -4673,11 +5424,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -12.5017,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -15.895,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.991,
+          "scale": "MWT:flock",
+          "z": -1.1,
           "has_data": true
         },
         "ADG": {
@@ -4722,11 +5481,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -6.2509,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -7.9475,
           "method": "mid-parent",
           "accuracy": 0.45,
-          "scale": "PWT:flock",
-          "z": -0.644,
+          "scale": "MWT:flock",
+          "z": -0.737,
           "has_data": true
         },
         "ADG": {
@@ -4771,11 +5538,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 2.9167,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 3.3333,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.136,
+          "scale": "MWT:flock",
+          "z": -0.221,
           "has_data": true
         },
         "ADG": {
@@ -4820,11 +5595,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -0.7405,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -1.919,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.338,
+          "scale": "MWT:flock",
+          "z": -0.461,
           "has_data": true
         },
         "ADG": {
@@ -4869,11 +5652,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 14.8646,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 16.7382,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.527,
+          "scale": "MWT:flock",
+          "z": 0.392,
           "has_data": true
         },
         "ADG": {
@@ -4918,11 +5709,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 24.8277,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 26.4502,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.08,
+          "scale": "MWT:flock",
+          "z": 0.837,
           "has_data": true
         },
         "ADG": {
@@ -4967,11 +5766,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 4.3302,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 3.4639,
           "method": "mid-parent",
           "accuracy": 0.45,
-          "scale": "PWT:flock",
-          "z": -0.057,
+          "scale": "MWT:flock",
+          "z": -0.215,
           "has_data": true
         },
         "ADG": {
@@ -5016,11 +5823,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -48.1046,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -55.3485,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -2.966,
+          "scale": "MWT:flock",
+          "z": -2.905,
           "has_data": true
         },
         "ADG": {
@@ -5072,6 +5887,14 @@
           "z": -0.05,
           "has_data": true
         },
+        "MWT": {
+          "value": 12.392,
+          "method": "blup-light",
+          "accuracy": 0.7,
+          "scale": "MWT:flock",
+          "z": 0.193,
+          "has_data": true
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5114,11 +5937,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 0.2183,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 0.2495,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.285,
+          "scale": "MWT:flock",
+          "z": -0.362,
           "has_data": true
         },
         "ADG": {
@@ -5170,6 +6001,14 @@
           "z": 0.511,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5219,6 +6058,14 @@
           "z": 0.071,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5261,6 +6108,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -5317,6 +6172,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5366,6 +6229,14 @@
           "z": -0.221,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5408,6 +6279,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -5464,6 +6343,14 @@
           "z": -1.087,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5512,6 +6399,14 @@
           "scale": "PWT:nsip",
           "z": -0.441,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -5562,6 +6457,14 @@
           "z": -0.075,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5610,6 +6513,14 @@
           "scale": "PWT:nsip",
           "z": -1.478,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -5660,6 +6571,14 @@
           "z": 0.394,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5709,6 +6628,14 @@
           "z": -0.695,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5751,6 +6678,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -5807,6 +6742,14 @@
           "z": -0.383,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5856,6 +6799,14 @@
           "z": -0.932,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -5898,6 +6849,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -5954,6 +6913,14 @@
           "z": -1.324,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -6003,6 +6970,14 @@
           "z": 0.758,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -6045,6 +7020,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -6101,6 +7084,14 @@
           "z": -2.031,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -6143,6 +7134,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -6199,6 +7198,14 @@
           "z": -0.058,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -6245,8 +7252,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.27,
+          "z": 0.193,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -6297,6 +7312,14 @@
           "z": -0.67,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -6339,6 +7362,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -6392,8 +7423,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.27,
+          "z": 0.193,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -6441,8 +7480,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.27,
+          "z": 0.195,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -6493,6 +7540,14 @@
           "z": 0.197,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -6541,6 +7596,14 @@
           "scale": "PWT:nsip",
           "z": 0.041,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -6591,6 +7654,14 @@
           "z": -0.753,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -6640,6 +7711,14 @@
           "z": 0.679,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -6682,6 +7761,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -6735,8 +7822,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.27,
+          "z": 0.195,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -6784,8 +7879,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.284,
+          "z": -0.197,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -6833,8 +7936,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.317,
+          "z": -1.167,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -6878,6 +7989,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -6934,6 +8053,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -6976,6 +8103,14 @@
           "has_data": true
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -7029,8 +8164,16 @@
           "method": "mid-parent",
           "accuracy": 0.7,
           "scale": "PWT:flock",
-          "z": -0.304,
+          "z": -0.777,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -7081,6 +8224,14 @@
           "z": -0.175,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -7129,6 +8280,14 @@
           "scale": "PWT:nsip",
           "z": -0.559,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -7179,6 +8338,14 @@
           "z": -0.686,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -7225,8 +8392,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.34,
+          "z": -1.809,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -7274,8 +8449,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.34,
+          "z": -1.809,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -7319,6 +8502,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -7375,6 +8566,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -7417,6 +8616,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -7473,6 +8680,14 @@
           "z": 0.764,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -7521,6 +8736,14 @@
           "scale": "PWT:nsip",
           "z": 0.087,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -7571,6 +8794,14 @@
           "z": -0.495,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -7613,6 +8844,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -7669,6 +8908,14 @@
           "z": 0.191,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -7715,8 +8962,16 @@
           "method": "mid-parent",
           "accuracy": 0.7,
           "scale": "PWT:flock",
-          "z": -0.277,
+          "z": -0.001,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -7767,6 +9022,14 @@
           "z": -1.315,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -7813,8 +9076,16 @@
           "method": "mid-parent",
           "accuracy": 0.7,
           "scale": "PWT:flock",
-          "z": -0.326,
+          "z": -1.42,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -7858,6 +9129,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -7914,6 +9193,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -7960,8 +9247,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.318,
+          "z": -1.198,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -8012,6 +9307,14 @@
           "z": -0.454,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -8058,8 +9361,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.339,
+          "z": -1.798,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -8110,6 +9421,14 @@
           "z": -1.114,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -8158,6 +9477,14 @@
           "scale": "PWT:nsip",
           "z": 0.012,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -8208,6 +9535,14 @@
           "z": 1.329,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -8250,6 +9585,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -8306,6 +9649,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -8352,8 +9703,16 @@
           "method": "mid-parent",
           "accuracy": 0.7,
           "scale": "PWT:flock",
-          "z": -0.292,
+          "z": -0.428,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -8401,8 +9760,16 @@
           "method": "mid-parent",
           "accuracy": 0.7,
           "scale": "PWT:flock",
-          "z": -0.258,
+          "z": 0.545,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -8450,8 +9817,16 @@
           "method": "mid-parent",
           "accuracy": 0.7,
           "scale": "PWT:flock",
-          "z": -0.258,
+          "z": 0.545,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -8502,6 +9877,14 @@
           "z": 0.047,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -8551,6 +9934,14 @@
           "z": 0.289,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -8593,11 +9984,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -6.4148,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -7.3312,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.653,
+          "scale": "MWT:flock",
+          "z": -0.709,
           "has_data": true
         },
         "ADG": {
@@ -8642,11 +10041,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -2.9589,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 2.5304,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.461,
+          "scale": "MWT:flock",
+          "z": -0.258,
           "has_data": true
         },
         "ADG": {
@@ -8691,11 +10098,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -2.9589,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 2.5304,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.461,
+          "scale": "MWT:flock",
+          "z": -0.258,
           "has_data": true
         },
         "ADG": {
@@ -8747,6 +10162,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -8789,11 +10212,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -2.9589,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 2.5304,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.461,
+          "scale": "MWT:flock",
+          "z": -0.258,
           "has_data": true
         },
         "ADG": {
@@ -8845,6 +10276,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -8887,11 +10326,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 8.6604,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 6.9278,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.183,
+          "scale": "MWT:flock",
+          "z": -0.056,
           "has_data": true
         },
         "ADG": {
@@ -8936,11 +10383,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 4.3302,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 3.4639,
           "method": "mid-parent",
           "accuracy": 0.45,
-          "scale": "PWT:flock",
-          "z": -0.057,
+          "scale": "MWT:flock",
+          "z": -0.215,
           "has_data": true
         },
         "ADG": {
@@ -8985,11 +10440,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 1.0334,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -0.8016,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.24,
+          "scale": "MWT:flock",
+          "z": -0.41,
           "has_data": true
         },
         "ADG": {
@@ -9041,6 +10504,14 @@
           "z": 0.247,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -9083,11 +10554,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 32.7301,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 36.2917,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 1.518,
+          "scale": "MWT:flock",
+          "z": 1.287,
           "has_data": true
         },
         "ADG": {
@@ -9139,6 +10618,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -9181,11 +10668,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 17.7335,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 17.466,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.686,
+          "scale": "MWT:flock",
+          "z": 0.426,
           "has_data": true
         },
         "ADG": {
@@ -9230,11 +10725,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 4.9441,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 5.4003,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.023,
+          "scale": "MWT:flock",
+          "z": -0.126,
           "has_data": true
         },
         "ADG": {
@@ -9286,6 +10789,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -9328,11 +10839,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -28.8983,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -33.0267,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.9,
+          "scale": "MWT:flock",
+          "z": -1.884,
           "has_data": true
         },
         "ADG": {
@@ -9377,11 +10896,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -13.7648,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -15.7312,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.061,
+          "scale": "MWT:flock",
+          "z": -1.093,
           "has_data": true
         },
         "ADG": {
@@ -9426,11 +10953,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -6.8824,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -7.8656,
           "method": "mid-parent",
           "accuracy": 0.45,
-          "scale": "PWT:flock",
-          "z": -0.679,
+          "scale": "MWT:flock",
+          "z": -0.733,
           "has_data": true
         },
         "ADG": {
@@ -9475,11 +11010,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 21.2871,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 23.4146,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.883,
+          "scale": "MWT:flock",
+          "z": 0.698,
           "has_data": true
         },
         "ADG": {
@@ -9531,6 +11074,14 @@
           "z": -0.893,
           "has_data": true
         },
+        "MWT": {
+          "value": -7.0,
+          "method": "blup-light",
+          "accuracy": 0.7,
+          "scale": "MWT:flock",
+          "z": -0.694,
+          "has_data": true
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -9573,11 +11124,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 10.224,
+          "value": -0.4195,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -1.26,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 8.2073,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.27,
+          "scale": "MWT:flock",
+          "z": 0.002,
           "has_data": true
         },
         "ADG": {
@@ -9622,11 +11181,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 10.224,
+          "value": -0.4195,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -1.26,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 8.2073,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.27,
+          "scale": "MWT:flock",
+          "z": 0.002,
           "has_data": true
         },
         "ADG": {
@@ -9671,11 +11238,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 12.7792,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 13.4813,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.412,
+          "scale": "MWT:flock",
+          "z": 0.243,
           "has_data": true
         },
         "ADG": {
@@ -9720,11 +11295,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 38.2102,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 43.6688,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 1.822,
+          "scale": "MWT:flock",
+          "z": 1.624,
           "has_data": true
         },
         "ADG": {
@@ -9769,11 +11352,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -29.1817,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -33.3505,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.916,
+          "scale": "MWT:flock",
+          "z": -1.899,
           "has_data": true
         },
         "ADG": {
@@ -9818,6 +11409,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -9874,6 +11473,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -9916,11 +11523,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -37.1088,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -44.1432,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -2.356,
+          "scale": "MWT:flock",
+          "z": -2.393,
           "has_data": true
         },
         "ADG": {
@@ -9965,11 +11580,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -16.9148,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -19.3312,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.236,
+          "scale": "MWT:flock",
+          "z": -1.258,
           "has_data": true
         },
         "ADG": {
@@ -10018,8 +11641,16 @@
           "method": "mid-parent",
           "accuracy": 0.6,
           "scale": "PWT:flock",
-          "z": -0.27,
+          "z": 0.195,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -10070,6 +11701,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -10112,11 +11751,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -18.6648,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -21.3312,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.333,
+          "scale": "MWT:flock",
+          "z": -1.349,
           "has_data": true
         },
         "ADG": {
@@ -10168,6 +11815,14 @@
           "z": 1.529,
           "has_data": true
         },
+        "MWT": {
+          "value": 56.1757,
+          "method": "blup-light",
+          "accuracy": 0.9,
+          "scale": "MWT:flock",
+          "z": 2.196,
+          "has_data": true
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -10210,6 +11865,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -10266,6 +11929,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -10308,11 +11979,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -19.2733,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -22.0267,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.366,
+          "scale": "MWT:flock",
+          "z": -1.381,
           "has_data": true
         },
         "ADG": {
@@ -10357,11 +12036,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 62.9767,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 71.9733,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 3.196,
+          "scale": "MWT:flock",
+          "z": 2.919,
           "has_data": true
         },
         "ADG": {
@@ -10406,11 +12093,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 43.472,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 49.1545,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 2.114,
+          "scale": "MWT:flock",
+          "z": 1.875,
           "has_data": true
         },
         "ADG": {
@@ -10455,11 +12150,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -28.4817,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -32.5505,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.877,
+          "scale": "MWT:flock",
+          "z": -1.862,
           "has_data": true
         },
         "ADG": {
@@ -10504,11 +12207,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -29.1817,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -33.3505,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.916,
+          "scale": "MWT:flock",
+          "z": -1.899,
           "has_data": true
         },
         "ADG": {
@@ -10553,11 +12264,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -2.2841,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -3.6505,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.424,
+          "scale": "MWT:flock",
+          "z": -0.54,
           "has_data": true
         },
         "ADG": {
@@ -10602,11 +12321,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 32.0567,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 34.5902,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.481,
+          "scale": "MWT:flock",
+          "z": 1.209,
           "has_data": true
         },
         "ADG": {
@@ -10651,11 +12378,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -0.8936,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 4.3707,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.347,
+          "scale": "MWT:flock",
+          "z": -0.173,
           "has_data": true
         },
         "ADG": {
@@ -10700,11 +12435,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -0.8936,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 4.3707,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.347,
+          "scale": "MWT:flock",
+          "z": -0.173,
           "has_data": true
         },
         "ADG": {
@@ -10749,11 +12492,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -0.8936,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 4.3707,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.347,
+          "scale": "MWT:flock",
+          "z": -0.173,
           "has_data": true
         },
         "ADG": {
@@ -10798,11 +12549,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -9.3333,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -10.6667,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.815,
+          "scale": "MWT:flock",
+          "z": -0.861,
           "has_data": true
         },
         "ADG": {
@@ -10847,11 +12606,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -5.1756,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -5.7733,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.584,
+          "scale": "MWT:flock",
+          "z": -0.637,
           "has_data": true
         },
         "ADG": {
@@ -10896,11 +12663,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -5.1756,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -5.7733,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.584,
+          "scale": "MWT:flock",
+          "z": -0.637,
           "has_data": true
         },
         "ADG": {
@@ -10945,11 +12720,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 45.7352,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 52.2688,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 2.239,
+          "scale": "MWT:flock",
+          "z": 2.018,
           "has_data": true
         },
         "ADG": {
@@ -10998,8 +12781,16 @@
           "method": "mid-parent",
           "accuracy": 0.45,
           "scale": "PWT:flock",
-          "z": -0.248,
+          "z": 0.851,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -11043,11 +12834,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 9.3183,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 10.6495,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.22,
+          "scale": "MWT:flock",
+          "z": 0.114,
           "has_data": true
         },
         "ADG": {
@@ -11092,11 +12891,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 7.7835,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 5.9257,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.134,
+          "scale": "MWT:flock",
+          "z": -0.102,
           "has_data": true
         },
         "ADG": {
@@ -11141,11 +12948,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 4.375,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 5.0,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.055,
+          "scale": "MWT:flock",
+          "z": -0.145,
           "has_data": true
         },
         "ADG": {
@@ -11197,6 +13012,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -11239,11 +13062,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 12.7792,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 13.4813,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.412,
+          "scale": "MWT:flock",
+          "z": 0.243,
           "has_data": true
         },
         "ADG": {
@@ -11288,11 +13119,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -0.3789,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 0.092,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.318,
+          "scale": "MWT:flock",
+          "z": -0.369,
           "has_data": true
         },
         "ADG": {
@@ -11337,11 +13176,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -2.2446,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -1.9987,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": -0.422,
+          "scale": "MWT:flock",
+          "z": -0.465,
           "has_data": true
         },
         "ADG": {
@@ -11393,6 +13240,14 @@
           "z": -0.82,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -11442,6 +13297,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -11484,11 +13347,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 10.6435,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 11.7073,
           "method": "mid-parent",
           "accuracy": 0.6,
-          "scale": "PWT:flock",
-          "z": 0.293,
+          "scale": "MWT:flock",
+          "z": 0.162,
           "has_data": true
         },
         "ADG": {
@@ -11533,11 +13404,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 13.289,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 13.8807,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.44,
+          "scale": "MWT:flock",
+          "z": 0.262,
           "has_data": true
         },
         "ADG": {
@@ -11582,11 +13461,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 6.893,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 13.1363,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.085,
+          "scale": "MWT:flock",
+          "z": 0.228,
           "has_data": true
         },
         "ADG": {
@@ -11631,11 +13518,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 6.893,
+          "value": 0.2485,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": -0.186,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 13.1363,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.085,
+          "scale": "MWT:flock",
+          "z": 0.228,
           "has_data": true
         },
         "ADG": {
@@ -11680,11 +13575,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -6.9574,
+          "value": 1.5,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": 1.826,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 8.8288,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.683,
+          "scale": "MWT:flock",
+          "z": 0.03,
           "has_data": true
         },
         "ADG": {
@@ -11729,11 +13632,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -16.9148,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -19.3312,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -1.236,
+          "scale": "MWT:flock",
+          "z": -1.258,
           "has_data": true
         },
         "ADG": {
@@ -11778,11 +13689,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -1.575,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -1.8,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.385,
+          "scale": "MWT:flock",
+          "z": -0.456,
           "has_data": true
         },
         "ADG": {
@@ -11827,6 +13746,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -11883,6 +13810,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -11925,11 +13860,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 11.8212,
+          "value": 1.5,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": 1.826,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 38.9839,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.358,
+          "scale": "MWT:flock",
+          "z": 1.41,
           "has_data": true
         },
         "ADG": {
@@ -11974,11 +13917,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 20.6424,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 21.792,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.848,
+          "scale": "MWT:flock",
+          "z": 0.623,
           "has_data": true
         },
         "ADG": {
@@ -12030,6 +13981,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -12072,11 +14031,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": -3.6625,
+          "value": 1.5,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "PWT:flock",
+          "z": 1.826,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 22.1879,
           "method": "mid-parent",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.5,
+          "scale": "MWT:flock",
+          "z": 0.642,
           "has_data": true
         },
         "ADG": {
@@ -12121,11 +14088,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -10.325,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -11.8,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.87,
+          "scale": "MWT:flock",
+          "z": -0.913,
           "has_data": true
         },
         "ADG": {
@@ -12170,11 +14145,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 22.8676,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 26.1344,
           "method": "mid-parent",
           "accuracy": 0.45,
-          "scale": "PWT:flock",
-          "z": 0.971,
+          "scale": "MWT:flock",
+          "z": 0.822,
           "has_data": true
         },
         "ADG": {
@@ -12219,6 +14202,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -12275,6 +14266,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -12317,11 +14316,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 7.1833,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 8.2095,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.101,
+          "scale": "MWT:flock",
+          "z": 0.002,
           "has_data": true
         },
         "ADG": {
@@ -12366,11 +14373,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 11.9492,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 12.3495,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 0.365,
+          "scale": "MWT:flock",
+          "z": 0.192,
           "has_data": true
         },
         "ADG": {
@@ -12415,6 +14430,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -12468,7 +14491,15 @@
           "method": "mid-parent",
           "accuracy": 0.6,
           "scale": "PWT:flock",
-          "z": -0.214,
+          "z": 1.826,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 18.4944,
+          "method": "mid-parent",
+          "accuracy": 0.6,
+          "scale": "MWT:flock",
+          "z": 0.473,
           "has_data": true
         },
         "ADG": {
@@ -12520,6 +14551,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -12562,11 +14601,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 8.6533,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 9.8895,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.183,
+          "scale": "MWT:flock",
+          "z": 0.079,
           "has_data": true
         },
         "ADG": {
@@ -12611,11 +14658,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 9.8783,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 11.2895,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 0.251,
+          "scale": "MWT:flock",
+          "z": 0.143,
           "has_data": true
         },
         "ADG": {
@@ -12660,11 +14715,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 27.125,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 31.0,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 1.207,
+          "scale": "MWT:flock",
+          "z": 1.045,
           "has_data": true
         },
         "ADG": {
@@ -12709,11 +14772,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 29.3767,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 33.5733,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": 1.332,
+          "scale": "MWT:flock",
+          "z": 1.162,
           "has_data": true
         },
         "ADG": {
@@ -12765,6 +14836,14 @@
           "z": 0.249,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -12807,11 +14886,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 29.8119,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 32.6807,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.356,
+          "scale": "MWT:flock",
+          "z": 1.122,
           "has_data": true
         },
         "ADG": {
@@ -12856,11 +14943,19 @@
           "has_data": true
         },
         "PWT": {
-          "value": 29.2466,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 32.0309,
           "method": "blup-light",
           "accuracy": 0.9,
-          "scale": "PWT:flock",
-          "z": 1.325,
+          "scale": "MWT:flock",
+          "z": 1.092,
           "has_data": true
         },
         "ADG": {
@@ -12912,6 +15007,14 @@
           "z": -0.536,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -12954,6 +15057,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -13010,6 +15121,14 @@
           "z": 1.43,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -13052,11 +15171,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": 4.8383,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": 5.5295,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.029,
+          "scale": "MWT:flock",
+          "z": -0.12,
           "has_data": true
         },
         "ADG": {
@@ -13101,6 +15228,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -13157,6 +15292,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -13199,6 +15342,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,
@@ -13255,6 +15406,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -13297,11 +15456,19 @@
           "has_data": false
         },
         "PWT": {
-          "value": -4.375,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
+          "value": -5.0,
           "method": "blup-light",
           "accuracy": 0.7,
-          "scale": "PWT:flock",
-          "z": -0.54,
+          "scale": "MWT:flock",
+          "z": -0.602,
           "has_data": true
         },
         "ADG": {
@@ -13353,6 +15520,14 @@
           "z": 2.16,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7,
+          "scale": "MWT:flock",
+          "z": -0.373,
+          "has_data": true
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -13400,6 +15575,14 @@
           "accuracy": 0.95,
           "scale": "PWT:nsip",
           "z": 2.16,
+          "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7,
+          "scale": "MWT:flock",
+          "z": -0.373,
           "has_data": true
         },
         "ADG": {
@@ -13451,6 +15634,14 @@
           "z": 2.16,
           "has_data": true
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7,
+          "scale": "MWT:flock",
+          "z": -0.373,
+          "has_data": true
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -13499,6 +15690,14 @@
           "scale": "PWT:nsip",
           "z": 1.26,
           "has_data": true
+        },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
         },
         "ADG": {
           "value": 0.0,
@@ -13549,6 +15748,14 @@
           "z": null,
           "has_data": false
         },
+        "MWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
         "ADG": {
           "value": 0.0,
           "method": "default-zero",
@@ -13591,6 +15798,14 @@
           "has_data": false
         },
         "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0,
+          "scale": null,
+          "z": null,
+          "has_data": false
+        },
+        "MWT": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0,

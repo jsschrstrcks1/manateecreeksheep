@@ -42,7 +42,15 @@ TRAITS = {
         "h2": 0.35,
         "units": "lb",
         "direction": "higher_better",
-        "notes": "Adjusted to 120-day equivalent.",
+        "notes": "Adjusted to 120-day equivalent. FLOCK-INTERNAL SOURCE: only true post-weaning weights — NOT adult weight (which would conflate age with growth). For most flock animals this is no-data unless NSIP-anchored. Adult weight goes to MWT instead.",
+    },
+    "MWT": {  # Mature (adult) weight — size/frame selection
+        "name": "Mature Weight",
+        "long_name": "Adult/mature body weight",
+        "h2": 0.40,
+        "units": "lb",
+        "direction": "higher_better",
+        "notes": "Adult body weight — the SIZE/maximum-frame axis. Separated from PWT 2026-06-12 so old heavy ewes no longer pollute the growth-rate ranking. This is where 'maximum size' selection (Awassi line, Rocky/Buck) lives. Fed by raw adult weight_lbs.",
     },
     "ADG": {  # Average daily gain
         "name": "Average Daily Gain",

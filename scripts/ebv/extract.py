@@ -114,13 +114,39 @@ def extract_parasite_resistance(db: dict) -> dict:
     return out
 
 
-def extract_adult_weight(db: dict) -> dict:
-    """Adult body weight (lb). Used as PWT proxy."""
+def extract_mature_weight(db: dict) -> dict:
+    """Adult/mature body weight (lb) — the SIZE axis (trait MWT).
+
+    Separated from PWT 2026-06-12: adult weight measures frame/size, not
+    growth rate. Feeding it into post-weaning weight made old heavy ewes
+    rank as fast growers. Now it has its own trait.
+    """
     out = {}
     for s in db["sheep"]:
         w = s.get("weight_lbs")
         if isinstance(w, (int, float)) and w > 0:
             out[s["id"]] = float(w)
+    return out
+
+
+def extract_post_weaning_weight(db: dict) -> dict:
+    """TRUE post-weaning weight (lb), trait PWT.
+
+    Only uses weights recorded at/near the post-weaning stage — explicit
+    measurement fields. Adult weight_lbs is NOT used here (that's MWT).
+    Most flock animals have no true PWWT, so they fall to no-data — which
+    is honest; we don't weigh lambs at 120 days on-farm. NSIP-anchored
+    animals still get true PWWT EBVs via the anchor file.
+    """
+    out = {}
+    for s in db["sheep"]:
+        m = s.get("measurements") or {}
+        if not isinstance(m, dict):
+            continue
+        pwwt = (m.get("post_weaning_weight_lb") or m.get("pwwt_lb")
+                or m.get("weight_120d_lb"))
+        if isinstance(pwwt, (int, float)) and pwwt > 0:
+            out[s["id"]] = float(pwwt)
     return out
 
 
