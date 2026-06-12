@@ -27955,7 +27955,7 @@
         "year_1_fall_2026": "FM and Gigi → Buck (alongside the 3 Awassi ewes)",
         "year_2_fall_2027": "FM and Gigi → Rocky; their Buck × Awassi-pen-mate offspring follow the same Buck→Rocky sequence",
         "endgame": "Keep the Buck × Rocky × (FM or Gigi) offspring in the Awassi pens. Goal: a genetically diverse Awassi-based composite carrying (a) Awassi fat-tail + milk, (b) FM's Tunis fat-tail + wool-to-be-bred-out, (c) Gigi's size, (d) Buck's parasite resistance + size, (e) Rocky's growth + size — while diluting the wool over generations.",
-        "coat_caveat": "FM (wool) and Gigi (wool) introduce wool genetics against the long-term hair-coat goal. Operator accepts this tradeoff for diversity; expect to select for hair coat in later generations as the lines blend with hair-coated Awassi/Katahdin/Dorper stock.",
+        "coat_caveat": "REFRAMED 2026-06-11: The Awassi line is a SEPARATE dual-purpose objective — Awassi will most likely never be hair sheep, and this line is NOT held to the hair-coat goal. FM/Gigi wool genetics are therefore NOT a downside here; they are part of an accepted wool/mixed-coat dual-purpose line bred for fat-tail, milk, size, and growth. Hair-coat selection applies only to the Line 1 hair composite, not to this line.",
         "wide_tail_evidence": "FM's wide tail (operator: inches wider than average) supports the Tunis fat-tail hypothesis."
       }
     },
@@ -29027,5 +29027,41 @@
       "implication": "Genetic stock from Windlestone is high-confidence elite even without NSIP records.",
       "date_added": "2026-06-11"
     }
+  },
+  "breeding_objectives": {
+    "updated": "2026-06-11",
+    "structure": "Two parallel breeding lines with DIFFERENT coat targets",
+    "line_1_hair_composite": {
+      "name": "Main hair-sheep composite",
+      "coat_target": "HAIR (the long-term flock goal — less maintenance, Florida heat tolerance)",
+      "trait_priorities": [
+        "parasite resistance",
+        "meat",
+        "milk",
+        "hair coat",
+        "hybrid vigor",
+        "inbreeding avoidance"
+      ],
+      "base_genetics": "Katahdin / Dorper / St Augustine / BBB / Cracker hair lines",
+      "exemplar_cross": "charlie-ram × oav-2222 (PR +9.9, 100% hair) — best fit"
+    },
+    "line_2_awassi_dual_purpose": {
+      "name": "Awassi dual-purpose line",
+      "coat_target": "WOOL ACCEPTED — Awassi will most likely NEVER be hair sheep (operator 2026-06-11). This line is NOT held to the hair-coat goal.",
+      "trait_priorities": [
+        "fat-tail (energy reserve / drought tolerance)",
+        "milk yield",
+        "maximum size",
+        "growth",
+        "parasite resistance"
+      ],
+      "base_genetics": "95% Awassi (Windlestone) + Buck (K/Aw) + Rocky (BHD/Aw); diversity from FM (Tunis fat-tail) + Gigi (Hampshire/Suffolk size)",
+      "coat_note": "Wool/mixed coats are expected and acceptable here. Do NOT score Awassi-line offspring against the hair-coat goal — they are bred for fat-tail, milk, size, and growth.",
+      "fat_tail_sources": [
+        "Windlestone Awassi (primary)",
+        "FM via 50% Tunis (secondary, independent)"
+      ]
+    },
+    "scoring_implication": "A flock-vision index should be applied SEPARATELY per line: Line 1 (hair composite) weights hair coat heavily; Line 2 (Awassi dual-purpose) weights fat-tail/size/milk and IGNORES coat type. The earlier 'wool caveat' on FM/Gigi and Awassi crosses does NOT apply as a negative — those animals are in Line 2 where wool is accepted."
   }
 }
