@@ -3881,10 +3881,20 @@
         {
           "date": "2026-04-22",
           "note": "Planned breeding to Merrieweather (now Pen 4 sire) fall 2026. Lamb either sells at auction (~\\$300) or earns a place; Merrie's breeding-ram status will be evaluated based on progeny FAMACHA from this and other Pen 4 ewes."
+        },
+        {
+          "date": "2026-06-11",
+          "note": "Operator: wide tail (inches wider than average) — likely latent fat-tail genes from her 50% Tunis ancestry. Adding her to the Awassi diversity breeding line."
         }
       ],
       "planned_sire": "merrie",
-      "planned_breeding_season": "fall 2026 (Pen 4)"
+      "planned_breeding_season": "fall 2026 (Pen 4)",
+      "fat_tail_observation": {
+        "date": "2026-06-11",
+        "observation": "Tail is visibly wider than average by inches (operator observation).",
+        "genetic_basis": "FM is 50% Tunis. Tunis descends from fat-tailed Tunisian Barbary stock, so latent fat-tail / fat-rump alleles are plausible. Her wide tail is consistent with this.",
+        "breeding_relevance": "Makes FM a candidate to contribute fat-tail genetics into the Awassi diversity line alongside the pure Awassi ewes — a second independent source of the fat-tail trait."
+      }
     },
     {
       "id": "fm1",
@@ -27926,7 +27936,28 @@
         "sire_upgrade": "Source a better ram from Windlestone Ranch (top few % Dorper / top 10% Awassi breeder) — replacing Buck and/or Rocky in the Awassi breeding rotation"
       },
       "objective": "Concentrate Awassi genetics in flock while introducing controlled diversity via Buck (Katahdin-Awassi) then Rocky (BHD-Awassi). Each generation crosses to a partially-related ram, then the line is purified by culling F1s and keeping F2 backcrosses + the original pure-Awassi base. Endgame: better Awassi-Katahdin composite with milk yield, fat-tail energy reserve, parasite resistance from Buck's anchor, and growth/size from both BUck and Rocky.",
-      "ebv_implication": "Awassi ewes locked to Buck for fall 2026 — they leave the round-robin draft for the rest of the flock."
+      "ebv_implication": "Awassi ewes locked to Buck for fall 2026 — they leave the round-robin draft for the rest of the flock.",
+      "fm_gigi_diversity_track": {
+        "added": "2026-06-11",
+        "purpose": "Increase long-term genetic diversity of the Awassi line by introducing two non-Awassi ewes through the same Buck → Rocky cross sequence, keeping their Buck × Rocky offspring IN the Awassi pens.",
+        "ewes": {
+          "fm": {
+            "breed": "50% Cotswold / 50% Tunis",
+            "rationale": "Tunis ancestry = possible latent fat-tail genes (wide tail observed). Second independent fat-tail source. ALSO weak-resistance — Buck's elite PR (+25) is a corrective cross.",
+            "weak_resistance_note": "FM is on the weak-resistance list; pairing with Buck (elite PR) is deliberately corrective."
+          },
+          "gg": {
+            "breed": "50% Hampshire / 50% Suffolk",
+            "rationale": "Family favorite; adds size/frame diversity (Hampshire/Suffolk are large meat breeds). ALSO weak-resistance — Buck's elite PR is corrective here too.",
+            "weak_resistance_note": "GG has had three FAMACHA-5 emergencies; Buck cross is corrective for parasite resistance."
+          }
+        },
+        "year_1_fall_2026": "FM and Gigi → Buck (alongside the 3 Awassi ewes)",
+        "year_2_fall_2027": "FM and Gigi → Rocky; their Buck × Awassi-pen-mate offspring follow the same Buck→Rocky sequence",
+        "endgame": "Keep the Buck × Rocky × (FM or Gigi) offspring in the Awassi pens. Goal: a genetically diverse Awassi-based composite carrying (a) Awassi fat-tail + milk, (b) FM's Tunis fat-tail + wool-to-be-bred-out, (c) Gigi's size, (d) Buck's parasite resistance + size, (e) Rocky's growth + size — while diluting the wool over generations.",
+        "coat_caveat": "FM (wool) and Gigi (wool) introduce wool genetics against the long-term hair-coat goal. Operator accepts this tradeoff for diversity; expect to select for hair coat in later generations as the lines blend with hair-coated Awassi/Katahdin/Dorper stock.",
+        "wide_tail_evidence": "FM's wide tail (operator: inches wider than average) supports the Tunis fat-tail hypothesis."
+      }
     },
     {
       "id": "ebv-weighted-allocation-v3-2026-06-11",
@@ -28158,6 +28189,42 @@
         ]
       },
       "unassigned": []
+    },
+    {
+      "id": "buck-fall-2026-band-operator-final",
+      "computed_on": "2026-06-11",
+      "supersedes": "ebv-weighted-allocation-v3-2026-06-11 (Buck's band only)",
+      "ram": "buck",
+      "band": [
+        {
+          "ewe": "windlestone-2139",
+          "purpose": "Year-1 Awassi line (pure Awassi base)"
+        },
+        {
+          "ewe": "windlestone-0055",
+          "purpose": "Year-1 Awassi line (pure Awassi base)"
+        },
+        {
+          "ewe": "windlestone-0056",
+          "purpose": "Year-1 Awassi line (pure Awassi base)"
+        },
+        {
+          "ewe": "fm",
+          "purpose": "Year-1 Awassi-diversity track: Tunis fat-tail source + corrective PR cross (FM weak-resistance × Buck elite PR)"
+        },
+        {
+          "ewe": "gg",
+          "purpose": "Year-1 Awassi-diversity track: size/frame diversity + corrective PR cross (GG weak-resistance × Buck elite PR)"
+        }
+      ],
+      "band_size": 5,
+      "note": "Operator-specified band 2026-06-11. The 3 EBV-draft fills previously assigned to Buck (samson-daughter-p4, tag-24-0003-tf, tag-0033-hair-ewe) are FREED back to the draft pool for reallocation to other rams.",
+      "freed_ewes": [
+        "samson-daughter-p4",
+        "tag-24-0003-tf",
+        "tag-0033-hair-ewe"
+      ],
+      "pen_logistics": "Buck is in Pen 6 with the 3 Awassi ewes. FM and Gigi need to move from Pen 4 to Buck's breeding group for fall 2026 mating."
     }
   ],
   "breeder_relationships": {
