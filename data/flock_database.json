@@ -29358,6 +29358,666 @@
           "fattail_pct": 71.5
         }
       ]
+    },
+    {
+      "id": "projected-f1-2027-v2-corrected-estimator",
+      "computed_on": "2026-06-12",
+      "note": "Rebuilt on corrected estimator (PWT/MWT split, z-score scale-normalization). MWT = size axis.",
+      "line1_index": "0.40*PR_z + 0.25*(hair/40) + 0.20*MWT_z + 0.15*PWT_z",
+      "line2_index": "0.40*PR_z + 0.30*(fattail/30) + 0.30*MWT_z",
+      "pairings": [
+        {
+          "sire": "buck",
+          "dam": "fm",
+          "line": 2,
+          "index": 1.02,
+          "off_pr": 12.6,
+          "off_mwt": 31.7,
+          "off_hair": 25.0,
+          "off_fattail": 49.0,
+          "off_breed": {
+            "East Friesian": 1.0,
+            "Awassi": 24.0,
+            "Tunis": 25.0,
+            "Cotswold": 25.0,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "buck",
+          "dam": "gg",
+          "line": 2,
+          "index": 0.66,
+          "off_pr": 12.4,
+          "off_mwt": 24.8,
+          "off_hair": 25.0,
+          "off_fattail": 24.0,
+          "off_breed": {
+            "Suffolk": 25.0,
+            "East Friesian": 1.0,
+            "Awassi": 24.0,
+            "Hampshire": 25.0,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "buck",
+          "dam": "windlestone-2139",
+          "line": 2,
+          "index": 1.06,
+          "off_pr": 12.5,
+          "off_mwt": 18.5,
+          "off_hair": 25.0,
+          "off_fattail": 72.0,
+          "off_breed": {
+            "East Friesian": 3.5,
+            "Awassi": 71.5,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "buck",
+          "dam": "windlestone-0055",
+          "line": 2,
+          "index": 1.06,
+          "off_pr": 12.5,
+          "off_mwt": 18.5,
+          "off_hair": 25.0,
+          "off_fattail": 72.0,
+          "off_breed": {
+            "East Friesian": 3.5,
+            "Awassi": 71.5,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "buck",
+          "dam": "windlestone-0056",
+          "line": 2,
+          "index": 1.06,
+          "off_pr": 12.5,
+          "off_mwt": 18.5,
+          "off_hair": 25.0,
+          "off_fattail": 72.0,
+          "off_breed": {
+            "East Friesian": 3.5,
+            "Awassi": 71.5,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "samson-daughter-p4",
+          "line": 1,
+          "index": 0.54,
+          "off_pr": 0.1,
+          "off_mwt": 46.4,
+          "off_hair": 37.0,
+          "off_fattail": 12.0,
+          "off_breed": {
+            "Suffolk": 12.5,
+            "Gulf Coast Native": 6.2,
+            "Tunis": 12.5,
+            "Cotswold": 12.5,
+            "Hampshire": 25.0,
+            "Cracker": 25.0,
+            "Katahdin": 6.2
+          }
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "tag-24-0003-tf",
+          "line": 1,
+          "index": 0.23,
+          "off_pr": 0.1,
+          "off_mwt": 34.9,
+          "off_hair": null,
+          "off_fattail": 0,
+          "off_breed": null
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "broken-tail-twin-ewe",
+          "line": 1,
+          "index": 0.15,
+          "off_pr": 0.1,
+          "off_mwt": 29.2,
+          "off_hair": null,
+          "off_fattail": 0,
+          "off_breed": null
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "sm-white-ewe-p4",
+          "line": 1,
+          "index": 0.66,
+          "off_pr": 0.2,
+          "off_mwt": 24.8,
+          "off_hair": 87.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Suffolk": 12.5,
+            "Gulf Coast Native": 6.2,
+            "St Augustine": 34.0,
+            "Barbados Blackbelly": 2.3,
+            "Cracker": 25.0,
+            "Katahdin": 19.9
+          }
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "fawn-wool-ewe-p5",
+          "line": 1,
+          "index": 0.12,
+          "off_pr": 0.1,
+          "off_mwt": 21.8,
+          "off_hair": null,
+          "off_fattail": 0,
+          "off_breed": null
+        },
+        {
+          "sire": "orange-tag-00110",
+          "dam": "lara",
+          "line": 1,
+          "index": 0.59,
+          "off_pr": 0.0,
+          "off_mwt": 18.2,
+          "off_hair": 87.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Suffolk": 12.5,
+            "Black Headed Dorper": 50.0,
+            "Gulf Coast Native": 6.2,
+            "Cracker": 25.0,
+            "Katahdin": 6.2
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "oav-2222",
+          "line": 1,
+          "index": 0.72,
+          "off_pr": 9.9,
+          "off_mwt": 7.3,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Black Headed Dorper": 12.5,
+            "American Black Belly": 6.2,
+            "Katahdin": 75.0,
+            "Wiltshire Horn": 6.2
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "daisy-of-sugar",
+          "line": 1,
+          "index": 0.74,
+          "off_pr": 0.1,
+          "off_mwt": 23.3,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Black Headed Dorper": 12.5,
+            "St Augustine": 18.8,
+            "Barbados Blackbelly": 12.5,
+            "American Black Belly": 6.2,
+            "Katahdin": 43.8,
+            "Wiltshire Horn": 6.2
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "tag-0033-hair-ewe",
+          "line": 1,
+          "index": 0.67,
+          "off_pr": 0.1,
+          "off_mwt": 17.7,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Black Headed Dorper": 12.5,
+            "St Augustine": 18.8,
+            "American Black Belly": 6.2,
+            "Katahdin": 56.2,
+            "Wiltshire Horn": 6.2
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "elsie",
+          "line": 1,
+          "index": 0.61,
+          "off_pr": 0.1,
+          "off_mwt": 11.1,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Black Headed Dorper": 12.5,
+            "St Augustine": 14.1,
+            "Barbados Blackbelly": 3.1,
+            "American Black Belly": 6.2,
+            "Katahdin": 57.8,
+            "Wiltshire Horn": 6.2
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "tag-00113-ewe-p1",
+          "line": 1,
+          "index": 0.59,
+          "off_pr": 0.1,
+          "off_mwt": 10.8,
+          "off_hair": 87.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Suffolk": 12.5,
+            "Gulf Coast Native": 6.2,
+            "American Black Belly": 6.2,
+            "Black Headed Dorper": 12.5,
+            "Cracker": 25.0,
+            "Katahdin": 31.2,
+            "Wiltshire Horn": 6.2
+          }
+        },
+        {
+          "sire": "charlie-ram",
+          "dam": "charlies-farm-ewe-p3",
+          "line": 1,
+          "index": 0.57,
+          "off_pr": 0.1,
+          "off_mwt": 6.1,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "American Black Belly": 12.5,
+            "Black Headed Dorper": 25.0,
+            "Katahdin": 50.0,
+            "Wiltshire Horn": 12.5
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "baby-azure",
+          "line": 1,
+          "index": 0.79,
+          "off_pr": 7.9,
+          "off_mwt": 6.9,
+          "off_hair": 72.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Suffolk": 12.5,
+            "Katahdin": 71.8,
+            "Hampshire": 12.5
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "tag-0053-ewe",
+          "line": 1,
+          "index": 0.55,
+          "off_pr": 1.5,
+          "off_mwt": 10.9,
+          "off_hair": 75.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "St Augustine": 18.8,
+            "Katahdin": 56.2,
+            "Hampshire": 25.0
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "azure",
+          "line": 1,
+          "index": 0.37,
+          "off_pr": 1.5,
+          "off_mwt": 7.6,
+          "off_hair": 50.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Suffolk": 25.0,
+            "Katahdin": 50.0,
+            "Hampshire": 25.0
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "charlies-farm-ewe-baby-p3",
+          "line": 1,
+          "index": 0.65,
+          "off_pr": 1.7,
+          "off_mwt": 3.1,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Black Headed Dorper": 12.5,
+            "American Black Belly": 6.2,
+            "Katahdin": 75.0,
+            "Wiltshire Horn": 6.2
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "charlies-ewe",
+          "line": 1,
+          "index": 0.65,
+          "off_pr": 1.5,
+          "off_mwt": 0.0,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Black Headed Dorper": 12.5,
+            "American Black Belly": 6.2,
+            "Katahdin": 75.0,
+            "Wiltshire Horn": 6.2
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "tag-114-fawn-wool",
+          "line": 1,
+          "index": 0.48,
+          "off_pr": 1.5,
+          "off_mwt": -5.9,
+          "off_hair": 87.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Suffolk": 12.5,
+            "Gulf Coast Native": 6.2,
+            "Cracker": 25.0,
+            "Katahdin": 56.2
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "broken-tail",
+          "line": 1,
+          "index": 0.67,
+          "off_pr": 0.1,
+          "off_mwt": 17.5,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Katahdin": 20.3,
+            "White Dorper": 1.6,
+            "St Augustine": 46.9,
+            "Barbados Blackbelly": 6.2,
+            "Cracker": 25.0
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "serendipity-twin-ewe",
+          "line": 1,
+          "index": 0.73,
+          "off_pr": 6.2,
+          "off_mwt": 4.9,
+          "off_hair": 84.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "St Augustine": 23.5,
+            "Babydoll": 6.2,
+            "White Dorper": 1.6,
+            "Jacob": 6.2,
+            "Barbados Blackbelly": 3.1,
+            "Cracker": 25.0,
+            "Katahdin": 31.1
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "tag-31-ewe-p5",
+          "line": 1,
+          "index": 0.59,
+          "off_pr": 0.1,
+          "off_mwt": 8.9,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Katahdin": 31.2,
+            "White Dorper": 1.6,
+            "St Augustine": 39.1,
+            "Barbados Blackbelly": 3.1,
+            "Cracker": 25.0
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "tag-31-orange-tf",
+          "line": 1,
+          "index": -0.05,
+          "off_pr": 0.2,
+          "off_mwt": 2.7,
+          "off_hair": null,
+          "off_fattail": 0,
+          "off_breed": null
+        },
+        {
+          "sire": "merrie",
+          "dam": "tag-0044-wool-ewe",
+          "line": 1,
+          "index": 0.37,
+          "off_pr": 0.1,
+          "off_mwt": 1.8,
+          "off_hair": 75.0,
+          "off_fattail": 24.0,
+          "off_breed": {
+            "Katahdin": 31.2,
+            "East Friesian": 1.0,
+            "White Dorper": 1.6,
+            "Awassi": 24.0,
+            "St Augustine": 14.1,
+            "Barbados Blackbelly": 3.1,
+            "Cracker": 25.0
+          }
+        },
+        {
+          "sire": "merrie",
+          "dam": "nori",
+          "line": 1,
+          "index": 0.46,
+          "off_pr": 0.1,
+          "off_mwt": -5.2,
+          "off_hair": 100.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Katahdin": 6.2,
+            "White Dorper": 1.6,
+            "American Blackbelly": 25.0,
+            "St Augustine": 14.1,
+            "Barbados Blackbelly": 3.1,
+            "Cracker": 25.0,
+            "Wiltshire Horn": 25.0
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "bambii-baby",
+          "line": 1,
+          "index": 1.09,
+          "off_pr": 4.9,
+          "off_mwt": 37.3,
+          "off_hair": 62.0,
+          "off_fattail": 34.0,
+          "off_breed": {
+            "East Friesian": 3.5,
+            "Awassi": 34.0,
+            "Black Headed Dorper": 25.0,
+            "Dorper": 12.5,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "elsie-triplet-lg-white-ewe",
+          "line": 1,
+          "index": 0.78,
+          "off_pr": 0.1,
+          "off_mwt": 34.1,
+          "off_hair": 75.0,
+          "off_fattail": 22.0,
+          "off_breed": {
+            "Awassi": 22.0,
+            "American Blackbelly": 6.2,
+            "St Augustine": 16.4,
+            "East Friesian": 3.0,
+            "Black Headed Dorper": 25.0,
+            "Barbados Blackbelly": 1.6,
+            "Katahdin": 19.6,
+            "Wiltshire Horn": 6.2
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "bambii",
+          "line": 1,
+          "index": 0.76,
+          "off_pr": 0.1,
+          "off_mwt": 28.1,
+          "off_hair": 75.0,
+          "off_fattail": 22.0,
+          "off_breed": {
+            "East Friesian": 3.0,
+            "Awassi": 22.0,
+            "Black Headed Dorper": 25.0,
+            "Dorper": 25.0,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "serendipity",
+          "line": 1,
+          "index": 0.54,
+          "off_pr": -0.2,
+          "off_mwt": 26.3,
+          "off_hair": 50.0,
+          "off_fattail": 22.0,
+          "off_breed": {
+            "East Friesian": 3.0,
+            "Awassi": 22.0,
+            "Black Headed Dorper": 25.0,
+            "St Augustine": 18.8,
+            "Jacob": 12.5,
+            "Babydoll": 12.5,
+            "Katahdin": 6.2
+          }
+        },
+        {
+          "sire": "rocky",
+          "dam": "tag-0035-white-ewe",
+          "line": 1,
+          "index": 0.64,
+          "off_pr": 0.1,
+          "off_mwt": 18.4,
+          "off_hair": 75.0,
+          "off_fattail": 22.0,
+          "off_breed": {
+            "East Friesian": 3.0,
+            "Awassi": 22.0,
+            "Black Headed Dorper": 50.0,
+            "Katahdin": 25.0
+          }
+        },
+        {
+          "sire": "angus",
+          "dam": "fm2-0051",
+          "line": 1,
+          "index": 0.45,
+          "off_pr": 0.1,
+          "off_mwt": 12.6,
+          "off_hair": 62.0,
+          "off_fattail": 25.0,
+          "off_breed": {
+            "Awassi": 12.5,
+            "Tunis": 12.5,
+            "Cotswold": 12.5,
+            "St Augustine": 18.8,
+            "Dorper": 12.5,
+            "Katahdin": 31.2
+          }
+        },
+        {
+          "sire": "angus",
+          "dam": "cocoas-daughter-by-loki",
+          "line": 1,
+          "index": 0.56,
+          "off_pr": 0.0,
+          "off_mwt": 7.7,
+          "off_hair": 88.0,
+          "off_fattail": 12.0,
+          "off_breed": {
+            "Awassi": 12.5,
+            "St Augustine": 20.5,
+            "Dorper": 12.5,
+            "Barbados Blackbelly": 5.1,
+            "Cracker": 12.5,
+            "Katahdin": 36.9
+          }
+        },
+        {
+          "sire": "angus",
+          "dam": "little-daisy",
+          "line": 1,
+          "index": 0.52,
+          "off_pr": 0.0,
+          "off_mwt": 3.5,
+          "off_hair": 88.0,
+          "off_fattail": 12.0,
+          "off_breed": {
+            "Awassi": 12.5,
+            "St Augustine": 34.0,
+            "Dorper": 12.5,
+            "Barbados Blackbelly": 2.3,
+            "Katahdin": 38.7
+          }
+        },
+        {
+          "sire": "angus",
+          "dam": "tag-02-ewe-p5",
+          "line": 1,
+          "index": -0.02,
+          "off_pr": 0.0,
+          "off_mwt": 0.0,
+          "off_hair": null,
+          "off_fattail": 0,
+          "off_breed": null
+        },
+        {
+          "sire": "angus",
+          "dam": "cocoa",
+          "line": 1,
+          "index": 0.49,
+          "off_pr": 0.0,
+          "off_mwt": -2.7,
+          "off_hair": 88.0,
+          "off_fattail": 12.0,
+          "off_breed": {
+            "Awassi": 12.5,
+            "St Augustine": 14.1,
+            "Dorper": 12.5,
+            "Barbados Blackbelly": 3.1,
+            "Cracker": 25.0,
+            "Katahdin": 32.8
+          }
+        },
+        {
+          "sire": "centralia-lamb-2026",
+          "dam": "gigi-2026-baby",
+          "line": 1,
+          "index": 0.78,
+          "off_pr": 7.8,
+          "off_mwt": 6.3,
+          "off_hair": 72.0,
+          "off_fattail": 0,
+          "off_breed": {
+            "Suffolk": 12.5,
+            "Katahdin": 71.8,
+            "Hampshire": 12.5
+          }
+        }
+      ]
     }
   ],
   "breeder_relationships": {
