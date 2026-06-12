@@ -6993,22 +6993,21 @@
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
-        "primary": "Katahdin/Dorper",
+        "primary": "Black Headed Dorper/Katahdin",
         "percentages": {
-          "Katahdin": 50,
-          "Dorper": 50
+          "Black Headed Dorper": 75,
+          "Katahdin": 25
         },
         "coat_type": "hair",
         "hair_percentage": 100,
-        "intermediate_percentage": 0,
         "wool_percentage": 0,
+        "intermediate_percentage": 0,
         "coat_prediction": "hair",
-        "source": "Heather Oaks Farm (owner-stated 2026-05-14)",
-        "quality_caveat": "Owner notes Heather Oaks Dorper line is weak/'lame' — discount as a Dorper genetics source for breeding decisions."
+        "notes": "Exact data from Google Sheet EWE REGISTRY (operator-directed source 2026-06-12): 75% BHD / 25% Katahdin. Supersedes prior 50% K / 50% Dorper estimate."
       },
       "color_markings": "White with fawn markings",
       "weight_lbs": null,
-      "dob": null,
+      "dob": "2023-01-14",
       "dob_approximate": true,
       "sire_id": null,
       "dam_id": null,
@@ -7100,7 +7099,27 @@
       "notes": "Tree Fort pen. White with fawn markings. Origin: Heather Oaks Farm. Tag: orange #35. Single baby (born 12-28-25, Bambii's Baby MC-2615 — weaned to Goose Pen 2026-05-14). Source: notebook card TF. Eyes consistently good. CORRECTION 2026-05-14: tag previously recorded as \"24/0003\" (yellow scrapie) was a transcription error — owner confirmed Bambii's tag is orange #35; the 24/0003 scrapie tag belongs to a different Tree Fort ewe (Sir Loin daughter, separate record).",
       "confidence": "high",
       "last_verified": "2026-05-14",
-      "description": "White with fawn markings."
+      "description": "White with fawn markings.",
+      "breed_composition_prior": {
+        "primary": "Katahdin/Dorper",
+        "percentages": {
+          "Katahdin": 50,
+          "Dorper": 50
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "intermediate_percentage": 0,
+        "wool_percentage": 0,
+        "coat_prediction": "hair",
+        "source": "Heather Oaks Farm (owner-stated 2026-05-14)",
+        "quality_caveat": "Owner notes Heather Oaks Dorper line is weak/'lame' — discount as a Dorper genetics source for breeding decisions."
+      },
+      "notes_history": [
+        {
+          "date": "2026-06-12",
+          "note": "Google Sheet EWE REGISTRY: 75% BHD / 25% Katahdin (was 50/50 in DB). Sire Spaetzel (100% Dorper), dam 'Lazy B's Trouble', grand-sire Sir Loin. DOB 1/14/2023. Source: docs.google sheet 1EQ5bOZL... operator-directed."
+        }
+      ]
     },
     {
       "id": "tag-24-0003-tf",
@@ -30084,6 +30103,34 @@
       "principle": "The two lines are NOT sealed. An exceptionally superior individual from the Awassi dual-purpose line (e.g., a Gigi × Buck × Rocky F2) may be bred back INTO the broader flock — over or under other lambs in either line. Standout individuals override line boundaries.",
       "rationale": "Operator 2026-06-11: 'if we have a super exceptional lamb (gigi × buck × rock) we may breed him over or her under some other lambs.' Selection on individual merit can promote a Line 2 animal into Line 1 use, or vice versa.",
       "decision_rule": "Evaluate truly exceptional individuals on their own EBVs + phenotype, independent of which line produced them."
+    }
+  },
+  "data_provenance": {
+    "google_sheet": {
+      "sheet_id": "1EQ5bOZL5Xmzu_7VvaMHTHWIwHPJqDKTJY_MMPduKrJU",
+      "accessed": "2026-06-12",
+      "access_method": "public CSV export (no auth needed)",
+      "tabs": 34,
+      "useful_tabs": {
+        "EWE REGISTRY (gid 1875763672)": "hand-maintained exact breed % for some ewes",
+        "POSSIBLE LAMBS (gid 962746690)": "breed % projections by ram × ewe",
+        "Breed projection calc (gid 123456789)": "Sire/Dam breed % calculator",
+        "Master breed table (gid 278885186)": "auto-generated from flock_database (mirrors our data)"
+      },
+      "corrections_applied": [
+        "bambii: 75% BHD / 25% Katahdin (was 50/50)"
+      ],
+      "still_unresolved_in_sheet": {
+        "note": "The 5 ewes flagged in the F1 projection are [UNCLEAR]/'MC'/blank in the sheet too — it does NOT have their exact breakdowns:",
+        "ewes": [
+          "tag-02-ewe-p5 ([UNCLEAR])",
+          "fawn-wool-ewe-p5 / 240006 (only 'Wool')",
+          "tag-31-orange-tf (blank)",
+          "broken-tail-twin-ewe / MC2605 (Broken Tail offspring, sire unconfirmed)",
+          "tag-24-0003-tf (blank)"
+        ],
+        "next_step": "These need notebook/physical confirmation — not resolvable from the sheet."
+      }
     }
   }
 }
