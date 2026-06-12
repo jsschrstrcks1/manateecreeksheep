@@ -1,0 +1,55 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": 6,
+      "flocks_represented": 2,
+      "raw_traits": {
+        "BWT": {
+          "val": 100.76,
+          "se": null,
+          "acc": 15,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 100.76,
+          "se": null,
+          "acc": 15,
+          "rank": null
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    },
+    {
+      "role": "dam",
+      "progeny_evaluated": 6,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 98.93,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 98.93,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "45810",
+  "scraped_at": 1781232764
+}

@@ -1,0 +1,242 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": 6,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 99.79,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 99.79,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    },
+    {
+      "role": "sire",
+      "progeny_evaluated": 393,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": -0.221,
+          "se": 0.09,
+          "acc": 96,
+          "rank": 5
+        },
+        "MBWT": {
+          "val": -0.367,
+          "se": null,
+          "acc": 96,
+          "rank": "<5"
+        },
+        "WWT": {
+          "val": -0.713,
+          "se": 0.65,
+          "acc": 95,
+          "rank": "<5"
+        },
+        "MWWT": {
+          "val": -0.827,
+          "se": null,
+          "acc": 93,
+          "rank": "<5"
+        },
+        "PWWT": {
+          "val": -1.211,
+          "se": 0.88,
+          "acc": 95,
+          "rank": "<5"
+        },
+        "YWT": {
+          "val": -0.77,
+          "se": 1.92,
+          "acc": 85,
+          "rank": "<5"
+        },
+        "HWT": {
+          "val": -0.666,
+          "se": null,
+          "acc": 79,
+          "rank": "-"
+        },
+        "PFAT": {
+          "val": 0.444,
+          "se": 0.78,
+          "acc": 82,
+          "rank": 30
+        },
+        "PEMD": {
+          "val": 0.014,
+          "se": 0.83,
+          "acc": 66,
+          "rank": 55
+        },
+        "WFEC": {
+          "val": -57.24,
+          "se": null,
+          "acc": 72,
+          "rank": 65
+        },
+        "PFEC": {
+          "val": -36.65,
+          "se": null,
+          "acc": 66,
+          "rank": 50
+        },
+        "PSC": {
+          "val": -0.713,
+          "se": null,
+          "acc": 63,
+          "rank": "-"
+        },
+        "NLB": {
+          "val": -0.23,
+          "se": null,
+          "acc": 86,
+          "rank": "<5"
+        },
+        "NLW": {
+          "val": -0.194,
+          "se": null,
+          "acc": 81,
+          "rank": "<5"
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": -0.221,
+          "se": 0.09,
+          "acc": 96,
+          "rank": 5
+        },
+        "MBWT": {
+          "val": -0.367,
+          "se": null,
+          "acc": 96,
+          "rank": "<5"
+        },
+        "WWT": {
+          "val": -0.713,
+          "se": 0.65,
+          "acc": 95,
+          "rank": "<5"
+        },
+        "MWWT": {
+          "val": -0.827,
+          "se": null,
+          "acc": 93,
+          "rank": "<5"
+        },
+        "PWWT": {
+          "val": -1.211,
+          "se": 0.88,
+          "acc": 95,
+          "rank": "<5"
+        },
+        "YWT": {
+          "val": -0.77,
+          "se": 1.92,
+          "acc": 85,
+          "rank": "<5"
+        },
+        "HWT": {
+          "val": -0.666,
+          "se": null,
+          "acc": 79,
+          "rank": "-"
+        }
+      },
+      "carcass_traits": {
+        "PFAT": {
+          "val": 0.444,
+          "se": 0.78,
+          "acc": 82,
+          "rank": 30
+        },
+        "PEMD": {
+          "val": 0.014,
+          "se": 0.83,
+          "acc": 66,
+          "rank": 55
+        }
+      },
+      "parasite_resistance": {
+        "WFEC": {
+          "val": -57.24,
+          "se": null,
+          "acc": 72,
+          "rank": 65
+        },
+        "PFEC": {
+          "val": -36.65,
+          "se": null,
+          "acc": 66,
+          "rank": 50
+        }
+      },
+      "reproduction": {
+        "PSC": {
+          "val": -0.713,
+          "se": null,
+          "acc": 63,
+          "rank": "-"
+        },
+        "NLB": {
+          "val": -0.23,
+          "se": null,
+          "acc": 86,
+          "rank": "<5"
+        },
+        "NLW": {
+          "val": -0.194,
+          "se": null,
+          "acc": 81,
+          "rank": "<5"
+        }
+      },
+      "us_hair_composite_index": {
+        "val": 96.28,
+        "rank": "<5"
+      }
+    },
+    {
+      "role": "dam",
+      "progeny_evaluated": 15,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 101.77,
+          "se": null,
+          "acc": 35,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 101.77,
+          "se": null,
+          "acc": 35,
+          "rank": null
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "13805",
+  "scraped_at": 1781232577
+}

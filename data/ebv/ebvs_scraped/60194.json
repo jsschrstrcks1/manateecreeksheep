@@ -1,0 +1,202 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": 227,
+      "flocks_represented": 3,
+      "raw_traits": {
+        "BWT": {
+          "val": 0.479,
+          "se": 0.09,
+          "acc": 95,
+          "rank": 75
+        },
+        "MBWT": {
+          "val": 0.074,
+          "se": null,
+          "acc": 96,
+          "rank": 30
+        },
+        "WWT": {
+          "val": 1.18,
+          "se": 0.91,
+          "acc": 94,
+          "rank": 20
+        },
+        "MWWT": {
+          "val": 0.062,
+          "se": null,
+          "acc": 95,
+          "rank": "<5"
+        },
+        "PWWT": {
+          "val": 2.683,
+          "se": 0.88,
+          "acc": 95,
+          "rank": 30
+        },
+        "YWT": {
+          "val": 3.4,
+          "se": 1.39,
+          "acc": 90,
+          "rank": 55
+        },
+        "HWT": {
+          "val": 2.984,
+          "se": null,
+          "acc": 86,
+          "rank": "-"
+        },
+        "PFAT": {
+          "val": 33.26,
+          "se": null,
+          "acc": 79,
+          "rank": 5
+        },
+        "PEMD": {
+          "val": 51.78,
+          "se": null,
+          "acc": 74,
+          "rank": 5
+        },
+        "WFEC": {
+          "val": -0.122,
+          "se": null,
+          "acc": 75,
+          "rank": "-"
+        },
+        "PFEC": {
+          "val": 0.027,
+          "se": null,
+          "acc": 88,
+          "rank": 15
+        },
+        "PSC": {
+          "val": 0.078,
+          "se": null,
+          "acc": 85,
+          "rank": 30
+        },
+        "NLB": {
+          "val": 101.79,
+          "se": null,
+          "acc": 25,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 0.479,
+          "se": 0.09,
+          "acc": 95,
+          "rank": 75
+        },
+        "MBWT": {
+          "val": 0.074,
+          "se": null,
+          "acc": 96,
+          "rank": 30
+        },
+        "WWT": {
+          "val": 1.18,
+          "se": 0.91,
+          "acc": 94,
+          "rank": 20
+        },
+        "MWWT": {
+          "val": 0.062,
+          "se": null,
+          "acc": 95,
+          "rank": "<5"
+        },
+        "PWWT": {
+          "val": 2.683,
+          "se": 0.88,
+          "acc": 95,
+          "rank": 30
+        },
+        "YWT": {
+          "val": 3.4,
+          "se": 1.39,
+          "acc": 90,
+          "rank": 55
+        },
+        "HWT": {
+          "val": 2.984,
+          "se": null,
+          "acc": 86,
+          "rank": "-"
+        }
+      },
+      "carcass_traits": {
+        "PFAT": {
+          "val": 33.26,
+          "se": null,
+          "acc": 79,
+          "rank": 5
+        },
+        "PEMD": {
+          "val": 51.78,
+          "se": null,
+          "acc": 74,
+          "rank": 5
+        }
+      },
+      "parasite_resistance": {
+        "WFEC": {
+          "val": -0.122,
+          "se": null,
+          "acc": 75,
+          "rank": "-"
+        },
+        "PFEC": {
+          "val": 0.027,
+          "se": null,
+          "acc": 88,
+          "rank": 15
+        }
+      },
+      "reproduction": {
+        "PSC": {
+          "val": 0.078,
+          "se": null,
+          "acc": 85,
+          "rank": 30
+        },
+        "NLB": {
+          "val": 101.79,
+          "se": null,
+          "acc": 25,
+          "rank": null
+        }
+      }
+    },
+    {
+      "role": "dam",
+      "progeny_evaluated": 15,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 102.17,
+          "se": null,
+          "acc": 45,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 102.17,
+          "se": null,
+          "acc": 45,
+          "rank": null
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "60194",
+  "scraped_at": 1781232801
+}

@@ -1,6 +1,6 @@
 {
   "computed_on": "2026-06-12",
-  "n_animals": 239,
+  "n_animals": 276,
   "traits": {
     "PR": {
       "name": "Parasite Resistance",
@@ -65,7 +65,25 @@
     "khsi-60021",
     "khsi-22375",
     "khsi-18936",
-    "khsi-45151"
+    "khsi-45151",
+    "khsi-13802",
+    "khsi-17301",
+    "khsi-23816",
+    "khsi-25697",
+    "khsi-27678",
+    "khsi-28744",
+    "loaded-wagon-30088",
+    "khsi-30590",
+    "khsi-34802",
+    "khsi-35577",
+    "khsi-38830",
+    "khsi-41325",
+    "khsi-43299",
+    "khsi-44270",
+    "cornerstone-50492",
+    "khsi-57451",
+    "khsi-5908",
+    "khsi-60194"
   ],
   "ebvs": {
     "almond-joy": {
@@ -164,7 +182,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0333,
+          "value": 0.0455,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -198,7 +216,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.065,
+          "value": 0.0705,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -280,19 +298,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": -0.0931,
+          "value": 12.6757,
           "method": "blup-light",
           "accuracy": 0.9
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.4575,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 6.65,
+          "value": 6.8985,
           "method": "mid-parent",
-          "accuracy": 0.45
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
@@ -302,7 +320,7 @@
         "NLW": {
           "value": -0.01,
           "method": "mid-parent",
-          "accuracy": 0.45
+          "accuracy": 0.6
         }
       }
     },
@@ -606,7 +624,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0813,
+          "value": 0.0886,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -640,7 +658,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0813,
+          "value": 0.0886,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -742,7 +760,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.4688,
+          "value": 0.4864,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -776,7 +794,7 @@
           "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.2344,
+          "value": 0.2432,
           "method": "mid-parent",
           "accuracy": 0.45
         }
@@ -810,7 +828,7 @@
           "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.2344,
+          "value": 0.2432,
           "method": "mid-parent",
           "accuracy": 0.45
         }
@@ -844,7 +862,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1626,
+          "value": 0.1772,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -912,7 +930,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0293,
+          "value": 0.0414,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -946,7 +964,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0146,
+          "value": 0.0207,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -980,7 +998,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2344,
+          "value": 0.2432,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -1388,7 +1406,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0333,
+          "value": -0.0273,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -1422,7 +1440,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0667,
+          "value": -0.0545,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -1592,7 +1610,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0813,
+          "value": 0.0886,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -1626,7 +1644,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2154,
+          "value": 0.2209,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -1660,9 +1678,43 @@
           "accuracy": 0.7
         },
         "NLW": {
-          "value": 0.1557,
+          "value": 0.1606,
           "method": "mid-parent",
           "accuracy": 0.7
+        }
+      }
+    },
+    "cornerstone-50492": {
+      "name": "CORNERSTONE",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.057,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 1.884,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 2.842,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
@@ -1694,7 +1746,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.4154,
+          "value": 0.4209,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -1728,7 +1780,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0167,
+          "value": 0.0227,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -1796,7 +1848,7 @@
           "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.2077,
+          "value": 0.2104,
           "method": "mid-parent",
           "accuracy": 0.45
         }
@@ -1830,7 +1882,7 @@
           "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.2077,
+          "value": 0.2104,
           "method": "mid-parent",
           "accuracy": 0.45
         }
@@ -1864,7 +1916,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2344,
+          "value": 0.2432,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -2000,7 +2052,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.3688,
+          "value": 0.3864,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -2034,7 +2086,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.1927,
+          "value": 0.2045,
           "method": "mid-parent",
           "accuracy": 0.7
         }
@@ -2068,7 +2120,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.1927,
+          "value": 0.2045,
           "method": "mid-parent",
           "accuracy": 0.7
         }
@@ -2102,7 +2154,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.1927,
+          "value": 0.2045,
           "method": "mid-parent",
           "accuracy": 0.7
         }
@@ -2408,7 +2460,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.3243,
+          "value": 0.3365,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -2476,7 +2528,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1622,
+          "value": 0.1682,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -2544,7 +2596,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1622,
+          "value": 0.1682,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -2612,7 +2664,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0959,
+          "value": 0.1014,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -2646,7 +2698,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.048,
+          "value": 0.0507,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -3224,7 +3276,7 @@
           "accuracy": 0.7
         },
         "NLW": {
-          "value": 0.5232,
+          "value": 0.5353,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -3258,7 +3310,7 @@
           "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.2616,
+          "value": 0.2677,
           "method": "mid-parent",
           "accuracy": 0.45
         }
@@ -3360,7 +3412,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2616,
+          "value": 0.2677,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -3394,7 +3446,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2616,
+          "value": 0.2677,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -3428,7 +3480,7 @@
           "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.1625,
+          "value": 0.166,
           "method": "mid-parent",
           "accuracy": 0.45
         }
@@ -3462,7 +3514,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0892,
+          "value": 0.0952,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -3570,6 +3622,142 @@
         }
       }
     },
+    "khsi-13802": {
+      "name": "KHSI 13802",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -29.5,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 0.24,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 0.689,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.11,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
+    "khsi-13805": {
+      "name": "KHSI 13805",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-14708": {
+      "name": "KHSI 14708",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-17301": {
+      "name": "KHSI 17301",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -41.45,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 1.143,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 0.227,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.032,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
     "khsi-18296": {
       "name": "KHSI 18296",
       "sex": "ewe",
@@ -3598,9 +3786,9 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0667,
+          "value": -0.0245,
           "method": "blup-light",
-          "accuracy": 0.7
+          "accuracy": 0.9
         }
       }
     },
@@ -3740,6 +3928,142 @@
         }
       }
     },
+    "khsi-23816": {
+      "name": "KHSI 23816",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.032,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 0.651,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 1.201,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 101.75,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
+    "khsi-25697": {
+      "name": "KHSI 25697",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -4.55,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -0.086,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -0.525,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.041,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
+    "khsi-27026": {
+      "name": "KHSI 27026",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-27678": {
+      "name": "KHSI 27678",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -21.25,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 1.046,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -0.03,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.061,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
     "khsi-27679": {
       "name": "KHSI 27679",
       "sex": "ram",
@@ -3802,9 +4126,43 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0667,
+          "value": 0.0,
           "method": "blup-light",
           "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-28744": {
+      "name": "KHSI 28744",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -10.99,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -1.034,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -1.522,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.032,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         }
       }
     },
@@ -3842,8 +4200,8 @@
         }
       }
     },
-    "khsi-34933": {
-      "name": "KHSI 34933",
+    "khsi-3041": {
+      "name": "KHSI 3041",
       "sex": "ewe",
       "pen": null,
       "status": "alive",
@@ -3870,9 +4228,247 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0667,
+          "value": -0.0545,
           "method": "blup-light",
           "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-30590": {
+      "name": "KHSI 30590",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.06,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -1.254,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -2.642,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0185,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "khsi-31239": {
+      "name": "KHSI 31239",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-34802": {
+      "name": "KHSI 34802",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.255,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 0.227,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 0.484,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-34933": {
+      "name": "KHSI 34933",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -30.81,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": 0.3225,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": 0.484,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.036,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "khsi-35577": {
+      "name": "KHSI 35577",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.188,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -0.515,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -0.485,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 101.71,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
+    "khsi-3632": {
+      "name": "KHSI 3632",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-38474": {
+      "name": "KHSI 38474",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -30.81,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": 0.3225,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": 0.484,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.036,
+          "method": "blup-light",
+          "accuracy": 0.9
         }
       }
     },
@@ -3910,6 +4506,40 @@
         }
       }
     },
+    "khsi-38830": {
+      "name": "KHSI 38830",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.29,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 0.892,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 0.888,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 103.97,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
     "khsi-39733": {
       "name": "KHSI 39733",
       "sex": "ewe",
@@ -3944,6 +4574,40 @@
         }
       }
     },
+    "khsi-41325": {
+      "name": "KHSI 41325",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -0.025,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -0.064,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -0.617,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
     "khsi-41580": {
       "name": "KHSI 41580",
       "sex": "ewe",
@@ -3972,14 +4636,14 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.0205,
+          "method": "mid-parent",
+          "accuracy": 0.6
         }
       }
     },
-    "khsi-42793": {
-      "name": "KHSI 42793",
+    "khsi-42165": {
+      "name": "KHSI 42165",
       "sex": "ewe",
       "pen": null,
       "status": "alive",
@@ -4006,9 +4670,213 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.03,
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-42789": {
+      "name": "KHSI 42789",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 2.5,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": 0.026,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": 0.4855,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 51.23,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        }
+      }
+    },
+    "khsi-42793": {
+      "name": "KHSI 42793",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -15.405,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": 0.1613,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": 0.242,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0162,
           "method": "blup-light",
           "accuracy": 0.9
+        }
+      }
+    },
+    "khsi-42802": {
+      "name": "KHSI 42802",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -23.35,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": -0.332,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": -0.3615,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0005,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        }
+      }
+    },
+    "khsi-43121": {
+      "name": "KHSI 43121",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-43123": {
+      "name": "KHSI 43123",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-43299": {
+      "name": "KHSI 43299",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.018,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
@@ -4080,6 +4948,40 @@
         }
       }
     },
+    "khsi-44270": {
+      "name": "KHSI 44270",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 16.8,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -0.375,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -0.31,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.022,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        }
+      }
+    },
     "khsi-45151": {
       "name": "KHSI 45151",
       "sex": "ewe",
@@ -4108,14 +5010,82 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0,
+          "value": 46.7948,
           "method": "blup-light",
-          "accuracy": 0.7
+          "accuracy": 0.9
         }
       }
     },
     "khsi-45211": {
       "name": "KHSI 45211",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -5.495,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": -0.517,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": -0.761,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.0144,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "khsi-45212": {
+      "name": "KHSI 45212",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -5.495,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "WWT": {
+          "value": -0.517,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "PWT": {
+          "value": -0.761,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.016,
+          "method": "mid-parent",
+          "accuracy": 0.45
+        }
+      }
+    },
+    "khsi-45790": {
+      "name": "KHSI 45790",
       "sex": "ewe",
       "pen": null,
       "status": "alive",
@@ -4143,13 +5113,47 @@
         },
         "NLW": {
           "value": 0.0,
-          "method": "blup-light",
-          "accuracy": 0.7
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
-    "khsi-45212": {
-      "name": "KHSI 45212",
+    "khsi-45810": {
+      "name": "KHSI 45810",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-47677": {
+      "name": "KHSI 47677",
       "sex": "ewe",
       "pen": null,
       "status": "alive",
@@ -4284,6 +5288,40 @@
         }
       }
     },
+    "khsi-5111": {
+      "name": "KHSI 5111",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.0545,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
     "khsi-52080": {
       "name": "KHSI 52080",
       "sex": "ewe",
@@ -4326,19 +5364,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 1.25,
+          "value": -6.4525,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "WWT": {
-          "value": 0.013,
+          "value": 0.0936,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "PWT": {
-          "value": 0.2427,
+          "value": 0.3638,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
@@ -4346,7 +5384,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 25.5833,
+          "value": 25.6231,
           "method": "mid-parent",
           "accuracy": 0.7
         }
@@ -4394,6 +5432,40 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
+          "value": -20.9,
+          "method": "mid-parent",
+          "accuracy": 0.7
+        },
+        "WWT": {
+          "value": -0.3558,
+          "method": "mid-parent",
+          "accuracy": 0.7
+        },
+        "PWT": {
+          "value": -0.519,
+          "method": "mid-parent",
+          "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.0315,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "khsi-53519": {
+      "name": "KHSI 53519",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
           "value": 0.0,
           "method": "default-zero",
           "accuracy": 0.0
@@ -4414,15 +5486,15 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0333,
-          "method": "blup-light",
-          "accuracy": 0.7
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
         }
       }
     },
-    "khsi-53519": {
-      "name": "KHSI 53519",
-      "sex": "ram",
+    "khsi-53953": {
+      "name": "KHSI 53953",
+      "sex": "ewe",
       "pen": null,
       "status": "alive",
       "inbreeding_F": 0.0,
@@ -4462,19 +5534,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -2.7475,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.2585,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "PWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -0.3805,
+          "method": "mid-parent",
+          "accuracy": 0.45
         },
         "ADG": {
           "value": 0.0,
@@ -4482,7 +5554,41 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0667,
+          "value": 0.0602,
+          "method": "blup-light",
+          "accuracy": 0.9
+        }
+      }
+    },
+    "khsi-57451": {
+      "name": "KHSI 57451",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -100.92,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 0.512,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -0.143,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": -0.0545,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -4522,6 +5628,40 @@
         }
       }
     },
+    "khsi-5908": {
+      "name": "KHSI 5908",
+      "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.057,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": -0.174,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": -1.189,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "blup-light",
+          "accuracy": 0.7
+        }
+      }
+    },
     "khsi-60021": {
       "name": "KHSI 60021",
       "sex": "ewe",
@@ -4550,15 +5690,83 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.035,
+          "value": 23.4324,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
+        }
+      }
+    },
+    "khsi-60194": {
+      "name": "KHSI 60194",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.122,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 1.18,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 2.683,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 101.79,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         }
       }
     },
     "khsi-60275": {
       "name": "KHSI 60275",
       "sex": "ewe",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "khsi-625": {
+      "name": "KHSI 625",
+      "sex": "ram",
       "pen": null,
       "status": "alive",
       "inbreeding_F": 0.0,
@@ -4598,19 +5806,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": -10.45,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "WWT": {
-          "value": 0.2085,
+          "value": 0.0306,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "PWT": {
-          "value": 0.3575,
+          "value": 0.098,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
@@ -4618,7 +5826,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": -0.0167,
+          "value": -0.0158,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -4632,19 +5840,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": -0.0325,
+          "value": -1.4062,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "WWT": {
-          "value": 0.616,
+          "value": 0.4868,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "PWT": {
-          "value": 0.8935,
+          "value": 0.7032,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
@@ -4652,7 +5860,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0333,
+          "value": 0.0301,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -4666,19 +5874,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": -0.0325,
+          "value": -1.4062,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "WWT": {
-          "value": 0.616,
+          "value": 0.4868,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "PWT": {
-          "value": 0.8935,
+          "value": 0.7032,
           "method": "mid-parent",
-          "accuracy": 0.6
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
@@ -4686,7 +5894,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0333,
+          "value": 0.0301,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -4720,9 +5928,9 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 50.8677,
+          "method": "mid-parent",
+          "accuracy": 0.7
         }
       }
     },
@@ -4788,7 +5996,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.3243,
+          "value": 0.3365,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -4822,7 +6030,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1622,
+          "value": 0.1682,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -4856,7 +6064,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1622,
+          "value": 0.1682,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -4924,7 +6132,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1622,
+          "value": 0.1682,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -4992,7 +6200,7 @@
           "accuracy": 0.7
         },
         "NLW": {
-          "value": 0.3249,
+          "value": 0.332,
           "method": "mid-parent",
           "accuracy": 0.7
         }
@@ -5026,7 +6234,7 @@
           "accuracy": 0.45
         },
         "NLW": {
-          "value": 0.1625,
+          "value": 0.166,
           "method": "mid-parent",
           "accuracy": 0.45
         }
@@ -5060,9 +6268,43 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0325,
+          "value": 0.0352,
           "method": "mid-parent",
           "accuracy": 0.6
+        }
+      }
+    },
+    "loaded-wagon-30088": {
+      "name": "LOADED WAGON",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": -61.62,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "WWT": {
+          "value": 0.645,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "PWT": {
+          "value": 0.968,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.08,
+          "method": "nsip-anchored",
+          "accuracy": 0.95
         }
       }
     },
@@ -5094,7 +6336,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.0959,
+          "value": 0.1003,
           "method": "mid-parent",
           "accuracy": 0.7
         }
@@ -5162,7 +6404,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1622,
+          "value": 0.1682,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -5196,7 +6438,7 @@
           "accuracy": 0.6
         },
         "NLW": {
-          "value": 0.2616,
+          "value": 0.2677,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -5298,7 +6540,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0333,
+          "value": 0.0455,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -5332,7 +6574,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0167,
+          "value": 0.0227,
           "method": "mid-parent",
           "accuracy": 0.45
         }
@@ -5366,7 +6608,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0167,
+          "value": 0.0227,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -5400,7 +6642,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0333,
+          "value": 0.0455,
           "method": "blup-light",
           "accuracy": 0.7
         }
@@ -5434,7 +6676,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.025,
+          "value": 0.0341,
           "method": "mid-parent",
           "accuracy": 0.7
         }
@@ -5468,7 +6710,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.025,
+          "value": 0.0341,
           "method": "mid-parent",
           "accuracy": 0.7
         }
@@ -5502,7 +6744,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1622,
+          "value": 0.1682,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -5672,7 +6914,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0146,
+          "value": 0.0207,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -5740,9 +6982,9 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 51.1967,
+          "value": 51.23,
           "method": "mid-parent",
-          "accuracy": 0.7
+          "accuracy": 0.6
         }
       }
     },
@@ -6012,7 +7254,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1622,
+          "value": 0.1682,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -6114,7 +7356,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1783,
+          "value": 0.1905,
           "method": "blup-light",
           "accuracy": 0.9
         }
@@ -6148,7 +7390,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0892,
+          "value": 0.0952,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -6182,7 +7424,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0892,
+          "value": 0.0952,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -6216,7 +7458,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0892,
+          "value": 0.0952,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -6250,7 +7492,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0892,
+          "value": 0.0952,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -6488,7 +7730,7 @@
           "accuracy": 0.7
         },
         "NLW": {
-          "value": 0.3249,
+          "value": 0.332,
           "method": "mid-parent",
           "accuracy": 0.7
         }
@@ -6515,6 +7757,40 @@
           "value": 4.375,
           "method": "blup-light",
           "accuracy": 0.7
+        },
+        "ADG": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "NLW": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        }
+      }
+    },
+    "southern-gentlemen-42808": {
+      "name": "SOUTHERN GENTLEMEN",
+      "sex": "ram",
+      "pen": null,
+      "status": "alive",
+      "inbreeding_F": 0.0,
+      "ebvs": {
+        "PR": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "WWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
+        },
+        "PWT": {
+          "value": 0.0,
+          "method": "default-zero",
+          "accuracy": 0.0
         },
         "ADG": {
           "value": 0.0,
@@ -6556,7 +7832,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.1622,
+          "value": 0.1682,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -6726,7 +8002,7 @@
           "accuracy": 0.0
         },
         "NLW": {
-          "value": 0.0083,
+          "value": 0.0114,
           "method": "mid-parent",
           "accuracy": 0.6
         }
@@ -6774,19 +8050,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": 0.0698,
+          "value": 12.8386,
           "method": "blup-light",
           "accuracy": 0.9
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.4575,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 6.6445,
+          "value": 6.893,
           "method": "mid-parent",
-          "accuracy": 0.45
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
@@ -6796,7 +8072,7 @@
         "NLW": {
           "value": 0.04,
           "method": "mid-parent",
-          "accuracy": 0.45
+          "accuracy": 0.6
         }
       }
     },
@@ -6808,19 +8084,19 @@
       "inbreeding_F": 0.0,
       "ebvs": {
         "PR": {
-          "value": -0.1022,
+          "value": 12.6666,
           "method": "blup-light",
           "accuracy": 0.9
         },
         "WWT": {
-          "value": 0.0,
-          "method": "default-zero",
-          "accuracy": 0.0
+          "value": 0.4575,
+          "method": "mid-parent",
+          "accuracy": 0.6
         },
         "PWT": {
-          "value": 6.6445,
+          "value": 6.893,
           "method": "mid-parent",
-          "accuracy": 0.45
+          "accuracy": 0.7
         },
         "ADG": {
           "value": 0.0,
@@ -6830,7 +8106,7 @@
         "NLW": {
           "value": 0.04,
           "method": "mid-parent",
-          "accuracy": 0.45
+          "accuracy": 0.6
         }
       }
     },

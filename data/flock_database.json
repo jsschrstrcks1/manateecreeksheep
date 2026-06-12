@@ -15638,7 +15638,8 @@
         "breeding_group": "",
         "offspring_ids": [
           "khsi-38477",
-          "pure-power-42776"
+          "pure-power-42776",
+          "khsi-42789"
         ],
         "lambing_records": []
       },
@@ -15784,8 +15785,8 @@
       "weight_lbs": null,
       "dob": "2003-01-29",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "loaded-wagon-30088",
+      "dam_id": "khsi-14708",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of centralia-lamb-2026 (purchased 2026-06-09). Auto-recorded for EBV path-coefficient propagation.",
@@ -15803,7 +15804,8 @@
         "is_breeding_animal": true,
         "breeding_group": "",
         "offspring_ids": [
-          "khsi-43759"
+          "khsi-43759",
+          "khsi-42802"
         ],
         "lambing_records": []
       },
@@ -15958,7 +15960,7 @@
       "weight_lbs": null,
       "dob": "2003-01-02",
       "dob_approximate": false,
-      "sire_id": null,
+      "sire_id": "loaded-wagon-30088",
       "dam_id": null,
       "status": "alive",
       "status_date": null,
@@ -16138,8 +16140,8 @@
       "weight_lbs": null,
       "dob": "2004-02-03",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "khsi-25697",
+      "dam_id": "khsi-27026",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of centralia-lamb-2026 (purchased 2026-06-09). Auto-recorded for EBV path-coefficient propagation.",
@@ -16556,7 +16558,7 @@
       "weight_lbs": null,
       "dob": "2005-03-20",
       "dob_approximate": false,
-      "sire_id": null,
+      "sire_id": "khsi-28744",
       "dam_id": null,
       "status": "alive",
       "status_date": null,
@@ -16646,7 +16648,7 @@
       "weight_lbs": null,
       "dob": "2005-03-20",
       "dob_approximate": false,
-      "sire_id": null,
+      "sire_id": "khsi-28744",
       "dam_id": null,
       "status": "alive",
       "status_date": null,
@@ -17102,8 +17104,8 @@
       "weight_lbs": null,
       "dob": "2007-02-24",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "southern-gentlemen-42808",
+      "dam_id": "khsi-31239",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of centralia-lamb-2026 (purchased 2026-06-09). Auto-recorded for EBV path-coefficient propagation.",
@@ -17276,8 +17278,8 @@
       "weight_lbs": null,
       "dob": "2006-04-02",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "khsi-28744",
+      "dam_id": "khsi-38474",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of centralia-lamb-2026 (purchased 2026-06-09). Auto-recorded for EBV path-coefficient propagation.",
@@ -18239,7 +18241,7 @@
       "dob": "2006-06-02",
       "dob_approximate": false,
       "sire_id": "khsi-27679",
-      "dam_id": null,
+      "dam_id": "khsi-44270",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of Kelsier (198291X). Auto-recorded for EBV path-coefficient propagation.",
@@ -18412,8 +18414,8 @@
       "weight_lbs": null,
       "dob": "2010-02-22",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "khsi-60194",
+      "dam_id": "khsi-57451",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of Kelsier (198291X). Auto-recorded for EBV path-coefficient propagation.",
@@ -18562,8 +18564,8 @@
       "weight_lbs": null,
       "dob": "2004-03-13",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "khsi-35577",
+      "dam_id": "khsi-34802",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of Kelsier (198291X). Auto-recorded for EBV path-coefficient propagation.",
@@ -18727,7 +18729,7 @@
       "weight_lbs": null,
       "dob": "2001-02-06",
       "dob_approximate": false,
-      "sire_id": null,
+      "sire_id": "khsi-23816",
       "dam_id": null,
       "status": "alive",
       "status_date": null,
@@ -18899,7 +18901,7 @@
       "weight_lbs": null,
       "dob": "2005-03-18",
       "dob_approximate": false,
-      "sire_id": null,
+      "sire_id": "khsi-41325",
       "dam_id": "khsi-39733",
       "status": "alive",
       "status_date": null,
@@ -19234,8 +19236,8 @@
       "weight_lbs": null,
       "dob": "1996-04-28",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "khsi-3632",
+      "dam_id": "khsi-3041",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of Kelsier (198291X). Auto-recorded for EBV path-coefficient propagation.",
@@ -19399,8 +19401,8 @@
       "weight_lbs": null,
       "dob": "1993-10-06",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "khsi-625",
+      "dam_id": "khsi-5111",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of Kelsier (198291X). Auto-recorded for EBV path-coefficient propagation.",
@@ -19979,8 +19981,8 @@
       "weight_lbs": null,
       "dob": "2000-10-02",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "khsi-17301",
+      "dam_id": "khsi-5908",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of Kelsier (198291X). Auto-recorded for EBV path-coefficient propagation.",
@@ -19998,7 +20000,8 @@
         "is_breeding_animal": true,
         "breeding_group": "",
         "offspring_ids": [
-          "khsi-27679"
+          "khsi-27679",
+          "khsi-27678"
         ],
         "lambing_records": []
       },
@@ -20153,8 +20156,8 @@
       "weight_lbs": null,
       "dob": "1998-04-25",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "khsi-13802",
+      "dam_id": "khsi-13805",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of Kelsier (198291X). Auto-recorded for EBV path-coefficient propagation.",
@@ -20327,8 +20330,8 @@
       "weight_lbs": null,
       "dob": "2005-03-13",
       "dob_approximate": false,
-      "sire_id": null,
-      "dam_id": null,
+      "sire_id": "khsi-38830",
+      "dam_id": "khsi-30590",
       "status": "alive",
       "status_date": null,
       "status_notes": "OFF-FARM. Ancestor of Kelsier (198291X). Auto-recorded for EBV path-coefficient propagation.",
@@ -20438,6 +20441,4602 @@
         "source": "Auto-scraped digitalovine.com 2026-06-11"
       },
       "notes": "Auto-recorded 2026-06-11. KHSI reg 45151, ancestor of Kelsier (198291X). Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-13802",
+      "name": "KHSI 13802",
+      "aliases": [
+        "KHSI 13802"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "13802",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 3.42,
+        "breeder": null,
+        "prior_owner": "Laura & Doug Fortmeyer (174)",
+        "service_type": "Natural Service - Triplet",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "1997-04-18",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-18936"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/13802.html",
+          "data/ebv/ebvs_scraped/13802.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 7,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": -0.112,
+            "se": 0.23,
+            "acc": 68,
+            "rank": 5
+          },
+          "MBWT": {
+            "val": -0.247,
+            "se": null,
+            "acc": 84,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": 0.24,
+            "se": 1.67,
+            "acc": 66,
+            "rank": 5
+          },
+          "MWWT": {
+            "val": -0.6,
+            "se": null,
+            "acc": 75,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": 0.689,
+            "se": 2.26,
+            "acc": 67,
+            "rank": 5
+          },
+          "YWT": {
+            "val": 0.528,
+            "se": 2.56,
+            "acc": 60,
+            "rank": 5
+          },
+          "HWT": {
+            "val": 0.158,
+            "se": null,
+            "acc": 55,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 0.459,
+            "se": 1.12,
+            "acc": 56,
+            "rank": 25
+          },
+          "PEMD": {
+            "val": -0.386,
+            "se": 0.95,
+            "acc": 48,
+            "rank": 20
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 29.5,
+            "se": null,
+            "acc": 49,
+            "rank": 5
+          },
+          "PFEC": {
+            "val": 50.54,
+            "se": null,
+            "acc": 46,
+            "rank": 10
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 0.047,
+            "se": null,
+            "acc": 46,
+            "rank": "-"
+          },
+          "NLB": {
+            "val": 0.11,
+            "se": null,
+            "acc": 60,
+            "rank": 45
+          },
+          "NLW": {
+            "val": 0.071,
+            "se": null,
+            "acc": 56,
+            "rank": 30
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 100.88,
+          "rank": 10
+        },
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 13802. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-13805",
+      "name": "KHSI 13805",
+      "aliases": [
+        "KHSI 13805"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "13805",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 8.59,
+        "breeder": null,
+        "prior_owner": "Lynn & Donna Fahrmeier (1022)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "1997-04-22",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-18936"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/13805.html",
+          "data/ebv/ebvs_scraped/13805.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 6,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 99.79,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 13805. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-14708",
+      "name": "KHSI 14708",
+      "aliases": [
+        "KHSI 14708"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "14708",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 1.17,
+        "breeder": null,
+        "prior_owner": "Martin Jean (612)",
+        "service_type": "Natural Service - Single Birth",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "1997-02-27",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "sure-thing-34924"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/14708.html",
+          "data/ebv/ebvs_scraped/14708.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 10,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.54,
+            "se": null,
+            "acc": 10,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 14708. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-17301",
+      "name": "KHSI 17301",
+      "aliases": [
+        "KHSI 17301"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "17301",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 6.18,
+        "breeder": null,
+        "prior_owner": "Tina Williams (196)",
+        "service_type": "Natural Service - Single Birth",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "1998-04-17",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-22375"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/17301.html",
+          "data/ebv/ebvs_scraped/17301.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 17,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.5,
+            "se": 0.2,
+            "acc": 77,
+            "rank": 80
+          },
+          "MBWT": {
+            "val": 0.124,
+            "se": null,
+            "acc": 86,
+            "rank": 35
+          },
+          "WWT": {
+            "val": 1.143,
+            "se": 1.49,
+            "acc": 75,
+            "rank": 20
+          },
+          "MWWT": {
+            "val": -0.479,
+            "se": null,
+            "acc": 80,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": 0.227,
+            "se": 2.02,
+            "acc": 75,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -0.43,
+            "se": 2.56,
+            "acc": 66,
+            "rank": "<5"
+          },
+          "HWT": {
+            "val": -0.594,
+            "se": null,
+            "acc": 60,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -1.152,
+            "se": 1.03,
+            "acc": 62,
+            "rank": 97
+          },
+          "PEMD": {
+            "val": -0.607,
+            "se": 0.95,
+            "acc": 49,
+            "rank": 10
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 41.45,
+            "se": null,
+            "acc": 52,
+            "rank": 5
+          },
+          "PFEC": {
+            "val": 36.56,
+            "se": null,
+            "acc": 48,
+            "rank": 10
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.19,
+            "se": null,
+            "acc": 47,
+            "rank": "-"
+          },
+          "NLB": {
+            "val": 0.032,
+            "se": null,
+            "acc": 65,
+            "rank": 15
+          },
+          "NLW": {
+            "val": -0.008,
+            "se": null,
+            "acc": 60,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 99.63,
+          "rank": "<5"
+        },
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 17301. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-23816",
+      "name": "KHSI 23816",
+      "aliases": [
+        "KHSI 23816"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "23816",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 3.91,
+        "breeder": null,
+        "prior_owner": "Ed Martsolf (45)",
+        "service_type": "Natural Service - Triplet",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2000-01-02",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-30014"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/23816.html",
+          "data/ebv/ebvs_scraped/23816.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 9,
+        "flocks_represented": 8,
+        "weight_traits": {
+          "BWT": {
+            "val": -0.183,
+            "se": 0.2,
+            "acc": 77,
+            "rank": 5
+          },
+          "MBWT": {
+            "val": 83.0,
+            "se": null,
+            "acc": null,
+            "rank": null
+          },
+          "WWT": {
+            "val": 0.651,
+            "se": 1.49,
+            "acc": 76,
+            "rank": 10
+          },
+          "MWWT": {
+            "val": -0.619,
+            "se": null,
+            "acc": 78,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": 1.201,
+            "se": 2.02,
+            "acc": 75,
+            "rank": 10
+          },
+          "YWT": {
+            "val": 0.591,
+            "se": 2.56,
+            "acc": 68,
+            "rank": 10
+          },
+          "HWT": {
+            "val": 0.56,
+            "se": null,
+            "acc": 63,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 67.23,
+            "se": null,
+            "acc": 55,
+            "rank": "<5"
+          },
+          "PEMD": {
+            "val": 105.66,
+            "se": null,
+            "acc": 50,
+            "rank": "<5"
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 0.032,
+            "se": null,
+            "acc": 53,
+            "rank": "-"
+          },
+          "PFEC": {
+            "val": 0.148,
+            "se": null,
+            "acc": 67,
+            "rank": 65
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 0.116,
+            "se": null,
+            "acc": 63,
+            "rank": 30
+          },
+          "NLB": {
+            "val": 101.75,
+            "se": null,
+            "acc": 20,
+            "rank": null
+          }
+        },
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 23816. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-25697",
+      "name": "KHSI 25697",
+      "aliases": [
+        "KHSI 25697"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "25697",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 6.34,
+        "breeder": null,
+        "prior_owner": "Steven & Melissa Bull (1579)",
+        "service_type": "Natural Service - Single Birth",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2001-03-20",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-41580",
+          "khsi-30590"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/25697.html",
+          "data/ebv/ebvs_scraped/25697.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 138,
+        "flocks_represented": 3,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.024,
+            "se": 0.17,
+            "acc": 89,
+            "rank": 15
+          },
+          "MBWT": {
+            "val": 0.169,
+            "se": null,
+            "acc": 94,
+            "rank": 45
+          },
+          "WWT": {
+            "val": -0.086,
+            "se": 1.25,
+            "acc": 88,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": 1.995,
+            "se": null,
+            "acc": 91,
+            "rank": 20
+          },
+          "PWWT": {
+            "val": -0.525,
+            "se": 1.7,
+            "acc": 88,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -0.379,
+            "se": 1.92,
+            "acc": 80,
+            "rank": "<5"
+          },
+          "HWT": {
+            "val": -0.333,
+            "se": null,
+            "acc": 73,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.381,
+            "se": 0.92,
+            "acc": 76,
+            "rank": 70
+          },
+          "PEMD": {
+            "val": 0.527,
+            "se": 0.83,
+            "acc": 61,
+            "rank": 85
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 4.55,
+            "se": null,
+            "acc": 59,
+            "rank": 20
+          },
+          "PFEC": {
+            "val": -20.8,
+            "se": null,
+            "acc": 47,
+            "rank": 45
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 0.067,
+            "se": null,
+            "acc": 59,
+            "rank": "-"
+          },
+          "NLB": {
+            "val": 0.041,
+            "se": null,
+            "acc": 77,
+            "rank": 15
+          },
+          "NLW": {
+            "val": 0.075,
+            "se": null,
+            "acc": 72,
+            "rank": 30
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 102.28,
+          "rank": 35
+        },
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 25697. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-27026",
+      "name": "KHSI 27026",
+      "aliases": [
+        "KHSI 27026"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "27026",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 1.84,
+        "breeder": null,
+        "prior_owner": "Nancy & Arthur Case (161)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2001-04-02",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-41580"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/27026.html",
+          "data/ebv/ebvs_scraped/27026.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 11,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.9,
+            "se": null,
+            "acc": 15,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 27026. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-27678",
+      "name": "KHSI 27678",
+      "aliases": [
+        "KHSI 27678"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "27678",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 4.44,
+        "breeder": null,
+        "prior_owner": "Attn: Bruce Shanks Lincoln University (2236)",
+        "service_type": "Natural Service - Single Birth",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2001-03-02",
+      "dob_approximate": false,
+      "sire_id": "khsi-22375",
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/27678.html",
+          "data/ebv/ebvs_scraped/27678.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 39,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.345,
+            "se": 0.2,
+            "acc": 79,
+            "rank": 60
+          },
+          "MBWT": {
+            "val": -0.261,
+            "se": null,
+            "acc": 87,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": 1.046,
+            "se": 1.49,
+            "acc": 74,
+            "rank": 15
+          },
+          "MWWT": {
+            "val": -0.722,
+            "se": null,
+            "acc": 77,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -0.03,
+            "se": 2.02,
+            "acc": 74,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -0.956,
+            "se": 2.56,
+            "acc": 63,
+            "rank": "<5"
+          },
+          "HWT": {
+            "val": -1.146,
+            "se": null,
+            "acc": 56,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.51,
+            "se": 1.03,
+            "acc": 60,
+            "rank": 80
+          },
+          "PEMD": {
+            "val": -0.744,
+            "se": 0.95,
+            "acc": 47,
+            "rank": 10
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 21.25,
+            "se": null,
+            "acc": 44,
+            "rank": 10
+          },
+          "PFEC": {
+            "val": 12.24,
+            "se": null,
+            "acc": 40,
+            "rank": 25
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 0.045,
+            "se": null,
+            "acc": 57,
+            "rank": 15
+          },
+          "NLB": {
+            "val": -0.061,
+            "se": null,
+            "acc": 52,
+            "rank": "<5"
+          },
+          "NLW": {
+            "val": 98.29,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 27678. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-28744",
+      "name": "KHSI 28744",
+      "aliases": [
+        "KHSI 28744"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "28744",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 3.47,
+        "breeder": null,
+        "prior_owner": "Laura & Doug Fortmeyer (174)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2001-04-19",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-45211",
+          "khsi-45212",
+          "khsi-53036"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/28744.html",
+          "data/ebv/ebvs_scraped/28744.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 38,
+        "flocks_represented": 2,
+        "weight_traits": {
+          "BWT": {
+            "val": -0.012,
+            "se": 0.17,
+            "acc": 81,
+            "rank": 10
+          },
+          "MBWT": {
+            "val": 0.237,
+            "se": null,
+            "acc": 81,
+            "rank": 60
+          },
+          "WWT": {
+            "val": -1.034,
+            "se": 1.49,
+            "acc": 79,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": -0.031,
+            "se": null,
+            "acc": 73,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -1.522,
+            "se": 2.02,
+            "acc": 77,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -1.13,
+            "se": 2.56,
+            "acc": 65,
+            "rank": "<5"
+          },
+          "HWT": {
+            "val": -0.772,
+            "se": null,
+            "acc": 59,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.465,
+            "se": 1.03,
+            "acc": 64,
+            "rank": 75
+          },
+          "PEMD": {
+            "val": -0.308,
+            "se": 0.95,
+            "acc": 48,
+            "rank": 30
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 10.99,
+            "se": null,
+            "acc": 47,
+            "rank": 15
+          },
+          "PFEC": {
+            "val": 8.05,
+            "se": null,
+            "acc": 41,
+            "rank": 25
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.433,
+            "se": null,
+            "acc": 45,
+            "rank": "-"
+          },
+          "NLB": {
+            "val": -0.032,
+            "se": null,
+            "acc": 61,
+            "rank": 5
+          },
+          "NLW": {
+            "val": -0.028,
+            "se": null,
+            "acc": 55,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 99.37,
+          "rank": "<5"
+        },
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 28744. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "loaded-wagon-30088",
+      "name": "LOADED WAGON",
+      "aliases": [
+        "KHSI 30088"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "30088",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 2.59,
+        "breeder": null,
+        "prior_owner": "Mark & Mickey Sue Dennis (43)",
+        "service_type": "Natural Service - Single Birth",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2002-01-15",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "sure-thing-34924",
+          "khsi-34933",
+          "khsi-38474"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/30088.html",
+          "data/ebv/ebvs_scraped/30088.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 156,
+        "flocks_represented": 2,
+        "weight_traits": {
+          "BWT": {
+            "val": -0.056,
+            "se": 0.12,
+            "acc": 91,
+            "rank": 10
+          },
+          "MBWT": {
+            "val": -0.318,
+            "se": null,
+            "acc": 90,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": 0.645,
+            "se": 1.25,
+            "acc": 89,
+            "rank": 10
+          },
+          "MWWT": {
+            "val": -0.331,
+            "se": null,
+            "acc": 85,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": 0.968,
+            "se": 1.7,
+            "acc": 89,
+            "rank": 5
+          },
+          "YWT": {
+            "val": 0.77,
+            "se": 2.28,
+            "acc": 79,
+            "rank": 10
+          },
+          "HWT": {
+            "val": 0.831,
+            "se": null,
+            "acc": 72,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 0.534,
+            "se": 0.92,
+            "acc": 75,
+            "rank": 25
+          },
+          "PEMD": {
+            "val": -0.069,
+            "se": 0.9,
+            "acc": 58,
+            "rank": 45
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 61.62,
+            "se": null,
+            "acc": 59,
+            "rank": "<5"
+          },
+          "PFEC": {
+            "val": 97.22,
+            "se": null,
+            "acc": 50,
+            "rank": "<5"
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.069,
+            "se": null,
+            "acc": 54,
+            "rank": "-"
+          },
+          "NLB": {
+            "val": 0.08,
+            "se": null,
+            "acc": 74,
+            "rank": 35
+          },
+          "NLW": {
+            "val": -0.013,
+            "se": null,
+            "acc": 68,
+            "rank": "<5"
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 99.31,
+          "rank": "<5"
+        },
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 30088. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-3041",
+      "name": "KHSI 3041",
+      "aliases": [
+        "KHSI 3041"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "3041",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": null,
+        "coi_pct": 6.25,
+        "breeder": null,
+        "prior_owner": "Heifer Project International (18)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "1989-10-22",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-18298"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/3041.html",
+          "data/ebv/ebvs_scraped/3041.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 11,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.26,
+            "se": null,
+            "acc": 5,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 3041. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-30590",
+      "name": "KHSI 30590",
+      "aliases": [
+        "KHSI 30590"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "30590",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 2.36,
+        "breeder": null,
+        "prior_owner": "Cathy Nebel (4434)",
+        "service_type": "Natural Service - Single Birth",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2002-02-03",
+      "dob_approximate": false,
+      "sire_id": "khsi-25697",
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-45151"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/30590.html",
+          "data/ebv/ebvs_scraped/30590.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": null,
+        "flocks_represented": null,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.036,
+            "se": 0.17,
+            "acc": 82,
+            "rank": 15
+          },
+          "MBWT": {
+            "val": 0.183,
+            "se": null,
+            "acc": 91,
+            "rank": 55
+          },
+          "WWT": {
+            "val": -1.254,
+            "se": 1.25,
+            "acc": 80,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": 1.054,
+            "se": null,
+            "acc": 87,
+            "rank": 10
+          },
+          "PWWT": {
+            "val": -2.642,
+            "se": 1.7,
+            "acc": 80,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -2.117,
+            "se": 2.28,
+            "acc": 71,
+            "rank": "<5"
+          },
+          "HWT": {
+            "val": -1.859,
+            "se": null,
+            "acc": 65,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.644,
+            "se": null,
+            "acc": 52,
+            "rank": "-"
+          },
+          "PEMD": {
+            "val": -0.056,
+            "se": null,
+            "acc": 72,
+            "rank": "<5"
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 0.06,
+            "se": null,
+            "acc": 67,
+            "rank": 35
+          },
+          "PFEC": {
+            "val": 101.85,
+            "se": null,
+            "acc": 25,
+            "rank": null
+          }
+        },
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 30590. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-31239",
+      "name": "KHSI 31239",
+      "aliases": [
+        "KHSI 31239"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "31239",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 4.51,
+        "breeder": null,
+        "prior_owner": "Mark & Mickey Sue Dennis (43)",
+        "service_type": "Natural Service - Single Birth",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2002-03-20",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-52794"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/31239.html",
+          "data/ebv/ebvs_scraped/31239.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 12,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.33,
+            "se": null,
+            "acc": 5,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 31239. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-34802",
+      "name": "KHSI 34802",
+      "aliases": [
+        "KHSI 34802"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "34802",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 1.85,
+        "breeder": null,
+        "prior_owner": "John Doe (2956)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2003-03-27",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-39733"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/34802.html",
+          "data/ebv/ebvs_scraped/34802.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": null,
+        "flocks_represented": null,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.009,
+            "se": 0.23,
+            "acc": 67,
+            "rank": 10
+          },
+          "MBWT": {
+            "val": -0.118,
+            "se": null,
+            "acc": 78,
+            "rank": 5
+          },
+          "WWT": {
+            "val": 0.227,
+            "se": 1.67,
+            "acc": 62,
+            "rank": 5
+          },
+          "MWWT": {
+            "val": -0.514,
+            "se": null,
+            "acc": 71,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": 0.484,
+            "se": 2.26,
+            "acc": 62,
+            "rank": 5
+          },
+          "YWT": {
+            "val": -0.024,
+            "se": 2.77,
+            "acc": 55,
+            "rank": 5
+          },
+          "HWT": {
+            "val": -0.285,
+            "se": null,
+            "acc": 51,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 133.82,
+            "se": null,
+            "acc": 55,
+            "rank": "<5"
+          },
+          "PEMD": {
+            "val": 97.11,
+            "se": null,
+            "acc": 55,
+            "rank": "<5"
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 0.255,
+            "se": null,
+            "acc": 58,
+            "rank": 96
+          },
+          "PFEC": {
+            "val": 0.205,
+            "se": null,
+            "acc": 53,
+            "rank": 90
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 103.24,
+            "se": null,
+            "acc": 65,
+            "rank": null
+          }
+        },
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 34802. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-35577",
+      "name": "KHSI 35577",
+      "aliases": [
+        "KHSI 35577"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "35577",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 16.64,
+        "breeder": null,
+        "prior_owner": "Carol Fulkerson & David Coplen (552)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2002-04-23",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-39733"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/35577.html",
+          "data/ebv/ebvs_scraped/35577.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 13,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": -0.168,
+            "se": 0.17,
+            "acc": 81,
+            "rank": 5
+          },
+          "MBWT": {
+            "val": -0.273,
+            "se": null,
+            "acc": 86,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": -0.515,
+            "se": 1.25,
+            "acc": 80,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": -0.063,
+            "se": null,
+            "acc": 81,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -0.485,
+            "se": 1.7,
+            "acc": 81,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -0.093,
+            "se": 2.28,
+            "acc": 73,
+            "rank": 5
+          },
+          "HWT": {
+            "val": 0.008,
+            "se": null,
+            "acc": 68,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 23.03,
+            "se": null,
+            "acc": 76,
+            "rank": 10
+          },
+          "PEMD": {
+            "val": -17.61,
+            "se": null,
+            "acc": 77,
+            "rank": 40
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -0.188,
+            "se": null,
+            "acc": 55,
+            "rank": "-"
+          },
+          "PFEC": {
+            "val": 0.075,
+            "se": null,
+            "acc": 71,
+            "rank": 30
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 0.096,
+            "se": null,
+            "acc": 67,
+            "rank": 30
+          },
+          "NLB": {
+            "val": 101.71,
+            "se": null,
+            "acc": 20,
+            "rank": null
+          }
+        },
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 35577. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-3632",
+      "name": "KHSI 3632",
+      "aliases": [
+        "KHSI 3632"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "3632",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 0.0,
+        "breeder": null,
+        "prior_owner": "Heifer Project International (18)",
+        "service_type": "Natural Service - Single Birth",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "1990-06-15",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-18298"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/3632.html",
+          "data/ebv/ebvs_scraped/3632.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 240,
+        "flocks_represented": 2,
+        "weight_traits": {
+          "BWT": {
+            "val": 98.08,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 3632. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-38474",
+      "name": "KHSI 38474",
+      "aliases": [
+        "KHSI 38474"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "38474",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 12.71,
+        "breeder": null,
+        "prior_owner": "John Cannon (2853)",
+        "service_type": "Natural Service - Triplet",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2004-04-02",
+      "dob_approximate": false,
+      "sire_id": "loaded-wagon-30088",
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-53036"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/38474.html",
+          "data/ebv/ebvs_scraped/38474.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 4,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 99.77,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 38474. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-38830",
+      "name": "KHSI 38830",
+      "aliases": [
+        "KHSI 38830"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "38830",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 2.9,
+        "breeder": null,
+        "prior_owner": "Steven & Melissa Bull (1579)",
+        "service_type": "Natural Service - Triplet",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2004-12-02",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-45151"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/38830.html",
+          "data/ebv/ebvs_scraped/38830.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 82,
+        "flocks_represented": 3,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.291,
+            "se": 0.12,
+            "acc": 92,
+            "rank": 50
+          },
+          "MBWT": {
+            "val": 0.411,
+            "se": null,
+            "acc": 96,
+            "rank": 80
+          },
+          "WWT": {
+            "val": 0.892,
+            "se": 0.91,
+            "acc": 91,
+            "rank": 15
+          },
+          "MWWT": {
+            "val": 2.538,
+            "se": null,
+            "acc": 94,
+            "rank": 30
+          },
+          "PWWT": {
+            "val": 0.888,
+            "se": 1.23,
+            "acc": 91,
+            "rank": 5
+          },
+          "YWT": {
+            "val": 0.767,
+            "se": 1.92,
+            "acc": 85,
+            "rank": 10
+          },
+          "HWT": {
+            "val": 0.673,
+            "se": null,
+            "acc": 81,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 52.87,
+            "se": null,
+            "acc": 72,
+            "rank": "<5"
+          },
+          "PEMD": {
+            "val": 80.15,
+            "se": null,
+            "acc": 64,
+            "rank": "<5"
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 0.29,
+            "se": null,
+            "acc": 70,
+            "rank": "-"
+          },
+          "PFEC": {
+            "val": 0.013,
+            "se": null,
+            "acc": 85,
+            "rank": 10
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 0.13,
+            "se": null,
+            "acc": 82,
+            "rank": 30
+          },
+          "NLB": {
+            "val": 103.97,
+            "se": null,
+            "acc": 75,
+            "rank": null
+          }
+        },
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 38830. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-41325",
+      "name": "KHSI 41325",
+      "aliases": [
+        "KHSI 41325"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "41325",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 7.89,
+        "breeder": null,
+        "prior_owner": "James W Orr (2321)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2004-06-03",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-44055"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/41325.html",
+          "data/ebv/ebvs_scraped/41325.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 6,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.078,
+            "se": 0.2,
+            "acc": 71,
+            "rank": 20
+          },
+          "MBWT": {
+            "val": -0.134,
+            "se": null,
+            "acc": 77,
+            "rank": 10
+          },
+          "WWT": {
+            "val": -0.064,
+            "se": 1.67,
+            "acc": 69,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": -0.702,
+            "se": null,
+            "acc": 69,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -0.617,
+            "se": 2.02,
+            "acc": 70,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -0.809,
+            "se": 2.56,
+            "acc": 60,
+            "rank": "<5"
+          },
+          "HWT": {
+            "val": -0.309,
+            "se": null,
+            "acc": 54,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -25.02,
+            "se": null,
+            "acc": 70,
+            "rank": 40
+          },
+          "PEMD": {
+            "val": -44.09,
+            "se": null,
+            "acc": 72,
+            "rank": 55
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 0.025,
+            "se": null,
+            "acc": 56,
+            "rank": 15
+          },
+          "PFEC": {
+            "val": 0.079,
+            "se": null,
+            "acc": 51,
+            "rank": 30
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 101.35,
+            "se": null,
+            "acc": 15,
+            "rank": null
+          }
+        },
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 41325. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-42165",
+      "name": "KHSI 42165",
+      "aliases": [
+        "KHSI 42165"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "42165",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 2.63,
+        "breeder": null,
+        "prior_owner": "Teresa Griffin-Webb (1124)",
+        "service_type": "Natural Service - Triplet",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2003-08-01",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/42165.html",
+          "data/ebv/ebvs_scraped/42165.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 5,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 101.11,
+            "se": null,
+            "acc": 20,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 42165. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-42789",
+      "name": "KHSI 42789",
+      "aliases": [
+        "KHSI 42789"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "42789",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 2.54,
+        "breeder": null,
+        "prior_owner": "Mark & Mickey Sue Dennis (43)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2005-01-31",
+      "dob_approximate": false,
+      "sire_id": "top-shelf-33299",
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/42789.html",
+          "data/ebv/ebvs_scraped/42789.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": null,
+        "flocks_represented": null,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.98,
+            "se": null,
+            "acc": 10,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 42789. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-42802",
+      "name": "KHSI 42802",
+      "aliases": [
+        "KHSI 42802"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "42802",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 7.44,
+        "breeder": null,
+        "prior_owner": "Brent Harrington (2535)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2005-10-02",
+      "dob_approximate": false,
+      "sire_id": "sure-thing-34924",
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/42802.html",
+          "data/ebv/ebvs_scraped/42802.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 1,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.12,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 42802. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "southern-gentlemen-42808",
+      "name": "SOUTHERN GENTLEMEN",
+      "aliases": [
+        "KHSI 42808"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "42808",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 3.98,
+        "breeder": null,
+        "prior_owner": "David McMann (4038)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2005-10-02",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-52794"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/42808.html",
+          "data/ebv/ebvs_scraped/42808.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 41,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 101.04,
+            "se": null,
+            "acc": 10,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 42808. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-43121",
+      "name": "KHSI 43121",
+      "aliases": [
+        "KHSI 43121"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "43121",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 5.02,
+        "breeder": null,
+        "prior_owner": "Zane & Corrina Tally (1715)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2005-02-25",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/43121.html",
+          "data/ebv/ebvs_scraped/43121.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": null,
+        "flocks_represented": null,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.73,
+            "se": null,
+            "acc": 5,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 43121. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-43123",
+      "name": "KHSI 43123",
+      "aliases": [
+        "KHSI 43123"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "43123",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 3.29,
+        "breeder": null,
+        "prior_owner": "Dwight & Eric Dalton",
+        "service_type": "Natural Service - Triplet",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2005-02-25",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "cornerstone-50492"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/43123.html",
+          "data/ebv/ebvs_scraped/43123.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 41,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 102.03,
+            "se": null,
+            "acc": 30,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 43123. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-43299",
+      "name": "KHSI 43299",
+      "aliases": [
+        "KHSI 43299"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "43299",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 2.99,
+        "breeder": null,
+        "prior_owner": "Dwight & Eric Dalton",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2005-03-18",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/43299.html",
+          "data/ebv/ebvs_scraped/43299.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": null,
+        "flocks_represented": null,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.044,
+            "se": 0.28,
+            "acc": 33,
+            "rank": 15
+          },
+          "MBWT": {
+            "val": 0.043,
+            "se": null,
+            "acc": 26,
+            "rank": 20
+          },
+          "WWT": {
+            "val": 0.018,
+            "se": null,
+            "acc": 24,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": 100.28,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 43299. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-44270",
+      "name": "KHSI 44270",
+      "aliases": [
+        "KHSI 44270"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "44270",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 5.02,
+        "breeder": null,
+        "prior_owner": "Lynn & Donna Fahrmeier (1022)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2004-12-02",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-50741"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/44270.html",
+          "data/ebv/ebvs_scraped/44270.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 9,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": -0.011,
+            "se": 0.2,
+            "acc": 76,
+            "rank": 15
+          },
+          "MBWT": {
+            "val": 0.249,
+            "se": null,
+            "acc": 81,
+            "rank": 65
+          },
+          "WWT": {
+            "val": -0.375,
+            "se": 1.49,
+            "acc": 74,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": 1.186,
+            "se": null,
+            "acc": 75,
+            "rank": 20
+          },
+          "PWWT": {
+            "val": -0.31,
+            "se": 2.02,
+            "acc": 75,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -0.261,
+            "se": 2.56,
+            "acc": 67,
+            "rank": 5
+          },
+          "HWT": {
+            "val": -0.9,
+            "se": null,
+            "acc": 62,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.087,
+            "se": 1.03,
+            "acc": 63,
+            "rank": 60
+          },
+          "PEMD": {
+            "val": -0.307,
+            "se": 0.9,
+            "acc": 54,
+            "rank": 25
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -16.8,
+            "se": null,
+            "acc": 60,
+            "rank": 45
+          },
+          "PFEC": {
+            "val": -30.03,
+            "se": null,
+            "acc": 64,
+            "rank": 55
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": -0.254,
+            "se": null,
+            "acc": 50,
+            "rank": "-"
+          },
+          "NLB": {
+            "val": 0.022,
+            "se": null,
+            "acc": 65,
+            "rank": 25
+          },
+          "NLW": {
+            "val": 0.005,
+            "se": null,
+            "acc": 61,
+            "rank": 5
+          }
+        },
+        "us_hair_composite_index": {
+          "val": 100.45,
+          "rank": 10
+        },
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 44270. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-45790",
+      "name": "KHSI 45790",
+      "aliases": [
+        "KHSI 45790"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "45790",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 14.9,
+        "breeder": null,
+        "prior_owner": "Attn: Bruce Shanks Lincoln University (2236)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2002-02-02",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/45790.html",
+          "data/ebv/ebvs_scraped/45790.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 4,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.84,
+            "se": null,
+            "acc": 15,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 45790. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-45810",
+      "name": "KHSI 45810",
+      "aliases": [
+        "KHSI 45810"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "45810",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 4.4,
+        "breeder": null,
+        "prior_owner": "Attn: Bruce Shanks Lincoln University (2236)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2005-02-28",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/45810.html",
+          "data/ebv/ebvs_scraped/45810.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 6,
+        "flocks_represented": 2,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.76,
+            "se": null,
+            "acc": 15,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 45810. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-47677",
+      "name": "KHSI 47677",
+      "aliases": [
+        "KHSI 47677"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "47677",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 3.12,
+        "breeder": null,
+        "prior_owner": "Catherine Boyd (3290)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2006-02-17",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/47677.html",
+          "data/ebv/ebvs_scraped/47677.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": null,
+        "flocks_represented": null,
+        "weight_traits": {
+          "BWT": {
+            "val": 102.08,
+            "se": null,
+            "acc": 30,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 47677. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "cornerstone-50492",
+      "name": "CORNERSTONE",
+      "aliases": [
+        "KHSI 50492"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "50492",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 6.33,
+        "breeder": null,
+        "prior_owner": "Sara-Jo Gahm & John Connolly (1464)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2006-03-24",
+      "dob_approximate": false,
+      "sire_id": "khsi-43123",
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/50492.html",
+          "data/ebv/ebvs_scraped/50492.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": null,
+        "flocks_represented": null,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.136,
+            "se": 0.2,
+            "acc": 70,
+            "rank": 30
+          },
+          "MBWT": {
+            "val": -0.188,
+            "se": null,
+            "acc": 69,
+            "rank": "<5"
+          },
+          "WWT": {
+            "val": 1.884,
+            "se": 1.67,
+            "acc": 68,
+            "rank": 55
+          },
+          "MWWT": {
+            "val": 0.594,
+            "se": null,
+            "acc": 65,
+            "rank": 5
+          },
+          "PWWT": {
+            "val": 2.842,
+            "se": 2.26,
+            "acc": 67,
+            "rank": 45
+          },
+          "YWT": {
+            "val": 2.143,
+            "se": 2.77,
+            "acc": 57,
+            "rank": 35
+          },
+          "HWT": {
+            "val": 1.784,
+            "se": null,
+            "acc": 51,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -11.14,
+            "se": null,
+            "acc": 35,
+            "rank": 25
+          },
+          "PEMD": {
+            "val": 0.003,
+            "se": null,
+            "acc": 52,
+            "rank": 5
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 0.057,
+            "se": null,
+            "acc": 47,
+            "rank": 35
+          },
+          "PFEC": {
+            "val": 101.73,
+            "se": null,
+            "acc": 20,
+            "rank": null
+          }
+        },
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 50492. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-5111",
+      "name": "KHSI 5111",
+      "aliases": [
+        "KHSI 5111"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "5111",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": null,
+        "coi_pct": 0.0,
+        "breeder": null,
+        "prior_owner": "Laura & Doug Fortmeyer (174)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "1992-03-29",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-18296"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/5111.html",
+          "data/ebv/ebvs_scraped/5111.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 13,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 102.54,
+            "se": null,
+            "acc": 50,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 5111. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-53953",
+      "name": "KHSI 53953",
+      "aliases": [
+        "KHSI 53953"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "53953",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 3.85,
+        "breeder": null,
+        "prior_owner": "John Doe (4523)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2007-03-19",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/53953.html",
+          "data/ebv/ebvs_scraped/53953.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 2,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 100.6,
+            "se": null,
+            "acc": 10,
+            "rank": null
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 53953. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-57451",
+      "name": "KHSI 57451",
+      "aliases": [
+        "KHSI 57451"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "57451",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 4.02,
+        "breeder": null,
+        "prior_owner": "Steven & Melissa Bull (1579)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2007-03-14",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-85023"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/57451.html",
+          "data/ebv/ebvs_scraped/57451.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 13,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.081,
+            "se": 0.2,
+            "acc": 77,
+            "rank": 30
+          },
+          "MBWT": {
+            "val": 0.454,
+            "se": null,
+            "acc": 87,
+            "rank": 85
+          },
+          "WWT": {
+            "val": 0.512,
+            "se": 1.49,
+            "acc": 75,
+            "rank": 15
+          },
+          "MWWT": {
+            "val": 1.694,
+            "se": null,
+            "acc": 81,
+            "rank": 25
+          },
+          "PWWT": {
+            "val": -0.143,
+            "se": 2.02,
+            "acc": 76,
+            "rank": 5
+          },
+          "YWT": {
+            "val": 0.181,
+            "se": 2.56,
+            "acc": 65,
+            "rank": 10
+          },
+          "HWT": {
+            "val": 0.239,
+            "se": null,
+            "acc": 57,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": -0.114,
+            "se": null,
+            "acc": 60,
+            "rank": "<5"
+          },
+          "PEMD": {
+            "val": -0.015,
+            "se": null,
+            "acc": 53,
+            "rank": 5
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": 100.92,
+            "se": null,
+            "acc": 15,
+            "rank": null
+          }
+        },
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 57451. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-5908",
+      "name": "KHSI 5908",
+      "aliases": [
+        "KHSI 5908"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ewe",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "5908",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 3.22,
+        "breeder": null,
+        "prior_owner": "Diane Daniels (121)",
+        "service_type": "Natural Service - Twin",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "1993-03-01",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-22375"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/5908.html",
+          "data/ebv/ebvs_scraped/5908.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 4,
+        "flocks_represented": 1,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.011,
+            "se": 0.24,
+            "acc": 58,
+            "rank": 15
+          },
+          "MBWT": {
+            "val": -0.217,
+            "se": null,
+            "acc": 72,
+            "rank": 10
+          },
+          "WWT": {
+            "val": -0.174,
+            "se": 1.81,
+            "acc": 55,
+            "rank": "<5"
+          },
+          "MWWT": {
+            "val": -0.456,
+            "se": null,
+            "acc": 62,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": -1.189,
+            "se": 2.45,
+            "acc": 54,
+            "rank": "<5"
+          },
+          "YWT": {
+            "val": -1.357,
+            "se": 2.93,
+            "acc": 46,
+            "rank": "<5"
+          },
+          "HWT": {
+            "val": 10.91,
+            "se": null,
+            "acc": 37,
+            "rank": 25
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 0.19,
+            "se": null,
+            "acc": 37,
+            "rank": 35
+          },
+          "PEMD": {
+            "val": -0.023,
+            "se": null,
+            "acc": 44,
+            "rank": 15
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -0.057,
+            "se": null,
+            "acc": 41,
+            "rank": "<5"
+          },
+          "PFEC": {
+            "val": 98.63,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 5908. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-60194",
+      "name": "KHSI 60194",
+      "aliases": [
+        "KHSI 60194"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "60194",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": "Purebred Katahdin",
+        "coi_pct": 6.77,
+        "breeder": null,
+        "prior_owner": "Tom & Maria Dosch (2801)",
+        "service_type": "Natural Service - Triplet",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "2008-03-23",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-85023"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/60194.html",
+          "data/ebv/ebvs_scraped/60194.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 227,
+        "flocks_represented": 3,
+        "weight_traits": {
+          "BWT": {
+            "val": 0.479,
+            "se": 0.09,
+            "acc": 95,
+            "rank": 75
+          },
+          "MBWT": {
+            "val": 0.074,
+            "se": null,
+            "acc": 96,
+            "rank": 30
+          },
+          "WWT": {
+            "val": 1.18,
+            "se": 0.91,
+            "acc": 94,
+            "rank": 20
+          },
+          "MWWT": {
+            "val": 0.062,
+            "se": null,
+            "acc": 95,
+            "rank": "<5"
+          },
+          "PWWT": {
+            "val": 2.683,
+            "se": 0.88,
+            "acc": 95,
+            "rank": 30
+          },
+          "YWT": {
+            "val": 3.4,
+            "se": 1.39,
+            "acc": 90,
+            "rank": 55
+          },
+          "HWT": {
+            "val": 2.984,
+            "se": null,
+            "acc": 86,
+            "rank": "-"
+          }
+        },
+        "carcass_traits": {
+          "PFAT": {
+            "val": 33.26,
+            "se": null,
+            "acc": 79,
+            "rank": 5
+          },
+          "PEMD": {
+            "val": 51.78,
+            "se": null,
+            "acc": 74,
+            "rank": 5
+          }
+        },
+        "parasite_resistance": {
+          "WFEC": {
+            "val": -0.122,
+            "se": null,
+            "acc": 75,
+            "rank": "-"
+          },
+          "PFEC": {
+            "val": 0.027,
+            "se": null,
+            "acc": 88,
+            "rank": 15
+          }
+        },
+        "reproduction": {
+          "PSC": {
+            "val": 0.078,
+            "se": null,
+            "acc": 85,
+            "rank": 30
+          },
+          "NLB": {
+            "val": 101.79,
+            "se": null,
+            "acc": 25,
+            "rank": null
+          }
+        },
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 60194. Off-farm.",
+      "confidence": "high",
+      "last_verified": "2026-06-11"
+    },
+    {
+      "id": "khsi-625",
+      "name": "KHSI 625",
+      "aliases": [
+        "KHSI 625"
+      ],
+      "tag": null,
+      "mc_tag": null,
+      "sex": "ram",
+      "on_farm": false,
+      "registration": {
+        "registry": "Katahdin Hair Sheep International (KHSI)",
+        "reg_number": "625",
+        "flock_name_number": "",
+        "nsip_id": null,
+        "status": null,
+        "coi_pct": 0.0,
+        "breeder": null,
+        "prior_owner": "Piel Farm (16)",
+        "service_type": "Natural Service - Single Birth",
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "breed_composition": {
+        "primary": "Katahdin",
+        "percentages": {
+          "Katahdin": 100
+        },
+        "coat_type": "hair",
+        "hair_percentage": 100,
+        "wool_percentage": 0,
+        "intermediate_percentage": 0,
+        "coat_prediction": "hair",
+        "notes": "Auto-assigned Katahdin from KHSI registration."
+      },
+      "color_markings": "",
+      "weight_lbs": null,
+      "dob": "1986-03-25",
+      "dob_approximate": false,
+      "sire_id": null,
+      "dam_id": null,
+      "status": "alive",
+      "status_date": null,
+      "status_notes": "OFF-FARM. Ancestor in flock pedigree tree. Auto-recorded for EBV path-coefficient propagation.",
+      "pen": null,
+      "measurements": {},
+      "health": {
+        "famacha_scores": [],
+        "famacha_history": [],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [],
+        "notes": []
+      },
+      "breeding": {
+        "is_breeding_animal": true,
+        "breeding_group": "",
+        "offspring_ids": [
+          "khsi-18296"
+        ],
+        "lambing_records": []
+      },
+      "source_refs": {
+        "csv_row": null,
+        "notebook_image": [
+          "data/ebv/khsi_cache/625.html",
+          "data/ebv/ebvs_scraped/625.json"
+        ]
+      },
+      "nsip_ebvs": {
+        "snapshot_date": "2025-09-22",
+        "progeny_evaluated": 34,
+        "flocks_represented": 2,
+        "weight_traits": {
+          "BWT": {
+            "val": 98.74,
+            "se": null,
+            "acc": null,
+            "rank": "<5"
+          }
+        },
+        "carcass_traits": {},
+        "parasite_resistance": {},
+        "reproduction": {},
+        "us_hair_composite_index": null,
+        "source": "Auto-scraped digitalovine.com 2026-06-11"
+      },
+      "notes": "Auto-recorded 2026-06-11. KHSI reg 625. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11"
     }

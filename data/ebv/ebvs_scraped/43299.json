@@ -1,0 +1,67 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": null,
+      "flocks_represented": null,
+      "raw_traits": {
+        "BWT": {
+          "val": 0.044,
+          "se": 0.28,
+          "acc": 33,
+          "rank": 15
+        },
+        "MBWT": {
+          "val": 0.043,
+          "se": null,
+          "acc": 26,
+          "rank": 20
+        },
+        "WWT": {
+          "val": 0.018,
+          "se": null,
+          "acc": 24,
+          "rank": "<5"
+        },
+        "MWWT": {
+          "val": 100.28,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 0.044,
+          "se": 0.28,
+          "acc": 33,
+          "rank": 15
+        },
+        "MBWT": {
+          "val": 0.043,
+          "se": null,
+          "acc": 26,
+          "rank": 20
+        },
+        "WWT": {
+          "val": 0.018,
+          "se": null,
+          "acc": 24,
+          "rank": "<5"
+        },
+        "MWWT": {
+          "val": 100.28,
+          "se": null,
+          "acc": null,
+          "rank": "<5"
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "43299",
+  "scraped_at": 1781232760
+}

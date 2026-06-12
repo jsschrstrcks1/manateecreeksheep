@@ -1,0 +1,5 @@
+{
+  "reg": "92817",
+  "error": "tab-click: Page.click: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator(\"text=EBVs\")\n",
+  "scraped_at": 1781232936
+}

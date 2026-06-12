@@ -1,0 +1,55 @@
+{
+  "blocks": [
+    {
+      "role": "subject",
+      "progeny_evaluated": 13,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 102.54,
+          "se": null,
+          "acc": 50,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 102.54,
+          "se": null,
+          "acc": 50,
+          "rank": null
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    },
+    {
+      "role": "sire",
+      "progeny_evaluated": 65,
+      "flocks_represented": 1,
+      "raw_traits": {
+        "BWT": {
+          "val": 102.07,
+          "se": null,
+          "acc": 30,
+          "rank": null
+        }
+      },
+      "weight_traits": {
+        "BWT": {
+          "val": 102.07,
+          "se": null,
+          "acc": 30,
+          "rank": null
+        }
+      },
+      "carcass_traits": {},
+      "parasite_resistance": {},
+      "reproduction": {}
+    }
+  ],
+  "snapshot_date": "2025-09-22",
+  "reg": "5111",
+  "scraped_at": 1781232782
+}
