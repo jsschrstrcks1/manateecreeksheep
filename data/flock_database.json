@@ -27140,6 +27140,280 @@
       },
       "unassigned": [],
       "weighting": "0.35 parasite + 0.20 coat + 0.15 inbreeding + 0.20 meat + 0.10 milk"
+    },
+    {
+      "id": "ebv-weighted-allocation-2026-06-11",
+      "computed_on": "2026-06-11",
+      "method": "Round-robin draft, primary criterion = offspring PR EBV (mid-parent). Target band 6 ewes/ram. Min ewe age 9 mo at Oct 2026 mating.",
+      "operator_holds": [
+        "lara-2026-lamb"
+      ],
+      "ram_draft_order": [
+        "centralia-lamb-2026",
+        "rocky",
+        "orange-tag-00110",
+        "merrie",
+        "charlie-ram",
+        "buck",
+        "angus"
+      ],
+      "ram_bands": {
+        "charlie-ram": [
+          {
+            "ewe": "tag-31-orange-tf",
+            "offspring_pr": 0.1908,
+            "ewe_pr": 0.2812,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "charlies-farm-ewe-p3",
+            "offspring_pr": 0.10205,
+            "ewe_pr": 0.1037,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "tag-0033-hair-ewe",
+            "offspring_pr": 0.05695,
+            "ewe_pr": 0.0135,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "tag-02-ewe-p5",
+            "offspring_pr": 0.0502,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "daisy-of-sugar",
+            "offspring_pr": 0.0502,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.35
+          },
+          {
+            "ewe": "serendipity",
+            "offspring_pr": -0.1703,
+            "ewe_pr": -0.441,
+            "pair_acc": 0.8
+          }
+        ],
+        "angus": [
+          {
+            "ewe": "bambii-baby",
+            "offspring_pr": 0.1217,
+            "ewe_pr": 0.2434,
+            "pair_acc": 0.45
+          },
+          {
+            "ewe": "nori",
+            "offspring_pr": 0.03095,
+            "ewe_pr": 0.0619,
+            "pair_acc": 0.35
+          },
+          {
+            "ewe": "azure",
+            "offspring_pr": 0.00325,
+            "ewe_pr": 0.0065,
+            "pair_acc": 0.35
+          },
+          {
+            "ewe": "windlestone-2139",
+            "offspring_pr": 0.0,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.35
+          },
+          {
+            "ewe": "charlies-ewe",
+            "offspring_pr": -0.0066,
+            "ewe_pr": -0.0132,
+            "pair_acc": 0.35
+          }
+        ],
+        "rocky": [
+          {
+            "ewe": "baby-azure",
+            "offspring_pr": 6.40005,
+            "ewe_pr": 12.6757,
+            "pair_acc": 0.8
+          },
+          {
+            "ewe": "fm2-0051",
+            "offspring_pr": 0.14315,
+            "ewe_pr": 0.1619,
+            "pair_acc": 0.8
+          },
+          {
+            "ewe": "samson-daughter-p4",
+            "offspring_pr": 0.0881,
+            "ewe_pr": 0.0518,
+            "pair_acc": 0.6499999999999999
+          },
+          {
+            "ewe": "tag-0053-ewe",
+            "offspring_pr": 0.06445,
+            "ewe_pr": 0.0045,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "windlestone-0055",
+            "offspring_pr": 0.0622,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "tag-0035-white-ewe",
+            "offspring_pr": 0.05175,
+            "ewe_pr": -0.0209,
+            "pair_acc": 0.7
+          }
+        ],
+        "merrie": [
+          {
+            "ewe": "serendipity-twin-ewe",
+            "offspring_pr": 6.16005,
+            "ewe_pr": 12.2112,
+            "pair_acc": 0.8
+          },
+          {
+            "ewe": "fm",
+            "offspring_pr": 0.1063,
+            "ewe_pr": 0.1037,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "bambii",
+            "offspring_pr": 0.0649,
+            "ewe_pr": 0.0209,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "tag-31-ewe-p5",
+            "offspring_pr": 0.05445,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "cocoa",
+            "offspring_pr": 0.05445,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.35
+          },
+          {
+            "ewe": "gg",
+            "offspring_pr": -0.08945,
+            "ewe_pr": -0.2878,
+            "pair_acc": 0.7
+          }
+        ],
+        "buck": [
+          {
+            "ewe": "charlies-farm-ewe-baby-p3",
+            "offspring_pr": 0.18165,
+            "ewe_pr": 0.3014,
+            "pair_acc": 0.8
+          },
+          {
+            "ewe": "elsie",
+            "offspring_pr": 0.0622,
+            "ewe_pr": 0.0625,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "cocoas-daughter-by-loki",
+            "offspring_pr": 0.03745,
+            "ewe_pr": 0.013,
+            "pair_acc": 0.6499999999999999
+          },
+          {
+            "ewe": "fawn-wool-ewe-p5",
+            "offspring_pr": 0.03095,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "broken-tail-twin-ewe",
+            "offspring_pr": 0.027899999999999998,
+            "ewe_pr": -0.0061,
+            "pair_acc": 0.8
+          }
+        ],
+        "orange-tag-00110": [
+          {
+            "ewe": "gigi-2026-baby",
+            "offspring_pr": 6.3761,
+            "ewe_pr": 12.6348,
+            "pair_acc": 0.8
+          },
+          {
+            "ewe": "broken-tail",
+            "offspring_pr": 0.11055000000000001,
+            "ewe_pr": 0.1037,
+            "pair_acc": 0.7
+          },
+          {
+            "ewe": "little-daisy",
+            "offspring_pr": 0.07165,
+            "ewe_pr": 0.0259,
+            "pair_acc": 0.6499999999999999
+          },
+          {
+            "ewe": "tag-24-0003-tf",
+            "offspring_pr": 0.0587,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.35
+          },
+          {
+            "ewe": "tag-00113-ewe-p1",
+            "offspring_pr": 0.0587,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.35
+          },
+          {
+            "ewe": "lara",
+            "offspring_pr": 0.015400000000000004,
+            "ewe_pr": -0.0866,
+            "pair_acc": 0.7
+          }
+        ],
+        "centralia-lamb-2026": [
+          {
+            "ewe": "oav-2222",
+            "offspring_pr": 11.344349999999999,
+            "ewe_pr": 19.65,
+            "pair_acc": 0.7749999999999999
+          },
+          {
+            "ewe": "sm-white-ewe-p4",
+            "offspring_pr": 1.61145,
+            "ewe_pr": 0.1842,
+            "pair_acc": 0.75
+          },
+          {
+            "ewe": "elsie-triplet-lg-white-ewe",
+            "offspring_pr": 1.5482,
+            "ewe_pr": 0.0577,
+            "pair_acc": 0.75
+          },
+          {
+            "ewe": "tag-0044-wool-ewe",
+            "offspring_pr": 1.5226,
+            "ewe_pr": 0.0065,
+            "pair_acc": 0.6499999999999999
+          },
+          {
+            "ewe": "windlestone-0056",
+            "offspring_pr": 1.51935,
+            "ewe_pr": 0.0,
+            "pair_acc": 0.6499999999999999
+          },
+          {
+            "ewe": "tag-114-fawn-wool",
+            "offspring_pr": 1.5105,
+            "ewe_pr": -0.0177,
+            "pair_acc": 0.6499999999999999
+          }
+        ]
+      },
+      "unassigned": []
     }
   ]
 }
