@@ -76,8 +76,15 @@ def main():
             entry["WWT"] = wwt
             entry["WWT_source"] = "NSIP WWT"
         if nlb is not None:
-            entry["NLW"] = nlb
-            entry["NLW_source"] = "NSIP NLB (proxy for NLW)"
+            # SANITIZE: real NLB EBVs are roughly ±0.5. Values >2 in
+            # magnitude are column-parse leakage (US Hair index drifted
+            # into the NLB slot during scraping). Reject them.
+            if abs(nlb) <= 2.0:
+                entry["NLW"] = nlb
+                entry["NLW_source"] = "NSIP NLB (proxy for NLW)"
+            else:
+                entry["NLW_rejected"] = nlb
+                entry["NLW_reject_reason"] = "Implausible NLB (|val|>2) — column-parse leakage, not used"
         # US Hair index for context
         us = (nsip.get("us_hair_composite_index") or {}).get("val") if isinstance(nsip.get("us_hair_composite_index"), dict) else None
         if us is not None:

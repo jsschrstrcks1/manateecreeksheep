@@ -76,6 +76,54 @@ def main():
         result = compute_trait_ebvs(code, phen, ped, sheep_by_id, nsip_ebvs=anchors)
         per_trait_results[code] = result
 
+    # --- SCALE TAGGING + STANDARDIZATION -------------------------------
+    # EBVs arrive on incompatible rulers:
+    #   - NSIP-anchored PR is WFEC egg-count scale (±10-34)
+    #   - flock blup-light PR is FAMACHA-inverted scale (±0.3-13)
+    #   - NSIP weight is true lb-EBV (±4); flock weight is raw-bodyweight
+    #     deviation (±60)
+    # Mixing them on one ranking is invalid. We standardize each EBV to a
+    # z-score WITHIN its own (trait, scale-pool), so "+2" means "2 SD above
+    # the mean of your measurement type". default-zero (no data) animals are
+    # given z=None and excluded from ranked tables (no-data != average).
+    from statistics import mean as _mean, pstdev as _pstdev
+
+    def scale_of(code, method):
+        if method == "default-zero":
+            return None  # no data
+        if method == "nsip-anchored":
+            return f"{code}:nsip"
+        # blup-light / mid-parent off flock phenotypes (or mixed). Group them
+        # as the flock-internal pool for this trait.
+        return f"{code}:flock"
+
+    # Collect values per (trait, scale-pool), excluding no-data
+    pools = {}  # pool_key -> list of values
+    for code in TRAIT_EXTRACTORS:
+        for sid in ped:
+            method = per_trait_results[code]["methods"][sid]
+            pool = scale_of(code, method)
+            if pool is None:
+                continue
+            v = per_trait_results[code]["ebvs"][sid]
+            pools.setdefault(pool, []).append(v)
+    pool_stats = {}
+    for pool, vals in pools.items():
+        m = _mean(vals) if vals else 0.0
+        sd = _pstdev(vals) if len(vals) > 1 else 0.0
+        pool_stats[pool] = (m, sd)
+
+    def zscore(code, sid):
+        method = per_trait_results[code]["methods"][sid]
+        pool = scale_of(code, method)
+        if pool is None:
+            return None
+        m, sd = pool_stats[pool]
+        v = per_trait_results[code]["ebvs"][sid]
+        if sd == 0:
+            return 0.0
+        return round((v - m) / sd, 3)
+
     # Combine into per-animal EBV table
     all_ids = sorted(ped.keys())
     per_animal = {}
@@ -92,6 +140,9 @@ def main():
                     "value": per_trait_results[code]["ebvs"][sid],
                     "method": per_trait_results[code]["methods"][sid],
                     "accuracy": per_trait_results[code]["accuracy"][sid],
+                    "scale": scale_of(code, per_trait_results[code]["methods"][sid]),
+                    "z": zscore(code, sid),
+                    "has_data": per_trait_results[code]["methods"][sid] != "default-zero",
                 }
                 for code in TRAIT_EXTRACTORS
             },
@@ -118,19 +169,32 @@ def main():
     if nsip_anchors:
         rank_lines.append(f"NSIP anchors loaded for: {', '.join(nsip_anchors.keys())}\n\n")
     rank_lines.append("Method legend: nsip-anchored (acc 0.95) > blup-light (acc 0.85) > mid-parent (acc 0.55-0.75) > default-zero (no data).\n\n")
+    rank_lines.append("**Ranked by z-score** (SD above the mean of the animal's own measurement pool), "
+                      "so NSIP-scale and flock-scale EBVs are comparable. The `scale` column shows which "
+                      "ruler each came from. No-data animals (default-zero) are EXCLUDED — absence of data "
+                      "is not average performance.\n\n")
     for code in TRAIT_EXTRACTORS:
         r = per_trait_results[code]
         rank_lines.append(f"## {code} — {r['trait_name']} (h²={r['h2']:.2f})\n\n")
         rank_lines.append(f"Phenotypes recorded: {r['n_with_phenotype']} animals. Flock mean: {r['flock_mean_phenotype']:.3f} {r['units']}\n\n")
-        rank_lines.append("| Rank | Animal | EBV | Method | Acc | Sex | Pen |\n")
-        rank_lines.append("|------|--------|-----|--------|-----|-----|-----|\n")
-        # Filter to alive animals for the ranking
-        rows = [(sid, val) for sid, val in r["ebvs"].items() if sheep_by_id.get(sid, {}).get("status") == "alive"]
-        rows.sort(key=lambda kv: -kv[1])
-        for i, (sid, val) in enumerate(rows[:20], 1):
+        rank_lines.append("| Rank | Animal | EBV | z | scale | Method | Acc | Sex | Pen |\n")
+        rank_lines.append("|------|--------|-----|---|-------|--------|-----|-----|-----|\n")
+        # Alive animals WITH data, ranked by z-score
+        rows = []
+        for sid in r["ebvs"]:
+            if sheep_by_id.get(sid, {}).get("status") != "alive":
+                continue
+            if r["methods"][sid] == "default-zero":
+                continue  # no data — exclude
+            z = per_animal[sid]["ebvs"][code]["z"]
+            rows.append((sid, r["ebvs"][sid], z))
+        rows.sort(key=lambda t: -(t[2] if t[2] is not None else -999))
+        for i, (sid, val, z) in enumerate(rows[:20], 1):
             rec = sheep_by_id.get(sid, {})
+            sc = per_animal[sid]["ebvs"][code]["scale"] or "—"
+            zs = f"{z:+.2f}" if z is not None else "—"
             rank_lines.append(
-                f"| {i} | `{sid}` | {val:+.3f} | {r['methods'][sid]} | {r['accuracy'][sid]:.2f} | {rec.get('sex')} | {rec.get('pen')} |\n"
+                f"| {i} | `{sid}` | {val:+.3f} | {zs} | {sc} | {r['methods'][sid]} | {r['accuracy'][sid]:.2f} | {rec.get('sex')} | {rec.get('pen')} |\n"
             )
         rank_lines.append("\n")
 
