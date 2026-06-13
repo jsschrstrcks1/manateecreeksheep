@@ -9990,7 +9990,7 @@
         "coat_type": "unknown"
       },
       "color_markings": "Black with white spot on head",
-      "pen": "Pen 2",
+      "pen": "Pen 1",
       "status": "alive",
       "sire_id": "rocky",
       "dam_id": "tag-114-fawn-wool",
@@ -13956,7 +13956,7 @@
       "dam_id": "half-tail",
       "twin_of": "merrie",
       "status": "alive",
-      "pen": "Pen 3",
+      "pen": null,
       "confidence": "medium",
       "notes_history": [
         {
@@ -13974,9 +13974,7 @@
       ],
       "owner": "Danny",
       "on_property": true,
-      "confidence_notes": [
-        "Pen 3 placement INFERRED (lives with cocoas-daughter-by-loki); confirm with owner."
-      ]
+      "location_status": "unconfirmed"
     },
     {
       "id": "daisy-of-sugar",
@@ -14111,7 +14109,7 @@
       "dob": "2026-04-30",
       "dob_confidence": "medium",
       "status": "alive",
-      "pen": "Pen 2",
+      "pen": "Pen 5",
       "description": "White with rust. No distinguishing mark. Hair coat (per owner observation).",
       "coat_observed": "hair (per owner observation 2026-05-02)",
       "confidence": "medium",
@@ -14146,7 +14144,7 @@
       "dob": "2026-04-30",
       "dob_confidence": "medium",
       "status": "alive",
-      "pen": "Pen 2",
+      "pen": "Pen 5",
       "description": "White with rust. SMALL BLACK DOT (distinguishing mark from her twin sister). Hair coat.",
       "coat_observed": "hair (per owner observation 2026-05-02)",
       "confidence": "medium",
@@ -25665,7 +25663,8 @@
       "display_name": "Pen 1",
       "ram": "orange-tag-00110",
       "rams": [
-        "orange-tag-00110"
+        "orange-tag-00110",
+        "tag-114-black-ram-lamb"
       ],
       "ewes": [
         "azure",
@@ -25684,6 +25683,7 @@
         "orange-tag-00110",
         "tag-0044-wool-ewe",
         "tag-114-fawn-wool",
+        "tag-114-black-ram-lamb",
         "tag-0053-ewe",
         "tag-00113-ewe-p1"
       ],
@@ -25728,7 +25728,6 @@
       "ram": "charlies-ram-lamb",
       "rams": [
         "charlies-ram-lamb",
-        "tag-114-black-ram-lamb",
         "nori-baby-p3"
       ],
       "ewes": [
@@ -25743,14 +25742,11 @@
         "cocoas-daughter-by-loki"
       ],
       "lambs": [
-        "tag-0035-baby-ewe",
-        "oav-2222-lamb-1",
-        "oav-2222-lamb-2"
+        "tag-0035-baby-ewe"
       ],
       "members": [
         "charlies-ram-lamb",
         "baby-azure",
-        "tag-114-black-ram-lamb",
         "charlies-farm-ewe-baby-p3",
         "broken-tail-twin-ewe",
         "nori-baby-p3",
@@ -25760,9 +25756,7 @@
         "tag-0035-baby-ewe",
         "bambii-baby",
         "tag-0053-baby-ewe",
-        "cocoas-daughter-by-loki",
-        "oav-2222-lamb-1",
-        "oav-2222-lamb-2"
+        "cocoas-daughter-by-loki"
       ],
       "notes": "Pen 2 as of 2026-04-24 \u2014 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed \u2014 her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here \u2014 already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references '0053 (tag 0053, white hair ewe)' \u2014 's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed \u2014 Merrie has the breeding role. | 2026-05-21: Lara's 2026 lamb born today (DOB 2026-05-21), Lara x Kelsier, piebald ewe lamb. Stays in pen with dam. | 2026-06-09: Pen 2 = kept-lambs grow-out pen. All prior wean-batch lambs from Goose Pen moved here. New Centralia ram lamb (centralia-lamb-2026) added direct from purchase (no quarantine per owner).",
       "treatments": [
@@ -25798,16 +25792,14 @@
       "ewes": [
         "nori",
         "broken-tail",
-        "charlies-farm-ewe-p3",
-        "cocoa"
+        "charlies-farm-ewe-p3"
       ],
       "lambs": [],
       "members": [
         "nori",
         "merrie",
         "broken-tail",
-        "charlies-farm-ewe-p3",
-        "cocoa"
+        "charlies-farm-ewe-p3"
       ],
       "notes": "RECONSTRUCTED 2026-05-21: this roster was silently dropped from the pens dict in an earlier merge. Rebuilt from sheep.pen field assignments. Other rams (if any) in 'additional_rams'.",
       "additional_rams": []
@@ -25852,14 +25844,19 @@
         "tag-02-ewe-p5",
         "fawn-wool-ewe-p5"
       ],
-      "lambs": [],
+      "lambs": [
+        "oav-2222-lamb-1",
+        "oav-2222-lamb-2"
+      ],
       "members": [
         "elsie",
         "oav-2222",
         "tag-31-ewe-p5",
         "tag-02-ewe-p5",
         "fawn-wool-ewe-p5",
-        "angus"
+        "angus",
+        "oav-2222-lamb-1",
+        "oav-2222-lamb-2"
       ],
       "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week \u2014 watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet going to auction Sunday 2026-04-26 (alive, not in a pen roster currently). Angus presence noted \u2014 ram/roster role in Pen 5 needs owner clarification (not updated here). UPDATE 2026-04-26 (owner verbal photo session): NoriSon (= Eclipse, merged record) sold at auction. Angus (Windlestone, ~4 mo, arrived 2026-04-22) is now the breeding ram. Tag 00113 ewe (Cracker/Suffolk/GCN/Katahdin, full sister of orange-tag-00110) \u2014 was previously in Pen 5 unrostered, had a singleton lamb 2026-04-22 by NoriSon that died 2026-04-25 (FTT); 00113 herself moved to Pen 1 on 2026-04-25. Small Elsie triplet (elsie-triplet-sm-white-ewe) sold at auction 2026-04-26. tag-0033-twin-ram-2 (black ram, dam tag-0033-hair-ewe) also sold at auction 2026-04-26 (he was in Pen 1). NoriSon's track record per owner: 'consistently hit or miss, in with 5 ewes for two years or so \u2014 only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor.'",
       "treatments": [
