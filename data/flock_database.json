@@ -2004,7 +2004,7 @@
       "last_verified": "2026-05-13",
       "weight_estimated": true,
       "owner": "Danny",
-      "on_property": true,
+      "on_property": false,
       "notes_history": [
         {
           "date": "2026-04-22",
@@ -2014,7 +2014,8 @@
           "date": "2026-05-13",
           "note": "MERGE: Owner confirmed the second 'dodge' record (which said 'Sold off farm. Buyers named him Dodge. Sire of Little Daisy. Also sire of Loki') was the same animal as this one. Removed the duplicate; folded its notes here. offspring_ids expanded to include sm-white-ewe-p4 and loki."
         }
-      ]
+      ],
+      "location_status": "off-property (Danny's farm)"
     },
     {
       "id": "big-free-male",
@@ -13973,8 +13974,8 @@
         }
       ],
       "owner": "Danny",
-      "on_property": true,
-      "location_status": "unconfirmed"
+      "on_property": false,
+      "location_status": "off-property (Danny's farm)"
     },
     {
       "id": "daisy-of-sugar",
