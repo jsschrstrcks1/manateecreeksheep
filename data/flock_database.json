@@ -14531,7 +14531,6 @@
       "tag": "[UNKNOWN \u2014 has a tag but number not yet recorded]",
       "mc_tag": null,
       "sex": "ram_lamb",
-      "on_farm": true,
       "breed_composition": {
         "primary": "Katahdin",
         "percentages": {
@@ -14551,9 +14550,9 @@
       "sire_id": "centralia-ram-214168",
       "dam_id": "centralia-dam-181084x",
       "status": "alive",
-      "status_date": "2026-06-09",
+      "status_date": "2026-06-14",
       "status_notes": "Purchased 2026-06-09. Added to Pen 2 (kept-lambs grow-out pen) with the rest of the kept lambs. No quarantine.",
-      "pen": null,
+      "pen": "Pen 2",
       "acquisition": {
         "date": "2026-06-09",
         "type": "purchase, no quarantine \u2014 direct integration",
@@ -14592,16 +14591,19 @@
         "csv_row": null,
         "notebook_image": [
           "photo_white_lamb_rear.jpg",
-          "photo_adult_ram_or_lamb_1.jpg (grazing)"
+          "photo_adult_ram_or_lamb_1.jpg (grazing)",
+          "IMG_2355.jpeg (transport crate arrival)"
         ]
       },
       "notes": "Purchased 2026-06-09 from Zack Clark. 100% Katahdin (both parents registered Purebred Katahdin, KHSI eligible). Sire centralia-ram-214168 (BZE 0001), Dam centralia-dam-181084x (SRM 46). Sex: ram lamb. Weaned 2026-05-15 \u2014 DOB estimated early-March 2026 based on ~10-wk weaning age. Has an ear tag but number not yet read. No quarantine \u2014 direct integration. BREEDING SIGNIFICANCE: pure Katahdin RAM LAMB from registered parents \u2014 direct future-sire successor to Kelsier (deceased) for the parasite-resistance breeding line. Breeding-age (>=9 mo) reachable ~Dec 2026 \u2014 could enter first mating cycle late 2026 / early 2027. PENDING: tag number read, pen assignment, weight at first handling, KHSI registration filing.",
       "confidence": "high",
-      "last_verified": "2026-06-09",
+      "last_verified": "2026-06-14",
       "visual_id": {
-        "coat": "White / cream hair coat, slick, no fleece \u2014 characteristic Katahdin",
-        "size": "Ram lamb, ~3 months old at purchase (weaned May 15). Solid stance, healthy frame.",
-        "tell": "First registered-Katahdin animal in the flock since Kelsier.",
+        "coat": "White / cream coat, PARTIALLY shed lamb fleece visible 2026-06-14 \u2014 transitional, will slick out (normal Katahdin trajectory at ~3 mo)",
+        "horns": "None (correct for Katahdin)",
+        "face": "Clean white face, hair-sheep ear set",
+        "size": "Ram lamb, slim/lanky adolescent frame; weaned 2026-05-15, ~3.5 mo at arrival",
+        "tell": "First registered-Katahdin animal in the flock since Kelsier (deceased)",
         "sex": "ram lamb (confirmed)"
       },
       "weaning_date": "2026-05-15",
@@ -14610,9 +14612,14 @@
         {
           "date": "2026-06-09",
           "note": "Placed in Pen 2 on arrival. Joins kept-lambs grow-out cohort. No quarantine per owner."
+        },
+        {
+          "date": "2026-06-14",
+          "note": "Physical arrival at Manatee Creek. Photographed in transport crate (IMG_2355). Joins Pen 2 lamb cohort. Coat still partly transitional (lamb fleece shedding to slick hair, expected at ~3 mo). No horns. Clean white face. Hair-sheep ear set. Tag still pending read."
         }
       ],
-      "on_property": false
+      "on_property": true,
+      "physical_arrival_date": "2026-06-14"
     },
     {
       "id": "centralia-grandsire-195241",
@@ -25729,7 +25736,8 @@
       "ram": "charlies-ram-lamb",
       "rams": [
         "charlies-ram-lamb",
-        "nori-baby-p3"
+        "nori-baby-p3",
+        "centralia-lamb-2026"
       ],
       "ewes": [
         "baby-azure",
@@ -25757,7 +25765,8 @@
         "tag-0035-baby-ewe",
         "bambii-baby",
         "tag-0053-baby-ewe",
-        "cocoas-daughter-by-loki"
+        "cocoas-daughter-by-loki",
+        "centralia-lamb-2026"
       ],
       "notes": "Pen 2 as of 2026-04-24 \u2014 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed \u2014 her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here \u2014 already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references '0053 (tag 0053, white hair ewe)' \u2014 's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed \u2014 Merrie has the breeding role. | 2026-05-21: Lara's 2026 lamb born today (DOB 2026-05-21), Lara x Kelsier, piebald ewe lamb. Stays in pen with dam. | 2026-06-09: Pen 2 = kept-lambs grow-out pen. All prior wean-batch lambs from Goose Pen moved here. New Centralia ram lamb (centralia-lamb-2026) added direct from purchase (no quarantine per owner).",
       "treatments": [
