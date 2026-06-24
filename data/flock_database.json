@@ -9314,11 +9314,15 @@
         {
           "date": "2026-06-24",
           "note": "Owner reported death (chat: photo of green tag MC-2610). Marked deceased; pen cleared from Pen 2. Death window 2026-06-09 to 2026-06-24. Note for breeding-program review: Kelsier x Azure cross with Kelsier as gold-standard parasite resistance still produced a lamb that crashed at ~3 months — Azure-side weak-resistance dominant in this case. Important data point for future Azure-line mating decisions."
+        },
+        {
+          "date": "2026-06-24",
+          "note": "CAUSE CORRECTION (owner 2026-06-24): \"Pretty sure she died from heat. Famacha was ok.\" CORRECTED my prior speculation that this was parasite-related mortality — the April FAMACHA-5 crash was a separate, fully-recovered event. Death is a heat-stress event during Florida summer, not a parasite-resistance failure. Updates the breeding-program signal: Azure-line is NOT shown to transmit weak parasite resistance through this case; heat tolerance is the trait that failed."
         }
       ],
       "on_property": true,
       "status_date": "2026-06-24",
-      "status_notes": "Owner-reported death 2026-06-24 (photo of green tag MC-2610 sent in chat). Actual death date unknown — last verified alive 2026-06-09 in Pen 2. Death occurred between 2026-06-09 and 2026-06-24. Likely cause: parasite-related (FAMACHA-5 emergency 2026-04-01 — severe anemia despite \"bright and alert\"; treated aggressively with Ivermectin+Fenbendazole+Iron+B12+Nutridrench but apparently never fully recovered resistance). Dam Azure is on weak-resistance watch list; this is consistent inheritance. Sire Kelsier (gold-standard resistance) did NOT rescue this lamb."
+      "status_notes": "Owner-reported death 2026-06-24 (photo of green tag MC-2610 sent in chat). Actual death date unknown — last verified alive 2026-06-09 in Pen 2. Death occurred between 2026-06-09 and 2026-06-24. CAUSE: HEAT (owner-confirmed 2026-06-24). FAMACHA was OK at death — she had recovered fully from the April FAMACHA-5 crisis. NOT parasite-related mortality."
     },
     {
       "id": "tag-0033-hair-ewe",
