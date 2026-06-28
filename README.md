@@ -92,7 +92,7 @@ manateecreeksheep/
 ├── Sheep_Breeding_DB_CURRENT_COPY.xlsx # Breeding database with mating plans
 ├── IMG_8560–8615.JPG                  # Notebook page photos (handwritten)
 ├── IMG_8616–8643.PNG                  # Phone-app notes (treatments, pens, weights)
-└── LICENSE                            # GNU AGPL v3
+└── LICENSE                            # Proprietary — All Rights Reserved
 ```
 
 ---
@@ -258,8 +258,8 @@ pip3 install -q -r /home/user/ken/orchestrator/requirements.txt
 
 - The flock database contains tag numbers, dates, and pedigrees but no
   customer or personal information.
-- Image files include the operator's notebook handwriting; treat as
-  semi-private.
+- Image files include the operator's notebook handwriting; the repository
+  is private — treat all contents as confidential.
 - Never push speculative breeding results as fact. Use the `confidence`
   field in records when uncertainty exists.
 - Never run scripts that mutate `flock_database.json` without first
@@ -269,7 +269,9 @@ pip3 install -q -r /home/user/ken/orchestrator/requirements.txt
 
 ## License
 
-GNU Affero General Public License v3.0 — see `LICENSE`.
+This is a **private** repository. **All rights reserved — no rights granted.** See [`LICENSE`](LICENSE).
+
+(Relicensed from GNU AGPL v3.0 to the household's proprietary all-rights-reserved notice when the repository was made private, 2026-06-28.)
 
 ---
 
