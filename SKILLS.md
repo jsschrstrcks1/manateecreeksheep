@@ -265,6 +265,6 @@ When sources disagree, the higher tier wins:
 ## See also
 
 - [`CLAUDE.md`](CLAUDE.md) — agent context (includes pen rosters and aliases)
-- [`README.md`](README.md) — public-facing overview
+- [`README.md`](README.md) — repository overview
 - [`careful.md`](careful.md) — integrity guardrail (human-readable mirror of the skill)
 - `ken` — hosts the orchestrator
