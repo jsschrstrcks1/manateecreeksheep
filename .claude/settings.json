@@ -19,6 +19,15 @@
             "prompt": "CAREFUL NOT CLEVER VERIFICATION\n\nFile modified: $TOOL_INPUT\n\nBefore proceeding, verify:\n1. Are ALL sheep relationships (sire/dam/offspring) verified against source images?\n2. Are ALL tag numbers confirmed against the spiral notebook (primary source)?\n3. Are ALL breed composition percentages consistent with parent percentages?\n4. Were any assumptions made without source verification?\n\nIf ANY unverified data was added, respond {\"decision\": \"block\", \"reason\": \"Unverified content: [specify what needs checking]\"}\n\nIf all content was verified OR the edit contains no sheep data, respond {\"decision\": \"approve\"}"
           }
         ]
+      },
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/user/ken/.claude/hooks/observe-tool-use.sh"
+          }
+        ]
       }
     ],
     "PreToolUse": [
@@ -51,5 +60,9 @@
         ]
       }
     ]
+  },
+  "env": {
+    "MEMORY_OBSERVATIONS_ENABLED": "true",
+    "MEMORY_AUTO_OBSERVE_ENABLED": "true"
   }
 }
