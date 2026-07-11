@@ -92,3 +92,12 @@ The 2026-05-14 handoff already flagged a REPO_MAP entry needing `manateecreekshe
 | `.household-library/catalog.jsonl` | ❌ | Lives under `/Users/kenbaker/ocs-work` — not reachable |
 
 Everything durable this session did was committed to git — the DB changes and this handoff. Nothing hidden.
+
+## Mac replay (grok1, 2026-07-11)
+
+| Artifact | On household SSOT? |
+|----------|-------------------|
+| 8 `.memory/sheep/` encodes | **Yes** — Mac replay (`bf713662`, `3145bddf`, `e7480835`, `cf778887`, `3eb1220b`, `b1d06b9d`, `52883364`, `ed49ea6f`) |
+| 5 HLS tasks | **Yes** — catalog rows + GitHub issues #70–#74 |
+| This handoff on `main` | **Yes** — cherry-picked from PR #69 |
+| `.githooks/` guardrail | **Yes** — cherry-picked `1d59ad9` onto `main` |

@@ -4,7 +4,7 @@
 > Find/checkout: `node admin/library.mjs preflight --query "<task>" --patron <id> --merge`
 > **This document** is context/spec only unless stated otherwise.
 
-**Generated:** 2026-07-11T22:04:01.862Z
+**Generated:** 2026-07-11T22:27:48.253Z
 **SSOT:** `.household-library/catalog.jsonl`
 
 Open tasks for this repo (`state` ≠ `complete`). Regenerate:
@@ -33,11 +33,16 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 3 | available | — | p3-2-two-sold-sheep-still-tagged-with-a-pen | P3.2 Two sold sheep still tagged with a pen |
 | 3 | available | — | pen-assignment-hygiene | Pen-assignment hygiene |
 | 4 | available | — | data-source-freshness | Data-source freshness |
+| 4 | registered | — | mc-00113-shearing-and-famacha | Shear 00113 + take formal FAMACHA baseline; log parasite-resistance data |
+| 4 | registered | — | mc-baby-azure-heat-signal-review | Fold Baby Azure heat-death into Azure × Kelsier breeding notes; heat tolerance is a lambing selection criterion |
 | 4 | registered | — | mc-buck-breed-comp-verify-2026-05-14 | Verify Buck breeding-page composition source against flock_database.json and REPO-AGENT-APPENDIX (disputed comp — session 2026-05-14) |
 | 4 | registered | — | mc-buck-original-death-date-2026-05-14 | Resolve Buck original ram identity merge and death-date uncertainty (session 2026-05-14) |
+| 4 | registered | — | mc-kaladin-current-pen-2026-04-26 | Locate Kaladin's current pen (alive; pen null after bulk-cleanup correction) |
 | 4 | available | — | p4-1-low-confidence-records-that-never-received-owner-verificati | P4.1 Low-confidence records that never received owner verification |
 | 4 | available | — | p4-2-twelve-unclear-markers-still-in-db | P4.2 Twelve `[UNCLEAR]` markers still in DB |
 | 4 | available | — | p4-3-lambing-record-sire-holes | P4.3 Lambing-record sire holes |
+| 5 | registered | — | mc-00113-foster-dam-plan-for-rebreed | If 00113 is re-bred, arrange a foster dam in advance; parasite-resistance donor but proven bad mother |
+| 5 | registered | — | mc-angus-tag-and-famacha-baseline | Tag Angus + take FAMACHA baseline at next handling |
 | 5 | registered | — | mc-bambii-2027-breeding-partner | Bambii (Tree Fort, orange #35) 2027 breeding partner planning |
 | 5 | available | — | open-follow-up-orange-tag-31-ewe-location-2026-05-14 | Open follow-up — Orange Tag 31 Ewe location (2026-05-14) |
 | 5 | available | — | p5-1-no-handoff-md | P5.1 No HANDOFF.md |
