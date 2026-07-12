@@ -1,0 +1,18 @@
+{
+  "id": "19fdb7dd",
+  "created": "2026-07-12T00:01:15Z",
+  "updated": null,
+  "version": 1,
+  "domain": "sheep",
+  "type": "fact",
+  "content": "In manateecreeksheep data/flock_database.json, status_date values of \"2026-04-02\" AND \"2026-04-06\" are bulk-cleanup placeholders from a prior DB sweep — they are NOT real death dates.\n\n(Extends prior memory 3eb1220b which named 2026-04-02 specifically; this adds 2026-04-06 and additional cases.)\n\nConfirmed cases as of 2026-04-26:\n- `sam`: status_date was 2026-04-02; real death = Hurricane Helene 2024-09-26 (operator: \"sam died in helene.\")\n- `broken-tail-twin-ewe-2` (MC-2601): status_date was 2026-04-06 (status=\"alive\"); real death = 2026-04-22 parasites (owner-reported)\n- Per docs/sheep_visual_id_process.md: `lara` and `half-tail` also bulk-marked deceased 2026-04-02 — lara is actually alive; half-tail died in Helene\n\nRule: when investigating a record with either of these dates, ALWAYS ask the operator for the real date and cause.",
+  "source": "manateecreeksheep container session 2026-07-11 (mining + merge)",
+  "confidence": 0.95,
+  "tags": ["operator-directive","sheep-records","db-hygiene","stale-data","manateecreeksheep","extends:3eb1220b"],
+  "related_to": [],
+  "supersedes": null,
+  "protected": true,
+  "archived": false,
+  "admission_state": "human-endorsed",
+  "verification_state": "verified"
+}

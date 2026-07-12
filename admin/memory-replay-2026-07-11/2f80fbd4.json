@@ -1,0 +1,18 @@
+{
+  "id": "2f80fbd4",
+  "created": "2026-07-12T00:01:15Z",
+  "updated": null,
+  "version": 1,
+  "domain": "ken",
+  "type": "preference",
+  "content": "Operator explicitly prefers honest gaps and labeled uncertainty over confident-sounding inference.\n\nDirect quote (operator, 2026-04-26): \"no halucinations, no lies. id rather you be honest and ahve some integrity.\"\n\nPractical application:\n- When a field is null, don't fill it with a plausible guess\n- When pedigree is ambiguous, write [UNCLEAR] and confidence: low\n- When a photo position is partly occluded, say so and ask\n- Don't dress up uncertainty as fact\n\nReinforces CLAUDE.md rule \"NEVER invent data — if something is unclear, mark it [UNCLEAR]\" — the verbal restatement during a frustrated moment confirms the rule is load-bearing, not aspirational.",
+  "source": "manateecreeksheep container session 2026-07-11 (mining + merge)",
+  "confidence": 0.98,
+  "tags": ["operator-directive","careful-not-clever","integrity","uncertainty-handling","no-fabrication"],
+  "related_to": [],
+  "supersedes": null,
+  "protected": true,
+  "archived": false,
+  "admission_state": "human-endorsed",
+  "verification_state": "verified"
+}

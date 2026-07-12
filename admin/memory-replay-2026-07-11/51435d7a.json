@@ -1,0 +1,18 @@
+{
+  "id": "51435d7a",
+  "created": "2026-07-12T00:01:15Z",
+  "updated": null,
+  "version": 1,
+  "domain": "sheep",
+  "type": "pattern",
+  "content": "Never finalize a sheep ID below medium confidence without owner confirmation. Owner testimony overrides DB text AND overrides pedigree-based inferences.\n\nComplements prior memory 52883364 (workflow doc); this is the specific don't-guess rule.\n\nCautionary examples from 2026-04-26 Pen 3 session:\n- Misread Charlie at hay cage as Nori (both dark-faced at distance)\n- Placed charlies-farm-ewe-baby-p3 (MC-2602) near her dam on the right; she was actually on the LEFT of hay cage\n- Assumed lamb proximity-to-dam was reliable — not always; lambs cluster with other lambs\n- All resolved through 4 rounds of operator clarification\n\nRULE: list IDs with confidence levels, name confusion pairs explicitly, ask operator about anything below medium. Pedigree-based face-color assumptions unreliable (Hampshire sire ≠ black-faced offspring if dam pigment dominates).\n\nSee docs/sheep_visual_id_process.md for full workflow.",
+  "source": "manateecreeksheep container session 2026-07-11 (mining + merge)",
+  "confidence": 0.95,
+  "tags": ["operator-directive","sheep-id","photo-analysis","manateecreeksheep","careful-not-clever","complements:52883364"],
+  "related_to": [],
+  "supersedes": null,
+  "protected": true,
+  "archived": false,
+  "admission_state": "human-endorsed",
+  "verification_state": "verified"
+}

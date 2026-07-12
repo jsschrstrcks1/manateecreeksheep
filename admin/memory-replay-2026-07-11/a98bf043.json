@@ -1,0 +1,18 @@
+{
+  "id": "a98bf043",
+  "created": "2026-07-12T00:01:15Z",
+  "updated": null,
+  "version": 1,
+  "domain": "ken",
+  "type": "pattern",
+  "content": "When operator orders a DB correction, they want stale errors REMOVED across the whole record set, not just patched in the current state.\n\nDirect quote (2026-04-26): \"GG is in pen 4. fix all references to her being in 3, reflect the all along truth that she has been in 4 since day 1 on our farm.\"\n\nOperational shape:\n1. Find every reference (DB sheep record, pen roster, doc text, notes prose)\n2. Update each so the record reads as if the error never existed — \"all along truth\"\n3. Do NOT preserve the error as history — it was a data-entry mistake, not a real past state\n4. Different from genuine state changes (\"moved from Pen 1 to Pen 3\") — those ARE history and must be kept\n5. Commit message and docs should call out the correction (\"CORRECTED from prior assumption\") so future readers know\n\nRelated same-session cases: removing Sam from Pen 3 (he died in Hurricane Helene, not the 2026-04-02 bulk-cleanup date); fixing broken-tail-twin-ewe-2's bulk-cleanup status_date to the real death date 2026-04-22.\n\nResolved in manateecreeksheep commits 94035dd + 57170cf, merged via PR-23.",
+  "source": "manateecreeksheep container session 2026-07-11 (mining + merge)",
+  "confidence": 0.95,
+  "tags": ["operator-directive","db-hygiene","stale-data","data-corrections"],
+  "related_to": [],
+  "supersedes": null,
+  "protected": true,
+  "archived": false,
+  "admission_state": "human-endorsed",
+  "verification_state": "verified"
+}

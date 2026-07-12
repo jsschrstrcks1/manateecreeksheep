@@ -1,0 +1,18 @@
+{
+  "id": "0aa8e001",
+  "created": "2026-07-12T00:01:15Z",
+  "updated": null,
+  "version": 1,
+  "domain": "ken",
+  "type": "decision",
+  "content": "A \"run an analysis\" / \"audit\" task produces DOCUMENTATION only — the DB itself is NOT modified in the same commit. Each per-issue fix gets its own commit with owner approval.\n\nEstablished by manateecreeksheep commit 08e7b6e (docs/pen_3_analysis_2026-04-26.md): 449-line per-animal review found ~20 distinct data issues; commit message explicitly stated \"DB unchanged this commit. Any per-issue fix belongs in a separate commit with owner approval.\"\n\nRationale (consistent with careful-not-clever):\n- Analysis output is a deliverable for the owner to read, not a batch of writes\n- Bundling fixes with analysis hides the fixes from owner review\n- Some \"issues\" need owner judgment to resolve (e.g., tag-0029 conflict — owner deferred to index-card review)\n- Pre-existing errors should be left as-is unless explicitly authorized\n\nApplies broadly to any review/audit task shape, not just sheep flock.",
+  "source": "manateecreeksheep container session 2026-07-11 (mining + merge)",
+  "confidence": 0.95,
+  "tags": ["operator-directive","review-pattern","db-hygiene","separation-of-concerns","audit-workflow"],
+  "related_to": [],
+  "supersedes": null,
+  "protected": true,
+  "archived": false,
+  "admission_state": "human-endorsed",
+  "verification_state": "verified"
+}

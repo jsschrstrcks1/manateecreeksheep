@@ -1,0 +1,18 @@
+{
+  "id": "be778bb0",
+  "created": "2026-07-12T00:01:15Z",
+  "updated": null,
+  "version": 1,
+  "domain": "sheep",
+  "type": "fact",
+  "content": "Hurricane Helene struck the Manatee Creek farm on 2024-09-26 and killed multiple flock animals. When a DB record has a suspect bulk-cleanup status_date (see bulk-cleanup-status-dates memory) and the operator says \"X died in helene,\" the real status_date is 2024-09-26.\n\nDirect quote (operator, 2026-04-26): \"sam died in helene.\"\n\nConfirmed Helene casualties as of 2026-04-26:\n- `sam` (100% Gulf Coast Native ram, former Pen 3 ram)\n- `half-tail` (per docs/sheep_visual_id_process.md)\n\nEarlier hurricane: Hurricane Idalia (~2023) also produced flock deaths — per Nori's record her son Eclipse died in Idalia. NOTE: HLS task `memory-eclipse-idalia-scrub` disputes this — says Eclipse was actually sold at auction 2026-04-26, not a hurricane casualty. Cross-check when using.\n\nWhen investigating a stale-deceased record, \"did this animal die in Helene or Idalia?\" is a high-yield disambiguation question.",
+  "source": "manateecreeksheep container session 2026-07-11 (mining + merge)",
+  "confidence": 0.95,
+  "tags": ["operator-directive","flock-history","manateecreeksheep","hurricanes","helene-2024"],
+  "related_to": [],
+  "supersedes": null,
+  "protected": true,
+  "archived": false,
+  "admission_state": "human-endorsed",
+  "verification_state": "verified"
+}

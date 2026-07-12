@@ -1,0 +1,18 @@
+{
+  "id": "4d2d4402",
+  "created": "2026-07-12T00:01:15Z",
+  "updated": null,
+  "version": 1,
+  "domain": "ken",
+  "type": "pattern",
+  "content": "When operator responds to a multi-question turn, distinguish \"correction to my prior assertion\" from \"new info about a different subject.\" Don't unify silently.\n\nCautionary tale (2026-04-26 Pen 3 photo ID):\n- Claude asked Q5: \"E (animal at hay cage) = charlie-ram?\"\n- Operator wrote: \"3. Nori and a lamb, the lambs head is sticking up above her butt\"\n- Claude read that as a CORRECTION (\"no, that's Nori, not Charlie\")\n- Operator was giving NEW INFO about a different position — Charlie WAS at the hay cage\n- Operator's next message: \"charlie ram is the one you said was in the hay cage genius. thats not nori. ugh.\"\n\nRULE: when operator's answer doesn't textually pair with a specific question, ask: \"is this correcting my Q5, or is this new info about something else?\" Cheap to ask, expensive to be wrong.",
+  "source": "manateecreeksheep container session 2026-07-11 (mining + merge)",
+  "confidence": 0.95,
+  "tags": ["operator-directive","conversation-handling","ambiguity-resolution","clarify-before-unify"],
+  "related_to": [],
+  "supersedes": null,
+  "protected": true,
+  "archived": false,
+  "admission_state": "human-endorsed",
+  "verification_state": "verified"
+}

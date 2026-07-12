@@ -1,0 +1,18 @@
+{
+  "id": "4c7ee265",
+  "created": "2026-07-12T00:01:15Z",
+  "updated": null,
+  "version": 1,
+  "domain": "ken",
+  "type": "preference",
+  "content": "When the operator asks for a comprehensive review (\"every check on every sheep\", \"run an analysis on every X\", \"document the results\"), they want MANUAL per-item judgment, not script-generated check-list output.\n\nDirect quote (operator, 2026-04-26): \"YOU do the work, ANIMAL BY ANIMAL. Careful, not clever. Clever is scripts. careful is you.\"\n\nANTI-PATTERN (caught in this session): writing a Python script that emits uniform per-record bullet points (PASS/FAIL/INFO). Even when every bullet is factually correct, the output reads as machine-generated and the operator rejects it on sight (\"thats not what i asked for\", \"nah nah nah\").\n\nCORRECT PATTERN: read each record in full, then write each finding by hand as prose. Label what you actually saw vs. what's inferred. Each subject gets its own section with judgment calls a reader can argue with.\n\nScripts are fine for data extraction, dumps, and validation. They are NOT fine as the deliverable for review work.\n\nResolved in manateecreeksheep@08e7b6e (manual docs/pen_3_analysis_2026-04-26.md, 449 lines by hand).",
+  "source": "manateecreeksheep container session 2026-07-11 (mining + merge)",
+  "confidence": 0.98,
+  "tags": ["operator-directive","careful-not-clever","review-pattern","anti-script","manual-judgment"],
+  "related_to": [],
+  "supersedes": null,
+  "protected": true,
+  "archived": false,
+  "admission_state": "human-endorsed",
+  "verification_state": "verified"
+}
