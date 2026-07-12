@@ -137,3 +137,23 @@ Complements `52883364`. Cautionary: misread Charlie as Nori; misplaced MC-2602; 
 ## Branch state
 
 Branch `claude/identify-sheep-update-docs-0Iyob` was reused across sessions. Origin matches main tip. Prior April commits preserved in main via PR-23.
+
+---
+
+## Mac replay (skynet2, 2026-07-12)
+
+**Status: EXECUTED**
+
+| export id | disposition |
+|-----------|-------------|
+| `4c7ee265` | landed `.memory/ken/4c7ee265.json` |
+| `2f80fbd4` | landed `.memory/ken/2f80fbd4.json` |
+| `4d2d4402` | landed `.memory/ken/4d2d4402.json` |
+| `a98bf043` | landed `.memory/ken/a98bf043.json` |
+| `0aa8e001` | landed `.memory/ken/0aa8e001.json` |
+| `19fdb7dd` | landed `.memory/sheep/19fdb7dd.json` (related_to `3eb1220b`) |
+| `be778bb0` | **not re-encoded** — near-duplicate of operator-approved Helene memory **`79b75f4a`** (~16 sheep); related_to updated on that record |
+| `51435d7a` | landed `.memory/sheep/51435d7a.json` (related_to `52883364`) |
+
+HLS marker: `mc-2026-07-11-mining-replay` #75 (P6, closed-ready). Pen-3 already main via PR-23. Bus: `handoff-replay-mcs-2026-07-11-0Iyob`.
+
