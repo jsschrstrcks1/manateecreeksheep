@@ -56,16 +56,27 @@ def validate_required_fields(sheep_list):
 
 
 def validate_breed_percentages(sheep_list):
-    """Check breed percentages sum to ~100%."""
+    """Check breed percentages sum to ~100%.
+
+    A record may carry an explicit ``unknown_percentage`` when part of the
+    pedigree is genuinely unknowable (e.g. kelsier: KHSI Percent Registry 87%
+    Katahdin, 13% pedigree-unknown per reg 198291X). The documented unknown
+    completes the sum — honest incompleteness is not a defect. An UNdocumented
+    shortfall still warns.
+    """
     warnings = []
     for sheep in sheep_list:
         comp = sheep.get("breed_composition", {})
         pcts = comp.get("percentages", {})
         if pcts:
-            total = sum(pcts.values())
+            unknown = comp.get("unknown_percentage", 0)
+            if not isinstance(unknown, (int, float)) or unknown < 0:
+                unknown = 0
+            total = sum(pcts.values()) + unknown
             if abs(total - 100) > 2:
                 warnings.append(
-                    f"WARNING [{sheep['id']}]: Breed percentages sum to {total}% (expected ~100%)"
+                    f"WARNING [{sheep['id']}]: Breed percentages sum to {total}% "
+                    f"(expected ~100%{', incl. documented unknown' if unknown else ''})"
                 )
     return warnings
 
