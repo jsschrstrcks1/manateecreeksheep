@@ -12,6 +12,7 @@ Checks:
 """
 
 import json
+import math
 import sys
 from pathlib import Path
 from collections import Counter
@@ -70,7 +71,11 @@ def validate_breed_percentages(sheep_list):
         pcts = comp.get("percentages", {})
         if pcts:
             unknown = comp.get("unknown_percentage", 0)
-            if not isinstance(unknown, (int, float)) or unknown < 0:
+            # bool is an int subclass; math.isfinite rejects NaN/inf. A NaN would otherwise
+            # slip the check entirely: 87 + NaN = NaN, and abs(NaN-100) > 2 is False, silently
+            # disabling the breed-sum guard for that record (found by the 2026-07-15 hostile pass).
+            if isinstance(unknown, bool) or not isinstance(unknown, (int, float)) \
+                    or not math.isfinite(unknown) or unknown < 0:
                 unknown = 0
             total = sum(pcts.values()) + unknown
             if abs(total - 100) > 2:
