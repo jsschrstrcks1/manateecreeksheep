@@ -77,8 +77,18 @@ def validate_breed_percentages(sheep_list):
             if isinstance(unknown, bool) or not isinstance(unknown, (int, float)) \
                     or not math.isfinite(unknown) or unknown < 0:
                 unknown = 0
+            # Guard the TOTAL, not just `unknown`: a NaN/inf in ANY `percentages` VALUE flows into
+            # the sum the same way and `abs(NaN-100) > 2` is False, silently disabling the check —
+            # the sibling NaN fix sanitized `unknown` only and left the identical hole one field over
+            # (spensa cross-review 2026-07-16; NaN is reachable — json.load accepts literal NaN). A
+            # non-finite total is itself a data defect → warn loudly rather than pass silently.
             total = sum(pcts.values()) + unknown
-            if abs(total - 100) > 2:
+            if not math.isfinite(total):
+                warnings.append(
+                    f"WARNING [{sheep['id']}]: Breed percentages contain a non-finite value "
+                    f"(NaN/inf) — sum is not a real number; fix the record's percentages."
+                )
+            elif abs(total - 100) > 2:
                 warnings.append(
                     f"WARNING [{sheep['id']}]: Breed percentages sum to {total}% "
                     f"(expected ~100%{', incl. documented unknown' if unknown else ''})"
