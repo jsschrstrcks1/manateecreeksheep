@@ -37,6 +37,15 @@ CASES = [
     # NaN/inf in a percentages VALUE — the identical hole one field over (2026-07-16 cross-review):
     ("value = NaN", {"dorper": float("nan"), "awassi": 13}, 0, True),
     ("value = inf", {"dorper": float("inf")}, 0, True),
+    # Lift hostile pass 2026-07-16 — the guard must WARN, never CRASH, on any bad value class:
+    ("value = string (crashed sum())", {"dorper": "50", "awassi": 50}, 0, True),
+    ("value = None (crashed sum())", {"dorper": None, "awassi": 100}, 0, True),
+    ("value = bool True (counted as 1%)", {"dorper": True, "awassi": 99}, 0, True),
+    ("value = negative cancels to false-100", {"dorper": 150, "awassi": -50}, 0, True),
+    ("percentages is a LIST (crashed .values())", [50, 50], 0, True),
+    ("percentages is a STRING (crashed .values())", "100", 0, True),
+    # And a legit record with a bad SIBLING value still validates the good one's shape:
+    ("mixed: one good one string", {"dorper": 50, "awassi": "x"}, 0, True),
 ]
 
 
