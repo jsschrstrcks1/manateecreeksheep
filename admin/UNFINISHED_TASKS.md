@@ -53,3 +53,6 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 5 | available | — | process-docs-gaps | Process / docs gaps |
 | 5 | available | — | recommended-next-sweep-one-commit-each | Recommended next sweep (one commit each) |
 | 5 | available | — | sweep-progress-2026-05-13-session-2 | Sweep Progress — 2026-05-13 session 2 |
+
+<!-- library register 2026-07-16T00:09:47.255Z -->
+| mcs-validator-percentage-value-nan | 1 | Cross-review 2026-07-16: manateecreeksheep validator NaN hole one field over — sibling fixed unknown_percentage NaN but a NaN in a percentages VALUE still silently disabled the breed-sum guard (abs(NaN-100)>2 is False; json.load accepts NaN). FIXED: guard the total via math.isfinite. Regression pins added. |
