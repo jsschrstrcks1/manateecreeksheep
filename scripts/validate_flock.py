@@ -12,6 +12,7 @@ Checks:
 """
 
 import json
+import math
 import sys
 from pathlib import Path
 from collections import Counter
@@ -56,16 +57,61 @@ def validate_required_fields(sheep_list):
 
 
 def validate_breed_percentages(sheep_list):
-    """Check breed percentages sum to ~100%."""
+    """Check breed percentages sum to ~100%.
+
+    A record may carry an explicit ``unknown_percentage`` when part of the
+    pedigree is genuinely unknowable (e.g. kelsier: KHSI Percent Registry 87%
+    Katahdin, 13% pedigree-unknown per reg 198291X). The documented unknown
+    completes the sum — honest incompleteness is not a defect. An UNdocumented
+    shortfall still warns.
+    """
     warnings = []
     for sheep in sheep_list:
         comp = sheep.get("breed_composition", {})
         pcts = comp.get("percentages", {})
+        # `percentages` must be a mapping. A list/str/number here made `.values()` raise
+        # AttributeError and CRASH the whole run (Lift hostile pass 2026-07-16, H-B) —
+        # a validator that dies on bad data is the worst failure mode: the operator gets
+        # NO report and believes the flock is clean. Warn per-record, never crash.
+        if pcts and not isinstance(pcts, dict):
+            warnings.append(
+                f"WARNING [{sheep['id']}]: breed_composition.percentages is not an object "
+                f"({type(pcts).__name__}) — cannot check the breed sum; fix the record."
+            )
+            continue
         if pcts:
-            total = sum(pcts.values())
+            unknown = comp.get("unknown_percentage", 0)
+            # bool is an int subclass; math.isfinite rejects NaN/inf. A NaN would otherwise
+            # slip the check entirely: 87 + NaN = NaN, and abs(NaN-100) > 2 is False, silently
+            # disabling the breed-sum guard for that record (found by the 2026-07-15 hostile pass).
+            if isinstance(unknown, bool) or not isinstance(unknown, (int, float)) \
+                    or not math.isfinite(unknown) or unknown < 0:
+                unknown = 0
+            # Validate every CONTRIBUTING VALUE before summing (Lift hostile pass 2026-07-16).
+            # The NaN fixes (2026-07-15 unknown, 2026-07-16 value) each patched one non-finite
+            # path, but `sum()` also CRASHES on a string/None/list value (json.load produces all
+            # three from data) — TypeError before any isfinite check could run (H-A/H-E) — and a
+            # NEGATIVE value could cancel another to a false ~100 (H-D). Fix the CLASS, not the
+            # next field over: a value is valid only if it is a real, finite, non-negative number
+            # and not a bool. Any invalid value warns loudly and the record's sum check is skipped
+            # (a bad value already means the record needs a human).
+            bad = [
+                (name, val) for name, val in pcts.items()
+                if isinstance(val, bool) or not isinstance(val, (int, float))
+                or not math.isfinite(val) or val < 0
+            ]
+            if bad:
+                shown = ", ".join(f"{n}={v!r}" for n, v in bad[:5])
+                warnings.append(
+                    f"WARNING [{sheep['id']}]: Breed percentages contain invalid value(s) "
+                    f"({shown}) — each must be a finite, non-negative number; fix the record."
+                )
+                continue
+            total = sum(pcts.values()) + unknown
             if abs(total - 100) > 2:
                 warnings.append(
-                    f"WARNING [{sheep['id']}]: Breed percentages sum to {total}% (expected ~100%)"
+                    f"WARNING [{sheep['id']}]: Breed percentages sum to {total}% "
+                    f"(expected ~100%{', incl. documented unknown' if unknown else ''})"
                 )
     return warnings
 

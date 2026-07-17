@@ -86,6 +86,13 @@ The flock data comes from multiple sources. When sources conflict, use this prio
 | **4** | Google Sheet | Breed composition calculations for potential offspring by pen |
 | **5** | `Sheep_Breeding_DB_CURRENT_COPY.xlsx` | Mating plans, ram eligibility, breeding rules |
 
+> **Kernel evidence-tier interop (Sophos vNext S28):** when flock data feeds typed kernel
+> claims, these sources map onto the kernel evidence-tier enum — notebook images = `primary`;
+> the transcribed/derived spreadsheets and sheets (rows 2–5) = `secondary`; a fresh in-session
+> observation recorded with a run/audit ref = `observed`. Canonical mapping:
+> `Project-Sophos/docs/EVIDENCE-TIER-MAP.md`. Interop only — THIS table stays authoritative
+> for flock decisions, and rows 2–5 keep their 2 > 3 > 4 > 5 order in-domain.
+
 **Important aliases:**
 - Mom writes "Amure" — this is **Azure**
 - "Rock" = "Jerkface" = Awassi ram
