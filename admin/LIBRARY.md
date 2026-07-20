@@ -1,13 +1,13 @@
 # Library — manateecreeksheep shelf
 
-**Complete documentation:** `/Users/kenbaker/ocs-work/docs/HOUSEHOLD-LIBRARY.md`  
-**Household SSOT:** `/Users/kenbaker/ocs-work/.household-library/`  
-**CLI:** `node /Users/kenbaker/ocs-work/admin/library.mjs`
+**Complete documentation:** `/Users/kenbaker/atlas-serve/docs/HOUSEHOLD-LIBRARY.md`
+**Household SSOT:** `/Users/kenbaker/atlas-serve/.household-library/`
+**CLI:** `node /Users/kenbaker/atlas-serve/admin/library.mjs`
 
 ## Before any user task
 
 ```bash
-node /Users/kenbaker/ocs-work/admin/library.mjs preflight --query "<task>" --patron <you> --merge --repo manateecreeksheep
+node /Users/kenbaker/atlas-serve/admin/library.mjs preflight --query "<task>" --patron <you> --merge --repo manateecreeksheep
 ```
 
 | File | Role |
