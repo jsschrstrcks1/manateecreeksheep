@@ -19,6 +19,7 @@ SETTINGS="$REPO_ROOT/.claude/settings.json"
 # and JSON reformatting). To retire one, delete its line here in the same commit
 # that removes it from settings.json.
 PROTECTED=(
+  "sophos-inject.sh"
   "prompt-injection-guard.js"
   "session-pulse-scan.sh"
 )
