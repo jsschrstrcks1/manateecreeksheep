@@ -404,6 +404,15 @@ Expected: table listing GG's fenbendazole lock (until 2026-09-09), the ivermecti
 
 **Phase 4 — weather closes MCS-1 (reuse Crane's feed).** Crane Weather Ops already pulls Open-Meteo for this property. A small enrichment in the Phase-2 refresh job: when the trailing 14 days are Haemonchus-favorable (warm + wet — thresholds start at the literature's ~10°C+ with moisture, tuned for Florida where the answer is usually "yes" in summer), tighten `FAMACHA_RECHECK_DAYS` one notch (14→10, 7→5) and say so in each item's `basis`. Advisory only; the agenda never treats anyone.
 
+**Phase 5 — the flock PWA (operator directive 2026-08-12).** Installable PWA served BY Atlas at
+`/flock` on the tailnet (same origin as the Phase-2 agenda API). First-run token entry, stored
+on-device encrypted at rest (passkey/WebAuthn-PRF-wrapped where supported; non-extractable
+CryptoKey fallback) — never baked into the bundle, never synced. Prefer a flock-SCOPED token over
+the owner token on phones (Atlas already tiers owner vs family; `/helm` stays owner-device-only).
+Offline-first with a sync queue for chute-side entry (FAMACHA, weights, MCS-6 batch sessions);
+reads the agenda; strict CSP, no third-party scripts. Needs its own plan against Atlas's actual
+serving patterns; Phase 2 is its prerequisite.
+
 **Explicitly out of scope until their prerequisites exist:** periparturient scheduling (MCS-33 — needs MCS-17's breeding pipeline), HELM involvement (optional weekly brief, later).
 
 ## Self-review notes
