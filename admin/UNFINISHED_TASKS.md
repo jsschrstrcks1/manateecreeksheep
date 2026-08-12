@@ -158,3 +158,18 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 
 <!-- library register 2026-08-12T12:45:01.339Z -->
 | mcs-periparturient-window | 1 | MCS-33: periparturient window management — lambing calendar auto-schedules FAMACHA/FEC checks + late-gestation nutrition flag; maternal resistance as selection signal |
+
+<!-- library register 2026-08-12T12:53:14.990Z -->
+| mcs-repo-safety-parity | 1 | AUDIT EXPANSION: dangerous-command guard + arm-hooks-path into manateecreeksheep — the P0 guard (hostile-hardened via 10+ completed OCS passes) is ABSENT from the sheep repo's hooks and core.hooksPath is UNSET (measured: .githooks chain dead in git, the UL-226/229 disease). Harness change: Layer 3 discipline applies |
+
+<!-- library register 2026-08-12T12:53:15.663Z -->
+| mcs-privacy-attestation-parity | 1 | AUDIT EXPANSION: privacy attestation (tools/attest-repo-private + pre-push gate, completed for OCS) absent from manateecreeksheep — pushes ungated while the repo now carries family/operational data (photos, family names, health, finances-adjacent) |
+
+<!-- library register 2026-08-12T12:53:16.255Z -->
+| mcs-famacha-schema-normalization | 1 | AUDIT FINDING: famacha_scores entries split 91 'famacha' vs 16 'score' keys (Lara's history among the 16) — normalize via migration + validator rule; agenda-engine plan already fixed to dual-read so nothing silently drops |
+
+<!-- library register 2026-08-12T12:53:16.815Z -->
+| mcs-ledger-check-parity | 2 | AUDIT EXPANSION: the sheep UPGRADE-LEDGER now carries 34 MCS ids + tracked pointers but OCS's concept-ledger-check guards only its own 8 ledgers — extend or twin the checker (dup ids, dangling tracked pointers) for manateecreeksheep |
+
+<!-- library register 2026-08-12T12:53:17.384Z -->
+| mcs-health-record-validation | 2 | AUDIT EXPANSION: validate_flock's completed P0.x/P1.x battery predates the health-record era — extend to treatments shape/dates, famacha entry shape, drug_reference/withdrawal_watch consistency, anomalies schema |

@@ -114,6 +114,29 @@ scrapie codons; buyer/sale panel and weight-chart tab → MCS-13/MCS-9. Operator
 from this batch: **milk, fat-tail genetics, wool-vs-hair are named-priority tracking dimensions**
 (→ MCS-19/20/21) and **sheep don't have litters** (→ MCS-18 corrected to lambings/prolificacy).
 
+**Permanent-layer audit (2026-08-12, operator directive: "What was complete once should perhaps
+be expanded"):** Reviewed all 634 `state: complete` HLS tasks (2,117 total on the board) for work
+scoped narrower than the project now is. **Method:** read every completion in the small repos;
+keyword-swept the 477 open-claw-stuff completions for guard/hook/validator/attestation/ledger
+infrastructure; then MEASURED the sheep repo against what was found rather than assuming. 
+**Findings, all registered as follow-up tasks (HLS law: completion is permanent — expansions are
+new tasks):** (1) **`mcs-repo-safety-parity` (P1)** — the dangerous-command guard, hardened
+through 10+ completed hostile passes in OCS, is absent from this repo's hooks, and
+`core.hooksPath` is UNSET so the existing `.githooks` chain is dead in git — the exact UL-226/229
+disease, re-measured here. The CLAUDE.md P0 section *claims* the guard is enforced; in this repo
+that claim is currently words. (2) **`mcs-privacy-attestation-parity` (P1)** — the repo-private
+attestation gate exists only in OCS while this repo now carries family and operational data.
+(3) **`mcs-famacha-schema-normalization` (P1)** — measured: 91 famacha entries keyed `famacha`,
+16 keyed `score` (Lara's history among them). **Live catch: the agenda-engine plan read only
+`famacha` and would have silently dropped 16 animals from recheck scheduling — fixed in the plan
+(dual-key read + pin) the same hour.** (4) **`mcs-ledger-check-parity` (P2)** — THIS ledger now
+holds 34 MCS ids with tracked pointers and no checker guards it; OCS's concept-ledger-check
+covers only its own 8 ledgers. (5) **`mcs-health-record-validation` (P2)** — the completed
+P0.x/P1.x validator battery predates the health-record era (treatments, drug_reference,
+withdrawal_watch, anomalies are all unvalidated surfaces). **Also confirmed properly covered:**
+MCS-9's remaining dimensions (weight/breeding-group) already live in registered tasks; the
+household-side single-repo-hardening pattern is the known UL-222..224 class, not re-rowed here.
+
 **Perplexity #5, distinguishing resistance/resilience/tolerance in the field (2026-08-12,
 operator-supplied; evaluated — wheat saved):** Accurate; five adoptions. (1) **Tolerance is
 formally computable** — it is the individual's *slope* of performance-vs-burden across repeated
