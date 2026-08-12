@@ -173,3 +173,12 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 
 <!-- library register 2026-08-12T12:53:17.384Z -->
 | mcs-health-record-validation | 2 | AUDIT EXPANSION: validate_flock's completed P0.x/P1.x battery predates the health-record era — extend to treatments shape/dates, famacha entry shape, drug_reference/withdrawal_watch consistency, anomalies schema |
+
+<!-- library register 2026-08-12T15:52:13.283Z -->
+| mcs-pen-moves-pending | 1 | 3 planned pen moves NEVER applied (Buck->Pen6, Rocky tag140->TreeFort, MC08->auction) + Orange Tag 31 ewe unlocated since 5/14 + Windlestone ram isolation rec (chat-got-pen-plan: 'reported dangerous'). VERIFY against current movements log first; apply as MCS-9 movement events |
+
+<!-- library register 2026-08-12T15:52:13.795Z -->
+| mcs-sheets-sync-l6 | 2 | L6 (redesign plan, only blocked phase): google-sheets MCP round-trip sync needs GCP project credentials — OPERATOR provides creds; sheet and JSON drift until done |
+
+<!-- library register 2026-08-12T15:52:14.708Z -->
+| mcs-owner-sync-unknowns | 3 | Owner-sync bundle: 12 [UNCLEAR] markers, unknown-status animals (daisys-daughter-1, tag-35-ewe, ext-lambs...), 7 unknown-sire lambing records, L7 annual eval scores, L11 drought cull list review |
