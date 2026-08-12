@@ -105,7 +105,29 @@ scrapie codons; buyer/sale panel and weight-chart tab → MCS-13/MCS-9. Operator
 from this batch: **milk, fat-tail genetics, wool-vs-hair are named-priority tracking dimensions**
 (→ MCS-19/20/21) and **sheep don't have litters** (→ MCS-18 corrected to lambings/prolificacy).
 
-**Livestocked + sheepandgoat.com evaluation (2026-08-12):** Two operator-pointed sources. 
+**Record-book / FarmKeep / FlockFiler evaluation (2026-08-12):** Three operator-pointed sources;
+verdict: **mostly confirmation, thin new wheat — a saturation signal.** 
+(1) **mamaonthehomestead.com "Sheep Record Book"** (free printable PDF; extracted all 9 forms).
+Paper forms show what a working shepherd actually writes: identification w/ photo+sire+dam,
+medical (DATE·ID·**DIAGNOSIS**·MEDICATION·DOSAGE·NOTES), breeding (expected due vs actual lambing
+→ MCS-17's derivation in paper form), lambing (per-lamb IDs, sex, **birth weight**), wool
+production, additions+losses (headcount — DB already keeps this), sales (price + **customer
+contact**). One small named idea adopted into MCS-7/MCS-8's orbit rather than a new row: **record
+the DIAGNOSIS, not just the treatment** — our `health.treatments` captures what was given; a
+diagnosis field captures *why*, which is exactly where MCS-8's "anemic but low FEC → not
+parasites" conclusion needs to live. Customer-contact-on-sale reinforces MCS-13.
+(2) **farmkeep.com free templates** (9): livestock/breeding/health/production/expense/feeding all
+confirm existing rows; the **inventory template's shape** — beginning balance · purchased · used/
+sold · ending balance — sharpens MCS-25 into the derived-state pattern (stock level is *derived*
+from transactions, MCS-9's rule applied to the cabinet). Incubation template off-species.
+(3) **flockfiler.com** (dedicated sheep software, Lite $50 / Pro $296, Win+Mac): its public pages
+document only — automatic **pedigree calculation** (MCS-16 confirmed by a sheep-specific tool),
+search across everything, **full import/export of ALL data** (data-sovereignty; confirms our
+local-JSON-first posture, same point EVSoft makes), Pro = analysis/optimization tier. The pages do
+NOT document FAMACHA/NSIP/scrapie specifics; deeper claims would be guesses and are not made.
+**Meta-observation for the operator:** three sources, zero new numbered rows — the last several
+sources now confirm the ledger rather than extend it. The domain's tool-space is approaching
+covered; remaining value is in *building* the tracked rows, not surveying more tools. Two operator-pointed sources. 
 **`livestocked.com`** — commercial multi-species livestock SaaS (cattle→chickens; Windows/Android/
 iOS/Mac, offline-capable). Mostly *confirms* existing rows: pasture movements → MCS-9; tasks/to-dos
 → MCS-11; integrated ag accounting → MCS-13; scale/drafter/tag-reader hardware (Yardflow) → MCS-5's
