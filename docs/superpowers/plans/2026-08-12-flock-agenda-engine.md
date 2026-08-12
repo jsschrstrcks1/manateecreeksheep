@@ -429,8 +429,13 @@ that already refuses non-owner on `/helm` — same mechanism, one more tier).
 **Token administration page (operator directive 2026-08-12).** An owner-only page in Atlas that
 MINTS scoped tokens — and the scope model is designed for attenuation from day one:
 - **Tokens are server-side records, not self-contained strings.** The device holds an opaque
-  token; Atlas holds `{scope, filters, label, minted, expires}` and checks the RECORD on every
-  request. This is what makes tokens revocable (lost phone = delete one row), editable (tighten a
+  token; Atlas holds `{scope, filters, label, note, minted, expires, last_used}` and checks the
+  RECORD on every request. **`note` (operator directive 2026-08-12): a free-text field for WHO the
+  token was given to and the circumstances ("Mom — her iPhone, given at the barn 8/14"), so
+  retracting the right token is never guesswork** — the label names the device, the note names the
+  person and the story. `last_used` (added alongside, same purpose): the server stamps each use,
+  so the revoke list also shows which tokens are live vs long-dormant — dormant tokens are the
+  first candidates to retire, and a token used an hour ago in the wrong context is its own alarm. This is what makes tokens revocable (lost phone = delete one row), editable (tighten a
   filter without re-provisioning the phone), and auditable (the mint page doubles as the list of
   every live token, labeled, with what it can see).
 - **Mint flow:** owner-only → pick scope → optional filter claims → name it ("Mom's phone") →
