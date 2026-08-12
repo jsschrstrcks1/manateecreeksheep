@@ -113,6 +113,23 @@ scrapie codons; buyer/sale panel and weight-chart tab → MCS-13/MCS-9. Operator
 from this batch: **milk, fat-tail genetics, wool-vs-hair are named-priority tracking dimensions**
 (→ MCS-19/20/21) and **sheep don't have litters** (→ MCS-18 corrected to lambings/prolificacy).
 
+**Perplexity #4, parasite resilience genetics (2026-08-12, operator-supplied; evaluated):**
+Accurate; mostly confirms #2/#3 (polygenic, no R/r letter model, environment-heavy expression;
+USDA QTL regions chr 3/6/14/22 noted as context). **Two adoptions with teeth:** (1) **Resilience
+is only measurable AT a demonstrated burden** — a low-FEC ewe in good condition shows *resistance*
+while her resilience is **untested**, not "strong." MCS-32's resilience bar therefore grades from
+the JOINT reading (FEC × FAMACHA/PCV × BCS), per its four-ewe matrix: low-FEC+good = resistant,
+resilience-untested · high-FEC+good = resilient-but-shedding (MCS-8's refugia case) · high-FEC+bad
+= susceptible, welfare first · high-FEC+good REPEATED = real resilience evidence. Encoded as the
+evidence-grading rule for the card. (2) **Selection ordering: resistance first, resilience as
+guardrail** — low FEC cuts next season's pasture larvae; a resilient high-shedder is a durable
+*individual* but a bad *sire/dam choice* because breeding it preserves the contamination problem.
+This sharpens the repo's breeding-advisor doctrine ("FAMACHA/FEC first") one level: *within* the
+parasite axis, FEC-resistance outranks FAMACHA-resilience, and the keeper profile is the composite
+(low FEC + good PCV/FAMACHA + growth + low treatment need). Also filed for the calibration pass:
+resilience h² ~0.10–0.19 (classic review; lower and less stable than FEC resistance) — the right
+prior when resilience becomes a scored trait beside the Cracker numbers from #3.
+
 **Perplexity #3, polygenic-vs-Mendelian for parasite defense (2026-08-12, operator-supplied;
 evaluated):** Accurate; confirms the ledger's standing positions (no worm-resistance letter code —
 MCS-32 Tier 2; additive breeding-value framing — MCS-31; FEC h² 0.2–0.4). **Three adoptions:**
