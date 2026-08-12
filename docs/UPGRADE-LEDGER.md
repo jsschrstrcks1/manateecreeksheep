@@ -113,6 +113,26 @@ scrapie codons; buyer/sale panel and weight-chart tab → MCS-13/MCS-9. Operator
 from this batch: **milk, fat-tail genetics, wool-vs-hair are named-priority tracking dimensions**
 (→ MCS-19/20/21) and **sheep don't have litters** (→ MCS-18 corrected to lambings/prolificacy).
 
+**Perplexity #3, polygenic-vs-Mendelian for parasite defense (2026-08-12, operator-supplied;
+evaluated):** Accurate; confirms the ledger's standing positions (no worm-resistance letter code —
+MCS-32 Tier 2; additive breeding-value framing — MCS-31; FEC h² 0.2–0.4). **Three adoptions:**
+(1) **The Florida Cracker heritability study it cites (Frontiers in Animal Science 2023) is
+directly OURS**: h² = 0.33 FEC · 0.31 FAMACHA · 0.22 PCV · 0.19 BCS, estimated in a Florida
+Cracker population — our climate, and Cracker/St Augustine genetics are literally in this flock's
+pedigrees (see e.g. the "dam-side Half-Tail/Cracker/St Augustine" coat note). Our `scripts/ebv/
+traits.py` currently uses PR h²=0.25 from Katahdin/StCroix/Dorper meta-analyses; the Cracker
+numbers are a better-matched prior. **Calibration candidate: retune trait h² (and add PCV/BCS as
+traits) alongside the MCS-27 adjustment-factor work — same calibration pass, done deliberately,
+not as a drive-by constant edit.** (2) **Evidence-grade labels for Tier-2 traits** adopted into
+MCS-32: each polygenic bar carries `evidence: strong/moderate/weak/unknown` + a `basis` string
+("3 FECs over 2 seasons; lower 15% of contemporary group") + confidence — outcomes recorded, allele
+claims never. (3) **Mendelian-sampling caution into MCS-22:** full sibs differ substantially on
+polygenic traits, so the mating predictor must present Tier-2 predictions as *tendencies with
+spread* (midparent EBV ± sampling variation), never "low-FEC × low-FEC = resistant lambs" — that
+guardrail is now part of the row. Its closing schema ("what you observed vs what you infer") is
+the same convergent discipline as Perplexity #1 — third independent confirmation of the MCS-32
+design.
+
 **Perplexity deep-dive #2, parasite-defense mechanisms (2026-08-12, operator-supplied; evaluated):**
 Accurate throughout (Th2/IL-4·5·13 immunology, IgA limiting worm fecundity in *T. circumcincta*,
 eosinophil attack, mucus/mast-cell expulsion, immunity built by repeated non-overwhelming exposure,
