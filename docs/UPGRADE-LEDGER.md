@@ -108,6 +108,17 @@ scrapie codons; buyer/sale panel and weight-chart tab → MCS-13/MCS-9. Operator
 from this batch: **milk, fat-tail genetics, wool-vs-hair are named-priority tracking dimensions**
 (→ MCS-19/20/21) and **sheep don't have litters** (→ MCS-18 corrected to lambings/prolificacy).
 
+**`decided-no` (2026-08-12): `ardywibowo/RanchHand` — a one-day 2017 student demo, no transferable
+wheat.** "TI Livestock Monitoring": MATLAB experiments in sensor placement and **noisy
+trilateration** (radio-positioning of cattle) + a web app with test data. Created and last pushed
+the same day (2017-08-30), 2★, no license, no health/behavior signals, cattle-only. The one
+concept it gestures at — **automated position sensing** — deliberately does *not* earn a row for
+this operation: a 9-pen flock's location truth is pen membership, and a pen move is a husbandry
+*event* recorded at the gate (MCS-9), not a telemetry problem; hardware data-acquisition at the
+chute (EID readers, scales) is already noted under MCS-5/Livestocked. If the operation ever runs
+open range or virtual fencing, revisit — that would be commercial GPS-collar tech, not this repo.
+No code taken (unlicensed, and nothing to take).
+
 **Ranch Manager / Carnelena / farmers-library evaluation (2026-08-12):** 
 (1) **ranchmanageropen.com** (Ranch Manager sheep edition — commercial, concepts only). Operator
 called it comprehensive; it is — but almost everything maps to existing rows: scrapie ID on the
