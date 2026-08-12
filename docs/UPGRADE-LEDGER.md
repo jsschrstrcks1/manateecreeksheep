@@ -109,6 +109,15 @@ scrapie codons; buyer/sale panel and weight-chart tab → MCS-13/MCS-9. Operator
 from this batch: **milk, fat-tail genetics, wool-vs-hair are named-priority tracking dimensions**
 (→ MCS-19/20/21) and **sheep don't have litters** (→ MCS-18 corrected to lambings/prolificacy).
 
+**`decided-no` (2026-08-12): dementatech "Smart Ranch" suite — title-only scaffolding, nothing to
+mine.** Operator's URL (`dementatech/smart-ranch-web`) does not exist; the real family is four
+repos — `smart-ranch` (web), `-mobile`, `-backend`, `-ai` — **all created the same day
+(2026-01-12), all 0★, dead since mid-January**, plus a sibling `OWENALBERT606/smart-ranch-web`
+(2026-01-13, same project family). Both READMEs read in full: one-line title stubs ("A Smart Ai
+Powered Livestock Management System", "AI micro service powering the Smart Ranch Project") — no
+features, no data model, no statement of what the AI does. There is literally nothing to evaluate
+beyond the name. Not re-examined unless the project grows real documentation.
+
 **Three-repo evaluation (2026-08-12): manyika-ranch / Ranch-App-Capstone / castle-ranch-herddb.**
 (1) `Matata-job/manyika-ranch` (TypeScript PWA, 2 weeks old, deployed, no license — concepts only):
 a thoughtfully-scoped Tanzanian multi-camp **cattle** system. New → **MCS-29** (loss records
