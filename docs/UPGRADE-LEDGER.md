@@ -113,6 +113,26 @@ scrapie codons; buyer/sale panel and weight-chart tab → MCS-13/MCS-9. Operator
 from this batch: **milk, fat-tail genetics, wool-vs-hair are named-priority tracking dimensions**
 (→ MCS-19/20/21) and **sheep don't have litters** (→ MCS-18 corrected to lambings/prolificacy).
 
+**Perplexity #5, distinguishing resistance/resilience/tolerance in the field (2026-08-12,
+operator-supplied; evaluated — wheat saved):** Accurate; five adoptions. (1) **Tolerance is
+formally computable** — it is the individual's *slope* of performance-vs-burden across repeated
+(FEC, weight/BCS/PCV) pairs; flatter = more tolerant. Once MCS-9-style logs hold both series,
+MCS-32's resilience bar can graduate from evidence-grades to a measured slope — recorded as the
+bar's mature form. (2) **The fourth quadrant: low FEC + poor condition is NOT a parasite
+failure** — completes #4's matrix; the differential to investigate is nutrition, teeth, lameness,
+coccidiosis, pneumonia, trace minerals, pregnancy/lactation demand, chronic disease → encoded
+into MCS-3 triage + MCS-26 (an unresolved poor-condition event with low FEC should *prompt* the
+non-parasite differential, exactly MCS-8's disagreement-signal generalized). (3) **FEC
+observation schema** — each FEC carries: date·ID·age·dam/sire·paddock+moves·rainfall/season·
+recent-treatment·repro status·**lab/method**·**species-ID if cultured/PCR'd** — several fields
+(lab method, speciation, recent-move) sharpen MCS-30's record shape. (4) **Speciate before big
+decisions**: egg counts don't identify the worm; a healthy high-shedder may carry a benign
+species — culture/PCR periodically and whenever FEC and clinical signs disagree, ESPECIALLY
+before a breeding call. (5) **Retain pre-treatment records**: treat at threshold always, but the
+pre-treatment FEC/scores stay in the selection dataset rather than the animal being excluded —
+data-handling rule for `scripts/ebv/`. Maternal-effects caution (colostrum/rearing ≠ lamb
+genetics) confirms MCS-27's rearing-type adjustment from a second angle.
+
 **Perplexity #4, parasite resilience genetics (2026-08-12, operator-supplied; evaluated):**
 Accurate; mostly confirms #2/#3 (polygenic, no R/r letter model, environment-heavy expression;
 USDA QTL regions chr 3/6/14/22 noted as context). **Two adoptions with teeth:** (1) **Resilience
