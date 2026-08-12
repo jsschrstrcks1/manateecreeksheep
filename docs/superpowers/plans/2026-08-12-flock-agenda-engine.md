@@ -234,6 +234,9 @@ check("deceased sheep produce nothing",
 check("non-numeric famacha ('Good') skipped without crash",
       famacha_items([{"id": "y", "status": "alive", "health": {"famacha_scores":
         [{"date": "2026-08-12", "famacha": "Good"}]}}], TODAY) == [])
+check("legacy 'score' key entries are READ, not skipped (16 exist in the DB)",
+      famacha_items([{"id": "z", "status": "alive", "health": {"famacha_scores":
+        [{"date": "2026-08-12", "score": 4}]}}], TODAY) != [])
 
 anoms = anomaly_items([{"date": "2026-08-12", "issue": "Tinker unidentified",
                         "status": "pending_identification"},
@@ -282,7 +285,10 @@ def famacha_items(sheep_list, today):
             continue
         d, f = max(dated, key=lambda x: x[0])
         try:
-            score = int(f.get("famacha"))
+            # MEASURED 2026-08-12: 91 entries use key 'famacha', 16 use 'score' (older records,
+            # e.g. Lara's history). Read BOTH or those 16 animals silently vanish from rechecks —
+            # this defect was caught by the permanent-layer audit before the engine was built.
+            score = int(f.get("famacha", f.get("score")))
         except (TypeError, ValueError):
             continue
         days = FAMACHA_RECHECK_DAYS.get(score)
