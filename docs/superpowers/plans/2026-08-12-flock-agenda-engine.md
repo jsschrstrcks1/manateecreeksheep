@@ -413,6 +413,19 @@ Offline-first with a sync queue for chute-side entry (FAMACHA, weights, MCS-6 ba
 reads the agenda; strict CSP, no third-party scripts. Needs its own plan against Atlas's actual
 serving patterns; Phase 2 is its prerequisite.
 
+**Phase 5 auth model (operator decision 2026-08-12): one app, progressive by token — NO second
+auth system.** The token entered at setup determines the app: a **flock-scoped token** renders the
+pure sheep app (barn view home screen; the household-infra surfaces do not exist for that token —
+containment by scope, not by navigation; this is the family/mother case solved with zero new auth
+infrastructure); the **owner token** grows the same install into agenda + Atlas cards + HELM
+links, with a hard visual boundary when crossing out of sheep-world (distinct header treatment +
+persistent "back to flock" crumb — the operator's prominent-links idea, applied to the owner mode
+where two worlds genuinely coexist). BINDING RULE: capability is enforced SERVER-SIDE by the
+token's scope at every endpoint; the PWA discovers capabilities via a whoami-style call and merely
+reflects them — hiding a panel is UX, Atlas refusing is the security. Server-side work item for
+Phase 2: add a `flock` scope to Atlas's existing owner/partner/family token tiers (the mechanism
+that already refuses non-owner on `/helm` — same mechanism, one more tier).
+
 **Explicitly out of scope until their prerequisites exist:** periparturient scheduling (MCS-33 — needs MCS-17's breeding pipeline), HELM involvement (optional weekly brief, later).
 
 ## Self-review notes
