@@ -74,3 +74,6 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 
 <!-- library register 2026-08-12T03:53:03.836Z -->
 | mcs-health-event-log | 1 | MCS-26 (operator directive): typed per-animal health & adverse-event log — foot rot, parasites, fly strike, predation, everything in between; condition vocabulary + diagnosis + treatment + body location + outcome, append-only (MCS-9 shape), feeds MCS-7 withdrawal and MCS-3 triage |
+
+<!-- library register 2026-08-12T12:15:25.756Z -->
+| mcs-flock-agenda-engine | 1 | Flock agenda engine (plan: docs/superpowers/plans/2026-08-12-flock-agenda-engine.md) — derive withdrawal locks, FECRT windows, FAMACHA rechecks, pending IDs from flock DB; the feed Atlas serves and Crane displays (Phases 2-4 follow-on) |
