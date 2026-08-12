@@ -80,3 +80,81 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 
 <!-- library register 2026-08-12T12:35:34.725Z -->
 | mcs-flock-pwa | 1 | Flock PWA (operator directive): installable, offline-first, served by Atlas /flock on tailnet; token entered once per device, encrypted at rest (passkey-PRF), never in bundle; prefer flock-scoped token; chute-side entry + agenda (plan Phase 5) |
+
+<!-- library register 2026-08-12T12:44:47.072Z -->
+| mcs-weather-parasite-prompting | 1 | MCS-1: weather/climate-aware parasite-risk prompting — warm+wet stretch tightens FAMACHA recheck intervals (Phase 4 of integration plan reuses Crane Open-Meteo feed) |
+
+<!-- library register 2026-08-12T12:44:47.863Z -->
+| mcs-push-reminders | 2 | MCS-2: push reminders to a channel the operator already watches — delivery layer for the agenda (channel choice = operator decision point, plan Phase 2) |
+
+<!-- library register 2026-08-12T12:44:48.740Z -->
+| mcs-attention-triage-list | 1 | MCS-3: attention-priority triage list — worst-first composite score (FAMACHA trend, FEC, days-since-check, flags) with R/A/G status |
+
+<!-- library register 2026-08-12T12:44:49.246Z -->
+| mcs-group-cohorts | 2 | MCS-10: group/cohort as first-class asset with log-derived time-aware membership (breeding groups, treatment cohorts, refugia groups) |
+
+<!-- library register 2026-08-12T12:44:49.759Z -->
+| mcs-pending-done-log | 2 | MCS-11: reminder and record are ONE object — pending->done dated log entries underpin reminders, worklist, and history |
+
+<!-- library register 2026-08-12T12:44:50.270Z -->
+| mcs-quantity-abstraction | 2 | MCS-12: one quantity shape for every measurement (value+unit+measure+label) — weight, FAMACHA, FEC, BCS, temp without schema changes |
+
+<!-- library register 2026-08-12T12:44:50.809Z -->
+| mcs-animal-economics | 2 | MCS-13: per-animal economic lifecycle — cost basis in, proceeds out, profit per genetics; cost-of-gain with weight log |
+
+<!-- library register 2026-08-12T12:44:51.305Z -->
+| mcs-cv-image-scoring | 3 | MCS-14 (HEDGED low-confidence): image->1-5 score via CV for BCS/FAMACHA — NOT to build until labelled data + safety story exist; registered for tracking only |
+
+<!-- library register 2026-08-12T12:44:51.914Z -->
+| mcs-scrapie-genotype | 1 | MCS-15: scrapie genotype (PRNP 136/154/171) tracking + breeding selection; commercial tests exist (Gene Check/Neogen); pedigree-derivable |
+
+<!-- library register 2026-08-12T12:44:52.463Z -->
+| mcs-pedigree-inbreeding-views | 2 | MCS-16: rendered pedigree views + certificates + Wright's inbreeding coefficient for the closed-loop policy (F field already seeded on 2 records) |
+
+<!-- library register 2026-08-12T12:44:52.997Z -->
+| mcs-breeding-pipeline | 1 | MCS-17: master breeding pipeline — one row per mating, derived dates (check/due/wean/rebreed), exposure WINDOWS for pen breeding; unlocks MCS-33 scheduling; PRIORITY: parasite-control instrument |
+
+<!-- library register 2026-08-12T12:44:53.527Z -->
+| mcs-ewe-lifetime-productivity | 1 | MCS-18: ewe lifetime productivity ledger — per-dam lambings across years (lambs weaned per ewe lifetime; sheep have lambings not litters) |
+
+<!-- library register 2026-08-12T12:44:54.024Z -->
+| mcs-coat-shed-trait-log | 1 | MCS-19 (operator: huge): wool-vs-hair/shedding as structured seasonal trait log — shed score 1-5 + date each summer, coat class derived |
+
+<!-- library register 2026-08-12T12:44:54.542Z -->
+| mcs-fat-tail-tracking | 1 | MCS-20 (operator: huge): fat-tail phenotype scoring + lineage tracking (Awassi/Tunis lines) feeding mating prediction |
+
+<!-- library register 2026-08-12T12:44:55.088Z -->
+| mcs-milk-records | 1 | MCS-21 (operator: huge): per-ewe milk records (MCS-12 quantity shape) + maternal milk ability as selection trait |
+
+<!-- library register 2026-08-12T12:44:55.626Z -->
+| mcs-mating-outcome-predictor | 2 | MCS-22: mating outcome predictor — sire x dam -> trait probabilities with plain-language topline; Tier-1 Punnett + Tier-2 midparent EBVs with spread (never certainty); extends breeding_projector |
+
+<!-- library register 2026-08-12T12:44:56.169Z -->
+| mcs-ration-nrc-evaluation | 2 | MCS-23: ration evaluation against NRC requirements — feed ADEQUACY; late-gestation protein funds immunity; underfed reads as parasite-suspect |
+
+<!-- library register 2026-08-12T12:44:56.710Z -->
+| mcs-sell-weight-calculator | 2 | MCS-24: what-weight-to-sell-lambs marginal economics calculator (feed cost of next lbs vs price slide) |
+
+<!-- library register 2026-08-12T12:44:57.417Z -->
+| mcs-input-inventory | 2 | MCS-25: input inventory — wormer/vaccine/feed on hand with expiry + reorder point; balance derived from transactions |
+
+<!-- library register 2026-08-12T12:44:57.966Z -->
+| mcs-weight-adjustment-factors | 1 | MCS-27: standard adjustment factors for lamb weights (birth type, rearing, dam age; hair-specific tables) + h2 calibration pass (Florida Cracker priors: FEC .33 FAMACHA .31 PCV .22 BCS .19; resilience .10-.19; retain pre-treatment records rule) |
+
+<!-- library register 2026-08-12T12:44:58.498Z -->
+| mcs-quarantine-intake | 2 | MCS-28: intake quarantine records — biosecurity first-class; arrival drench + FEC-clean release gate (resistant-worm defense) |
+
+<!-- library register 2026-08-12T12:44:59.105Z -->
+| mcs-indemnity-loss-records | 2 | MCS-29: documented-loss records fit for indemnity claims (USDA LIP: predation + extreme heat; 30-day notice) — evidence bundle prompted at time of loss |
+
+<!-- library register 2026-08-12T12:44:59.626Z -->
+| mcs-fecrt-drench-check | 1 | MCS-30: FECRT drench-check — FEC at treatment + 10-14d later per drug class; maintains the does-it-still-work-here table (ivermectin=medium already recorded); welfare guardrails bound |
+
+<!-- library register 2026-08-12T12:45:00.226Z -->
+| mcs-blup-animal-model | 3 | MCS-31 (HEDGED): pedigree BLUP animal model as someday-upgrade for internal EBVs — NSIP covers anchored 90; deliberately not urged; registered for tracking only |
+
+<!-- library register 2026-08-12T12:45:00.800Z -->
+| mcs-genetic-trait-card | 1 | MCS-32: two-tier genetic trait card — Mendelian letters w/ per-locus source+confidence (scrapie, color, horns, Booroola, TMEM154, FGFR3) + polygenic EBV bars (resistance/resilience/avoidance/maternal; burden-conditioned; evidence-grade labels; tolerance-slope mature form) |
+
+<!-- library register 2026-08-12T12:45:01.339Z -->
+| mcs-periparturient-window | 1 | MCS-33: periparturient window management — lambing calendar auto-schedules FAMACHA/FEC checks + late-gestation nutrition flag; maternal resistance as selection signal |
