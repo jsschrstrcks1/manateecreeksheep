@@ -48,6 +48,16 @@ idea:
   exactly the baby-azure staleness from a different angle. Folds into the MCS-9 validation family;
   noted here rather than promoted. **No upstream code taken.**
 
+**`decided-no` (2026-08-12): `rancher/rancher` — a Kubernetes/container platform, not ranching.**
+Name-and-metaphor collision (ranch → rancher). The repo (Go, Apache-2.0, ~25.8k★, "Complete
+container management platform"; its `cattle` topic is the DevOps "pets vs cattle" meme and an old
+orchestrator codename, not animals). Zero husbandry content. The only conceivable household touch
+is the *infrastructure* layer — Rancher's desired-state reconciliation / multi-cluster fleet
+management rhymes with Atlas/HELM — but that is **not the sheep project**, and the household already
+runs its own governed runtime, so it is not even a gap there. Off-domain for the flock; not
+re-examined. (For the flock's data model, the relevant pattern is MCS-9's event-log→derived-state,
+which is a records shape, not a control-loop reconciler.)
+
 **`decided-no` (2026-08-12): `Lcry/a-sheep-assistant` — a bot for the mobile GAME "羊了个羊 /
 Sheep a Sheep", not livestock.** Operator flagged it with a China-origin caution. The repo
 (Python, GPL-3.0, ~795★) is an auto-solver — its own description says "羊了个羊助手 … 一键闯关"
