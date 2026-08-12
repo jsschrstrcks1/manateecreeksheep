@@ -112,6 +112,29 @@ scrapie codons; buyer/sale panel and weight-chart tab → MCS-13/MCS-9. Operator
 from this batch: **milk, fat-tail genetics, wool-vs-hair are named-priority tracking dimensions**
 (→ MCS-19/20/21) and **sheep don't have litters** (→ MCS-18 corrected to lambings/prolificacy).
 
+**Perplexity cross-check on sheep genetic letters (2026-08-12, operator-supplied; evaluated):**
+Verdict: **accurate and independently convergent with MCS-32** — it lands on the same discipline
+(record phenotype separately from genotype; infer recessives only from repeated matings and label
+"probable"; letters only for real loci; registry letter codes are conventions, not DNA). Checked
+claims hold: PRNP haplotype table (adds **AHQ/ARH** to our ARR/ARQ/VRQ set), QQ/QR/RR shorthand,
+A/ASIP·E/MC1R coat loci, FEC heritability ~0.2–0.4, WEC-EBV direction, FAMACHA-FEC correlation
+"real but modest," FAMACHA's Haemonchus specificity. **Adopted into MCS-32 Tier 1:** **TMEM154
+haplotypes (OPP/ovine progressive pneumonia susceptibility — commercially testable)**, **FGFR3
+spider-lamb N/N·N/S·S/S** (carriers invisible to observation; low priority hedge — our breeds are
+not Suffolk-derived), **TYRP1/B** (black vs moorit) completing the color loci, HOXD1 polyceraty
+(noted, low relevance). **Adopted into MCS-32 Tier 2:** a third parasite axis — **avoidance**
+(grazing behavior limiting larval intake) beside resistance and resilience, recorded with the
+honest caveat that it is barely separable from management effects. **Adopted into MCS-30/MCS-8 as
+protocol guardrails:** (a) **never withhold clinically needed treatment to "test" resistance** —
+selection data collection is subordinate to welfare, always; (b) a repeated low FEC 4–6 weeks
+apart outweighs any single low count; (c) rank only within contemporary groups (which our
+`contemporary_group_key` already enforces); (d) "not sick" ≠ resistant — it may mean "not
+exposed"; (e) store the *convention/system* alongside any registry letter code, since identical
+letters mean different things per association. **Its two soft spots:** it treats pedigree
+inference as manual "probable" labeling — our MCS-22/32 plan computes it (backwards-Punnett with
+explicit probabilities), which is strictly stronger; and it never reaches drug-resistance testing
+(FECRT/MCS-30), the other half of the parasite picture.
+
 **Proactive GitHub survey (2026-08-12, operator: "do some research on github looking for what we
 are building"):** Six targeted queries across the ledger's axes (flock management · FAMACHA/FEC/
 anthelmintic · lambing/breeding · EBV · grazing/pasture · scrapie/genotype). Findings: 
