@@ -31346,5 +31346,68 @@
       "date": "2026-08-12",
       "notes": "Efficacy not assessed \u2014 not invented."
     }
-  }
+  },
+  "drug_reference": {
+    "_doc": "Withdrawal reference for drugs this flock uses (MCS-7 substrate). Researched 2026-08-12 from US labels + FARAD Digest (JAVMA 2018-10-15, Table 2: extralabel WDIs for sheep/goats). RULES: label numbers apply ONLY to the labeled formulation+dose; extra-label use (incl. HORSE PASTE in sheep) legally requires veterinary oversight under AMDUCA, and FARAD is the WDI authority. Where the flock's actual practice is extra-label, a CONSERVATIVE house default is recorded and marked as such \u2014 it is a floor, not a label. None of these products is approved for lactating dairy sheep.",
+    "ivermectin": {
+      "drug_class": "macrocyclic lactone (avermectin)",
+      "sheep_approved_product": "Ivomec Drench for Sheep (0.08% oral), 0.2 mg/kg PO",
+      "label_meat_withdrawal_days": 11,
+      "flock_practice": "EXTRA-LABEL: equine ivermectin tube/paste (1.87%), oral (operator 2026-08-12: 'mostly we use horse tube/paste'). FARAD Table 2 lists NO sheep WDI for extra-label oral ivermectin (sheep column dashed \u2014 an approved sheep product exists); goat reference points: 0.2 mg/kg PO = 11d meat/144h milk, 0.2-0.4 mg/kg PO = 14d meat/216h milk.",
+      "house_default_meat_withdrawal_days": 14,
+      "house_default_note": "CONSERVATIVE default for horse-paste use: 14 days \u2014 covers the 11-day sheep label AND the 0.2-0.4 mg/kg goat oral figure (paste dosing is less precise than drench). Pending vet/FARAD confirmation; never shorter than the 11-day label.",
+      "milk": "not approved for lactating dairy sheep; FARAD goat oral 144-216h as reference only"
+    },
+    "fenbendazole": {
+      "drug_class": "benzimidazole",
+      "sheep_approved_product": null,
+      "flock_practice": "EXTRA-LABEL in sheep (US approval is for goats: 6d meat label)",
+      "farad_sheep_meat_withdrawal_days": 28,
+      "farad_note": "FARAD Table 2, sheep, 5 mg/kg once PO: MEAT WDI = 28 DAYS \u2014 far longer than the goat 6-day label people commonly assume transfers. Milk: not established for sheep (goat 120h).",
+      "house_default_meat_withdrawal_days": 28,
+      "milk": "not established for sheep \u2014 do not market"
+    },
+    "levamisole_prohibit": {
+      "drug_class": "imidazothiazole",
+      "sheep_approved_product": "Prohibit Soluble Drench Powder \u2014 approved for sheep",
+      "label_meat_withdrawal_days": 3,
+      "label_note": "72-hour slaughter withdrawal per sheep label (shortest of the flock's three). A 4d meat/3d milk figure circulates from goat charts \u2014 the sheep label is 3d; when in doubt use the longer.",
+      "milk": "not approved for lactating dairy sheep",
+      "safety": "narrowest margin of the three \u2014 weigh accurately (see anthelmintic_efficacy)"
+    },
+    "moxidectin_cydectin": {
+      "drug_class": "macrocyclic lactone (milbemycin)",
+      "sheep_approved_product": "Cydectin Oral Drench for Sheep (0.1%)",
+      "label_meat_withdrawal_days": 7,
+      "label_note": "US sheep drench label: 7 days meat. UK/NZ labels say 14 \u2014 use the label of the product in hand. Not currently used by flock; recorded because it is the standard rotation partner.",
+      "milk": "do not use in ewes providing milk for human consumption"
+    },
+    "albendazole_valbazen": {
+      "drug_class": "benzimidazole",
+      "sheep_approved_product": "Valbazen Suspension (11.36%) \u2014 approved for sheep",
+      "label_meat_withdrawal_days": 7,
+      "label_note": "BREEDING FLOCK WARNING: do NOT give during the first 30 days of pregnancy (teratogenic) \u2014 in a pen-breeding operation with uncertain service dates this effectively means avoid in exposed ewes. Not currently used by flock; recorded for the rotation table.",
+      "milk": "not approved for lactating dairy sheep"
+    }
+  },
+  "withdrawal_watch": [
+    {
+      "treated": "2026-08-12 (approx)",
+      "animals": "ALL ivermectin-treated (horse paste assumed): OAV 2222 + surviving lamb(s), Lara + twins, GG, Azure, 'Tinker'",
+      "drug": "ivermectin (extra-label horse paste)",
+      "not_safe_for_slaughter_until": "2026-08-26 (house-default 14d; label-min would be 8/23)"
+    },
+    {
+      "treated": "2026-08-12 (approx)",
+      "animals": "GG only",
+      "drug": "fenbendazole (extra-label) \u2014 CONTROLLING withdrawal for GG",
+      "not_safe_for_slaughter_until": "2026-09-09 (FARAD sheep 28d)"
+    },
+    {
+      "treated": "2026-08-12 (approx)",
+      "animals": "GG only",
+      "drug": "levamisole (Prohibit, sheep label)",
+      "not_safe_for_slaughter_until": "2026-08-15 (3d \u2014 subsumed by the above)"
+    }
+  ]
 }
