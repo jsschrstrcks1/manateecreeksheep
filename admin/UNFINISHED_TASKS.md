@@ -77,3 +77,6 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 
 <!-- library register 2026-08-12T12:15:25.756Z -->
 | mcs-flock-agenda-engine | 1 | Flock agenda engine (plan: docs/superpowers/plans/2026-08-12-flock-agenda-engine.md) — derive withdrawal locks, FECRT windows, FAMACHA rechecks, pending IDs from flock DB; the feed Atlas serves and Crane displays (Phases 2-4 follow-on) |
+
+<!-- library register 2026-08-12T12:35:34.725Z -->
+| mcs-flock-pwa | 1 | Flock PWA (operator directive): installable, offline-first, served by Atlas /flock on tailnet; token entered once per device, encrypted at rest (passkey-PRF), never in bundle; prefer flock-scoped token; chute-side entry + agenda (plan Phase 5) |
