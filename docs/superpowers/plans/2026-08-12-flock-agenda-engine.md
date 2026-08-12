@@ -426,6 +426,22 @@ reflects them — hiding a panel is UX, Atlas refusing is the security. Server-s
 Phase 2: add a `flock` scope to Atlas's existing owner/partner/family token tiers (the mechanism
 that already refuses non-owner on `/helm` — same mechanism, one more tier).
 
+**Token administration page (operator directive 2026-08-12).** An owner-only page in Atlas that
+MINTS scoped tokens — and the scope model is designed for attenuation from day one:
+- **Tokens are server-side records, not self-contained strings.** The device holds an opaque
+  token; Atlas holds `{scope, filters, label, minted, expires}` and checks the RECORD on every
+  request. This is what makes tokens revocable (lost phone = delete one row), editable (tighten a
+  filter without re-provisioning the phone), and auditable (the mint page doubles as the list of
+  every live token, labeled, with what it can see).
+- **Mint flow:** owner-only → pick scope → optional filter claims → name it ("Mom's phone") →
+  token shown ONCE as a QR code for point-and-scan device setup → stored hashed server-side.
+- **Attribute filters (the operator's keyword idea):** the record's `filters` field narrows a
+  scope by claims — first named case: `photo_tags: [keywords]` so a token sees only photos
+  matching typed keywords. The claims mechanism ships with the page (a JSON field the server
+  evaluates); the photo-keyword filter goes LIVE when photo tagging exists in the flock DB —
+  named data dependency, photos currently carry paths, not tags. Filters only ever NARROW a
+  scope, never widen it; a minted token's rights are always ≤ the minter's.
+
 **Explicitly out of scope until their prerequisites exist:** periparturient scheduling (MCS-33 — needs MCS-17's breeding pipeline), HELM involvement (optional weekly brief, later).
 
 ## Self-review notes
