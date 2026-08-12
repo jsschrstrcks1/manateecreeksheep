@@ -31319,5 +31319,32 @@
         "next_step": "These need notebook/physical confirmation \u2014 not resolvable from the sheet."
       }
     }
+  },
+  "anthelmintic_efficacy": {
+    "_doc": "Efficacy of each anthelmintic against THIS farm's worm population. Statuses: effective / medium / poor / unknown. Basis distinguishes operator observation from a formal FECRT (FEC at treatment + FEC 10-14d later, %reduction; <95% = resistance). Safety margin matters independently of efficacy \u2014 it drives which drug is safest for young lambs. See docs/UPGRADE-LEDGER.md MCS-30.",
+    "ivermectin": {
+      "drug_class": "macrocyclic lactone (avermectin)",
+      "status": "medium",
+      "basis": "operator judgment from field results (stated 2026-08-12); no formal FECRT yet",
+      "safety_margin": "wide \u2014 operator 2026-08-12: 'safer to use on young lambs than the other stuff. you almost cant overdose them.' Preferred first-line for young lambs on safety grounds despite medium efficacy.",
+      "date": "2026-08-12",
+      "notes": "Medium efficacy + ivermectin as the blanket treatment during the 2026-08 parasite event (one lamb lost) means treated animals warrant earlier FAMACHA rechecks \u2014 partial kill leaves survivors. GG's same-day triple treatment (ivermectin + fenbendazole + levamisole) is consistent with best practice where single-drug efficacy is reduced; her 10-14d follow-up FEC can firm this row and populate the two below. The efficacy-vs-safety tradeoff this row records: the SAFE drug for lambs is only partially killing \u2014 so lamb treatments especially need the recheck."
+    },
+    "fenbendazole": {
+      "drug_class": "benzimidazole",
+      "status": "unknown",
+      "basis": "no formal test recorded; used in combinations (GG 2026-02 and 2026-08)",
+      "safety_margin": "generally wide (label knowledge; operator has not stated own view)",
+      "date": "2026-08-12",
+      "notes": "Efficacy not assessed \u2014 not invented."
+    },
+    "levamisole_prohibit": {
+      "drug_class": "imidazothiazole",
+      "status": "unknown",
+      "basis": "first recorded use 2026-08-12 (GG, adult, in triple combination)",
+      "safety_margin": "narrow relative to the other two (general veterinary knowledge \u2014 confirm with label/vet): weigh accurately, dose carefully, caution in young/small animals. Consistent with operator reserving it for the adult case.",
+      "date": "2026-08-12",
+      "notes": "Efficacy not assessed \u2014 not invented."
+    }
   }
 }
