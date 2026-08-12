@@ -579,6 +579,11 @@
             "date": "4-10-26",
             "famacha": 1,
             "notes": "Eyes good"
+          },
+          {
+            "date": "2026-08-12",
+            "famacha": 5,
+            "notes": "Operator: 'white, and functioning well' \u2014 score recorded as 5 (white=pale); ESTIMATE from verbal description, exact number pending. Matches her 2026-02 pale-but-functioning pattern. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "weak_resistance": true,
@@ -598,6 +603,11 @@
             "treatment": "Fenbendazole + Ivermectin + Iron 3mL + VB 4mL",
             "notes": "Third FAMACHA 5 emergency. Weak resistance severely confirmed.",
             "source": "IMG_0663"
+          },
+          {
+            "date": "2026-08-12",
+            "treatment": "Ivermectin + Fenbendazole + Prohibit (levamisole)",
+            "notes": "Triple-class treatment for FAMACHA-white presentation. Withdrawal windows apply for all three \u2014 check labels (no dosage recorded; not invented). Identity note: operator said 'Gigi' \u2014 matched to GG via her identical Feb-2026 presentation+cocktail; her 2026 lamb gigi-2026-baby was the other candidate. FECRT opportunity: a follow-up FEC in 10-14 days tests all three drug classes at once (see UPGRADE-LEDGER MCS-30). operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "vaccinations": [
@@ -6019,7 +6029,7 @@
           "IMG_8639.PNG"
         ]
       },
-      "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 \u2014 notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko. Kelsier's sister (100% Katahdin, OAV/Oakvale Farm). Confirmed Pen 5, April 2026. Escaped with Elsie to Pen 6, spent months there. Moved back to Pen 5 this week (late March 2026). Escaped again. Watch closely. CORRECTED 2026-04-26 (owner verbal): 'OAV had no twins this year' \u2014 the 2026-02-10 lambing-record entry was wrong and has been removed. Her prior twins (referenced in NoriSon track record) were from earlier years (2024 lambs by Spotted Katahdin \u00d7 Dorper, born 3-13-24). Did NOT lamb in 2026. | 2026-06-11: KHSI registration FOUND (198290X). Full twin to Kelsier (198291X \u2014 same DOB, NSIP flock, owners). NSIP EBVs captured: WFEC -19.65 (parasite resistant), PWWT rank <5 (top 5%), US Hair Index 100.36 rank <5.",
+      "notes": "Kelsier's sister. 100% Katahdin confirmed by Rocky and OAV 2222 breeding pages. Tag OAV 2222. Ewe weight 140lbs, ram weight prediction 250lbs. Docile, not flighty. Breeding page says Pen 6 (notebook says Pen 5 \u2014 notebook is authoritative). 2024 offspring: 2 lambs by 'Spotted Katahdin x Dorper from OAV' (end of Oct mating, born 3-13-24, 7lbs each). Thiamine deficiency 3-13-24, treated with B-complex. Part of OAV/UF Ram Test Katahdin family with Kelsier (OAV 2223) and tag 2241 (deceased). Received from OAV Sam Mushko. Kelsier's sister (100% Katahdin, OAV/Oakvale Farm). Confirmed Pen 5, April 2026. Escaped with Elsie to Pen 6, spent months there. Moved back to Pen 5 this week (late March 2026). Escaped again. Watch closely. CORRECTED 2026-04-26 (owner verbal): 'OAV had no twins this year' \u2014 the 2026-02-10 lambing-record entry was wrong and has been removed. Her prior twins (referenced in NoriSon track record) were from earlier years (2024 lambs by Spotted Katahdin \u00d7 Dorper, born 3-13-24). Did NOT lamb in 2026. | 2026-06-11: KHSI registration FOUND (198290X). Full twin to Kelsier (198291X \u2014 same DOB, NSIP flock, owners). NSIP EBVs captured: WFEC -19.65 (parasite resistant), PWWT rank <5 (top 5%), US Hair Index 100.36 rank <5. | 2026-08-11: ONE of her two 2026 ewe lambs (oav-2222-lamb-1 White-Rust / oav-2222-lamb-2 White-Rust+Black-Dot, both b.2026-04-30, sire nori-son) DIED \u2014 cause: parasites (operator report 2026-08-12). WHICH LAMB PENDING operator confirmation \u2014 neither record marked deceased until identified. Significant breeding datum: these are Kelsier-line (paternal aunt OAV 2222 = Kelsier's sister) \u2014 resistance genetics do not guarantee individual lambs (Mendelian sampling).",
       "confidence": "high",
       "last_verified": "2026-06-11",
       "notes_history": [
@@ -6164,7 +6174,8 @@
           "reason": "initial placement (migrated snapshot; real entry date unknown)",
           "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
         }
-      ]
+      ],
+      "lambing_notes": []
     },
     {
       "id": "tag-31-ewe",
@@ -14687,7 +14698,13 @@
           }
         ],
         "vaccinations": [],
-        "treatments": [],
+        "treatments": [
+          {
+            "date": "2026-08-12",
+            "treatment": "Ivermectin",
+            "notes": "Operator: 'all the animals mentioned got ivermectin.' Applied to surviving lamb of the pair; recorded on BOTH pending identification \u2014 conservative for withdrawal purposes (check label; withdrawal window applies). operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          }
+        ],
         "notes": []
       },
       "notes_history": [
@@ -14705,7 +14722,8 @@
           "reason": "initial placement (migrated snapshot; real entry date unknown)",
           "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
         }
-      ]
+      ],
+      "notes": "2026-08-12: one of this pair died 2026-08-11 (parasites) \u2014 identification pending operator confirmation; treat this record as UNRESOLVED alive/deceased until then."
     },
     {
       "id": "oav-2222-lamb-2",
@@ -14731,7 +14749,13 @@
           }
         ],
         "vaccinations": [],
-        "treatments": [],
+        "treatments": [
+          {
+            "date": "2026-08-12",
+            "treatment": "Ivermectin",
+            "notes": "Operator: 'all the animals mentioned got ivermectin.' Applied to surviving lamb of the pair; recorded on BOTH pending identification \u2014 conservative for withdrawal purposes (check label; withdrawal window applies). operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          }
+        ],
         "notes": []
       },
       "twin_of": "oav-2222-lamb-1",
@@ -14750,7 +14774,8 @@
           "reason": "initial placement (migrated snapshot; real entry date unknown)",
           "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
         }
-      ]
+      ],
+      "notes": "2026-08-12: one of this pair died 2026-08-11 (parasites) \u2014 identification pending operator confirmation; treat this record as UNRESOLVED alive/deceased until then."
     },
     {
       "id": "lara-2026-lamb",
@@ -14787,7 +14812,13 @@
         "famacha_scores": [],
         "famacha_history": [],
         "weak_resistance": false,
-        "treatments": [],
+        "treatments": [
+          {
+            "date": "2026-08-12",
+            "treatment": "Ivermectin",
+            "notes": "Significant parasite troubles (operator report; FAMACHA/FEC numbers to follow). Withdrawal window applies \u2014 check label. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          }
+        ],
         "vaccinations": [],
         "notes": [
           {
@@ -14896,7 +14927,13 @@
         "famacha_scores": [],
         "famacha_history": [],
         "weak_resistance": false,
-        "treatments": [],
+        "treatments": [
+          {
+            "date": "2026-08-12",
+            "treatment": "Ivermectin",
+            "notes": "Significant parasite troubles (operator report; FAMACHA/FEC numbers to follow). Withdrawal window applies \u2014 check label. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          }
+        ],
         "vaccinations": [],
         "notes": [
           {
@@ -27589,6 +27626,18 @@
         "SIXTEEN TONS JM 8-16",
         "THOR OLYMPUS POY 61"
       ]
+    },
+    {
+      "date": "2026-08-12",
+      "issue": "Unidentified BLACK LAMB called 'Tinker' (operator's mom's name for it) \u2014 significant parasite troubles; received Ivermectin on/about 2026-08-11/12.",
+      "context": "No animal in DB matches alias 'Tinker' (searched ids, names, aliases). Needs tag/pen from operator, then: add alias, backfill this treatment + a health event onto the right record.",
+      "status": "pending_identification"
+    },
+    {
+      "date": "2026-08-12",
+      "issue": "'Gigi's sister' \u2014 solidly MID FAMACHA (\u22483, estimate from operator's verbal description) and received Ivermectin on/about 2026-08-11/12.",
+      "context": "Gigi matched to GG (gg), but GG has no recorded sister in the DB. (If 'Gigi' instead meant gigi-2026-baby, her noted 'sister' baby-azure is deceased 2026-06.) Identity pending operator; then backfill FAMACHA entry + treatment.",
+      "status": "pending_identification"
     }
   ],
   "breeding_plans": [
