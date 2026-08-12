@@ -133,7 +133,20 @@ attestation gate exists only in OCS while this repo now carries family and opera
 holds 34 MCS ids with tracked pointers and no checker guards it; OCS's concept-ledger-check
 covers only its own 8 ledgers. (5) **`mcs-health-record-validation` (P2)** — the completed
 P0.x/P1.x validator battery predates the health-record era (treatments, drug_reference,
-withdrawal_watch, anomalies are all unvalidated surfaces). **Also confirmed properly covered:**
+withdrawal_watch, anomalies are all unvalidated surfaces). **16-repo extension (same day, operator: "Factor in all 16 repos"):** the same measurement run
+across every local household repo. Dangerous-command guard: **4/16** have it (OCS, Archive,
+InTheWake, Project-Sophos) — 12 repos' CLAUDE.md enforcement claims are words. `core.hooksPath`
+armed: **1/16** (OCS only) — every other repo's `.githooks` chain is dead in git; 4 repos have no
+`.githooks` at all. Reasoning-log hooks: 7 missing. Dispatch shim: 6 missing. Privacy attestation:
+OCS-only, 15 private repos push ungated. **Reverse finding:** the prompt-injection guard is
+missing in 6 *including open-claw-stuff itself* — the recipes/sheep repos are AHEAD of canonical
+there (UL-222, now measured). The one protection at 16/16: the memory hook pair. Six household
+tasks registered under OCS: `hh-dangerous-command-guard-parity` (P1), `hh-hookspath-arming-parity`
+(P1), `hh-reasoning-log-parity`, `hh-dispatch-shim-completion`, `hh-prompt-injection-guard-parity`,
+`hh-privacy-attestation-parity` (P2s). Each rollout is a Layer-3 harness change per repo — 
+commitments registered here, execution deliberately per-repo, never a blind copy loop.
+
+**Also confirmed properly covered:**
 MCS-9's remaining dimensions (weight/breeding-group) already live in registered tasks; the
 household-side single-repo-hardening pattern is the known UL-222..224 class, not re-rowed here.
 
