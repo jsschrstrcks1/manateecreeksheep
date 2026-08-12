@@ -25,6 +25,28 @@ Ids are repo-local (`MCS-NNN`), distinct from the household `UL-NNN` spine in `o
 | MCS-11 | **The reminder and the record are ONE object — a log's `pending`→`done` status** | In farmOS every log carries a **status: pending / done / abandoned** and a timestamp that can be in the future. That collapses a distinction we were about to build twice: a "recheck FAMACHA on the 20th" **reminder** (MCS-1/MCS-2) and the FAMACHA **observation record** are not two things — they are *one log*, created `pending` with a future date, then flipped to `done` when the check happens (carrying its FAMACHA/FEC quantities). The "what's overdue" triage (MCS-3) becomes simply *pending logs whose date has passed*; the weather signal (MCS-1) just moves a pending log's date earlier. One primitive — a dated, status-bearing log — underpins reminders, the worklist, and the historical record at once, instead of a separate reminders table that can drift out of sync with what was actually done. Data-model refinement of MCS-1/2/3 (GPL-2 source, concept only). | `candidate` |
 | MCS-12 | **One `quantity` abstraction for every measurement — value + unit + measure + label** | farmOS attaches **Quantities** to logs as a uniform structure (a numeric value, a unit, a "measure" e.g. weight/count/ratio, and a label) rather than a bespoke database column per metric. Everything a shepherd measures fits the same shape: **body weight** (value+kg), **FAMACHA score** (1–5, a rating), **FEC/OPG egg count** (count per gram), **body condition score**, **temperature**. The benefit is that new measurements don't need schema changes, and trends/charts/alerts can be written *once* against "quantities of measure X" instead of per-field. Directly supports MCS-3's composite attention score (it reads several quantities) and MCS-8's FAMACHA+FEC pairing (two quantities on one observation log). Data-model concept from a GPL-2 platform; shape only, no code. | `candidate` |
 
+| MCS-13 | **Per-animal economic lifecycle — cost basis in, proceeds out, profit per genetics** | `DigiBanks99/livestock-tracker` (C#/.NET + Angular, **no license → all-rights-reserved, concept only, no code**) records on each animal a full money+lifecycle spine we don't yet keep: `PurchaseDate`+`PurchasePrice`, `SellDate`+`SellPrice`, `ArrivalWeight`, `BirthDate`, `DateOfDeath`. For a *meat* operation this closes a real loop: cost basis (purchase price + accumulated feed/medical inputs) vs. sale proceeds = **profit per animal**, and paired with a weight log (MCS-9 extended to weight), **cost-of-gain** and days-to-market. The selection payoff is the point — the flock goal is "hardy, hairy, **meaty**, parasite-resistant," and this lets "which genetics actually pay" become a measured selection signal instead of a hunch, tying breeding decisions to the operation's economics. New dimension (not a reframe of an existing row). Candidate — Ken's call whether the flock is bought-in enough for purchase-side tracking to earn its keep, or whether it's mostly sell-side + input costs. | `candidate` |
+
+**DigiBanks99/livestock-tracker evaluation (2026-08-12):** C#/.NET + Angular/NgRx, ~13★, long-
+lived (2018→2026), **no license file → all-rights-reserved by default; concepts only, no code
+taken** (its stack is not ours regardless). Its architecture *independently confirms* the MCS-9
+lift: every dimension is a per-animal **transaction log** — `WeightTransactions[]`,
+`MedicalTransactions[]`, `FeedingTransactions[]` hang off the `Animal`, exactly the append-only
+event shape farmOS uses and we just adopted for pen. Two reinforcements, one new find, one minor
+idea:
+- **Reinforces MCS-9 → weight:** weight is a `WeightTransaction` log here, not a scalar — direct
+  support for extending our movement-log treatment to the weight/measurements dimension next
+  (our `measurements{}` is still a single overwrite; see MCS-9's "still a scalar" row).
+- **Reinforces MCS-12:** both `MedicalTransaction.Dose` and `FeedingTransaction.Quantity` carry a
+  shared `UnitId` → `Unit` reference — the uniform value+unit shape MCS-12 proposes. Also notes
+  that a medical record should capture **dose + unit** (pairs with MCS-7 withdrawal tracking).
+- **NEW (MCS-13):** the purchase/sell price + date lifecycle above — genuinely absent from our model.
+- **Minor idea (not ledgered separately):** the app's validations **freeze a sold/deceased
+  animal's record** (reject edits after a terminal state). A modest "terminal-state guard" for our
+  DB — e.g. reject a movement or measurement dated after `DateOfDeath` — would have flagged
+  exactly the baby-azure staleness from a different angle. Folds into the MCS-9 validation family;
+  noted here rather than promoted. **No upstream code taken.**
+
 **farmOS evaluation (2026-08-12):** `farmOS/farmOS` (GPL-2.0, PHP/Drupal, ~1,335★, active
 since 2014; topics incl. `livestock`). Reviewed at the operator's request. This is the
 strongest external source seen so far — not a toy or a lookalike but the **mature reference
