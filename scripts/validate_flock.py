@@ -13,9 +13,14 @@ Checks:
 
 import json
 import math
+import os
 import sys
 from pathlib import Path
 from collections import Counter
+
+# Ensure scripts/ is importable so `lib.pen_history` resolves whether this file is run
+# directly (python3 scripts/validate_flock.py) or loaded via importlib by the test harness.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 REPO_ROOT = Path(__file__).parent.parent
 DB_PATH = REPO_ROOT / "data" / "flock_database.json"
@@ -181,6 +186,72 @@ def validate_pen_assignments(db):
     return warnings
 
 
+def validate_pen_movements(db):
+    """MCS-9 invariant: the scalar `pen` must equal the pen DERIVED from the movement log.
+
+    The movement log (sheep["movements"]) is the source of truth; the scalar `pen` is a
+    derived mirror every Sheets/web consumer reads. If they disagree, the mirror has been
+    hand-edited out from under the log (or the migration was skipped) — that silent drift
+    is exactly what MCS-9 exists to prevent, so it is an ERROR, not a warning.
+
+    Also warns (does not error) on movement-shape problems: a movement missing `to`, or
+    non-null dates that run backwards (array order is truth, but out-of-order dates signal
+    a log appended wrongly and worth a human glance).
+    """
+    from lib.pen_history import current_pen
+
+    issues = []
+    for s in db.get("sheep", []):
+        sid = s.get("id", "UNKNOWN")
+        moves = s.get("movements")
+        if moves is None:
+            # Pre-migration record; other checks still run. Flag once, softly.
+            issues.append(f"WARNING [{sid}]: no 'movements' log (run migrate_pen_to_movements.py)")
+            continue
+        derived = current_pen(s)
+        scalar = s.get("pen") or None
+        if derived != scalar:
+            issues.append(
+                f"ERROR [{sid}]: pen drift — scalar pen={scalar!r} but movement log derives {derived!r}"
+            )
+        last_date = None
+        for i, m in enumerate(moves):
+            to_val = m.get("to")
+            to_empty = not (to_val.strip() if isinstance(to_val, str) else to_val)
+            # A null/empty `to` means "left all pens" — legitimate only as the LAST move.
+            if to_empty and i != len(moves) - 1:
+                issues.append(f"WARNING [{sid}]: movement {i} has empty 'to' but is not the last move")
+            d = m.get("date")
+            if d and last_date and d < last_date:
+                issues.append(
+                    f"WARNING [{sid}]: movement dates out of order ({last_date} then {d}); array order used as truth"
+                )
+            if d:
+                last_date = d
+
+    # Roster projection: the hand-maintained pens{} rosters should equal the membership
+    # DERIVED from the logs. Where they disagree, the hand roster has drifted (commonly a
+    # deceased/sold animal never removed) — a WARNING, since the log is now authoritative and
+    # the roster is the legacy copy being retired. This is the check that first caught
+    # baby-azure (deceased, still listed in Pen 2's members) — see docs/UPGRADE-LEDGER.md MCS-9.
+    from lib.pen_history import derive_rosters
+    derived = derive_rosters(db)
+    sheep_map = {s.get("id"): s for s in db.get("sheep", [])}
+    for pkey, info in db.get("pens", {}).items():
+        disp = info.get("display_name", pkey)
+        roster_ids = set()
+        for role in ("rams", "ewes", "lambs", "members"):
+            roster_ids.update(info.get(role, []) or [])
+        for mid in roster_ids:
+            where = current_pen(sheep_map[mid]) if mid in sheep_map else "<unknown id>"
+            if where != disp:
+                st = sheep_map.get(mid, {}).get("status", "?")
+                issues.append(
+                    f"WARNING [{disp}]: roster lists '{mid}' (status={st}) but its movement log places it in {where!r}"
+                )
+    return issues
+
+
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".JPG", ".JPEG", ".PNG"}
 
 
@@ -256,6 +327,7 @@ def main():
         all_issues.extend(validate_references(sheep_list))
         all_issues.extend(validate_tag_uniqueness(sheep_list))
         all_issues.extend(validate_pen_assignments(db))
+        all_issues.extend(validate_pen_movements(db))
 
     errors = [i for i in all_issues if i.startswith("ERROR")]
     warnings = [i for i in all_issues if i.startswith("WARNING")]

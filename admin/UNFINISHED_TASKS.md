@@ -68,3 +68,6 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 
 <!-- library register 2026-08-12T02:12:32.803Z -->
 | mcs-working-the-flock-batch-session | 2 | Working-the-flock batch session — run the whole flock through the chute in one pass, ticking per-animal actions (wormer/vaccine/weight/blood/drug/trim-toes/shear/weaned) instead of per-record forms (concept from LambTracker GroupSheepManagement, GPL-2 — design only) |
+
+<!-- library register 2026-08-12T02:54:21.538Z -->
+| mcs-pen-movement-log-derived-state | 1 | MCS-9: pen as append-only movement log, current pen DERIVED (farmOS concept, no code) — movements[] source of truth, scalar pen mirrored, drift+roster validation, migration seeded 51/276; surfaced baby-azure stale-roster drift |
