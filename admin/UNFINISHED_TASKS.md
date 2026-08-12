@@ -56,3 +56,15 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 
 <!-- library register 2026-07-16T00:09:47.255Z -->
 | mcs-validator-percentage-value-nan | 1 | Cross-review 2026-07-16: manateecreeksheep validator NaN hole one field over — sibling fixed unknown_percentage NaN but a NaN in a percentages VALUE still silently disabled the breed-sum guard (abs(NaN-100)>2 is False; json.load accepts NaN). FIXED: guard the total via math.isfinite. Regression pins added. |
+
+<!-- library register 2026-08-12T02:10:35.610Z -->
+| mcs-drug-withdrawal-tracking | 1 | MCS-7 (from LambTracker, GPL-2, concept only): per-drug meat/milk WITHDRAWAL tracking with 'not safe until <date>' alerts. When an animal is treated, record the drug's withdrawal interval and flag the animal as not-safe-to-slaughter / milk-not-saleable until the window clears, so a treated animal can't be sold to slaughter or its milk marketed by mistake. Food-safety essential for a meat/parasite flock. Store withdrawal period per drug in the drug table; compute per-animal clear-date on treatment; surface it on the animal record and in any 'ready to sell/cull' view. |
+
+<!-- library register 2026-08-12T02:10:36.435Z -->
+| mcs-famacha-fec-combined-decision | 1 | MCS-8 (from FuzzyLogic-VERMIFUGA, concept only): deworming decision reads FAMACHA + FEC TOGETHER, and treats disagreement as a diagnostic signal. Rules: anemic (bad FAMACHA) + LOW egg count -> anemia may NOT be parasites, investigate before dosing; good colour + HIGH egg count -> animal copes but is shedding heavily onto pasture (refugia/contamination consideration). Do not deworm on FAMACHA alone. Sharpens the recheck/treat nudge (see MCS-1): surface the mismatch cases rather than blindly dosing on one number. Grounded in standard integrated parasite management. |
+
+<!-- library register 2026-08-12T02:12:24.521Z -->
+| mcs-eid-visual-dual-identity | 2 | EID + visual dual identity — store both electronic (RFID) and visual tags per animal; either is a valid lookup key so a lost/unreadable tag never orphans an animal's history (concept from OogieM/LambTrackerMobile, GPL-2 — design only) |
+
+<!-- library register 2026-08-12T02:12:32.803Z -->
+| mcs-working-the-flock-batch-session | 2 | Working-the-flock batch session — run the whole flock through the chute in one pass, ticking per-animal actions (wormer/vaccine/weight/blood/drug/trim-toes/shear/weaned) instead of per-record forms (concept from LambTracker GroupSheepManagement, GPL-2 — design only) |
