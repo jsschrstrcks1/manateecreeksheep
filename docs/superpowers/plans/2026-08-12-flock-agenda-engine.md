@@ -453,6 +453,17 @@ MINTS scoped tokens — and the scope model is designed for attenuation from day
   named data dependency, photos currently carry paths, not tags. Filters only ever NARROW a
   scope, never widen it; a minted token's rights are always ≤ the minter's.
 
+**Phase 6 — Ring camera integration (operator directive 2026-08-12).** Measured starting point:
+Ring is ALREADY half-bridged — `crane.mjs:778` (`hhIsInfra`) filters the Hubitat community Ring
+integration's `ring api virtual` device as hidden infrastructure, so the bridge exists while
+camera/doorbell events surface nowhere. Scope: surface Ring motion/doorbell/camera-status events
+from the existing Hubitat bridge into Atlas; give Crane a read-only camera lane with doorbell/
+motion joining the existing attention/danger states (truth-layer law: display, never auto-action).
+Stretch, operator-gated: live video — Ring has no official public API; video means the unofficial
+ring-client-api with token+MFA held in Atlas config, never a repo. Task:
+`atlas-crane-ring-camera-integration` (P2). Not flock-coupled — rides the same Atlas/Crane rails
+as Phases 2-3.
+
 **Explicitly out of scope until their prerequisites exist:** periparturient scheduling (MCS-33 — needs MCS-17's breeding pipeline), HELM involvement (optional weekly brief, later).
 
 ## Self-review notes
