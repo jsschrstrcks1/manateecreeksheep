@@ -608,6 +608,11 @@
             "date": "2026-08-12",
             "treatment": "Ivermectin + Fenbendazole + Prohibit (levamisole)",
             "notes": "Triple-class treatment for FAMACHA-white presentation. Withdrawal windows apply for all three \u2014 check labels (no dosage recorded; not invented). Identity note: operator said 'Gigi' \u2014 matched to GG via her identical Feb-2026 presentation+cocktail; her 2026 lamb gigi-2026-baby was the other candidate. FECRT opportunity: a follow-up FEC in 10-14 days tests all three drug classes at once (see UPGRADE-LEDGER MCS-30). operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          },
+          {
+            "date": "2026-08-12",
+            "treatment": "B-complex 2mL + pig iron 1mL",
+            "notes": "Supportive care alongside today's triple anthelmintic. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "vaccinations": [
@@ -2171,10 +2176,21 @@
             "date": "3-30-26",
             "famacha": 1,
             "notes": "Eyes good. Booster."
+          },
+          {
+            "date": "2026-08-12",
+            "famacha": 3,
+            "notes": "Operator: 'solidly mid famacha' \u2014 recorded as 3, ESTIMATE from verbal description, exact number pending. Identity resolved by operator same day: 'gg sister azure'. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "weak_resistance": true,
-        "treatments": [],
+        "treatments": [
+          {
+            "date": "2026-08-12",
+            "treatment": "Ivermectin",
+            "notes": "Per 'all the animals mentioned got ivermectin'. Explicitly EXCEPTED from the B-complex + pig-iron supportive care given the other adults. Withdrawal window applies \u2014 check label. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          }
+        ],
         "vaccinations": [
           {
             "date": "2026-03-30",
@@ -4766,6 +4782,11 @@
             "treatment": "Vitamin B12 3mL",
             "notes": "Condition bad though eyes good",
             "source": "IMG_0661"
+          },
+          {
+            "date": "2026-08-12",
+            "treatment": "Ivermectin + B-complex 2mL + pig iron 1mL",
+            "notes": "INTERPRETATION: operator's 'all the animals mentioned' (ivermectin) and 'all the adult ones I mentioned' (B+iron) read as including this dam \u2014 operator should correct if she was not treated. Withdrawal applies to the ivermectin \u2014 check label. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "vaccinations": [
@@ -5981,6 +6002,11 @@
           {
             "date": "2024-03-13",
             "treatment": "B-complex (thiamine deficiency)"
+          },
+          {
+            "date": "2026-08-12",
+            "treatment": "Ivermectin + B-complex 2mL + pig iron 1mL",
+            "notes": "INTERPRETATION: operator's 'all the animals mentioned' (ivermectin) and 'all the adult ones I mentioned' (B+iron) read as including this dam \u2014 operator should correct if she was not treated. Withdrawal applies to the ivermectin \u2014 check label. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "vaccinations": [
@@ -14703,6 +14729,11 @@
             "date": "2026-08-12",
             "treatment": "Ivermectin",
             "notes": "Operator: 'all the animals mentioned got ivermectin.' Applied to surviving lamb of the pair; recorded on BOTH pending identification \u2014 conservative for withdrawal purposes (check label; withdrawal window applies). operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          },
+          {
+            "date": "2026-08-12",
+            "treatment": "B-complex 1mL + pig iron 0.5mL",
+            "notes": "Lamb supportive-care dose per operator; applies to the SURVIVING lamb of this pair \u2014 recorded on both pending identification. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "notes": []
@@ -14754,6 +14785,11 @@
             "date": "2026-08-12",
             "treatment": "Ivermectin",
             "notes": "Operator: 'all the animals mentioned got ivermectin.' Applied to surviving lamb of the pair; recorded on BOTH pending identification \u2014 conservative for withdrawal purposes (check label; withdrawal window applies). operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          },
+          {
+            "date": "2026-08-12",
+            "treatment": "B-complex 1mL + pig iron 0.5mL",
+            "notes": "Lamb supportive-care dose per operator; applies to the SURVIVING lamb of this pair \u2014 recorded on both pending identification. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "notes": []
@@ -14817,6 +14853,11 @@
             "date": "2026-08-12",
             "treatment": "Ivermectin",
             "notes": "Significant parasite troubles (operator report; FAMACHA/FEC numbers to follow). Withdrawal window applies \u2014 check label. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          },
+          {
+            "date": "2026-08-12",
+            "treatment": "B-complex 1mL + pig iron 0.5mL",
+            "notes": "Lamb supportive-care dose per operator. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "vaccinations": [],
@@ -14932,6 +14973,11 @@
             "date": "2026-08-12",
             "treatment": "Ivermectin",
             "notes": "Significant parasite troubles (operator report; FAMACHA/FEC numbers to follow). Withdrawal window applies \u2014 check label. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
+          },
+          {
+            "date": "2026-08-12",
+            "treatment": "B-complex 1mL + pig iron 0.5mL",
+            "notes": "Lamb supportive-care dose per operator. operator report 2026-08-12; date approximate (on or about 2026-08-11/12)"
           }
         ],
         "vaccinations": [],
@@ -27629,7 +27675,7 @@
     },
     {
       "date": "2026-08-12",
-      "issue": "Unidentified BLACK LAMB called 'Tinker' (operator's mom's name for it) \u2014 significant parasite troubles; received Ivermectin on/about 2026-08-11/12.",
+      "issue": "Unidentified BLACK LAMB called 'Tinker' (operator's mom's name for it) \u2014 significant parasite troubles; received Ivermectin on/about 2026-08-11/12. Also received lamb supportive-care dose: B-complex 1mL + pig iron 0.5mL.",
       "context": "No animal in DB matches alias 'Tinker' (searched ids, names, aliases). Needs tag/pen from operator, then: add alias, backfill this treatment + a health event onto the right record.",
       "status": "pending_identification"
     },
@@ -27637,7 +27683,8 @@
       "date": "2026-08-12",
       "issue": "'Gigi's sister' \u2014 solidly MID FAMACHA (\u22483, estimate from operator's verbal description) and received Ivermectin on/about 2026-08-11/12.",
       "context": "Gigi matched to GG (gg), but GG has no recorded sister in the DB. (If 'Gigi' instead meant gigi-2026-baby, her noted 'sister' baby-azure is deceased 2026-06.) Identity pending operator; then backfill FAMACHA entry + treatment.",
-      "status": "pending_identification"
+      "status": "resolved",
+      "resolution": "2026-08-12 same-day: operator confirmed 'gg sister azure' \u2014 the sister is Azure (azure). FAMACHA ~3 + Ivermectin recorded on her record; she was excepted from B/iron supportive care."
     }
   ],
   "breeding_plans": [
