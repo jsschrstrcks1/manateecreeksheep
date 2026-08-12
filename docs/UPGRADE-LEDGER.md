@@ -48,6 +48,17 @@ idea:
   exactly the baby-azure staleness from a different angle. Folds into the MCS-9 validation family;
   noted here rather than promoted. **No upstream code taken.**
 
+**`decided-no` (2026-08-12): `Lcry/a-sheep-assistant` — a bot for the mobile GAME "羊了个羊 /
+Sheep a Sheep", not livestock.** Operator flagged it with a China-origin caution. The repo
+(Python, GPL-3.0, ~795★) is an auto-solver — its own description says "羊了个羊助手 … 一键闯关"
+(one-click level-clearing) for the viral tile-matching game 《羊了个羊》. The word "sheep" is the
+game's *name*; there is no animal husbandry here at all. Out under the "**not games**" rule and
+simply off-domain — another coincidental sheep name-collision, like the homesteady lookalikes.
+**Handling of the China caution:** evaluated from repository metadata only — **no clone, no
+execution, no code imported** (mantra + heightened supply-chain wariness); the description's WeChat
+self-promotion was ignored as untrusted marketing, not acted on. Nothing installed; no risk
+realized. Not re-examined.
+
 **Two-repo evaluation (2026-08-12) — one game (rejected), one hackathon dataset:**
 - `DragN0007/Overhauled-Livestock-1.20.1` — **`decided-no`: a Minecraft mod** (Java, Minecraft
   version "1.20.1", author DragN0007 makes "Overhauled Horses/Wolves" Forge mods; description "An
