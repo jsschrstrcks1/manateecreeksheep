@@ -2379,7 +2379,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54; NoriSon = Eclipse, SAME animal — owner confirmed 2026-04-26; sold at auction 2026-04-26, alive at sale). CORRECTED from prior assumption: this note previously listed 'NoriSon and Eclipse' as two lambs with Eclipse 'deceased Hurricane Idalia' — both inaccurate (see nori-son record). In pen 4. Tag 0029 confirmed from notebook card. Pen 3. Single baby (born 1-10-26). Knot under chin noted 2-26-26. Nori is 50pct ABB / 50pct Wiltshire Horn. Charlie bought Nori, bred BHD to her, kept babies, bred those to Katahdin.",
+      "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54; NoriSon = Eclipse, SAME animal \u2014 owner confirmed 2026-04-26; sold at auction 2026-04-26, alive at sale). CORRECTED from prior assumption: this note previously listed 'NoriSon and Eclipse' as two lambs with Eclipse 'deceased Hurricane Idalia' \u2014 both inaccurate (see nori-son record). In pen 4. Tag 0029 confirmed from notebook card. Pen 3. Single baby (born 1-10-26). Knot under chin noted 2-26-26. Nori is 50pct ABB / 50pct Wiltshire Horn. Charlie bought Nori, bred BHD to her, kept babies, bred those to Katahdin.",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "visual_id": {
@@ -14120,8 +14120,8 @@
       "dam_id": "oav-2222",
       "dob": "2026-04-30",
       "dob_confidence": "medium",
-      "status": "alive",
-      "pen": "Pen 5",
+      "status": "deceased",
+      "pen": null,
       "description": "White with rust. No distinguishing mark. Hair coat (per owner observation).",
       "coat_observed": "hair (per owner observation 2026-05-02)",
       "confidence": "medium",
@@ -14144,7 +14144,9 @@
           "note": "Reinstated. Prior session deleted oav-2222-lamb-1/2 records on 2026-04-26 based on then-correct 'OAV had no twins this year' read. She lambed 4-30, AFTER that snapshot. Owner reports hair-coat phenotype on both lambs \u2192 sire most likely NoriSon (=Eclipse merged record), not MC08. Eclipse settled her right before his 4-26-26 auction \u2014 his 'subfertile' record was actually 3 of 5+ ewes, not 1 of 6."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "status_date": null,
+      "notes": "DECEASED per owner 2026-08-18: died during the week of 2026-08-11 to 2026-08-18. Exact date and cause PENDING owner confirmation (recorded from operator statement; no cause guessed)."
     },
     {
       "id": "oav-2222-lamb-2",
@@ -14155,8 +14157,8 @@
       "dam_id": "oav-2222",
       "dob": "2026-04-30",
       "dob_confidence": "medium",
-      "status": "alive",
-      "pen": "Pen 5",
+      "status": "deceased",
+      "pen": null,
       "description": "White with rust. SMALL BLACK DOT (distinguishing mark from her twin sister). Hair coat.",
       "coat_observed": "hair (per owner observation 2026-05-02)",
       "confidence": "medium",
@@ -14180,7 +14182,9 @@
           "note": "Reinstated with twin sister oav-2222-lamb-1. Identifying mark: small black dot. Same parents and DOB."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "status_date": null,
+      "notes": "DECEASED per owner 2026-08-18: died during the week of 2026-08-11 to 2026-08-18. Exact date and cause PENDING owner confirmation (recorded from operator statement; no cause guessed)."
     },
     {
       "id": "lara-2026-lamb",
@@ -14208,10 +14212,10 @@
       "dob_approximate": false,
       "sire_id": "kelsier",
       "dam_id": "lara",
-      "status": "alive",
+      "status": "deceased",
       "status_date": null,
       "status_notes": "Born 2026-05-21. First photographed within hours of birth (umbilical cord still attached).",
-      "pen": "Chicken Coop",
+      "pen": null,
       "measurements": {},
       "health": {
         "famacha_scores": [],
@@ -14241,7 +14245,7 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Born 2026-05-21 (today). Daughter of Lara (BHD) \u00d7 Kelsier (Katahdin, NSIP). Piebald hair lamb \u2014 black face/legs, white body with black patches. Pen 4. PENDING tag/weight at next handling. Re-added 2026-05-21 after the main-merge dropped the original record. | UPDATED 2026-05-21: Lara actually had TWINS (this = EWE twin). Ram twin added as lara-2026-ram-twin. All three (dam + twins) in Pen 1 stall for supplemental grain + hay. Lara low milk (no infection); lambs were skinny, now thriving. | 2026-05-21: On grain since day 3. Functionally hand-raised \u2014 dam Lara nearly dry by day 3-4. No infection.",
+      "notes": "Born 2026-05-21 (today). Daughter of Lara (BHD) \u00d7 Kelsier (Katahdin, NSIP). Piebald hair lamb \u2014 black face/legs, white body with black patches. Pen 4. PENDING tag/weight at next handling. Re-added 2026-05-21 after the main-merge dropped the original record. | UPDATED 2026-05-21: Lara actually had TWINS (this = EWE twin). Ram twin added as lara-2026-ram-twin. All three (dam + twins) in Pen 1 stall for supplemental grain + hay. Lara low milk (no infection); lambs were skinny, now thriving. | 2026-05-21: On grain since day 3. Functionally hand-raised \u2014 dam Lara nearly dry by day 3-4. No infection. | DECEASED per owner 2026-08-18: died during the week of 2026-08-11 to 2026-08-18. Exact date and cause PENDING owner confirmation (recorded from operator statement; no cause guessed).",
       "confidence": "high",
       "last_verified": "2026-05-21",
       "visual_id": {
