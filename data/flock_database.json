@@ -254,55 +254,55 @@
             "date": "2023-02-18",
             "score": "1-2",
             "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
+            "notes": "Derived from FEC < anemia threshold"
           },
           {
             "date": "2023-04-06",
             "score": "1-2",
             "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
+            "notes": "Derived from FEC < anemia threshold"
           },
           {
             "date": "2023-05-25",
             "score": "1-2",
             "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
+            "notes": "Derived from FEC < anemia threshold"
           },
           {
             "date": "2023-06-15",
             "score": "1-2",
             "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
+            "notes": "Derived from FEC < anemia threshold"
           },
           {
             "date": "2023-06-29",
             "score": "1-2",
             "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
+            "notes": "Derived from FEC < anemia threshold"
           },
           {
             "date": "2023-07-13",
             "score": "1-2",
             "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
+            "notes": "Derived from FEC < anemia threshold"
           },
           {
             "date": "2023-07-27",
             "score": "1-2",
             "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
+            "notes": "Derived from FEC < anemia threshold"
           },
           {
             "date": "2023-08-10",
             "score": "1-2",
             "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
+            "notes": "Derived from FEC < anemia threshold"
           },
           {
             "date": "2023-08-24",
             "score": "1-2",
             "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
+            "notes": "Derived from FEC < anemia threshold"
           }
         ]
       },
@@ -555,28 +555,28 @@
         "famacha_scores": [
           {
             "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-20-26",
-            "famacha": 5,
-            "notes": "Eyes almost white. Ivermectin+Fenbendazole+VB 3mL+2mL Iron"
+            "notes": "Eyes almost white. Ivermectin+Fenbendazole+VB 3mL+2mL Iron",
+            "score": 5
           },
           {
             "date": "2-27-26",
-            "famacha": 5,
-            "notes": "Eyes almost white. Ivermectin+Fenbendazole+VB 3mL+3mL Iron"
+            "notes": "Eyes almost white. Ivermectin+Fenbendazole+VB 3mL+3mL Iron",
+            "score": 5
           },
           {
             "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "notes": "CDT shot. Eyes good.",
+            "score": 1
           },
           {
             "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           }
         ],
         "weak_resistance": true,
@@ -758,8 +758,8 @@
         "famacha_scores": [
           {
             "date": "2-16-26",
-            "famacha": 1,
-            "notes": "Eyes good."
+            "notes": "Eyes good.",
+            "score": 1
           },
           {
             "date": "3-13-26",
@@ -2104,18 +2104,18 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Eyes good. Booster."
+            "notes": "Eyes good. Booster.",
+            "score": 1
           }
         ],
         "weak_resistance": true,
@@ -2446,18 +2446,18 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "notes": "CDT shot. Eyes good.",
+            "score": 1
           }
         ],
         "weak_resistance": false,
@@ -2703,18 +2703,18 @@
         "famacha_scores": [
           {
             "date": "2-12-26",
-            "famacha": 3.5,
-            "notes": "Eyes 3-4ish"
+            "notes": "Eyes 3-4ish",
+            "score": 3.5
           },
           {
             "date": "2-20-26",
-            "famacha": 3,
-            "notes": "Eyes good 3ish"
+            "notes": "Eyes good 3ish",
+            "score": 3
           },
           {
             "date": "2-27-26",
-            "famacha": 3,
-            "notes": "Eyes good 3. Skinny. VB12 3mL"
+            "notes": "Eyes good 3. Skinny. VB12 3mL",
+            "score": 3
           },
           {
             "date": "3-9-26",
@@ -2722,8 +2722,8 @@
           },
           {
             "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           }
         ],
         "weak_resistance": false,
@@ -3369,13 +3369,13 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-9-26",
@@ -3383,8 +3383,8 @@
           },
           {
             "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           }
         ],
         "weak_resistance": false,
@@ -3818,13 +3818,13 @@
         "famacha_scores": [
           {
             "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good. No babies."
+            "notes": "Eyes good. No babies.",
+            "score": 1
           },
           {
             "date": "2-20-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-9-26",
@@ -3832,8 +3832,8 @@
           },
           {
             "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           }
         ],
         "weak_resistance": true,
@@ -4573,28 +4573,28 @@
           },
           {
             "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good. No babies."
+            "notes": "Eyes good. No babies.",
+            "score": 1
           },
           {
             "date": "2-20-26",
-            "famacha": 3,
-            "notes": "Eyes borderline"
+            "notes": "Eyes borderline",
+            "score": 3
           },
           {
             "date": "2-27-26",
-            "famacha": 3,
-            "notes": "Eyes borderline. VB shot."
+            "notes": "Eyes borderline. VB shot.",
+            "score": 3
           },
           {
             "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "notes": "CDT shot. Eyes good.",
+            "score": 1
           },
           {
             "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good. CONDITION BAD. Vitamin B12 3mL."
+            "notes": "Eyes good. CONDITION BAD. Vitamin B12 3mL.",
+            "score": 1
           }
         ],
         "weak_resistance": true,
@@ -7117,8 +7117,8 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-10-26",
@@ -7126,8 +7126,8 @@
           },
           {
             "date": "4-11-26",
-            "famacha": 1,
-            "notes": "Good eyes. Tagged. Booster."
+            "notes": "Good eyes. Tagged. Booster.",
+            "score": 1
           }
         ],
         "weak_resistance": false,
@@ -8981,8 +8981,8 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           }
         ],
         "notes": [
@@ -9126,18 +9126,18 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good. 1st CDT 5mL. 7.38 weeks old."
+            "notes": "Eyes good. 1st CDT 5mL. 7.38 weeks old.",
+            "score": 1
           },
           {
             "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Booster. Tag. Eyes good."
+            "notes": "Booster. Tag. Eyes good.",
+            "score": 1
           }
         ],
         "notes": [
@@ -9271,23 +9271,23 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-19-26",
-            "famacha": 1,
-            "notes": "1st 5mL CDT. 5.26 weeks old."
+            "notes": "1st 5mL CDT. 5.26 weeks old.",
+            "score": 1
           },
           {
             "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Booster. Tag. Eyes good."
+            "notes": "Booster. Tag. Eyes good.",
+            "score": 1
           },
           {
             "date": "4-1-26",
-            "famacha": 5,
-            "notes": "FAMACHA 5 \u2014 treated with Ivermectin+Fenbendazole+Iron+B12+Nutridrench."
+            "notes": "FAMACHA 5 \u2014 treated with Ivermectin+Fenbendazole+Iron+B12+Nutridrench.",
+            "score": 5
           }
         ],
         "notes": [
@@ -9389,18 +9389,18 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Eyes good. Booster."
+            "notes": "Eyes good. Booster.",
+            "score": 1
           }
         ],
         "vaccinations": [
@@ -9502,18 +9502,18 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-19-26",
-            "famacha": 1,
-            "notes": "1st 5mL CDT. 7 weeks."
+            "notes": "1st 5mL CDT. 7 weeks.",
+            "score": 1
           },
           {
             "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Booster. Tag. Eyes good."
+            "notes": "Booster. Tag. Eyes good.",
+            "score": 1
           }
         ],
         "notes": [
@@ -9618,18 +9618,18 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-19-26",
-            "famacha": 1,
-            "notes": "1st CDT 5mL. 7 weeks old."
+            "notes": "1st CDT 5mL. 7 weeks old.",
+            "score": 1
           },
           {
             "date": "3-30-26",
-            "famacha": 4,
-            "notes": "Eyes NOT GOOD. VB + Iron shot. Ivermectin. Booster + tag."
+            "notes": "Eyes NOT GOOD. VB + Iron shot. Ivermectin. Booster + tag.",
+            "score": 4
           }
         ],
         "treatments": [
@@ -9740,18 +9740,18 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good. Trimmed poop off butt."
+            "notes": "Eyes good. Trimmed poop off butt.",
+            "score": 1
           },
           {
             "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Booster. Eyes good."
+            "notes": "Booster. Eyes good.",
+            "score": 1
           }
         ],
         "vaccinations": [
@@ -9854,18 +9854,18 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "4-30-26",
-            "famacha": 1,
-            "notes": "Booster. Eyes good."
+            "notes": "Booster. Eyes good.",
+            "score": 1
           }
         ],
         "vaccinations": [
@@ -9953,8 +9953,8 @@
         "famacha_scores": [
           {
             "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good. No babies. In Pen 2."
+            "notes": "Eyes good. No babies. In Pen 2.",
+            "score": 1
           },
           {
             "date": "3-13-26",
@@ -10100,8 +10100,8 @@
         "famacha_scores": [
           {
             "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes very good. No babies."
+            "notes": "Eyes very good. No babies.",
+            "score": 1
           },
           {
             "date": "3-13-26",
@@ -10113,8 +10113,8 @@
           },
           {
             "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Eyes good."
+            "notes": "Eyes good.",
+            "score": 1
           }
         ],
         "notes": [
@@ -10258,13 +10258,13 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Good eyes. Hard bump on left jaw."
+            "notes": "Good eyes. Hard bump on left jaw.",
+            "score": 1
           },
           {
             "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good. Soft bump still."
+            "notes": "Eyes good. Soft bump still.",
+            "score": 1
           },
           {
             "date": "2-27-26",
@@ -10280,13 +10280,13 @@
           },
           {
             "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT. Chin good."
+            "notes": "CDT. Chin good.",
+            "score": 1
           },
           {
             "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Eyes good."
+            "notes": "Eyes good.",
+            "score": 1
           }
         ],
         "notes": [
@@ -10404,13 +10404,13 @@
         "famacha_scores": [
           {
             "date": "1-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-8-26",
@@ -10418,8 +10418,8 @@
           },
           {
             "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           }
         ],
         "treatments": [],
@@ -10531,8 +10531,8 @@
         "famacha_scores": [
           {
             "date": "1-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-20-26",
@@ -10540,8 +10540,8 @@
           },
           {
             "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-8-26",
@@ -10549,8 +10549,8 @@
           },
           {
             "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Booster. Eyes good."
+            "notes": "Booster. Eyes good.",
+            "score": 1
           }
         ],
         "notes": [
@@ -10664,13 +10664,13 @@
           },
           {
             "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "notes": "CDT shot. Eyes good.",
+            "score": 1
           },
           {
             "date": "4-9-26",
-            "famacha": 5,
-            "notes": "EYES WHITE. 1cc Iron, 1.5cc VB shot, Ivermectin. Booster."
+            "notes": "EYES WHITE. 1cc Iron, 1.5cc VB shot, Ivermectin. Booster.",
+            "score": 5
           }
         ],
         "treatments": [
@@ -10908,8 +10908,8 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-20-26",
@@ -10917,18 +10917,18 @@
           },
           {
             "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "notes": "CDT shot. Eyes good.",
+            "score": 1
           },
           {
             "date": "4-9-26",
-            "famacha": 3,
-            "notes": "Booster. Eyes med."
+            "notes": "Booster. Eyes med.",
+            "score": 3
           }
         ],
         "notes": [
@@ -11041,13 +11041,13 @@
         "famacha_scores": [
           {
             "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-20-26",
-            "famacha": 1,
-            "notes": "5.2 weeks old. Eyes good"
+            "notes": "5.2 weeks old. Eyes good",
+            "score": 1
           },
           {
             "date": "3-9-26",
@@ -11055,8 +11055,8 @@
           },
           {
             "date": "4-10-26",
-            "famacha": 3,
-            "notes": "Eyes medium. Booster."
+            "notes": "Eyes medium. Booster.",
+            "score": 3
           }
         ],
         "notes": [
@@ -11304,18 +11304,18 @@
         "famacha_scores": [
           {
             "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good. No babies."
+            "notes": "Eyes good. No babies.",
+            "score": 1
           },
           {
             "date": "2-20-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-27-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "3-9-26",
@@ -11323,8 +11323,8 @@
           },
           {
             "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           }
         ],
         "treatments": [],
@@ -11449,22 +11449,22 @@
         "famacha_scores": [
           {
             "date": "2-12-26",
-            "famacha": 3
+            "score": 3
           },
           {
             "date": "2-20-26",
-            "famacha": 5,
-            "notes": "Eyes bad. 0.5mL Iron, Ivermectin + Fenbendazole"
+            "notes": "Eyes bad. 0.5mL Iron, Ivermectin + Fenbendazole",
+            "score": 5
           },
           {
             "date": "2-27-26",
-            "famacha": 2,
-            "notes": "Eyes better"
+            "notes": "Eyes better",
+            "score": 2
           },
           {
             "date": "4-10-26",
-            "famacha": 5,
-            "notes": "Eyes white. 0.5 Iron, 1mL Vit B12. CDT Booster."
+            "notes": "Eyes white. 0.5 Iron, 1mL Vit B12. CDT Booster.",
+            "score": 5
           }
         ],
         "notes": [
@@ -11634,18 +11634,18 @@
         "famacha_scores": [
           {
             "date": "2-12-26",
-            "famacha": 5,
-            "notes": "Eyes white. Ivermectin+Fenbendazole+0.25Iron+VB 1mL"
+            "notes": "Eyes white. Ivermectin+Fenbendazole+0.25Iron+VB 1mL",
+            "score": 5
           },
           {
             "date": "2-20-26",
-            "famacha": 3,
-            "notes": "Eyes NOT white. More treatment. Ivermectin+1mL VB"
+            "notes": "Eyes NOT white. More treatment. Ivermectin+1mL VB",
+            "score": 3
           },
           {
             "date": "4-10-26",
-            "famacha": 5,
-            "notes": "Eyes almost white. Fenbendazole+Ivermectin+3mL Iron+4mL VitB. Booster."
+            "notes": "Eyes almost white. Fenbendazole+Ivermectin+3mL Iron+4mL VitB. Booster.",
+            "score": 5
           }
         ],
         "notes": [
@@ -13354,8 +13354,8 @@
         "famacha_scores": [
           {
             "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "notes": "Eyes good",
+            "score": 1
           },
           {
             "date": "2-20-26",
@@ -13367,8 +13367,8 @@
           },
           {
             "date": "4-11-26",
-            "famacha": 1,
-            "notes": "Booster + tag. Good eyes."
+            "notes": "Booster + tag. Good eyes.",
+            "score": 1
           }
         ],
         "notes": [
@@ -13476,8 +13476,8 @@
           },
           {
             "date": "4-11-26",
-            "famacha": 1,
-            "notes": "Good eyes. Tagged. Booster."
+            "notes": "Good eyes. Tagged. Booster.",
+            "score": 1
           }
         ],
         "notes": [
@@ -13620,8 +13620,8 @@
         "famacha_scores": [
           {
             "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Checked eyes good. 1st CDT shot."
+            "notes": "Checked eyes good. 1st CDT shot.",
+            "score": 1
           }
         ],
         "weak_resistance": false,

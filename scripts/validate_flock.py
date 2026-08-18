@@ -181,6 +181,109 @@ def validate_pen_assignments(db):
     return warnings
 
 
+def validate_famacha_keys(sheep_list):
+    """Regression guard for the 2026-08-18 key normalization (mcs-famacha-schema-normalization).
+
+    Canonical spellings: `score` in famacha_scores/famacha_history, `notes` for note text.
+    Before the migration, 89 entries used `famacha` and 9 used `note`, and every consumer
+    that read one spelling silently dropped the other — the agenda-engine plan had to be
+    patched to dual-read. Post-migration these are ERRORS so the split cannot regrow.
+    """
+    errors = []
+    for sheep in sheep_list:
+        h = sheep.get("health") or {}
+        for e in h.get("famacha_scores") or []:
+            if isinstance(e, dict) and "famacha" in e:
+                errors.append(f"ERROR [{sheep['id']}]: famacha_scores entry uses legacy key "
+                              f"'famacha' (canonical: 'score') — run scripts/migrate_famacha_keys.py")
+        for e in h.get("famacha_history") or []:
+            if isinstance(e, dict) and "note" in e:
+                errors.append(f"ERROR [{sheep['id']}]: famacha_history entry uses legacy key "
+                              f"'note' (canonical: 'notes') — run scripts/migrate_famacha_keys.py")
+    return errors
+
+
+# Bulk-cleanup placeholder dates — NOT real event dates (operator directive, memory 19fdb7dd):
+# records carrying them need the real date and cause from the owner.
+SUSPECT_STATUS_DATES = {"2026-04-02", "2026-04-06"}
+
+
+def validate_data_hygiene(sheep_list):
+    """Surface the defect classes the 2026-08-18 audit proved invisible (mcs-health-record-validation).
+
+    These are AGGREGATE warnings by design: 94 alive-no-pen records as one line each would
+    bury every other finding, and the data is legitimately pending owner input — the job here
+    is that a clean-looking run can never again hide them. --strict still promotes them.
+    """
+    warnings = []
+    alive = [s for s in sheep_list if s.get("status") == "alive"]
+
+    no_pen = [s["id"] for s in alive if not s.get("pen")]
+    if no_pen:
+        warnings.append(f"WARNING: {len(no_pen)}/{len(alive)} alive sheep have no pen recorded "
+                        f"(first few: {no_pen[:5]}) — pending owner pen census")
+
+    suspect = [(s["id"], s.get("status")) for s in sheep_list
+               if s.get("status_date") in SUSPECT_STATUS_DATES]
+    if suspect:
+        alive_suspect = [i for i, st in suspect if st == "alive"]
+        warnings.append(f"WARNING: {len(suspect)} records carry bulk-cleanup placeholder "
+                        f"status_dates {sorted(SUSPECT_STATUS_DATES)} — these are NOT real event "
+                        f"dates; ask the owner (on alive records: {alive_suspect or 'none'})")
+
+    unclear = sum(json.dumps(s).count("[UNCLEAR]") for s in sheep_list)
+    if unclear:
+        warnings.append(f"WARNING: {unclear} [UNCLEAR] markers in sheep records — pending owner")
+
+    scoreless = [s["id"] for s in sheep_list
+                 for e in ((s.get("health") or {}).get("famacha_scores") or [])
+                 if isinstance(e, dict) and "score" not in e]
+    if scoreless:
+        warnings.append(f"WARNING: {len(scoreless)} famacha_scores entries have no score at all "
+                        f"(general health notes living in the FAMACHA list — candidates to move "
+                        f"to data/health_events.jsonl)")
+
+    return warnings
+
+
+HEALTH_EVENTS_PATH = REPO_ROOT / "data" / "health_events.jsonl"
+VALID_EVENT_TYPES = ["famacha", "treatment", "planned_treatment", "vaccination", "death",
+                     "birth", "injury", "illness", "observation", "weight", "note"]
+
+
+def validate_health_events(sheep_list):
+    """Cross-check data/health_events.jsonl against the flock DB (MCS-26).
+
+    Every line must parse, carry the required fields, use a known type, and name an
+    animal that exists. A log whose animal_ids drift from the DB is worse than no log.
+    """
+    issues = []
+    if not HEALTH_EVENTS_PATH.exists():
+        return issues
+    sheep_ids = {s["id"] for s in sheep_list}
+    seen_ids = set()
+    for n, line in enumerate(HEALTH_EVENTS_PATH.read_text().splitlines(), 1):
+        if not line.strip():
+            continue
+        try:
+            e = json.loads(line)
+        except json.JSONDecodeError as ex:
+            issues.append(f"ERROR [health_events:{n}]: unparseable line ({ex})")
+            continue
+        for field in ("event_id", "animal_id", "type", "date", "source", "recorded_at"):
+            if not e.get(field):
+                issues.append(f"ERROR [health_events:{n}]: missing field '{field}'")
+        if e.get("type") and e["type"] not in VALID_EVENT_TYPES:
+            issues.append(f"ERROR [health_events:{n}]: unknown type '{e['type']}'")
+        if e.get("event_id"):
+            if e["event_id"] in seen_ids:
+                issues.append(f"ERROR [health_events:{n}]: duplicate event_id '{e['event_id']}'")
+            seen_ids.add(e["event_id"])
+        if e.get("animal_id") and e["animal_id"] not in sheep_ids:
+            issues.append(f"ERROR [health_events:{n}]: animal_id '{e['animal_id']}' not in flock DB")
+    return issues
+
+
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".JPG", ".JPEG", ".PNG"}
 
 
@@ -256,6 +359,9 @@ def main():
         all_issues.extend(validate_references(sheep_list))
         all_issues.extend(validate_tag_uniqueness(sheep_list))
         all_issues.extend(validate_pen_assignments(db))
+        all_issues.extend(validate_famacha_keys(sheep_list))
+        all_issues.extend(validate_data_hygiene(sheep_list))
+        all_issues.extend(validate_health_events(sheep_list))
 
     errors = [i for i in all_issues if i.startswith("ERROR")]
     warnings = [i for i in all_issues if i.startswith("WARNING")]
