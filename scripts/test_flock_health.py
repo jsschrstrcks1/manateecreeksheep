@@ -105,6 +105,46 @@ check("duplicate event_id errors",
 check("missing field errors",
       any("missing field 'source'" in x for x in events_check([GOOD.replace('"source": "owner", ', '')])), True)
 
+# --- MCS-7 withdrawal lookup ---------------------------------------------------------
+hl = _load("hl", "health_log.py")
+d, basis, _ = hl.lookup_withdrawal("levamisole (Prohibit)")
+check("Prohibit -> 3d sheep label", (d, "label" in basis), (3, True))
+d, basis, _ = hl.lookup_withdrawal("ivermectin (horse paste)")
+check("ivermectin -> 14d house default", (d, "house default" in basis), (14, True))
+d, basis, _ = hl.lookup_withdrawal("fenbendazole")
+check("fenbendazole -> 28d FARAD", d, 28)
+d, basis, _ = hl.lookup_withdrawal("unicorn dust")
+check("unknown drug -> no number invented", d, None)
+
+# --- MCS-8 advisor matrix ------------------------------------------------------------
+da = _load("da", "deworm_advisor.py")
+import datetime as _dt
+TODAY = _dt.date(2026, 8, 18)
+fresh = TODAY - _dt.timedelta(days=3)
+stale = TODAY - _dt.timedelta(days=120)
+
+def adv(score, when, epg):
+    return da.advise(score, when, epg, TODAY, 1000, 500, 14)
+
+check("F5 fresh, no FEC -> RED treat + pre-dose sample",
+      (adv(5, fresh, None)[1], "BEFORE" in adv(5, fresh, None)[2]), ("RED", True))
+check("F5 stale -> RED but re-score first",
+      "RE-SCORE" in adv(5, stale, None)[2], True)
+check("F4 + low FEC -> RED mismatch investigate",
+      "MISMATCH" in adv(4, fresh, 100)[2], True)
+check("F1 + high FEC -> AMBER contamination mismatch",
+      (adv(1, fresh, 1500)[1], "MISMATCH" in adv(1, fresh, 1500)[2]), ("AMBER", True))
+check("F1 fresh, no FEC -> GREEN", adv(1, fresh, None)[1], "GREEN")
+check("F2 stale -> AMBER re-score", adv(2, stale, None)[1], "AMBER")
+check("range score '1-2' reads worst end", da.parse_score("1-2"), 2)
+check("M-D-YY date parses", da.parse_date("3-13-26"), _dt.date(2026, 3, 13))
+check("garbage date -> None not guessed", da.parse_date("next tuesday"), None)
+
+# --- notes migration idempotency (module-level, synthetic) ----------------------------
+mn = _load("mn", "migrate_notes_to_events.py")
+check("M-D-YY -> ISO", mn.to_iso("2-12-26"), "2026-02-12")
+check("bad date -> None", mn.to_iso("2025-2026"), None)
+
 # --- verdict -------------------------------------------------------------------------
 if FAILURES:
     print(f"\n{len(FAILURES)} FAILURE(S): {FAILURES}")

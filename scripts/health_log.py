@@ -52,6 +52,42 @@ VALID_PRECISION = ["exact", "approximate", "range"]
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}(/\d{4}-\d{2}-\d{2})?$")
 
 
+# Free-text drug names in events -> drug_reference keys in the flock DB (MCS-7).
+DRUG_ALIASES = {
+    "ivermectin": "ivermectin", "ivomec": "ivermectin",
+    "levamisole": "levamisole_prohibit", "prohibit": "levamisole_prohibit",
+    "fenbendazole": "fenbendazole", "safeguard": "fenbendazole", "safe-guard": "fenbendazole",
+    "panacur": "fenbendazole",
+    "moxidectin": "moxidectin_cydectin", "cydectin": "moxidectin_cydectin",
+    "albendazole": "albendazole_valbazen", "valbazen": "albendazole_valbazen",
+}
+
+
+def lookup_withdrawal(drug_text):
+    """Return (days, basis, ref_note) from the DB drug_reference table, or (None, reason, None).
+
+    Days precedence: house_default (defined as >= label, covers extra-label practice)
+    > label > FARAD sheep WDI. Never invents a number for an unknown drug.
+    """
+    db = json.load(open(DB_PATH))
+    ref = db.get("drug_reference") or {}
+    key = None
+    low = drug_text.lower()
+    for alias, k in DRUG_ALIASES.items():
+        if alias in low:
+            key = k
+            break
+    if not key or key not in ref:
+        return None, f"drug '{drug_text}' not in drug_reference table", None
+    d = ref[key]
+    for field, basis in (("house_default_meat_withdrawal_days", "house default (conservative, >= label)"),
+                         ("label_meat_withdrawal_days", "sheep label"),
+                         ("farad_sheep_meat_withdrawal_days", "FARAD sheep WDI")):
+        if isinstance(d.get(field), int):
+            return d[field], basis, d.get("label_note") or d.get("house_default_note") or d.get("farad_note")
+    return None, f"drug_reference['{key}'] carries no numeric withdrawal", None
+
+
 def load_events():
     if not LOG_PATH.exists():
         return []
@@ -113,10 +149,26 @@ def cmd_add(args):
         "recorded_at": datetime.datetime.now(datetime.timezone.utc)
                        .strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
-    for opt in ("score", "drug", "dose", "withdrawal_until"):
+    for opt in ("score", "drug", "dose", "withdrawal_until", "fec_epg"):
         v = getattr(args, opt.replace("-", "_"), None)
         if v is not None:
             e[opt] = v
+
+    # MCS-7: a real treatment with a known drug gets a computed slaughter-withdrawal
+    # lock unless the caller supplied one. Unknown drug = loud CHECK LABEL, never a guess.
+    if args.type == "treatment" and args.drug and "withdrawal_until" not in e:
+        days, basis, note = lookup_withdrawal(args.drug)
+        if days is not None:
+            treat_end = args.date.split("/")[-1]
+            end = datetime.date.fromisoformat(treat_end) + datetime.timedelta(days=days)
+            e["withdrawal_until"] = end.isoformat()
+            e["withdrawal_basis"] = f"{days}d meat — {basis}"
+            print(f"withdrawal lock: not safe for slaughter until {e['withdrawal_until']} "
+                  f"({days}d, {basis})" + (f" | {note}" if note else ""))
+        else:
+            print(f"⚠ CHECK LABEL: {basis} — no withdrawal computed. Read the bottle in hand "
+                  f"and re-add with --withdrawal-until, or extend data/flock_database.json "
+                  f"drug_reference (label/FARAD-sourced only, never a guess).")
     with open(LOG_PATH, "a") as f:
         f.write(json.dumps(e, sort_keys=True) + "\n")
     print(f"appended {event_id}")
@@ -132,6 +184,28 @@ def cmd_list(args):
         extra = "".join(f" {k}={e[k]}" for k in ("score", "drug", "withdrawal_until") if k in e)
         print(f"{e.get('date'):>21}  {e.get('animal_id'):28} {e.get('type'):18}{extra}  {e.get('details','')[:80]}")
     print(f"({len(events)} matching events)")
+
+
+def cmd_withdrawals(args):
+    """Animals currently locked out of slaughter/sale (per-event locks + flock-level watch)."""
+    today = datetime.date.today().isoformat()
+    events = load_events()
+    active = [e for e in events if e.get("withdrawal_until") and e["withdrawal_until"] >= today]
+    if active:
+        print("Per-animal locks (from health events):")
+        for e in sorted(active, key=lambda x: x["withdrawal_until"]):
+            print(f"  NOT SAFE until {e['withdrawal_until']}  {e['animal_id']:28} "
+                  f"{e.get('drug','?')}  ({e.get('withdrawal_basis','')})")
+    else:
+        print("No active per-animal withdrawal locks in the event log.")
+    db = json.load(open(DB_PATH))
+    watch = db.get("withdrawal_watch") or []
+    live = [w for w in watch if str(w.get("not_safe_for_slaughter_until", ""))[:10] >= today]
+    if live:
+        print("Flock-level withdrawal watch (data/flock_database.json):")
+        for w in live:
+            print(f"  NOT SAFE until {w['not_safe_for_slaughter_until']}  {w.get('animals','?')}  "
+                  f"[{w.get('drug','?')}]")
 
 
 def cmd_pending(args):
@@ -160,6 +234,8 @@ def main():
     a.add_argument("--drug")
     a.add_argument("--dose")
     a.add_argument("--withdrawal-until", dest="withdrawal_until")
+    a.add_argument("--fec-epg", dest="fec_epg", type=int,
+                   help="fecal egg count, eggs per gram (MCS-8/MCS-30 substrate)")
     a.add_argument("--event-id", dest="event_id")
     a.set_defaults(fn=cmd_add)
 
@@ -171,6 +247,9 @@ def main():
 
     p = sub.add_parser("pending", help="planned treatments not yet recorded as done")
     p.set_defaults(fn=cmd_pending)
+
+    w = sub.add_parser("withdrawals", help="animals currently in slaughter-withdrawal")
+    w.set_defaults(fn=cmd_withdrawals)
 
     args = ap.parse_args()
     args.fn(args)
