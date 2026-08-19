@@ -88,3 +88,6 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 
 <!-- library register 2026-08-19T04:48:47.936Z -->
 | mcs-push-reminders-delivery | 2 | MCS-2 push half: proactively deliver flock agenda alerts (overdue/withdrawal/quarantine) to a channel Ken already watches — channel choice is the operator's (text/ntfy/email/assistant); read side already serves GET /api/flock/agenda |
+
+<!-- library register 2026-08-19T16:30:54.471Z -->
+| mcs-card-scans-date-transcription | 1 | Transcribe the 161 card scans in the repo root — the owner's mothers handwritten cards are the most-current source for the 43 placeholder dates and per-animal history; interpret notes, extract dates/causes, apply via validated commits, return unreadable cards as photo-questions |

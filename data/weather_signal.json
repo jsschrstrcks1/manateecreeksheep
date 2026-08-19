@@ -1,0 +1,13 @@
+{
+  "generated": "2026-08-18",
+  "location": "Manatee Creek (western coastal Pasco, canals)",
+  "season": "warm-wet",
+  "favorable_days": 7,
+  "trailing_days": 14,
+  "thresholds": {
+    "mean_temp_c_min": 18.0,
+    "rain_mm_3day": 2.0,
+    "favorable_days_for_warm_wet": 7
+  },
+  "basis": "Open-Meteo daily; Haemonchus larval ecology heuristic \u2014 tune against this farm's FAMACHA history"
+}

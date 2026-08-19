@@ -1,5 +1,6 @@
 {
   "generated_for": "2026-08-19",
+  "season": "warm-wet",
   "summary": {
     "overdue": 4,
     "withdrawal_locks_active": 2,
@@ -12,7 +13,23 @@
       "due": "2026-04-16",
       "overdue": true,
       "active": true,
-      "basis": "last FAMACHA 5 on 2026-04-09 -> recheck within 7d"
+      "basis": "last FAMACHA 5 on 2026-04-09 -> recheck within 7d [warm-wet cadence]"
+    },
+    {
+      "type": "famacha_recheck",
+      "animal_id": "nori-baby-p3",
+      "due": "2026-04-16",
+      "overdue": true,
+      "active": true,
+      "basis": "last FAMACHA 3 on 2026-04-09 -> recheck within 7d [warm-wet cadence]"
+    },
+    {
+      "type": "famacha_recheck",
+      "animal_id": "gigi-2026-baby",
+      "due": "2026-04-17",
+      "overdue": true,
+      "active": true,
+      "basis": "last FAMACHA 3 on 2026-04-10 -> recheck within 7d [warm-wet cadence]"
     },
     {
       "type": "famacha_recheck",
@@ -20,23 +37,7 @@
       "due": "2026-04-17",
       "overdue": true,
       "active": true,
-      "basis": "last FAMACHA 5 on 2026-04-10 -> recheck within 7d"
-    },
-    {
-      "type": "famacha_recheck",
-      "animal_id": "nori-baby-p3",
-      "due": "2026-04-23",
-      "overdue": true,
-      "active": true,
-      "basis": "last FAMACHA 3 on 2026-04-09 -> recheck within 14d"
-    },
-    {
-      "type": "famacha_recheck",
-      "animal_id": "gigi-2026-baby",
-      "due": "2026-04-24",
-      "overdue": true,
-      "active": true,
-      "basis": "last FAMACHA 3 on 2026-04-10 -> recheck within 14d"
+      "basis": "last FAMACHA 5 on 2026-04-10 -> recheck within 7d [warm-wet cadence]"
     },
     {
       "type": "withdrawal_lock",
@@ -48,6 +49,14 @@
       "overdue": false,
       "due": "2026-08-26",
       "basis": "FLOCK-LEVEL watch: ALL ivermectin-treated (horse paste assumed): OAV 2222 + surviving lamb(s), Lara + twins, GG, Azure, 'Tinker' \u2014 ivermectin (extra-label horse paste) (hand-kept; retire into per-animal events, MCS-38)"
+    },
+    {
+      "type": "famacha_recheck",
+      "animal_id": "lara",
+      "due": "2026-09-02",
+      "overdue": false,
+      "active": true,
+      "basis": "last FAMACHA 2 on 2026-08-19 -> recheck within 14d [warm-wet cadence]"
     },
     {
       "type": "withdrawal_lock",

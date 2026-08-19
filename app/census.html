@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pen Census — Manatee Creek</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, sans-serif; margin: 0; padding: 0 0 6rem 0;
+         background: #f4f1ea; color: #222; }
+  @media (prefers-color-scheme: dark) { body { background: #1b1a17; color: #eee; } }
+  header { position: sticky; top: 0; background: #3d5a3d; color: #fff; padding: .7rem 1rem;
+           z-index: 2; }
+  header h1 { font-size: 1.05rem; margin: 0; }
+  header .meta { font-size: .75rem; opacity: .85; }
+  .row { padding: .6rem .8rem; border-bottom: 1px solid rgba(128,128,128,.25); }
+  .row.done { opacity: .45; }
+  .who { font-weight: 600; margin-bottom: .35rem; }
+  .who small { font-weight: 400; opacity: .7; }
+  .pens { display: flex; flex-wrap: wrap; gap: .35rem; }
+  button.pen { border: 1px solid rgba(128,128,128,.5); border-radius: .5rem;
+               padding: .5rem .65rem; font-size: .85rem; background: rgba(128,128,128,.12);
+               color: inherit; }
+  button.pen.picked { background: #3d5a3d; color: #fff; border-color: #3d5a3d; }
+  button.pen.status { background: rgba(180,120,40,.15); }
+  button.pen.status.picked { background: #a05a2c; border-color: #a05a2c; }
+  footer { position: fixed; bottom: 0; left: 0; right: 0; background: #3d5a3d; color: #fff;
+           padding: .6rem 1rem; display: flex; gap: .8rem; align-items: center; }
+  footer button { border: 0; border-radius: .5rem; padding: .55rem .9rem; font-weight: 600; }
+  #exportBox { display: none; white-space: pre-wrap; font-family: ui-monospace, monospace;
+               font-size: .78rem; background: rgba(128,128,128,.12); margin: .8rem;
+               padding: .8rem; border-radius: .5rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Pen census — tap where each one lives</h1>
+  <div class="meta">94 animals without a pen · data build 2026-08-19 · progress saves on this phone</div>
+</header>
+<div id="list"></div>
+<div id="exportBox"></div>
+<footer>
+  <span id="progress"></span>
+  <button onclick="doExport()">Export answers</button>
+  <button onclick="if(confirm('Clear all answers on this phone?')){localStorage.removeItem(KEY);render();}">Reset</button>
+</footer>
+<script>
+const ANIMALS = [{"id": "twenty-grand-52391", "name": "20 GRAND (52391 LHB 20)", "tag": "LHB 20", "sex": "ram"}, {"id": "twenty-grand-dam-placeholder", "name": "20 GRAND's dam (NSIP-anchored, partial)", "tag": null, "sex": "ewe"}, {"id": "twenty-grand-sire-placeholder", "name": "20 GRAND's sire (NSIP-anchored, KHSI reg unknown)", "tag": null, "sex": "ram"}, {"id": "centralia-founder-87730", "name": "CENTRALIA (87730 SHU 3320)", "tag": "SHU 3320", "sex": "ram"}, {"id": "centralia-dam-181084x", "name": "Centralia Dam (KHSI 181084X, SRM 46) \u2014 off-farm", "tag": "SRM 46", "sex": "ewe"}, {"id": "centralia-grandsire-195241", "name": "Centralia Grandsire (KHSI 195241, HBK 708) \u2014 off-farm", "tag": "HBK 708", "sex": "ram"}, {"id": "centralia-ram-214168", "name": "Centralia Sire (KHSI 214168, BZE 0001) \u2014 off-farm", "tag": "BZE 0001", "sex": "ram"}, {"id": "cocoa", "name": "Cocoa", "tag": null, "sex": "ewe"}, {"id": "cornerstone-50492", "name": "CORNERSTONE", "tag": null, "sex": "ram"}, {"id": "daisy-of-sugar", "name": "Daisy (of Sugar)", "tag": null, "sex": "ewe"}, {"id": "dodge", "name": "Dodge", "tag": null, "sex": "ram"}, {"id": "kaladin", "name": "Kaladin", "tag": "014", "sex": "ram"}, {"id": "khsi-107303", "name": "KHSI 107303", "tag": null, "sex": "ram"}, {"id": "khsi-13802", "name": "KHSI 13802", "tag": null, "sex": "ram"}, {"id": "khsi-13805", "name": "KHSI 13805", "tag": null, "sex": "ewe"}, {"id": "khsi-14708", "name": "KHSI 14708", "tag": null, "sex": "ewe"}, {"id": "khsi-17301", "name": "KHSI 17301", "tag": null, "sex": "ram"}, {"id": "khsi-18296", "name": "KHSI 18296", "tag": null, "sex": "ewe"}, {"id": "khsi-18298", "name": "KHSI 18298", "tag": null, "sex": "ram"}, {"id": "khsi-18936", "name": "KHSI 18936", "tag": null, "sex": "ewe"}, {"id": "khsi-20639", "name": "KHSI 20639", "tag": null, "sex": "ewe"}, {"id": "khsi-22375", "name": "KHSI 22375", "tag": null, "sex": "ram"}, {"id": "khsi-23816", "name": "KHSI 23816", "tag": null, "sex": "ram"}, {"id": "khsi-25697", "name": "KHSI 25697", "tag": null, "sex": "ram"}, {"id": "khsi-27026", "name": "KHSI 27026", "tag": null, "sex": "ewe"}, {"id": "khsi-27678", "name": "KHSI 27678", "tag": null, "sex": "ram"}, {"id": "khsi-27679", "name": "KHSI 27679", "tag": null, "sex": "ram"}, {"id": "khsi-28358", "name": "KHSI 28358", "tag": null, "sex": "ewe"}, {"id": "khsi-28744", "name": "KHSI 28744", "tag": null, "sex": "ram"}, {"id": "khsi-30014", "name": "KHSI 30014", "tag": null, "sex": "ram"}, {"id": "khsi-3041", "name": "KHSI 3041", "tag": null, "sex": "ewe"}, {"id": "khsi-30590", "name": "KHSI 30590", "tag": null, "sex": "ewe"}, {"id": "khsi-31239", "name": "KHSI 31239", "tag": null, "sex": "ewe"}, {"id": "khsi-34802", "name": "KHSI 34802", "tag": null, "sex": "ewe"}, {"id": "khsi-34933", "name": "KHSI 34933", "tag": null, "sex": "ewe"}, {"id": "khsi-35577", "name": "KHSI 35577", "tag": null, "sex": "ram"}, {"id": "khsi-3632", "name": "KHSI 3632", "tag": null, "sex": "ram"}, {"id": "khsi-38474", "name": "KHSI 38474", "tag": null, "sex": "ewe"}, {"id": "khsi-38477", "name": "KHSI 38477", "tag": null, "sex": "ewe"}, {"id": "khsi-38830", "name": "KHSI 38830", "tag": null, "sex": "ram"}, {"id": "khsi-39733", "name": "KHSI 39733", "tag": null, "sex": "ewe"}, {"id": "khsi-41325", "name": "KHSI 41325", "tag": null, "sex": "ram"}, {"id": "khsi-41580", "name": "KHSI 41580", "tag": null, "sex": "ewe"}, {"id": "khsi-42165", "name": "KHSI 42165", "tag": null, "sex": "ewe"}, {"id": "khsi-42789", "name": "KHSI 42789", "tag": null, "sex": "ewe"}, {"id": "khsi-42793", "name": "KHSI 42793", "tag": null, "sex": "ewe"}, {"id": "khsi-42802", "name": "KHSI 42802", "tag": null, "sex": "ram"}, {"id": "khsi-43121", "name": "KHSI 43121", "tag": null, "sex": "ram"}, {"id": "khsi-43123", "name": "KHSI 43123", "tag": null, "sex": "ram"}, {"id": "khsi-43299", "name": "KHSI 43299", "tag": null, "sex": "ram"}, {"id": "khsi-43759", "name": "KHSI 43759", "tag": null, "sex": "ewe"}, {"id": "khsi-44055", "name": "KHSI 44055", "tag": null, "sex": "ewe"}, {"id": "khsi-44270", "name": "KHSI 44270", "tag": null, "sex": "ewe"}, {"id": "khsi-45151", "name": "KHSI 45151", "tag": null, "sex": "ewe"}, {"id": "khsi-45211", "name": "KHSI 45211", "tag": null, "sex": "ewe"}, {"id": "khsi-45212", "name": "KHSI 45212", "tag": null, "sex": "ewe"}, {"id": "khsi-45790", "name": "KHSI 45790", "tag": null, "sex": "ewe"}, {"id": "khsi-45810", "name": "KHSI 45810", "tag": null, "sex": "ewe"}, {"id": "khsi-47677", "name": "KHSI 47677", "tag": null, "sex": "ewe"}, {"id": "khsi-49536", "name": "KHSI 49536", "tag": null, "sex": "ram"}, {"id": "khsi-49537", "name": "KHSI 49537", "tag": null, "sex": "ram"}, {"id": "khsi-50741", "name": "KHSI 50741", "tag": null, "sex": "ram"}, {"id": "khsi-5111", "name": "KHSI 5111", "tag": null, "sex": "ewe"}, {"id": "khsi-52080", "name": "KHSI 52080", "tag": null, "sex": "ewe"}, {"id": "khsi-52760", "name": "KHSI 52760", "tag": null, "sex": "ewe"}, {"id": "khsi-52794", "name": "KHSI 52794", "tag": null, "sex": "ram"}, {"id": "khsi-53036", "name": "KHSI 53036", "tag": null, "sex": "ewe"}, {"id": "khsi-53519", "name": "KHSI 53519", "tag": null, "sex": "ram"}, {"id": "khsi-53953", "name": "KHSI 53953", "tag": null, "sex": "ewe"}, {"id": "khsi-54459", "name": "KHSI 54459", "tag": null, "sex": "ewe"}, {"id": "khsi-57451", "name": "KHSI 57451", "tag": null, "sex": "ewe"}, {"id": "khsi-59039", "name": "KHSI 59039", "tag": null, "sex": "ram"}, {"id": "khsi-5908", "name": "KHSI 5908", "tag": null, "sex": "ewe"}, {"id": "khsi-60021", "name": "KHSI 60021", "tag": null, "sex": "ewe"}, {"id": "khsi-60194", "name": "KHSI 60194", "tag": null, "sex": "ram"}, {"id": "khsi-60275", "name": "KHSI 60275", "tag": null, "sex": "ewe"}, {"id": "khsi-625", "name": "KHSI 625", "tag": null, "sex": "ram"}, {"id": "khsi-63660", "name": "KHSI 63660", "tag": null, "sex": "ewe"}, {"id": "khsi-63663", "name": "KHSI 63663", "tag": null, "sex": "ewe"}, {"id": "khsi-63664", "name": "KHSI 63664", "tag": null, "sex": "ewe"}, {"id": "khsi-85023", "name": "KHSI 85023", "tag": null, "sex": "ewe"}, {"id": "khsi-96456", "name": "KHSI 96456", "tag": null, "sex": "ewe"}, {"id": "little-daisy", "name": "Little Daisy", "tag": "035", "sex": "ewe"}, {"id": "loaded-wagon-30088", "name": "LOADED WAGON", "tag": null, "sex": "ram"}, {"id": "loki", "name": "Loki", "tag": null, "sex": "ram"}, {"id": "tag-31-orange-tf", "name": "Orange Tag 31 Ewe", "tag": "31", "sex": "ewe"}, {"id": "pure-power-42776", "name": "PURE POWER", "tag": null, "sex": "ram"}, {"id": "centralia-founder-sire-81385", "name": "SHU 2132 (81385) \u2014 CENTRALIA's sire", "tag": "SHU 2132", "sex": "ram"}, {"id": "sixteen-tons-59830", "name": "SIXTEEN TONS", "tag": null, "sex": "ram"}, {"id": "southern-gentlemen-42808", "name": "SOUTHERN GENTLEMEN", "tag": null, "sex": "ram"}, {"id": "sure-thing-34924", "name": "SURE THING", "tag": null, "sex": "ram"}, {"id": "top-shelf-33299", "name": "TOP SHELF", "tag": null, "sex": "ram"}, {"id": "zac-brown-146843", "name": "ZAC BROWN (146843 SRS 294)", "tag": "SRS 294", "sex": "ram"}, {"id": "zwt-6295-dam-of-zac-brown", "name": "ZWT 6295 (98055) \u2014 ZAC BROWN's dam", "tag": "ZWT 6295", "sex": "ewe"}];
+const PENS = ["Pen 1", "Pen 2", "Pen 3", "Pen 4", "Pen 5", "Pen 6", "Tree Fort", "Goose Pen"];
+const STATUSES = ["Sold", "Deceased", "Skip"];
+const KEY = "mcs-pen-census-v1";
+const state = () => JSON.parse(localStorage.getItem(KEY) || "{}");
+function pick(id, val) {
+  const s = state(); s[id] = (s[id] === val) ? undefined : val;
+  localStorage.setItem(KEY, JSON.stringify(s)); render();
+}
+function render() {
+  const s = state();
+  const el = document.getElementById("list");
+  el.innerHTML = ANIMALS.map(a => {
+    const chosen = s[a.id];
+    const btn = (v, cls) => `<button class="pen ${cls}${chosen===v?" picked":""}"
+      onclick="pick('${a.id}','${v}')">${v}</button>`;
+    return `<div class="row${chosen?" done":""}">
+      <div class="who">${a.name || a.id} <small>${a.tag ? "tag "+a.tag+" · " : ""}${a.sex||""} · ${a.id}</small></div>
+      <div class="pens">${PENS.map(p=>btn(p,"")).join("")}${STATUSES.map(v=>btn(v,"status")).join("")}</div>
+    </div>`;
+  }).join("");
+  const done = Object.values(s).filter(Boolean).length;
+  document.getElementById("progress").textContent = done + " / " + ANIMALS.length;
+}
+function doExport() {
+  const s = state();
+  const lines = ANIMALS.filter(a => s[a.id] && s[a.id] !== "Skip")
+    .map(a => a.id + " -> " + s[a.id]);
+  const box = document.getElementById("exportBox");
+  box.style.display = "block";
+  box.textContent = lines.length
+    ? "PEN CENSUS " + new Date().toISOString().slice(0,10) + "\n" + lines.join("\n")
+    : "(nothing answered yet)";
+  box.scrollIntoView({behavior:"smooth"});
+  if (navigator.clipboard && lines.length) navigator.clipboard.writeText(box.textContent);
+}
+render();
+</script>
+</body>
+</html>

@@ -179,16 +179,13 @@ Walk order is yours; write the pen next to each (or 'sold'/'deceased' if the sta
 
 ## 5. Standing follow-ups (open HLS tasks)
 
-- [ ] Pen moves planned 2026-05-14 — done in the field? Buck→Pen 6 ___ · Rocky tag140→Tree Fort ___ · MC08→auction ___ (`mcs-pen-moves-pending`)
-- [ ] Buck-original: real death date/cause, or still possibly alive? (`mc-buck-original-death-date-2026-05-14`)
-- [ ] Kaladin's current pen (`mc-kaladin-current-pen-2026-04-26`)
-- [ ] Orange Tag 31 Ewe — where is she now? (`open-follow-up-orange-tag-31-ewe-location-2026-05-14`)
-- [ ] Centralia records: 8 image attachments still pending upload (`mcs-centralia-image-attachments`)
-- [ ] 'Lara is on' (2026-08-18) — on the mend, or on treatment herself?
-- [ ] WEATHER SIGNAL (MCS-1): farm coordinates for data/farm_location.json — lat: ______ lon: ______ (approximate is fine; drives the warm-wet recheck tightening)
-- [ ] BREEDING PIPELINE SEED (MCS-17): for each pen with a ram — when did the ram go in? (ram, pen, date in, date out-or-still-in). One line each; these become the matings table and drive preg-check/due/lambing-watch dates.
-- [ ] ECONOMICS SEED (MCS-13/24): purchase prices for bought-in animals you remember (animal: $___), sale proceeds so far this year (animal/date/$ or auction batch), and current market price per lb for lambs: $___/lb · feed cost per head per day: $___ (rough is fine — the hold-vs-sell calculator refuses to run on guesses I invent, but runs on yours).
-- [ ] INVENTORY COUNT (MCS-25): shelf count of the barn cabinet — wormers, vaccines, feed on hand (item / quantity / expiry date off the label / when-to-reorder). The expiry+reorder alerts start the day this is entered.
-- [ ] REMINDER CHANNEL (MCS-2): the agenda now serves at Atlas `/api/flock/agenda` — where should proactive nudges land so you actually see them? text / ntfy app / email / Atlas assistant: ______ (`mcs-push-reminders-delivery`)
+- [ ] WHICH ONE SOLD? You answered 'sold I believe' to a question that covered TWO animals — Kaladin (ram, tag 014) and Orange Tag 31 Ewe. Kaladin sold? ___ · Orange Tag 31 sold? ___ (both records currently say alive, no pen)
+- [ ] TWO BUCKS, ONE RECORD: Buck-original now carries your Helene death (2024-09-26, drowned, freezer) — but FAMACHA + CDT checks dated Feb–Mar 2026 sit on his record from the 2026-05-14 merge. Were those 2026 checks actually on current Buck (his brother, Pen 6)? yes / no / unsure: ______
+- [ ] GIGI = GG? You said 'Gigi and her sister were around $500' — is Gigi the ewe recorded as GG (tag MC-19, Pen 4)? ___ · and who is her sister (name/tag)? ______ (their $500 stays unapplied until the records are certain)
+- [ ] BREEDING PIPELINE SEED (MCS-17): the ram-in dates you said you'd dig up — (ram, pen, date in, date out-or-still-in), one line each. These become the matings table and drive preg-check/due/lambing-watch dates.
+- [ ] LAMB MARKET PRICE (MCS-24): you weren't sure — when you next see a sale sheet: $___/lb. (Feed side is done: $0.31/head/day recorded.)
+- [ ] SHELF COUNTS (MCS-25): you named what's on hand — now just quantity + expiry off each label: ivermectin ___ exp ___ · iron ___ exp ___ · Prohibit ___ exp ___ · vitamin B ___ exp ___ · dexamethasone ___ exp ___ · antibiotics (which + how much) ______
+- [ ] CARD SCANS (the 43 dates): the scans in the repo are the most-current source and I'll transcribe them (`mcs-card-scans-date-transcription`) — nothing needed from you unless I hit a note I can't read; those will come back as specific photos with questions.
+- [ ] PEN CENSUS: open app/census.html on your phone — tap a pen (or Sold/Deceased) per animal, hit Export, text me the block. Progress saves on the phone.
 
 **Soli Deo Gloria.** Answers get applied through validated commits; regenerate this file after.

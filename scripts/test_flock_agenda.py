@@ -128,6 +128,21 @@ check("expired watch row goes inactive",
       watch_items([{"animals": "x", "drug": "d",
                     "not_safe_for_slaughter_until": "2026-08-15"}], TODAY)[0]["active"] is False)
 
+
+
+# --- MCS-1 warm-wet cadence -------------------------------------------------------------
+_ww_sheep = [{"id": "s3", "status": "alive",
+              "health": {"famacha_scores": [{"date": "2026-08-01", "score": 3}]}},
+             {"id": "s2", "status": "alive",
+              "health": {"famacha_scores": [{"date": "2026-08-01", "score": 2}]}}]
+_base = famacha_items(_ww_sheep, date(2026, 8, 19))
+check("base cadence: score 3 -> 14d", [i["due"] for i in _base if i["animal_id"] == "s3"] == ["2026-08-15"])
+check("base cadence: score 2 gets NO item", not any(i["animal_id"] == "s2" for i in _base))
+_ww = famacha_items(_ww_sheep, date(2026, 8, 19), season="warm-wet")
+check("warm-wet: score 3 tightens to 7d", [i["due"] for i in _ww if i["animal_id"] == "s3"] == ["2026-08-08"])
+check("warm-wet: score 2 earns a 14d recheck", [i["due"] for i in _ww if i["animal_id"] == "s2"] == ["2026-08-15"])
+check("warm-wet basis names the cadence", all("warm-wet cadence" in i["basis"] for i in _ww) and len(_ww) == 2)
+
 if failures:
     print(f"\n{len(failures)} FAILURE(S): {failures}")
     sys.exit(1)

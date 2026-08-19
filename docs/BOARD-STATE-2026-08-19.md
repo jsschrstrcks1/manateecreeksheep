@@ -48,8 +48,9 @@ suites green.
   at the next atlas-serve restart on the cluster.
 - Push-reminder delivery (MCS-2 push half → `mcs-push-reminders-delivery`) — **BUILT
   2026-08-19, channel-agnostic** (`GET/POST /api/flock/notify`: compose → daily dedupe →
-  ntfy/webhook dispatch; unconfigured blocks loudly). Activation is config, not code:
-  Ken names the channel (questionnaire), two env vars are set, atlas-serve restarts.
+  ntfy/webhook dispatch; unconfigured blocks loudly). Activation is config, not code.
+  **Channel answered 2026-08-19: Atlas phone push, part of the eventual PWA** — the
+  webhook adapter can bridge until MCS-34's web-push half exists; env vars + restart remain.
 - `mcs-sheets-sync-l6` (sheet round-trip) and the PWA server half (MCS-34).
 
 ## Parked deliberately

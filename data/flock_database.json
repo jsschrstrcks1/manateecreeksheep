@@ -1780,8 +1780,8 @@
       "sire_id": null,
       "dam_id": null,
       "status": "deceased",
-      "status_date": null,
-      "status_notes": "Owner statement 2026-05-14: 'might be dead.' Prior 'Helene' note is unreliable \u2014 FAMACHA + CDT booster records (Feb-Mar 2026) confirm animal was alive through 2026-03-13, post-dating Hurricane Helene (Sept 2024). Actual date of death unknown.",
+      "status_date": "2024-09-26",
+      "status_notes": "CONFLICT ON RECORD (2026-08-19): owner testimony says died in Hurricane Helene (2024-09-26, drowned, leg caught in floating freezer) \u2014 applied as status_date per owner-overrides rule. BUT FAMACHA + CDT records dated Feb-Mar 2026 sit on this record, post-dating Helene by ~18 months. His records were merged with his brother's (current `buck`, also Windlestone) on 2026-05-14 \u2014 hypothesis: those 2026 health rows belong to the brother and were misattributed in the merge. UNRESOLVED \u2014 owner asked which Buck the Feb-Mar 2026 checks were on. [Prior note: owner 2026-05-14 'might be dead'; 'Helene' note then deemed unreliable because of these same records.]",
       "pen": null,
       "measurements": {},
       "health": {
@@ -1833,13 +1833,14 @@
         "csv_row": null,
         "notebook_image": []
       },
-      "notes": "Original Buck / Windlestone Kat-Dorper Ram (records merged 2026-05-14, owner confirmed same animal). Came from Windlestone Ranch. Ram weight 212lbs, ewe weight prediction 155.2lbs. Aliases include 'Butthead' and 'Charlie's Ram' (per notebook). HAS ATTITUDE \u2014 fractured handler's hand. Handler protocol: pin on back, pinch nose to submit if charges. FAMACHA 1 consistently for ~1 year per Windlestone before purchase; checks Feb-Mar 2026 confirmed 1-2. Replaced/succeeded in Tree Fort by current `buck` (his brother, also from Windlestone). Prior breeding-page calc references: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), Kelsier (UF Ram Test, 100%Katahdin). Breed composition disputed \u2014 see breed_composition.todo. Death date unknown \u2014 see status_notes.",
+      "notes": "Original Buck / Windlestone Kat-Dorper Ram (records merged 2026-05-14, owner confirmed same animal). Came from Windlestone Ranch. Ram weight 212lbs, ewe weight prediction 155.2lbs. Aliases include 'Butthead' and 'Charlie's Ram' (per notebook). HAS ATTITUDE \u2014 fractured handler's hand. Handler protocol: pin on back, pinch nose to submit if charges. FAMACHA 1 consistently for ~1 year per Windlestone before purchase; checks Feb-Mar 2026 confirmed 1-2. Replaced/succeeded in Tree Fort by current `buck` (his brother, also from Windlestone). Prior breeding-page calc references: Sir Loin, Rocky, Sam, Samson (100%Hampshire), Louise Dorper (100%BHD), Ruth's St Augustine (100%Hampshire?), Kelsier (UF Ram Test, 100%Katahdin). Breed composition disputed \u2014 see breed_composition.todo. Death date unknown \u2014 see status_notes. | Death resolved by owner 2026-08-19: Helene (2024-09-26), drowned, leg caught in a floating freezer.",
       "confidence": "low",
       "last_verified": "2026-05-14",
       "description": "Black headed Dorper with horns. Has attitude (\"Butthead\" per notebook).",
       "temperament": "aggressive toward handlers \u2014 fractured hand. Requires dominant handling protocol.",
       "on_property": false,
-      "movements": []
+      "movements": [],
+      "cause_of_death": "drowned during Hurricane Helene \u2014 got his leg stuck in the back of a passing/floating freezer and drowned (owner, 2026-08-19)"
     },
     {
       "id": "buck",
@@ -6148,7 +6149,14 @@
           "reason": "initial placement (migrated snapshot; real entry date unknown)",
           "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
         }
-      ]
+      ],
+      "economics": {
+        "acquisition": {
+          "cost": 600,
+          "source": "owner 2026-08-19",
+          "date": null
+        }
+      }
     },
     {
       "id": "tag-31-ewe",
@@ -14198,7 +14206,14 @@
           "reason": "initial placement (migrated snapshot; real entry date unknown)",
           "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
         }
-      ]
+      ],
+      "economics": {
+        "acquisition": {
+          "cost": 250,
+          "source": "owner 2026-08-19",
+          "date": null
+        }
+      }
     },
     {
       "id": "tag-00113-ewe-p1",
@@ -31154,5 +31169,13 @@
       "drug": "levamisole (Prohibit, sheep label)",
       "not_safe_for_slaughter_until": "2026-08-15 (3d \u2014 subsumed by the above)"
     }
-  ]
+  ],
+  "economics_defaults": {
+    "feed_cost_per_lb": 0.31,
+    "feed_lb_per_head_per_day": 1.0,
+    "feed_cost_per_head_per_day": 0.31,
+    "bought_in_typical_range": "most other bought-in animals $200-300 (owner recollection, range only \u2014 not applied per-animal)",
+    "gigi_and_sister_approx": "Gigi and her sister ~$500 each \u2014 NOT yet applied per-animal: need to confirm Gigi=GG (MC-19) and identify the sister",
+    "source": "owner 2026-08-19"
+  }
 }

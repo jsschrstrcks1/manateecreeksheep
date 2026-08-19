@@ -33,7 +33,21 @@ def main():
     if os.path.exists(EVENTS):
         with open(EVENTS) as f:
             events = [json.loads(l) for l in f if l.strip()]
-    ag = build_agenda(db, today, events)
+    # MCS-1: the weather signal tightens FAMACHA cadence in warm-wet windows. Only a FRESH
+    # signal counts (<=7d old) — a stale one falls back to the base cadence, and says so,
+    # rather than tightening/relaxing on weather that is no longer true.
+    season = None
+    sig_path = os.path.join(REPO, "data", "weather_signal.json")
+    if os.path.exists(sig_path):
+        with open(sig_path) as f:
+            sig = json.load(f)
+        gen = parse_date(sig.get("generated"))
+        if gen and (today - gen).days <= 7:
+            season = sig.get("season")
+        else:
+            print(f"weather signal stale (generated {sig.get('generated')}) — base cadence; "
+                  f"rerun scripts/parasite_weather.py")
+    ag = build_agenda(db, today, events, season=season)
     print(f"Flock agenda for {ag['generated_for']} — "
           f"{ag['summary']['overdue']} overdue, "
           f"{ag['summary']['withdrawal_locks_active']} withdrawal locks, "

@@ -23,6 +23,11 @@ from datetime import date, datetime, timedelta
 
 # --- policy constants (operator-tunable; sources noted) ------------------------------------
 FAMACHA_RECHECK_DAYS = {5: 7, 4: 7, 3: 14}      # >=4: high risk weekly; 3: fortnight
+# MCS-1: in a warm-wet window (weather signal, Haemonchus-favorable) the recheck cadence
+# tightens — score 3 goes weekly, and score 2 earns a fortnight recheck it would not
+# otherwise get. Scores 1-2 are deliberately NOT scheduled outside warm-wet: flooding the
+# agenda with ~90 routine items would bury the ones that matter.
+FAMACHA_RECHECK_DAYS_WARM_WET = {5: 7, 4: 7, 3: 7, 2: 14}
 FECRT_WINDOW = (10, 14)                          # days post-treatment (Cabaret & Berrag 2004)
 LOOKBACK_DAYS = 60                               # covers the longest withdrawal (28d) + slack
 
@@ -190,7 +195,9 @@ def fecrt_items(sheep_list, today, events=None):
     return items
 
 
-def famacha_items(sheep_list, today, events=None):
+def famacha_items(sheep_list, today, events=None, season=None):
+    table = FAMACHA_RECHECK_DAYS_WARM_WET if season == "warm-wet" else FAMACHA_RECHECK_DAYS
+    season_tag = " [warm-wet cadence]" if season == "warm-wet" else ""
     items = []
     ev_scores = {}
     for e in events or []:
@@ -222,13 +229,13 @@ def famacha_items(sheep_list, today, events=None):
             score = int(raw)
         except (TypeError, ValueError):
             continue
-        days = FAMACHA_RECHECK_DAYS.get(score)
+        days = table.get(score)
         if not days:
             continue
         due = d + timedelta(days=days)
         items.append({"type": "famacha_recheck", "animal_id": s["id"], "due": str(due),
                       "overdue": due < today, "active": True,
-                      "basis": f"last FAMACHA {score} on {d} -> recheck within {days}d"})
+                      "basis": f"last FAMACHA {score} on {d} -> recheck within {days}d{season_tag}"})
     return items
 
 
@@ -256,12 +263,12 @@ def watch_items(watch, today):
     return items
 
 
-def build_agenda(db, today, events=None):
+def build_agenda(db, today, events=None, season=None):
     sheep_list = db.get("sheep", [])
     from .breeding import breeding_items
     items = (withdrawal_items(sheep_list, db.get("drug_reference") or {}, today, events)
              + fecrt_items(sheep_list, today, events)
-             + famacha_items(sheep_list, today, events)
+             + famacha_items(sheep_list, today, events, season=season)
              + anomaly_items(db.get("anomalies"), today)
              + watch_items(db.get("withdrawal_watch"), today)
              + breeding_items(db, today, events))
@@ -271,6 +278,7 @@ def build_agenda(db, today, events=None):
     items = [i for i in items if i.get("active")]
     items.sort(key=lambda i: (not i["overdue"], i.get("due") or "9999", str(i.get("animal_id"))))
     return {"generated_for": str(today),
+            "season": season,
             "summary": {
                 "overdue": sum(1 for i in items if i["overdue"]),
                 "withdrawal_locks_active": sum(1 for i in items if i["type"] == "withdrawal_lock"),
