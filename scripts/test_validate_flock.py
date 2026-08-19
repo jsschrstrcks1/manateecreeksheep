@@ -333,6 +333,60 @@ def fecrt_tests():
     return fails
 
 
+_ep_spec = importlib.util.spec_from_file_location("ep", os.path.join(_here, "ewe_productivity.py"))
+ep = importlib.util.module_from_spec(_ep_spec)
+_ep_spec.loader.exec_module(ep)
+
+
+def ewe_productivity_tests():
+    """Pins for the MCS-18 lifetime ledger — lambing grouping, survival classes, flags."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    def db(*sheep):
+        return {"sheep": list(sheep)}
+
+    dam = {"id": "mama", "name": "Mama", "sex": "ewe", "status": "alive"}
+    # twins share a dob = ONE lambing; a later dob = a second lambing
+    kids = [
+        {"id": "a", "dam_id": "mama", "dob": "2023-01-10", "status": "alive"},
+        {"id": "b", "dam_id": "mama", "dob": "2023-01-10", "status": "sold"},     # twin
+        {"id": "c", "dam_id": "mama", "dob": "2024-02-01", "status": "deceased"},
+        {"id": "d", "dam_id": "mama", "dob": None, "status": "unknown"},          # undated
+    ]
+    row = ep.productivity(db(dam, *kids))[0]
+    check("twins on one dob = one lambing", any(l["date"] == "2023-01-10" and l["lambs"] == 2 for l in row["lambing_detail"]))
+    check("distinct dob = separate lambing", row["lambings"] == 3)  # 2023, 2024, undated
+    check("lambs_born counts all offspring", row["lambs_born"] == 4)
+    check("surviving = alive|sold|gifted", row["surviving_to_date"] == 2)
+    check("died = deceased", row["died"] == 1)
+    check("unknown surfaced, not folded", row["unknown_status"] == 1)
+    check("lambs_per_lambing = born/lambings", row["lambs_per_lambing"] == round(4 / 3, 2))
+    check("undated offspring flagged", any("undated" in f for f in row["flags"]))
+    check("unknown status flagged", any("unknown" in f for f in row["flags"]))
+
+    # a dam_id pointing at a RAM is flagged (mis-set parent link)
+    ram = {"id": "pops", "name": "Pops", "sex": "ram", "status": "alive"}
+    rrow = ep.productivity(db(ram, {"id": "x", "dam_id": "pops", "dob": "2026-01-01", "status": "alive"}))[0]
+    check("dam_id resolving to a ram is flagged", any("RAM" in f for f in rrow["flags"]))
+
+    # ordering: more surviving lambs ranks first
+    d2 = db(
+        {"id": "lo", "name": "Lo", "sex": "ewe", "status": "alive"},
+        {"id": "hi", "name": "Hi", "sex": "ewe", "status": "alive"},
+        {"id": "l1", "dam_id": "lo", "dob": "2026-01-01", "status": "alive"},
+        {"id": "h1", "dam_id": "hi", "dob": "2026-01-01", "status": "alive"},
+        {"id": "h2", "dam_id": "hi", "dob": "2025-01-01", "status": "alive"},
+    )
+    order = [r["ewe_id"] for r in ep.productivity(d2)]
+    check("most-productive-first ordering", order[0] == "hi")
+    return fails
+
+
 def main():
     failures = []
     for name, pcts, unknown, expect in CASES:
@@ -351,10 +405,12 @@ def main():
     failures += triage_tests()
     print("\nMCS-30 FECRT pins:")
     failures += fecrt_tests()
+    print("\nMCS-18 ewe-productivity pins:")
+    failures += ewe_productivity_tests()
     if failures:
         print(f"\n{len(failures)} FAILURE(S): {failures}")
         sys.exit(1)
-    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA + pen + deworm + triage + FECRT guard pins passed.")
+    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA + pen + deworm + triage + FECRT + productivity guard pins passed.")
 
 
 if __name__ == "__main__":
