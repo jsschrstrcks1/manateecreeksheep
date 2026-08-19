@@ -74,6 +74,9 @@ node <OCS>/admin/library.mjs preflight --query "<task>" --patron claude-code --m
 | Archived full guide | `admin/REPO-AGENT-APPENDIX.md` |
 | Task shelf | `admin/LIBRARY.md` |
 | Open work | `admin/UNFINISHED_TASKS.md` or `admin/PENDING_TASKS.md` |
+| **Upgrade ledger** (MCS-N candidates; standard: `<OCS>/docs/UPGRADE-LEDGER-STANDARD.md`) | `docs/UPGRADE-LEDGER.md` |
+| Health event log (MCS-26; append-only) + CLI | `data/health_events.jsonl` · `scripts/health_log.py` |
+| Deworm advisor (MCS-8) / owner-sync questionnaire | `scripts/deworm_advisor.py` · `scripts/owner_sync_questionnaire.py` |
 
 *Household catalog SSOT:* `<OCS>/.household-library/catalog.jsonl`
 

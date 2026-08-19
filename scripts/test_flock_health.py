@@ -145,6 +145,28 @@ mn = _load("mn", "migrate_notes_to_events.py")
 check("M-D-YY -> ISO", mn.to_iso("2-12-26"), "2026-02-12")
 check("bad date -> None", mn.to_iso("2025-2026"), None)
 
+# --- MCS-3 triage scoring ------------------------------------------------------------
+ft = _load("ft", "flock_triage.py")
+T = _dt.date(2026, 8, 18)
+
+def sc(**kw):
+    base = dict(score=None, s_date=None, epg=None, trend_worse=False, days_since=None,
+                cohort_loss_14d=False, pen_missing=False, today=T, fec_high=1000, stale_days=14)
+    base.update(kw)
+    return ft.score_animal(**base)[0]
+
+check("fresh F5 scores 50+", sc(score=5, s_date=T - _dt.timedelta(days=2), days_since=2) >= 50, True)
+check("stale F5 scores 35-base", sc(score=5, s_date=T - _dt.timedelta(days=120)) >= 35, True)
+check("no famacha at all scores 25", sc(), 25)
+check("cohort death adds 15", sc(cohort_loss_14d=True) - sc(), 15)
+check("pen unknown adds 5", sc(pen_missing=True) - sc(), 5)
+check("days-since capped at 10", sc(days_since=700) - sc(), 10)
+check("same-day dup collapses to worst (no fake trend)",
+      ft.famacha_series({"health": {"famacha_scores": [{"date": "2026-04-11", "score": 1}],
+                                    "famacha_history": [{"date": "2026-04-11", "score": "1-2"}]}},
+                        [], "x"),
+      [(_dt.date(2026, 4, 11), 2)])
+
 # --- verdict -------------------------------------------------------------------------
 if FAILURES:
     print(f"\n{len(FAILURES)} FAILURE(S): {FAILURES}")
