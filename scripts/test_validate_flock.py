@@ -413,6 +413,64 @@ def h2_prior_tests():
     return fails
 
 
+def loss_tests():
+    """Pins for MCS-29 indemnity loss records: cause classification, append-only writer,
+    validation, eligibility hinting, and documentation-gap surfacing."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _lr_spec = importlib.util.spec_from_file_location("lr", os.path.join(_here, "loss_records.py"))
+    lr = importlib.util.module_from_spec(_lr_spec)
+    _lr_spec.loader.exec_module(lr)
+
+    check("classify hurricane -> weather", lr.classify_cause("Hurricane Helene 2024") == "weather")
+    check("classify parasites -> disease", lr.classify_cause("Parasites — owner-reported") == "disease")
+    check("classify coyote -> predation", lr.classify_cause("killed by coyote") == "predation")
+    check("classify birth -> other", lr.classify_cause("difficult birth") == "other")
+    check("classify empty -> unknown", lr.classify_cause("") == "unknown")
+
+    s = {"id": "t"}
+    lr.record_loss(s, "2024-09-26", "weather", cause_detail="Hurricane Helene", count=1)
+    check("record_loss appends", len(s["loss_records"]) == 1)
+    check("record_loss drops None", "evidence" not in s["loss_records"][0])
+
+    bad = {"id": "b", "loss_records": [
+        {"date": "nope", "cause_category": "weather"},
+        {"date": "2024-01-01", "cause_category": "aliens"},
+        {"date": "2024-01-01", "cause_category": "weather", "count": 0},
+        {"date": "2024-01-01", "cause_category": "weather", "filed": "yes"},
+        {"date": "2024-01-01", "cause_category": "weather", "junk": 1}]}
+    iss = lr.validate_loss_record(bad)
+    check("validator flags bad date", any("unparseable" in i for i in iss))
+    check("validator flags bad category", any("not a known category" in i for i in iss))
+    check("validator flags count<1", any("positive integer" in i for i in iss))
+    check("validator flags non-bool filed", any("must be a boolean" in i for i in iss))
+    check("validator flags unknown key", any("unknown key" in i for i in iss))
+
+    db = {"sheep": [
+        {"id": "alive1", "status": "alive"},   # excluded
+        {"id": "storm", "status": "deceased", "status_date": "2024-09-26",
+         "cause_of_death": "Hurricane Helene", "source_refs": ["photo1"]},
+        {"id": "nocause", "status": "deceased", "status_date": "2025-01-01"},
+    ]}
+    view = {r["id"]: r for r in lr.indemnity_view(db)}
+    check("alive animal excluded from losses", "alive1" not in view)
+    check("weather loss potentially eligible", view["storm"]["potentially_eligible"] is True)
+    check("documented weather loss is claim-ready", view["storm"]["claim_ready"] is True)
+    check("no-cause loss is a gap, not eligible", view["nocause"]["potentially_eligible"] is False
+          and "no cause recorded" in view["nocause"]["documentation_gaps"])
+
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    lv = {r["id"]: r for r in lr.indemnity_view(live)}
+    check("live: Sam is a weather loss, potentially eligible",
+          lv.get("sam", {}).get("cause_category") == "weather" and lv["sam"]["potentially_eligible"])
+    return fails
+
+
 def inventory_tests():
     """Pins for MCS-25 input inventory: expiry banding, reorder logic (same-measure only),
     uncounted honesty, and schema validation."""
@@ -1013,6 +1071,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-29 indemnity-loss pins:")
+    failures += loss_tests()
     print("\nMCS-25 input-inventory pins:")
     failures += inventory_tests()
     print("\nMCS-28 quarantine-intake pins:")
