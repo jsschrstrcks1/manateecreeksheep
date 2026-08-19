@@ -244,6 +244,37 @@ def validate_famacha_schema(sheep_list):
     return warnings
 
 
+def validate_pen_log(sheep_list):
+    """Pen is an append-only movement log (MCS-9, scripts/pen_state.py) with sheep['pen'] as a
+    DERIVED cache of the last logged pen. Two invariants keep the cache honest:
+      1. sheep['pen'] equals the current pen derived from pen_log (else a move bypassed the log).
+      2. pen_log dates are non-decreasing where present (an append-only log is chronological).
+    ERROR on a cache/log disagreement (a real inconsistency); WARNING on out-of-order dates."""
+    try:
+        from pen_state import current_pen
+    except ImportError:
+        import importlib.util as _il
+        _sp = _il.spec_from_file_location("pen_state", str(Path(__file__).resolve().parent / "pen_state.py"))
+        _ps = _il.module_from_spec(_sp)
+        _sp.loader.exec_module(_ps)
+        current_pen = _ps.current_pen
+    issues = []
+    for sheep in sheep_list:
+        sid = sheep.get("id", "UNKNOWN")
+        log = sheep.get("pen_log")
+        if log is None:
+            continue
+        if sheep.get("pen") != current_pen(sheep):
+            issues.append(
+                f"ERROR [{sid}]: sheep['pen']={sheep.get('pen')!r} disagrees with the pen_log's "
+                f"current pen {current_pen(sheep)!r} — a move bypassed record_move()"
+            )
+        dated = [e.get("date") for e in log if isinstance(e, dict) and e.get("date")]
+        if dated != sorted(dated):
+            issues.append(f"WARNING [{sid}]: pen_log dates are out of order (append-only logs are chronological)")
+    return issues
+
+
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="Validate flock database")
@@ -283,6 +314,7 @@ def main():
         all_issues.extend(validate_tag_uniqueness(sheep_list))
         all_issues.extend(validate_pen_assignments(db))
         all_issues.extend(validate_famacha_schema(sheep_list))
+        all_issues.extend(validate_pen_log(sheep_list))
 
     errors = [i for i in all_issues if i.startswith("ERROR")]
     warnings = [i for i in all_issues if i.startswith("WARNING")]

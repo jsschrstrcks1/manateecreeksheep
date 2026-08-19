@@ -14,11 +14,19 @@ from pathlib import Path
 
 DB = Path(__file__).parent.parent / 'data' / 'flock_database.json'
 
+# pen is an append-only movement log; route --pen through record_move so the move is
+# dated and preserved instead of overwriting the past (MCS-9, scripts/pen_state.py).
+import importlib.util as _il
+_ps_spec = _il.spec_from_file_location("pen_state", str(Path(__file__).parent / "pen_state.py"))
+pen_state = _il.module_from_spec(_ps_spec)
+_ps_spec.loader.exec_module(pen_state)
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('sheep_id')
     ap.add_argument('img', help='e.g. IMG_0607')
     ap.add_argument('--pen', default=None)
+    ap.add_argument('--pen-date', default=None, help='ISO date of the pen move (optional)')
     ap.add_argument('--fam', action='append', default=[], help='DATE:SCORE:NOTES')
     ap.add_argument('--vax', action='append', default=[], help='DATE:VACCINE')
     ap.add_argument('--tx',  action='append', default=[], help='DATE:TREATMENT:NOTES')
@@ -37,7 +45,9 @@ def main():
     if target is None:
         print(f'ERROR: sheep_id {args.sheep_id} not found', file=sys.stderr); sys.exit(1)
 
-    if args.pen: target['pen'] = args.pen
+    if args.pen:
+        pen_state.seed_from_scalar(target)  # ensure a log exists before the first move
+        pen_state.record_move(target, args.pen, date=args.pen_date, source=f"notebook card {args.img}")
     if args.status: target['status'] = args.status
     if args.tag: target['tag'] = args.tag
     if args.sex: target['sex'] = args.sex

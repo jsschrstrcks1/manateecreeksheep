@@ -664,7 +664,14 @@
       ],
       "planned_sire": "merrie",
       "planned_breeding_season": "fall 2026 (Pen 4)",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 4",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "rocky",
@@ -866,7 +873,14 @@
         "summary": "Operator-anchored 2026-06-11: ELITE growth and maximum size. No documented NSIP record but observable phenotype is top-tier.",
         "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Tree Fort",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "teaser",
@@ -1896,7 +1910,14 @@
         "source": "Windlestone Ranch \u2014 TOP FEW % Dorper / TOP 10% Awassi breeder (operator 2026-06-11)",
         "implication": "Operator-anchored elite PR + size values are reinforced by Windlestone provenance."
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": "2026-04-02",
+          "pen": "Pen 6",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "dodge",
@@ -2118,7 +2139,14 @@
       "notes": "Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 / also in Pen 2 at different time. NOTE: 'Amber' in weight calculator is Skitters (Karakul), not Azure. Tag 20. Gigis Sister (notebook spelling: Gilris Sister/Azurc). Single baby (Baby Azure, ewe, born 1-10-26). In Pen 1. Source: notebook card. Full sister of Gigi (GG). Both 50% Hampshire / 50% Suffolk. Large frame ~212 lbs. Tag 20. Gigis sister. Single baby. Eyes consistently good Feb-Mar 2026. Historically weak parasites but holding this season. In Pen 1.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 1",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "elsie",
@@ -2198,7 +2226,14 @@
           "note": "Small white triplet sold at auction 2026-04-26 (owner confirmed). Only MC-2618 (lg white ewe) remains of her three triplets. Black ram was gifted 2026-03-15."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 5",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "nori",
@@ -2313,7 +2348,14 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): RIGHT side of image, lying down, head pointing up and right; her ram lamb MC-2604 lying parallel with only his head visible above her hindquarters"
         ]
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 3",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "merrie",
@@ -2454,7 +2496,14 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): LEFT side of the hay cage \u2014 owner 2026-04-26: 'biggest animal in that pen'"
         ]
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 3",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "bella",
@@ -2706,7 +2755,14 @@
       ],
       "planned_sire": "merrie",
       "planned_breeding_season": "fall 2026 (Pen 4)",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 4",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "serendipity-ram-2024",
@@ -3324,7 +3380,14 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): foreground left, large lying ewe \u2014 cream-toned in evening light"
         ]
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 3",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "trouble",
@@ -3761,7 +3824,14 @@
         "genetic_basis": "FM is 50% Tunis. Tunis descends from fat-tailed Tunisian Barbary stock, so latent fat-tail / fat-rump alleles are plausible. Her wide tail is consistent with this.",
         "breeding_relevance": "Makes FM a candidate to contribute fat-tail genetics into the Awassi diversity line alongside the pure Awassi ewes \u2014 a second independent source of the fat-tail trait."
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 4",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "fm1",
@@ -4573,7 +4643,14 @@
           "updated": "2026-05-21"
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Chicken Coop",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "lara-sire",
@@ -5776,7 +5853,14 @@
         "implication": "Animals purchased FROM Samantha's flock have been curated to her top-tier standard. NSIP EBVs already document Kelsier/OAV 2222 directly; this note adds provenance confidence to those values.",
         "date_added": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 5",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-31-ewe",
@@ -6985,7 +7069,14 @@
           "note": "Google Sheet EWE REGISTRY: 75% BHD / 25% Katahdin (was 50/50 in DB). Sire Spaetzel (100% Dorper), dam 'Lazy B's Trouble', grand-sire Sir Loin. DOB 1/14/2023. Source: docs.google sheet 1EQ5bOZL... operator-directed."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Tree Fort",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-24-0003-tf",
@@ -7030,7 +7121,14 @@
       "confidence": "medium",
       "last_verified": "2026-05-14",
       "description": "All white with some wool on her back.",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Tree Fort",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "skitters",
@@ -8772,7 +8870,14 @@
         "MC-2611"
       ],
       "description": "White with black belly. Black with black eyebrows. Fawn color mostly. Black under chin. Black inside ears. Front legs black on knees. Left front hoof white side. 2 white socks on hind legs.",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 1",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "charlies-ram-lamb",
@@ -8899,7 +9004,14 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "baby-azure",
@@ -9120,7 +9232,14 @@
       },
       "weight_lbs": 170,
       "weight_estimated": true,
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 1",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-0033-twin-ram-1",
@@ -9435,7 +9554,14 @@
           "note": "Full-sibling relationship recorded. Siblings: tag-00113-ewe-p1, tag-114-fawn-wool. Owner verbal: 'Pen 1 Ram is something different [from Kaladin]. Full sister/sibling to 00113.'"
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 1",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-0044-wool-ewe",
@@ -9522,7 +9648,14 @@
       },
       "weight_lbs": 170,
       "weight_estimated": true,
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 1",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-114-fawn-wool",
@@ -9613,7 +9746,14 @@
         }
       ],
       "last_verified": "2026-05-14",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 1",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-114-black-ram-lamb",
@@ -9638,7 +9778,14 @@
         "owner_verbal": "2026-04-01"
       },
       "last_verified": "2026-05-14",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 1",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-0053-ewe",
@@ -9738,7 +9885,14 @@
           "note": "Note: the ewe is just ear tag 0053. No proper name."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 1",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "charlie-ram",
@@ -9897,7 +10051,14 @@
         }
       ],
       "last_verified": "2026-05-14",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 4",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "charlies-farm-ewe-p3",
@@ -10002,7 +10163,14 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): mid-right standing, facing camera, hanging udder clearly visible"
         ]
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 3",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "charlies-farm-ewe-baby-p3",
@@ -10112,7 +10280,14 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "broken-tail-twin-ewe",
@@ -10223,7 +10398,14 @@
         ]
       },
       "last_verified": "2026-06-09",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "broken-tail-twin-ewe-2",
@@ -10431,7 +10613,14 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "gigi-2026-baby",
@@ -10543,7 +10732,14 @@
         "recommended_pen": "Pen 3 (Charlie's hair group \u2014 no wool) or another hair-sheep pen",
         "breeding_note": "Born 2026-01-10 \u2014 ~9 months at fall 2026 mating (R2 borderline). Either breed late in the fall window or hold to spring 2027. Operator decision."
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "gigi-2025-ram",
@@ -10746,7 +10942,14 @@
       "weight_lbs": 145,
       "weight_estimated": true,
       "mc_tag": "MC189",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 4",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "serendipity-twin-ram",
@@ -11024,7 +11227,14 @@
         }
       ],
       "last_verified": "2026-06-09",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "fm2-0051",
@@ -11105,7 +11315,14 @@
       },
       "weight_lbs": 185,
       "weight_estimated": true,
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 4",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "fm2-ram-lamb",
@@ -11256,7 +11473,14 @@
       "weight_estimated": true,
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 5",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-02-ewe-p5",
@@ -11307,7 +11531,14 @@
       },
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 5",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "fawn-wool-ewe-p5",
@@ -11365,7 +11596,14 @@
       },
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 5",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "daisy-anna-line",
@@ -11480,7 +11718,14 @@
       },
       "confidence": "medium",
       "last_verified": "2026-06-09",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "elsie-triplet-sm-white-ewe",
@@ -11840,7 +12085,14 @@
       "notes": "Identified by owner 2026-04-24 from Pen 4 photos (back-right position, picture 1). Full sibling to MC08 (Pen 6 ram). Both sired by Samson (100% Hampshire, deceased) out of FM (50% Cotswold / 50% Tunis) \u2014 owner 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam, which had been recorded with 'good confidence' but was corrected). All-wool sire+dam cross matches both siblings' cream wool fleece. No tag recorded yet. DOB unknown \u2014 likely born same cohort as MC08 (pre-Samson's death). Not previously in database roster for Pen 4.",
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 4",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "windlestone-2139",
@@ -12019,7 +12271,14 @@
         "implication": "Genetic quality of stock from Windlestone is exceptional even without NSIP documentation. The phenotypic anchor (elite growth, size, fat tail) is reinforced by the breeder's known curation standards.",
         "date_added": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 6",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "windlestone-0056",
@@ -12196,7 +12455,14 @@
         "implication": "Genetic quality of stock from Windlestone is exceptional even without NSIP documentation. The phenotypic anchor (elite growth, size, fat tail) is reinforced by the breeder's known curation standards.",
         "date_added": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 6",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "windlestone-0055",
@@ -12372,7 +12638,14 @@
         "implication": "Genetic quality of stock from Windlestone is exceptional even without NSIP documentation. The phenotypic anchor (elite growth, size, fat tail) is reinforced by the breeder's known curation standards.",
         "date_added": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 6",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-0035-white-ewe",
@@ -12440,7 +12713,14 @@
       "weight_estimated": true,
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Tree Fort",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-0035-baby-ewe",
@@ -12514,7 +12794,14 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-31-orange-tf",
@@ -12765,7 +13052,14 @@
         "derivation": "Sire Buck (50 Kat / 48 Aw / 2 EF) + Dam Bambii (50 Kat / 50 Dorper, Heather Oaks). Maternal half: 25 Kat + 25 Dorper. Paternal half: 25 Kat + 24 Aw + 1 EF.",
         "quality_caveat": "25% Dorper comes from Bambii (Heather Oaks line, owner-noted as weak). Katahdin (Kelsier-line via Buck) and Awassi (Windlestone via Buck) are higher-quality."
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "goose-09",
@@ -12922,7 +13216,14 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": "2026-03-24",
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "angus",
@@ -13009,7 +13310,14 @@
         "source": "Windlestone Ranch \u2014 TOP FEW % Dorper / TOP 10% Awassi breeder (operator 2026-06-11)",
         "implication": "While Angus has no NSIP record yet, his Windlestone provenance is high-confidence elite. Consider adding operator-anchored EBVs once his FAMACHA/weight data accumulates on-farm."
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 5",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-00113-ewe-p1",
@@ -13124,7 +13432,14 @@
         ],
         "evaluator": "Claude (visual ID pass 2026-04-26, owner-confirmed positions)"
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": "2026-04-25",
+          "pen": "Pen 1",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "tag-00113-singleton-2026",
@@ -13352,7 +13667,14 @@
           "FAMACHA 4+ in first 60 days = treat AND flag; recurrence after treatment = downgrade to Pen 4 watch"
         ]
       },
-      "advancement_ceiling_estimate": "Stage 3-4 (Pen 5 production / Pen 6 proven). Wool-leaning coat blocks Stage 5+ elite placement under Pipeline v5 selection hierarchy (FAMACHA > Hair > Breed > Meat)."
+      "advancement_ceiling_estimate": "Stage 3-4 (Pen 5 production / Pen 6 proven). Wool-leaning coat blocks Stage 5+ elite placement under Pipeline v5 selection hierarchy (FAMACHA > Hair > Breed > Meat).",
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "oav-2222-lamb-1",
@@ -13387,7 +13709,14 @@
           "note": "Reinstated. Prior session deleted oav-2222-lamb-1/2 records on 2026-04-26 based on then-correct 'OAV had no twins this year' read. She lambed 4-30, AFTER that snapshot. Owner reports hair-coat phenotype on both lambs \u2192 sire most likely NoriSon (=Eclipse merged record), not MC08. Eclipse settled her right before his 4-26-26 auction \u2014 his 'subfertile' record was actually 3 of 5+ ewes, not 1 of 6."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 5",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "oav-2222-lamb-2",
@@ -13423,7 +13752,14 @@
           "note": "Reinstated with twin sister oav-2222-lamb-1. Identifying mark: small black dot. Same parents and DOB."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Pen 5",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "lara-2026-lamb",
@@ -13520,7 +13856,14 @@
         "earliest_lambing": "~Aug-Sept 2027",
         "decided_on": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Chicken Coop",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "lara-2026-ram-twin",
@@ -13600,7 +13943,14 @@
           "note": "Moved from Pen 1 stall to Chicken Coop (chicken coop is being used as a stall \u2014 small enclosed grain-access space). Lara nearly dry; lambs almost fully on grain since day 3 of life."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "pen_log": [
+        {
+          "date": null,
+          "pen": "Chicken Coop",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "centralia-ram-214168",
@@ -13868,7 +14218,14 @@
         }
       ],
       "on_property": true,
-      "physical_arrival_date": "2026-06-14"
+      "physical_arrival_date": "2026-06-14",
+      "pen_log": [
+        {
+          "date": "2026-06-14",
+          "pen": "Pen 2",
+          "note": "seeded from legacy scalar pen (pre-log history not recorded)"
+        }
+      ]
     },
     {
       "id": "centralia-grandsire-195241",

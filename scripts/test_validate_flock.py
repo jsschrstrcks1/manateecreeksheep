@@ -115,6 +115,47 @@ def famacha_tests():
     return fails
 
 
+_ps_spec = importlib.util.spec_from_file_location("pen_state", os.path.join(_here, "pen_state.py"))
+ps = importlib.util.module_from_spec(_ps_spec)
+_ps_spec.loader.exec_module(ps)
+
+
+def pen_tests():
+    """Pins for the pen movement-log model (MCS-9) + the derived-cache validator rule."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    # current_pen derives from the log's last entry; falls back to scalar pre-seed
+    check("current_pen falls back to scalar pre-seed", ps.current_pen({"pen": "Pen 4"}) == "Pen 4")
+    s = {"pen": "Pen 4"}
+    ps.seed_from_scalar(s)
+    check("seed creates a one-entry log", len(s["pen_log"]) == 1 and s["pen_log"][0]["pen"] == "Pen 4")
+    check("seed leaves current pen unchanged", ps.current_pen(s) == "Pen 4")
+    check("seed is idempotent (no re-seed)", ps.seed_from_scalar(s) is False)
+
+    # record_move appends + updates the derived cache; a same-pen move is a no-op
+    moved = ps.record_move(s, "Pen 6", date="2026-05-01", note="weaning")
+    check("record_move logs a real move", moved is True and len(s["pen_log"]) == 2)
+    check("record_move updates derived cache", s["pen"] == "Pen 6" and ps.current_pen(s) == "Pen 6")
+    check("move preserves the prior pen in the log", s["pen_log"][0]["pen"] == "Pen 4")
+    noop = ps.record_move(s, "Pen 6")
+    check("same-pen move is a no-op (log is moves, not check-ins)", noop is False and len(s["pen_log"]) == 2)
+
+    # validator: cache/log disagreement is an ERROR; out-of-order dates a WARNING
+    bad_cache = [{"id": "t", "pen": "Pen 1", "pen_log": [{"date": "2026-01-01", "pen": "Pen 2"}]}]
+    errs = vf.validate_pen_log(bad_cache)
+    check("cache≠log → ERROR", any(e.startswith("ERROR") and "disagrees" in e for e in errs))
+    good = [{"id": "t", "pen": "Pen 2", "pen_log": [{"date": "2026-01-01", "pen": "Pen 1"}, {"date": "2026-02-01", "pen": "Pen 2"}]}]
+    check("in-order, consistent → clean", not vf.validate_pen_log(good))
+    ooo = [{"id": "t", "pen": "Pen 2", "pen_log": [{"date": "2026-02-01", "pen": "Pen 1"}, {"date": "2026-01-01", "pen": "Pen 2"}]}]
+    check("out-of-order dates → WARNING", any(e.startswith("WARNING") for e in vf.validate_pen_log(ooo)))
+    return fails
+
+
 def main():
     failures = []
     for name, pcts, unknown, expect in CASES:
@@ -125,10 +166,12 @@ def main():
         print(f"  {status} {name}: warned={got} expected={expect}")
     print("\nFAMACHA schema + migration pins:")
     failures += famacha_tests()
+    print("\nPen movement-log pins:")
+    failures += pen_tests()
     if failures:
         print(f"\n{len(failures)} FAILURE(S): {failures}")
         sys.exit(1)
-    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA guard pins passed.")
+    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA + pen guard pins passed.")
 
 
 if __name__ == "__main__":
