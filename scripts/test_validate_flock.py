@@ -413,6 +413,80 @@ def h2_prior_tests():
     return fails
 
 
+def health_event_tests():
+    """Pins for the MCS-26 typed health-event log: append-only writer, schema/vocabulary
+    validation, free-text candidate detection (health-context only), and the unified timeline."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _he_spec = importlib.util.spec_from_file_location("he", os.path.join(_here, "health_events.py"))
+    he = importlib.util.module_from_spec(_he_spec)
+    _he_spec.loader.exec_module(he)
+
+    # record_event: append-only, pure addition
+    s = {"id": "t", "health": {}}
+    he.record_event(s, "2026-01-01", "foot_rot", body_location="left rear", outcome="resolved")
+    he.record_event(s, "2026-02-01", "abscess", treatment="lanced")
+    ev = s["health"]["health_events"]
+    check("record_event appends (append-only)", len(ev) == 2 and ev[0]["condition"] == "foot_rot")
+    check("record_event drops None fields", "diagnosis" not in ev[0])
+
+    # validate_events: catches bad date, unknown condition, unknown outcome, unknown key
+    bad = {"id": "b", "health": {"health_events": [
+        {"date": "not-a-date", "condition": "foot_rot"},
+        {"date": "2026-01-01", "condition": "wobblies"},          # not in vocab
+        {"date": "2026-01-01", "condition": "abscess", "outcome": "vanished"},  # bad outcome
+        {"date": "2026-01-01", "condition": "abscess", "bogus": 1},  # unknown key
+    ]}}
+    iss = he.validate_events(bad)
+    check("validator flags unparseable date", any("unparseable date" in i for i in iss))
+    check("validator flags out-of-vocab condition", any("not in vocabulary" in i for i in iss))
+    check("validator flags bad outcome", any("not a known outcome" in i for i in iss))
+    check("validator flags unknown key", any("unknown key" in i for i in iss))
+    check("clean typed event validates", he.validate_events(s) == [])
+
+    # _classify maps phrases; scan only health-context (a mastitis in a BREED note is not a candidate)
+    check("classify foot rot -> foot_rot", he._classify("Terramycin (foot rot)") == ["foot_rot"])
+    check("classify abscess", "abscess" in he._classify("Flushed abscess."))
+    db = {"sheep": [
+        {"id": "a", "notes": "breed page mentions mastitis lineage", "health": {"treatments": []}},
+        {"id": "b", "health": {"treatments": [{"date": "2023", "treatment": "Terramycin (foot rot)"}]}},
+    ]}
+    cands = he.scan_candidates(db)
+    check("scan finds foot_rot in treatment", any(c["sheep_id"] == "b" and c["condition"] == "foot_rot" for c in cands))
+    check("scan does NOT read breed-prose notes (no mastitis candidate)",
+          not any(c["condition"] == "mastitis" for c in cands))
+
+    # scan skips an already-typed event (dedup by date+condition)
+    db2 = {"sheep": [{"id": "b", "health": {
+        "treatments": [{"date": "2023-01-01", "treatment": "foot rot"}],
+        "health_events": [{"date": "2023-01-01", "condition": "foot_rot"}]}}]}
+    check("scan skips already-typed event", he.scan_candidates(db2) == [])
+
+    # timeline merges + sorts across collections
+    tl_sheep = {"id": "t", "health": {
+        "famacha_scores": [{"date": "2026-03-01", "score": 3}],
+        "fec_history": [{"date": "2026-01-15", "fec": 400}],
+        "treatments": [{"date": "2026-02-01", "treatment": "Ivermectin"}],
+        "vaccinations": [{"date": "2026-04-01", "vaccine": "CDT"}],
+        "health_events": [{"date": "2026-01-01", "condition": "foot_rot"}]}}
+    tl = he.animal_timeline(tl_sheep)
+    check("timeline merges all 5 kinds", len(tl) == 5)
+    check("timeline sorted by date", [e["date"] for e in tl] == sorted(e["date"] for e in tl))
+    check("timeline first is the event, last the vaccination", tl[0]["kind"] == "event" and tl[-1]["kind"] == "vaccination")
+
+    # the real flock's foot_rot candidate is caught (tag-430-2079)
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    lc = he.scan_candidates(live)
+    check("live: foot_rot candidate on tag-430-2079",
+          any(c["condition"] == "foot_rot" and c["sheep_id"] == "tag-430-2079" for c in lc))
+    return fails
+
+
 def withdrawal_tests():
     """Pins for MCS-7 meat/milk withdrawal engine. The engine must (a) compute clear dates
     correctly from a CONFIRMED interval, (b) NEVER report clear for an unconfirmed drug, and
@@ -580,6 +654,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-26 health-event-log pins:")
+    failures += health_event_tests()
     print("\nMCS-7 withdrawal-clearance pins:")
     failures += withdrawal_tests()
     print("\nPedigree-integrity + mate-COI + cycle-guard pins:")
