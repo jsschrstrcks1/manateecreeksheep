@@ -4,7 +4,7 @@
 > Find/checkout: `node admin/library.mjs preflight --query "<task>" --patron <id> --merge`
 > **This document** is context/spec only unless stated otherwise.
 
-**Generated:** 2026-08-19T01:57:20.707Z
+**Generated:** 2026-08-19T02:14:42.185Z
 **SSOT:** `.household-library/catalog.jsonl`
 
 Open tasks for this repo (`state` ≠ `complete`). Regenerate:
@@ -29,7 +29,7 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 1 | registered | — | mcs-genetic-trait-card | MCS-32: two-tier genetic trait card — Mendelian letters w/ per-locus source+confidence (scrapie, color, horns, Booroola, TMEM154, FGFR3) + polygenic EBV bars (resistance/resilience/avoidance/maternal; burden-conditioned; evidence-grade labels; tolerance-slope mature form) |
 | 1 | returned | — | mcs-health-event-log | MCS-26 (operator directive): typed per-animal health & adverse-event log — foot rot, parasites, fly strike, predation, everything in between; condition vocabulary + diagnosis + treatment + body location + outcome, append-only (MCS-9 shape), feeds MCS-7 withdrawal and MCS-3 triage |
 | 1 | registered | — | mcs-milk-records | MCS-21 (operator: huge): per-ewe milk records (MCS-12 quantity shape) + maternal milk ability as selection trait |
-| 1 | registered | — | mcs-pen-movement-log-derived-state | MCS-9: pen as append-only movement log, current pen DERIVED (farmOS concept, no code) — movements[] source of truth, scalar pen mirrored, drift+roster validation, migration seeded 51/276; surfaced baby-azure stale-roster drift |
+| 1 | returned | — | mcs-pen-movement-log-derived-state | MCS-9: pen as append-only movement log, current pen DERIVED (farmOS concept, no code) — movements[] source of truth, scalar pen mirrored, drift+roster validation, migration seeded 51/276; surfaced baby-azure stale-roster drift |
 | 1 | registered | — | mcs-pen-moves-pending | 3 planned pen moves NEVER applied (Buck->Pen6, Rocky tag140->TreeFort, MC08->auction) + Orange Tag 31 ewe unlocated since 5/14 + Windlestone ram isolation rec (chat-got-pen-plan: 'reported dangerous'). VERIFY against current movements log first; apply as MCS-9 movement events |
 | 1 | registered | — | mcs-periparturient-window | MCS-33: periparturient window management — lambing calendar auto-schedules FAMACHA/FEC checks + late-gestation nutrition flag; maternal resistance as selection signal |
 | 1 | registered | — | mcs-privacy-attestation-parity | AUDIT EXPANSION: privacy attestation (tools/attest-repo-private + pre-push gate, completed for OCS) absent from manateecreeksheep — pushes ungated while the repo now carries family/operational data (photos, family names, health, finances-adjacent) |
