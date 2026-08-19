@@ -4,7 +4,7 @@
 > Find/checkout: `node admin/library.mjs preflight --query "<task>" --patron <id> --merge`
 > **This document** is context/spec only unless stated otherwise.
 
-**Generated:** 2026-08-19T04:29:40.564Z
+**Generated:** 2026-08-19T16:32:20.463Z
 **SSOT:** `.household-library/catalog.jsonl`
 
 Open tasks for this repo (`state` ≠ `complete`). Regenerate:
@@ -17,6 +17,7 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 |----------|-------|--------|---------|-------|
 | 1 | returned | — | mcs-attention-triage-list | MCS-3: attention-priority triage list — worst-first composite score (FAMACHA trend, FEC, days-since-check, flags) with R/A/G status |
 | 1 | returned | — | mcs-breeding-pipeline | MCS-17: master breeding pipeline — one row per mating, derived dates (check/due/wean/rebreed), exposure WINDOWS for pen breeding; unlocks MCS-33 scheduling; PRIORITY: parasite-control instrument |
+| 1 | registered | — | mcs-card-scans-date-transcription | Transcribe the 161 card scans in the repo root — the owner's mothers handwritten cards are the most-current source for the 43 placeholder dates and per-animal history; interpret notes, extract dates/causes, apply via validated commits, return unreadable cards as photo-questions |
 | 1 | registered | — | mcs-coat-shed-trait-log | MCS-19 (operator: huge): wool-vs-hair/shedding as structured seasonal trait log — shed score 1-5 + date each summer, coat class derived |
 | 1 | returned | — | mcs-drug-withdrawal-tracking | MCS-7 (from LambTracker, GPL-2, concept only): per-drug meat/milk WITHDRAWAL tracking with 'not safe until <date>' alerts. When an animal is treated, record the drug's withdrawal interval and flag the animal as not-safe-to-slaughter / milk-not-saleable until the window clears, so a treated animal can't be sold to slaughter or its milk marketed by mistake. Food-safety essential for a meat/parasite flock. Store withdrawal period per drug in the drug table; compute per-animal clear-date on treatment; surface it on the animal record and in any 'ready to sell/cull' view. |
 | 1 | returned | — | mcs-ewe-lifetime-productivity | MCS-18: ewe lifetime productivity ledger — per-dam lambings across years (lambs weaned per ewe lifetime; sheep have lambings not litters) |
@@ -30,7 +31,7 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 1 | returned | — | mcs-health-event-log | MCS-26 (operator directive): typed per-animal health & adverse-event log — foot rot, parasites, fly strike, predation, everything in between; condition vocabulary + diagnosis + treatment + body location + outcome, append-only (MCS-9 shape), feeds MCS-7 withdrawal and MCS-3 triage |
 | 1 | registered | — | mcs-milk-records | MCS-21 (operator: huge): per-ewe milk records (MCS-12 quantity shape) + maternal milk ability as selection trait |
 | 1 | returned | — | mcs-pen-movement-log-derived-state | MCS-9: pen as append-only movement log, current pen DERIVED (farmOS concept, no code) — movements[] source of truth, scalar pen mirrored, drift+roster validation, migration seeded 51/276; surfaced baby-azure stale-roster drift |
-| 1 | registered | — | mcs-pen-moves-pending | 3 planned pen moves NEVER applied (Buck->Pen6, Rocky tag140->TreeFort, MC08->auction) + Orange Tag 31 ewe unlocated since 5/14 + Windlestone ram isolation rec (chat-got-pen-plan: 'reported dangerous'). VERIFY against current movements log first; apply as MCS-9 movement events |
+| 1 | returned | — | mcs-pen-moves-pending | 3 planned pen moves NEVER applied (Buck->Pen6, Rocky tag140->TreeFort, MC08->auction) + Orange Tag 31 ewe unlocated since 5/14 + Windlestone ram isolation rec (chat-got-pen-plan: 'reported dangerous'). VERIFY against current movements log first; apply as MCS-9 movement events |
 | 1 | registered | — | mcs-periparturient-window | MCS-33: periparturient window management — lambing calendar auto-schedules FAMACHA/FEC checks + late-gestation nutrition flag; maternal resistance as selection signal |
 | 1 | returned | — | mcs-privacy-attestation-parity | AUDIT EXPANSION: privacy attestation (tools/attest-repo-private + pre-push gate, completed for OCS) absent from manateecreeksheep — pushes ungated while the repo now carries family/operational data (photos, family names, health, finances-adjacent) |
 | 1 | returned | — | mcs-repo-safety-parity | AUDIT EXPANSION: dangerous-command guard + arm-hooks-path into manateecreeksheep — the P0 guard (hostile-hardened via 10+ completed OCS passes) is ABSENT from the sheep repo's hooks and core.hooksPath is UNSET (measured: .githooks chain dead in git, the UL-226/229 disease). Harness change: Layer 3 discipline applies |
@@ -50,7 +51,8 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 2 | returned | — | mcs-mating-outcome-predictor | MCS-22: mating outcome predictor — sire x dam -> trait probabilities with plain-language topline; Tier-1 Punnett + Tier-2 midparent EBVs with spread (never certainty); extends breeding_projector |
 | 2 | returned | — | mcs-pedigree-inbreeding-views | MCS-16: rendered pedigree views + certificates + Wright's inbreeding coefficient for the closed-loop policy (F field already seeded on 2 records) |
 | 2 | registered | — | mcs-pending-done-log | MCS-11: reminder and record are ONE object — pending->done dated log entries underpin reminders, worklist, and history |
-| 2 | registered | — | mcs-push-reminders | MCS-2: push reminders to a channel the operator already watches — delivery layer for the agenda (channel choice = operator decision point, plan Phase 2) |
+| 2 | returned | — | mcs-push-reminders | MCS-2: push reminders to a channel the operator already watches — delivery layer for the agenda (channel choice = operator decision point, plan Phase 2) |
+| 2 | returned | — | mcs-push-reminders-delivery | MCS-2 push half: proactively deliver flock agenda alerts (overdue/withdrawal/quarantine) to a channel Ken already watches — channel choice is the operator's (text/ntfy/email/assistant); read side already serves GET /api/flock/agenda |
 | 2 | returned | — | mcs-quantity-abstraction | MCS-12: one quantity shape for every measurement (value+unit+measure+label) — weight, FAMACHA, FEC, BCS, temp without schema changes |
 | 2 | returned | — | mcs-quarantine-intake | MCS-28: intake quarantine records — biosecurity first-class; arrival drench + FEC-clean release gate (resistant-worm defense) |
 | 2 | registered | — | mcs-ration-nrc-evaluation | MCS-23: ration evaluation against NRC requirements — feed ADEQUACY; late-gestation protein funds immunity; underfed reads as parasite-suspect |
@@ -67,9 +69,9 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 4 | registered | — | mc-00113-shearing-and-famacha | Shear 00113 + take formal FAMACHA baseline; log parasite-resistance data |
 | 4 | registered | — | mc-baby-azure-heat-signal-review | Fold Baby Azure heat-death into Azure × Kelsier breeding notes; heat tolerance is a lambing selection criterion |
 | 4 | registered | — | mc-buck-breed-comp-verify-2026-05-14 | Verify Buck breeding-page composition source against flock_database.json and REPO-AGENT-APPENDIX (disputed comp — session 2026-05-14) |
-| 4 | registered | — | mc-buck-original-death-date-2026-05-14 | Resolve Buck original ram identity merge and death-date uncertainty (session 2026-05-14) |
+| 4 | returned | — | mc-buck-original-death-date-2026-05-14 | Resolve Buck original ram identity merge and death-date uncertainty (session 2026-05-14) |
 | 4 | registered | — | mc-kaladin-current-pen-2026-04-26 | Locate Kaladin's current pen (alive; pen null after bulk-cleanup correction) |
-| 4 | registered | — | mcs-centralia-image-attachments | Centralia records: 8 image references pending owner attachments (ram_1/2/4/5, registration scans, NSIP detail screen, IMG_2355 crate arrival) — files described in records but never committed; owner must supply, then re-run validate --check-images |
+| 4 | returned | — | mcs-centralia-image-attachments | Centralia records: 8 image references pending owner attachments (ram_1/2/4/5, registration scans, NSIP detail screen, IMG_2355 crate arrival) — files described in records but never committed; owner must supply, then re-run validate --check-images |
 | 4 | available | — | p4-1-low-confidence-records-that-never-received-owner-verificati | P4.1 Low-confidence records that never received owner verification |
 | 4 | available | — | p4-2-twelve-unclear-markers-still-in-db | P4.2 Twelve `[UNCLEAR]` markers still in DB |
 | 4 | available | — | p4-3-lambing-record-sire-holes | P4.3 Lambing-record sire holes |
@@ -85,9 +87,3 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 5 | available | — | process-docs-gaps | Process / docs gaps |
 | 5 | available | — | recommended-next-sweep-one-commit-each | Recommended next sweep (one commit each) |
 | 5 | available | — | sweep-progress-2026-05-13-session-2 | Sweep Progress — 2026-05-13 session 2 |
-
-<!-- library register 2026-08-19T04:48:47.936Z -->
-| mcs-push-reminders-delivery | 2 | MCS-2 push half: proactively deliver flock agenda alerts (overdue/withdrawal/quarantine) to a channel Ken already watches — channel choice is the operator's (text/ntfy/email/assistant); read side already serves GET /api/flock/agenda |
-
-<!-- library register 2026-08-19T16:30:54.471Z -->
-| mcs-card-scans-date-transcription | 1 | Transcribe the 161 card scans in the repo root — the owner's mothers handwritten cards are the most-current source for the 43 placeholder dates and per-animal history; interpret notes, extract dates/causes, apply via validated commits, return unreadable cards as photo-questions |
