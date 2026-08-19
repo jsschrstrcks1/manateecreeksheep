@@ -118,7 +118,7 @@ class RefusedError(ValueError):
 
 def append_event(*, animal, type, date, details, source, recorded_by,
                  date_precision="exact", score=None, drug=None, dose=None,
-                 withdrawal_until=None, fec_epg=None, event_id=None, quiet=False):
+                 withdrawal_until=None, fec_epg=None, event_id=None, quantity=None, quiet=False):
     """Validate + append one event. Importable core (MCS-6 batch sessions use this);
     the CLI's `add` is a thin wrapper. Raises RefusedError, never sys.exit."""
     ids = sheep_ids()
@@ -164,6 +164,13 @@ def append_event(*, animal, type, date, details, source, recorded_by,
                    ("withdrawal_until", withdrawal_until), ("fec_epg", fec_epg)):
         if v is not None:
             e[opt] = v
+
+    if quantity is not None:
+        from lib.quantity import validate_quantity
+        probs = validate_quantity(quantity)
+        if probs:
+            raise RefusedError(f"REFUSED: quantity invalid — {probs}")
+        e["quantity"] = quantity
 
     # MCS-12: measurements land as the uniform quantity shape alongside the legacy
     # fields (which stay for existing consumers; event_quantities() normalizes both).

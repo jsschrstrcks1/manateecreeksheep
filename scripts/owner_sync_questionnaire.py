@@ -108,6 +108,8 @@ def main():
         "- [ ] 'Lara is on' (2026-08-18) — on the mend, or on treatment herself?",
         "- [ ] WEATHER SIGNAL (MCS-1): farm coordinates for data/farm_location.json — lat: ______ lon: ______ (approximate is fine; drives the warm-wet recheck tightening)",
         "- [ ] BREEDING PIPELINE SEED (MCS-17): for each pen with a ram — when did the ram go in? (ram, pen, date in, date out-or-still-in). One line each; these become the matings table and drive preg-check/due/lambing-watch dates.",
+        "- [ ] ECONOMICS SEED (MCS-13/24): purchase prices for bought-in animals you remember (animal: $___), sale proceeds so far this year (animal/date/$ or auction batch), and current market price per lb for lambs: $___/lb · feed cost per head per day: $___ (rough is fine — the hold-vs-sell calculator refuses to run on guesses I invent, but runs on yours).",
+        "- [ ] INVENTORY COUNT (MCS-25): shelf count of the barn cabinet — wormers, vaccines, feed on hand (item / quantity / expiry date off the label / when-to-reorder). The expiry+reorder alerts start the day this is entered.",
         "",
         "**Soli Deo Gloria.** Answers get applied through validated commits; regenerate this file after.",
     ]

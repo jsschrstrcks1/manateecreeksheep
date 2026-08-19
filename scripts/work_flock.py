@@ -79,6 +79,15 @@ def parse_line(line):
             plan.append(dict(type="vaccination", details=f"vaccinated: {v}"))
         elif k == "fec":
             plan.append(dict(type="observation", fec_epg=int(v), details=f"FEC {v} epg"))
+        elif k == "shed":
+            plan.append(dict(type="observation", details=f"coat shed score {int(v)} (seasonal, MCS-19)",
+                             quantity={"measure": "coat_shed", "value": int(v), "unit": "score"}))
+        elif k == "tail":
+            plan.append(dict(type="observation", details=f"fat-tail score {int(v)} (MCS-20)",
+                             quantity={"measure": "fat_tail", "value": int(v), "unit": "score"}))
+        elif k == "milk":
+            plan.append(dict(type="observation", details=f"milk {float(v)} oz (MCS-21)",
+                             quantity={"measure": "milk", "value": float(v), "unit": "oz"}))
         elif k == "note":
             plan.append(dict(type="note", details=v))
         else:
@@ -148,7 +157,7 @@ def main():
     ids = roster(args)
     print(f"Chute session {args.date} — {len(ids)} animals "
           f"({'pen ' + args.pen if args.pen else 'triage order' if args.triage else 'whole flock'}).")
-    print("Per animal: f=N w=LBS wormer=DRUG vax=NAME fec=EPG trim shear blood wean "
+    print("Per animal: f=N w=LBS wormer=DRUG vax=NAME fec=EPG shed=N tail=N milk=OZ trim shear blood wean "
           "note=\"...\" | blank = skip | q = end session\n")
     done = 0
     for aid in ids:

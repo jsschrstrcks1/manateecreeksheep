@@ -265,6 +265,9 @@ def build_agenda(db, today, events=None):
              + anomaly_items(db.get("anomalies"), today)
              + watch_items(db.get("withdrawal_watch"), today)
              + breeding_items(db, today, events))
+    from .intake import inventory_items, quarantine_items
+    items += [i for i in quarantine_items(db, today) if i.get("active")]
+    items += [i for i in inventory_items(db, today) if i.get("active")]
     items = [i for i in items if i.get("active")]
     items.sort(key=lambda i: (not i["overdue"], i.get("due") or "9999", str(i.get("animal_id"))))
     return {"generated_for": str(today),

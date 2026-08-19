@@ -22,7 +22,9 @@ MEASURES = {
     "bcs": ("score",),              # body condition 1-5
     "temperature": ("F", "C"),
     "count": ("head",),
-    "milk": ("oz", "ml"),           # MCS-21 lands on this row
+    "milk": ("oz", "ml"),           # MCS-21 per-ewe milk records
+    "coat_shed": ("score",),        # MCS-19: seasonal shed score 1-5, each summer
+    "fat_tail": ("score",),         # MCS-20: fat-tail phenotype score 1-5
 }
 
 
@@ -37,7 +39,7 @@ def make_quantity(measure, value, unit=None, label=None):
                          f"(valid: {MEASURES[measure]})")
     if isinstance(value, bool) or not isinstance(value, (int, float)):
         raise ValueError(f"quantity value must be a number, got {value!r}")
-    if measure in ("famacha", "bcs") and value not in (1, 2, 3, 4, 5):
+    if measure in ("famacha", "bcs", "coat_shed", "fat_tail") and value not in (1, 2, 3, 4, 5):
         raise ValueError(f"{measure} score must be 1-5, got {value!r}")
     if measure in ("fec", "weight", "milk", "count") and value < 0:
         raise ValueError(f"{measure} cannot be negative, got {value!r}")
