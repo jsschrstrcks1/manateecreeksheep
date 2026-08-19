@@ -4,7 +4,7 @@
 > Find/checkout: `node admin/library.mjs preflight --query "<task>" --patron <id> --merge`
 > **This document** is context/spec only unless stated otherwise.
 
-**Generated:** 2026-08-19T02:14:42.185Z
+**Generated:** 2026-08-19T02:46:11.333Z
 **SSOT:** `.household-library/catalog.jsonl`
 
 Open tasks for this repo (`state` ≠ `complete`). Regenerate:
@@ -56,7 +56,7 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 2 | registered | — | mcs-ration-nrc-evaluation | MCS-23: ration evaluation against NRC requirements — feed ADEQUACY; late-gestation protein funds immunity; underfed reads as parasite-suspect |
 | 2 | registered | — | mcs-sell-weight-calculator | MCS-24: what-weight-to-sell-lambs marginal economics calculator (feed cost of next lbs vs price slide) |
 | 2 | registered | — | mcs-sheets-sync-l6 | L6 (redesign plan, only blocked phase): google-sheets MCP round-trip sync needs GCP project credentials — OPERATOR provides creds; sheet and JSON drift until done |
-| 2 | registered | — | mcs-working-the-flock-batch-session | Working-the-flock batch session — run the whole flock through the chute in one pass, ticking per-animal actions (wormer/vaccine/weight/blood/drug/trim-toes/shear/weaned) instead of per-record forms (concept from LambTracker GroupSheepManagement, GPL-2 — design only) |
+| 2 | returned | — | mcs-working-the-flock-batch-session | Working-the-flock batch session — run the whole flock through the chute in one pass, ticking per-animal actions (wormer/vaccine/weight/blood/drug/trim-toes/shear/weaned) instead of per-record forms (concept from LambTracker GroupSheepManagement, GPL-2 — design only) |
 | 3 | registered | — | mcs-blup-animal-model | MCS-31 (HEDGED): pedigree BLUP animal model as someday-upgrade for internal EBVs — NSIP covers anchored 90; deliberately not urged; registered for tracking only |
 | 3 | registered | — | mcs-cv-image-scoring | MCS-14 (HEDGED low-confidence): image->1-5 score via CV for BCS/FAMACHA — NOT to build until labelled data + safety story exist; registered for tracking only |
 | 3 | registered | — | mcs-owner-sync-unknowns | Owner-sync bundle: 12 [UNCLEAR] markers, unknown-status animals (daisys-daughter-1, tag-35-ewe, ext-lambs...), 7 unknown-sire lambing records, L7 annual eval scores, L11 drought cull list review |
