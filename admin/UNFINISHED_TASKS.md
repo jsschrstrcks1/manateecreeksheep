@@ -4,7 +4,7 @@
 > Find/checkout: `node admin/library.mjs preflight --query "<task>" --patron <id> --merge`
 > **This document** is context/spec only unless stated otherwise.
 
-**Generated:** 2026-08-19T01:43:44.290Z
+**Generated:** 2026-08-19T01:46:18.877Z
 **SSOT:** `.household-library/catalog.jsonl`
 
 Open tasks for this repo (`state` ≠ `complete`). Regenerate:
@@ -15,7 +15,7 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 
 | priority | state | holder | task_id | title |
 |----------|-------|--------|---------|-------|
-| 1 | checked_out | syl | mcs-attention-triage-list | MCS-3: attention-priority triage list — worst-first composite score (FAMACHA trend, FEC, days-since-check, flags) with R/A/G status |
+| 1 | returned | — | mcs-attention-triage-list | MCS-3: attention-priority triage list — worst-first composite score (FAMACHA trend, FEC, days-since-check, flags) with R/A/G status |
 | 1 | registered | — | mcs-breeding-pipeline | MCS-17: master breeding pipeline — one row per mating, derived dates (check/due/wean/rebreed), exposure WINDOWS for pen breeding; unlocks MCS-33 scheduling; PRIORITY: parasite-control instrument |
 | 1 | registered | — | mcs-coat-shed-trait-log | MCS-19 (operator: huge): wool-vs-hair/shedding as structured seasonal trait log — shed score 1-5 + date each summer, coat class derived |
 | 1 | returned | — | mcs-drug-withdrawal-tracking | MCS-7 (from LambTracker, GPL-2, concept only): per-drug meat/milk WITHDRAWAL tracking with 'not safe until <date>' alerts. When an animal is treated, record the drug's withdrawal interval and flag the animal as not-safe-to-slaughter / milk-not-saleable until the window clears, so a treated animal can't be sold to slaughter or its milk marketed by mistake. Food-safety essential for a meat/parasite flock. Store withdrawal period per drug in the drug table; compute per-animal clear-date on treatment; surface it on the animal record and in any 'ready to sell/cull' view. |
