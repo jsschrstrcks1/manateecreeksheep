@@ -261,6 +261,23 @@ sers = q.quantity_series(
     "a", "famacha")
 check("series filters by animal+measure", sers, [("2026-08-18", 2)])
 
+# --- MCS-18 ewe productivity ------------------------------------------------------------
+ep = _load("ep", "ewe_productivity.py")
+tdb18 = {"sheep": [{"id": "mama", "name": "Mama", "sex": "ewe", "status": "alive",
+                    "aliases": ["Old Girl"]},
+                   {"id": "kid1", "dam_id": "mama", "dob": "2025-03-01"},
+                   {"id": "kid2", "dam_id": "mama", "dob": "2026-02-01"},
+                   {"id": "orphan", "dam_id": "ghost-dam"}],
+         "lambing_records_2026": [
+             {"dam": "Old Girl", "lambs_born": 2, "lambs_alive": 1},
+             {"dam": "Nobody Known", "lambs_born": 1, "lambs_alive": 1}]}
+per, unres = ep.productivity(tdb18)
+check("dam_id lambs credited", len(per["mama"]["offspring"]), 2)
+check("years distinguished", sorted(per["mama"]["offspring_years"]), ["2025", "2026"])
+check("lambing row resolves via ALIAS", per["mama"]["rows_born"], 2)
+check("unknown dam name reported, never guessed", unres, ["Nobody Known"])
+check("dam_id to nonexistent dam not credited", "ghost-dam" in per, False)
+
 # --- verdict -------------------------------------------------------------------------
 if FAILURES:
     print(f"\n{len(FAILURES)} FAILURE(S): {FAILURES}")
