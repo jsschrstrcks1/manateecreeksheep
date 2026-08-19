@@ -413,6 +413,55 @@ def h2_prior_tests():
     return fails
 
 
+def quantity_tests():
+    """Pins for the MCS-12 quantity shape: parse, measure classification, lossless canonical
+    conversion, multi-quantity extraction, unit conversion, and real-data dose extraction."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _q_spec = importlib.util.spec_from_file_location("q", os.path.join(_here, "quantity.py"))
+    q = importlib.util.module_from_spec(_q_spec)
+    _q_spec.loader.exec_module(q)
+
+    mL = q.make_quantity(4.5, "mL")
+    check("mL -> volume, canonical mL", mL["measure"] == "volume" and mL["canonical_value"] == 4.5)
+    lb = q.make_quantity(108.2, "lbs")
+    check("lbs -> mass, canonical kg", lb["measure"] == "mass" and abs(lb["canonical_value"] - 49.0787) < 0.001)
+    check("cc == mL", q.make_quantity(2, "cc")["canonical_unit"] == "mL")
+    check("epg -> egg_count", q.make_quantity(400, "epg")["measure"] == "egg_count")
+    check("unknown unit -> count, lossless", q.make_quantity(5, "widgets")["measure"] == "count"
+          and q.make_quantity(5, "widgets")["unit"] == "widgets")
+    check("bad value -> None", q.make_quantity("x", "mL") is None)
+    check("lossless: original value/unit retained", lb["value"] == 108.2 and lb["unit"] == "lbs")
+
+    check("parse_quantity first number", q.parse_quantity("Nuflor 4.5mL")["value"] == 4.5)
+    check("parse no number -> None", q.parse_quantity("no numbers here") is None)
+
+    ex = q.extract_quantities("Nuflor 4.5mL 105.2°F")
+    check("extract two quantities (vol + temp)",
+          len(ex) == 2 and {e["measure"] for e in ex} == {"volume", "temperature"})
+    check("extract skips unit-less number", q.extract_quantities("FAMACHA 5") == [])
+
+    # unit conversion within a measure; cross-measure refused; temperature affine
+    check("lb -> kg convert", abs(q.to_unit(lb, "kg") - 49.0787) < 0.001)
+    check("mL -> L convert", q.to_unit(mL, "l") == 0.0045)
+    check("cross-measure convert refused", q.to_unit(mL, "kg") is None)
+    tF = q.make_quantity(105.2, "F")
+    check("F -> C affine convert", abs(q.to_unit(tF, "c") - 40.6667) < 0.001)
+
+    # real-data dose extraction
+    db = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    doses = q.extract_doses(db)
+    check("live: extracts charlie-ram Nuflor 4.5mL dose",
+          any(d["sheep_id"] == "charlie-ram" and d["quantity"]["value"] == 4.5 for d in doses))
+    check("live: all doses are volume/mass", all(d["quantity"]["measure"] in ("volume", "mass") for d in doses))
+    return fails
+
+
 def fat_tail_tests():
     """Pins for the MCS-20 fat-tail phenotype + lineage tool: ancestry summation, expectation
     banding, append-only writer, range validation, legacy-observation read, expected-vs-observed."""
@@ -797,6 +846,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-12 quantity-shape pins:")
+    failures += quantity_tests()
     print("\nMCS-20 fat-tail-lineage pins:")
     failures += fat_tail_tests()
     print("\nMCS-19 coat/shed-trait pins:")
