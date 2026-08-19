@@ -277,6 +277,62 @@ def triage_tests():
     return fails
 
 
+_fc_spec = importlib.util.spec_from_file_location("fc", os.path.join(_here, "fecrt_check.py"))
+fc = importlib.util.module_from_spec(_fc_spec)
+_fc_spec.loader.exec_module(fc)
+
+
+def fecrt_tests():
+    """Pins for the MCS-30 FECRT — drug-class parse, pairing, verdict bands, gap honesty."""
+    from datetime import date as _date
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    # drug-class parsing from free-text combos; supportive meds are not anthelmintics
+    check("ivermectin -> macrocyclic-lactone", fc.anthelmintic_classes("Ivermectin") == ["macrocyclic-lactone"])
+    check("combo names both classes", fc.anthelmintic_classes("Ivermectin + Fenbendazole + Iron") == ["benzimidazole", "macrocyclic-lactone"])
+    check("supportive-only = no anthelmintic", fc.anthelmintic_classes("iron and vitamin B") == [])
+
+    def animal(fecs):
+        return {"id": "t", "health": {"fec_history": [{"date": d, "fec": v} for d, v in fecs]}}
+
+    dd = _date(2026, 3, 1)
+    # complete FECRT: 800 -> 20 at day 12 = 97.5% effective
+    r = fc.fecrt_for_drench(animal([("2026-03-01", 800), ("2026-03-13", 20)]), dd, "macrocyclic-lactone")
+    check("complete FECRT computes reduction", r["status"] == "complete" and r["reduction_pct"] == 97.5)
+    check("effective band (>=95%)", r["verdict"] == "effective")
+    # resistant: 800 -> 200 = 75%
+    r = fc.fecrt_for_drench(animal([("2026-03-01", 800), ("2026-03-13", 200)]), dd, "benzimidazole")
+    check("resistant band (<90%)", r["verdict"] == "resistant" and r["reduction_pct"] == 75.0)
+    # suspected: 800 -> 72 = 91%
+    r = fc.fecrt_for_drench(animal([("2026-03-01", 800), ("2026-03-13", 72)]), dd, "macrocyclic-lactone")
+    check("suspected band (90-95%)", r["verdict"] == "suspected")
+    # off-window post is flagged, not dropped
+    r = fc.fecrt_for_drench(animal([("2026-03-01", 800), ("2026-03-19", 20)]), dd, "macrocyclic-lactone")
+    check("off-window post flagged not dropped", r["status"] == "complete" and r["flags"])
+    # gaps: no post, no pre, no fec
+    check("no post FEC -> no_post", fc.fecrt_for_drench(animal([("2026-03-01", 800)]), dd, "x")["status"] == "no_post")
+    check("no pre FEC -> no_pre", fc.fecrt_for_drench(animal([("2026-03-13", 20)]), dd, "x")["status"] == "no_pre")
+    check("no fec at all -> no_fec", fc.fecrt_for_drench(animal([]), dd, "x")["status"] == "no_fec")
+    check("pre FEC of 0 -> undefined (no_pre)", fc.fecrt_for_drench(animal([("2026-03-01", 0), ("2026-03-13", 0)]), dd, "x")["status"] == "no_pre")
+
+    # efficacy table aggregates worst-case per class
+    db = {"sheep": [
+        {"id": "a", "health": {"treatments": [{"date": "2026-03-01", "treatment": "Ivermectin"}],
+                               "fec_history": [{"date": "2026-03-01", "fec": 800}, {"date": "2026-03-13", "fec": 200}]}},
+    ]}
+    tbl = fc.efficacy_table(fc.all_drenches(db))
+    check("table verdict = worst FECRT (resistant)", tbl["macrocyclic-lactone"]["status_here"] == "resistant")
+    empty = fc.efficacy_table(fc.all_drenches({"sheep": [
+        {"id": "b", "health": {"treatments": [{"date": "2026-03-01", "treatment": "Fenbendazole"}]}}]}))
+    check("no paired FEC -> unknown, not a guess", empty["benzimidazole"]["status_here"] == "unknown_no_paired_fec")
+    return fails
+
+
 def main():
     failures = []
     for name, pcts, unknown, expect in CASES:
@@ -293,10 +349,12 @@ def main():
     failures += deworm_tests()
     print("\nMCS-3 attention-triage pins:")
     failures += triage_tests()
+    print("\nMCS-30 FECRT pins:")
+    failures += fecrt_tests()
     if failures:
         print(f"\n{len(failures)} FAILURE(S): {failures}")
         sys.exit(1)
-    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA + pen + deworm + triage guard pins passed.")
+    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA + pen + deworm + triage + FECRT guard pins passed.")
 
 
 if __name__ == "__main__":
