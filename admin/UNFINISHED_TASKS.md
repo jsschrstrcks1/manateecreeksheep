@@ -4,7 +4,7 @@
 > Find/checkout: `node admin/library.mjs preflight --query "<task>" --patron <id> --merge`
 > **This document** is context/spec only unless stated otherwise.
 
-**Generated:** 2026-08-19T04:04:38.824Z
+**Generated:** 2026-08-19T04:10:05.202Z
 **SSOT:** `.household-library/catalog.jsonl`
 
 Open tasks for this repo (`state` ≠ `complete`). Regenerate:
@@ -16,10 +16,10 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | priority | state | holder | task_id | title |
 |----------|-------|--------|---------|-------|
 | 1 | returned | — | mcs-attention-triage-list | MCS-3: attention-priority triage list — worst-first composite score (FAMACHA trend, FEC, days-since-check, flags) with R/A/G status |
-| 1 | registered | — | mcs-breeding-pipeline | MCS-17: master breeding pipeline — one row per mating, derived dates (check/due/wean/rebreed), exposure WINDOWS for pen breeding; unlocks MCS-33 scheduling; PRIORITY: parasite-control instrument |
+| 1 | returned | — | mcs-breeding-pipeline | MCS-17: master breeding pipeline — one row per mating, derived dates (check/due/wean/rebreed), exposure WINDOWS for pen breeding; unlocks MCS-33 scheduling; PRIORITY: parasite-control instrument |
 | 1 | registered | — | mcs-coat-shed-trait-log | MCS-19 (operator: huge): wool-vs-hair/shedding as structured seasonal trait log — shed score 1-5 + date each summer, coat class derived |
 | 1 | returned | — | mcs-drug-withdrawal-tracking | MCS-7 (from LambTracker, GPL-2, concept only): per-drug meat/milk WITHDRAWAL tracking with 'not safe until <date>' alerts. When an animal is treated, record the drug's withdrawal interval and flag the animal as not-safe-to-slaughter / milk-not-saleable until the window clears, so a treated animal can't be sold to slaughter or its milk marketed by mistake. Food-safety essential for a meat/parasite flock. Store withdrawal period per drug in the drug table; compute per-animal clear-date on treatment; surface it on the animal record and in any 'ready to sell/cull' view. |
-| 1 | registered | — | mcs-ewe-lifetime-productivity | MCS-18: ewe lifetime productivity ledger — per-dam lambings across years (lambs weaned per ewe lifetime; sheep have lambings not litters) |
+| 1 | returned | — | mcs-ewe-lifetime-productivity | MCS-18: ewe lifetime productivity ledger — per-dam lambings across years (lambs weaned per ewe lifetime; sheep have lambings not litters) |
 | 1 | returned | — | mcs-famacha-fec-combined-decision | MCS-8 (from FuzzyLogic-VERMIFUGA, concept only): deworming decision reads FAMACHA + FEC TOGETHER, and treats disagreement as a diagnostic signal. Rules: anemic (bad FAMACHA) + LOW egg count -> anemia may NOT be parasites, investigate before dosing; good colour + HIGH egg count -> animal copes but is shedding heavily onto pasture (refugia/contamination consideration). Do not deworm on FAMACHA alone. Sharpens the recheck/treat nudge (see MCS-1): surface the mismatch cases rather than blindly dosing on one number. Grounded in standard integrated parasite management. |
 | 1 | returned | — | mcs-famacha-schema-normalization | AUDIT FINDING: famacha_scores entries split 91 'famacha' vs 16 'score' keys (Lara's history among the 16) — normalize via migration + validator rule; agenda-engine plan already fixed to dual-read so nothing silently drops |
 | 1 | registered | — | mcs-fat-tail-tracking | MCS-20 (operator: huge): fat-tail phenotype scoring + lineage tracking (Awassi/Tunis lines) feeding mating prediction |
