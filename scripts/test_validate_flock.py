@@ -156,6 +156,69 @@ def pen_tests():
     return fails
 
 
+_dd_spec = importlib.util.spec_from_file_location("dd", os.path.join(_here, "deworm_decision.py"))
+dd = importlib.util.module_from_spec(_dd_spec)
+_dd_spec.loader.exec_module(dd)
+
+
+def deworm_tests():
+    """Pins for the MCS-8 FAMACHA+FEC combined decision matrix — every cell, incl. the two
+    mismatch cases the spec treats as diagnostic signals (absent from current data, so they
+    are pinned with fixtures)."""
+    from datetime import date as _date
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    as_of = _date(2026, 4, 15)
+
+    def animal(fam=None, fec=None):
+        h = {}
+        if fam is not None:
+            h["famacha_scores"] = [{"date": "2026-04-10", "score": fam, "notes": ""}]
+        if fec is not None:
+            h["fec_history"] = [{"date": "2026-04-10", "fec": fec}]
+        return {"id": "t", "status": "alive", "health": h}
+
+    # the two MISMATCH diagnostic cells (the spec's reason for existing)
+    r = dd.decide(animal(fam=4, fec=100), as_of)
+    check("anemic + LOW fec → investigate (not dose)", r["decision"] == "investigate_anemia_nonparasitic")
+    check("anemic + LOW fec → mismatch flagged + urgent", "mismatch_signal" in r["flags"] and r["urgency"] == 3)
+    r = dd.decide(animal(fam=1, fec=1500), as_of)
+    check("good colour + HIGH fec → refugia watch (not dose)", r["decision"] == "refugia_contamination_watch")
+    check("good + HIGH fec → mismatch flagged", "mismatch_signal" in r["flags"])
+
+    # the agreeing / plain cells
+    check("anemic + HIGH fec → treat_and_verify", dd.decide(animal(fam=5, fec=2000), as_of)["decision"] == "treat_and_verify")
+    check("good + LOW fec → monitor_routine", dd.decide(animal(fam=1, fec=100), as_of)["decision"] == "monitor_routine")
+    check("borderline 3 → recheck", dd.decide(animal(fam=3), as_of)["decision"] == "recheck_borderline")
+
+    # missing-data honesty (three states, never a silent default)
+    r = dd.decide(animal(fam=5), as_of)
+    check("anemic + NO fec → urgent + fec named as the gap", r["decision"] == "urgent_check_fec_needed" and r["urgency"] == 3)
+    check("good + NO fec → fec_needed (never dose on FAMACHA alone)", dd.decide(animal(fam=1), as_of)["decision"] == "fec_needed")
+    check("nothing on record → no_data", dd.decide(animal(), as_of)["decision"] == "no_data")
+
+    # evidence hygiene
+    r = dd.decide(animal(fam="1-2", fec=100), as_of)
+    check("range score '1-2' parsed via the shared parser", r["famacha"] and r["famacha"]["score"] == 1.5)
+    stale = {"id": "t", "status": "alive", "health": {"famacha_scores": [{"date": "2026-01-01", "score": 2, "notes": ""}]}}
+    check("stale famacha flagged", any(f.startswith("famacha_stale") for f in dd.decide(stale, as_of)["flags"]))
+    conflicted = {"id": "t", "status": "alive", "health": {"famacha_scores": [{"date": "2026-04-10", "score": None, "notes": "[CONFLICT]"}]}}
+    check("a nulled [CONFLICT] score is NOT evidence", dd.decide(conflicted, as_of)["decision"] == "no_data")
+    future = {"id": "t", "status": "alive", "health": {"famacha_scores": [{"date": "2026-05-01", "score": 5, "notes": ""}]}}
+    check("as-of ignores future-dated entries", dd.decide(future, as_of)["decision"] == "no_data")
+
+    # ordering: worst first
+    flock = {"sheep": [animal(fam=1, fec=100) | {"id": "calm"}, animal(fam=5, fec=2000) | {"id": "sick"}]}
+    order = [r["sheep_id"] for r in dd.decide_flock(flock, as_of)]
+    check("flock sorts worst-first", order[0] == "sick")
+    return fails
+
+
 def main():
     failures = []
     for name, pcts, unknown, expect in CASES:
@@ -168,10 +231,12 @@ def main():
     failures += famacha_tests()
     print("\nPen movement-log pins:")
     failures += pen_tests()
+    print("\nMCS-8 deworm-decision pins:")
+    failures += deworm_tests()
     if failures:
         print(f"\n{len(failures)} FAILURE(S): {failures}")
         sys.exit(1)
-    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA + pen guard pins passed.")
+    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA + pen + deworm guard pins passed.")
 
 
 if __name__ == "__main__":
