@@ -413,6 +413,59 @@ def h2_prior_tests():
     return fails
 
 
+def inventory_tests():
+    """Pins for MCS-25 input inventory: expiry banding, reorder logic (same-measure only),
+    uncounted honesty, and schema validation."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    import datetime as _dt
+    _iv_spec = importlib.util.spec_from_file_location("iv", os.path.join(_here, "input_inventory.py"))
+    iv = importlib.util.module_from_spec(_iv_spec)
+    _iv_spec.loader.exec_module(iv)
+
+    asof = _dt.date(2026, 6, 1)
+    items = [
+        {"name": "expired wormer", "category": "anthelmintic", "expiry_date": "2026-01-01"},
+        {"name": "soon", "category": "vaccine", "expiry_date": "2026-06-20"},
+        {"name": "fine", "category": "mineral", "expiry_date": "2030-01-01"},
+        {"name": "no date", "category": "feed"},
+        {"name": "low stock", "category": "anthelmintic",
+         "quantity": {"value": 50, "unit": "mL"}, "reorder_level": {"value": 100, "unit": "mL"}},
+        {"name": "plenty", "category": "anthelmintic",
+         "quantity": {"value": 500, "unit": "mL"}, "reorder_level": {"value": 100, "unit": "mL"}},
+        {"name": "mismatch", "category": "feed",
+         "quantity": {"value": 5, "unit": "mL"}, "reorder_level": {"value": 100, "unit": "kg"}},
+    ]
+    rows = {r["name"]: r for r in iv.status(items, as_of=asof, soon_days=60)}
+    check("expired flagged", rows["expired wormer"]["expiry_state"] == "EXPIRED")
+    check("expiring soon flagged", rows["soon"]["expiry_state"] == "expiring_soon")
+    check("far expiry ok", rows["fine"]["expiry_state"] == "ok")
+    check("no expiry honest", rows["no date"]["expiry_state"] == "no_expiry_on_file")
+    check("low stock -> REORDER", rows["low stock"]["reorder_state"] == "REORDER")
+    check("plenty -> ok", rows["plenty"]["reorder_state"] == "ok")
+    check("uncounted honest (not reorder)", rows["expired wormer"]["reorder_state"] == "not_counted")
+    check("cross-measure reorder not falsely triggered", rows["mismatch"]["reorder_state"] == "ok")
+
+    bad = [{"name": "", "category": "widget", "expiry_date": "nope",
+            "quantity": {"nope": 1}}]
+    iss = iv.validate_inventory(bad)
+    check("validator flags no name", any("no name" in i for i in iss))
+    check("validator flags bad category", any("category" in i for i in iss))
+    check("validator flags bad expiry", any("unparseable" in i for i in iss))
+    check("validator flags bad quantity shape", any("quantity" in i and "value,unit" in i for i in iss))
+
+    # shipped inventory is well-formed and seeded from real use
+    live = iv.load_inventory()
+    check("shipped inventory validates clean", iv.validate_inventory(live) == [])
+    check("shipped inventory seeded with ivermectin", any(x.get("generic") == "ivermectin" for x in live))
+    return fails
+
+
 def quarantine_tests():
     """Pins for MCS-28 quarantine intake: append-only writer, schema/date/bool/fec validation,
     biosecurity checklist gaps, and the arrival-unlogged surfacing."""
@@ -960,6 +1013,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-25 input-inventory pins:")
+    failures += inventory_tests()
     print("\nMCS-28 quarantine-intake pins:")
     failures += quarantine_tests()
     print("\nMCS-15 scrapie-genotype pins:")

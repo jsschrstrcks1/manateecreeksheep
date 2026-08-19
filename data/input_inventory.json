@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "purpose": "On-hand inventory of flock inputs — anthelmintics, vaccines, feed, minerals — with quantity, lot, expiry, and reorder level. Consumed read-only by scripts/input_inventory.py to flag expired/expiring stock and items below reorder level.",
+    "owned_by": "operator — quantities, expiries, lots, and reorder levels are entered by hand as stock is bought and used. This tool authors none of them.",
+    "why_expiry_matters": "Expired dewormer is not just wasted money — a degraded anthelmintic under-doses, and under-dosing selects for resistance. Expired vaccine may not protect. Track expiry as carefully as the FECRT tracks efficacy.",
+    "seed_note": "The anthelmintic/vaccine/support items below are SEEDED from the drugs this flock has actually used (treatment history), so the starting inventory matches real use. quantity/expiry/lot/reorder_level are null until the operator enters them; a null quantity reads as 'not counted', never as 'zero on hand'.",
+    "quantity_shape": "quantity is the MCS-12 shape {value, unit} (e.g. {\"value\": 500, \"unit\": \"mL\"}); unit is free but volume/mass units convert.",
+    "schema": {
+      "name": "product/brand name",
+      "generic": "active ingredient / generic",
+      "category": "anthelmintic | vaccine | antibiotic | mineral | feed | supportive | other",
+      "quantity": "{value, unit} on hand, or null if not counted",
+      "lot": "manufacturer lot number (for traceability / recall)",
+      "expiry_date": "ISO date, or null",
+      "reorder_level": "{value, unit} below which to reorder, or null",
+      "supplier": "where it is bought",
+      "notes": "free text"
+    }
+  },
+  "items": [
+    {"name": "Ivermectin drench", "generic": "ivermectin", "category": "anthelmintic",
+     "quantity": null, "lot": null, "expiry_date": null, "reorder_level": null, "supplier": null,
+     "notes": "In active use (15 treatment events). Rotate CLASS, not brand, to slow resistance."},
+    {"name": "Fenbendazole (Safe-Guard/Panacur)", "generic": "fenbendazole", "category": "anthelmintic",
+     "quantity": null, "lot": null, "expiry_date": null, "reorder_level": null, "supplier": null,
+     "notes": "In active use (8 events). Benzimidazole class."},
+    {"name": "Corid", "generic": "amprolium", "category": "anthelmintic",
+     "quantity": null, "lot": null, "expiry_date": null, "reorder_level": null, "supplier": null,
+     "notes": "Coccidiostat (2 events). Not a wormer — for coccidia."},
+    {"name": "Nuflor", "generic": "florfenicol", "category": "antibiotic",
+     "quantity": null, "lot": null, "expiry_date": null, "reorder_level": null, "supplier": null,
+     "notes": "Antibiotic (2 events). Rx / vet-directed; has a meat withdrawal (MCS-7)."},
+    {"name": "Terramycin", "generic": "oxytetracycline", "category": "antibiotic",
+     "quantity": null, "lot": null, "expiry_date": null, "reorder_level": null, "supplier": null,
+     "notes": "Antibiotic (1 event, foot rot)."},
+    {"name": "Covexin / CDT", "generic": "clostridial multivalent vaccine", "category": "vaccine",
+     "quantity": null, "lot": null, "expiry_date": null, "reorder_level": null, "supplier": null,
+     "notes": "Clostridial vaccine (CDT is the core sheep vaccine). Keep refrigerated; watch expiry."},
+    {"name": "Injectable iron", "generic": "iron dextran", "category": "supportive",
+     "quantity": null, "lot": null, "expiry_date": null, "reorder_level": null, "supplier": null,
+     "notes": "Anemia support alongside FAMACHA-driven deworming (18 events)."},
+    {"name": "Vitamin B12 / B-complex", "generic": "vitamin B complex", "category": "supportive",
+     "quantity": null, "lot": null, "expiry_date": null, "reorder_level": null, "supplier": null,
+     "notes": "Appetite/energy support."}
+  ]
+}
