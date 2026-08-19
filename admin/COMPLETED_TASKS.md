@@ -4,7 +4,7 @@
 > Find/checkout: `node admin/library.mjs preflight --query "<task>" --patron <id> --merge`
 > **This document** is context/spec only unless stated otherwise.
 
-**Generated:** 2026-08-19T04:17:40.184Z
+**Generated:** 2026-08-19T04:29:40.564Z
 **Authoritative completions:** `admin/VERIFIED_COMPLETED.md` (two-patron quorum) + catalog `state: complete`.
 **Do not append ad hoc** — use `library verify` / `library complete`.
 
