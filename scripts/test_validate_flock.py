@@ -413,6 +413,80 @@ def h2_prior_tests():
     return fails
 
 
+def fat_tail_tests():
+    """Pins for the MCS-20 fat-tail phenotype + lineage tool: ancestry summation, expectation
+    banding, append-only writer, range validation, legacy-observation read, expected-vs-observed."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _ft_spec = importlib.util.spec_from_file_location("ft", os.path.join(_here, "fat_tail.py"))
+    ft = importlib.util.module_from_spec(_ft_spec)
+    _ft_spec.loader.exec_module(ft)
+
+    # ancestry summation across fat-tailed breeds; non-numeric skipped
+    s = {"breed_composition": {"percentages": {"Awassi": 44, "Katahdin": 56}}}
+    pct, breeds = ft.fat_tailed_ancestry(s)
+    check("ancestry sums Awassi only (44)", pct == 44 and any("Awassi" in b for b in breeds))
+    s2 = {"breed_composition": {"percentages": {"Tunis": 25, "Awassi": 25}}}
+    check("ancestry sums multiple fat-tailed breeds (50)", ft.fat_tailed_ancestry(s2)[0] == 50)
+    bad = {"breed_composition": {"percentages": {"Awassi": "lots"}}}
+    check("ancestry skips non-numeric pct", ft.fat_tailed_ancestry(bad)[0] == 0)
+
+    # expectation bands
+    check("expectation high >=50", ft.expectation(50) == "high")
+    check("expectation some >=12", ft.expectation(12) == "some" and ft.expectation(25) == "some")
+    check("expectation trace >0", ft.expectation(5) == "trace")
+    check("expectation none =0", ft.expectation(0) == "none")
+
+    # writer append-only + drops None
+    a = {"id": "t"}
+    ft.record_fat_tail_score(a, "2026-06-11", 2, observer="ken")
+    check("record_fat_tail_score appends", len(a["fat_tail_scores"]) == 1 and a["fat_tail_scores"][0]["score"] == 2)
+    check("record drops None", "notes" not in a["fat_tail_scores"][0])
+
+    # validate: range, bool, date, unknown key
+    b = {"id": "b", "fat_tail_scores": [
+        {"date": "2026-06-01", "score": 4},        # over range (max 3)
+        {"date": "2026-06-01", "score": True},     # bool
+        {"date": "bad", "score": 2},               # bad date
+        {"date": "2026-06-01", "score": 2, "x": 1}]}  # unknown key
+    iss = ft.validate_fat_tail(b)
+    check("validator flags over-range (>3)", any("score 4" in i for i in iss))
+    check("validator flags bool", any("score True" in i for i in iss))
+    check("validator flags bad date", any("unparseable date" in i for i in iss))
+    check("validator flags unknown key", any("unknown key" in i for i in iss))
+
+    # legacy observation is read (not discarded), newest first
+    leg = {"fat_tail_scores": [{"date": "2026-06-11", "score": 2, "observation": "wide"}],
+           "fat_tail_observation": {"date": "2026-01-01", "observation": "legacy note"}}
+    obs = ft._observations(leg)
+    check("legacy + structured both read", len(obs) == 2)
+    check("observations newest first", obs[0]["date"] == "2026-06-11")
+
+    # lineage_view: expected-no-obs flag; observed-no-ancestry flag; thin-tailed excluded
+    db = {"sheep": [
+        {"id": "awassi_hi", "status": "alive", "breed_composition": {"percentages": {"Awassi": 95}}},
+        {"id": "thin", "status": "alive", "breed_composition": {"percentages": {"Katahdin": 100}}},
+        {"id": "surprise", "status": "alive", "breed_composition": {"percentages": {"Katahdin": 100}},
+         "fat_tail_scores": [{"date": "2026-06-01", "score": 3}]},
+    ]}
+    view = {r["id"]: r for r in ft.lineage_view(db)}
+    check("thin-tailed no-obs animal excluded", "thin" not in view)
+    check("high-ancestry no-obs is flagged a gap", "no observation" in (view["awassi_hi"]["flag"] or ""))
+    check("observed-without-ancestry flagged", "no fat-tailed ancestry" in (view["surprise"]["flag"] or ""))
+
+    # live flock: the 95% Awassi Windlestone animals appear, expected high
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    lv = {r["id"]: r for r in ft.lineage_view(live)}
+    check("live: a Windlestone fat-tail animal is expected high",
+          any(r["expectation"] == "high" and r["ancestry_pct"] >= 88 for r in lv.values()))
+    return fails
+
+
 def coat_shed_tests():
     """Pins for the MCS-19 coat/shed trait log: coat classification, append-only shed writer,
     score-range validation, peak-window selection, and the never-false-zero gap rule."""
@@ -723,6 +797,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-20 fat-tail-lineage pins:")
+    failures += fat_tail_tests()
     print("\nMCS-19 coat/shed-trait pins:")
     failures += coat_shed_tests()
     print("\nMCS-26 health-event-log pins:")
