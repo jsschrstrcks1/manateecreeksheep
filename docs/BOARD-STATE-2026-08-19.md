@@ -46,8 +46,10 @@ suites green.
 - ~~Serving `data/agenda.json` to phones~~ **DONE 2026-08-19** — `GET /api/flock/agenda`
   wired into atlas-serve (owner-gated, OK/STALE/UNAVAILABLE, never empty-OK); goes live
   at the next atlas-serve restart on the cluster.
-- Push-reminder delivery (MCS-2 push half → `mcs-push-reminders-delivery`) — blocked on
-  Ken's channel choice (questionnaire ask added), then a small Atlas delivery hook.
+- Push-reminder delivery (MCS-2 push half → `mcs-push-reminders-delivery`) — **BUILT
+  2026-08-19, channel-agnostic** (`GET/POST /api/flock/notify`: compose → daily dedupe →
+  ntfy/webhook dispatch; unconfigured blocks loudly). Activation is config, not code:
+  Ken names the channel (questionnaire), two env vars are set, atlas-serve restarts.
 - `mcs-sheets-sync-l6` (sheet round-trip) and the PWA server half (MCS-34).
 
 ## Parked deliberately
