@@ -85,3 +85,6 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 5 | available | — | process-docs-gaps | Process / docs gaps |
 | 5 | available | — | recommended-next-sweep-one-commit-each | Recommended next sweep (one commit each) |
 | 5 | available | — | sweep-progress-2026-05-13-session-2 | Sweep Progress — 2026-05-13 session 2 |
+
+<!-- library register 2026-08-19T04:48:47.936Z -->
+| mcs-push-reminders-delivery | 2 | MCS-2 push half: proactively deliver flock agenda alerts (overdue/withdrawal/quarantine) to a channel Ken already watches — channel choice is the operator's (text/ntfy/email/assistant); read side already serves GET /api/flock/agenda |

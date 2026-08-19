@@ -43,7 +43,11 @@ suites green.
 
 ## Atlas-side (needs the runtime, not this session)
 
-- Serving `data/agenda.json` to phones + push-reminder channel (Phase 2, MCS-2/11).
+- ~~Serving `data/agenda.json` to phones~~ **DONE 2026-08-19** — `GET /api/flock/agenda`
+  wired into atlas-serve (owner-gated, OK/STALE/UNAVAILABLE, never empty-OK); goes live
+  at the next atlas-serve restart on the cluster.
+- Push-reminder delivery (MCS-2 push half → `mcs-push-reminders-delivery`) — blocked on
+  Ken's channel choice (questionnaire ask added), then a small Atlas delivery hook.
 - `mcs-sheets-sync-l6` (sheet round-trip) and the PWA server half (MCS-34).
 
 ## Parked deliberately
