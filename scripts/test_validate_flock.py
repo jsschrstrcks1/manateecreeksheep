@@ -387,6 +387,32 @@ def ewe_productivity_tests():
     return fails
 
 
+_tr_spec = importlib.util.spec_from_file_location("traits", os.path.join(_here, "ebv", "traits.py"))
+tr = importlib.util.module_from_spec(_tr_spec)
+_tr_spec.loader.exec_module(tr)
+
+
+def h2_prior_tests():
+    """Pins for the MCS-27 h2 calibration priors (grounded half; factor tables deferred)."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    p = tr.FLORIDA_CRACKER_H2
+    check("FL Cracker FEC prior = 0.33", p["FEC"] == 0.33)
+    check("FL Cracker FAMACHA prior = 0.31", p["FAMACHA"] == 0.31)
+    check("FL Cracker PCV/BCS priors", p["PCV"] == 0.22 and p["BCS"] == 0.19)
+    check("resilience band 0.10-0.19", p["resilience"] == (0.10, 0.19))
+    check("retain-pre-treatment rule present", tr.RETAIN_PRE_TREATMENT_RECORDS is True)
+    # the calibration is OPT-IN: it must NOT have silently overwritten the live generic priors
+    check("live PR h2 unchanged (opt-in, not auto-applied)", tr.TRAITS["PR"]["h2"] == 0.25)
+    check("existing traits intact", set(tr.TRAITS) >= {"PR", "WWT", "PWT", "MWT", "ADG", "NLW", "MILK"})
+    return fails
+
+
 def main():
     failures = []
     for name, pcts, unknown, expect in CASES:
@@ -407,6 +433,8 @@ def main():
     failures += fecrt_tests()
     print("\nMCS-18 ewe-productivity pins:")
     failures += ewe_productivity_tests()
+    print("\nMCS-27 h2-prior pins:")
+    failures += h2_prior_tests()
     if failures:
         print(f"\n{len(failures)} FAILURE(S): {failures}")
         sys.exit(1)

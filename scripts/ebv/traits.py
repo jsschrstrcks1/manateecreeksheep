@@ -79,6 +79,34 @@ TRAITS = {
 }
 
 
+# ── Florida Cracker heritability calibration (MCS-27, operator-supplied priors) ──────────
+# A separate, per-parasite-trait prior set for when the flock is evaluated as (or selected
+# toward) a Florida Cracker-type heat- and parasite-adapted landrace, where parasite-trait
+# heritability runs HIGHER than the generic hair-sheep meta-analysis values in TRAITS above.
+# Values are the operator's calibration (MCS-27 spec); the parasite figures sit in the range
+# published for locally-adapted landraces (e.g. FEC h2 ~0.2-0.4 in tropically-adapted breeds).
+#
+# NOT auto-applied: this flock is MIXED (Katahdin/Dorper/Awassi/…), not pure Florida Cracker,
+# and h2 feeds estimate.py's EBV blend (new_ebv = h2*deviation + (1-h2)*mid_parent_ebv), so
+# adopting these would SHIFT breeding rankings. This is an opt-in calibration, documented and
+# reversible, for the operator to select — not a silent overwrite of the cited generic priors.
+# Apply per-trait by copying a value into the matching TRAITS entry's "h2".
+FLORIDA_CRACKER_H2 = {
+    "FEC": 0.33,       # fecal egg count (parasite burden) — the primary resilience signal
+    "FAMACHA": 0.31,   # FAMACHA anemia score — maps to the PR trait (FAMACHA-derived)
+    "PCV": 0.22,       # packed cell volume — anemia, not yet a tracked trait here
+    "BCS": 0.19,       # body condition score — not yet a tracked trait here
+    "resilience": (0.10, 0.19),  # composite resilience heritability band
+}
+
+# Data-collection rule that PROTECTS these heritabilities (MCS-27): RETAIN PRE-TREATMENT
+# records. A FAMACHA/FEC read AFTER a drench reflects the drug, not the animal's genetic
+# resistance, so a post-drench value must never overwrite or stand in for the pre-drench one.
+# The normalize_famacha merge is append/dedupe (never overwrites) and the FECRT tool reads
+# the pre-drench count explicitly, so both already honor this; stated here as the standing rule.
+RETAIN_PRE_TREATMENT_RECORDS = True
+
+
 def contemporary_group_key(sheep_record: dict) -> str:
     """Group animals for trait deviation calculations.
 
