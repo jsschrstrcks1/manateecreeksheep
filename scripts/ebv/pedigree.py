@@ -22,6 +22,24 @@ from functools import lru_cache
 from pathlib import Path
 
 
+class PedigreeCycleError(ValueError):
+    """A pedigree cycle (an animal is its own ancestor) was reached while
+    computing a relationship. This is a DATA fault, not a math fault: the
+    numerator-relationship recurrence is only defined on an acyclic pedigree.
+
+    Raised in place of the RecursionError that an unguarded recurrence would
+    otherwise hit, so callers get a NAMED, catchable fault identifying the
+    pair involved instead of an opaque stack overflow. For an acyclic
+    pedigree (the normal, valid case) this is never raised and every returned
+    value is byte-identical to the unguarded computation.
+    """
+
+    def __init__(self, a: str, b: str):
+        self.a, self.b = a, b
+        super().__init__(f"pedigree cycle reached expanding relationship({a!r}, {b!r}) "
+                         f"— an ancestor of one is also its descendant; run pedigree_integrity.py")
+
+
 def load_pedigree(db_path: str = "data/flock_database.json") -> dict:
     """Return {sheep_id: {"sire": id|None, "dam": id|None, "dob": str|None}}."""
     with open(db_path) as f:
@@ -37,20 +55,34 @@ def load_pedigree(db_path: str = "data/flock_database.json") -> dict:
     return ped
 
 
-def relationship(a: str, b: str, ped: dict, memo: dict | None = None) -> float:
+def relationship(a: str, b: str, ped: dict, memo: dict | None = None,
+                 _active: frozenset | None = None) -> float:
     """Numerator relationship coefficient A(a, b).
 
     Recursive Wright path-counting via the tabular recurrence:
         A(i, j) = 0.5 * (A(sire_i, j) + A(dam_i, j))   for i != j
         A(i, i) = 1 + F_i = 1 + 0.5 * A(sire_i, dam_i)
+
+    Cycle-guarded: ``_active`` is the set of pair-keys currently open on the
+    recursion stack (grey nodes in a DFS). Re-entering an open key means the
+    pedigree contains a cycle — an animal is its own ancestor — for which the
+    recurrence is undefined; we raise PedigreeCycleError rather than recurse
+    to a RecursionError. Because a completed pair is cached in ``memo`` and an
+    in-progress pair is in ``_active``, an ACYCLIC pedigree never re-enters an
+    open key, so this guard changes no value on valid data (verified by pins).
     """
     if memo is None:
         memo = {}
+    if _active is None:
+        _active = frozenset()
     if a is None or b is None:
         return 0.0
     key = (a, b) if a < b else (b, a)
     if key in memo:
         return memo[key]
+    if key in _active:
+        raise PedigreeCycleError(a, b)
+    active = _active | {key}
     if a == b:
         # Self-relationship = 1 + inbreeding
         if a not in ped:
@@ -59,7 +91,7 @@ def relationship(a: str, b: str, ped: dict, memo: dict | None = None) -> float:
             sire = ped[a].get("sire")
             dam = ped[a].get("dam")
             if sire and dam and sire in ped and dam in ped:
-                f = 0.5 * relationship(sire, dam, ped, memo)
+                f = 0.5 * relationship(sire, dam, ped, memo, active)
             else:
                 f = 0.0
             r = 1.0 + f
@@ -79,8 +111,8 @@ def relationship(a: str, b: str, ped: dict, memo: dict | None = None) -> float:
         return 0.0
     sire = ped[younger].get("sire")
     dam = ped[younger].get("dam")
-    rs = relationship(sire, older, ped, memo) if sire else 0.0
-    rd = relationship(dam, older, ped, memo) if dam else 0.0
+    rs = relationship(sire, older, ped, memo, active) if sire else 0.0
+    rd = relationship(dam, older, ped, memo, active) if dam else 0.0
     r = 0.5 * (rs + rd)
     memo[key] = r
     return r

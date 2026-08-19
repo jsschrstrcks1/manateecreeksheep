@@ -413,6 +413,82 @@ def h2_prior_tests():
     return fails
 
 
+def pedigree_tests():
+    """Pins for the pedigree-integrity + mate-COI tool and the cycle-guard hardening of
+    ebv/pedigree.py. Two halves: (a) the safety hardening changed NO value on the acyclic
+    real flock; (b) the new advisory's math and honesty guarantees hold."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _pe_spec = importlib.util.spec_from_file_location(
+        "ebv_pedigree", os.path.join(_here, "ebv", "pedigree.py"))
+    P = importlib.util.module_from_spec(_pe_spec)
+    _pe_spec.loader.exec_module(P)
+    _pi_spec = importlib.util.spec_from_file_location(
+        "pedigree_integrity", os.path.join(_here, "pedigree_integrity.py"))
+    pi = importlib.util.module_from_spec(_pi_spec)
+    _pi_spec.loader.exec_module(pi)
+
+    ped = P.load_pedigree(os.path.join(_here, "..", "data", "flock_database.json"))
+
+    # (a) OUTPUT-PRESERVATION: the cycle guard must not perturb acyclic real-flock values.
+    if "broken-tail" in ped:
+        check("F(broken-tail) preserved = 0.375", round(P.inbreeding("broken-tail", ped), 4) == 0.375)
+    if "half-tail" in ped:
+        check("F(half-tail) preserved = 0.25", round(P.inbreeding("half-tail", ped), 4) == 0.25)
+    if "broken-tail" in ped and "half-tail" in ped:
+        check("A(broken-tail,half-tail) preserved = 1.0",
+              round(P.relationship("broken-tail", "half-tail", ped), 4) == 1.0)
+
+    # (a) CYCLE GUARD: a cyclic pedigree raises the TYPED error, never a RecursionError.
+    c3 = {"x": {"sire": "y", "dam": "z", "dob": "", "sex": "ram"},
+          "y": {"sire": "z", "dam": "x", "dob": "", "sex": "ewe"},
+          "z": {"sire": "x", "dam": "y", "dob": "", "sex": "ram"}}
+    try:
+        P.relationship("x", "y", c3)
+        check("3-cycle raises PedigreeCycleError", False)
+    except P.PedigreeCycleError:
+        check("3-cycle raises PedigreeCycleError", True)
+    except RecursionError:
+        check("3-cycle raises PedigreeCycleError (got RecursionError)", False)
+
+    # (b) coi_band boundaries (relationship equivalents, F=0.25*A)
+    check("band low  <0.0625", pi.coi_band(0.06) == "low")
+    check("band watch 0.0625", pi.coi_band(0.0625) == "watch")
+    check("band high  0.125", pi.coi_band(0.125) == "high")
+    check("band severe 0.25", pi.coi_band(0.25) == "severe")
+    check("band unknown None", pi.coi_band(None) == "unknown")
+
+    # (b) find_cycles catches a synthetic cycle; the real flock is clean
+    check("find_cycles detects a synthetic 3-cycle", len(pi.find_cycles(c3)) >= 1)
+    rep = pi.integrity_report({"sheep": [{"id": k, "sire_id": v["sire"], "dam_id": v["dam"],
+                                          "dob": v["dob"], "sex": v["sex"]} for k, v in ped.items()]})
+    check("real flock pedigree is CLEAN", rep["clean"] is True)
+
+    # (b) mate_coi honesty: self invalid, unrelated F=0, sex-swap warns, unknown id typed
+    check("mate self -> invalid", pi.mate_coi("half-tail", "half-tail", ped)["status"] == "invalid")
+    check("mate unknown -> typed", pi.mate_coi("half-tail", "nope-xyz", ped)["status"] == "unknown_dam")
+    if "merrie" in ped and "lara" in ped:
+        r = pi.mate_coi("merrie", "lara", ped)
+        check("unrelated mate F=0 low", r["lamb_F"] == 0 and r["band"] == "low")
+    if "merrie" in ped and "serendipity" in ped:
+        r = pi.mate_coi("merrie", "serendipity", ped)
+        check("live watch mate merrie x serendipity F=0.0938",
+              r["lamb_F"] == 0.0938 and r["band"] == "watch" and "sir-loin" in r["shared_ancestors"])
+        r2 = pi.mate_coi("serendipity", "merrie", ped)  # sexes swapped
+        check("sex-swapped mate warns twice", len(r2["warnings"]) == 2)
+
+    # (b) F census omits (never false-zeroes) animals lacking both parents
+    fc = pi.flock_inbreeding({"sheep": [{"id": "orphan", "status": "alive", "sire_id": None, "dam_id": None}]},
+                             {"orphan": {"sire": None, "dam": None, "dob": None, "sex": "ewe"}})
+    check("F census omits a both-parents-missing animal", fc == [])
+    return fails
+
+
 def main():
     failures = []
     for name, pcts, unknown, expect in CASES:
@@ -435,6 +511,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nPedigree-integrity + mate-COI + cycle-guard pins:")
+    failures += pedigree_tests()
     if failures:
         print(f"\n{len(failures)} FAILURE(S): {failures}")
         sys.exit(1)
