@@ -184,7 +184,62 @@
         "adult_weight_lb": 250
       },
       "health": {
-        "famacha_scores": [],
+        "famacha_scores": [
+          {
+            "date": "2023-02-18",
+            "score": "1-2",
+            "notes": "Derived from FEC < anemia threshold",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)"
+          },
+          {
+            "date": "2023-04-06",
+            "score": "1-2",
+            "notes": "Derived from FEC < anemia threshold",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)"
+          },
+          {
+            "date": "2023-05-25",
+            "score": "1-2",
+            "notes": "Derived from FEC < anemia threshold",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)"
+          },
+          {
+            "date": "2023-06-15",
+            "score": "1-2",
+            "notes": "Derived from FEC < anemia threshold",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)"
+          },
+          {
+            "date": "2023-06-29",
+            "score": "1-2",
+            "notes": "Derived from FEC < anemia threshold",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)"
+          },
+          {
+            "date": "2023-07-13",
+            "score": "1-2",
+            "notes": "Derived from FEC < anemia threshold",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)"
+          },
+          {
+            "date": "2023-07-27",
+            "score": "1-2",
+            "notes": "Derived from FEC < anemia threshold",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)"
+          },
+          {
+            "date": "2023-08-10",
+            "score": "1-2",
+            "notes": "Derived from FEC < anemia threshold",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)"
+          },
+          {
+            "date": "2023-08-24",
+            "score": "1-2",
+            "notes": "Derived from FEC < anemia threshold",
+            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)"
+          }
+        ],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [
@@ -247,62 +302,6 @@
             "source": "UF Ram Test 2023 (Tx=0)",
             "famacha_equivalent": "1-2",
             "note": "FEC readings 0-350 (avg 157) with Tx=0 = animal was never anemic. FAMACHA proxy: 1-2 throughout test."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2023-02-18",
-            "score": "1-2",
-            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
-          },
-          {
-            "date": "2023-04-06",
-            "score": "1-2",
-            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
-          },
-          {
-            "date": "2023-05-25",
-            "score": "1-2",
-            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
-          },
-          {
-            "date": "2023-06-15",
-            "score": "1-2",
-            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
-          },
-          {
-            "date": "2023-06-29",
-            "score": "1-2",
-            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
-          },
-          {
-            "date": "2023-07-13",
-            "score": "1-2",
-            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
-          },
-          {
-            "date": "2023-07-27",
-            "score": "1-2",
-            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
-          },
-          {
-            "date": "2023-08-10",
-            "score": "1-2",
-            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
-          },
-          {
-            "date": "2023-08-24",
-            "score": "1-2",
-            "source": "UF Ram Test 2023 (Tx=0 + FEC controlled)",
-            "note": "Derived from FEC < anemia threshold"
           }
         ]
       },
@@ -554,29 +553,44 @@
       "health": {
         "famacha_scores": [
           {
-            "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-12",
+            "score": 1,
+            "notes": "eyes good; eyes good; single ewe; Eyes good",
+            "source": "IMG_0662",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-20-26",
-            "famacha": 5,
-            "notes": "Eyes almost white. Ivermectin+Fenbendazole+VB 3mL+2mL Iron"
+            "date": "2026-02-20",
+            "score": 5,
+            "notes": "Almost White. Ivermectin+Fenbendazole+VB 3mL+Iron 2mL; Eyes almost white. Ivermec+Fenbendazole+VB 3mL+Iron 2mL; Eyes almost white. Ivermectin+Fenbendazole+VB 3mL+2mL Iron",
+            "source": "IMG_0662"
           },
           {
-            "date": "2-27-26",
-            "famacha": 5,
-            "notes": "Eyes almost white. Ivermectin+Fenbendazole+VB 3mL+3mL Iron"
+            "date": "2026-02-27",
+            "score": 5,
+            "notes": "Almost white still. Ivermectin+Fenbendazole+VB 3mL+Iron 3mL; Eyes almost white still. Ivermec+Fenbendazole+VB 3mL+Iron 3mL; Eyes almost white. Ivermectin+Fenbendazole+VB 3mL+3mL Iron",
+            "source": "IMG_0662"
           },
           {
-            "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "date": "2026-03-09",
+            "score": 1,
+            "notes": "CDT shot. Eyes good. Recovered.; CDT shot, eyes good; CDT shot. Eyes good.",
+            "source": "IMG_0662",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-04-10",
+            "score": null,
+            "notes": "Eyes almost white AGAIN (3rd emergency). Fenbendazole+Ivermectin+Iron 3mL+VB 4mL shot; [CONFLICT] FAMACHA recorded as 5 and 1 on the same date \u2014 score left null; verify against the notebook; Eyes good",
+            "source": "IMG_0663",
+            "raw": [
+              5,
+              1
+            ]
           }
         ],
         "weak_resistance": true,
@@ -612,58 +626,6 @@
           {
             "source": "IMG_0663",
             "note": "THIRD parasite emergency (2-20, 2-27, 4-10 all FAMACHA 5). Strong cull candidate per drought-rule protocol."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-20",
-            "score": 5,
-            "notes": "Almost White. Ivermectin+Fenbendazole+VB 3mL+Iron 2mL"
-          },
-          {
-            "date": "2026-02-27",
-            "score": 5,
-            "notes": "Almost white still. Ivermectin+Fenbendazole+VB 3mL+Iron 3mL"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot. Eyes good. Recovered."
-          },
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good; single ewe",
-            "source": "IMG_0662"
-          },
-          {
-            "date": "2026-02-20",
-            "score": 5,
-            "notes": "Eyes almost white. Ivermec+Fenbendazole+VB 3mL+Iron 2mL",
-            "source": "IMG_0662"
-          },
-          {
-            "date": "2026-02-27",
-            "score": 5,
-            "notes": "Eyes almost white still. Ivermec+Fenbendazole+VB 3mL+Iron 3mL",
-            "source": "IMG_0662"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot, eyes good",
-            "source": "IMG_0662"
-          },
-          {
-            "date": "2026-04-10",
-            "score": 5,
-            "notes": "Eyes almost white AGAIN (3rd emergency). Fenbendazole+Ivermectin+Iron 3mL+VB 4mL shot",
-            "source": "IMG_0663"
           }
         ]
       },
@@ -757,12 +719,16 @@
       "health": {
         "famacha_scores": [
           {
-            "date": "2-16-26",
-            "famacha": 1,
-            "notes": "Eyes good."
+            "date": "2026-02-16",
+            "score": 1,
+            "notes": "checked eyes are good; Eyes good.",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-13-26",
+            "date": "2026-03-13",
+            "score": null,
             "notes": "Yearly booster given."
           }
         ],
@@ -784,14 +750,7 @@
             "notes": "yearly booster"
           }
         ],
-        "notes": [],
-        "famacha_history": [
-          {
-            "date": "2026-02-16",
-            "score": "1-2",
-            "notes": "checked eyes are good"
-          }
-        ]
+        "notes": []
       },
       "breeding": {
         "is_breeding_animal": true,
@@ -1425,7 +1384,20 @@
         "date": "2023-2024"
       },
       "health": {
-        "famacha_scores": [],
+        "famacha_scores": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0609"
+          },
+          {
+            "date": "2026-03-11",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0609"
+          }
+        ],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [
@@ -1443,25 +1415,6 @@
           {
             "source": "IMG_0609",
             "note": "Card description: white with beard. Ram Tag 113, Pen 5 before sale."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0609"
-          },
-          {
-            "date": "2026-03-11",
-            "score": "1-2",
-            "notes": "CDT vac",
-            "source": "IMG_0609"
           }
         ]
       },
@@ -1758,8 +1711,20 @@
       "health": {
         "famacha_scores": [
           {
-            "score": 1,
+            "date": "2026-02-16",
+            "score": "1-2",
+            "notes": "checked; eyes are good",
+            "source": "IMG_0646"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "yearly booster given",
+            "source": "IMG_0646"
+          },
+          {
             "date": "2025-2026",
+            "score": 1,
             "notes": "Consistently dark red (FAMACHA 1) for past year per Windlestone"
           }
         ],
@@ -1777,20 +1742,6 @@
           {
             "source": "IMG_0646",
             "note": "Mom calls him Butthead (attitude). Card labels him 'Charlies Ram' \u2014 possibly meaning Charlie-the-person's ram. No tag."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-16",
-            "score": "1-2",
-            "notes": "checked; eyes are good",
-            "source": "IMG_0646"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "yearly booster given",
-            "source": "IMG_0646"
           }
         ]
       },
@@ -1843,23 +1794,7 @@
       "pen": "Pen 6",
       "measurements": {},
       "health": {
-        "famacha_scores": [],
-        "weak_resistance": false,
-        "treatments": [],
-        "vaccinations": [
-          {
-            "date": "2026-03-10",
-            "vaccine": "CDT",
-            "source": "IMG_0622"
-          }
-        ],
-        "notes": [
-          {
-            "source": "IMG_0622",
-            "note": "Wool coat. Brown elbows on back legs. Tagged 4-11-26 with green MC-2433; yellow scrapie 240007. Tree Fort per card (conflicts with later pipeline plan that targets Pen 4)."
-          }
-        ],
-        "famacha_history": [
+        "famacha_scores": [
           {
             "date": "2026-02-13",
             "score": "1-2",
@@ -1877,6 +1812,21 @@
             "score": "1-2",
             "notes": "good eyes, tagged MC-2433",
             "source": "IMG_0622"
+          }
+        ],
+        "weak_resistance": false,
+        "treatments": [],
+        "vaccinations": [
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT",
+            "source": "IMG_0622"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0622",
+            "note": "Wool coat. Brown elbows on back legs. Tagged 4-11-26 with green MC-2433; yellow scrapie 240007. Tree Fort per card (conflicts with later pipeline plan that targets Pen 4)."
           }
         ]
       },
@@ -2103,19 +2053,36 @@
       "health": {
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0637",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-19",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0637",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Eyes good. Booster."
+            "date": "2026-03-30",
+            "score": 1,
+            "notes": "eyes good \u2014 booster; Eyes good. Booster.",
+            "source": "IMG_0637",
+            "raw": [
+              "1-2"
+            ]
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. Covexin yearly."
           }
         ],
         "weak_resistance": true,
@@ -2131,41 +2098,6 @@
           {
             "source": "IMG_0637",
             "note": "Described as 'Gigi's Sister' on card. Had single baby this lambing season."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-04-01",
-            "score": 1,
-            "notes": "FAMACHA 1. Covexin yearly."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0637"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0637"
-          },
-          {
-            "date": "2026-03-30",
-            "score": "1-2",
-            "notes": "eyes good \u2014 booster",
-            "source": "IMG_0637"
           }
         ]
       },
@@ -2222,12 +2154,14 @@
       "health": {
         "famacha_scores": [
           {
+            "date": "2023-09-06",
             "score": 1,
-            "date": "2023-09-06"
+            "notes": ""
           },
           {
+            "date": "2023-09-18",
             "score": 1,
-            "date": "2023-09-18"
+            "notes": ""
           }
         ],
         "weak_resistance": false,
@@ -2301,7 +2235,32 @@
       "pen": "Pen 3",
       "measurements": {},
       "health": {
-        "famacha_scores": [],
+        "famacha_scores": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0657"
+          },
+          {
+            "date": "2026-02-26",
+            "score": "1-2",
+            "notes": "eyes good. Knot under chin.; eyes good; knot under chin observed",
+            "source": "IMG_0657"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot. Eyes good.; CDT shot, eyes good",
+            "source": "IMG_0657"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0657"
+          }
+        ],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [
@@ -2319,47 +2278,6 @@
           {
             "source": "IMG_0657",
             "note": "Single baby this season. Knot observed under chin 2-26-26 \u2014 monitor."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good. Knot under chin."
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot. Eyes good."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0657"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good; knot under chin observed",
-            "source": "IMG_0657"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot, eyes good",
-            "source": "IMG_0657"
-          },
-          {
-            "date": "2026-04-09",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0657"
           }
         ]
       },
@@ -2379,7 +2297,7 @@
           "IMG_8642.PNG"
         ]
       },
-      "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54; NoriSon = Eclipse, SAME animal — owner confirmed 2026-04-26; sold at auction 2026-04-26, alive at sale). CORRECTED from prior assumption: this note previously listed 'NoriSon and Eclipse' as two lambs with Eclipse 'deceased Hurricane Idalia' — both inaccurate (see nori-son record). In pen 4. Tag 0029 confirmed from notebook card. Pen 3. Single baby (born 1-10-26). Knot under chin noted 2-26-26. Nori is 50pct ABB / 50pct Wiltshire Horn. Charlie bought Nori, bred BHD to her, kept babies, bred those to Katahdin.",
+      "notes": "Nori breeding page: 50%ABB/50%WH, tag 21 (tag lost). Ewe weight 138.83lbs, ram weight 217.5lbs. Sire: 100%ABB, Dam: 100%WH. DOB ~2/1/2023. Mother of NoriSon (tag 54; NoriSon = Eclipse, SAME animal \u2014 owner confirmed 2026-04-26; sold at auction 2026-04-26, alive at sale). CORRECTED from prior assumption: this note previously listed 'NoriSon and Eclipse' as two lambs with Eclipse 'deceased Hurricane Idalia' \u2014 both inaccurate (see nori-son record). In pen 4. Tag 0029 confirmed from notebook card. Pen 3. Single baby (born 1-10-26). Knot under chin noted 2-26-26. Nori is 50pct ABB / 50pct Wiltshire Horn. Charlie bought Nori, bred BHD to her, kept babies, bred those to Katahdin.",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "visual_id": {
@@ -2445,19 +2363,31 @@
       "health": {
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0659",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-26",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0659",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "date": "2026-03-09",
+            "score": 1,
+            "notes": "CDT shot, eyes good; CDT shot. Eyes good.",
+            "source": "IMG_0659",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "weak_resistance": false,
@@ -2477,36 +2407,6 @@
           {
             "source": "IMG_0659",
             "note": "Card confirms: male Ram, fully intact. Tag 00016."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0659"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0659"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot, eyes good",
-            "source": "IMG_0659"
           }
         ]
       },
@@ -2578,8 +2478,8 @@
       "health": {
         "famacha_scores": [
           {
-            "score": "good",
             "date": "2025-tag-day",
+            "score": "good",
             "notes": "eyes good"
           }
         ],
@@ -2628,8 +2528,8 @@
       "health": {
         "famacha_scores": [
           {
-            "score": "good",
             "date": "2025-tag-day",
+            "score": "good",
             "notes": "eyes good"
           }
         ],
@@ -2702,28 +2602,41 @@
       "health": {
         "famacha_scores": [
           {
-            "date": "2-12-26",
-            "famacha": 3.5,
-            "notes": "Eyes 3-4ish"
+            "date": "2026-02-12",
+            "score": 3.5,
+            "notes": "eyes 3-4; [CONFLICT] FAMACHA recorded as 3.5 and 3 on the same date \u2014 score left null; verify against the notebook; Eyes 3-4ish",
+            "raw": [
+              3.5,
+              3
+            ],
+            "source": "IMG_0668"
           },
           {
-            "date": "2-20-26",
-            "famacha": 3,
-            "notes": "Eyes good 3ish"
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "eyes good 3; eyes good 3-4; Eyes good 3ish",
+            "source": "IMG_0668"
           },
           {
-            "date": "2-27-26",
-            "famacha": 3,
-            "notes": "Eyes good 3. Skinny. VB12 3mL"
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes good 3. Skinny. VB12 3mL.; eyes good 3; skinny; VB12 3mL shot; Eyes good 3. Skinny. VB12 3mL",
+            "source": "IMG_0668"
           },
           {
-            "date": "3-9-26",
-            "notes": "CDT Vacc"
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vac; CDT Vacc",
+            "source": "IMG_0668"
           },
           {
-            "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-04-10",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0668",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "weak_resistance": false,
@@ -2756,53 +2669,6 @@
           {
             "source": "IMG_0668",
             "note": "Yellow tag MC-157. Twins this season (male + female = MC2606 white ram + MC2607 black ewe)."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": 3.5,
-            "notes": "eyes 3-4"
-          },
-          {
-            "date": "2026-02-20",
-            "score": 3,
-            "notes": "eyes good 3"
-          },
-          {
-            "date": "2026-02-27",
-            "score": 3,
-            "notes": "eyes good 3. Skinny. VB12 3mL."
-          },
-          {
-            "date": "2026-02-12",
-            "score": 3,
-            "notes": "eyes 3-4",
-            "source": "IMG_0668"
-          },
-          {
-            "date": "2026-02-20",
-            "score": 3,
-            "notes": "eyes good 3-4",
-            "source": "IMG_0668"
-          },
-          {
-            "date": "2026-02-27",
-            "score": 3,
-            "notes": "eyes good 3; skinny; VB12 3mL shot",
-            "source": "IMG_0668"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT vac",
-            "source": "IMG_0668"
-          },
-          {
-            "date": "2026-04-10",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0668"
           }
         ]
       },
@@ -3368,23 +3234,37 @@
       "health": {
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0654",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-26",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0654",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-9-26",
-            "notes": "CDT shot"
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0654"
           },
           {
-            "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-04-09",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0654",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "weak_resistance": false,
@@ -3404,42 +3284,6 @@
           {
             "source": "IMG_0654",
             "note": "Was \"no tag\" \u2014 got yellow MC-15 tag. Had twins this season. Prior tag 0029 moved to secondary_tags."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0654"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0654"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot",
-            "source": "IMG_0654"
-          },
-          {
-            "date": "2026-04-09",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0654"
           }
         ]
       },
@@ -3817,23 +3661,37 @@
       "health": {
         "famacha_scores": [
           {
-            "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good. No babies."
+            "date": "2026-02-12",
+            "score": 1,
+            "notes": "eyes good. No babies.; eyes good; no babies; Eyes good. No babies.",
+            "source": "IMG_0666",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-20-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-20",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0666",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-9-26",
-            "notes": "CDT shot"
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0666"
           },
           {
-            "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-04-10",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0666",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "weak_resistance": true,
@@ -3853,42 +3711,6 @@
           {
             "source": "IMG_0666",
             "note": "No babies this season. Consistent good eyes."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good. No babies."
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good; no babies",
-            "source": "IMG_0666"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0666"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot",
-            "source": "IMG_0666"
-          },
-          {
-            "date": "2026-04-10",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0666"
           }
         ]
       },
@@ -4047,13 +3869,13 @@
       "health": {
         "famacha_scores": [
           {
-            "score": 4,
             "date": "2023-09-06",
+            "score": 4,
             "notes": "Ivermectin"
           },
           {
-            "score": 2,
             "date": "2023-09-18",
+            "score": 2,
             "notes": "no treatment"
           }
         ],
@@ -4345,8 +4167,8 @@
       "health": {
         "famacha_scores": [
           {
-            "score": 5,
             "date": "2025-tag-day",
+            "score": 5,
             "notes": "treated with iron also"
           }
         ],
@@ -4562,39 +4384,53 @@
       "health": {
         "famacha_scores": [
           {
-            "score": 3,
             "date": "2023-09-06",
+            "score": 3,
             "notes": "Ivermectin after Idalia, probably stress induced"
           },
           {
-            "score": 2,
             "date": "2023-09-18",
+            "score": 2,
             "notes": "no treatment"
           },
           {
-            "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good. No babies."
+            "date": "2026-02-12",
+            "score": 1,
+            "notes": "eyes good. No babies.; eyes good; no babies; Eyes good. No babies.",
+            "source": "IMG_0661",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-20-26",
-            "famacha": 3,
-            "notes": "Eyes borderline"
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "Borderline; eyes borderline; Eyes borderline",
+            "source": "IMG_0661"
           },
           {
-            "date": "2-27-26",
-            "famacha": 3,
-            "notes": "Eyes borderline. VB shot."
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes borderline. VB shot.; eyes borderline; VB shot given; Eyes borderline. VB shot.",
+            "source": "IMG_0661"
           },
           {
-            "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "date": "2026-03-09",
+            "score": 1,
+            "notes": "CDT shot. Eyes good.; CDT shot, eyes good",
+            "source": "IMG_0661",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good. CONDITION BAD. Vitamin B12 3mL."
+            "date": "2026-04-10",
+            "score": 1,
+            "notes": "eyes good BUT CONDITION BAD \u2014 Vit B12 3mL given; Eyes good. CONDITION BAD. Vitamin B12 3mL.",
+            "source": "IMG_0661",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "weak_resistance": true,
@@ -4656,58 +4492,6 @@
             "date": "2026-05-21",
             "source": "owner clarification 2026-05-21",
             "note": "REVISION on prior 'low milk' flag: this is NEW to her 2026 lambing. 2023 twins Oliver + Spicy thrived on her milk (both reached ~153 lb adult weight). Most likely cause is age (~8 yr) or one-off environmental factor rather than genetic. Track in any future lambing but do not weight as a heritable strike against her line."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good. No babies."
-          },
-          {
-            "date": "2026-02-20",
-            "score": 3,
-            "notes": "Borderline"
-          },
-          {
-            "date": "2026-02-27",
-            "score": 3,
-            "notes": "eyes borderline. VB shot."
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot. Eyes good."
-          },
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good; no babies",
-            "source": "IMG_0661"
-          },
-          {
-            "date": "2026-02-20",
-            "score": 3,
-            "notes": "eyes borderline",
-            "source": "IMG_0661"
-          },
-          {
-            "date": "2026-02-27",
-            "score": 3,
-            "notes": "eyes borderline; VB shot given",
-            "source": "IMG_0661"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot, eyes good",
-            "source": "IMG_0661"
-          },
-          {
-            "date": "2026-04-10",
-            "score": "1-2",
-            "notes": "eyes good BUT CONDITION BAD \u2014 Vit B12 3mL given",
-            "source": "IMG_0661"
           }
         ]
       },
@@ -5027,8 +4811,8 @@
       "health": {
         "famacha_scores": [
           {
-            "score": 3,
             "date": "2025-tag-day",
+            "score": 3,
             "notes": "treated (struck thru)"
           }
         ],
@@ -5800,8 +5584,27 @@
       "health": {
         "famacha_scores": [
           {
+            "date": "2024-03-13",
             "score": "Good",
-            "date": "2024-03-13"
+            "notes": ""
+          },
+          {
+            "date": "2025-11-12",
+            "score": "1-2",
+            "notes": "Good eyes, no babies (date reads '11-12-26'; Nov 2025 most likely given sequence)",
+            "source": "IMG_0612"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0612"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0612"
           }
         ],
         "weak_resistance": false,
@@ -5822,26 +5625,6 @@
           {
             "source": "IMG_0612",
             "note": "Described as 'Kelsier's sister' on 4-11-26 card. Pen 6 on 4-11-26 per card circle (pen_5.notes says back to Pen 5 \u2014 contradicts card; card wins)."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2025-11-12",
-            "score": "1-2",
-            "notes": "Good eyes, no babies (date reads '11-12-26'; Nov 2025 most likely given sequence)",
-            "source": "IMG_0612"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "CDT vac",
-            "source": "IMG_0612"
-          },
-          {
-            "date": "2026-04-11",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0612"
           }
         ]
       },
@@ -6329,13 +6112,13 @@
       "health": {
         "famacha_scores": [
           {
-            "score": 4,
             "date": "2023-09-06",
+            "score": 4,
             "notes": "Ivermectin"
           },
           {
-            "score": 2,
             "date": "2023-09-18",
+            "score": 2,
             "notes": "no treatment"
           }
         ],
@@ -7048,8 +6831,8 @@
       "health": {
         "famacha_scores": [
           {
-            "score": 4,
             "date": "2025-tag-day",
+            "score": 4,
             "notes": "no treat (struck thru)"
           }
         ],
@@ -7116,18 +6899,28 @@
       "health": {
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; eyes good; single baby this season; Eyes good",
+            "source": "IMG_0627",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-10-26",
-            "notes": "CDT Vacc"
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc; CDT Vacc",
+            "source": "IMG_0627"
           },
           {
-            "date": "4-11-26",
-            "famacha": 1,
-            "notes": "Good eyes. Tagged. Booster."
+            "date": "2026-04-11",
+            "score": 1,
+            "notes": "Good eyes, tagged, booster; Good eyes. Tagged. Booster.",
+            "source": "IMG_0627",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "weak_resistance": false,
@@ -7152,31 +6945,6 @@
           {
             "source": "IMG_0627",
             "note": "Card came inline 2026-04-22. Single baby (Bambiis Baby MC-2615). NOTE: Tag previously recorded as scrapie \"24/0003\" was a transcription error \u2014 owner clarified 2026-05-14 that Bambii's tag is orange #35 (came from Heather Oaks Farm); the 24/0003 scrapie tag belongs to a different Tree Fort ewe (Sir Loin daughter)."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good; single baby this season",
-            "source": "IMG_0627"
-          },
-          {
-            "date": "2026-03-10",
-            "score": "1-2",
-            "notes": "CDT vacc",
-            "source": "IMG_0627"
-          },
-          {
-            "date": "2026-04-11",
-            "score": "1-2",
-            "notes": "Good eyes, tagged, booster",
-            "source": "IMG_0627"
           }
         ]
       },
@@ -7246,8 +7014,7 @@
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
-        "notes": [],
-        "famacha_history": []
+        "notes": []
       },
       "breeding": {
         "is_breeding_animal": false,
@@ -7684,8 +7451,9 @@
       "health": {
         "famacha_scores": [
           {
+            "date": "2023-10-05",
             "score": 3,
-            "date": "2023-10-05"
+            "notes": ""
           }
         ],
         "weak_resistance": false,
@@ -8943,32 +8711,20 @@
         "notebook_card": "Card 1 pen 1"
       },
       "health": {
-        "famacha_history": [
+        "famacha_scores": [
           {
             "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-04-01",
             "score": 1,
-            "notes": "FAMACHA 1. Covexin yearly."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good; single baby this season",
-            "source": "IMG_0632"
+            "notes": "eyes good; eyes good; single baby this season; Eyes good",
+            "source": "IMG_0632",
+            "raw": [
+              "1-2"
+            ]
           },
           {
             "date": "2026-02-19",
             "score": "1-2",
-            "notes": "eyes good; CDT shot 5ml (partially obscured on card)",
+            "notes": "eyes good; eyes good; CDT shot 5ml (partially obscured on card)",
             "source": "IMG_0633"
           },
           {
@@ -8976,13 +8732,11 @@
             "score": "1-2",
             "notes": "Booster + tag, eyes good",
             "source": "IMG_0633"
-          }
-        ],
-        "famacha_scores": [
+          },
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. Covexin yearly."
           }
         ],
         "notes": [
@@ -9053,47 +8807,6 @@
         "notebook_card": "Card 2 pen 1"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-04-01",
-            "score": 1,
-            "notes": "FAMACHA 1. CDT booster."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "good eyes",
-            "source": "IMG_0635"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "5mL 1 Vacc CDT",
-            "source": "IMG_0635"
-          },
-          {
-            "date": "2026-04-02",
-            "score": "1-2",
-            "notes": "6 week booster",
-            "source": "IMG_0635"
-          },
-          {
-            "date": "2026-03-30",
-            "score": "1-2",
-            "notes": "Booster + tag; eyes good (back of card)",
-            "source": "IMG_0636"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-02-19",
@@ -9125,19 +8838,42 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; good eyes; Eyes good",
+            "source": "IMG_0635",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good. 1st CDT 5mL. 7.38 weeks old."
+            "date": "2026-02-19",
+            "score": 1,
+            "notes": "eyes good; 5mL 1 Vacc CDT; Eyes good. 1st CDT 5mL. 7.38 weeks old.",
+            "source": "IMG_0635",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Booster. Tag. Eyes good."
+            "date": "2026-03-30",
+            "score": 1,
+            "notes": "Booster + tag; eyes good (back of card); Booster. Tag. Eyes good.",
+            "source": "IMG_0636",
+            "raw": [
+              "1-2"
+            ]
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. CDT booster."
+          },
+          {
+            "date": "2026-04-02",
+            "score": "1-2",
+            "notes": "6 week booster",
+            "source": "IMG_0635"
           }
         ],
         "notes": [
@@ -9191,47 +8927,6 @@
         "notebook_card": "Card 4 pen 1"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-04-01",
-            "score": 5,
-            "notes": "FAMACHA 5 \u2014 severe. Bright and alert despite score."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0638"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good; 1st CDT 5mL shot; ~5 weeks old",
-            "source": "IMG_0638"
-          },
-          {
-            "date": "2026-03-30",
-            "score": "1-2",
-            "notes": "Booster + tag; eyes good",
-            "source": "IMG_0638"
-          },
-          {
-            "date": "2026-04-02",
-            "score": "1-2",
-            "notes": "Notes \"needs booster\" \u2014 may be planning note before 3-30 booster event was logged",
-            "source": "IMG_0638"
-          }
-        ],
         "treatments": [
           {
             "date": "2026-02-19",
@@ -9270,24 +8965,42 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0638",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-19-26",
-            "famacha": 1,
-            "notes": "1st 5mL CDT. 5.26 weeks old."
+            "date": "2026-02-19",
+            "score": 1,
+            "notes": "eyes good; eyes good; 1st CDT 5mL shot; ~5 weeks old; 1st 5mL CDT. 5.26 weeks old.",
+            "source": "IMG_0638",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Booster. Tag. Eyes good."
+            "date": "2026-03-30",
+            "score": 1,
+            "notes": "Booster + tag; eyes good; Booster. Tag. Eyes good.",
+            "source": "IMG_0638",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "4-1-26",
-            "famacha": 5,
-            "notes": "FAMACHA 5 \u2014 treated with Ivermectin+Fenbendazole+Iron+B12+Nutridrench."
+            "date": "2026-04-01",
+            "score": 5,
+            "notes": "FAMACHA 5 \u2014 severe. Bright and alert despite score.; FAMACHA 5 \u2014 treated with Ivermectin+Fenbendazole+Iron+B12+Nutridrench."
+          },
+          {
+            "date": "2026-04-02",
+            "score": "1-2",
+            "notes": "Notes \"needs booster\" \u2014 may be planning note before 3-30 booster event was logged",
+            "source": "IMG_0638"
           }
         ],
         "notes": [
@@ -9356,51 +9069,38 @@
         "notebook_card": "Card 5 pen 1"
       },
       "health": {
-        "famacha_history": [
+        "famacha_scores": [
           {
             "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0639",
+            "raw": [
+              "1-2"
+            ]
+          },
+          {
+            "date": "2026-02-19",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0639",
+            "raw": [
+              "1-2"
+            ]
+          },
+          {
+            "date": "2026-03-30",
+            "score": 1,
+            "notes": "eyes good \u2014 booster; Eyes good. Booster.",
+            "source": "IMG_0639",
+            "raw": [
+              "1-2"
+            ]
           },
           {
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0639"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0639"
-          },
-          {
-            "date": "2026-03-30",
-            "score": "1-2",
-            "notes": "eyes good \u2014 booster",
-            "source": "IMG_0639"
-          }
-        ],
-        "famacha_scores": [
-          {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
-          },
-          {
-            "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good"
-          },
-          {
-            "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Eyes good. Booster."
           }
         ],
         "vaccinations": [
@@ -9446,36 +9146,6 @@
         "notebook_card": "Card 6 pen 1"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-04-01",
-            "score": 1,
-            "notes": "FAMACHA 1. CDT booster."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0640"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good; 1st CDT 5mL shot; 7 wks old",
-            "source": "IMG_0640"
-          },
-          {
-            "date": "2026-03-30",
-            "score": "1-2",
-            "notes": "Booster + tag; eyes good",
-            "source": "IMG_0640"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-02-19",
@@ -9501,19 +9171,36 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0640",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-19-26",
-            "famacha": 1,
-            "notes": "1st 5mL CDT. 7 weeks."
+            "date": "2026-02-19",
+            "score": 1,
+            "notes": "eyes good; 1st CDT 5mL shot; 7 wks old; 1st 5mL CDT. 7 weeks.",
+            "source": "IMG_0640",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Booster. Tag. Eyes good."
+            "date": "2026-03-30",
+            "score": 1,
+            "notes": "Booster + tag; eyes good; Booster. Tag. Eyes good.",
+            "source": "IMG_0640",
+            "raw": [
+              "1-2"
+            ]
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. CDT booster."
           }
         ],
         "notes": [
@@ -9562,36 +9249,6 @@
         "notebook_card": "Card 7 pen 1"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-04-01",
-            "score": 1,
-            "notes": "FAMACHA 1. CDT booster."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0641"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good; 1st CDT 5mL vacc; 7 wks old",
-            "source": "IMG_0641"
-          },
-          {
-            "date": "2026-03-30",
-            "score": 4,
-            "notes": "EYES NOT GOOD; VB + Iron shot + Ivermectin + booster + tag",
-            "source": "IMG_0641"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-02-19",
@@ -9617,19 +9274,33 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0641",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-19-26",
-            "famacha": 1,
-            "notes": "1st CDT 5mL. 7 weeks old."
+            "date": "2026-02-19",
+            "score": 1,
+            "notes": "eyes good; 1st CDT 5mL vacc; 7 wks old; 1st CDT 5mL. 7 weeks old.",
+            "source": "IMG_0641",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-30-26",
-            "famacha": 4,
-            "notes": "Eyes NOT GOOD. VB + Iron shot. Ivermectin. Booster + tag."
+            "date": "2026-03-30",
+            "score": 4,
+            "notes": "EYES NOT GOOD; VB + Iron shot + Ivermectin + booster + tag; Eyes NOT GOOD. VB + Iron shot. Ivermectin. Booster + tag.",
+            "source": "IMG_0641"
+          },
+          {
+            "date": "2026-04-01",
+            "score": 1,
+            "notes": "FAMACHA 1. CDT booster."
           }
         ],
         "treatments": [
@@ -9702,56 +9373,38 @@
         "notebook_card": "Card 8 pen 1"
       },
       "health": {
-        "famacha_history": [
+        "famacha_scores": [
           {
             "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0642",
+            "raw": [
+              "1-2"
+            ]
           },
           {
             "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good. Trimmed poop off at butt."
+            "score": 1,
+            "notes": "eyes good. Trimmed poop off at butt.; eyes good; trimmed poop off butt; Eyes good. Trimmed poop off butt.",
+            "source": "IMG_0642",
+            "raw": [
+              "1-2"
+            ]
+          },
+          {
+            "date": "2026-03-30",
+            "score": 1,
+            "notes": "Booster; eyes good; Booster. Eyes good.",
+            "source": "IMG_0642",
+            "raw": [
+              "1-2"
+            ]
           },
           {
             "date": "2026-04-01",
             "score": 1,
             "notes": "FAMACHA 1. Covexin yearly."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0642"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good; trimmed poop off butt",
-            "source": "IMG_0642"
-          },
-          {
-            "date": "2026-03-30",
-            "score": "1-2",
-            "notes": "Booster; eyes good",
-            "source": "IMG_0642"
-          }
-        ],
-        "famacha_scores": [
-          {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
-          },
-          {
-            "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good. Trimmed poop off butt."
-          },
-          {
-            "date": "3-30-26",
-            "famacha": 1,
-            "notes": "Booster. Eyes good."
           }
         ],
         "vaccinations": [
@@ -9816,16 +9469,30 @@
         "notebook_card": "Card 9 pen 1"
       },
       "health": {
-        "famacha_history": [
+        "famacha_scores": [
           {
             "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes Good"
+            "score": 1,
+            "notes": "eyes Good; Eyes good",
+            "source": "IMG_0643",
+            "raw": [
+              "1-2"
+            ]
           },
           {
             "date": "2026-02-19",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0643",
+            "raw": [
+              "1-2"
+            ]
+          },
+          {
+            "date": "2026-03-30",
             "score": "1-2",
-            "notes": "eyes good"
+            "notes": "Booster eyes Good (card reads 4-30 \u2014 interpreted as 3-30 per pattern)",
+            "source": "IMG_0643"
           },
           {
             "date": "2026-04-01",
@@ -9833,38 +9500,8 @@
             "notes": "FAMACHA 1. Covexin yearly."
           },
           {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes Good",
-            "source": "IMG_0643"
-          },
-          {
-            "date": "2026-02-19",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0643"
-          },
-          {
-            "date": "2026-03-30",
-            "score": "1-2",
-            "notes": "Booster eyes Good (card reads 4-30 \u2014 interpreted as 3-30 per pattern)",
-            "source": "IMG_0643"
-          }
-        ],
-        "famacha_scores": [
-          {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
-          },
-          {
-            "date": "2-19-26",
-            "famacha": 1,
-            "notes": "Eyes good"
-          },
-          {
-            "date": "4-30-26",
-            "famacha": 1,
+            "date": "2026-04-30",
+            "score": 1,
             "notes": "Booster. Eyes good."
           }
         ],
@@ -9919,25 +9556,6 @@
         "notebook_card": "Card 11"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "Checked eyes good. No babies."
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "Checked eyes good; no babies",
-            "source": "IMG_0649"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "yearly booster given",
-            "source": "IMG_0649"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-13",
@@ -9952,16 +9570,23 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good. No babies. In Pen 2."
+            "date": "2026-02-26",
+            "score": 1,
+            "notes": "Checked eyes good. No babies.; Checked eyes good; no babies; Eyes good. No babies. In Pen 2.",
+            "source": "IMG_0649",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-13-26",
-            "notes": "Yearly booster given."
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "yearly booster given; Yearly booster given.",
+            "source": "IMG_0649"
           },
           {
-            "date": "3-29-26",
+            "date": "2026-03-29",
+            "score": null,
             "notes": "Lambed \u2014 black ram lamb. Moved to Pen 1 because Rocky kept her from newborn."
           }
         ],
@@ -10047,37 +9672,6 @@
         "notebook_card": "Card 2 pen 2"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "checked eyes are very good. No babies."
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1",
-            "notes": "checked; eyes are very good",
-            "source": "IMG_0647"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "yearly booster given; looks pregnant",
-            "source": "IMG_0647"
-          },
-          {
-            "date": "2026-03-24",
-            "score": "1-2",
-            "notes": "Single baby born (ewe). Moved Pen 2 -> Pen 1 around this time.",
-            "source": "IMG_0647"
-          },
-          {
-            "date": "2026-04-09",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0647"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-13",
@@ -10099,22 +9693,34 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes very good. No babies."
+            "date": "2026-02-26",
+            "score": "1",
+            "notes": "checked eyes are very good. No babies.; checked; eyes are very good; Eyes very good. No babies.",
+            "raw": [
+              "1-2"
+            ],
+            "source": "IMG_0647"
           },
           {
-            "date": "3-13-26",
-            "notes": "Yearly booster. Looks pregnant."
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "yearly booster given; looks pregnant; Yearly booster. Looks pregnant.",
+            "source": "IMG_0647"
           },
           {
-            "date": "3-24-26",
-            "notes": "Single baby born (ewe)."
+            "date": "2026-03-24",
+            "score": "1-2",
+            "notes": "Single baby born (ewe). Moved Pen 2 -> Pen 1 around this time.; Single baby born (ewe).",
+            "source": "IMG_0647"
           },
           {
-            "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Eyes good."
+            "date": "2026-04-09",
+            "score": 1,
+            "notes": "eyes good; Eyes good.",
+            "source": "IMG_0647",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "notes": [
@@ -10168,59 +9774,6 @@
         "notebook_card": "Card 1 pen 3"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "Good eyes. Bump on left jaw."
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good. Soft bump."
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "Check good. CDT."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "Good eyes; bump on left jaw detected",
-            "source": "IMG_0651"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good; soft bump still on L jaw",
-            "source": "IMG_0651"
-          },
-          {
-            "date": "2026-02-27",
-            "score": "1-2",
-            "notes": "Lanced bump on L jaw",
-            "source": "IMG_0651"
-          },
-          {
-            "date": "2026-02-28",
-            "score": "1-2",
-            "notes": "4.5mL Nuflor; 105.2\u00b0F fever; flushed abscess (later confirmed catch-panel puncture, NOT CL)",
-            "source": "IMG_0651"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT given; chin good",
-            "source": "IMG_0651"
-          },
-          {
-            "date": "2026-04-09",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0651"
-          }
-        ],
         "treatments": [
           {
             "date": "2026-02-27",
@@ -10257,36 +9810,62 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Good eyes. Hard bump on left jaw."
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "Good eyes. Bump on left jaw."
           },
           {
-            "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good. Soft bump still."
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "Good eyes; bump on left jaw detected; Good eyes. Hard bump on left jaw.",
+            "source": "IMG_0651",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-27-26",
-            "notes": "Lanced bump on L jaw."
+            "date": "2026-02-26",
+            "score": 1,
+            "notes": "eyes good. Soft bump.; eyes good; soft bump still on L jaw; Eyes good. Soft bump still.",
+            "source": "IMG_0651",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-28-26",
-            "notes": "4.5mL Nuflor. 105.2 fever. Flushed abscess."
+            "date": "2026-02-27",
+            "score": "1-2",
+            "notes": "Lanced bump on L jaw; Lanced bump on L jaw.",
+            "source": "IMG_0651"
           },
           {
-            "date": "3-2-26",
+            "date": "2026-02-28",
+            "score": "1-2",
+            "notes": "4.5mL Nuflor; 105.2\u00b0F fever; flushed abscess (later confirmed catch-panel puncture, NOT CL); 4.5mL Nuflor. 105.2 fever. Flushed abscess.",
+            "source": "IMG_0651"
+          },
+          {
+            "date": "2026-03-02",
+            "score": null,
             "notes": "New clean"
           },
           {
-            "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT. Chin good."
+            "date": "2026-03-09",
+            "score": 1,
+            "notes": "Check good. CDT.; CDT given; chin good; CDT. Chin good.",
+            "source": "IMG_0651",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Eyes good."
+            "date": "2026-04-09",
+            "score": 1,
+            "notes": "eyes good; Eyes good.",
+            "source": "IMG_0651",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "notes": [
@@ -10354,42 +9933,6 @@
         "notebook_card": "Card 2 pen 3"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-01-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-01-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0652"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0652"
-          },
-          {
-            "date": "2026-03-08",
-            "score": "1-2",
-            "notes": "CDT given",
-            "source": "IMG_0652"
-          },
-          {
-            "date": "2026-04-09",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0652"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-08",
@@ -10403,23 +9946,37 @@
         ],
         "famacha_scores": [
           {
-            "date": "1-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-01-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0652",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-26",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0652",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-8-26",
-            "notes": "CDT"
+            "date": "2026-03-08",
+            "score": "1-2",
+            "notes": "CDT given; CDT",
+            "source": "IMG_0652"
           },
           {
-            "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-04-09",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0652",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "treatments": [],
@@ -10470,48 +10027,6 @@
         "notebook_card": "Card 3 pen 3"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-01-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-01-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0653"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "10 weeks old today",
-            "source": "IMG_0653"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0653"
-          },
-          {
-            "date": "2026-03-08",
-            "score": "1-2",
-            "notes": "CDT shot",
-            "source": "IMG_0653"
-          },
-          {
-            "date": "2026-04-09",
-            "score": "1-2",
-            "notes": "Booster, eyes good",
-            "source": "IMG_0653"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-08",
@@ -10530,27 +10045,43 @@
         ],
         "famacha_scores": [
           {
-            "date": "1-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-01-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0653",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-20-26",
-            "notes": "10 weeks old today"
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "10 weeks old today",
+            "source": "IMG_0653"
           },
           {
-            "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-26",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0653",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-8-26",
-            "notes": "CDT shot"
+            "date": "2026-03-08",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0653"
           },
           {
-            "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Booster. Eyes good."
+            "date": "2026-04-09",
+            "score": 1,
+            "notes": "Booster, eyes good; Booster. Eyes good.",
+            "source": "IMG_0653",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "notes": [
@@ -10606,37 +10137,6 @@
         "notebook_card": "Card 5 pen 3"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "Escaped from catch pen",
-            "source": "IMG_0655"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "6.6 weeks old",
-            "source": "IMG_0655"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot, eyes good",
-            "source": "IMG_0655"
-          },
-          {
-            "date": "2026-04-09",
-            "score": 5,
-            "notes": "Booster given. EYES WHITE (FAMACHA 5). Treated: Iron 1cc + VB 0.5cc + Ivermectin.",
-            "source": "IMG_0655"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-09",
@@ -10655,22 +10155,31 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "notes": "Escaped from catch pen"
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Escaped from catch pen",
+            "source": "IMG_0655"
           },
           {
-            "date": "2-20-26",
-            "notes": "6.6 weeks old"
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "6.6 weeks old",
+            "source": "IMG_0655"
           },
           {
-            "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "date": "2026-03-09",
+            "score": 1,
+            "notes": "eyes good; CDT shot, eyes good; CDT shot. Eyes good.",
+            "source": "IMG_0655",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "4-9-26",
-            "famacha": 5,
-            "notes": "EYES WHITE. 1cc Iron, 1.5cc VB shot, Ivermectin. Booster."
+            "date": "2026-04-09",
+            "score": 5,
+            "notes": "Booster given. EYES WHITE (FAMACHA 5). Treated: Iron 1cc + VB 0.5cc + Ivermectin.; EYES WHITE. 1cc Iron, 1.5cc VB shot, Ivermectin. Booster.",
+            "source": "IMG_0655"
           }
         ],
         "treatments": [
@@ -10739,37 +10248,6 @@
         "notebook_card": "Card 6 pen 3"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "Escaped from catch pen",
-            "source": "IMG_0656"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "6.6 weeks old",
-            "source": "IMG_0656"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot, eyes good",
-            "source": "IMG_0656"
-          },
-          {
-            "date": "2026-04-09",
-            "score": "1-2",
-            "notes": "Booster, eyes good (pre-auction)",
-            "source": "IMG_0656"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-09",
@@ -10791,6 +10269,32 @@
           {
             "source": "IMG_0656",
             "note": "Card shows \"(2x) MC-2610 + MC-2601\" \u2014 double green tag; first number obscured/ambiguous (could be MC-2600). Primary MC-2601 used. DOB 12-31-25 twin to MC-2605 (brown sister). Sold 4-15-26 auction."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Escaped from catch pen",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "6.6 weeks old",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "eyes good; CDT shot, eyes good",
+            "source": "IMG_0656"
+          },
+          {
+            "date": "2026-04-09",
+            "score": "1-2",
+            "notes": "Booster, eyes good (pre-auction)",
+            "source": "IMG_0656"
           }
         ]
       },
@@ -10841,53 +10345,6 @@
         "notebook_card": "Card 8 pen 3"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot. Eyes good."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0658"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "5.3 weeks old",
-            "source": "IMG_0658"
-          },
-          {
-            "date": "2026-02-26",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0658"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot, eyes good",
-            "source": "IMG_0658"
-          },
-          {
-            "date": "2026-04-09",
-            "score": 3,
-            "notes": "Booster; eyes MED (FAMACHA ~3 \u2014 watch)",
-            "source": "IMG_0658"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-09",
@@ -10907,28 +10364,43 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0658",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-20-26",
-            "notes": "5.3 weeks old"
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "5.3 weeks old",
+            "source": "IMG_0658"
           },
           {
-            "date": "2-26-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-26",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0658",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-9-26",
-            "famacha": 1,
-            "notes": "CDT shot. Eyes good."
+            "date": "2026-03-09",
+            "score": 1,
+            "notes": "CDT shot. Eyes good.; CDT shot, eyes good",
+            "source": "IMG_0658",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "4-9-26",
-            "famacha": 3,
-            "notes": "Booster. Eyes med."
+            "date": "2026-04-09",
+            "score": 3,
+            "notes": "Booster; eyes MED (FAMACHA ~3 \u2014 watch); Booster. Eyes med.",
+            "source": "IMG_0658"
           }
         ],
         "notes": [
@@ -10985,42 +10457,6 @@
         "notebook_card": "Card 3 pen 4"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "5.2 weeks old. Eyes good."
-          },
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0664"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "5.2 weeks old, eyes good",
-            "source": "IMG_0664"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT shot",
-            "source": "IMG_0664"
-          },
-          {
-            "date": "2026-04-10",
-            "score": 3,
-            "notes": "eyes MEDIUM (FAMACHA ~3); booster given",
-            "source": "IMG_0664"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-09",
@@ -11040,23 +10476,34 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-12",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0664",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-20-26",
-            "famacha": 1,
-            "notes": "5.2 weeks old. Eyes good"
+            "date": "2026-02-20",
+            "score": 1,
+            "notes": "5.2 weeks old. Eyes good.; 5.2 weeks old, eyes good; 5.2 weeks old. Eyes good",
+            "source": "IMG_0664",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-9-26",
-            "notes": "CDT shot"
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT shot",
+            "source": "IMG_0664"
           },
           {
-            "date": "4-10-26",
-            "famacha": 3,
-            "notes": "Eyes medium. Booster."
+            "date": "2026-04-10",
+            "score": 3,
+            "notes": "eyes MEDIUM (FAMACHA ~3); booster given; Eyes medium. Booster.",
+            "source": "IMG_0664"
           }
         ],
         "notes": [
@@ -11129,21 +10576,36 @@
         "notebook_card": "Card 11 pen 4"
       },
       "health": {
-        "famacha_history": [
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0673"
+          }
+        ],
+        "treatments": [
+          {
+            "date": "2026-02-21",
+            "treatment": "Corid (coccidia, 5-day course)",
+            "notes": "Start Sat 2-21",
+            "source": "IMG_0673"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0673",
+            "note": "Moved Goose Pen -> Pen 4 on 2-11-26. Yellow MC-09 tag. \"Looks like Gigi\". Dam: Gigi."
+          }
+        ],
+        "famacha_scores": [
           {
             "date": "2026-02-11",
             "score": "1-2",
-            "notes": "Moved from Goose Pen to Pen 4. Eyes good."
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-11",
-            "score": "1-2",
-            "notes": "Moved Goose Pen -> Pen 4; eyes good",
+            "notes": "Moved from Goose Pen to Pen 4. Eyes good.; Moved Goose Pen -> Pen 4; eyes good",
             "source": "IMG_0673"
           },
           {
@@ -11169,31 +10631,6 @@
             "score": "1-2",
             "notes": "eyes good",
             "source": "IMG_0673"
-          }
-        ],
-        "vaccinations": [
-          {
-            "date": "2026-03-09",
-            "vaccine": "Covexin 8"
-          },
-          {
-            "date": "2026-03-09",
-            "vaccine": "CDT",
-            "source": "IMG_0673"
-          }
-        ],
-        "treatments": [
-          {
-            "date": "2026-02-21",
-            "treatment": "Corid (coccidia, 5-day course)",
-            "notes": "Start Sat 2-21",
-            "source": "IMG_0673"
-          }
-        ],
-        "notes": [
-          {
-            "source": "IMG_0673",
-            "note": "Moved Goose Pen -> Pen 4 on 2-11-26. Yellow MC-09 tag. \"Looks like Gigi\". Dam: Gigi."
           }
         ]
       },
@@ -11243,53 +10680,6 @@
         "notebook_card": "Card 5 pen 4"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good. No babies."
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-27",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good; no babies",
-            "source": "IMG_0667"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0667"
-          },
-          {
-            "date": "2026-02-27",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0667"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT Vacc",
-            "source": "IMG_0667"
-          },
-          {
-            "date": "2026-04-10",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0667"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-09",
@@ -11303,28 +10693,46 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-12-26",
-            "famacha": 1,
-            "notes": "Eyes good. No babies."
+            "date": "2026-02-12",
+            "score": 1,
+            "notes": "eyes good. No babies.; eyes good; no babies; Eyes good. No babies.",
+            "source": "IMG_0667",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-20-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-20",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0667",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-27-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-27",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0667",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "3-9-26",
-            "notes": "CDT Vacc"
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT Vacc",
+            "source": "IMG_0667"
           },
           {
-            "date": "4-10-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-04-10",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0667",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "treatments": [],
@@ -11363,53 +10771,6 @@
         "notebook_card": "Card 7 pen 4"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": 3,
-            "notes": "eyes score 3"
-          },
-          {
-            "date": "2026-02-20",
-            "score": 4,
-            "notes": "eyes bad. 7 weeks old."
-          },
-          {
-            "date": "2026-02-27",
-            "score": "1-2",
-            "notes": "eyes better"
-          },
-          {
-            "date": "2026-02-12",
-            "score": 3,
-            "notes": "eyes score 3",
-            "source": "IMG_0669"
-          },
-          {
-            "date": "2026-02-20",
-            "score": 4,
-            "notes": "7 weeks old; eyes bad \u2014 Iron 0.5mL + VB 1mL + Ivermectin + Fenbendazole",
-            "source": "IMG_0669"
-          },
-          {
-            "date": "2026-02-27",
-            "score": "2-3",
-            "notes": "eyes better",
-            "source": "IMG_0669"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT vacc",
-            "source": "IMG_0670"
-          },
-          {
-            "date": "2026-04-10",
-            "score": 5,
-            "notes": "EYES WHITE AGAIN \u2014 Iron 0.5mL + VB12 1mL; booster given",
-            "source": "IMG_0670"
-          }
-        ],
         "treatments": [
           {
             "date": "2026-02-20",
@@ -11448,23 +10809,42 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-12-26",
-            "famacha": 3
+            "date": "2026-02-12",
+            "score": 3,
+            "notes": "eyes score 3",
+            "source": "IMG_0669"
           },
           {
-            "date": "2-20-26",
-            "famacha": 5,
-            "notes": "Eyes bad. 0.5mL Iron, Ivermectin + Fenbendazole"
+            "date": "2026-02-20",
+            "score": null,
+            "notes": "eyes bad. 7 weeks old.; 7 weeks old; eyes bad \u2014 Iron 0.5mL + VB 1mL + Ivermectin + Fenbendazole; [CONFLICT] FAMACHA recorded as 4 and 5 on the same date \u2014 score left null; verify against the notebook; Eyes bad. 0.5mL Iron, Ivermectin + Fenbendazole",
+            "source": "IMG_0669",
+            "raw": [
+              4,
+              5
+            ]
           },
           {
-            "date": "2-27-26",
-            "famacha": 2,
-            "notes": "Eyes better"
+            "date": "2026-02-27",
+            "score": 2,
+            "notes": "eyes better; Eyes better",
+            "raw": [
+              "2-3",
+              "1-2"
+            ],
+            "source": "IMG_0669"
           },
           {
-            "date": "4-10-26",
-            "famacha": 5,
-            "notes": "Eyes white. 0.5 Iron, 1mL Vit B12. CDT Booster."
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vacc",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 5,
+            "notes": "EYES WHITE AGAIN \u2014 Iron 0.5mL + VB12 1mL; booster given; Eyes white. 0.5 Iron, 1mL Vit B12. CDT Booster.",
+            "source": "IMG_0670"
           }
         ],
         "notes": [
@@ -11526,53 +10906,6 @@
         "notebook_card": "Card 7-8 pen 4"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": 5,
-            "notes": "Eyes white. Treated immediately."
-          },
-          {
-            "date": "2026-02-20",
-            "score": 3,
-            "notes": "Eyes not white. Retreated. Ivermectin + 1mL VB shot."
-          },
-          {
-            "date": "2026-03-09",
-            "score": 2.5,
-            "notes": "Eyes under 3. VB12 1mL."
-          },
-          {
-            "date": "2026-02-12",
-            "score": 5,
-            "notes": "EYES WHITE \u2014 Ivermectin + Fenbendazole + Iron 0.25mL + VB 1mL shot",
-            "source": "IMG_0669"
-          },
-          {
-            "date": "2026-02-20",
-            "score": 4,
-            "notes": "eyes NOT white, now L pink \u2014 Ivermectin + VB 1mL shot",
-            "source": "IMG_0669"
-          },
-          {
-            "date": "2026-02-27",
-            "score": 3,
-            "notes": "eyes under 3; VB12 shot 1mL",
-            "source": "IMG_0670"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT vacc",
-            "source": "IMG_0670"
-          },
-          {
-            "date": "2026-04-10",
-            "score": 5,
-            "notes": "EYES WHITE AGAIN \u2014 Iron 0.5 + VB12 1mL; booster",
-            "source": "IMG_0670"
-          }
-        ],
         "treatments": [
           {
             "date": "2026-02-12",
@@ -11633,19 +10966,41 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-12-26",
-            "famacha": 5,
-            "notes": "Eyes white. Ivermectin+Fenbendazole+0.25Iron+VB 1mL"
+            "date": "2026-02-12",
+            "score": 5,
+            "notes": "Eyes white. Treated immediately.; EYES WHITE \u2014 Ivermectin + Fenbendazole + Iron 0.25mL + VB 1mL shot; Eyes white. Ivermectin+Fenbendazole+0.25Iron+VB 1mL",
+            "source": "IMG_0669"
           },
           {
-            "date": "2-20-26",
-            "famacha": 3,
-            "notes": "Eyes NOT white. More treatment. Ivermectin+1mL VB"
+            "date": "2026-02-20",
+            "score": 3,
+            "notes": "Eyes not white. Retreated. Ivermectin + 1mL VB shot.; [CONFLICT] FAMACHA recorded as 3 and 4 on the same date \u2014 score left null; verify against the notebook; eyes NOT white, now L pink \u2014 Ivermectin + VB 1mL shot; Eyes NOT white. More treatment. Ivermectin+1mL VB",
+            "raw": [
+              3,
+              4
+            ],
+            "source": "IMG_0669"
           },
           {
-            "date": "4-10-26",
-            "famacha": 5,
-            "notes": "Eyes almost white. Fenbendazole+Ivermectin+3mL Iron+4mL VitB. Booster."
+            "date": "2026-02-27",
+            "score": 3,
+            "notes": "eyes under 3; VB12 shot 1mL",
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-03-09",
+            "score": 2.5,
+            "notes": "Eyes under 3. VB12 1mL.; CDT vacc",
+            "raw": [
+              "1-2"
+            ],
+            "source": "IMG_0670"
+          },
+          {
+            "date": "2026-04-10",
+            "score": 5,
+            "notes": "EYES WHITE AGAIN \u2014 Iron 0.5 + VB12 1mL; booster; Eyes almost white. Fenbendazole+Ivermectin+3mL Iron+4mL VitB. Booster.",
+            "source": "IMG_0670"
           }
         ],
         "notes": [
@@ -11703,21 +11058,29 @@
         "notebook_card": "Card 9 pen 4"
       },
       "health": {
-        "famacha_history": [
+        "vaccinations": [
+          {
+            "date": "2026-03-09",
+            "vaccine": "Covexin 8"
+          },
+          {
+            "date": "2026-03-09",
+            "vaccine": "CDT",
+            "source": "IMG_0671"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0671",
+            "note": "1 baby ram this season (FM2 Ram Lamb, MC-2614). Consistent good eyes."
+          }
+        ],
+        "famacha_scores": [
           {
             "date": "2026-02-12",
             "score": "1-2",
-            "notes": "eyes good. 1 Baby Ram."
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good",
+            "notes": "eyes good. 1 Baby Ram.; eyes good",
             "source": "IMG_0671"
           },
           {
@@ -11737,24 +11100,6 @@
             "score": "1-2",
             "notes": "eyes good",
             "source": "IMG_0671"
-          }
-        ],
-        "vaccinations": [
-          {
-            "date": "2026-03-09",
-            "vaccine": "Covexin 8"
-          },
-          {
-            "date": "2026-03-09",
-            "vaccine": "CDT",
-            "source": "IMG_0671"
-          }
-        ],
-        "treatments": [],
-        "notes": [
-          {
-            "source": "IMG_0671",
-            "note": "1 baby ram this season (FM2 Ram Lamb, MC-2614). Consistent good eyes."
           }
         ]
       },
@@ -11785,42 +11130,6 @@
         "notebook_card": "Card 10 pen 4"
       },
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "2.6 weeks old. Eyes good."
-          },
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0672"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "2.6 weeks old, eyes good",
-            "source": "IMG_0672"
-          },
-          {
-            "date": "2026-03-09",
-            "score": "1-2",
-            "notes": "CDT vac",
-            "source": "IMG_0672"
-          },
-          {
-            "date": "2026-04-10",
-            "score": "1-2",
-            "notes": "Booster, eyes good",
-            "source": "IMG_0672"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-09",
@@ -11842,6 +11151,32 @@
           {
             "source": "IMG_0672",
             "note": "DOB 1-31-26. Pen 4 per card (was Goose Pen \u2014 which is now empty). Dam FM2."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "2.6 weeks old. Eyes good.; 2.6 weeks old, eyes good",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-03-09",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0672"
+          },
+          {
+            "date": "2026-04-10",
+            "score": "1-2",
+            "notes": "Booster, eyes good",
+            "source": "IMG_0672"
           }
         ]
       },
@@ -11888,16 +11223,18 @@
       },
       "notes": "Tag 31. Ewe. Pen 5. No babies. Proven breeder in prior years \u2014 Eclipse failure. Source: notebook card pen 5. Sir Loin offspring. Proven breeder.",
       "health": {
-        "famacha_history": [
+        "vaccinations": [
+          {
+            "date": "2026-03-11",
+            "vaccine": "Covexin 8"
+          }
+        ],
+        "notes": [],
+        "famacha_scores": [
           {
             "date": "2026-02-13",
             "score": "1-2",
-            "notes": "eyes good. No babies."
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good, no babies",
+            "notes": "eyes good. No babies.; eyes good, no babies",
             "source": "IMG_0607"
           },
           {
@@ -11912,14 +11249,7 @@
             "notes": "eyes good",
             "source": "IMG_0607"
           }
-        ],
-        "vaccinations": [
-          {
-            "date": "2026-03-11",
-            "vaccine": "Covexin 8"
-          }
-        ],
-        "notes": []
+        ]
       },
       "sire_id": "sir-loin",
       "weight_lbs": 170,
@@ -11941,16 +11271,24 @@
       },
       "notes": "Tag 02. Ewe. Pen 5. No babies. Proven breeder \u2014 Eclipse failure. Source: notebook card pen 5.",
       "health": {
-        "famacha_history": [
+        "vaccinations": [
           {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good. No babies."
+            "date": "2026-03-11",
+            "vaccine": "Covexin 8"
           },
           {
+            "date": "2026-03-11",
+            "vaccine": "CDT",
+            "source": "IMG_0608"
+          }
+        ],
+        "treatments": [],
+        "notes": [],
+        "famacha_scores": [
+          {
             "date": "2026-02-13",
             "score": "1-2",
-            "notes": "eyes good, no babies",
+            "notes": "eyes good. No babies.; eyes good, no babies",
             "source": "IMG_0608"
           },
           {
@@ -11965,20 +11303,7 @@
             "notes": "eyes good",
             "source": "IMG_0608"
           }
-        ],
-        "vaccinations": [
-          {
-            "date": "2026-03-11",
-            "vaccine": "Covexin 8"
-          },
-          {
-            "date": "2026-03-11",
-            "vaccine": "CDT",
-            "source": "IMG_0608"
-          }
-        ],
-        "treatments": [],
-        "notes": []
+        ]
       },
       "confidence": "medium",
       "last_verified": "2026-05-13",
@@ -12010,7 +11335,14 @@
             "source": "IMG_0610"
           }
         ],
-        "famacha_history": [
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0610",
+            "note": "Yellow tag 240006. Wool, fawn color, long ears."
+          }
+        ],
+        "famacha_scores": [
           {
             "date": "2026-02-13",
             "score": "u",
@@ -12028,13 +11360,6 @@
             "score": "1-2",
             "notes": "good eyes",
             "source": "IMG_0610"
-          }
-        ],
-        "treatments": [],
-        "notes": [
-          {
-            "source": "IMG_0610",
-            "note": "Yellow tag 240006. Wool, fawn color, long ears."
           }
         ]
       },
@@ -12076,37 +11401,6 @@
       "color_markings": "White, large",
       "notes": "Born 1-6-26. Elsies triplet. Large white female. Sire: Eclipse. Eyes good 2-13-26. Covexin 8 3-17-26. Source: notebook card pen 6. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "Good eyes"
-          },
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0613"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "CDT vac",
-            "source": "IMG_0613"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "Good eyes",
-            "source": "IMG_0614"
-          },
-          {
-            "date": "2026-03-17",
-            "score": "1-2",
-            "notes": "CDT vac, eyes good",
-            "source": "IMG_0614"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-17",
@@ -12132,6 +11426,32 @@
           {
             "source": "IMG_0614",
             "note": "(L)arge White Female. Yellow scrapie tag 240005 + green herd tag MC-2618. DOB ~2026-01-09 (6 wk on 2-20-26). Mother: Elsie."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0613"
+          },
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes",
+            "source": "IMG_0614"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vac",
+            "source": "IMG_0613"
+          },
+          {
+            "date": "2026-03-17",
+            "score": "1-2",
+            "notes": "CDT vac, eyes good",
+            "source": "IMG_0614"
           }
         ]
       },
@@ -12175,25 +11495,6 @@
       "color_markings": "White, small",
       "notes": "Born 1-6-26. Elsies triplet. Small white female. Sire: NoriSon (formerly recorded as Eclipse \u2014 same ram, merged). Eyes good 2-13-26. Covexin 8 3-17-26. Source: notebook card pen 6.",
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "Good eyes"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "Good eyes",
-            "source": "IMG_0614"
-          },
-          {
-            "date": "2026-03-17",
-            "score": "1-2",
-            "notes": "CDT vac, eyes good",
-            "source": "IMG_0614"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-17",
@@ -12209,6 +11510,20 @@
           {
             "source": "IMG_0614",
             "note": "(SM)all White Female, no tag. DOB ~2026-01-09. Card has health through 3-17-26 before 4-6-26 auction."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "Good eyes",
+            "source": "IMG_0614"
+          },
+          {
+            "date": "2026-03-17",
+            "score": "1-2",
+            "notes": "CDT vac, eyes good",
+            "source": "IMG_0614"
           }
         ]
       },
@@ -12259,18 +11574,18 @@
       "color_markings": "Black",
       "notes": "Born 1-6-26. Elsies triplet. Black ram. Sire: Eclipse. Gifted mid-March 2026 to girl starting her flock. Eyes good 2-13-26.",
       "health": {
-        "famacha_history": [
+        "notes": [
+          {
+            "source": "IMG_0614",
+            "note": "Gifted per card. DOB ~2026-01-09. 2-13-26 good eyes before transfer."
+          }
+        ],
+        "famacha_scores": [
           {
             "date": "2026-02-13",
             "score": "1-2",
             "notes": "Good eyes \u2014 before gifting",
             "source": "IMG_0614"
-          }
-        ],
-        "notes": [
-          {
-            "source": "IMG_0614",
-            "note": "Gifted per card. DOB ~2026-01-09. 2-13-26 good eyes before transfer."
           }
         ]
       },
@@ -12328,25 +11643,6 @@
       "confidence": "medium",
       "last_verified": "2026-05-21",
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "Good eyes"
-          },
-          {
-            "date": "2026-02-12",
-            "score": "1-2",
-            "notes": "Good eyes",
-            "source": "IMG_0615"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "CDT vacc, eyes good",
-            "source": "IMG_0615"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-13",
@@ -12363,6 +11659,20 @@
           {
             "source": "IMG_0615",
             "note": "Fawn wool-colored ram. Yellow tag MC08."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2026-02-12",
+            "score": "1-2",
+            "notes": "Good eyes",
+            "source": "IMG_0615"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc, eyes good",
+            "source": "IMG_0615"
           }
         ]
       },
@@ -12555,25 +11865,6 @@
       "color_markings": "Big ewe w nice horns. Heavy cream/buff Awassi fat-tail fleece. Brown/reddish face. Prominent dark curled horns \u2014 the largest horns of the three Pen-6 Windlestones. Biggest frame of the three. Tag 2139.",
       "notes": "Tag 2139. Windlestone Ranch fat tail (Awassi) ewe. Big ewe w nice horns. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0619"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "CDT vacc, eyes good",
-            "source": "IMG_0619"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-13",
@@ -12589,6 +11880,20 @@
           {
             "source": "IMG_0619",
             "note": "Card came inline 2026-04-22. Big ewe with nice horns. No babies."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0619"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc, eyes good",
+            "source": "IMG_0619"
           }
         ]
       },
@@ -12739,25 +12044,6 @@
       "color_markings": "Med thick long horns, nice to handle. Heavy cream/buff Awassi fat-tail fleece. Brown face. Curled horns \u2014 moderate size (between 2139's big and 0055's tiny). Orange/pink ear tag visible in 2026-04-24 photo. Tag 0056.",
       "notes": "Tag 0056. Windlestone Ranch fat tail (Awassi) ewe. Med thick long horns, nice to handle. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0618"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "CDT vacc, eyes good",
-            "source": "IMG_0618"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-13",
@@ -12773,6 +12059,20 @@
           {
             "source": "IMG_0618",
             "note": "Card came inline 2026-04-22. Nice to handle."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0618"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc, eyes good",
+            "source": "IMG_0618"
           }
         ]
       },
@@ -12921,25 +12221,6 @@
       "color_markings": "Tiny/sm horns, DARK LEGS. Cream/buff Awassi fat-tail fleece, brown face, and distinctly DARK BROWN legs \u2014 the single clearest visual tell among the Pen-6 Windlestones. Horns small/nubby. Tag 0055.",
       "notes": "Tag 0055. Windlestone Ranch fat tail (Awassi) ewe. Tiny/sm horns, dark legs. No babies. Eyes good. Covexin 8 3-13-26. Source: notebook card pen 6.",
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0620"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "CDT vacc eyes good",
-            "source": "IMG_0620"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-13",
@@ -12956,6 +12237,20 @@
           {
             "source": "IMG_0620",
             "note": "Fat-tail Awassi, 1 tiny horn + 1 small long horn, dark legs. No babies as of 2-13."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good",
+            "source": "IMG_0620"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc eyes good",
+            "source": "IMG_0620"
           }
         ]
       },
@@ -13089,12 +12384,25 @@
       "color_markings": "White ewe w/ dot on ear",
       "notes": "Tag 0035. White ewe with dot on ear. Single baby (ewe, born 1-2-26). Covexin 8 3-10-26 (full dose). Source: notebook card TF. Florida Dorper x Katahdin. Small sheep.",
       "health": {
-        "famacha_history": [
+        "vaccinations": [
           {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
+            "date": "2026-03-10",
+            "vaccine": "Covexin 8"
           },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (0.06ml underdose \u2014 revacc needed)",
+            "source": "IMG_0623"
+          }
+        ],
+        "treatments": [],
+        "notes": [
+          {
+            "source": "IMG_0623",
+            "note": "White ewe with dot on ear. Had single baby this lambing season. CDT dose 0.06ml on 3-10 was insufficient \u2014 needs revacc."
+          }
+        ],
+        "famacha_scores": [
           {
             "date": "2026-02-13",
             "score": "1-2",
@@ -13112,24 +12420,6 @@
             "score": "1-2",
             "notes": "good eyes",
             "source": "IMG_0623"
-          }
-        ],
-        "vaccinations": [
-          {
-            "date": "2026-03-10",
-            "vaccine": "Covexin 8"
-          },
-          {
-            "date": "2026-03-10",
-            "vaccine": "CDT (0.06ml underdose \u2014 revacc needed)",
-            "source": "IMG_0623"
-          }
-        ],
-        "treatments": [],
-        "notes": [
-          {
-            "source": "IMG_0623",
-            "note": "White ewe with dot on ear. Had single baby this lambing season. CDT dose 0.06ml on 3-10 was insufficient \u2014 needs revacc."
           }
         ]
       },
@@ -13165,12 +12455,29 @@
       "color_markings": "White with brown on front legs",
       "notes": "Born 1-2-26. 0035s baby ewe. 7 weeks old 2-20-26. Source: notebook card TF. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "health": {
-        "famacha_history": [
+        "vaccinations": [
           {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
+            "date": "2026-03-10",
+            "vaccine": "Covexin 8"
           },
+          {
+            "date": "2026-03-10",
+            "vaccine": "CDT (1st round)",
+            "source": "IMG_0624"
+          },
+          {
+            "date": "2026-04-11",
+            "vaccine": "CDT (booster)",
+            "source": "IMG_0624"
+          }
+        ],
+        "notes": [
+          {
+            "source": "IMG_0624",
+            "note": "SEX CORRECTION: DB had ewe, card shows ram. Born 1-2-26. Dam: 0035 White Ewe (tag-0035-white-ewe). Tagged MC-2617 green on 4-11-26."
+          }
+        ],
+        "famacha_scores": [
           {
             "date": "2026-02-13",
             "score": "1-2",
@@ -13194,28 +12501,6 @@
             "score": "1-2",
             "notes": "good eyes, tagged MC-2617, CDT booster",
             "source": "IMG_0624"
-          }
-        ],
-        "vaccinations": [
-          {
-            "date": "2026-03-10",
-            "vaccine": "Covexin 8"
-          },
-          {
-            "date": "2026-03-10",
-            "vaccine": "CDT (1st round)",
-            "source": "IMG_0624"
-          },
-          {
-            "date": "2026-04-11",
-            "vaccine": "CDT (booster)",
-            "source": "IMG_0624"
-          }
-        ],
-        "notes": [
-          {
-            "source": "IMG_0624",
-            "note": "SEX CORRECTION: DB had ewe, card shows ram. Born 1-2-26. Dam: 0035 White Ewe (tag-0035-white-ewe). Tagged MC-2617 green on 4-11-26."
           }
         ]
       },
@@ -13242,31 +12527,6 @@
       "color_markings": "Wool w/ 2 brown socks on hind legs, orange tag",
       "notes": "Tag 31 (ORANGE tag \u2014 different from Pen 5's yellow Tag 31). Came from another farm (owner believes Charlie's farm, per 2026-05-13). Both animals kept their original tags; the color difference is the field-level disambiguator. Wool ewe. Single baby (ram, born 1-2-26 \u2014 Orange 31 Ram Lamb, weaned to Goose Pen 2026-05-14). Source: notebook card TF. PEN UPDATE 2026-05-14: Owner confirmed she is NO LONGER in Tree Fort; current pen location unknown. Needs locating on the farm.",
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good \u2014 single baby",
-            "source": "IMG_0625"
-          },
-          {
-            "date": "2026-03-13",
-            "score": "1-2",
-            "notes": "CDT vacc eyes good",
-            "source": "IMG_0625"
-          },
-          {
-            "date": "2026-04-11",
-            "score": "1-2",
-            "notes": "good eyes",
-            "source": "IMG_0625"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-13",
@@ -13283,6 +12543,26 @@
           {
             "source": "IMG_0625",
             "note": "Wool coat with 2 brown socks on hind legs. Single baby this season."
+          }
+        ],
+        "famacha_scores": [
+          {
+            "date": "2026-02-13",
+            "score": "1-2",
+            "notes": "eyes good; eyes good \u2014 single baby",
+            "source": "IMG_0625"
+          },
+          {
+            "date": "2026-03-13",
+            "score": "1-2",
+            "notes": "CDT vacc eyes good",
+            "source": "IMG_0625"
+          },
+          {
+            "date": "2026-04-11",
+            "score": "1-2",
+            "notes": "good eyes",
+            "source": "IMG_0625"
           }
         ]
       },
@@ -13304,37 +12584,6 @@
       "color_markings": "White w/ brown circles around eyes that go down the neck. Brown dots.",
       "notes": "Born 1-2-26. Orange tag 31 ewes baby ram. 7 weeks old 2-20-26. Source: notebook card TF. MC2616 green. Eyes good all checks. Tree Fort. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch).",
       "health": {
-        "famacha_history": [
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good"
-          },
-          {
-            "date": "2026-02-13",
-            "score": "1-2",
-            "notes": "eyes good",
-            "source": "IMG_0626"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "7 weeks old",
-            "source": "IMG_0626"
-          },
-          {
-            "date": "2026-03-10",
-            "score": "1-2",
-            "notes": "CDT vacc",
-            "source": "IMG_0626"
-          },
-          {
-            "date": "2026-04-11",
-            "score": "1-2",
-            "notes": "Booster + tagged, good eyes",
-            "source": "IMG_0626"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-10",
@@ -13353,22 +12602,34 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-13-26",
-            "famacha": 1,
-            "notes": "Eyes good"
+            "date": "2026-02-13",
+            "score": 1,
+            "notes": "eyes good; Eyes good",
+            "source": "IMG_0626",
+            "raw": [
+              "1-2"
+            ]
           },
           {
-            "date": "2-20-26",
-            "notes": "7 weeks old"
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "7 weeks old",
+            "source": "IMG_0626"
           },
           {
-            "date": "3-10-26",
-            "notes": "CDT Vacc"
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vacc; CDT Vacc",
+            "source": "IMG_0626"
           },
           {
-            "date": "4-11-26",
-            "famacha": 1,
-            "notes": "Booster + tag. Good eyes."
+            "date": "2026-04-11",
+            "score": 1,
+            "notes": "Booster + tagged, good eyes; Booster + tag. Good eyes.",
+            "source": "IMG_0626",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "notes": [
@@ -13424,31 +12685,6 @@
       "notes": "Born 12-28-25. Bambiis baby. 7.5 weeks old 2-20-26. Sex UNCLEAR from card \u2014 marked ? Source: notebook card TF. MC2615 green. Born 12-28-25. Eyes good. Tree Fort. Weaned to Goose Pen 2026-05-14 (14-lamb wean batch). Breed comp added 2026-05-14 from sire (buck) and dam (bambii) records.",
       "confidence": "medium",
       "health": {
-        "famacha_history": [
-          {
-            "date": "2025-12-30",
-            "score": "1-2",
-            "notes": "eyes with perfect circles"
-          },
-          {
-            "date": "2026-02-20",
-            "score": "1-2",
-            "notes": "7.5 weeks old",
-            "source": "IMG_0628"
-          },
-          {
-            "date": "2026-03-10",
-            "score": "1-2",
-            "notes": "CDT vac",
-            "source": "IMG_0628"
-          },
-          {
-            "date": "2026-04-11",
-            "score": "1-2",
-            "notes": "Good eyes, tagged, booster",
-            "source": "IMG_0628"
-          }
-        ],
         "vaccinations": [
           {
             "date": "2026-03-10",
@@ -13467,17 +12703,30 @@
         ],
         "famacha_scores": [
           {
-            "date": "2-20-26",
-            "notes": "7.5 weeks old"
+            "date": "2025-12-30",
+            "score": "1-2",
+            "notes": "eyes with perfect circles"
           },
           {
-            "date": "3-10-26",
-            "notes": "CDT Vac"
+            "date": "2026-02-20",
+            "score": "1-2",
+            "notes": "7.5 weeks old",
+            "source": "IMG_0628"
           },
           {
-            "date": "4-11-26",
-            "famacha": 1,
-            "notes": "Good eyes. Tagged. Booster."
+            "date": "2026-03-10",
+            "score": "1-2",
+            "notes": "CDT vac; CDT Vac",
+            "source": "IMG_0628"
+          },
+          {
+            "date": "2026-04-11",
+            "score": 1,
+            "notes": "Good eyes, tagged, booster; Good eyes. Tagged. Booster.",
+            "source": "IMG_0628",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "notes": [
@@ -13619,9 +12868,13 @@
       "health": {
         "famacha_scores": [
           {
-            "date": "4-9-26",
-            "famacha": 1,
-            "notes": "Checked eyes good. 1st CDT shot."
+            "date": "2026-04-09",
+            "score": 1,
+            "notes": "checked eyes good; 1st CDT shot; Checked eyes good. 1st CDT shot.",
+            "source": "IMG_0648",
+            "raw": [
+              "1-2"
+            ]
           }
         ],
         "weak_resistance": false,
@@ -13642,14 +12895,6 @@
           {
             "source": "IMG_0648",
             "note": "0053's Baby ewe. No tag. Dam 0053. Sire: Rocky per prior commit notes."
-          }
-        ],
-        "famacha_history": [
-          {
-            "date": "2026-04-09",
-            "score": "1-2",
-            "notes": "checked eyes good; 1st CDT shot",
-            "source": "IMG_0648"
           }
         ]
       },
@@ -13726,10 +12971,10 @@
         }
       ],
       "health": {
-        "famacha_history": [],
         "vaccinations": [],
         "treatments": [],
-        "notes": []
+        "notes": [],
+        "famacha_scores": []
       },
       "visual_id": {
         "coat": "Short, slick shedding hair coat \u2014 no fleece",
@@ -13802,7 +13047,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -13917,7 +13161,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -14126,17 +13369,17 @@
       "coat_observed": "hair (per owner observation 2026-05-02)",
       "confidence": "medium",
       "health": {
-        "famacha_history": [
+        "vaccinations": [],
+        "treatments": [],
+        "notes": [],
+        "famacha_scores": [
           {
             "date": "2026-05-02",
             "score": "1",
             "notes": "Healthy at 2-3 days old per owner. Good FAMACHA.",
             "source": "owner verbal"
           }
-        ],
-        "vaccinations": [],
-        "treatments": [],
-        "notes": []
+        ]
       },
       "notes_history": [
         {
@@ -14161,17 +13404,17 @@
       "coat_observed": "hair (per owner observation 2026-05-02)",
       "confidence": "medium",
       "health": {
-        "famacha_history": [
+        "vaccinations": [],
+        "treatments": [],
+        "notes": [],
+        "famacha_scores": [
           {
             "date": "2026-05-02",
             "score": "1",
             "notes": "Healthy at 2-3 days old per owner. Good FAMACHA.",
             "source": "owner verbal"
           }
-        ],
-        "vaccinations": [],
-        "treatments": [],
-        "notes": []
+        ]
       },
       "twin_of": "oav-2222-lamb-1",
       "notes_history": [
@@ -14215,7 +13458,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -14315,7 +13557,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -14423,7 +13664,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -14510,7 +13750,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -14575,7 +13814,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -14673,7 +13911,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -14735,7 +13972,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -14991,7 +14227,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -15228,7 +14463,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -15485,7 +14719,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -15539,7 +14772,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -15740,7 +14972,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -15850,7 +15081,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -15924,7 +15154,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -16097,7 +15326,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -16188,7 +15416,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -16356,7 +15583,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -16532,7 +15758,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -16623,7 +15848,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -16714,7 +15938,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -16865,7 +16088,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -16956,7 +16178,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -17047,7 +16268,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -17136,7 +16356,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -17227,7 +16446,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -17316,7 +16534,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -17471,7 +16688,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -17598,7 +16814,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -17687,7 +16902,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -17862,7 +17076,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -17953,7 +17166,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -18042,7 +17254,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -18134,7 +17345,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -18223,7 +17433,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -18312,7 +17521,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -18401,7 +17609,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -18490,7 +17697,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -18579,7 +17785,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -18668,7 +17873,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -18834,7 +18038,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -19009,7 +18212,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -19160,7 +18362,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -19326,7 +18527,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -19499,7 +18699,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -19663,7 +18862,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -19836,7 +19034,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -20002,7 +19199,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -20093,7 +19289,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -20269,7 +19464,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -20435,7 +19629,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -20586,7 +19779,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -20762,7 +19954,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -20937,7 +20128,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -21090,7 +20280,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -21265,7 +20454,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -21356,7 +20544,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -21447,7 +20634,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -21622,7 +20808,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -21788,7 +20973,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -21964,7 +21148,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -22055,7 +21238,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -22225,7 +21407,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -22402,7 +21583,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -22579,7 +21759,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -22670,7 +21849,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -22823,7 +22001,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -22914,7 +22091,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -23074,7 +22250,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -23240,7 +22415,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -23331,7 +22505,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -23422,7 +22595,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -23588,7 +22760,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -23748,7 +22919,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -23837,7 +23007,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -23926,7 +23095,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24015,7 +23183,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24106,7 +23273,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24195,7 +23361,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24286,7 +23451,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24393,7 +23557,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24568,7 +23731,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24657,7 +23819,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24746,7 +23907,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24835,7 +23995,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -24986,7 +24145,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -25077,7 +24235,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -25166,7 +24323,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -25313,7 +24469,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -25466,7 +24621,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],
@@ -25632,7 +24786,6 @@
       "measurements": {},
       "health": {
         "famacha_scores": [],
-        "famacha_history": [],
         "weak_resistance": false,
         "treatments": [],
         "vaccinations": [],

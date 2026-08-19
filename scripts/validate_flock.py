@@ -218,6 +218,32 @@ def validate_processed_parity():
     return warnings
 
 
+def validate_famacha_schema(sheep_list):
+    """Canonical FAMACHA schema (established by scripts/normalize_famacha.py): every
+    observation lives in health.famacha_scores[], its value under 'score' (never the legacy
+    'famacha' key), and there is NO parallel health.famacha_history. This is not cosmetic:
+    parasite_resistance.py reads only famacha_scores[].score, so any drift back to the old
+    split silently hides observations from the parasite-resistance scorer that drives
+    breeding selection. Drift is a WARNING (data present but mis-shelved), not a hard error."""
+    warnings = []
+    for sheep in sheep_list:
+        health = sheep.get("health") or {}
+        sid = sheep.get("id", "UNKNOWN")
+        if "famacha_history" in health:
+            warnings.append(
+                f"WARNING [{sid}]: legacy 'famacha_history' present — run "
+                f"scripts/normalize_famacha.py --apply to merge it into famacha_scores "
+                f"(the scorer never reads famacha_history)"
+            )
+        for entry in (health.get("famacha_scores") or []):
+            if isinstance(entry, dict) and "famacha" in entry:
+                warnings.append(
+                    f"WARNING [{sid}]: famacha_scores entry ({entry.get('date')}) uses the "
+                    f"legacy 'famacha' key instead of 'score' — invisible to the scorer"
+                )
+    return warnings
+
+
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="Validate flock database")
@@ -256,6 +282,7 @@ def main():
         all_issues.extend(validate_references(sheep_list))
         all_issues.extend(validate_tag_uniqueness(sheep_list))
         all_issues.extend(validate_pen_assignments(db))
+        all_issues.extend(validate_famacha_schema(sheep_list))
 
     errors = [i for i in all_issues if i.startswith("ERROR")]
     warnings = [i for i in all_issues if i.startswith("WARNING")]

@@ -37,6 +37,7 @@ References:
 
 import json
 import os
+import re
 from collections import defaultdict
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -165,6 +166,13 @@ def _parse_famacha(score_val):
         s = score_val.strip().lower()
         if s in ("good", "excellent", "ok"):
             return 1.5  # Treat qualitative "good" as ~1.5
+        # FAMACHA is often recorded as a RANGE ("1-2", "2-3") — a valid observation
+        # form; read it as the midpoint. Without this the scorer dropped every
+        # range-valued score (e.g. the UF Ram Test entries) after the schema
+        # normalization surfaced them into famacha_scores.
+        m = re.fullmatch(r"(\d+)\s*-\s*(\d+)", s)
+        if m:
+            return (int(m.group(1)) + int(m.group(2))) / 2.0
         try:
             return float(s)
         except ValueError:
