@@ -219,6 +219,64 @@ def deworm_tests():
     return fails
 
 
+_at_spec = importlib.util.spec_from_file_location("at", os.path.join(_here, "attention_triage.py"))
+at = importlib.util.module_from_spec(_at_spec)
+_at_spec.loader.exec_module(at)
+
+
+def triage_tests():
+    """Pins for the MCS-3 attention triage — trend, scoping, R/A/G, ordering."""
+    from datetime import date as _date
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    as_of = _date(2026, 4, 15)
+
+    def animal(sid="t", scores=(), on_prop=True, pen="Pen 1", dob=None):
+        return {"id": sid, "status": "alive", "on_property": on_prop, "pen": pen, "dob": dob,
+                "health": {"famacha_scores": [
+                    {"date": d, "score": v, "notes": ""} for d, v in scores]}}
+
+    # trend: worsening detected between last two points; [CONFLICT] nulls excluded
+    tr = at.famacha_trend(animal(scores=[("2026-03-01", 1), ("2026-04-01", 5)]), as_of)
+    check("trend detects worsening 1→5", tr and tr["delta"] == 4)
+    tr = at.famacha_trend(animal(scores=[("2026-03-01", 2)]), as_of)
+    check("one point = no trend", tr is None)
+    mixed = animal(scores=[("2026-03-01", 1), ("2026-04-01", 2)])
+    mixed["health"]["famacha_scores"].append({"date": "2026-04-10", "score": None, "notes": "[CONFLICT]"})
+    tr = at.famacha_trend(mixed, as_of)
+    check("nulled [CONFLICT] row does not enter the trend", tr and tr["to"] == 2)
+
+    # R/A/G assignment
+    red = at.triage_one(animal(scores=[("2026-03-01", 1), ("2026-04-10", 5)]), as_of)
+    check("anemic crash → RED", red["status"] == "RED")
+    green = at.triage_one(animal(scores=[("2026-04-01", 1), ("2026-04-10", 1)]), as_of)
+    check("fresh good scores → GREEN", green["status"] == "GREEN")
+    stale = at.triage_one(animal(scores=[("2026-01-01", 1), ("2026-01-15", 1)]), as_of)
+    check("stale checks → AMBER", stale["status"] == "AMBER")
+    young = at.triage_one(animal(scores=(), pen="Pen 1", dob="2026-03-01"), as_of)
+    check("young + no records → GREEN (first check due, not delinquent)", young["status"] == "GREEN")
+    adult = at.triage_one(animal(scores=(), pen="Pen 1", dob="2024-01-01"), as_of)
+    check("adult + no records → AMBER (first check owed)", adult["status"] == "AMBER")
+
+    # scoping: registry imports (on_property False) excluded from the flock view
+    db = {"sheep": [animal(sid="home", scores=[("2026-04-10", 1), ("2026-04-01", 1)]),
+                    animal(sid="registry", on_prop=False)]}
+    rows = at.triage_flock(db, as_of)
+    check("on_property=False excluded from triage", [r["sheep_id"] for r in rows] == ["home"])
+
+    # ordering: RED above AMBER above GREEN by score
+    db = {"sheep": [animal(sid="calm", scores=[("2026-04-01", 1), ("2026-04-10", 1)]),
+                    animal(sid="crash", scores=[("2026-03-01", 1), ("2026-04-10", 5)])]}
+    rows = at.triage_flock(db, as_of)
+    check("worst-first ordering", rows[0]["sheep_id"] == "crash")
+    return fails
+
+
 def main():
     failures = []
     for name, pcts, unknown, expect in CASES:
@@ -233,10 +291,12 @@ def main():
     failures += pen_tests()
     print("\nMCS-8 deworm-decision pins:")
     failures += deworm_tests()
+    print("\nMCS-3 attention-triage pins:")
+    failures += triage_tests()
     if failures:
         print(f"\n{len(failures)} FAILURE(S): {failures}")
         sys.exit(1)
-    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA + pen + deworm guard pins passed.")
+    print(f"\nAll {len(CASES)} breed-percentage + FAMACHA + pen + deworm + triage guard pins passed.")
 
 
 if __name__ == "__main__":

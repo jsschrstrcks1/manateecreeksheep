@@ -163,9 +163,12 @@ def decide(sheep, as_of=None):
 
 
 def decide_flock(db, as_of=None, alive_only=True):
+    """Flock view scopes to animals actually ON the property: 92 of 145 'alive' records
+    are registry/pedigree imports (on_property: False) that are not owed a FAMACHA.
+    An absent on_property is included (only an explicit False excludes)."""
     out = []
     for s in db.get("sheep", []):
-        if alive_only and s.get("status") != "alive":
+        if alive_only and (s.get("status") != "alive" or s.get("on_property") is False):
             continue
         out.append(decide(s, as_of))
     # worst-first: urgency desc, then mismatches, then staleness-flagged
