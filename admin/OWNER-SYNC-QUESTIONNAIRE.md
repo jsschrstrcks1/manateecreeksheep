@@ -185,6 +185,7 @@ Walk order is yours; write the pen next to each (or 'sold'/'deceased' if the sta
 - [ ] Orange Tag 31 Ewe — where is she now? (`open-follow-up-orange-tag-31-ewe-location-2026-05-14`)
 - [ ] Centralia records: 8 image attachments still pending upload (`mcs-centralia-image-attachments`)
 - [ ] 'Lara is on' (2026-08-18) — on the mend, or on treatment herself?
+- [ ] WEATHER SIGNAL (MCS-1): farm coordinates for data/farm_location.json — lat: ______ lon: ______ (approximate is fine; drives the warm-wet recheck tightening)
 - [ ] BREEDING PIPELINE SEED (MCS-17): for each pen with a ram — when did the ram go in? (ram, pen, date in, date out-or-still-in). One line each; these become the matings table and drive preg-check/due/lambing-watch dates.
 
 **Soli Deo Gloria.** Answers get applied through validated commits; regenerate this file after.

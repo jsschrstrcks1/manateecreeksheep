@@ -465,6 +465,8 @@ def main():
         all_issues.extend(validate_identity(db))
         from lib.genetics import validate_genetics
         all_issues.extend(validate_genetics(db))
+        from lib.trait_card import validate_trait_cards
+        all_issues.extend(validate_trait_cards(db))
 
     errors = [i for i in all_issues if i.startswith("ERROR")]
     warnings = [i for i in all_issues if i.startswith("WARNING")]

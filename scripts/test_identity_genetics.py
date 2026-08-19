@@ -83,6 +83,46 @@ fs2 = ped([("S", None, None), ("D", None, None), ("bro", "S", "D"), ("sis", "S",
            ("inbred", "bro", "sis")])
 check("wright_f of full-sib offspring = 0.25", round(wright_f(fs2, "inbred"), 4), 0.25)
 
+# --- MCS-10 cohorts --------------------------------------------------------------------
+from datetime import date as _date
+from lib.cohorts import breeding_group, pen_at, pen_members_at, treatment_cohort
+mv = {"id": "m", "movements": [
+    {"date": None, "from": None, "to": "Pen 1"},
+    {"date": "2026-06-01", "from": "Pen 1", "to": "Pen 5"},
+    {"date": "2026-08-01", "from": "Pen 5", "to": None}]}
+check("pen replay: before dated moves -> seed pen", pen_at(mv, _date(2026, 1, 1)), "Pen 1")
+check("pen replay: mid-window", pen_at(mv, _date(2026, 7, 1)), "Pen 5")
+check("pen replay: after removal -> None", pen_at(mv, _date(2026, 8, 10)), None)
+cdb = {"sheep": [mv, {"id": "n", "movements": [{"date": "2026-05-01", "from": None, "to": "Pen 5"}]}]}
+check("pen members at date", pen_members_at(cdb, "Pen 5", _date(2026, 7, 1)), ["m", "n"])
+tev = [{"type": "treatment", "animal_id": "a", "date": "2026-08-12", "drug": "ivermectin"},
+       {"type": "treatment", "animal_id": "b", "date": "2026-08-11/2026-08-12", "drug": "ivermectin"},
+       {"type": "treatment", "animal_id": "c", "date": "2026-08-12", "drug": "prohibit"},
+       {"type": "famacha", "animal_id": "d", "date": "2026-08-12"}]
+check("treatment cohort same day", treatment_cohort(tev, "2026-08-12"), ["a", "b", "c"])
+check("treatment cohort filtered by drug", treatment_cohort(tev, "2026-08-12", "ivermectin"), ["a", "b"])
+bdb = {"matings": [{"ram_id": "r", "ewe_id": "e1", "status": "exposed"},
+                   {"ram_id": "r", "ewe_id": "e2", "status": "failed"}]}
+check("breeding group excludes failed", breeding_group(bdb, "r"), ["e1"])
+
+# --- MCS-32 trait card -------------------------------------------------------------------
+from lib.trait_card import mendelian_cross, trait_card, validate_trait_cards
+check("Ss x ss -> half carriers", mendelian_cross("Ss", "ss"), {"Ss": 0.5, "ss": 0.5})
+check("bad genotype -> None never fabricated", mendelian_cross("S", "ss"), None)
+card = trait_card({"id": "t", "notes": "Docile. Pink nose noted 4-24.",
+                   "genetics": {"prnp": {"codon_171": "QR", "confidence": "tested"},
+                                "loci": {"spot": {"genotype": "Ss", "source": "phenotype",
+                                                  "confidence": "inferred-phenotype"}},
+                                "polygenic": {"parasite_resistance": {"score": 4, "basis": "FEC history"}}}})
+check("card tier1 carries PRNP + locus", sorted(card["tier1"]), ["PRNP-171", "spot"])
+check("card tier2 carries polygenic", list(card["tier2"]), ["parasite_resistance"])
+check("pink-nose phenotype flag fires", len(card["phenotype_flags"]), 1)
+bad32 = {"sheep": [{"id": "z", "genetics": {"loci": {"resist": {"genotype": "high", "confidence": "tested", "source": "x"}},
+                                            "polygenic": {"meh": {"score": 9}}}}]}
+errs32 = validate_trait_cards(bad32)
+check("polygenic-dressed-as-letters caught", any("tier 2" in e for e in errs32), True)
+check("bad polygenic score caught", any("score 1-5" in e for e in errs32), True)
+
 if failures:
     print(f"\n{len(failures)} FAILURE(S): {failures}")
     sys.exit(1)
