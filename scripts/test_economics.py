@@ -33,13 +33,17 @@ check("unsourced amount is ERROR", any("no source" in e for e in validate_econom
 check("non-numeric amount is ERROR", any("not a number" in e for e in validate_economics(
     {"sheep": [{"id": "z", "economics": {"costs": [{"amount": "cheap", "source": "s"}]}}]})), True)
 
-# --- MCS-24 hold vs sell ---------------------------------------------------------------
-r = hold_vs_sell(80, 3.0, 0.5, 0.6, 30)
-check("hold math: later value - feed - now", r["marginal"],
-      round((80 + 15) * 3.0 - 18.0 - 240.0, 2))
-check("price-later assumption is stated", r["price_later_assumed_equal"], True)
+# --- MCS-24 hold vs sell (PER HEAD — operator correction 2026-08-19) --------------------
+r = hold_vs_sell(250, 0.31, 30, price_later_per_head=280)
+check("per-head hold math: later - feed - now", r["marginal"],
+      round(280 - 0.31 * 30 - 250, 2))
+check("break-even later price stated", r["break_even_price_later"], round(250 + 9.3, 2))
+check("per-head market named in output", "per-head" in r["market"], True)
+r2 = hold_vs_sell(250, 0.31, 30)
+check("price-later assumption is stated", r2["price_later_assumed_equal"], True)
+check("equal-price hold is pure feed loss", r2["marginal"], -9.3)
 try:
-    hold_vs_sell(80, None, 0.5, 0.6, 30)
+    hold_vs_sell(None, 0.31, 30)
     check("missing input raises", False, True)
 except ValueError:
     check("missing input raises", True, True)

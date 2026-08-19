@@ -49,22 +49,29 @@ def validate_economics(db):
     return issues
 
 
-def hold_vs_sell(current_wt, price_per_lb_now, adg, feed_cost_per_day, days,
-                 price_per_lb_later=None):
-    """Marginal economics of holding `days` more: returns dict with value_now,
-    value_later, feed_cost, marginal — POSITIVE marginal favors holding. Price later
-    defaults to price now ONLY explicitly (caller passes None -> same price, stated
-    in the output), because forecasting a price would be invention."""
-    for v in (current_wt, price_per_lb_now, adg, feed_cost_per_day, days):
+def hold_vs_sell(price_now_per_head, feed_cost_per_day, days,
+                 price_later_per_head=None):
+    """Marginal economics of holding `days` more, PER HEAD — operator correction
+    2026-08-19: "Lambs are not sold by lb weight here." The first version modeled a
+    price-per-lb market with a weight slide (the Extension-spreadsheet shape); in a
+    per-head market weight only matters through what a buyer offers, which is the
+    operator's judgment, not a formula. So the honest calculator is: holding costs
+    feed; sell later only if the later per-head offer beats now + feed.
+
+    Returns dict with feed_cost, marginal — POSITIVE marginal favors holding. Price
+    later defaults to price now ONLY explicitly (caller passes None -> same price,
+    stated in the output), because forecasting a price would be invention."""
+    for v in (price_now_per_head, feed_cost_per_day, days):
         if not isinstance(v, (int, float)) or isinstance(v, bool):
             raise ValueError(f"all inputs must be numbers (got {v!r}) — a defaulted "
                              f"input here is a fabricated business recommendation")
-    p_later = price_per_lb_later if price_per_lb_later is not None else price_per_lb_now
-    value_now = current_wt * price_per_lb_now
-    w_later = current_wt + adg * days
-    value_later = w_later * p_later
+    p_later = price_later_per_head if price_later_per_head is not None else price_now_per_head
+    if not isinstance(p_later, (int, float)) or isinstance(p_later, bool):
+        raise ValueError(f"price_later_per_head must be a number or None, got {p_later!r}")
     feed = feed_cost_per_day * days
-    return {"value_now": round(value_now, 2), "weight_later": round(w_later, 1),
-            "value_later": round(value_later, 2), "feed_cost": round(feed, 2),
-            "marginal": round(value_later - feed - value_now, 2),
-            "price_later_assumed_equal": price_per_lb_later is None}
+    return {"value_now": round(price_now_per_head, 2),
+            "value_later": round(p_later, 2), "feed_cost": round(feed, 2),
+            "marginal": round(p_later - feed - price_now_per_head, 2),
+            "break_even_price_later": round(price_now_per_head + feed, 2),
+            "price_later_assumed_equal": price_later_per_head is None,
+            "market": "per-head (operator 2026-08-19: lambs are not sold by lb here)"}
