@@ -459,6 +459,8 @@ def main():
         all_issues.extend(validate_health_events(sheep_list))
         all_issues.extend(validate_pen_movements(db))
         all_issues.extend(validate_pen_canon(db))
+        from lib.breeding import validate_matings
+        all_issues.extend(validate_matings(db))
 
     errors = [i for i in all_issues if i.startswith("ERROR")]
     warnings = [i for i in all_issues if i.startswith("WARNING")]

@@ -258,11 +258,13 @@ def watch_items(watch, today):
 
 def build_agenda(db, today, events=None):
     sheep_list = db.get("sheep", [])
+    from .breeding import breeding_items
     items = (withdrawal_items(sheep_list, db.get("drug_reference") or {}, today, events)
              + fecrt_items(sheep_list, today, events)
              + famacha_items(sheep_list, today, events)
              + anomaly_items(db.get("anomalies"), today)
-             + watch_items(db.get("withdrawal_watch"), today))
+             + watch_items(db.get("withdrawal_watch"), today)
+             + breeding_items(db, today, events))
     items = [i for i in items if i.get("active")]
     items.sort(key=lambda i: (not i["overdue"], i.get("due") or "9999", str(i.get("animal_id"))))
     return {"generated_for": str(today),
