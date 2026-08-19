@@ -4,7 +4,7 @@
 > Find/checkout: `node admin/library.mjs preflight --query "<task>" --patron <id> --merge`
 > **This document** is context/spec only unless stated otherwise.
 
-**Generated:** 2026-08-19T02:56:16.661Z
+**Generated:** 2026-08-19T04:04:38.824Z
 **SSOT:** `.household-library/catalog.jsonl`
 
 Open tasks for this repo (`state` ≠ `complete`). Regenerate:
@@ -32,8 +32,8 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 1 | returned | — | mcs-pen-movement-log-derived-state | MCS-9: pen as append-only movement log, current pen DERIVED (farmOS concept, no code) — movements[] source of truth, scalar pen mirrored, drift+roster validation, migration seeded 51/276; surfaced baby-azure stale-roster drift |
 | 1 | registered | — | mcs-pen-moves-pending | 3 planned pen moves NEVER applied (Buck->Pen6, Rocky tag140->TreeFort, MC08->auction) + Orange Tag 31 ewe unlocated since 5/14 + Windlestone ram isolation rec (chat-got-pen-plan: 'reported dangerous'). VERIFY against current movements log first; apply as MCS-9 movement events |
 | 1 | registered | — | mcs-periparturient-window | MCS-33: periparturient window management — lambing calendar auto-schedules FAMACHA/FEC checks + late-gestation nutrition flag; maternal resistance as selection signal |
-| 1 | registered | — | mcs-privacy-attestation-parity | AUDIT EXPANSION: privacy attestation (tools/attest-repo-private + pre-push gate, completed for OCS) absent from manateecreeksheep — pushes ungated while the repo now carries family/operational data (photos, family names, health, finances-adjacent) |
-| 1 | registered | — | mcs-repo-safety-parity | AUDIT EXPANSION: dangerous-command guard + arm-hooks-path into manateecreeksheep — the P0 guard (hostile-hardened via 10+ completed OCS passes) is ABSENT from the sheep repo's hooks and core.hooksPath is UNSET (measured: .githooks chain dead in git, the UL-226/229 disease). Harness change: Layer 3 discipline applies |
+| 1 | returned | — | mcs-privacy-attestation-parity | AUDIT EXPANSION: privacy attestation (tools/attest-repo-private + pre-push gate, completed for OCS) absent from manateecreeksheep — pushes ungated while the repo now carries family/operational data (photos, family names, health, finances-adjacent) |
+| 1 | returned | — | mcs-repo-safety-parity | AUDIT EXPANSION: dangerous-command guard + arm-hooks-path into manateecreeksheep — the P0 guard (hostile-hardened via 10+ completed OCS passes) is ABSENT from the sheep repo's hooks and core.hooksPath is UNSET (measured: .githooks chain dead in git, the UL-226/229 disease). Harness change: Layer 3 discipline applies |
 | 1 | registered | — | mcs-scrapie-genotype | MCS-15: scrapie genotype (PRNP 136/154/171) tracking + breeding selection; commercial tests exist (Gene Check/Neogen); pedigree-derivable |
 | 1 | registered | — | mcs-weather-parasite-prompting | MCS-1: weather/climate-aware parasite-risk prompting — warm+wet stretch tightens FAMACHA recheck intervals (Phase 4 of integration plan reuses Crane Open-Meteo feed) |
 | 1 | registered | — | mcs-weight-adjustment-factors | MCS-27: standard adjustment factors for lamb weights (birth type, rearing, dam age; hair-specific tables) + h2 calibration pass (Florida Cracker priors: FEC .33 FAMACHA .31 PCV .22 BCS .19; resilience .10-.19; retain pre-treatment records rule) |
@@ -46,12 +46,12 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 2 | returned | — | mcs-health-record-validation | AUDIT EXPANSION: validate_flock's completed P0.x/P1.x battery predates the health-record era — extend to treatments shape/dates, famacha entry shape, drug_reference/withdrawal_watch consistency, anomalies schema |
 | 2 | registered | — | mcs-indemnity-loss-records | MCS-29: documented-loss records fit for indemnity claims (USDA LIP: predation + extreme heat; 30-day notice) — evidence bundle prompted at time of loss |
 | 2 | registered | — | mcs-input-inventory | MCS-25: input inventory — wormer/vaccine/feed on hand with expiry + reorder point; balance derived from transactions |
-| 2 | registered | — | mcs-ledger-check-parity | AUDIT EXPANSION: the sheep UPGRADE-LEDGER now carries 34 MCS ids + tracked pointers but OCS's concept-ledger-check guards only its own 8 ledgers — extend or twin the checker (dup ids, dangling tracked pointers) for manateecreeksheep |
+| 2 | returned | — | mcs-ledger-check-parity | AUDIT EXPANSION: the sheep UPGRADE-LEDGER now carries 34 MCS ids + tracked pointers but OCS's concept-ledger-check guards only its own 8 ledgers — extend or twin the checker (dup ids, dangling tracked pointers) for manateecreeksheep |
 | 2 | registered | — | mcs-mating-outcome-predictor | MCS-22: mating outcome predictor — sire x dam -> trait probabilities with plain-language topline; Tier-1 Punnett + Tier-2 midparent EBVs with spread (never certainty); extends breeding_projector |
 | 2 | registered | — | mcs-pedigree-inbreeding-views | MCS-16: rendered pedigree views + certificates + Wright's inbreeding coefficient for the closed-loop policy (F field already seeded on 2 records) |
 | 2 | registered | — | mcs-pending-done-log | MCS-11: reminder and record are ONE object — pending->done dated log entries underpin reminders, worklist, and history |
 | 2 | registered | — | mcs-push-reminders | MCS-2: push reminders to a channel the operator already watches — delivery layer for the agenda (channel choice = operator decision point, plan Phase 2) |
-| 2 | registered | — | mcs-quantity-abstraction | MCS-12: one quantity shape for every measurement (value+unit+measure+label) — weight, FAMACHA, FEC, BCS, temp without schema changes |
+| 2 | returned | — | mcs-quantity-abstraction | MCS-12: one quantity shape for every measurement (value+unit+measure+label) — weight, FAMACHA, FEC, BCS, temp without schema changes |
 | 2 | registered | — | mcs-quarantine-intake | MCS-28: intake quarantine records — biosecurity first-class; arrival drench + FEC-clean release gate (resistant-worm defense) |
 | 2 | registered | — | mcs-ration-nrc-evaluation | MCS-23: ration evaluation against NRC requirements — feed ADEQUACY; late-gestation protein funds immunity; underfed reads as parasite-suspect |
 | 2 | registered | — | mcs-sell-weight-calculator | MCS-24: what-weight-to-sell-lambs marginal economics calculator (feed cost of next lbs vs price slide) |
