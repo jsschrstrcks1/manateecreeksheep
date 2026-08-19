@@ -1,0 +1,64 @@
+{
+  "generated_for": "2026-08-19",
+  "summary": {
+    "overdue": 4,
+    "withdrawal_locks_active": 2,
+    "unknown_withdrawals": 0
+  },
+  "items": [
+    {
+      "type": "famacha_recheck",
+      "animal_id": "broken-tail-twin-ewe",
+      "due": "2026-04-16",
+      "overdue": true,
+      "active": true,
+      "basis": "last FAMACHA 5 on 2026-04-09 -> recheck within 7d"
+    },
+    {
+      "type": "famacha_recheck",
+      "animal_id": "serendipity-twin-ewe",
+      "due": "2026-04-17",
+      "overdue": true,
+      "active": true,
+      "basis": "last FAMACHA 5 on 2026-04-10 -> recheck within 7d"
+    },
+    {
+      "type": "famacha_recheck",
+      "animal_id": "nori-baby-p3",
+      "due": "2026-04-23",
+      "overdue": true,
+      "active": true,
+      "basis": "last FAMACHA 3 on 2026-04-09 -> recheck within 14d"
+    },
+    {
+      "type": "famacha_recheck",
+      "animal_id": "gigi-2026-baby",
+      "due": "2026-04-24",
+      "overdue": true,
+      "active": true,
+      "basis": "last FAMACHA 3 on 2026-04-10 -> recheck within 14d"
+    },
+    {
+      "type": "withdrawal_lock",
+      "animal_id": null,
+      "group": "ALL ivermectin-treated (horse paste assumed): OAV 2222 + surviving lamb(s), Lara + twins, GG, Azure, 'Tinker'",
+      "drug": "ivermectin (extra-label horse paste)",
+      "until": "2026-08-26",
+      "active": true,
+      "overdue": false,
+      "due": "2026-08-26",
+      "basis": "FLOCK-LEVEL watch: ALL ivermectin-treated (horse paste assumed): OAV 2222 + surviving lamb(s), Lara + twins, GG, Azure, 'Tinker' \u2014 ivermectin (extra-label horse paste) (hand-kept; retire into per-animal events, MCS-38)"
+    },
+    {
+      "type": "withdrawal_lock",
+      "animal_id": null,
+      "group": "GG only",
+      "drug": "fenbendazole (extra-label) \u2014 CONTROLLING withdrawal for GG",
+      "until": "2026-09-09",
+      "active": true,
+      "overdue": false,
+      "due": "2026-09-09",
+      "basis": "FLOCK-LEVEL watch: GG only \u2014 fenbendazole (extra-label) \u2014 CONTROLLING withdrawal for GG (hand-kept; retire into per-animal events, MCS-38)"
+    }
+  ]
+}
