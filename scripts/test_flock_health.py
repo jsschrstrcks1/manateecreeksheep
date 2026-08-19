@@ -167,6 +167,33 @@ check("same-day dup collapses to worst (no fake trend)",
                         [], "x"),
       [(_dt.date(2026, 4, 11), 2)])
 
+# --- pen canon (operator directive 2026-08-18: 8 pens, aliases resolve) ---------------
+ph = _load("ph", os.path.join("lib", "pen_history.py"))
+check("8 canonical pens exactly", len(ph.CANONICAL_PENS), 8)
+check("Chicken Coop -> Tree Fort", ph.canonical_pen("Chicken Coop"), "Tree Fort")
+check("Lamb Pen -> Goose Pen", ph.canonical_pen("Lamb Pen"), "Goose Pen")
+check("canonical name passes through", ph.canonical_pen("Pen 4"), "Pen 4")
+check("unknown name returned unchanged (validator flags, never invents)",
+      ph.canonical_pen("Barn Annex"), "Barn Annex")
+canon_db = {"sheep": [{"id": "a", "status": "alive", "pen": "Chicken Coop"}], "pens": {}}
+check("alias in scalar pen is an ERROR",
+      any("alias" in e for e in vf.validate_pen_canon(canon_db)), True)
+check("canonical scalar pen is clean",
+      vf.validate_pen_canon({"sheep": [{"id": "a", "pen": "Tree Fort"}], "pens": {}}), [])
+mig_pa = _load("mpa", "migrate_pen_aliases.py")
+tdb = {"sheep": [{"id": "a", "pen": "Chicken Coop",
+                  "movements": [{"date": None, "from": None, "to": "Chicken Coop"}]}],
+       "pens": {"tree_fort": {"display_name": "Tree Fort", "ewes": ["x"], "notes": "tf"},
+                "chicken_coop": {"display_name": "Chicken Coop", "ewes": ["a"], "notes": "cc"}}}
+ch = mig_pa.migrate(tdb)
+check("alias migration renames scalar + movement + merges pens",
+      (ch["scalar"], ch["moves"], ch["pens_merged"]), (1, 1, ["chicken_coop -> tree_fort"]))
+check("merged roster is the union", sorted(tdb["pens"]["tree_fort"]["ewes"]), ["a", "x"])
+check("both notes survive verbatim",
+      "tf" in tdb["pens"]["tree_fort"]["notes"] and "cc" in tdb["pens"]["tree_fort"]["notes"], True)
+check("alias recorded on canonical entry", tdb["pens"]["tree_fort"]["aliases"], ["Chicken Coop"])
+check("alias migration idempotent", mig_pa.migrate(tdb)["scalar"], 0)
+
 # --- verdict -------------------------------------------------------------------------
 if FAILURES:
     print(f"\n{len(FAILURES)} FAILURE(S): {FAILURES}")

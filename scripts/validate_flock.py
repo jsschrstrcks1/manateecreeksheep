@@ -13,9 +13,14 @@ Checks:
 
 import json
 import math
+import os
 import sys
 from pathlib import Path
 from collections import Counter
+
+# Ensure scripts/ is importable so `lib.pen_history` resolves whether this file is run
+# directly (python3 scripts/validate_flock.py) or loaded via importlib by the test harness.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 REPO_ROOT = Path(__file__).parent.parent
 DB_PATH = REPO_ROOT / "data" / "flock_database.json"
@@ -179,6 +184,92 @@ def validate_pen_assignments(db):
                 warnings.append(f"WARNING [{pen_name}]: Unknown sheep '{eid}' listed in pen")
 
     return warnings
+
+
+def validate_pen_movements(db):
+    """MCS-9 invariant: the scalar `pen` must equal the pen DERIVED from the movement log.
+
+    The movement log (sheep["movements"]) is the source of truth; the scalar `pen` is a
+    derived mirror every Sheets/web consumer reads. If they disagree, the mirror has been
+    hand-edited out from under the log (or the migration was skipped) — that silent drift
+    is exactly what MCS-9 exists to prevent, so it is an ERROR, not a warning.
+
+    Also warns (does not error) on movement-shape problems: a movement missing `to`, or
+    non-null dates that run backwards (array order is truth, but out-of-order dates signal
+    a log appended wrongly and worth a human glance).
+    """
+    from lib.pen_history import current_pen, derive_rosters
+
+    issues = []
+    for s in db.get("sheep", []):
+        sid = s.get("id", "UNKNOWN")
+        moves = s.get("movements")
+        if moves is None:
+            issues.append(f"WARNING [{sid}]: no 'movements' log (run migrate_pen_to_movements.py)")
+            continue
+        derived = current_pen(s)
+        scalar = s.get("pen") or None
+        if derived != scalar:
+            issues.append(
+                f"ERROR [{sid}]: pen drift — scalar pen={scalar!r} but movement log derives {derived!r}"
+            )
+        last_date = None
+        for i, m in enumerate(moves):
+            to_val = m.get("to")
+            to_empty = not (to_val.strip() if isinstance(to_val, str) else to_val)
+            if to_empty and i != len(moves) - 1:
+                issues.append(f"WARNING [{sid}]: movement {i} has empty 'to' but is not the last move")
+            d = m.get("date")
+            if d and last_date and d < last_date:
+                issues.append(
+                    f"WARNING [{sid}]: movement dates out of order ({last_date} then {d}); array order used as truth"
+                )
+            if d:
+                last_date = d
+
+    derived = derive_rosters(db)
+    sheep_map = {s.get("id"): s for s in db.get("sheep", [])}
+    for pkey, info in db.get("pens", {}).items():
+        disp = info.get("display_name", pkey)
+        roster_ids = set()
+        for role in ("rams", "ewes", "lambs", "members"):
+            roster_ids.update(info.get(role, []) or [])
+        for mid in roster_ids:
+            where = current_pen(sheep_map[mid]) if mid in sheep_map else "<unknown id>"
+            if where != disp:
+                st = sheep_map.get(mid, {}).get("status", "?")
+                issues.append(
+                    f"WARNING [{disp}]: roster lists '{mid}' (status={st}) but its movement log places it in {where!r}"
+                )
+    return issues
+
+
+def validate_pen_canon(db):
+    """Operator directive 2026-08-18: EIGHT pens (1-6, Tree Fort, Goose Pen); Chicken Coop
+    and Lamb Pen are ALIASES, not pens. Post-alias-migration, an alias or unknown pen name
+    anywhere (scalar, movement, pens{} display) is an ERROR so the split cannot regrow."""
+    from lib.pen_history import CANONICAL_PENS, PEN_ALIASES
+
+    errors = []
+    valid = set(CANONICAL_PENS)
+
+    def bad(name):
+        return name and name not in valid
+
+    for s in db.get("sheep", []):
+        if bad(s.get("pen")):
+            kind = "alias" if s.get("pen") in PEN_ALIASES else "unknown pen"
+            errors.append(f"ERROR [{s['id']}]: pen {s['pen']!r} is an {kind} — canonical set is "
+                          f"{list(CANONICAL_PENS)}; run scripts/migrate_pen_aliases.py")
+        for m in s.get("movements") or []:
+            for fld in ("from", "to"):
+                if bad(m.get(fld)):
+                    errors.append(f"ERROR [{s['id']}]: movement {fld}={m.get(fld)!r} is not canonical")
+    for pkey, info in db.get("pens", {}).items():
+        if bad(info.get("display_name", pkey)):
+            errors.append(f"ERROR [pens.{pkey}]: display_name {info.get('display_name')!r} is not "
+                          f"a canonical pen — merge/rename per the 8-pen canon")
+    return errors
 
 
 def validate_famacha_keys(sheep_list):
@@ -362,6 +453,8 @@ def main():
         all_issues.extend(validate_famacha_keys(sheep_list))
         all_issues.extend(validate_data_hygiene(sheep_list))
         all_issues.extend(validate_health_events(sheep_list))
+        all_issues.extend(validate_pen_movements(db))
+        all_issues.extend(validate_pen_canon(db))
 
     errors = [i for i in all_issues if i.startswith("ERROR")]
     warnings = [i for i in all_issues if i.startswith("WARNING")]

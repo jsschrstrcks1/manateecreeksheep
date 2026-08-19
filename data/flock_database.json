@@ -140,7 +140,8 @@
       "notes": "Flock spreadsheet: Tag 2, 75% St Augustine / 25% Katahdin. Sire: Chip, Dam: Shirley (off-farm). Primary herd sire. Weight calculator: 308.6lbs (girth 43.25, length 49.5). Pen 2 per notebook. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "kelsier",
@@ -504,7 +505,8 @@
         "implication": "Animals purchased FROM Samantha's flock have been curated to her top-tier standard. NSIP EBVs already document Kelsier/OAV 2222 directly; this note adds provenance confidence to those values.",
         "date_added": "2026-06-11"
       },
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "gg",
@@ -702,7 +704,16 @@
       ],
       "planned_sire": "merrie",
       "planned_breeding_season": "fall 2026 (Pen 4)",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 4",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "rocky",
@@ -903,7 +914,16 @@
         "summary": "Operator-anchored 2026-06-11: ELITE growth and maximum size. No documented NSIP record but observable phenotype is top-tier.",
         "source": "Operator-anchored 2026-06-11 based on direct phenotypic observation (no NSIP record available)"
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Tree Fort",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "teaser",
@@ -960,7 +980,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "dorper-ewe-198",
@@ -1014,7 +1035,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "samson",
@@ -1071,7 +1093,8 @@
       "notes": "Was ram for Pen 4 group (Elsie, Nori, Trouble, Bsoe, Bsoed, Banana). Deceased per weak resistance list. Pen 4 entry says 'Samson 4'. 100% Hampshire per Buck, tag-2241, and 430-2079 breeding pages (3/4 pages). Ram weight 400lbs, ewe weight prediction 340lbs. Sired Serendipity's 2024 ram lamb and Half Tail's 2024 lamb (born 2/12/24, 10lbs). Note: OAV 2222 and Serendipity breeding pages list Samson as 100% Southdown \u2014 possible data entry error (other pages say Hampshire). Serendipity page also shows Samson with Sam's weights (165/125) instead of his actual weights (400/340).",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "sam",
@@ -1130,7 +1153,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "cause_of_death": "Hurricane Helene 2024-09-26 (owner-reported 2026-04-26). Prior status_date 2026-04-02 was a bulk-cleanup placeholder, not the real death date \u2014 CORRECTED.",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "kaladin",
@@ -1201,7 +1225,8 @@
           "note": "Owner confirmed alive (had been wrongly marked deceased 2026-04-02 in bulk cleanup). Pen unknown \u2014 NOT the Pen 1 ram (that's orange-tag-00110, Cracker/GCN/Suffolk/Katahdin)."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "smore",
@@ -1267,7 +1292,8 @@
       "notes": "Flock spreadsheet: Tag 22, 100% Cracker, 200lbs. Sire: Gigantus, Dam: Minnie (off-farm). Deceased per spreadsheet. Was major breeding ram - sired many 2022-2023 lambs including Pippen and merrie-BS2 (by BSOED), Merrie (by Half Tail), Fox Tail (by Trouble, tag 17 \u2014 deceased Helene), Foxtail 1/BK1 and Foxtail 2/BK2 (by Brown Knee), Circle Tail (by Brown Knee), BT1/BT2 (by Broken Tail), HT ext lamb (by Half Tail), Shaggy1/Shaggy2 (by Shaggy), Bsoed's lamb, Trouble's lamb, and Kaladin (by Serendipity). The deceased Kaladin (tag 24) was S'More x Anna.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "well-done",
@@ -1321,7 +1347,8 @@
       "notes": "Flock spreadsheet: Tag 8, 100% Katahdin, 175lbs. Sire: Big Daddy, Dam: Gulf (off-farm). Father of Stew (by Fleecity) and Elsie (by Half Tail). Culled per Breeding DB.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "butter-ball",
@@ -1376,7 +1403,8 @@
       "notes": "Dorper ram. Deceased per weak resistance list.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "nori-son",
@@ -1496,7 +1524,8 @@
           "note": "FERTILITY RECORD REVISED: Prior 'subfertile, bred only 1 of 6 ewes' assessment is incorrect. Confirmed sired: (a) Elsie's triplets 2026-01-06 (2 white ewes + 1 black ram), (b) 00113's singleton 2026-04-22 (died FTT 4-25), (c) OAV 2222's twins 2026-04-30 (both ewe lambs alive, healthy). That's 3 of 5+ ewes settled, not 1 of 6. He was sold at auction 2026-04-26 \u2014 between his 00113 singleton and OAV's twins discovery, so his record looked worse than it was. Adjust expectation: he was middling-fertile, not severely subfertile."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "charlies-ram",
@@ -1548,7 +1577,8 @@
       "notes": "Photos from March 18, 2024. Also called Mc11 or tag 12. White lamb with yellow ear tag in photos. Weight calculator: 36.3lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "pippin",
@@ -1611,7 +1641,8 @@
       "notes": "Pippin/BSOE1. Tag 015. S'More (100%Cr) x BSOED (40.5K/59.5SA). DOB 12/12/2022 per BSOED breeding page. Sold. White body, tan ear, Wool (probably). Birth weight 9lbs (single). Weaned 5/23/2023 at 59lbs (114 days). ADG 0.44. Adj WW 62 (ratio 77). Weight calculator: 80.4lbs. 50%Cr/29.75%SA/20.25%K. CORRECTED: Dam changed from BSOE to BSOED per breeding page.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "new-black-belly-ram",
@@ -1669,7 +1700,8 @@
       "confidence": "medium",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "charlies-lamb-0017",
@@ -1716,7 +1748,8 @@
       "notes": "Charlie's ram's lamb. Tag 0017. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "buck-original",
@@ -1805,7 +1838,8 @@
       "last_verified": "2026-05-14",
       "description": "Black headed Dorper with horns. Has attitude (\"Butthead\" per notebook).",
       "temperament": "aggressive toward handlers \u2014 fractured hand. Requires dominant handling protocol.",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "buck",
@@ -1942,7 +1976,16 @@
         "source": "Windlestone Ranch \u2014 TOP FEW % Dorper / TOP 10% Awassi breeder (operator 2026-06-11)",
         "implication": "Operator-anchored elite PR + size values are reinforced by Windlestone provenance."
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 6",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "dodge",
@@ -2012,7 +2055,8 @@
           "note": "MERGE: Owner confirmed the second 'dodge' record (which said 'Sold off farm. Buyers named him Dodge. Sire of Little Daisy. Also sire of Loki') was the same animal as this one. Removed the duplicate; folded its notes here. offspring_ids expanded to include sm-white-ewe-p4 and loki."
         }
       ],
-      "location_status": "off-property (Danny's farm)"
+      "location_status": "off-property (Danny's farm)",
+      "movements": []
     },
     {
       "id": "big-free-male",
@@ -2059,7 +2103,8 @@
       "notes": "Large free-roaming male from measurement list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "azure",
@@ -2182,7 +2227,16 @@
       "notes": "Mom calls her 'Amure'. GG's full sister. On weak resistance list. 94% wool per Google Sheet. Suffolk Cross. In Pen 5 / also in Pen 2 at different time. NOTE: 'Amber' in weight calculator is Skitters (Karakul), not Azure. Tag 20. Gigis Sister (notebook spelling: Gilris Sister/Azurc). Single baby (Baby Azure, ewe, born 1-10-26). In Pen 1. Source: notebook card. Full sister of Gigi (GG). Both 50% Hampshire / 50% Suffolk. Large frame ~212 lbs. Tag 20. Gigis sister. Single baby. Eyes consistently good Feb-Mar 2026. Historically weak parasites but holding this season. In Pen 1.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 1",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "elsie",
@@ -2260,7 +2314,16 @@
           "note": "Small white triplet sold at auction 2026-04-26 (owner confirmed). Only MC-2618 (lg white ewe) remains of her three triplets. Black ram was gifted 2026-03-15."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 5",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "nori",
@@ -2391,7 +2454,16 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): RIGHT side of image, lying down, head pointing up and right; her ram lamb MC-2604 lying parallel with only his head visible above her hindquarters"
         ]
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 3",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "merrie",
@@ -2550,7 +2622,16 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): LEFT side of the hay cage \u2014 owner 2026-04-26: 'biggest animal in that pen'"
         ]
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 3",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "bella",
@@ -2600,7 +2681,8 @@
       "notes": "Tag 027 (from Heather Oaks Farm). 027 and 27 are different sheep. Eyes good at tag day. In Pen 3. On weak resistance list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "cinderella",
@@ -2649,7 +2731,8 @@
       "notes": "Tagged 28. Eyes good at tag day. In Pen 3. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "serendipity",
@@ -2832,7 +2915,16 @@
       ],
       "planned_sire": "merrie",
       "planned_breeding_season": "fall 2026 (Pen 4)",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 4",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "serendipity-ram-2024",
@@ -2888,7 +2980,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "serendipitys-baby-036",
@@ -2931,7 +3024,8 @@
       "notes": "036, Mc12. Serendipity's baby ewe. Sire: Kelsier (pen 4 ram). Photo from March 18, 2024 shows white lamb with yellow MC12 ear tag. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "little-daisy",
@@ -2993,7 +3087,8 @@
       "notes": "Breeding page: Dodge (Sir Loin x Broken Tail) x Daisy (Sir Loin x Half Tail). 4.6875%BBB/27.325%K/67.9625%SA. DOB 3/23/2023. Ewe weight prediction 144.69lbs, ram weight prediction 270.91lbs. Breeding page says Pen 3 (notebook says Pen 5 \u2014 notebook authoritative). Bred to Rocky (8-13-23). Attributes: Not Flighty, Good Mother, Attentive, Protective, Heat Tolerant, Breed All Year. Mother of Mc01 (baby's baby). Needed parasite treatment April 13, 2025 with white eyes. Inbred: Sir Loin is grandsire on both sides. Pen 5. NOT pregnant. Been with Eclipse since 10 weeks old \u2014 Eclipse failed to breed her. Escaped into yard, put back in 5. Parentage: Sire=Dodge (Sir Loin x Broken Tail, sold off farm), Dam=Daisy (Sir Loin x Anna, sold off farm). Heavily Sir Loin line both sides. Coming up on 1 year old. Source: owner verbal April 2026. LITTLE DAISY NEVER HAD BABIES. Never pregnant. Escaped into yard, put back in Pen 5. Moved Pen 4 -> Pen 2 on 2026-05-14 (owner-confirmed Pen 2 contents: Rocky + Little Daisy only).",
       "confidence": "high",
       "last_verified": "2026-05-14",
-      "on_property": true
+      "on_property": true,
+      "movements": []
     },
     {
       "id": "little-daisys-baby-mc01",
@@ -3038,7 +3133,8 @@
       "notes": "Mc01. Called 'baby's baby' in notebook. Little Daisy #35's offspring. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "baby",
@@ -3096,7 +3192,8 @@
       "confidence": "medium",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "baby-momma",
@@ -3139,7 +3236,8 @@
       "notes": "In pen 3 (Sam group). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "zara",
@@ -3202,7 +3300,8 @@
       "notes": "Tag 25. Zara = Dorper 25 (same animal). 100% Dorper. Deceased per owner. Was in pen 3 (Sam group). On weak resistance list. Lambed 2026-01-28.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "half-tail",
@@ -3266,7 +3365,8 @@
       "notes": "Flock spreadsheet: 12.5% BBB / 31.25% Katahdin / 56.25% St Augustine, 180lbs. DOB ~1/1/2017. Sir Loin (25K/75SA) x Hersheys (25BBB/37.5K/37.5SA). Born as twin. 25% inbreeding (Sir Loin is both sire and maternal grandsire). Grandparents: Auction Sheep 1 & 2 (via Chip), Razzle & Frazzle (via Sugar). Mother of Broken Tail, Elsie (by Well Done, DOB 2/8/2022, ADG 0.56), HT ext lamb (by S'More), Merrie (by S'More), Daisy, and 2024 lamb (by Samson, born 2/12/2024, 10lb birth wt). Ewe weight prediction 140lbs (breeding page). Died during Hurricane Helene (Sept 2024) \u2014 owner confirmed 2026-04-24. Prior DB death date 2026-04-02 was a bulk-cleanup date, not actual.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "ht-samson-2024",
@@ -3321,7 +3421,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "broken-tail",
@@ -3468,7 +3569,16 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): foreground left, large lying ewe \u2014 cream-toned in evening light"
         ]
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 3",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "trouble",
@@ -3529,7 +3639,8 @@
       "notes": "Flock spreadsheet: Tag 9/retagged 33, 25%Dorper/37.5%K/37.5%SA, 180lbs. DOB ~1/1/2021. Sir Loin (25K/75SA) x Haylee Lawson (50D/50K). 2023 offspring: ram lamb (ID 17) by S'More born 2/22/2023 (8lb birth wt, single, weaned 84lbs at 90 days \u2014 2nd best male lamb). Also mother of Fox Tail (tag 17, by S'More, died in Helene). In pen 5 per notebook. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "bsoe",
@@ -3588,7 +3699,8 @@
       "notes": "Flock spreadsheet: 56%K/44%SA, 185lbs. DOB ~1/1/2019. Sir Loin (25K/75SA) x Two Pence. Mother of BSOED (by Sir Loin). Tag 32 (switched with Bsoed). Breeding page: Pen 4 (now Pen 5 per notebook). Ram weight projection 241.6lbs, ewe weight projection 144.4lbs. 2023 bred to Merrie (tag 016, ram). 2025: 2 ewe lambs born 1-25-25 by Awassi\u00d7Kat ram. CORRECTED: Pippen and Merrie-BS2 are BSOED's offspring, not BSOE's, per BSOED breeding page. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "bsoed",
@@ -3651,7 +3763,8 @@
       "notes": "Flock spreadsheet: ~40.5%K/~59.5%SA, 175lbs. DOB 1/18/2020. Sir Loin (25K/75SA) x BSOE (56K/44SA). Tag 31 (switched with Bsoe). Born as triplet per breeding page. Mother of Pippen (sold) and Merrie-BS2 (by S'More, born 12/12/2022) per breeding page. 2023 offspring: ram lamb (ID 1) by S'More born 2/22/2023. 2025: 2 lambs (ewe + ram) born 1-25-25 by Buck. In pen 5 per notebook. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "fm-sire",
@@ -3705,7 +3818,8 @@
       "confidence": "medium",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "fm-dam",
@@ -3759,7 +3873,8 @@
       "confidence": "medium",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "fm",
@@ -3923,7 +4038,16 @@
         "genetic_basis": "FM is 50% Tunis. Tunis descends from fat-tailed Tunisian Barbary stock, so latent fat-tail / fat-rump alleles are plausible. Her wide tail is consistent with this.",
         "breeding_relevance": "Makes FM a candidate to contribute fat-tail genetics into the Awassi diversity line alongside the pure Awassi ewes \u2014 a second independent source of the fat-tail trait."
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 4",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "fm1",
@@ -3987,7 +4111,8 @@
       "notes": "FM1 = Sir Loin \u00d7 FM per FM breeding page. Tag 009. DOB 4/1/2023. 25%Cotswold/12.5%K/37.5%SA/25%Tunis. Same as extension service lamb ID 9 (sex may have been misrecorded as ram in extension service). In pen 6 (no ram). On weak resistance list. On 'Ewes to Upgrade' list. Half wool. Weight calculator: 66.7lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "gertrude-moon",
@@ -4070,7 +4195,8 @@
       "notes": "Gertrude Moon aka Bitch Face (BF). Tag 22. 100%ABB. DOB ~2020. Acquired 5-4-23. DECEASED \u2014 awful mother, no offspring kept. Twins born 1-2-24 by Sir Loin (not kept). FAMACHA 4\u21922 (Sept 2023). Weight calculator: 144.1lbs. NOT the same as ABG (Anna's Big One/Banana).",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "gertrude-moon-sire",
@@ -4124,7 +4250,8 @@
       "confidence": "medium",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "gertrude-moon-dam",
@@ -4178,7 +4305,8 @@
       "confidence": "medium",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "gm-twin1-2024",
@@ -4232,7 +4360,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "gm-twin2-2024",
@@ -4286,7 +4415,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "circle-tail",
@@ -4356,7 +4486,8 @@
       "notes": "Flock spreadsheet: 50% Cracker / 21.875% Katahdin / 28.125% St Augustine. DOB 1/22/2023. S'More (100Cr) x Brown Knee (43.75K/56.25SA). In pen 6 (no ram). On weak resistance list. FAMACHA 5. Weight calculator: 64.3lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "fox-tail",
@@ -4417,7 +4548,8 @@
       "notes": "Tag 17. S'More (100%Cr) x Trouble (37.5K/37.5SA/25Dorper). 50%Cr/18.75%SA/18.75%K/12.5%Dorper. Died in Hurricane Helene. Weight calculator: 118.4lbs. Was on 'Ewes to Upgrade' list. Was in pen 6 (no ram).",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "s1",
@@ -4460,7 +4592,8 @@
       "notes": "In pen 6 (no ram). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "s2",
@@ -4503,7 +4636,8 @@
       "notes": "In pen 2 (sirloin group). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "lara",
@@ -4536,7 +4670,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "Prior record incorrectly marked deceased 2026-04-02 (bulk-cleanup date, same as half-tail/nori-son bulk error). Confirmed alive and in Pen 4 by owner photo ID 2026-04-24.",
-      "pen": "Chicken Coop",
+      "pen": "Tree Fort",
       "measurements": {
         "girth": 36.75,
         "length": 35.5,
@@ -4773,7 +4907,16 @@
           "updated": "2026-05-21"
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Tree Fort",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "lara-sire",
@@ -4826,7 +4969,8 @@
       "notes": "Lara's sire per Lara breeding page. 'Dorper ram.' Off-farm, from Charles Elingham.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "lara-dam",
@@ -4879,7 +5023,8 @@
       "notes": "Lara's dam per Lara breeding page. 'Dorper ewe.' Off-farm, from Charles Elingham.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "oliver",
@@ -4933,7 +5078,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "spicy",
@@ -4987,7 +5133,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "pebbles",
@@ -5037,7 +5184,8 @@
       "notes": "In pen 2 (sirloin group). FAMACHA 3, treated. Entry struck through in treatment list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "anna",
@@ -5090,7 +5238,8 @@
       "notes": "Flock spreadsheet: Tag 1, 100% Katahdin, 175lbs. DOB 1/12/2012. Sire: Show King, Dam: Show Queen (off-farm). Mother of Anna's Big One (by Sir Loin). The deceased Kaladin (tag 24) was also S'More x Anna, but that is a different animal from the living Kaladin (tag 014, S'More x Serendipity). Deceased per flock spreadsheet.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "boots",
@@ -5147,7 +5296,8 @@
       "notes": "Flock spreadsheet: Tag 7, 50% Dorper / 50% Katahdin, 130lbs. DOB 2/14/2020. Purchased from Maria (Sire: Maria 1, Dam: Maria 2). Mother of Danny's Girl and Boots 1 (both by S'More). Culled.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "patches",
@@ -5195,7 +5345,8 @@
       "notes": "Weight calculator: 65.6lbs (girth 27, length 27). Tag 27 \u2014 confirmed distinct from Bella (tag 027, Heather Oaks Farm). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "little-song",
@@ -5256,7 +5407,8 @@
       "notes": "Flock spreadsheet: Tag 8/retagged 008, 43.75% Katahdin / 56.25% St Augustine, White. DOB 1/24/2023. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Weight calculator: 60.1lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "black-rock",
@@ -5299,7 +5451,8 @@
       "notes": "Tag 010. From measurement list. No measurements recorded yet. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "question-tail",
@@ -5346,7 +5499,8 @@
       "notes": "Tag 001. From measurement list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "female-004",
@@ -5393,7 +5547,8 @@
       "notes": "Tag 004. From measurement list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "half-tails-baby",
@@ -5440,7 +5595,8 @@
       "notes": "Tag 007. Half Tail's baby. From measurement list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "sb1-crown",
@@ -5488,7 +5644,8 @@
       "notes": "Tag 002. Called 'Sb1 (crown)' in measurements. Weight calculator: 68.0lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "sb2-all-black",
@@ -5536,7 +5693,8 @@
       "notes": "Tag 003. Called 'Sb2 (all black)' in measurements. Weight calculator: 65.6lbs. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "new-big-girl-2",
@@ -5579,7 +5737,8 @@
       "notes": "In pen 3 (Sam group). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "daisy",
@@ -5637,7 +5796,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "daisys-daughter-1",
@@ -5691,7 +5851,8 @@
       "confidence": "low",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "daisys-daughter-2",
@@ -5746,7 +5907,8 @@
       "confidence": "low",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "oav-2222",
@@ -5977,7 +6139,16 @@
         "implication": "Animals purchased FROM Samantha's flock have been curated to her top-tier standard. NSIP EBVs already document Kelsier/OAV 2222 directly; this note adds provenance confidence to those values.",
         "date_added": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 5",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-31-ewe",
@@ -6032,7 +6203,8 @@
       "confidence": "low",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-33",
@@ -6077,7 +6249,8 @@
       "notes": "From Google Sheet Pen 1. 3/4 hair. Has twins. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-35-ewe",
@@ -6130,7 +6303,8 @@
       "confidence": "low",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "bambi",
@@ -6190,7 +6364,8 @@
       "notes": "Weight calculator: tag 35, 81.3lbs (girth 29, length 29). Google Sheet Pen 3 shows 3/4 hair. Broken Tail x Buck. Also appears in pen 2 sirloin notebook list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "irish",
@@ -6235,7 +6410,8 @@
       "notes": "Little Daisy's daughter. Needed parasite treatment April 13, 2025. Eyes better than Daisy but still scored ~2. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "unnamed-pen2",
@@ -6278,7 +6454,8 @@
       "notes": "Unnamed ewe in pen 2 (sirloin group). Not the same as the deceased 'Unnamed' on the weak resistance list. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "fl51870-0502",
@@ -6341,7 +6518,8 @@
       "notes": "Florida scrapie tag Fl51870-0502. 50%Hampshire/50%Suffolk. Ewe weight 285.61lbs, ram weight prediction 385lbs. Bred to Sam (8-21-23) and Sir Loin (8-30-23, due February). Docile, not flighty. FAMACHA 4\u21922 Sept 2023. Breeding page name shows '(Pen 1-2)' and '(Pen 3)' notations. [UNCLEAR] which flock name this corresponds to, if any. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "fm-lamb-2023",
@@ -6398,7 +6576,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "trouble-lamb-2023",
@@ -6453,7 +6632,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "bsoed-lamb-2023",
@@ -6507,7 +6687,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "bt-lamb-2023",
@@ -6562,7 +6743,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "ht-ext-lamb-2023",
@@ -6617,7 +6799,8 @@
       "confidence": "medium",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "shaggy-1",
@@ -6671,7 +6854,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "shaggy-2",
@@ -6725,7 +6909,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "bk1",
@@ -6779,7 +6964,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "bk2",
@@ -6833,7 +7019,8 @@
       "confidence": "high",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "ext-lamb-35",
@@ -6874,7 +7061,8 @@
       "notes": "Extension service lamb ID 35. Ram, born 2/1/2023 (type 4). Ewe age 7 \u2014 likely Anna (DOB ~2016). No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 81lbs (111 days). ADG 0.67. Adj WW 109 (ratio 135 \u2014 tied for best). May be anna1 (S'More offspring).",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "ext-lamb-27",
@@ -6915,7 +7103,8 @@
       "notes": "Extension service lamb ID 27. Ram, born 2/1/2023 (type 4). Ewe age 3 \u2014 unknown dam. No sire listed. Birth weight 7lbs. Weaned 5/23/2023 at 66lbs (111 days). ADG 0.53. Adj WW 85 (ratio 106).",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "ext-lamb-10",
@@ -6956,7 +7145,8 @@
       "notes": "Extension service lamb ID 10. Ewe, born 3/23/2023 (type 4). Ewe age 3 \u2014 unknown dam. No sire listed. Birth weight 5lbs. Weaned 5/23/2023 at 36lbs (61 days). ADG 0.51. Adj WW 39 (ratio 53 \u2014 lowest). Smallest/youngest lamb in class.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "ext-lamb-8",
@@ -6997,7 +7187,8 @@
       "notes": "Extension service lamb ID 8. Ram, born 1/24/2023 (type 3). Ewe: ABG age 1, Sire: SL (Sir Loin). Not kept. Birth weight 8lbs. Weaned 5/23/2023 at 60lbs (119 days). ADG 0.44. Adj WW 77 (ratio 95).",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "shaggy",
@@ -7063,7 +7254,8 @@
       "notes": "Flock spreadsheet: 50% Babydoll / 50% Jacob, Black, 140lbs. DOB ~1/1/2019. Purchased (Sire: Jacob 1, Dam: Baby Doll 1). Mother of Serendipity (by Sir Loin), Shaggy 1 and Shaggy 2 (by S'More). Deceased \u2014 killed by humans after Hurricane Helene. Was in Pen 6. On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "bambii",
@@ -7197,7 +7389,16 @@
           "note": "Google Sheet EWE REGISTRY: 75% BHD / 25% Katahdin (was 50/50 in DB). Sire Spaetzel (100% Dorper), dam 'Lazy B's Trouble', grand-sire Sir Loin. DOB 1/14/2023. Source: docs.google sheet 1EQ5bOZL... operator-directed."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Tree Fort",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-24-0003-tf",
@@ -7243,7 +7444,16 @@
       "confidence": "medium",
       "last_verified": "2026-05-14",
       "description": "All white with some wool on her back.",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Tree Fort",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "skitters",
@@ -7303,7 +7513,8 @@
       "notes": "Deceased. 100% Karakul per Rocky breeding page. Also called 'Amber' per owner. Weight calculator: 175.7lbs (from 2023-2024 when alive). On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "w136",
@@ -7346,7 +7557,8 @@
       "notes": "Deceased. On weak resistance list.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "unnamed-deceased",
@@ -7389,7 +7601,8 @@
       "notes": "Deceased. On weak resistance list as 'Unnamed (deceased)'.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "hersheys",
@@ -7444,7 +7657,8 @@
       "notes": "Flock spreadsheet: Tag 3, 25% BBB / 37.5% Katahdin / 37.5% St Augustine, 150lbs. DOB 2/1/2015. Sir Loin (25K/75SA) x Sugar (50BBB/50K). Mother of Half Tail. Deceased.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "gg-daughter-45",
@@ -7487,7 +7701,8 @@
       "notes": "GG's daughter. Tag 45. Sire: Kelsier, Dam: GG (owner-confirmed 2026-05-13 \u2014 prior sire_id 'gg' was wrong since GG is an ewe). Deceased.",
       "confidence": "high",
       "last_verified": "2026-05-13",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "lara-daughter-46",
@@ -7530,7 +7745,8 @@
       "notes": "Kelsier (sire) x Lara (dam) daughter. Tag 46. Sold because prone to Coccidia. CORRECTION 2026-05-13: sire_id 'gg' was wrong (GG is an ewe, not a ram); sire is Kelsier per owner.",
       "confidence": "high",
       "last_verified": "2026-05-13",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "gg-son-094",
@@ -7573,7 +7789,8 @@
       "notes": "GG's son. Tag 094. Sire: Kelsier, Dam: GG (owner-confirmed 2026-05-13 \u2014 prior sire_id 'gg' was wrong since GG is an ewe). Deceased.",
       "confidence": "high",
       "last_verified": "2026-05-13",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-430-2079",
@@ -7630,7 +7847,8 @@
       "notes": "Tag 430-2079 (pen 5). 25%Hampshire/75%Suffolk. Ewe weight 335.15lbs, ram weight prediction 400lbs. DOB 2017. Acquired 8-21-23 from guy who kept her near a swamp \u2014 had foot rot, treated with Terramycin. Bred to Rocky (8-21-23) and Samson (8-30-23). Docile, not flighty. Breed All Year Y, Wet Tolerant No. Multiple: Y (has had multiples). Deceased per owner.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "kelsiers-sister",
@@ -7686,7 +7904,8 @@
       "notes": "Kelsier's sister. Tag 2241. 100% Katahdin. Weight 150lbs. Breeding page attributes: Flighty?, Good Mother?, Attentive, Protective, Milky, Docile, Strong Flocking, Parasite Resistant, Heat/Cold/Wet Tolerant. Bred to Sir Loin 10-5-23 (due Feb 27th). FAMACHA 3 on 10-5-23. Deceased.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "dorper-ram-deceased",
@@ -7744,7 +7963,8 @@
       "notes": "Dorper ram from sick sheep note. Given iron and B on 10-24. Deceased.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-240002",
@@ -7785,7 +8005,8 @@
       "notes": "Sold 2026-02-15.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-0049",
@@ -7826,7 +8047,8 @@
       "notes": "Sold 2026-02-15.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-240001",
@@ -7867,7 +8089,8 @@
       "notes": "Sold 2026-02-15.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "mc06",
@@ -7908,7 +8131,8 @@
       "notes": "Sold 2026-02-15. MC tag Mc06.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-0050",
@@ -7949,7 +8173,8 @@
       "notes": "Sold 2026-02-15. Possibly one of the goose pen auction lambs (tag 50).",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "razzle",
@@ -8002,7 +8227,8 @@
       "notes": "Flock spreadsheet: Tag 5, 100% BBB ram, Badger color, 125lbs. DOB 3/1/2014. Purchased from auction (Sire: Auction 1, Dam: Auction 2). Father of Sugar (by Frazzle). Culled for temperament.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "frazzle",
@@ -8055,7 +8281,8 @@
       "notes": "Flock spreadsheet: Tag 6, 100% Katahdin ewe, Black, 175lbs. DOB 2/27/2013. Purchased from auction (Sire: Auction 2, Dam: Auction 3). Mother of Sugar (by Razzle). Died of old age.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "almond-joy",
@@ -8096,7 +8323,8 @@
       "notes": "From Sheep Breeding DB. Ram culled (C) for being cryptorchid.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "sugar",
@@ -8150,7 +8378,8 @@
       "notes": "Flock spreadsheet: Tag 4, 50% BBB / 50% Katahdin, Tan, 224lbs. DOB 2/14/2014. Razzle (100BBB) x Frazzle (100K). Mother of Hersheys (by Sir Loin). Culled for mastitis.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "penny",
@@ -8191,7 +8420,8 @@
       "notes": "From Sheep Breeding DB. Ewe culled (C) for poor shedding.",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "two-pence",
@@ -8246,7 +8476,8 @@
       "confidence": "medium",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "haylee-lawson",
@@ -8300,7 +8531,8 @@
       "notes": "Flock spreadsheet: Tag 14, 50% Dorper / 50% Katahdin, White, 175lbs. DOB ~1/1/2019. Purchased (Sire: HL1, Dam: HL2). Mother of Trouble (by Sir Loin). Deceased.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "pretzel",
@@ -8352,7 +8584,8 @@
       "notes": "Flock spreadsheet: Tag 13, 75% Dorper / 25% Katahdin, Black/White, 130lbs. DOB 1/20/2022. Purchased from Maria (Sire: Maria 3, Dam: Maria 4). Deceased.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "w140",
@@ -8395,7 +8628,8 @@
       "notes": "On weak resistance list. Status alive but weak. Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "brown-knee",
@@ -8453,7 +8687,8 @@
       "notes": "Flock spreadsheet: 43.75% Katahdin / 56.25% St Augustine, 150lbs. DOB 2/14/2016. Sir Loin (25K/75SA) x Anna's Big One (62.5K/37.5SA). Mother of Circle Tail, BK1, and BK2 (by S'More). Note: BSOE's dam is Two Pence, not Brown Knee (corrected from earlier CSV).",
       "confidence": "medium",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "banana-split",
@@ -8507,7 +8742,8 @@
       "notes": "From CSV & Breeding DB. 70.3% St Augustine, 29.7% Katahdin (calculated: Sir Loin x BSOE). Mother of Banana Split Baby. Status unknown - not in recent notebook. Note: old CSV had dam as 'Black Spot on Ear' which is the same as BSOE.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "fleecity",
@@ -8561,7 +8797,8 @@
       "notes": "From CSV. 50% Katahdin, 50% Dorper. Same parents as Boots (Boots Dad x Boots Mom) - they are siblings. Mother of Stew (by Well Done). Status unknown - not in recent notebook.",
       "confidence": "low",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "banana-split-baby",
@@ -8614,7 +8851,8 @@
       "confidence": "low",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "annas-big-one",
@@ -8673,7 +8911,8 @@
       "notes": "Flock spreadsheet: 62.5% Katahdin / 37.5% St Augustine, 200lbs. DOB 12/1/2014. Sir Loin x Anna. Called 'Banana' in notebook. In Pen 4 (Samson group) per notebook. Mother of Brown Knee (by Sir Loin), Little Song (by Sir Loin), and AB1 (by Sir Loin). Marked deceased April 2026 \u2014 not on notebook cards. Likely lost to hurricanes 2023/2024 or natural causes.",
       "confidence": "high",
       "last_verified": "2026-02-16",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "stew",
@@ -8726,7 +8965,8 @@
       "confidence": "low",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "fm2",
@@ -8781,7 +9021,8 @@
       "confidence": "low",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "dorpy",
@@ -8835,7 +9076,8 @@
       "confidence": "low",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-34-pen4",
@@ -8888,7 +9130,8 @@
       "confidence": "low",
       "last_verified": "2026-02-16",
       "weight_estimated": true,
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "charlies-ewe",
@@ -8998,7 +9241,16 @@
         "MC-2611"
       ],
       "description": "White with black belly. Black with black eyebrows. Fawn color mostly. Black under chin. Black inside ears. Front legs black on knees. Left front hoof white side. 2 white socks on hind legs.",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 1",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "charlies-ram-lamb",
@@ -9143,7 +9395,16 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "baby-azure",
@@ -9303,7 +9564,8 @@
       ],
       "on_property": true,
       "status_date": "2026-06-24",
-      "status_notes": "Owner-reported death 2026-06-24 (photo of green tag MC-2610 sent in chat). Actual death date unknown \u2014 last verified alive 2026-06-09 in Pen 2. Death occurred between 2026-06-09 and 2026-06-24. CAUSE: HEAT (owner-confirmed 2026-06-24). FAMACHA was OK at death \u2014 she had recovered fully from the April FAMACHA-5 crisis. NOT parasite-related mortality."
+      "status_notes": "Owner-reported death 2026-06-24 (photo of green tag MC-2610 sent in chat). Actual death date unknown \u2014 last verified alive 2026-06-09 in Pen 2. Death occurred between 2026-06-09 and 2026-06-24. CAUSE: HEAT (owner-confirmed 2026-06-24). FAMACHA was OK at death \u2014 she had recovered fully from the April FAMACHA-5 crisis. NOT parasite-related mortality.",
+      "movements": []
     },
     {
       "id": "tag-0033-hair-ewe",
@@ -9400,7 +9662,16 @@
       },
       "weight_lbs": 170,
       "weight_estimated": true,
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 1",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-0033-twin-ram-1",
@@ -9516,7 +9787,8 @@
           "note": "Sire set to Kelsier per operator 2026-06-11: every Pen 4 ewe that lambed in 2026 had a Kelsier baby (Pen 4 = Kelsier breeding pen for fall 2025 mating)."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-0033-twin-ram-2",
@@ -9644,7 +9916,8 @@
           "note": "Sire set to Kelsier per operator 2026-06-11: every Pen 4 ewe that lambed in 2026 had a Kelsier baby (Pen 4 = Kelsier breeding pen for fall 2025 mating)."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "orange-tag-00110",
@@ -9762,7 +10035,16 @@
           "note": "Full-sibling relationship recorded. Siblings: tag-00113-ewe-p1, tag-114-fawn-wool. Owner verbal: 'Pen 1 Ram is something different [from Kaladin]. Full sister/sibling to 00113.'"
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 1",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-0044-wool-ewe",
@@ -9865,7 +10147,16 @@
       },
       "weight_lbs": 170,
       "weight_estimated": true,
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 1",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-114-fawn-wool",
@@ -9960,7 +10251,16 @@
         }
       ],
       "last_verified": "2026-05-14",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 1",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-114-black-ram-lamb",
@@ -9985,7 +10285,16 @@
         "owner_verbal": "2026-04-01"
       },
       "last_verified": "2026-05-14",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 1",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-0053-ewe",
@@ -10096,7 +10405,16 @@
           "note": "Note: the ewe is just ear tag 0053. No proper name."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 1",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "charlie-ram",
@@ -10270,7 +10588,16 @@
         }
       ],
       "last_verified": "2026-05-14",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 4",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "charlies-farm-ewe-p3",
@@ -10393,7 +10720,16 @@
           "Pre-2026-04-22 Pen 3 photo (provided by owner 2026-04-26): mid-right standing, facing camera, hanging udder clearly visible"
         ]
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 3",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "charlies-farm-ewe-baby-p3",
@@ -10521,7 +10857,16 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "broken-tail-twin-ewe",
@@ -10646,7 +10991,16 @@
         ]
       },
       "last_verified": "2026-06-09",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "broken-tail-twin-ewe-2",
@@ -10748,7 +11102,8 @@
         ]
       },
       "cause_of_death": "Parasites \u2014 owner-reported 2026-04-26.",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "nori-baby-p3",
@@ -10887,7 +11242,16 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "gigi-2026-baby",
@@ -11020,7 +11384,16 @@
         "recommended_pen": "Pen 3 (Charlie's hair group \u2014 no wool) or another hair-sheep pen",
         "breeding_note": "Born 2026-01-10 \u2014 ~9 months at fall 2026 mating (R2 borderline). Either breed late in the fall window or hold to spring 2027. Operator decision."
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "gigi-2025-ram",
@@ -11134,7 +11507,8 @@
           "note": "Sold at auction (tag MC-09)."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "sm-white-ewe-p4",
@@ -11258,7 +11632,16 @@
       "weight_lbs": 145,
       "weight_estimated": true,
       "mc_tag": "MC189",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 4",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "serendipity-twin-ram",
@@ -11421,7 +11804,8 @@
       "last_verified": "2026-05-21",
       "status_date": "2026-05-21",
       "status_notes": "Sold at auction 2026-05-21 as ram lamb (operator confirmed 2026-05-21: ewe lambs not sold, ram lambs were).",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "serendipity-twin-ewe",
@@ -11589,7 +11973,16 @@
         }
       ],
       "last_verified": "2026-06-09",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "fm2-0051",
@@ -11680,7 +12073,16 @@
       },
       "weight_lbs": 185,
       "weight_estimated": true,
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 4",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "fm2-ram-lamb",
@@ -11783,7 +12185,8 @@
           "note": "Sold at auction (tag MC2614). RE-CONFIRMED: ram lambs were sold; my earlier revert was on a misread of operator's 'rams only' = 'only male sheep, not ewe lambs'."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-31-ewe-p5",
@@ -11846,7 +12249,16 @@
       "weight_estimated": true,
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 5",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-02-ewe-p5",
@@ -11902,7 +12314,16 @@
       },
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 5",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "fawn-wool-ewe-p5",
@@ -11960,7 +12381,16 @@
       },
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 5",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "daisy-anna-line",
@@ -11981,7 +12411,8 @@
       "pen": null,
       "confidence": "low",
       "last_verified": "2026-05-13",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "elsie-triplet-lg-white-ewe",
@@ -12080,7 +12511,16 @@
       },
       "confidence": "medium",
       "last_verified": "2026-06-09",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "elsie-triplet-sm-white-ewe",
@@ -12162,7 +12602,8 @@
       ],
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "elsie-triplet-black-ram",
@@ -12204,7 +12645,8 @@
           "note": "Confirmed smallest of three; already gifted off-farm."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "mc08-ram",
@@ -12385,7 +12827,8 @@
       },
       "status_date": "2026-05-21",
       "status_notes": "Sold at auction 2026-05-21. Pre-sale location: Pen 6 ram before sale.",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "samson-daughter-p4",
@@ -12450,7 +12893,16 @@
       "notes": "Identified by owner 2026-04-24 from Pen 4 photos (back-right position, picture 1). Full sibling to MC08 (Pen 6 ram). Both sired by Samson (100% Hampshire, deceased) out of FM (50% Cotswold / 50% Tunis) \u2014 owner 2026-05-13 (supersedes prior 2026-04-24 entry of Broken Tail as dam, which had been recorded with 'good confidence' but was corrected). All-wool sire+dam cross matches both siblings' cream wool fleece. No tag recorded yet. DOB unknown \u2014 likely born same cohort as MC08 (pre-Samson's death). Not previously in database roster for Pen 4.",
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 4",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "windlestone-2139",
@@ -12634,7 +13086,16 @@
         "implication": "Genetic quality of stock from Windlestone is exceptional even without NSIP documentation. The phenotypic anchor (elite growth, size, fat tail) is reinforced by the breeder's known curation standards.",
         "date_added": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 6",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "windlestone-0056",
@@ -12816,7 +13277,16 @@
         "implication": "Genetic quality of stock from Windlestone is exceptional even without NSIP documentation. The phenotypic anchor (elite growth, size, fat tail) is reinforced by the breeder's known curation standards.",
         "date_added": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 6",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "windlestone-0055",
@@ -12997,7 +13467,16 @@
         "implication": "Genetic quality of stock from Windlestone is exceptional even without NSIP documentation. The phenotypic anchor (elite growth, size, fat tail) is reinforced by the breeder's known curation standards.",
         "date_added": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 6",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-0035-white-ewe",
@@ -13070,7 +13549,16 @@
       "weight_estimated": true,
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Tree Fort",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-0035-baby-ewe",
@@ -13149,7 +13637,16 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-31-orange-tf",
@@ -13209,7 +13706,8 @@
       "confidence": "medium",
       "last_verified": "2026-05-14",
       "on_property": true,
-      "location_status": "unknown"
+      "location_status": "unknown",
+      "movements": []
     },
     {
       "id": "tag-31-orange-tf-ram-lamb",
@@ -13310,7 +13808,8 @@
           "note": "Sold at auction (tag MC2616). RE-CONFIRMED: ram lambs were sold; my earlier revert was on a misread of operator's 'rams only' = 'only male sheep, not ewe lambs'."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "bambii-baby",
@@ -13420,7 +13919,16 @@
         "derivation": "Sire Buck (50 Kat / 48 Aw / 2 EF) + Dam Bambii (50 Kat / 50 Dorper, Heather Oaks). Maternal half: 25 Kat + 25 Dorper. Paternal half: 25 Kat + 24 Aw + 1 EF.",
         "quality_caveat": "25% Dorper comes from Bambii (Heather Oaks line, owner-noted as weak). Katahdin (Kelsier-line via Buck) and Awassi (Windlestone via Buck) are higher-quality."
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "goose-09",
@@ -13440,7 +13948,8 @@
       ],
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "goose-50",
@@ -13460,7 +13969,8 @@
       ],
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "goose-06",
@@ -13480,7 +13990,8 @@
       ],
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "goose-l19",
@@ -13500,7 +14011,8 @@
       ],
       "confidence": "medium",
       "last_verified": "2026-05-13",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "tag-0053-baby-ewe",
@@ -13581,7 +14093,16 @@
           "note": "Moved Goose Pen -> Pen 2 (between 2026-05-21 and 2026-06-09). Pen 2 = kept-lambs grow-out pen."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "angus",
@@ -13668,7 +14189,16 @@
         "source": "Windlestone Ranch \u2014 TOP FEW % Dorper / TOP 10% Awassi breeder (operator 2026-06-11)",
         "implication": "While Angus has no NSIP record yet, his Windlestone provenance is high-confidence elite. Consider adding operator-anchored EBVs once his FAMACHA/weight data accumulates on-farm."
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 5",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-00113-ewe-p1",
@@ -13784,7 +14314,16 @@
         ],
         "evaluator": "Claude (visual ID pass 2026-04-26, owner-confirmed positions)"
       },
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 1",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "tag-00113-singleton-2026",
@@ -13861,7 +14400,8 @@
         ],
         "evaluator": "Claude (visual ID pass 2026-04-26, owner-confirmed positions)"
       },
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "cocoa",
@@ -13890,7 +14430,8 @@
       ],
       "owner": "Danny",
       "on_property": false,
-      "location_status": "off-property (Danny's farm)"
+      "location_status": "off-property (Danny's farm)",
+      "movements": []
     },
     {
       "id": "daisy-of-sugar",
@@ -13917,7 +14458,8 @@
         }
       ],
       "on_property": false,
-      "owner": "Danny"
+      "owner": "Danny",
+      "movements": []
     },
     {
       "id": "loki",
@@ -13946,7 +14488,8 @@
         }
       ],
       "on_property": false,
-      "owner": "Danny"
+      "owner": "Danny",
+      "movements": []
     },
     {
       "id": "cocoas-daughter-by-loki",
@@ -14013,7 +14556,16 @@
           "FAMACHA 4+ in first 60 days = treat AND flag; recurrence after treatment = downgrade to Pen 4 watch"
         ]
       },
-      "advancement_ceiling_estimate": "Stage 3-4 (Pen 5 production / Pen 6 proven). Wool-leaning coat blocks Stage 5+ elite placement under Pipeline v5 selection hierarchy (FAMACHA > Hair > Breed > Meat)."
+      "advancement_ceiling_estimate": "Stage 3-4 (Pen 5 production / Pen 6 proven). Wool-leaning coat blocks Stage 5+ elite placement under Pipeline v5 selection hierarchy (FAMACHA > Hair > Breed > Meat).",
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "oav-2222-lamb-1",
@@ -14050,7 +14602,8 @@
       ],
       "on_property": true,
       "status_date": null,
-      "notes": "DECEASED per owner 2026-08-18: died during the week of 2026-08-11 to 2026-08-18. CAUSE confirmed by owner 2026-08-18: haemonchosis/severe parasitic anemia \u2014 FAMACHA 5 (white ocular membranes, owner: 'extremely bad'). Treated for parasites and given iron + vitamin B several times before death; treatment did not save them. Exact death date still PENDING owner. Dewormer used: IVERMECTIN ONLY (owner 2026-08-18). Ivermectin-only treatment failed in all three cases \u2014 presumptive ivermectin-resistant Haemonchus on property (field signal, not FECRT-confirmed; late-stage detection is a confound). Owner switching surviving treated lamb to levamisole (Prohibit) 2026-08-19."
+      "notes": "DECEASED per owner 2026-08-18: died during the week of 2026-08-11 to 2026-08-18. CAUSE confirmed by owner 2026-08-18: haemonchosis/severe parasitic anemia \u2014 FAMACHA 5 (white ocular membranes, owner: 'extremely bad'). Treated for parasites and given iron + vitamin B several times before death; treatment did not save them. Exact death date still PENDING owner. Dewormer used: IVERMECTIN ONLY (owner 2026-08-18). Ivermectin-only treatment failed in all three cases \u2014 presumptive ivermectin-resistant Haemonchus on property (field signal, not FECRT-confirmed; late-stage detection is a confound). Owner switching surviving treated lamb to levamisole (Prohibit) 2026-08-19.",
+      "movements": []
     },
     {
       "id": "oav-2222-lamb-2",
@@ -14088,7 +14641,8 @@
       ],
       "on_property": true,
       "status_date": null,
-      "notes": "DECEASED per owner 2026-08-18: died during the week of 2026-08-11 to 2026-08-18. CAUSE confirmed by owner 2026-08-18: haemonchosis/severe parasitic anemia \u2014 FAMACHA 5 (white ocular membranes, owner: 'extremely bad'). Treated for parasites and given iron + vitamin B several times before death; treatment did not save them. Exact death date still PENDING owner. Dewormer used: IVERMECTIN ONLY (owner 2026-08-18). Ivermectin-only treatment failed in all three cases \u2014 presumptive ivermectin-resistant Haemonchus on property (field signal, not FECRT-confirmed; late-stage detection is a confound). Owner switching surviving treated lamb to levamisole (Prohibit) 2026-08-19."
+      "notes": "DECEASED per owner 2026-08-18: died during the week of 2026-08-11 to 2026-08-18. CAUSE confirmed by owner 2026-08-18: haemonchosis/severe parasitic anemia \u2014 FAMACHA 5 (white ocular membranes, owner: 'extremely bad'). Treated for parasites and given iron + vitamin B several times before death; treatment did not save them. Exact death date still PENDING owner. Dewormer used: IVERMECTIN ONLY (owner 2026-08-18). Ivermectin-only treatment failed in all three cases \u2014 presumptive ivermectin-resistant Haemonchus on property (field signal, not FECRT-confirmed; late-stage detection is a confound). Owner switching surviving treated lamb to levamisole (Prohibit) 2026-08-19.",
+      "movements": []
     },
     {
       "id": "lara-2026-lamb",
@@ -14186,7 +14740,8 @@
         "earliest_lambing": "~Aug-Sept 2027",
         "decided_on": "2026-06-11"
       },
-      "on_property": true
+      "on_property": true,
+      "movements": []
     },
     {
       "id": "lara-2026-ram-twin",
@@ -14218,7 +14773,7 @@
       "status": "alive",
       "status_date": null,
       "status_notes": "Born 2026-05-21 as twin to lara-2026-lamb (ewe). In Pen 1 stall with dam and twin sister.",
-      "pen": "Chicken Coop",
+      "pen": "Tree Fort",
       "pen_location": "Chicken Coop (used as stall \u2014 small enclosed space for grain access and shelter)",
       "measurements": {},
       "health": {
@@ -14267,7 +14822,16 @@
           "note": "Moved from Pen 1 stall to Chicken Coop (chicken coop is being used as a stall \u2014 small enclosed grain-access space). Lara nearly dry; lambs almost fully on grain since day 3 of life."
         }
       ],
-      "on_property": true
+      "on_property": true,
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Tree Fort",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "centralia-ram-214168",
@@ -14362,7 +14926,8 @@
           "note": "CORRECTION: NSIP EBVs previously attached to this record (BZE 0001) were actually for 87730 SHU 3320 CENTRALIA (the line founder, 4+ generations back), per cross-reference with the ZAC BROWN page (his Sire row matches identically). Removed from this record; moved to proper ancestor record. We do NOT yet have NSIP EBVs specifically for BZE 0001 / KHSI 214168."
         }
       ],
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "centralia-dam-181084x",
@@ -14441,7 +15006,8 @@
       "notes": "OFF-FARM. Registered Purebred Katahdin ewe, KHSI reg 181084X, flock SRM 46, DOB 2021-05-20. Sire 150202 HRL FL53926 0020, Dam 149470X FAC 47. Breeder Sarah Rae Morris, prior owner Robert Gold. Sixteen Tons / Thor Olympus / The Old Man lines. Dam of the lamb purchased 2026-06-09; recorded here so the lamb's pedigree resolves in-DB.",
       "confidence": "high",
       "last_verified": "2026-06-09",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "centralia-lamb-2026",
@@ -14538,7 +15104,16 @@
         }
       ],
       "on_property": true,
-      "physical_arrival_date": "2026-06-14"
+      "physical_arrival_date": "2026-06-14",
+      "movements": [
+        {
+          "date": null,
+          "from": null,
+          "to": "Pen 2",
+          "reason": "initial placement (migrated snapshot; real entry date unknown)",
+          "source": "migrated 2026-08-12: seeded from scalar pen field (measured consistent with pens{} rosters \u2014 51 placed, 0 disagreements)"
+        }
+      ]
     },
     {
       "id": "centralia-grandsire-195241",
@@ -14604,7 +15179,8 @@
       "notes": "Grandsire of centralia-lamb-2026. Off-farm. NSIP-anchored. | CORRECTION 2026-06-11: previously attributed NSIP EBVs were actually for CENTRALIA's sire (81385 SHU 2132 per pedigree position), not HBK 708. Removed; we do not yet have NSIP EBVs specifically for HBK 708.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "centralia-founder-87730",
@@ -14862,7 +15438,8 @@
         "us_hair_composite_index": null,
         "source": "Auto-scraped from digitalovine.com 2026-06-11"
       },
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "centralia-founder-sire-81385",
@@ -15090,7 +15667,8 @@
         "us_hair_composite_index": null,
         "source": "Auto-scraped from digitalovine.com 2026-06-11"
       },
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "zac-brown-146843",
@@ -15357,7 +15935,8 @@
         },
         "source": "Auto-scraped from digitalovine.com 2026-06-11"
       },
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "zwt-6295-dam-of-zac-brown",
@@ -15410,7 +15989,8 @@
       "notes": "98055 ZWT 6295. ZAC BROWN's dam per his NSIP detail page header. No NSIP EBVs available yet.",
       "confidence": "medium",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "twenty-grand-52391",
@@ -15622,7 +16202,8 @@
         "us_hair_composite_index": null,
         "source": "Auto-scraped from digitalovine.com 2026-06-11"
       },
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "twenty-grand-sire-placeholder",
@@ -15732,7 +16313,8 @@
       "notes": "Sire of 20 GRAND (52391). KHSI registration number unknown from supplied data. Has NSIP EBVs.",
       "confidence": "medium",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "twenty-grand-dam-placeholder",
@@ -15783,7 +16365,8 @@
       "notes": "Dam of 20 GRAND (52391). KHSI registration number unknown from supplied data.",
       "confidence": "medium",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-107303",
@@ -15956,7 +16539,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 107303. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-28358",
@@ -16047,7 +16631,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 28358. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "top-shelf-33299",
@@ -16215,7 +16800,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 33299, TOP SHELF. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "sure-thing-34924",
@@ -16391,7 +16977,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 34924, SURE THING. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-34933",
@@ -16482,7 +17069,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 34933. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-38477",
@@ -16573,7 +17161,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 38477. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-41580",
@@ -16724,7 +17313,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 41580. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "pure-power-42776",
@@ -16815,7 +17405,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 42776, PURE POWER. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-42793",
@@ -16906,7 +17497,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 42793. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-43759",
@@ -16995,7 +17587,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 43759. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-45211",
@@ -17086,7 +17679,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 45211. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-45212",
@@ -17175,7 +17769,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 45212. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-49536",
@@ -17330,7 +17925,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 49536. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-49537",
@@ -17457,7 +18053,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 49537. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-52760",
@@ -17546,7 +18143,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 52760. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-52794",
@@ -17721,7 +18319,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 52794. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-53036",
@@ -17812,7 +18411,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 53036. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-53519",
@@ -17901,7 +18501,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 53519. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-54459",
@@ -17993,7 +18594,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 54459. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-59039",
@@ -18082,7 +18684,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 59039. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "sixteen-tons-59830",
@@ -18171,7 +18774,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 59830, SIXTEEN TONS. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-60275",
@@ -18260,7 +18864,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 60275. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-63660",
@@ -18349,7 +18954,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 63660. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-63663",
@@ -18438,7 +19044,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 63663. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-63664",
@@ -18527,7 +19134,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 63664. Off-farm; recorded so this ancestor's NSIP EBVs propagate through pedigree path coefficients to centralia-lamb-2026 and downstream descendants.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-52080",
@@ -18693,7 +19301,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 52080, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-50741",
@@ -18868,7 +19477,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 50741, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-85023",
@@ -19019,7 +19629,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 85023, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-39733",
@@ -19185,7 +19796,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 39733, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-30014",
@@ -19358,7 +19970,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 30014, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-44055",
@@ -19522,7 +20135,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 44055, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-96456",
@@ -19695,7 +20309,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 96456, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-18298",
@@ -19861,7 +20476,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 18298, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-18296",
@@ -19952,7 +20568,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 18296, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-27679",
@@ -20128,7 +20745,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 27679, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-20639",
@@ -20294,7 +20912,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 20639, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-60021",
@@ -20445,7 +21064,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 60021, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-22375",
@@ -20621,7 +21241,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 22375, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-18936",
@@ -20796,7 +21417,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 18936, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-45151",
@@ -20949,7 +21571,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 45151, ancestor of Kelsier (198291X). Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-13802",
@@ -21124,7 +21747,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 13802. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-13805",
@@ -21215,7 +21839,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 13805. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-14708",
@@ -21306,7 +21931,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 14708. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-17301",
@@ -21481,7 +22107,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 17301. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-23816",
@@ -21647,7 +22274,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 23816. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-25697",
@@ -21823,7 +22451,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 25697. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-27026",
@@ -21914,7 +22543,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 27026. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-27678",
@@ -22084,7 +22714,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 27678. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-28744",
@@ -22261,7 +22892,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 28744. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "loaded-wagon-30088",
@@ -22438,7 +23070,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 30088. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-3041",
@@ -22529,7 +23162,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 3041. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-30590",
@@ -22682,7 +23316,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 30590. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-31239",
@@ -22773,7 +23408,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 31239. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-34802",
@@ -22933,7 +23569,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 34802. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-35577",
@@ -23099,7 +23736,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 35577. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-3632",
@@ -23190,7 +23828,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 3632. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-38474",
@@ -23281,7 +23920,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 38474. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-38830",
@@ -23447,7 +24087,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 38830. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-41325",
@@ -23607,7 +24248,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 41325. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-42165",
@@ -23696,7 +24338,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 42165. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-42789",
@@ -23785,7 +24428,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 42789. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-42802",
@@ -23874,7 +24518,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 42802. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "southern-gentlemen-42808",
@@ -23965,7 +24610,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 42808. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-43121",
@@ -24054,7 +24700,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 43121. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-43123",
@@ -24145,7 +24792,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 43123. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-43299",
@@ -24252,7 +24900,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 43299. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-44270",
@@ -24427,7 +25076,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 44270. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-45790",
@@ -24516,7 +25166,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 45790. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-45810",
@@ -24605,7 +25256,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 45810. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-47677",
@@ -24694,7 +25346,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 47677. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "cornerstone-50492",
@@ -24845,7 +25498,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 50492. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-5111",
@@ -24936,7 +25590,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 5111. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-53953",
@@ -25025,7 +25680,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 53953. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-57451",
@@ -25172,7 +25828,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 57451. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-5908",
@@ -25325,7 +25982,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 5908. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-60194",
@@ -25491,7 +26149,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 60194. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     },
     {
       "id": "khsi-625",
@@ -25582,7 +26241,8 @@
       "notes": "Auto-recorded 2026-06-11. KHSI reg 625. Off-farm.",
       "confidence": "high",
       "last_verified": "2026-06-11",
-      "on_property": false
+      "on_property": false,
+      "movements": []
     }
   ],
   "pens": {
@@ -25673,7 +26333,6 @@
       ],
       "members": [
         "charlies-ram-lamb",
-        "baby-azure",
         "charlies-farm-ewe-baby-p3",
         "broken-tail-twin-ewe",
         "nori-baby-p3",
@@ -25686,7 +26345,7 @@
         "cocoas-daughter-by-loki",
         "centralia-lamb-2026"
       ],
-      "notes": "Pen 2 as of 2026-04-24 \u2014 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed \u2014 her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here \u2014 already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references '0053 (tag 0053, white hair ewe)' \u2014 's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed \u2014 Merrie has the breeding role. | 2026-05-21: Lara's 2026 lamb born today (DOB 2026-05-21), Lara x Kelsier, piebald ewe lamb. Stays in pen with dam. | 2026-06-09: Pen 2 = kept-lambs grow-out pen. All prior wean-batch lambs from Goose Pen moved here. New Centralia ram lamb (centralia-lamb-2026) added direct from purchase (no quarantine per owner). UPDATE 2026-06-24: Baby Azure (MC-2610) died \u2014 removed from roster. Owner reported via photo of recovered ear tag.",
+      "notes": "Pen 2 as of 2026-04-24 \u2014 2 animals visible in owner photos: Rocky (ram, tag 140) + 1 UNIDENTIFIED white-faced wool ewe (see unidentified[]). CHANGES FROM PRIOR ROSTER: (1) 0053 removed \u2014 her individual record places her in Pen 1 after lambing on 2026-03-24; owner confirmed 2026-04-24 the Pen 2 ewe is NOT 0053. (2) Tag 114 fawn wool ewe previously listed here \u2014 already moved to Pen 1 with her black ram lamb. (3) Prior stale roster references '0053 (tag 0053, white hair ewe)' \u2014 's resistance heritability assessment, (b) auction-lamb production (~\\$300/head) from ewes that don't qualify for the elite pipeline, (c) Serendipity White Ram Twin (the line-test ram) is still here but does NOT breed \u2014 Merrie has the breeding role. | 2026-05-21: Lara's 2026 lamb born today (DOB 2026-05-21), Lara x Kelsier, piebald ewe lamb. Stays in pen with dam. | 2026-06-09: Pen 2 = kept-lambs grow-out pen. All prior wean-batch lambs from Goose Pen moved here. New Centralia ram lamb (centralia-lamb-2026) added direct from purchase (no quarantine per owner). UPDATE 2026-06-24: Baby Azure (MC-2610) died \u2014 removed from roster. Owner reported via photo of recovered ear tag. | 2026-08-18: deceased animals removed from roster (owner-confirmed deaths; roster is a legacy mirror of the movement log)",
       "treatments": [
         {
           "date_start": "2026-02-21",
@@ -25772,21 +26431,16 @@
         "tag-02-ewe-p5",
         "fawn-wool-ewe-p5"
       ],
-      "lambs": [
-        "oav-2222-lamb-1",
-        "oav-2222-lamb-2"
-      ],
+      "lambs": [],
       "members": [
         "elsie",
         "oav-2222",
         "tag-31-ewe-p5",
         "tag-02-ewe-p5",
         "fawn-wool-ewe-p5",
-        "angus",
-        "oav-2222-lamb-1",
-        "oav-2222-lamb-2"
+        "angus"
       ],
-      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week \u2014 watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet going to auction Sunday 2026-04-26 (alive, not in a pen roster currently). Angus presence noted \u2014 ram/roster role in Pen 5 needs owner clarification (not updated here). UPDATE 2026-04-26 (owner verbal photo session): NoriSon (= Eclipse, merged record) sold at auction. Angus (Windlestone, ~4 mo, arrived 2026-04-22) is now the breeding ram. Tag 00113 ewe (Cracker/Suffolk/GCN/Katahdin, full sister of orange-tag-00110) \u2014 was previously in Pen 5 unrostered, had a singleton lamb 2026-04-22 by NoriSon that died 2026-04-25 (FTT); 00113 herself moved to Pen 1 on 2026-04-25. Small Elsie triplet (elsie-triplet-sm-white-ewe) sold at auction 2026-04-26. tag-0033-twin-ram-2 (black ram, dam tag-0033-hair-ewe) also sold at auction 2026-04-26 (he was in Pen 1). NoriSon's track record per owner: 'consistently hit or miss, in with 5 ewes for two years or so \u2014 only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor.'",
+      "notes": "Pen 5 as of April 2026. Eclipse (tag 113, ram) SUBFERTILE \u2014 only bred Elsie out of 6 ewes in over a year. Other ewes proven breeders. CULL CANDIDATE. OAV 2222 back from Pen 6 this week \u2014 watch for lambing to determine sire. Little Daisy not pregnant, been with Eclipse since 10 weeks. Elsie escaped to Pen 6 pregnant by Eclipse, stays in 6. Corid 3-8 to 3-13-26. Covexin 8 3-10/11-26. 2 wool need shearing. Incoming: Merries full sister (Smore x Half Tail) bred by Loki from same farm as Little Daisy. Source: notebook cards pen 5 + owner verbal. 2026-04-24 update (owner verbal): Elsie confirmed in Pen 5 with Angus and her one remaining triplet (MC-2618 lg white ewe). Small white triplet going to auction Sunday 2026-04-26 (alive, not in a pen roster currently). Angus presence noted \u2014 ram/roster role in Pen 5 needs owner clarification (not updated here). UPDATE 2026-04-26 (owner verbal photo session): NoriSon (= Eclipse, merged record) sold at auction. Angus (Windlestone, ~4 mo, arrived 2026-04-22) is now the breeding ram. Tag 00113 ewe (Cracker/Suffolk/GCN/Katahdin, full sister of orange-tag-00110) \u2014 was previously in Pen 5 unrostered, had a singleton lamb 2026-04-22 by NoriSon that died 2026-04-25 (FTT); 00113 herself moved to Pen 1 on 2026-04-25. Small Elsie triplet (elsie-triplet-sm-white-ewe) sold at auction 2026-04-26. tag-0033-twin-ram-2 (black ram, dam tag-0033-hair-ewe) also sold at auction 2026-04-26 (he was in Pen 1). NoriSon's track record per owner: 'consistently hit or miss, in with 5 ewes for two years or so \u2014 only Elsie's triplets, 00113's singleton (died), OAV twins (prior years, died), Daisy's Daughter 2's lamb (believed died). Not a great contributor.' | 2026-08-18: deceased animals removed from roster (owner-confirmed deaths; roster is a legacy mirror of the movement log)",
       "treatments": [
         {
           "date_start": "2026-03-08",
@@ -25903,16 +26557,21 @@
       "ewes": [
         "bambii",
         "tag-24-0003-tf",
-        "tag-0035-white-ewe"
+        "tag-0035-white-ewe",
+        "lara"
       ],
-      "lambs": [],
+      "lambs": [
+        "lara-2026-ram-twin"
+      ],
       "members": [
         "rocky",
         "bambii",
         "tag-24-0003-tf",
-        "tag-0035-white-ewe"
+        "tag-0035-white-ewe",
+        "lara",
+        "lara-2026-ram-twin"
       ],
-      "notes": "Tree Fort as of 2026-05-14: Buck (ram) + 3 ewes \u2014 Bambii (orange tag #35, from Heather Oaks Farm), White Ewe 0035 (no proper name, bred on this farm, Florida Dorper x Katahdin), and Ewe 24/0003 (no name yet, Sir Loin daughter, all white with wool on back). All lambs weaned to Goose Pen 2026-05-14. Tree Fort and \"Chicken Coop\" are the same physical pen (merged 2026-05-14). PEN MEMBERSHIP CORRECTIONS 2026-05-14: (1) Orange Tag 31 Ewe removed \u2014 owner confirmed she is no longer in Tree Fort, current location unknown; (2) Bambii's tag corrected from 24/0003 (transcription error) to orange #35; (3) added Ewe 24/0003 (Sir Loin daughter) \u2014 the actual holder of the 24/0003 scrapie tag. | 2026-05-21: Buck moved to Pen 6; Rocky moved in from Pen 2 as new ram.",
+      "notes": "Tree Fort as of 2026-05-14: Buck (ram) + 3 ewes \u2014 Bambii (orange tag #35, from Heather Oaks Farm), White Ewe 0035 (no proper name, bred on this farm, Florida Dorper x Katahdin), and Ewe 24/0003 (no name yet, Sir Loin daughter, all white with wool on back). All lambs weaned to Goose Pen 2026-05-14. Tree Fort and \"Chicken Coop\" are the same physical pen (merged 2026-05-14). PEN MEMBERSHIP CORRECTIONS 2026-05-14: (1) Orange Tag 31 Ewe removed \u2014 owner confirmed she is no longer in Tree Fort, current location unknown; (2) Bambii's tag corrected from 24/0003 (transcription error) to orange #35; (3) added Ewe 24/0003 (Sir Loin daughter) \u2014 the actual holder of the 24/0003 scrapie tag. | 2026-05-21: Buck moved to Pen 6; Rocky moved in from Pen 2 as new ram. | MERGED 2026-08-18 (operator: 'Chicken Coop' is an alias of 'Tree Fort' \u2014 same physical pen; 8-pen canon):  | 2026-05-21: Lara + 2 twin lambs moved in (originally to Pen 1 stall same day, then moved to Chicken Coop for use as stall). Lara nearly dry, lambs on grain since day 3 of life. Buck (prior occupant) had moved to Pen 6 earlier today as the new Pen 6 ram. | 2026-08-18: deceased animals removed from roster (owner-confirmed deaths; roster is a legacy mirror of the movement log)",
       "treatments": [
         {
           "date_start": "2026-03-08",
@@ -25963,7 +26622,11 @@
           "observation": "3 need to be sheered (adult schedule card)",
           "source": "IMG_0650"
         }
-      ]
+      ],
+      "aliases": [
+        "Chicken Coop"
+      ],
+      "function": "Used as a stall (small enclosed space for hand-rearing / grain access)."
     },
     "goose_pen": {
       "display_name": "Goose Pen",
@@ -25975,25 +26638,6 @@
       "notes": "Weaning pen as of 2026-05-14. Holds gigi-2025-ram (displaced from Pen 4 when Charlie moved in) plus 14-lamb wean batch. The 3 most recently born lambs (OAV 2222 twins, 114 Black Ram Lamb) stayed with mothers. | 2026-05-21: Auction sweep \u2014 gigi-2025-ram, serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold. | 2026-05-21 CORRECTION: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb restored to roster \u2014 they were NOT sold (operator clarified: only mature rams sold that day). | 2026-05-21 RE-CONFIRMED: serendipity-twin-ram, fm2-ram-lamb, tag-31-orange-tf-ram-lamb sold at auction (ram lambs). | 2026-06-09: Goose Pen EMPTY. All prior wean-batch lambs moved to Pen 2 (kept-lambs grow-out pen).",
       "additional_residents": [],
       "note": "Empty as of 2026-06-13 (owner-confirmed). Wean batch relocated to Pen 2."
-    },
-    "chicken_coop": {
-      "display_name": "Chicken Coop",
-      "ram": null,
-      "rams": [],
-      "ewes": [
-        "lara"
-      ],
-      "lambs": [
-        "lara-2026-lamb",
-        "lara-2026-ram-twin"
-      ],
-      "members": [
-        "lara",
-        "lara-2026-lamb",
-        "lara-2026-ram-twin"
-      ],
-      "notes": " | 2026-05-21: Lara + 2 twin lambs moved in (originally to Pen 1 stall same day, then moved to Chicken Coop for use as stall). Lara nearly dry, lambs on grain since day 3 of life. Buck (prior occupant) had moved to Pen 6 earlier today as the new Pen 6 ram.",
-      "function": "Used as a stall (small enclosed space for hand-rearing / grain access)."
     }
   },
   "lambing_records_2026": [
