@@ -413,6 +413,65 @@ def h2_prior_tests():
     return fails
 
 
+def quarantine_tests():
+    """Pins for MCS-28 quarantine intake: append-only writer, schema/date/bool/fec validation,
+    biosecurity checklist gaps, and the arrival-unlogged surfacing."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _qi_spec = importlib.util.spec_from_file_location("qi", os.path.join(_here, "quarantine_intake.py"))
+    qi = importlib.util.module_from_spec(_qi_spec)
+    _qi_spec.loader.exec_module(qi)
+
+    s = {"id": "t"}
+    qi.record_intake(s, "2026-01-01", source="Farm X", drench_drug="moxidectin", fec_at_intake=200)
+    check("record_intake appends", len(s["quarantine_intakes"]) == 1)
+    check("record_intake drops None", "release_date" not in s["quarantine_intakes"][0])
+
+    bad = {"id": "b", "quarantine_intakes": [
+        {"arrival_date": "nope"},
+        {"arrival_date": "2026-01-01", "drench_date": "bad"},
+        {"arrival_date": "2026-01-01", "cleared": "yes"},
+        {"arrival_date": "2026-01-01", "fec_at_intake": -5},
+        {"arrival_date": "2026-02-01", "release_date": "2026-01-01"},   # release before arrival
+        {"arrival_date": "2026-01-01", "zzz": 1}]}
+    iss = qi.validate_intake(bad)
+    check("validator flags bad arrival_date", any("arrival_date" in i and "unparseable" in i for i in iss))
+    check("validator flags non-bool cleared", any("not a boolean" in i for i in iss))
+    check("validator flags negative fec", any("non-negative" in i for i in iss))
+    check("validator flags release before arrival", any("precedes arrival" in i for i in iss))
+    check("validator flags unknown key", any("unknown key" in i for i in iss))
+
+    # checklist gaps
+    g = qi._checklist_gaps({"arrival_date": "2026-01-01"})
+    check("gaps: no drench/fec/observation", len(g) == 3)
+    g2 = qi._checklist_gaps({"drench_drug": "moxidectin", "fec_at_intake": 100, "release_date": "2026-01-10"})
+    check("complete intake -> no gaps", g2 == [])
+
+    # biosecurity_view states
+    db = {"sheep": [
+        {"id": "inq", "quarantine_intakes": [{"arrival_date": "2026-01-01", "drench_drug": "levamisole"}]},
+        {"id": "done", "quarantine_intakes": [{"arrival_date": "2026-01-01", "cleared": True}]},
+        {"id": "prov", "arrival_date": "2026-02-01"},
+        {"id": "resident"},   # no provenance, no intake -> excluded
+    ]}
+    view = {r["id"]: r for r in qi.biosecurity_view(db)}
+    check("in_quarantine when not cleared/released", view["inq"]["status"] == "in_quarantine")
+    check("cleared when cleared flag set", view["done"]["status"] == "cleared")
+    check("provenance-only -> arrival_unlogged", view["prov"]["status"] == "arrival_unlogged")
+    check("resident with no provenance excluded", "resident" not in view)
+
+    # live: Angus (arrival_date on file) surfaces as arrival_unlogged
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    lv = {r["id"]: r for r in qi.biosecurity_view(live)}
+    check("live: angus is an unlogged arrival", lv.get("angus", {}).get("status") == "arrival_unlogged")
+    return fails
+
+
 def scrapie_tests():
     """Pins for MCS-15 PRNP scrapie genotype: codon-171 normalization, susceptibility
     classification, Mendelian mating prediction, and schema validation."""
@@ -901,6 +960,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-28 quarantine-intake pins:")
+    failures += quarantine_tests()
     print("\nMCS-15 scrapie-genotype pins:")
     failures += scrapie_tests()
     print("\nMCS-12 quantity-shape pins:")
