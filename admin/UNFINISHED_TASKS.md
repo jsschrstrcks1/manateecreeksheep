@@ -4,7 +4,7 @@
 > Find/checkout: `node admin/library.mjs preflight --query "<task>" --patron <id> --merge`
 > **This document** is context/spec only unless stated otherwise.
 
-**Generated:** 2026-08-19T01:46:18.877Z
+**Generated:** 2026-08-19T01:57:20.707Z
 **SSOT:** `.household-library/catalog.jsonl`
 
 Open tasks for this repo (`state` ≠ `complete`). Regenerate:
@@ -24,7 +24,7 @@ node admin/library.mjs mirrors --repo manateecreeksheep
 | 1 | returned | — | mcs-famacha-schema-normalization | AUDIT FINDING: famacha_scores entries split 91 'famacha' vs 16 'score' keys (Lara's history among the 16) — normalize via migration + validator rule; agenda-engine plan already fixed to dual-read so nothing silently drops |
 | 1 | registered | — | mcs-fat-tail-tracking | MCS-20 (operator: huge): fat-tail phenotype scoring + lineage tracking (Awassi/Tunis lines) feeding mating prediction |
 | 1 | registered | — | mcs-fecrt-drench-check | MCS-30: FECRT drench-check — FEC at treatment + 10-14d later per drug class; maintains the does-it-still-work-here table (ivermectin=medium already recorded); welfare guardrails bound |
-| 1 | registered | — | mcs-flock-agenda-engine | Flock agenda engine (plan: docs/superpowers/plans/2026-08-12-flock-agenda-engine.md) — derive withdrawal locks, FECRT windows, FAMACHA rechecks, pending IDs from flock DB; the feed Atlas serves and Crane displays (Phases 2-4 follow-on) |
+| 1 | returned | — | mcs-flock-agenda-engine | Flock agenda engine (plan: docs/superpowers/plans/2026-08-12-flock-agenda-engine.md) — derive withdrawal locks, FECRT windows, FAMACHA rechecks, pending IDs from flock DB; the feed Atlas serves and Crane displays (Phases 2-4 follow-on) |
 | 1 | registered | — | mcs-flock-pwa | Flock PWA (operator directive): installable, offline-first, served by Atlas /flock on tailnet; token entered once per device, encrypted at rest (passkey-PRF), never in bundle; prefer flock-scoped token; chute-side entry + agenda (plan Phase 5) |
 | 1 | registered | — | mcs-genetic-trait-card | MCS-32: two-tier genetic trait card — Mendelian letters w/ per-locus source+confidence (scrapie, color, horns, Booroola, TMEM154, FGFR3) + polygenic EBV bars (resistance/resilience/avoidance/maternal; burden-conditioned; evidence-grade labels; tolerance-slope mature form) |
 | 1 | returned | — | mcs-health-event-log | MCS-26 (operator directive): typed per-animal health & adverse-event log — foot rot, parasites, fly strike, predation, everything in between; condition vocabulary + diagnosis + treatment + body location + outcome, append-only (MCS-9 shape), feeds MCS-7 withdrawal and MCS-3 triage |
