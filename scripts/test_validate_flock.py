@@ -413,6 +413,75 @@ def h2_prior_tests():
     return fails
 
 
+def withdrawal_tests():
+    """Pins for MCS-7 meat/milk withdrawal engine. The engine must (a) compute clear dates
+    correctly from a CONFIRMED interval, (b) NEVER report clear for an unconfirmed drug, and
+    (c) surface an unrecognized treatment rather than silently clear it."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    import datetime as _dt
+    _wc_spec = importlib.util.spec_from_file_location("wc", os.path.join(_here, "withdrawal_check.py"))
+    wc = importlib.util.module_from_spec(_wc_spec)
+    _wc_spec.loader.exec_module(wc)
+
+    # synthetic reference: one confirmed 28-day meat drug, one unconfirmed, one nutritional
+    ref = {
+        "confirmedrug": {"drug_key": "confirmedrug", "generic": "cx", "class": "antibiotic",
+                         "withdrawal_days_meat": 28, "withdrawal_days_milk": 96, "status": "vet_confirmed"},
+        "mystery": {"drug_key": "mystery", "generic": "mx", "class": "anthelmintic",
+                    "withdrawal_days_meat": None, "withdrawal_days_milk": None, "status": "NEEDS_VET_CONFIRMATION"},
+        "iron": {"drug_key": "iron", "generic": "iron", "class": "nutritional",
+                 "withdrawal_days_meat": 0, "withdrawal_days_milk": 0, "status": "no_withdrawal"},
+    }
+    td = _dt.date(2026, 1, 1)
+    t = {"date": "2026-01-01", "treatment": "ConfirmeDrug 5mL"}
+
+    # (a) date math: last in-withdrawal day is treat+28 (2026-01-29); clear the day after
+    r_meat = [x for x in wc.withdrawal_for_treatment("t", t, ref, _dt.date(2026, 1, 29)) if x["kind"] == "meat"][0]
+    check("day 28 still in_withdrawal", r_meat["status"] == "in_withdrawal" and r_meat["clear_date"] == "2026-01-29")
+    r_after = [x for x in wc.withdrawal_for_treatment("t", t, ref, _dt.date(2026, 1, 30)) if x["kind"] == "meat"][0]
+    check("day 29 (after clear) is clear", r_after["status"] == "clear")
+    r_milk = [x for x in wc.withdrawal_for_treatment("t", t, ref, _dt.date(2026, 3, 1)) if x["kind"] == "milk"][0]
+    check("milk interval independent of meat (96d)", r_milk["status"] == "in_withdrawal" and r_milk["clear_date"] == "2026-04-07")
+
+    # (b) unconfirmed drug NEVER reads clear — meat and milk both unknown_interval
+    mt = {"date": "2020-01-01", "treatment": "Mystery drench"}
+    rs = wc.withdrawal_for_treatment("t", mt, ref, _dt.date(2026, 1, 1))
+    check("unconfirmed drug -> unknown_interval (never clear)",
+          all(x["status"] == "unknown_interval" for x in rs) and len(rs) == 2)
+
+    # (c) nutritional -> no_withdrawal ; unrecognized string surfaced, not cleared
+    nt = {"date": "2026-01-01", "treatment": "Iron 3mL"}
+    check("nutritional -> no_withdrawal",
+          all(x["status"] == "no_withdrawal" for x in wc.withdrawal_for_treatment("t", nt, ref, _dt.date(2026, 6, 1))))
+    ut = {"date": "2026-01-01", "treatment": "Hoof trim"}
+    rs_u = wc.withdrawal_for_treatment("t", ut, ref, _dt.date(2026, 1, 1))
+    check("unrecognized treatment surfaced", len(rs_u) == 1 and rs_u[0]["status"] == "unrecognized")
+
+    # (d) word-boundary matching: 'vb12' matches vb but 'ivermectin' isn't a false 'iron' hit
+    live = wc.load_reference()
+    keys = {d["drug_key"] for d in wc.match_drugs("Ivermectin + Fenbendazole + VB 3mL + Iron 2mL", live)}
+    check("combo string matches ivermectin+fenbendazole+vb+iron",
+          {"ivermectin", "fenbendazole", "vb", "iron"} <= keys)
+
+    # (e) shipped reference authors NO withdrawal numbers for real drugs (all NEEDS_VET_CONFIRMATION)
+    real_drugs = [d for d in live.values() if d["class"] in ("anthelmintic", "antibiotic", "coccidiostat", "vaccine")]
+    check("no fabricated intervals for real drugs in shipped reference",
+          all(d["status"] == "NEEDS_VET_CONFIRMATION" and d["withdrawal_days_meat"] is None for d in real_drugs))
+
+    # (f) gaps worklist finds the 6 real drugs actually used in the flock
+    db = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    g = wc.gaps(db, live)
+    check("gaps worklist lists ivermectin & fenbendazole & nuflor",
+          {"ivermectin", "fenbendazole", "nuflor"} <= {r["drug"] for r in g})
+    return fails
+
+
 def pedigree_tests():
     """Pins for the pedigree-integrity + mate-COI tool and the cycle-guard hardening of
     ebv/pedigree.py. Two halves: (a) the safety hardening changed NO value on the acyclic
@@ -511,6 +580,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-7 withdrawal-clearance pins:")
+    failures += withdrawal_tests()
     print("\nPedigree-integrity + mate-COI + cycle-guard pins:")
     failures += pedigree_tests()
     if failures:

@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "purpose": "Meat and milk WITHDRAWAL reference for drugs used in this flock. Consumed read-only by scripts/withdrawal_check.py to compute the earliest date a treated animal's meat/milk may enter the food supply.",
+    "food_safety_rule": "This file is the single source of withdrawal intervals. Numbers here are VET/OPERATOR-OWNED, not agent-authored. An entry with withdrawal_days=null and status NEEDS_VET_CONFIRMATION means the interval has NOT been confirmed and the engine will report any animal treated with that drug as UNKNOWN — never as clear. The tool never asserts an animal is safe to slaughter/milk; it computes the earliest clear date from a CONFIRMED interval, or names the gap.",
+    "extra_label_warning": "Most drugs are used EXTRA-LABEL in sheep (approved for cattle/other species). Extra-label use REQUIRES a veterinary withdrawal interval — commonly LONGER than any label figure — obtained from the prescribing vet or FARAD (Food Animal Residue Avoidance Databank, farad.org / 1-888-USFARAD). Do NOT copy a cattle label figure into this file.",
+    "how_to_confirm": "For each entry with status NEEDS_VET_CONFIRMATION: obtain the meat (and milk, for a lactating ewe) withdrawal interval for THIS formulation, route, and dose from your vet or FARAD, enter it in withdrawal_days_meat / withdrawal_days_milk, set status to 'vet_confirmed', and record who confirmed it and when in confirmed_by / confirmed_date.",
+    "schema": {
+      "drug_key": "lowercase match token (substring, matched against the free-text treatment string)",
+      "generic": "generic/active name",
+      "class": "anthelmintic | antibiotic | coccidiostat | vaccine | nutritional | other",
+      "withdrawal_days_meat": "integer days, or null if unconfirmed",
+      "withdrawal_days_milk": "integer days, or null if unconfirmed or not applicable",
+      "status": "vet_confirmed | NEEDS_VET_CONFIRMATION | no_withdrawal",
+      "source": "where the figure/classification came from",
+      "confirmed_by": "person who confirmed a vet_confirmed interval (else null)",
+      "confirmed_date": "ISO date of confirmation (else null)"
+    }
+  },
+  "drugs": [
+    {
+      "drug_key": "ivermectin", "generic": "ivermectin", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null,
+      "status": "NEEDS_VET_CONFIRMATION",
+      "source": "in-flock use (15 treatment events). Extra-label in sheep — interval must come from vet/FARAD.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "fenbendazole", "generic": "fenbendazole", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null,
+      "status": "NEEDS_VET_CONFIRMATION",
+      "source": "in-flock use (8 events). Extra-label in sheep — interval must come from vet/FARAD.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "nuflor", "generic": "florfenicol", "class": "antibiotic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null,
+      "status": "NEEDS_VET_CONFIRMATION",
+      "source": "in-flock use (Nuflor, 2 events). Not labeled for sheep — extra-label; vet/FARAD interval required.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "terramycin", "generic": "oxytetracycline", "class": "antibiotic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null,
+      "status": "NEEDS_VET_CONFIRMATION",
+      "source": "in-flock use (Terramycin, 1 event). Interval depends on formulation/route — vet/FARAD.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "corid", "generic": "amprolium", "class": "coccidiostat",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null,
+      "status": "NEEDS_VET_CONFIRMATION",
+      "source": "in-flock use (Corid, 2 events). Extra-label in sheep — vet/FARAD interval required.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "covexin", "generic": "clostridial multivalent vaccine", "class": "vaccine",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null,
+      "status": "NEEDS_VET_CONFIRMATION",
+      "source": "in-flock use (Covexin, 1 event). Clostridial vaccine — confirm the pre-slaughter interval from the product label.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "iron", "generic": "iron dextran / injectable iron", "class": "nutritional",
+      "withdrawal_days_meat": 0, "withdrawal_days_milk": 0,
+      "status": "no_withdrawal",
+      "source": "Nutritional/mineral support — no established meat or milk withdrawal. Confirm the specific product carries none.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "nutridrench", "generic": "nutritional drench (vitamins/energy)", "class": "nutritional",
+      "withdrawal_days_meat": 0, "withdrawal_days_milk": 0,
+      "status": "no_withdrawal",
+      "source": "Nutritional supplement — no established withdrawal.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "thiamine", "generic": "thiamine (vitamin B1)", "class": "nutritional",
+      "withdrawal_days_meat": 0, "withdrawal_days_milk": 0,
+      "status": "no_withdrawal",
+      "source": "Vitamin — no established meat/milk withdrawal.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "b12", "generic": "vitamin B12 (cyanocobalamin)", "class": "nutritional",
+      "withdrawal_days_meat": 0, "withdrawal_days_milk": 0,
+      "status": "no_withdrawal",
+      "source": "Vitamin — no established meat/milk withdrawal.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "b-complex", "generic": "vitamin B complex", "class": "nutritional",
+      "withdrawal_days_meat": 0, "withdrawal_days_milk": 0,
+      "status": "no_withdrawal",
+      "source": "Vitamin — no established meat/milk withdrawal.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "vb", "generic": "vitamin B (injectable, incl. 'VB'/'VB12' shorthand)", "class": "nutritional",
+      "withdrawal_days_meat": 0, "withdrawal_days_milk": 0,
+      "status": "no_withdrawal",
+      "source": "Vitamin — no established meat/milk withdrawal. Flock shorthand 'VB'/'VB12' in treatment strings.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "vitamin", "generic": "vitamin supplement (unspecified)", "class": "nutritional",
+      "withdrawal_days_meat": 0, "withdrawal_days_milk": 0,
+      "status": "no_withdrawal",
+      "source": "Vitamin/mineral support — no established withdrawal.",
+      "confirmed_by": null, "confirmed_date": null
+    }
+  ]
+}
