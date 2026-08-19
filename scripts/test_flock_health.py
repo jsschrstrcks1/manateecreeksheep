@@ -222,6 +222,17 @@ with tempfile.TemporaryDirectory() as td:
     check("event landed in the ISOLATED log (MCS-35)",
           os.path.exists(log) and "lara-2026-08-19-famacha" in open(log).read(), True)
 
+# --- chute app build (MCS-34 slice 1) ---------------------------------------------------
+bca = _load("bca", "build_chute_app.py")
+roster = bca.build_roster()
+check("roster covers every living animal", len(roster) > 100, True)
+check("roster rows carry the app's fields",
+      all(set(r) >= {"id", "name", "tag", "pen", "score", "score_date", "rank"} for r in roster), True)
+check("roster is triage-sorted (worst first)",
+      all(a["rank"] >= b["rank"] for a, b in zip(roster, roster[1:])), True)
+check("no deceased animal baked in",
+      "lara-2026-lamb" not in {r["id"] for r in roster}, True)
+
 # --- verdict -------------------------------------------------------------------------
 if FAILURES:
     print(f"\n{len(FAILURES)} FAILURE(S): {FAILURES}")

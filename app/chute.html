@@ -1,0 +1,290 @@
+<!doctype html>
+<!-- Soli Deo Gloria. Chute-side entry — MCS-6 batch session with a thumb-sized face.
+     Slice 1 of the flock PWA (MCS-34): fully offline, no server, no third-party anything.
+     Data baked at build time by scripts/build_chute_app.py; entries live in localStorage;
+     Export emits work_flock.py --from-file lines (the validated path into the ledger).
+     When Phase 2 (Atlas /flock) lands, Export becomes Sync. Regenerate after DB changes. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Manatee Creek — Chute</title>
+<style>
+  :root{
+    --ink:#1a1512; --paper:#faf7f2; --card:#ffffff; --line:#d9d2c7;
+    --accent:#2d5a27; --accent-ink:#ffffff; --danger:#8b1a1a; --amber:#a86500;
+    --done:#2d5a27;
+    --f1:#7a1010; --f2:#b03a3a; --f3:#d98989; --f4:#efc9c9; --f5:#f7f3ee;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  html,body{margin:0; background:var(--paper); color:var(--ink);
+    font:17px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  header{position:sticky; top:0; z-index:5; background:var(--paper);
+    border-bottom:2px solid var(--line); padding:10px 12px}
+  h1{font-size:19px; margin:0 0 6px; display:flex; justify-content:space-between; align-items:baseline}
+  h1 small{font-weight:400; color:#6b6257; font-size:14px}
+  .tabs{display:flex; gap:6px; overflow-x:auto; padding-bottom:4px}
+  .tabs button{flex:0 0 auto; border:1.5px solid var(--line); background:var(--card);
+    color:var(--ink); border-radius:999px; padding:8px 14px; font-size:15px; font-weight:600}
+  .tabs button.on{background:var(--accent); color:var(--accent-ink); border-color:var(--accent)}
+  main{padding:8px 10px 120px}
+  .animal{display:flex; align-items:center; gap:10px; width:100%; text-align:left;
+    background:var(--card); border:1.5px solid var(--line); border-radius:12px;
+    padding:12px; margin:6px 0; font-size:17px}
+  .animal.done{border-color:var(--done); background:#f0f6ef}
+  .animal .who{flex:1; min-width:0}
+  .animal .who b{display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .animal .who span{color:#6b6257; font-size:13px}
+  .chip{flex:0 0 auto; min-width:44px; text-align:center; border-radius:8px;
+    padding:6px 8px; font-weight:700; font-size:14px; border:1px solid rgba(0,0,0,.15)}
+  .chip.f1,.chip.f2{background:var(--f2); color:#fff}
+  .chip.f3{background:var(--f3)} .chip.f4{background:var(--f4)} .chip.f5{background:var(--f5)}
+  .chip.na{background:#eee; color:#777}
+  .chip.hot{outline:3px solid var(--danger)}
+  .tick{flex:0 0 auto; font-size:22px; color:var(--done); width:26px; text-align:center}
+  /* entry sheet */
+  #sheet{position:fixed; inset:0; background:var(--paper); z-index:10; display:none;
+    overflow-y:auto; padding:12px 12px 40px}
+  #sheet.open{display:block}
+  #sheet h2{margin:2px 0 0; font-size:22px}
+  #sheet .sub{color:#6b6257; margin:0 0 10px; font-size:14px}
+  .warn{background:#fbeaea; border:1.5px solid var(--danger); color:var(--danger);
+    border-radius:10px; padding:8px 10px; font-weight:600; margin:8px 0; font-size:15px}
+  fieldset{border:none; margin:14px 0 0; padding:0}
+  legend{font-weight:700; font-size:15px; margin-bottom:6px; padding:0}
+  .frow{display:flex; gap:8px}
+  .frow button{flex:1; height:64px; border-radius:12px; border:2px solid var(--line);
+    font-size:22px; font-weight:800}
+  .frow button.f1{background:var(--f1); color:#fff} .frow button.f2{background:var(--f2); color:#fff}
+  .frow button.f3{background:var(--f3)} .frow button.f4{background:var(--f4)} .frow button.f5{background:var(--f5)}
+  .frow button.sel{outline:4px solid var(--ink); outline-offset:1px}
+  .chips{display:flex; flex-wrap:wrap; gap:8px}
+  .chips button{border:1.5px solid var(--line); background:var(--card); border-radius:999px;
+    padding:12px 16px; font-size:16px; font-weight:600}
+  .chips button.sel{background:var(--accent); color:var(--accent-ink); border-color:var(--accent)}
+  input[type=number],input[type=text],textarea{width:100%; font-size:18px; padding:12px;
+    border:1.5px solid var(--line); border-radius:10px; background:var(--card); color:var(--ink)}
+  textarea{min-height:64px}
+  .bar{position:sticky; bottom:0; display:flex; gap:8px; padding:12px 0 0; background:var(--paper)}
+  .bar button{flex:1; height:58px; border-radius:12px; font-size:18px; font-weight:800; border:none}
+  #save{background:var(--accent); color:var(--accent-ink)}
+  #cancel{background:var(--card); border:1.5px solid var(--line); color:var(--ink)}
+  #clearEntry{background:var(--card); border:1.5px solid var(--danger); color:var(--danger); flex:0 0 30%}
+  /* footer + export */
+  footer{position:fixed; bottom:0; left:0; right:0; background:var(--paper);
+    border-top:2px solid var(--line); padding:10px 12px; display:flex; gap:8px; z-index:5}
+  footer button{flex:1; height:52px; border-radius:12px; font-size:17px; font-weight:800; border:none}
+  #exportBtn{background:var(--ink); color:var(--paper)}
+  #resetBtn{flex:0 0 27%; background:var(--card); border:1.5px solid var(--danger); color:var(--danger)}
+  #exportBox{display:none; position:fixed; inset:0; z-index:20; background:var(--paper);
+    padding:14px; overflow-y:auto}
+  #exportBox.open{display:block}
+  #exportBox textarea{min-height:40vh; font-family:ui-monospace,Menlo,monospace; font-size:13px}
+  .hint{color:#6b6257; font-size:13px; margin:6px 0}
+</style>
+</head>
+<body>
+<header>
+  <h1>Manatee Creek — Chute <small id="prog"></small></h1>
+  <div class="tabs" id="tabs"></div>
+</header>
+<main id="list"></main>
+
+<div id="sheet">
+  <h2 id="shName"></h2>
+  <p class="sub" id="shSub"></p>
+  <div class="warn" id="shWarn" style="display:none"></div>
+  <fieldset><legend>FAMACHA</legend>
+    <div class="frow" id="fBtns">
+      <button class="f1" data-f="1">1</button><button class="f2" data-f="2">2</button>
+      <button class="f3" data-f="3">3</button><button class="f4" data-f="4">4</button>
+      <button class="f5" data-f="5">5</button>
+    </div>
+    <p class="hint">1 = deep red (good) · 5 = white (emergency). Tap again to unset.</p>
+  </fieldset>
+  <fieldset><legend>Weight (lbs)</legend>
+    <input type="number" id="wIn" inputmode="decimal" placeholder="—">
+  </fieldset>
+  <fieldset><legend>Wormer</legend>
+    <div class="chips" id="wormChips"></div>
+  </fieldset>
+  <fieldset><legend>Vaccine</legend>
+    <div class="chips" id="vaxChips"></div>
+  </fieldset>
+  <fieldset><legend>Actions</legend>
+    <div class="chips" id="actChips"></div>
+  </fieldset>
+  <fieldset><legend>FEC (eggs per gram, if sampled)</legend>
+    <input type="number" id="fecIn" inputmode="numeric" placeholder="—">
+  </fieldset>
+  <fieldset><legend>Note</legend>
+    <textarea id="noteIn" placeholder="anything worth remembering"></textarea>
+  </fieldset>
+  <div class="bar">
+    <button id="cancel">Back</button>
+    <button id="clearEntry">Clear</button>
+    <button id="save">Save</button>
+  </div>
+</div>
+
+<div id="exportBox">
+  <h2>Session export</h2>
+  <p class="hint">Paste/send to the records keeper. Feeds
+    <code>work_flock.py --from-file</code> — every line is validated before it enters the
+    ledger, so a typo here gets refused there, never silently absorbed.</p>
+  <textarea id="exportText" readonly></textarea>
+  <div class="bar">
+    <button id="copyBtn" style="background:var(--accent);color:#fff">Copy</button>
+    <button id="shareBtn" style="background:var(--ink);color:var(--paper)">Share</button>
+    <button id="closeExport" style="background:var(--card);border:1.5px solid var(--line);color:var(--ink)">Close</button>
+  </div>
+</div>
+
+<footer>
+  <button id="exportBtn">Export session</button>
+  <button id="resetBtn">New session</button>
+</footer>
+
+<script>
+"use strict";
+const FLOCK = [{"id":"broken-tail-twin-ewe","name":"Broken Tail Twin Ewe","tag":"MC-2605","pen":"Pen 2","score":5,"score_date":"2026-04-09","rank":70},{"id":"gigi-2026-baby","name":"Gigis 2026 Baby","tag":"MC-2613","pen":"Pen 2","score":3,"score_date":"2026-04-10","rank":70},{"id":"nori-baby-p3","name":"Nori's Baby Ram (Pen 3)","tag":"MC2604","pen":"Pen 2","score":3,"score_date":"2026-04-09","rank":70},{"id":"serendipity-twin-ewe","name":"Serendipity Black Ewe Twin","tag":"MC2607","pen":"Pen 2","score":5,"score_date":"2026-04-10","rank":70},{"id":"charlies-ram-lamb","name":"Charlies Ewe Ram Lamb","tag":"MC-2619","pen":"Pen 2","score":2,"score_date":"2026-04-02","rank":40},{"id":"gg","name":"GG","tag":"MC-19","pen":"Pen 4","score":1,"score_date":"2026-04-10","rank":40},{"id":"centralia-dam-181084x","name":"Centralia Dam (KHSI 181084X, SRM 46) \u2014 off-farm","tag":"SRM 46","pen":"","score":null,"score_date":"","rank":30},{"id":"centralia-founder-87730","name":"CENTRALIA (87730 SHU 3320)","tag":"SHU 3320","pen":"","score":null,"score_date":"","rank":30},{"id":"centralia-founder-sire-81385","name":"SHU 2132 (81385) \u2014 CENTRALIA's sire","tag":"SHU 2132","pen":"","score":null,"score_date":"","rank":30},{"id":"centralia-grandsire-195241","name":"Centralia Grandsire (KHSI 195241, HBK 708) \u2014 off-farm","tag":"HBK 708","pen":"","score":null,"score_date":"","rank":30},{"id":"centralia-ram-214168","name":"Centralia Sire (KHSI 214168, BZE 0001) \u2014 off-farm","tag":"BZE 0001","pen":"","score":null,"score_date":"","rank":30},{"id":"cocoa","name":"Cocoa","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"cornerstone-50492","name":"CORNERSTONE","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"daisy-of-sugar","name":"Daisy (of Sugar)","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"dodge","name":"Dodge","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"kaladin","name":"Kaladin","tag":"014","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-107303","name":"KHSI 107303","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-13802","name":"KHSI 13802","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-13805","name":"KHSI 13805","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-14708","name":"KHSI 14708","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-17301","name":"KHSI 17301","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-18296","name":"KHSI 18296","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-18298","name":"KHSI 18298","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-18936","name":"KHSI 18936","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-20639","name":"KHSI 20639","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-22375","name":"KHSI 22375","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-23816","name":"KHSI 23816","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-25697","name":"KHSI 25697","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-27026","name":"KHSI 27026","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-27678","name":"KHSI 27678","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-27679","name":"KHSI 27679","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-28358","name":"KHSI 28358","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-28744","name":"KHSI 28744","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-30014","name":"KHSI 30014","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-3041","name":"KHSI 3041","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-30590","name":"KHSI 30590","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-31239","name":"KHSI 31239","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-34802","name":"KHSI 34802","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-34933","name":"KHSI 34933","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-35577","name":"KHSI 35577","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-3632","name":"KHSI 3632","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-38474","name":"KHSI 38474","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-38477","name":"KHSI 38477","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-38830","name":"KHSI 38830","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-39733","name":"KHSI 39733","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-41325","name":"KHSI 41325","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-41580","name":"KHSI 41580","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-42165","name":"KHSI 42165","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-42789","name":"KHSI 42789","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-42793","name":"KHSI 42793","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-42802","name":"KHSI 42802","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-43121","name":"KHSI 43121","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-43123","name":"KHSI 43123","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-43299","name":"KHSI 43299","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-43759","name":"KHSI 43759","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-44055","name":"KHSI 44055","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-44270","name":"KHSI 44270","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-45151","name":"KHSI 45151","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-45211","name":"KHSI 45211","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-45212","name":"KHSI 45212","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-45790","name":"KHSI 45790","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-45810","name":"KHSI 45810","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-47677","name":"KHSI 47677","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-49536","name":"KHSI 49536","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-49537","name":"KHSI 49537","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-50741","name":"KHSI 50741","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-5111","name":"KHSI 5111","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-52080","name":"KHSI 52080","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-52760","name":"KHSI 52760","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-52794","name":"KHSI 52794","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-53036","name":"KHSI 53036","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-53519","name":"KHSI 53519","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-53953","name":"KHSI 53953","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-54459","name":"KHSI 54459","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-57451","name":"KHSI 57451","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-59039","name":"KHSI 59039","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-5908","name":"KHSI 5908","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-60021","name":"KHSI 60021","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-60194","name":"KHSI 60194","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-60275","name":"KHSI 60275","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-625","name":"KHSI 625","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-63660","name":"KHSI 63660","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-63663","name":"KHSI 63663","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-63664","name":"KHSI 63664","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-85023","name":"KHSI 85023","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"khsi-96456","name":"KHSI 96456","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"little-daisy","name":"Little Daisy","tag":"035","pen":"","score":null,"score_date":"","rank":30},{"id":"loaded-wagon-30088","name":"LOADED WAGON","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"loki","name":"Loki","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"pure-power-42776","name":"PURE POWER","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"sixteen-tons-59830","name":"SIXTEEN TONS","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"southern-gentlemen-42808","name":"SOUTHERN GENTLEMEN","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"sure-thing-34924","name":"SURE THING","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"tag-31-orange-tf","name":"Orange Tag 31 Ewe","tag":"31","pen":"","score":2,"score_date":"2026-04-11","rank":30},{"id":"top-shelf-33299","name":"TOP SHELF","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"twenty-grand-52391","name":"20 GRAND (52391 LHB 20)","tag":"LHB 20","pen":"","score":null,"score_date":"","rank":30},{"id":"twenty-grand-dam-placeholder","name":"20 GRAND's dam (NSIP-anchored, partial)","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"twenty-grand-sire-placeholder","name":"20 GRAND's sire (NSIP-anchored, KHSI reg unknown)","tag":"","pen":"","score":null,"score_date":"","rank":30},{"id":"zac-brown-146843","name":"ZAC BROWN (146843 SRS 294)","tag":"SRS 294","pen":"","score":null,"score_date":"","rank":30},{"id":"zwt-6295-dam-of-zac-brown","name":"ZWT 6295 (98055) \u2014 ZAC BROWN's dam","tag":"ZWT 6295","pen":"","score":null,"score_date":"","rank":30},{"id":"angus","name":"Angus","tag":"","pen":"Pen 5","score":null,"score_date":"","rank":25},{"id":"azure","name":"Azure","tag":"20","pen":"Pen 1","score":1,"score_date":"2026-04-01","rank":25},{"id":"bambii","name":"Bambii","tag":"35","pen":"Tree Fort","score":1,"score_date":"2026-04-11","rank":25},{"id":"bambii-baby","name":"Bambiis Baby","tag":"MC-2615","pen":"Pen 2","score":1,"score_date":"2026-04-11","rank":25},{"id":"broken-tail","name":"Broken Tail","tag":"MC-15","pen":"Pen 3","score":1,"score_date":"2026-04-09","rank":25},{"id":"buck","name":"Buck","tag":"MC-2433","pen":"Pen 6","score":2,"score_date":"2026-04-11","rank":25},{"id":"centralia-lamb-2026","name":"Centralia Ram Lamb (purchased 2026-06-09)","tag":"[UNKNOWN \u2014 has a tag but number not yet recorded]","pen":"Pen 2","score":null,"score_date":"","rank":25},{"id":"charlie-ram","name":"Charlie","tag":"MC20","pen":"Pen 4","score":1,"score_date":"2026-04-09","rank":25},{"id":"charlies-ewe","name":"Charlies Ewe","tag":"MC2620","pen":"Pen 1","score":1,"score_date":"2026-04-01","rank":25},{"id":"charlies-farm-ewe-baby-p3","name":"Charlies Farm Ewe Baby","tag":"MC-2602","pen":"Pen 2","score":1,"score_date":"2026-04-09","rank":25},{"id":"charlies-farm-ewe-p3","name":"Charlies Farm Ewe (Pen 3)","tag":"MC16","pen":"Pen 3","score":1,"score_date":"2026-04-09","rank":25},{"id":"cocoas-daughter-by-loki","name":"Cocoa's Daughter (by Loki)","tag":"","pen":"Pen 2","score":null,"score_date":"","rank":25},{"id":"elsie","name":"Elsie","tag":"025","pen":"Pen 5","score":1,"score_date":"2023-09-18","rank":25},{"id":"elsie-triplet-lg-white-ewe","name":"Elsie Large White Ewe Triplet","tag":"MC-2618","pen":"Pen 2","score":2,"score_date":"2026-03-17","rank":25},{"id":"fawn-wool-ewe-p5","name":"Fawn Wool Ewe (Pen 5)","tag":"240006","pen":"Pen 5","score":2,"score_date":"2026-04-11","rank":25},{"id":"fm","name":"FM","tag":"0011","pen":"Pen 4","score":1,"score_date":"2026-04-10","rank":25},{"id":"fm2-0051","name":"FM2","tag":"0051","pen":"Pen 4","score":2,"score_date":"2026-04-10","rank":25},{"id":"lara","name":"Lara","tag":"023","pen":"Tree Fort","score":1,"score_date":"2026-04-10","rank":25},{"id":"lara-2026-ram-twin","name":"Lara's 2026 Ram Twin","tag":"","pen":"Tree Fort","score":null,"score_date":"","rank":25},{"id":"merrie","name":"Merrieweather","tag":"00016","pen":"Pen 3","score":1,"score_date":"2026-03-09","rank":25},{"id":"nori","name":"Nori","tag":"0029","pen":"Pen 3","score":2,"score_date":"2026-04-09","rank":25},{"id":"oav-2222","name":"OAV 2222","tag":"2222","pen":"Pen 5","score":2,"score_date":"2026-04-11","rank":25},{"id":"orange-tag-00110","name":"Orange Tag Ram","tag":"00110","pen":"Pen 1","score":1,"score_date":"2026-04-01","rank":25},{"id":"rocky","name":"Rocky","tag":"140","pen":"Tree Fort","score":1,"score_date":"2026-02-16","rank":25},{"id":"samson-daughter-p4","name":"Samson Daughter (Pen 4)","tag":"","pen":"Pen 4","score":null,"score_date":"","rank":25},{"id":"serendipity","name":"Serendipity","tag":"MC157","pen":"Pen 4","score":1,"score_date":"2026-04-10","rank":25},{"id":"sm-white-ewe-p4","name":"Small White Ewe (Pen 4)","tag":"MC189","pen":"Pen 4","score":1,"score_date":"2026-04-10","rank":25},{"id":"tag-00113-ewe-p1","name":"00113","tag":"00113","pen":"Pen 1","score":null,"score_date":"","rank":25},{"id":"tag-0033-hair-ewe","name":"Hair Ewe 0033","tag":"0033","pen":"Pen 1","score":1,"score_date":"2026-04-01","rank":25},{"id":"tag-0035-baby-ewe","name":"0035 Baby Ram","tag":"MC-2617","pen":"Pen 2","score":2,"score_date":"2026-04-11","rank":25},{"id":"tag-0035-white-ewe","name":"White Ewe 0035","tag":"0035","pen":"Tree Fort","score":2,"score_date":"2026-04-11","rank":25},{"id":"tag-0044-wool-ewe","name":"Wool Ewe 0044","tag":"0044","pen":"Pen 1","score":1,"score_date":"2026-04-30","rank":25},{"id":"tag-0053-baby-ewe","name":"0053's Baby Ewe","tag":"","pen":"Pen 2","score":1,"score_date":"2026-04-09","rank":25},{"id":"tag-0053-ewe","name":"0053","tag":"0053","pen":"Pen 1","score":1,"score_date":"2026-04-09","rank":25},{"id":"tag-02-ewe-p5","name":"Ewe Tag 02","tag":"02","pen":"Pen 5","score":2,"score_date":"2026-04-11","rank":25},{"id":"tag-114-black-ram-lamb","name":"114 Black Ram Lamb","tag":"","pen":"Pen 1","score":null,"score_date":"","rank":25},{"id":"tag-114-fawn-wool","name":"Fawn Wool Ewe 114","tag":"114","pen":"Pen 1","score":2,"score_date":"2026-03-13","rank":25},{"id":"tag-24-0003-tf","name":"Ewe 24/0003 (Tree Fort)","tag":"24/0003","pen":"Tree Fort","score":null,"score_date":"","rank":25},{"id":"tag-31-ewe-p5","name":"Ewe Tag 31","tag":"31","pen":"Pen 5","score":2,"score_date":"2026-04-11","rank":25},{"id":"windlestone-0055","name":"Windlestone Fat Tail 0055","tag":"0055","pen":"Pen 6","score":2,"score_date":"2026-03-13","rank":25},{"id":"windlestone-0056","name":"Windlestone Fat Tail 0056","tag":"0056","pen":"Pen 6","score":2,"score_date":"2026-03-13","rank":25},{"id":"windlestone-2139","name":"Windlestone Fat Tail 2139","tag":"2139","pen":"Pen 6","score":2,"score_date":"2026-03-13","rank":25}];
+const BUILT = "2026-08-19";
+const PENS = ["All","Triage","Pen 1","Pen 2","Pen 3","Pen 4","Pen 5","Pen 6","Tree Fort","Goose Pen","No pen"];
+const WORMERS = ["prohibit","ivermectin","cydectin","valbazen","safe-guard"];
+const VAXES = ["cdt"];
+const ACTIONS = ["trim","shear","blood","wean"];
+const KEY = "mc-chute-session";
+
+let state = load();
+function load(){
+  try{ const s = JSON.parse(localStorage.getItem(KEY)); if(s && s.entries) return s; }catch(e){}
+  return {date: new Date().toISOString().slice(0,10), entries:{}};
+}
+function persist(){ localStorage.setItem(KEY, JSON.stringify(state)); }
+
+let tab = "Triage", current = null, draft = null;
+
+function famChip(a){
+  if(!a.score) return '<span class="chip na">—</span>';
+  const hot = a.score >= 4 ? " hot" : "";
+  return `<span class="chip f${a.score}${hot}">F${a.score}</span>`;
+}
+function visible(){
+  let rows = FLOCK.slice();
+  if(tab === "Triage") rows.sort((x,y)=> (y.rank||0)-(x.rank||0));
+  else if(tab === "No pen") rows = rows.filter(a=>!a.pen);
+  else if(tab !== "All") rows = rows.filter(a=>a.pen === tab);
+  return rows;
+}
+function render(){
+  document.getElementById("tabs").innerHTML = PENS.map(p=>
+    `<button class="${p===tab?"on":""}" onclick="setTab('${p}')">${p}</button>`).join("");
+  const rows = visible();
+  document.getElementById("list").innerHTML = rows.map(a=>{
+    const done = state.entries[a.id] ? "done" : "";
+    const tick = state.entries[a.id] ? "✓" : "";
+    return `<button class="animal ${done}" onclick="open_(${JSON.stringify(a.id)})">
+      ${famChip(a)}
+      <span class="who"><b>${a.name}</b>
+        <span>${a.tag?("tag "+a.tag+" · "):""}${a.pen||"no pen"}${a.score_date?(" · F"+a.score+" on "+a.score_date):""}</span>
+      </span><span class="tick">${tick}</span></button>`;
+  }).join("");
+  const n = Object.keys(state.entries).length;
+  document.getElementById("prog").textContent = `${state.date} · ${n} recorded · data ${BUILT}`;
+}
+function setTab(p){ tab = p; render(); }
+
+function open_(id){
+  current = FLOCK.find(a=>a.id===id);
+  draft = Object.assign({f:null,w:"",wormer:null,vax:null,acts:[],fec:"",note:""},
+                        state.entries[id]||{});
+  document.getElementById("shName").textContent = current.name;
+  document.getElementById("shSub").textContent =
+    `${current.id}${current.tag?(" · tag "+current.tag):""} · ${current.pen||"no pen"}`;
+  const w = document.getElementById("shWarn");
+  if(current.score>=4){ w.style.display="block";
+    w.textContent = `Last FAMACHA ${current.score} (${current.score_date}) — check first, sample before dosing.`;
+  } else w.style.display="none";
+  paintSheet();
+  document.getElementById("sheet").classList.add("open");
+}
+function paintSheet(){
+  document.querySelectorAll("#fBtns button").forEach(b=>
+    b.classList.toggle("sel", +b.dataset.f === draft.f));
+  document.getElementById("wIn").value = draft.w;
+  document.getElementById("fecIn").value = draft.fec;
+  document.getElementById("noteIn").value = draft.note;
+  document.getElementById("wormChips").innerHTML = WORMERS.map(d=>
+    `<button class="${draft.wormer===d?"sel":""}" onclick="pick('wormer','${d}')">${d}</button>`).join("");
+  document.getElementById("vaxChips").innerHTML = VAXES.map(d=>
+    `<button class="${draft.vax===d?"sel":""}" onclick="pick('vax','${d}')">${d.toUpperCase()}</button>`).join("");
+  document.getElementById("actChips").innerHTML = ACTIONS.map(d=>
+    `<button class="${draft.acts.includes(d)?"sel":""}" onclick="toggleAct('${d}')">${d}</button>`).join("");
+}
+function pick(k,v){ draft[k] = draft[k]===v ? null : v; paintSheet(); }
+function toggleAct(d){
+  draft.acts = draft.acts.includes(d) ? draft.acts.filter(x=>x!==d) : draft.acts.concat(d);
+  paintSheet();
+}
+document.getElementById("fBtns").addEventListener("click", e=>{
+  const f = e.target.dataset.f; if(!f) return;
+  draft.f = draft.f === +f ? null : +f; paintSheet();
+});
+document.getElementById("save").onclick = ()=>{
+  draft.w = document.getElementById("wIn").value.trim();
+  draft.fec = document.getElementById("fecIn").value.trim();
+  draft.note = document.getElementById("noteIn").value.trim();
+  const empty = draft.f==null && !draft.w && !draft.wormer && !draft.vax
+                && !draft.acts.length && !draft.fec && !draft.note;
+  if(empty){ delete state.entries[current.id]; }
+  else state.entries[current.id] = draft;
+  persist(); close_(); render();
+};
+document.getElementById("clearEntry").onclick = ()=>{
+  delete state.entries[current.id]; persist(); close_(); render();
+};
+document.getElementById("cancel").onclick = close_;
+function close_(){ document.getElementById("sheet").classList.remove("open"); }
+
+function lineFor(id, e){
+  const parts = [id];
+  if(e.f!=null) parts.push("f="+e.f);
+  if(e.w) parts.push("w="+e.w);
+  if(e.wormer) parts.push("wormer="+e.wormer);
+  if(e.vax) parts.push("vax="+e.vax);
+  if(e.fec) parts.push("fec="+e.fec);
+  (e.acts||[]).forEach(a=>parts.push(a));
+  if(e.note) parts.push('note="'+e.note.replace(/\\/g,"\\\\").replace(/"/g,'\\"')+'"');
+  return parts.join(" ");
+}
+function exportText(){
+  const head = `# chute session ${state.date} — exported from chute.html (data ${BUILT})`;
+  const lines = Object.entries(state.entries).map(([id,e])=>lineFor(id,e));
+  return [head].concat(lines).join("\n");
+}
+document.getElementById("exportBtn").onclick = ()=>{
+  document.getElementById("exportText").value = exportText();
+  document.getElementById("exportBox").classList.add("open");
+};
+document.getElementById("closeExport").onclick = ()=>
+  document.getElementById("exportBox").classList.remove("open");
+document.getElementById("copyBtn").onclick = async ()=>{
+  const t = document.getElementById("exportText");
+  t.select(); t.setSelectionRange(0, 999999);
+  try{ await navigator.clipboard.writeText(t.value); }catch(e){ document.execCommand("copy"); }
+};
+document.getElementById("shareBtn").onclick = async ()=>{
+  const text = exportText();
+  if(navigator.share){ try{ await navigator.share({text, title:"Chute session"}); }catch(e){} }
+  else document.getElementById("copyBtn").click();
+};
+document.getElementById("resetBtn").onclick = ()=>{
+  const n = Object.keys(state.entries).length;
+  if(n && !confirm(`Start a new session? ${n} recorded entries will be cleared. Export first!`)) return;
+  state = {date: new Date().toISOString().slice(0,10), entries:{}};
+  persist(); render();
+};
+render();
+</script>
+</body>
+</html>
