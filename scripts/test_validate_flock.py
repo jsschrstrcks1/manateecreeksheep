@@ -413,6 +413,75 @@ def h2_prior_tests():
     return fails
 
 
+def coat_shed_tests():
+    """Pins for the MCS-19 coat/shed trait log: coat classification, append-only shed writer,
+    score-range validation, peak-window selection, and the never-false-zero gap rule."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _cs_spec = importlib.util.spec_from_file_location("cs", os.path.join(_here, "coat_shed.py"))
+    cs = importlib.util.module_from_spec(_cs_spec)
+    _cs_spec.loader.exec_module(cs)
+
+    # coat_classify — intermediate wording wins over a bare wool/hair substring
+    check("classify intermediate-to-wool-leaning", cs.coat_classify("intermediate-to-wool-leaning")[0] == "intermediate")
+    check("classify hair", cs.coat_classify("hair (per owner)")[0] == "hair")
+    check("classify wool", cs.coat_classify("heavy wool fleece")[0] == "wool")
+    check("classify hair+wool -> intermediate", cs.coat_classify("smooth hair with wool patches")[0] == "intermediate")
+    check("classify empty -> unknown", cs.coat_classify("")[0] == "unknown")
+
+    # record_shed_score append-only, drops None
+    s = {"id": "t"}
+    cs.record_shed_score(s, "2026-07-15", 4, observer="ken")
+    cs.record_shed_score(s, "2026-08-01", 5)
+    check("record_shed_score appends", len(s["shed_scores"]) == 2 and s["shed_scores"][0]["score"] == 4)
+    check("record_shed_score drops None", "notes" not in s["shed_scores"][0])
+
+    # validate_shed — range, type, bool, date, unknown key
+    bad = {"id": "b", "shed_scores": [
+        {"date": "2026-07-01", "score": 6},          # over range
+        {"date": "2026-07-01", "score": -1},         # under range
+        {"date": "2026-07-01", "score": "3"},        # non-numeric
+        {"date": "2026-07-01", "score": True},       # bool
+        {"date": "bad", "score": 3},                 # bad date
+        {"date": "2026-07-01", "score": 3, "x": 1},  # unknown key
+    ]}
+    iss = cs.validate_shed(bad)
+    check("validator flags over-range score", any("score 6" in i for i in iss))
+    check("validator flags bool score", any("score True" in i for i in iss))
+    check("validator flags bad date", any("unparseable date" in i for i in iss))
+    check("validator flags unknown key", any("unknown key" in i for i in iss))
+    check("clean shed score validates", cs.validate_shed(s) == [])
+
+    # _latest_peak_score: summer counts, April doesn't; None when no peak score
+    peaky = {"shed_scores": [{"date": "2026-04-10", "score": 1}, {"date": "2026-07-20", "score": 4},
+                             {"date": "2026-08-15", "score": 5}]}
+    lp = cs._latest_peak_score(peaky)
+    check("latest peak score is the Aug one", lp is not None and lp[1] == 5)
+    check("no peak score -> None (not 0)", cs._latest_peak_score({"shed_scores": [{"date": "2026-04-10", "score": 1}]}) is None)
+
+    # selection_view: poor-shedder flag, wool excluded, gap never scored 0
+    db = {"sheep": [
+        {"id": "poor", "status": "alive", "coat_observed": "hair",
+         "shed_scores": [{"date": "2026-07-10", "score": 1}]},
+        {"id": "good", "status": "alive", "coat_observed": "hair",
+         "shed_scores": [{"date": "2026-07-10", "score": 5}]},
+        {"id": "woolly", "status": "alive", "coat_observed": "heavy wool"},
+        {"id": "nodata", "status": "alive", "coat_observed": "hair"},
+    ]}
+    view = cs.selection_view(db)
+    ids = {r["id"]: r for r in view}
+    check("wool animal excluded from shedding view", "woolly" not in ids)
+    check("poor shedder flagged", ids["poor"]["flag"] == "POOR SHEDDER")
+    check("good shedder not flagged", ids["good"].get("flag") is None)
+    check("no-data animal is a gap, not score 0", ids["nodata"]["peak_score"] is None)
+    return fails
+
+
 def health_event_tests():
     """Pins for the MCS-26 typed health-event log: append-only writer, schema/vocabulary
     validation, free-text candidate detection (health-context only), and the unified timeline."""
@@ -654,6 +723,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-19 coat/shed-trait pins:")
+    failures += coat_shed_tests()
     print("\nMCS-26 health-event-log pins:")
     failures += health_event_tests()
     print("\nMCS-7 withdrawal-clearance pins:")
