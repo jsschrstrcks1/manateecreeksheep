@@ -38,13 +38,17 @@ Usage:
 import argparse
 import datetime
 import json
+import os
 import re
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
-DB_PATH = REPO_ROOT / "data" / "flock_database.json"
-LOG_PATH = REPO_ROOT / "data" / "health_events.jsonl"
+DB_PATH = Path(os.environ.get("FLOCK_DB_PATH") or REPO_ROOT / "data" / "flock_database.json")
+# MCS-35: overridable so tests and probes NEVER touch the production ledger — a live
+# withdrawal-computation probe reached the real log on 2026-08-18 and had to be scrubbed
+# pre-commit (UL-106 class). Production default unchanged.
+LOG_PATH = Path(os.environ.get("HEALTH_LOG_PATH") or REPO_ROOT / "data" / "health_events.jsonl")
 
 VALID_TYPES = ["famacha", "treatment", "planned_treatment", "vaccination", "death",
                "birth", "injury", "illness", "observation", "weight", "note"]
@@ -108,70 +112,91 @@ def sheep_ids():
     return {s["id"] for s in db.get("sheep", [])}
 
 
-def cmd_add(args):
+class RefusedError(ValueError):
+    """A validation refusal — importers catch it; the CLI exits with its message."""
+
+
+def append_event(*, animal, type, date, details, source, recorded_by,
+                 date_precision="exact", score=None, drug=None, dose=None,
+                 withdrawal_until=None, fec_epg=None, event_id=None, quiet=False):
+    """Validate + append one event. Importable core (MCS-6 batch sessions use this);
+    the CLI's `add` is a thin wrapper. Raises RefusedError, never sys.exit."""
     ids = sheep_ids()
-    if args.animal not in ids:
-        sys.exit(f"REFUSED: animal_id '{args.animal}' not in flock DB. The log never invents "
-                 f"animals — check the id (case-sensitive) or add the animal to the DB first.")
-    if args.type not in VALID_TYPES:
-        sys.exit(f"REFUSED: type '{args.type}' not in {VALID_TYPES}")
-    if not DATE_RE.match(args.date):
-        sys.exit(f"REFUSED: date '{args.date}' must be YYYY-MM-DD or YYYY-MM-DD/YYYY-MM-DD "
-                 f"(a range is the honest form when only a window is known)")
-    if args.date_precision not in VALID_PRECISION:
-        sys.exit(f"REFUSED: date_precision '{args.date_precision}' not in {VALID_PRECISION}")
-    if "/" in args.date and args.date_precision != "range":
-        sys.exit("REFUSED: a date window requires --date-precision range")
-    if args.score is not None and args.score not in (1, 2, 3, 4, 5):
-        sys.exit("REFUSED: FAMACHA score must be 1-5")
+    if animal not in ids:
+        raise RefusedError(f"REFUSED: animal_id '{animal}' not in flock DB. The log never invents "
+                           f"animals — check the id (case-sensitive) or add the animal to the DB first.")
+    if type not in VALID_TYPES:
+        raise RefusedError(f"REFUSED: type '{type}' not in {VALID_TYPES}")
+    if not DATE_RE.match(date):
+        raise RefusedError(f"REFUSED: date '{date}' must be YYYY-MM-DD or YYYY-MM-DD/YYYY-MM-DD "
+                           f"(a range is the honest form when only a window is known)")
+    if date_precision not in VALID_PRECISION:
+        raise RefusedError(f"REFUSED: date_precision '{date_precision}' not in {VALID_PRECISION}")
+    if "/" in date and date_precision != "range":
+        raise RefusedError("REFUSED: a date window requires date_precision=range")
+    if score is not None and score not in (1, 2, 3, 4, 5):
+        raise RefusedError("REFUSED: FAMACHA score must be 1-5")
 
     events = load_events()
     existing = {e.get("event_id") for e in events}
-    event_id = args.event_id
     if not event_id:
-        base = f"{args.animal}-{args.date.split('/')[0]}-{args.type}"
+        base = f"{animal}-{date.split('/')[0]}-{type}"
         event_id, n = base, 2
         while event_id in existing:
             event_id, n = f"{base}-{n}", n + 1
     elif event_id in existing:
-        sys.exit(f"REFUSED: event_id '{event_id}' already exists — the log is append-only "
-                 f"and ids never repeat.")
+        raise RefusedError(f"REFUSED: event_id '{event_id}' already exists — the log is "
+                           f"append-only and ids never repeat.")
 
     e = {
         "event_id": event_id,
-        "animal_id": args.animal,
-        "type": args.type,
-        "date": args.date,
-        "date_precision": args.date_precision,
-        "details": args.details,
-        "source": args.source,
-        "recorded_by": args.recorded_by,
+        "animal_id": animal,
+        "type": type,
+        "date": date,
+        "date_precision": date_precision,
+        "details": details,
+        "source": source,
+        "recorded_by": recorded_by,
         "recorded_at": datetime.datetime.now(datetime.timezone.utc)
                        .strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
-    for opt in ("score", "drug", "dose", "withdrawal_until", "fec_epg"):
-        v = getattr(args, opt.replace("-", "_"), None)
+    for opt, v in (("score", score), ("drug", drug), ("dose", dose),
+                   ("withdrawal_until", withdrawal_until), ("fec_epg", fec_epg)):
         if v is not None:
             e[opt] = v
 
     # MCS-7: a real treatment with a known drug gets a computed slaughter-withdrawal
     # lock unless the caller supplied one. Unknown drug = loud CHECK LABEL, never a guess.
-    if args.type == "treatment" and args.drug and "withdrawal_until" not in e:
-        days, basis, note = lookup_withdrawal(args.drug)
+    if type == "treatment" and drug and "withdrawal_until" not in e:
+        days, basis, note = lookup_withdrawal(drug)
         if days is not None:
-            treat_end = args.date.split("/")[-1]
+            treat_end = date.split("/")[-1]
             end = datetime.date.fromisoformat(treat_end) + datetime.timedelta(days=days)
             e["withdrawal_until"] = end.isoformat()
             e["withdrawal_basis"] = f"{days}d meat — {basis}"
-            print(f"withdrawal lock: not safe for slaughter until {e['withdrawal_until']} "
-                  f"({days}d, {basis})" + (f" | {note}" if note else ""))
-        else:
+            if not quiet:
+                print(f"withdrawal lock: not safe for slaughter until {e['withdrawal_until']} "
+                      f"({days}d, {basis})" + (f" | {note}" if note else ""))
+        elif not quiet:
             print(f"⚠ CHECK LABEL: {basis} — no withdrawal computed. Read the bottle in hand "
                   f"and re-add with --withdrawal-until, or extend data/flock_database.json "
                   f"drug_reference (label/FARAD-sourced only, never a guess).")
     with open(LOG_PATH, "a") as f:
         f.write(json.dumps(e, sort_keys=True) + "\n")
-    print(f"appended {event_id}")
+    if not quiet:
+        print(f"appended {event_id}")
+    return e
+
+
+def cmd_add(args):
+    try:
+        append_event(animal=args.animal, type=args.type, date=args.date,
+                     details=args.details, source=args.source, recorded_by=args.recorded_by,
+                     date_precision=args.date_precision, score=args.score, drug=args.drug,
+                     dose=args.dose, withdrawal_until=args.withdrawal_until,
+                     fec_epg=args.fec_epg, event_id=args.event_id)
+    except RefusedError as ex:
+        sys.exit(str(ex))
 
 
 def cmd_list(args):

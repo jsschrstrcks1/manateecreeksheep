@@ -194,6 +194,34 @@ check("both notes survive verbatim",
 check("alias recorded on canonical entry", tdb["pens"]["tree_fort"]["aliases"], ["Chicken Coop"])
 check("alias migration idempotent", mig_pa.migrate(tdb)["scalar"], 0)
 
+# --- MCS-6 batch session grammar + MCS-35 isolation ------------------------------------
+wf = _load("wf", "work_flock.py")
+a, plan = wf.parse_line('ewe1 f=3 w=82 wormer=prohibit vax=cdt fec=450 trim note="limp better"')
+check("line parses all keys + flag", (a, len(plan)), ("ewe1", 7))
+check("famacha kwarg typed", any(p["type"] == "famacha" and p["score"] == 3 for p in plan), True)
+check("fec rides observation", any(p.get("fec_epg") == 450 for p in plan), True)
+check("skip yields empty plan", wf.parse_line("ewe1 skip"), ("ewe1", []))
+check("blank line yields nothing", wf.parse_line("   "), (None, []))
+try:
+    wf.parse_line("ewe1 sheared")   # not a known flag ('shear' is)
+    check("unknown token raises", False, True)
+except ValueError:
+    check("unknown token raises", True, True)
+
+import subprocess
+import tempfile
+with tempfile.TemporaryDirectory() as td:
+    sess = os.path.join(td, "s.txt")
+    log = os.path.join(td, "log.jsonl")
+    open(sess, "w").write("lara f=1\n")
+    env = dict(os.environ, HEALTH_LOG_PATH=log)
+    r = subprocess.run([sys.executable, os.path.join(_here, "work_flock.py"),
+                        "--from-file", sess, "--date", "2026-08-19", "--recorded-by", "test"],
+                       capture_output=True, text=True, env=env)
+    check("isolated session exits 0", r.returncode, 0)
+    check("event landed in the ISOLATED log (MCS-35)",
+          os.path.exists(log) and "lara-2026-08-19-famacha" in open(log).read(), True)
+
 # --- verdict -------------------------------------------------------------------------
 if FAILURES:
     print(f"\n{len(FAILURES)} FAILURE(S): {FAILURES}")
