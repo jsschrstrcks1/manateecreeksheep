@@ -413,6 +413,61 @@ def h2_prior_tests():
     return fails
 
 
+def scrapie_tests():
+    """Pins for MCS-15 PRNP scrapie genotype: codon-171 normalization, susceptibility
+    classification, Mendelian mating prediction, and schema validation."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _sg_spec = importlib.util.spec_from_file_location("sg", os.path.join(_here, "scrapie_genotype.py"))
+    sg = importlib.util.module_from_spec(_sg_spec)
+    _sg_spec.loader.exec_module(sg)
+
+    # normalization is order/separator-insensitive
+    check("norm QR == RQ == R/Q", sg._norm171("QR") == sg._norm171("RQ") == sg._norm171("R/Q") == ("Q", "R"))
+    check("norm lowercase", sg._norm171("rr") == ("R", "R"))
+    check("norm bad -> None", sg._norm171("XZ") is None and sg._norm171("R") is None)
+
+    # classification (settled science on R/Q; H/K flagged not guessed)
+    check("RR resistant", sg.classify_171("RR") == "resistant")
+    check("QQ susceptible", sg.classify_171("QQ") == "susceptible")
+    check("QR reduced", sg.classify_171("QR") == "reduced_susceptibility" and sg.classify_171("RQ") == "reduced_susceptibility")
+    check("uncommon allele flagged not guessed", sg.classify_171("HR") == "uncommon_allele_consult_lab")
+    check("bad -> unknown", sg.classify_171("nonsense") == "unknown")
+
+    # Mendelian prediction — Punnett squares
+    rrqq = sg.cross_171("RR", "QQ")
+    check("RR x QQ -> all QR", rrqq["offspring_genotypes"] == {"QR": 1.0})
+    qrqr = sg.cross_171("QR", "QR")
+    check("QR x QR -> 25/50/25", qrqr["offspring_genotypes"] == {"QQ": 0.25, "QR": 0.5, "RR": 0.25})
+    check("QR x QR class dist", qrqr["offspring_classes"]["susceptible"] == 0.25
+          and qrqr["offspring_classes"]["resistant"] == 0.25)
+    check("RR x RR -> all resistant", sg.cross_171("RR", "RR")["offspring_classes"] == {"resistant": 1.0})
+    check("cross with bad genotype -> None", sg.cross_171("RR", "ZZ") is None)
+
+    # validation
+    bad = {"id": "b", "scrapie_genotype": {"codon_171": "ZZ", "codon_136": "AB", "codon_154": "RH",
+                                           "date": "bad", "junk": 1}}
+    iss = sg.validate_genotype(bad)
+    check("validator flags bad 171", any("codon_171" in i for i in iss))
+    check("validator flags bad 136", any("codon_136" in i for i in iss))
+    check("validator flags bad date", any("unparseable" in i for i in iss))
+    check("validator flags unknown key", any("unknown key" in i for i in iss))
+    check("no genotype -> no issues", sg.validate_genotype({"id": "x"}) == [])
+    ok = {"id": "g", "scrapie_genotype": {"codon_171": "QR", "codon_136": "AA", "codon_154": "RR"}}
+    check("valid genotype validates clean", sg.validate_genotype(ok) == [])
+
+    # live: census honest (no genotypes yet -> all unknown)
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    cen = sg.flock_census(live)
+    check("live census all unknown (no lab data yet)", all(r["class"] == "unknown" for r in cen))
+    return fails
+
+
 def quantity_tests():
     """Pins for the MCS-12 quantity shape: parse, measure classification, lossless canonical
     conversion, multi-quantity extraction, unit conversion, and real-data dose extraction."""
@@ -846,6 +901,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-15 scrapie-genotype pins:")
+    failures += scrapie_tests()
     print("\nMCS-12 quantity-shape pins:")
     failures += quantity_tests()
     print("\nMCS-20 fat-tail-lineage pins:")
