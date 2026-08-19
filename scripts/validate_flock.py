@@ -372,6 +372,10 @@ def validate_health_events(sheep_list):
             seen_ids.add(e["event_id"])
         if e.get("animal_id") and e["animal_id"] not in sheep_ids:
             issues.append(f"ERROR [health_events:{n}]: animal_id '{e['animal_id']}' not in flock DB")
+        if "quantity" in e:
+            from lib.quantity import validate_quantity
+            for p in validate_quantity(e["quantity"]):
+                issues.append(f"ERROR [health_events:{n}]: bad quantity — {p}")
     return issues
 
 

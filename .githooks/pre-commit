@@ -7,4 +7,31 @@ REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo .)"
 if [ -x "$REPO_ROOT/.githooks/check-required-hooks.sh" ]; then
   "$REPO_ROOT/.githooks/check-required-hooks.sh" || exit 1
 fi
+# MCS upgrade-ledger guard (mcs-ledger-check-parity, 2026-08-18) — duplicate MCS ids,
+# unsanctioned status states, dangling tracked pointers (three states: OK/MISMATCH/
+# UNAVAILABLE — a standalone clone reports UNVERIFIED, never a false clean). The ledger
+# vanished once via a stranded branch; this also blocks a commit that deletes it.
+# Kill-switch (operator debugging only): MCS_LEDGER_GUARD=0
+if [ "${MCS_LEDGER_GUARD:-1}" != "0" ] && command -v python3 >/dev/null 2>&1 \
+   && [ -f "$REPO_ROOT/scripts/ledger_check.py" ]; then
+  if git diff --cached --name-only | grep -q "^docs/UPGRADE-LEDGER.md$" \
+     || ! git ls-files --error-unmatch docs/UPGRADE-LEDGER.md >/dev/null 2>&1; then
+    python3 "$REPO_ROOT/scripts/ledger_check.py" || exit 1
+  fi
+fi
+
+# Flock data gate (2026-08-18) — a commit that changes the flock DB or the health-event
+# log must pass validate_flock (0 errors) in the same commit. Warnings do not block;
+# errors (pen drift, famacha legacy keys, bad health events, non-canonical pens) do.
+# Kill-switch (operator debugging only): FLOCK_VALIDATE_GUARD=0
+if [ "${FLOCK_VALIDATE_GUARD:-1}" != "0" ] && command -v python3 >/dev/null 2>&1; then
+  if git diff --cached --name-only | grep -qE "^data/(flock_database\.json|health_events\.jsonl)$"; then
+    python3 "$REPO_ROOT/scripts/validate_flock.py" >/dev/null 2>&1 || {
+      echo "pre-commit: validate_flock.py reports ERRORS — fix before committing flock data." >&2
+      python3 "$REPO_ROOT/scripts/validate_flock.py" 2>&1 | grep "ERROR" | head -10 >&2
+      exit 1
+    }
+  fi
+fi
+
 exit 0

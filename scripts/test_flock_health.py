@@ -233,6 +233,34 @@ check("roster is triage-sorted (worst first)",
 check("no deceased animal baked in",
       "lara-2026-lamb" not in {r["id"] for r in roster}, True)
 
+# --- MCS-12 quantity shape --------------------------------------------------------------
+q = _load("q", os.path.join("lib", "quantity.py"))
+check("weight quantity builds", q.make_quantity("weight", 82.5),
+      {"measure": "weight", "value": 82.5, "unit": "lbs"})
+check("famacha 0 refused", bool_raises := (lambda: q.make_quantity("famacha", 0)) and True, True)
+try:
+    q.make_quantity("famacha", 0); check("famacha 0 raises", False, True)
+except ValueError:
+    check("famacha 0 raises", True, True)
+try:
+    q.make_quantity("vibes", 10); check("unknown measure raises", False, True)
+except ValueError:
+    check("unknown measure raises", True, True)
+check("negative fec invalid via validate", q.validate_quantity({"measure": "fec", "value": -5, "unit": "epg"}) != [], True)
+check("legacy famacha event normalizes to quantity",
+      q.event_quantities({"type": "famacha", "score": 4}),
+      [{"measure": "famacha", "value": 4, "unit": "score"}])
+check("fec_epg field normalizes",
+      q.event_quantities({"type": "observation", "fec_epg": 900}),
+      [{"measure": "fec", "value": 900, "unit": "epg"}])
+sers = q.quantity_series(
+    [{"animal_id": "a", "date": "2026-08-01", "type": "weight",
+      "quantity": {"measure": "weight", "value": 70, "unit": "lbs"}},
+     {"animal_id": "a", "date": "2026-08-18", "type": "famacha", "score": 2},
+     {"animal_id": "b", "date": "2026-08-18", "type": "famacha", "score": 5}],
+    "a", "famacha")
+check("series filters by animal+measure", sers, [("2026-08-18", 2)])
+
 # --- verdict -------------------------------------------------------------------------
 if FAILURES:
     print(f"\n{len(FAILURES)} FAILURE(S): {FAILURES}")

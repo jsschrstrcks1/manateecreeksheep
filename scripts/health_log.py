@@ -165,6 +165,21 @@ def append_event(*, animal, type, date, details, source, recorded_by,
         if v is not None:
             e[opt] = v
 
+    # MCS-12: measurements land as the uniform quantity shape alongside the legacy
+    # fields (which stay for existing consumers; event_quantities() normalizes both).
+    try:
+        from lib.quantity import make_quantity
+        if type == "weight":
+            m = re.search(r"(-?\d+(?:\.\d+)?)\s*(lbs|kg)?", details or "")
+            if m:
+                e["quantity"] = make_quantity("weight", float(m.group(1)), m.group(2) or "lbs")
+        elif type == "famacha" and score is not None:
+            e["quantity"] = make_quantity("famacha", score)
+        elif fec_epg is not None:
+            e["quantity"] = make_quantity("fec", fec_epg)
+    except (ValueError, ImportError) as ex:
+        raise RefusedError(f"REFUSED: quantity invalid — {ex}")
+
     # MCS-7: a real treatment with a known drug gets a computed slaughter-withdrawal
     # lock unless the caller supplied one. Unknown drug = loud CHECK LABEL, never a guess.
     if type == "treatment" and drug and "withdrawal_until" not in e:
