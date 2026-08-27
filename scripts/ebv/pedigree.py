@@ -55,6 +55,24 @@ def load_pedigree(db_path: str = "data/flock_database.json") -> dict:
     return ped
 
 
+def _generation_depth(x, ped, memo, _active=frozenset()):
+    """Topological generation depth: a founder (no known parents) is 0, and every animal is
+    1 + the deeper parent. DOB-independent, so it is correct even when DOB is missing. Cycle-safe:
+    a node reached again on the current path returns 0 (find_cycles reports the cycle separately),
+    which keeps this terminating without inventing a depth."""
+    if x is None or x not in ped:
+        return -1                       # an unknown/absent parent sits below any founder
+    if x in memo:
+        return memo[x]
+    if x in _active:
+        return 0                        # cycle — do not recurse; reported by find_cycles
+    sub = _active | {x}
+    d = 1 + max(_generation_depth(ped[x].get("sire"), ped, memo, sub),
+                _generation_depth(ped[x].get("dam"), ped, memo, sub))
+    memo[x] = d
+    return d
+
+
 def relationship(a: str, b: str, ped: dict, memo: dict | None = None,
                  _active: frozenset | None = None) -> float:
     """Numerator relationship coefficient A(a, b).
@@ -97,12 +115,15 @@ def relationship(a: str, b: str, ped: dict, memo: dict | None = None,
             r = 1.0 + f
         memo[key] = r
         return r
-    # Cross-relationship: recurse via the older animal's parents.
-    # Order by DOB if available so the younger animal expands.
-    def dob_of(x):
-        d = ped.get(x, {}).get("dob") or ""
-        return d
-    if dob_of(a) > dob_of(b):
+    # Cross-relationship: the tabular recurrence must expand the YOUNGER animal (the descendant),
+    # or an ancestral path is truncated to 0 and A/F come out wrong. "Younger" must be decided
+    # TOPOLOGICALLY (generation depth from the pedigree graph), never by DOB string compare: a
+    # blank DOB sorts before every real date, so a missing-DOB animal was always treated as the
+    # ancestor — wrong for the 111 of 276 animals with no DOB, silently under-reporting inbreeding
+    # (little-daisy read F=0 when it is F≈0.45). Depth is DOB-independent and correct: a descendant
+    # always has strictly greater depth than any of its ancestors.
+    rank = memo.setdefault("__rank__", {})
+    if _generation_depth(a, ped, rank) >= _generation_depth(b, ped, rank):
         younger, older = a, b
     else:
         younger, older = b, a

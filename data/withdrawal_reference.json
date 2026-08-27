@@ -60,6 +60,102 @@
       "confirmed_by": null, "confirmed_date": null
     },
     {
+      "drug_key": "moxidectin", "generic": "moxidectin", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Common sheep dewormer (Cydectin). Extra-label; long interval — vet/FARAD required.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "doramectin", "generic": "doramectin", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Macrocyclic-lactone dewormer (Dectomax). Extra-label in sheep — vet/FARAD required.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "levamisole", "generic": "levamisole", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Imidazothiazole dewormer (Prohibit/LevaMed). Extra-label — vet/FARAD required.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "albendazole", "generic": "albendazole", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Benzimidazole dewormer (Valbazen). NOT in early gestation. Extra-label — vet/FARAD.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "oxfendazole", "generic": "oxfendazole", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Benzimidazole dewormer. Extra-label in sheep — vet/FARAD required.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "safe-guard", "generic": "fenbendazole (Safe-Guard brand)", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Brand of fenbendazole — recognized so a brand-name entry is not missed.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "safeguard", "generic": "fenbendazole (SafeGuard brand)", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Brand of fenbendazole (no-hyphen spelling).",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "panacur", "generic": "fenbendazole (Panacur brand)", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Brand of fenbendazole.", "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "valbazen", "generic": "albendazole (Valbazen brand)", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Brand of albendazole.", "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "cydectin", "generic": "moxidectin (Cydectin brand)", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Brand of moxidectin.", "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "prohibit", "generic": "levamisole (Prohibit brand)", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Brand of levamisole.", "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "ivomec", "generic": "ivermectin (Ivomec brand)", "class": "anthelmintic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Brand of ivermectin.", "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "penicillin", "generic": "penicillin", "class": "antibiotic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Common injectable antibiotic; extra-label in sheep carries an extended interval — vet/FARAD.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "banamine", "generic": "flunixin meglumine (Banamine)", "class": "other",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "NSAID; extra-label in sheep, notable residue concern — vet/FARAD required.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "flunixin", "generic": "flunixin meglumine", "class": "other",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "NSAID (generic of Banamine).", "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "draxxin", "generic": "tulathromycin (Draxxin)", "class": "antibiotic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Long-acting antibiotic; extra-label — vet/FARAD required.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
+      "drug_key": "excede", "generic": "ceftiofur (Excede/Naxcel)", "class": "antibiotic",
+      "withdrawal_days_meat": null, "withdrawal_days_milk": null, "status": "NEEDS_VET_CONFIRMATION",
+      "source": "Cephalosporin antibiotic; extra-label — vet/FARAD required.",
+      "confirmed_by": null, "confirmed_date": null
+    },
+    {
       "drug_key": "iron", "generic": "iron dextran / injectable iron", "class": "nutritional",
       "withdrawal_days_meat": 0, "withdrawal_days_milk": 0,
       "status": "no_withdrawal",

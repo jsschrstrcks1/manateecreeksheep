@@ -46,7 +46,10 @@ UNITS = {
 CANONICAL = {"volume": "mL", "mass": "kg", "length": "cm", "temperature": "F", "egg_count": "epg", "count": "count"}
 
 # a number then an optional unit token (mL, lbs, °F, epg, cc). Degree sign optional on temps.
-_Q = re.compile(r"(-?\d+(?:\.\d+)?)\s*°?\s*([a-zA-Z]+)?")
+# The number alternation MUST accept a leading-decimal form (".5", "-.25") — the flock records
+# doses that way (e.g. "Iron .5mL"), and requiring an integer part parsed ".5mL" as 5mL, a 10x
+# dose error in the one module whose job is honest unit math.
+_Q = re.compile(r"(-?(?:\d+(?:\.\d+)?|\.\d+))\s*°?\s*([a-zA-Z]+)?")
 
 
 def make_quantity(value, unit=None, label=None):

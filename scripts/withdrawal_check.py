@@ -63,9 +63,45 @@ def _clear(treat_date, days):
     return treat_date + timedelta(days=int(days))
 
 
+# Non-drug tokens that legitimately appear in treatment strings — connectives, routes, dose
+# units, condition/observation words, anatomy/procedure terms. Used ONLY to decide whether a
+# treatment that resolved to nutritional-only (food-safe) hides an UNRECOGNIZED drug. Contains no
+# drug names by construction, so a real unlogged drug always survives as a residual token.
+NOISE_WORDS = {
+    "and", "plus", "with", "then", "for", "the", "of", "on", "in", "at", "to", "per", "via", "aka",
+    "oral", "orally", "drench", "drenched", "shot", "injection", "injectable", "inject", "subq",
+    "sub", "subcutaneous", "subcut", "intramuscular", "intramuscularly", "dose", "dosed", "given",
+    "gave", "administered", "topical", "pour", "cc", "ml", "mg", "lb", "lbs", "kg", "gram", "grams",
+    "unit", "units", "famacha", "white", "pale", "anemic", "anemia", "weak", "weakness", "resistance",
+    "severely", "confirmed", "fever", "degrees", "emergency", "again", "second", "third", "first",
+    "still", "almost", "stress", "deficiency", "condition", "weight", "lost", "losing", "looks",
+    "looked", "checked", "check", "recheck", "note", "notes", "owner", "reported", "foot", "rot",
+    "jaw", "bump", "abscess", "lanced", "lance", "flushed", "flush", "hoof", "leg", "eye", "eyes",
+    "left", "right", "side", "neck", "ear", "tail", "back", "treated", "treatment", "wound", "cut",
+    "post", "hurricane", "idalia", "helene", "day", "days", "tag", "pen", "start", "course",
+}
+_TOKEN = re.compile(r"[a-zA-Z][a-zA-Z\-]{2,}")
+
+
+def _residual_tokens(tstr, matched_keys):
+    """Alpha tokens (>=3 chars) in a treatment string that are neither part of a matched drug key
+    nor a known non-drug NOISE_WORD — i.e. candidate UNLOGGED drugs."""
+    out = []
+    for m in _TOKEN.finditer(str(tstr or "")):
+        tk = m.group(0).lower()
+        if tk in NOISE_WORDS:
+            continue
+        if any(tk in k or k in tk for k in matched_keys):
+            continue
+        out.append(tk)
+    return sorted(set(out))
+
+
 def withdrawal_for_treatment(sheep_id, t, ref, as_of):
     """Typed per-(treatment, drug) records. status ∈ in_withdrawal | clear | unknown_interval |
-    no_withdrawal ; plus a single 'unrecognized' record when a treatment matched no drug."""
+    no_withdrawal ; plus an 'unrecognized' record when a treatment matched no drug OR resolved to
+    nutritional-only but still carries an unrecognized (possible-drug) token — an unlogged drug must
+    never read food-safe by omission, even alongside a recognized nutritional."""
     td = _iso(t.get("date"))
     tstr = t.get("treatment")
     if td is None:
@@ -93,6 +129,16 @@ def withdrawal_for_treatment(sheep_id, t, ref, as_of):
                             "days_remaining": (clear_on - as_of).days})
             else:
                 out.append({**base, "kind": kind, "status": "clear", "clear_date": clear_on.isoformat()})
+    # Guard the food-safe promise: if the treatment resolved to nutritional-only (so every record
+    # above is no_withdrawal) but still names an unrecognized token, an unlogged drug would read
+    # food-safe by omission. Surface it for review rather than clearing the animal.
+    if drugs and all(d.get("class") == "nutritional" for d in drugs):
+        residual = _residual_tokens(tstr, {d["drug_key"] for d in drugs})
+        if residual:
+            out.append({"sheep_id": sheep_id, "treatment": tstr, "date": td.isoformat(),
+                        "status": "unrecognized",
+                        "why": f"cleared on nutritional drugs but has unrecognized token(s) {residual} — "
+                               f"possible unlogged drug; review, do not assume food-safe"})
     return out
 
 

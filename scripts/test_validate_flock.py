@@ -1206,6 +1206,22 @@ def pedigree_tests():
         check("A(broken-tail,half-tail) preserved = 1.0",
               round(P.relationship("broken-tail", "half-tail", ped), 4) == 1.0)
 
+    # (a) CORRECTNESS on MISSING-DOB animals — the DOB-string ordering bug read these as F=0
+    # (unrelated) when they are severely inbred; the fix orders by topological depth, not DOB.
+    # These animals have blank DOBs; values are the canonical topological A-matrix result.
+    if "little-daisy" in ped:
+        check("missing-DOB F(little-daisy) = 0.4531 (was wrongly 0)", round(P.inbreeding("little-daisy", ped), 4) == 0.4531)
+    if "sm-white-ewe-p4" in ped:
+        check("missing-DOB F(sm-white-ewe-p4) = 0.4531", round(P.inbreeding("sm-white-ewe-p4", ped), 4) == 0.4531)
+    if "sir-loin" in ped and "daisy" in ped:
+        check("missing-DOB A(sir-loin,daisy) = 0.875 (was wrongly 0/'unrelated')",
+              round(P.relationship("sir-loin", "daisy", ped), 4) == 0.875)
+    # depth ordering is DOB-independent: two synthetic animals, parent blank-DOB, still correct
+    synth = {"kid": {"sire": "pa", "dam": None, "dob": None, "sex": "ram"},
+             "pa": {"sire": None, "dam": None, "dob": None, "sex": "ram"}}
+    check("depth ordering correct with no DOBs (parent-offspring A=0.5)",
+          round(P.relationship("kid", "pa", synth), 4) == 0.5)
+
     # (a) CYCLE GUARD: a cyclic pedigree raises the TYPED error, never a RecursionError.
     c3 = {"x": {"sire": "y", "dam": "z", "dob": "", "sex": "ram"},
           "y": {"sire": "z", "dam": "x", "dob": "", "sex": "ewe"},
