@@ -77,6 +77,15 @@
             "timeout": 30
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/sophos-inject.sh session",
+            "timeout": 30
+          }
+        ]
       }
     ],
     "Stop": [
@@ -115,6 +124,11 @@
             "type": "command",
             "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/hier-memory-inject.mjs prompt",
             "timeout": 20
+          },
+          {
+            "type": "command",
+            "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/sophos-inject.sh prompt",
+            "timeout": 15
           }
         ]
       }
