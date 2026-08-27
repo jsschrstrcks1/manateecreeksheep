@@ -1,9 +1,9 @@
 {
-  "generated_for": "2026-08-19",
+  "generated_for": "2026-08-27",
   "season": "warm-wet",
   "summary": {
     "overdue": 4,
-    "withdrawal_locks_active": 2,
+    "withdrawal_locks_active": 1,
     "unknown_withdrawals": 0
   },
   "items": [
@@ -38,17 +38,6 @@
       "overdue": true,
       "active": true,
       "basis": "last FAMACHA 5 on 2026-04-10 -> recheck within 7d [warm-wet cadence]"
-    },
-    {
-      "type": "withdrawal_lock",
-      "animal_id": null,
-      "group": "ALL ivermectin-treated (horse paste assumed): OAV 2222 + surviving lamb(s), Lara + twins, GG, Azure, 'Tinker'",
-      "drug": "ivermectin (extra-label horse paste)",
-      "until": "2026-08-26",
-      "active": true,
-      "overdue": false,
-      "due": "2026-08-26",
-      "basis": "FLOCK-LEVEL watch: ALL ivermectin-treated (horse paste assumed): OAV 2222 + surviving lamb(s), Lara + twins, GG, Azure, 'Tinker' \u2014 ivermectin (extra-label horse paste) (hand-kept; retire into per-animal events, MCS-38)"
     },
     {
       "type": "famacha_recheck",

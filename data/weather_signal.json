@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-18",
+  "generated": "2026-08-26",
   "location": "Manatee Creek (western coastal Pasco, canals)",
   "season": "warm-wet",
-  "favorable_days": 7,
+  "favorable_days": 8,
   "trailing_days": 14,
   "thresholds": {
     "mean_temp_c_min": 18.0,

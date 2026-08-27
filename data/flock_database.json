@@ -7469,7 +7469,7 @@
       "aliases": [
         "Amber"
       ],
-      "tag": null,
+      "tag": "24",
       "mc_tag": null,
       "sex": "ewe",
       "breed_composition": {
@@ -7518,7 +7518,7 @@
           "IMG_8628.PNG"
         ]
       },
-      "notes": "Deceased. 100% Karakul per Rocky breeding page. Also called 'Amber' per owner. Weight calculator: 175.7lbs (from 2023-2024 when alive). On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep.",
+      "notes": "Deceased. 100% Karakul per Rocky breeding page. Also called 'Amber' per owner. Weight calculator: 175.7lbs (from 2023-2024 when alive). On weak resistance list. Was on 'Ewes to Keep anyway' list. Wool sheep. | Card corpus 2026-08-19: 'Amber / Tag 24 / Diamond oaks / 36.5 x 38 heart' (IMG_8621) \u2014 alias Amber confirmed, tag 24, provenance Diamond Oaks, heart-girth 36.5x38 (undated); '24 - karakul - ivermectin' treatment round (IMG_8620, undated phone note); 'Amber - 4 - treated with iron also' (IMG_8617, faded, undated).",
       "confidence": "high",
       "last_verified": "2026-02-16",
       "on_property": false,
@@ -11516,7 +11516,22 @@
         }
       ],
       "on_property": false,
-      "movements": []
+      "movements": [
+        {
+          "date": "2026-02-11",
+          "from": "Goose Pen",
+          "to": "Pen 4",
+          "reason": "card: 'moved from Goose Pen to pen 4'",
+          "source": "IMG_8615 (card, GiGis 2025 Baby, transcribed 2026-08-19)"
+        },
+        {
+          "date": "2026-05-21",
+          "from": "Pen 4",
+          "to": null,
+          "reason": "left the flock \u2014 sold (2026-05-21 sale batch; status_date matches)",
+          "source": "status=sold/status_date in DB; exit recorded so the movement log agrees with the sale"
+        }
+      ]
     },
     {
       "id": "sm-white-ewe-p4",

@@ -111,6 +111,9 @@ def main():
         "- [ ] SHELF COUNTS (MCS-25): you named what's on hand — now just quantity + expiry off each label: ivermectin ___ exp ___ · iron ___ exp ___ · Prohibit ___ exp ___ · vitamin B ___ exp ___ · dexamethasone ___ exp ___ · antibiotics (which + how much) ______",
         "- [ ] CARD SCANS (the 43 dates): the scans in the repo are the most-current source and I'll transcribe them (`mcs-card-scans-date-transcription`) — nothing needed from you unless I hit a note I can't read; those will come back as specific photos with questions.",
         "- [ ] PEN CENSUS: open app/census.html on your phone — tap a pen (or Sold/Deceased) per animal, hit Export, text me the block. Progress saves on the phone.",
+        "- [ ] OCT-2023 DORPER RAM (from your mother's sick-sheep note, IMG_8643): 'Dorper ram iron and b on 10-24 (deceased)' — which ram was that? ______ (it may be one of the placeholder-date deceased records)",
+        "- [ ] 'ROCK aka JERKFACE' (same note): 'Awassi cross rock aka jerkface' — is that Rocky (tag 140)? yes / no / different animal: ______",
+        "- [ ] AUCTION MANIFEST (IMG_8604, Goose Pen batch): rows read 'male 09 (=MC-09 ✓ sold), F 50 wooly tan, male 06 white hair tan knees, F 49 blk head, F no-tag white 01, m no-tag tan wooly 02' — which flock records are 50 / 06 / 49 / 01 / 02, and what date was that auction? ______",
         "",
         "**Soli Deo Gloria.** Answers get applied through validated commits; regenerate this file after.",
     ]
