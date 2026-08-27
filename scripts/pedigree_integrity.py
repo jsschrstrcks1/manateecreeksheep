@@ -98,6 +98,8 @@ def find_cycles(ped):
             if idx < len(parents):
                 stack[-1] = (node, idx + 1)
                 nxt = parents[idx]
+                if nxt == node:
+                    continue   # a pure self-loop (own parent) is reported by self_parent — not double-counted here
                 if color.get(nxt, BLACK) == GREY:
                     # back-edge -> cycle; slice the grey path from nxt to node
                     loop = path[path.index(nxt):] + [nxt]

@@ -37,6 +37,7 @@ DB_PATH = Path(__file__).resolve().parent.parent / "data" / "flock_database.json
 
 SURVIVING = {"alive", "sold", "gifted"}   # left the farm alive or still on it
 DIED = {"deceased"}
+CULLED = {"culled"}                        # a KNOWN management removal — not 'unknown'
 
 
 def _year(dob):
@@ -78,7 +79,8 @@ def productivity(db):
         born = len(kids)
         surviving = sum(1 for k in kids if k.get("status") in SURVIVING)
         died = sum(1 for k in kids if k.get("status") in DIED)
-        unknown = born - surviving - died
+        culled = sum(1 for k in kids if k.get("status") in CULLED)
+        unknown = born - surviving - died - culled   # only genuinely-unknown outcomes
         n_lambings = len(lambings)
         flags = []
         if undated:
@@ -98,6 +100,7 @@ def productivity(db):
             "lambs_born": born,
             "surviving_to_date": surviving,
             "died": died,
+            "culled": culled,
             "unknown_status": unknown,
             "lambs_per_lambing": round(born / n_lambings, 2) if n_lambings else 0,
             "survival_pct": round(surviving / born * 100, 1) if born else None,

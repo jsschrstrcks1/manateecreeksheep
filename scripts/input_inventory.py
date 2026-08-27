@@ -110,7 +110,9 @@ def main():
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args()
     items = load_inventory()
-    rows = status(items, soon_days=args.expiring or EXPIRING_SOON_DAYS)
+    # respect an explicit --expiring 0 ("already expired only"); only default when the flag is absent
+    soon = args.expiring if args.expiring is not None else EXPIRING_SOON_DAYS
+    rows = status(items, soon_days=soon)
     issues = validate_inventory(items)
 
     if args.json:

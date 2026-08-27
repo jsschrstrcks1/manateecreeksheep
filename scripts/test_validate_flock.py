@@ -413,6 +413,42 @@ def h2_prior_tests():
     return fails
 
 
+def review_minor_fix_tests():
+    """Pins for the minor correctness findings from the review: culled counted as a known outcome
+    (not 'unknown'), self-parent not double-counted in the fault total, --expiring 0 respected."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    def load(n):
+        sp = importlib.util.spec_from_file_location(n, os.path.join(_here, f"{n}.py"))
+        m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m); return m
+
+    ep = load("ewe_productivity")
+    db = {"sheep": [{"id": "dam", "sex": "ewe", "status": "alive"},
+                    {"id": "k1", "dam_id": "dam", "status": "culled", "dob": "2024-01-01"},
+                    {"id": "k2", "dam_id": "dam", "status": "unknown", "dob": "2024-01-02"}]}
+    r = ep.productivity(db)[0]
+    check("culled counted separately (known, not unknown)", r["culled"] == 1 and r["unknown_status"] == 1)
+
+    pi = load("pedigree_integrity")
+    rep = pi.integrity_report({"sheep": [{"id": "x", "sire_id": "x", "dam_id": None}]})
+    check("self-parent not double-counted (faults_total=1)", rep["faults_total"] == 1 and rep["self_parent"] == ["x"])
+
+    import datetime as _dt
+    iv = load("input_inventory")
+    rows = {r["name"]: r for r in iv.status(
+        [{"name": "x", "category": "feed", "expiry_date": "2026-08-01"},
+         {"name": "y", "category": "feed", "expiry_date": "2026-09-15"}],
+        as_of=_dt.date(2026, 8, 27), soon_days=0)}
+    check("--expiring 0 respected (expired only, not +60d)",
+          rows["x"]["expiry_state"] == "EXPIRED" and rows["y"]["expiry_state"] == "ok")
+    return fails
+
+
 def edge_hardening_tests():
     """Edge/robustness pins: the validator is the GATE that catches structural malformations
     (which otherwise crash downstream tools with opaque errors), and the tools that can face a
@@ -1409,6 +1445,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nReview minor-fix pins:")
+    failures += review_minor_fix_tests()
     print("\nEdge-hardening (validator gate + robustness) pins:")
     failures += edge_hardening_tests()
     print("\nFlock dashboard (composition) pins:")
