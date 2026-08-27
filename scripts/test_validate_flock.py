@@ -413,6 +413,43 @@ def h2_prior_tests():
     return fails
 
 
+def flock_dashboard_tests():
+    """Pins for the flock.py unified briefing: it must COMPOSE the individual tools (numbers match)
+    and surface the previously-hidden severe inbreeding on the front page."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    import datetime as _dt
+    _fk_spec = importlib.util.spec_from_file_location("flock", os.path.join(_here, "flock.py"))
+    fk = importlib.util.module_from_spec(_fk_spec)
+    _fk_spec.loader.exec_module(fk)
+    _at_spec = importlib.util.spec_from_file_location("attention_triage", os.path.join(_here, "attention_triage.py"))
+    at = importlib.util.module_from_spec(_at_spec)
+    _at_spec.loader.exec_module(at)
+
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    as_of = _dt.date(2026, 4, 15)
+    b = fk.briefing(live, as_of)
+
+    # composition fidelity: the briefing's RED count equals the triage's RED count
+    triage = at.triage_flock(live, as_of)
+    check("briefing RED count matches triage", len(b["health"]["red"]) == sum(1 for r in triage if r["status"] == "RED"))
+    check("briefing has the FAMACHA-5 RED ewes",
+          {"broken-tail-twin-ewe", "serendipity-twin-ewe"} <= {r["sheep_id"] for r in b["health"]["red"]})
+    # the front page must surface the severe inbreeding the DOB bug hid (little-daisy F=0.453)
+    hi = {r["id"]: r for r in b["inbreeding"]["high_F"]}
+    check("briefing surfaces little-daisy severe inbreeding",
+          "little-daisy" in hi and hi["little-daisy"]["F"] >= 0.45)
+    check("briefing reports graph clean", b["inbreeding"]["graph_clean"] is True)
+    check("briefing withdrawal holds non-empty", len(b["withdrawal_holds"]) > 0)
+    check("briefing cohorts present", len(b["cohorts"]) > 0)
+    return fails
+
+
 def parasite_scorer_tests():
     """Regression pins for the parasite_resistance scorer crash on dict-shaped health notes —
     a LIVE AttributeError on the real flock (score_all) before the fix. The flock's primary
@@ -1326,6 +1363,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nFlock dashboard (composition) pins:")
+    failures += flock_dashboard_tests()
     print("\nParasite-scorer dict-note crash-fix pins:")
     failures += parasite_scorer_tests()
     print("\nMCS-23 ration/NRC pins:")
