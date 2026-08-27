@@ -413,6 +413,59 @@ def h2_prior_tests():
     return fails
 
 
+def lambing_reconcile_tests():
+    """Pins for the lambing-log reconciliation: exact-only dam resolution (no fuzzy guess), birth
+    survival, and the pedigree cross-check states (ok / date_discrepancy / no_offspring / count)."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _lr_spec = importlib.util.spec_from_file_location("lambrec", os.path.join(_here, "lambing_reconcile.py"))
+    lr = importlib.util.module_from_spec(_lr_spec)
+    _lr_spec.loader.exec_module(lr)
+
+    # resolution: dam_id wins; unique name matches; ambiguous/absent name is NOT guessed
+    idx = {"jill": ["j1"], "twin": ["t1", "t2"]}
+    check("resolve by dam_id", lr._resolve_dam({"dam_id": "x1"}, idx, {"x1"})[1] == "dam_id")
+    check("resolve by unique name", lr._resolve_dam({"dam": "Jill"}, idx, set()) == ("j1", "name"))
+    check("ambiguous name not guessed", lr._resolve_dam({"dam": "Twin"}, idx, set())[1] == "ambiguous")
+    check("absent name unmatched", lr._resolve_dam({"dam": "Nobody"}, idx, set())[1] == "unmatched")
+
+    # cross-check states on a synthetic db
+    db = {"sheep": [
+        {"id": "dam1", "name": "Dam One"},
+        {"id": "k1", "dam_id": "dam1", "dob": "2026-01-21"},   # 1 day off -> ok
+        {"id": "dam2", "name": "Dam Two"},
+        {"id": "k2", "dam_id": "dam2", "dob": "2026-01-01"},   # 20 days off -> discrepancy
+        {"id": "dam3", "name": "Dam Three"},                    # no offspring on file
+    ], "lambing_records_2026": [
+        {"date": "2026-01-20", "dam": "Dam One", "lambs_born": 1, "lambs_alive": 1},
+        {"date": "2026-01-21", "dam": "Dam Two", "lambs_born": 1, "lambs_alive": 1},
+        {"date": "2026-01-20", "dam": "Dam Three", "lambs_born": 2, "lambs_alive": 1},
+        {"date": "2026-01-20", "dam": "Ghost", "lambs_born": 1, "lambs_alive": 1},
+    ]}
+    rows = {r["dam_input"]: r for r in lr.reconcile(db)}
+    check("dob within window -> ok", rows["Dam One"]["pedigree_check"] == "ok")
+    check("dob 20d off -> date_discrepancy", rows["Dam Two"]["pedigree_check"].startswith("date_discrepancy"))
+    check("no offspring on file flagged", rows["Dam Three"]["pedigree_check"] == "no_offspring_on_file")
+    check("unmatched dam not guessed", rows["Ghost"]["match"] == "unmatched")
+    check("birth survival computed (2 born,1 alive=50%)", rows["Dam Three"]["survival_pct"] == 50.0)
+
+    bs = lr.birth_survival(db)
+    check("aggregate survival over matched records", bs["lambs_born"] == 5 and bs["lambs_alive"] == 4)
+
+    # live: 00113's loss (born 1, alive 0) and the Broken Tail date discrepancy are surfaced
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    lrows = {r["dam_input"]: r for r in lr.reconcile(live)}
+    check("live: 00113 loss surfaced (alive 0)", lrows.get("00113", {}).get("lambs_alive") == 0)
+    check("live: Broken Tail date discrepancy detected",
+          "date_discrepancy" in lrows.get("Broken Tail", {}).get("pedigree_check", ""))
+    return fails
+
+
 def review_minor_fix_tests():
     """Pins for the minor correctness findings from the review: culled counted as a known outcome
     (not 'unknown'), self-parent not double-counted in the fault total, --expiring 0 respected."""
@@ -1445,6 +1498,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nLambing-reconciliation pins:")
+    failures += lambing_reconcile_tests()
     print("\nReview minor-fix pins:")
     failures += review_minor_fix_tests()
     print("\nEdge-hardening (validator gate + robustness) pins:")
