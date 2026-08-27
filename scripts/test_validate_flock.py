@@ -586,6 +586,12 @@ def cohort_tests():
     check("as_of after last move -> latest", co.pen_as_of(s, _dt.date(2026, 7, 1)) == "Pen 3")
     check("scalar fallback when no log", co.pen_as_of({"pen": "Pen 9"}, _dt.date(2026, 1, 1)) == "Pen 9")
     check("None when nothing known", co.pen_as_of({}, _dt.date(2026, 1, 1)) is None)
+    # an unparseable (present-but-bad) date must NOT be promoted to baseline — it would make the
+    # animal appear in that pen for all past queries. It is skipped; the scalar/other entries win.
+    bad_date = {"pen": "Pen 7", "pen_log": [{"date": "03/01/2026", "pen": "Pen 8"}]}
+    check("unparseable pen_log date skipped, not baseline", co.pen_as_of(bad_date, _dt.date(2026, 1, 1)) == "Pen 7")
+    good_undated = {"pen_log": [{"date": None, "pen": "Pen 8"}]}
+    check("genuinely-undated entry is still baseline", co.pen_as_of(good_undated, _dt.date(2026, 1, 1)) == "Pen 8")
 
     db = {"sheep": [
         {"id": "a", "status": "alive", "sex": "ewe", "pen_log": [{"date": None, "pen": "Pen 1"}]},
@@ -709,7 +715,13 @@ def inventory_tests():
     check("low stock -> REORDER", rows["low stock"]["reorder_state"] == "REORDER")
     check("plenty -> ok", rows["plenty"]["reorder_state"] == "ok")
     check("uncounted honest (not reorder)", rows["expired wormer"]["reorder_state"] == "not_counted")
-    check("cross-measure reorder not falsely triggered", rows["mismatch"]["reorder_state"] == "ok")
+    # a mL quantity against a kg reorder level cannot be compared — it must be SURFACED, not
+    # silently 'ok' (a false-CALM that would never alert a genuinely low stock). The old test
+    # blessed the 'ok'; this pins the fix.
+    check("cross-measure reorder surfaced as mismatch (not false-ok)",
+          rows["mismatch"]["reorder_state"] == "reorder_unit_mismatch")
+    check("validator flags the reorder unit mismatch",
+          any("different measures" in i for i in iv.validate_inventory(items)))
 
     bad = [{"name": "", "category": "widget", "expiry_date": "nope",
             "quantity": {"nope": 1}}]
@@ -837,6 +849,13 @@ def scrapie_tests():
     live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
     cen = sg.flock_census(live)
     check("live census all unknown (no lab data yet)", all(r["class"] == "unknown" for r in cen))
+    # a malformed non-dict genotype must not abort the whole census (runs before the validator)
+    malformed = {"sheep": [{"id": "bad", "scrapie_genotype": "RR"}, {"id": "ok2"}]}
+    try:
+        c2 = sg.flock_census(malformed)
+        check("non-dict genotype does not crash census", len(c2) == 2)
+    except Exception as e:
+        check(f"non-dict genotype does not crash census (raised {type(e).__name__})", False)
     return fails
 
 
@@ -867,6 +886,12 @@ def quantity_tests():
 
     check("parse_quantity first number", q.parse_quantity("Nuflor 4.5mL")["value"] == 4.5)
     check("parse no number -> None", q.parse_quantity("no numbers here") is None)
+    # leading-decimal doses (".5mL") — the exact form present in real data that parsed 10x too
+    # large before the fix (".5mL" was read as 5mL). This is the blind spot the old tests missed.
+    check("leading-decimal .5mL = 0.5 (not 5)", q.parse_quantity(".5mL")["value"] == 0.5)
+    check("leading-decimal .25mL = 0.25 (not 25)", q.parse_quantity(".25mL")["value"] == 0.25)
+    check("negative leading-decimal -.5 = -0.5", q.make_quantity(*(-0.5, "C"))["value"] == -0.5
+          and q.parse_quantity("-.5C")["value"] == -0.5)
 
     ex = q.extract_quantities("Nuflor 4.5mL 105.2°F")
     check("extract two quantities (vol + temp)",
@@ -1172,6 +1197,18 @@ def withdrawal_tests():
     g = wc.gaps(db, live)
     check("gaps worklist lists ivermectin & fenbendazole & nuflor",
           {"ivermectin", "fenbendazole", "nuflor"} <= {r["drug"] for r in g})
+
+    # (g) FOOD-SAFETY: a withdrawal drug combined with a nutritional must NOT read food-safe.
+    import datetime as _dt2
+    def statuses(tr):
+        rs = wc.withdrawal_for_treatment("x", {"date": "2026-08-20", "treatment": tr}, live, _dt2.date(2026, 8, 27))
+        return set(r["status"] for r in rs)
+    check("moxidectin+iron held UNKNOWN, not food-safe", "unknown_interval" in statuses("Moxidectin 1mL + Iron 2mL"))
+    check("penicillin+iron held UNKNOWN", "unknown_interval" in statuses("Penicillin + Iron"))
+    check("Safe-Guard brand recognized", "unknown_interval" in statuses("Safe-Guard 5mL + Iron"))
+    check("nutritional-only stays no_withdrawal", statuses("Iron 2mL + VB") == {"no_withdrawal"})
+    check("novel drug+iron flagged unrecognized (residual guard)", "unrecognized" in statuses("Baytril 3mL + Iron"))
+    check("anatomy words not false-flagged (terramycin foot rot)", statuses("Terramycin (foot rot)") == {"unknown_interval"})
     return fails
 
 

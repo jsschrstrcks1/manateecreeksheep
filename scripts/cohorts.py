@@ -48,9 +48,15 @@ def pen_as_of(sheep, as_of=None):
     for e in log:
         if not isinstance(e, dict) or not e.get("pen"):
             continue
-        d = _iso(e.get("date"))
+        raw = e.get("date")
+        d = _iso(raw)
         if d is None:
-            baseline = e["pen"]            # undated seed = baseline membership
+            # a genuinely UNDATED entry (date is null/absent) is the baseline; a present-but-
+            # UNPARSEABLE date is a data error and is SKIPPED, not silently promoted to baseline
+            # (which would make the animal appear in that pen for all past --as-of queries).
+            if raw in (None, ""):
+                baseline = e["pen"]
+            # else: bad date -> ignore this entry
         elif d <= as_of and (best is None or d >= best[0]):
             best = (d, e["pen"])
     if best is not None:

@@ -119,7 +119,8 @@ def cross_171(sire_geno, dam_geno):
 def flock_census(db):
     rows = []
     for s in db.get("sheep", []):
-        g = s.get("scrapie_genotype") or {}
+        g = s.get("scrapie_genotype")
+        g = g if isinstance(g, dict) else {}   # a malformed non-dict must not abort the whole census
         rows.append({"id": s["id"], "name": s.get("name"),
                      "codon_171": g.get("codon_171"), "class": classify_171(g.get("codon_171"))})
     return rows

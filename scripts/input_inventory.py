@@ -61,6 +61,10 @@ def validate_inventory(items):
             v = it.get(qf)
             if v is not None and _qty(v) is None:
                 issues.append(f"{where}: {qf} {v!r} is not a {{value,unit}} quantity")
+        q, r = _qty(it.get("quantity")), _qty(it.get("reorder_level"))
+        if q and r and q["measure"] != r["measure"]:
+            issues.append(f"{where}: quantity ({q['unit']}) and reorder_level ({r['unit']}) are "
+                          f"different measures — the reorder check cannot compare them")
     return issues
 
 
@@ -82,7 +86,13 @@ def status(items, as_of=None, soon_days=EXPIRING_SOON_DAYS):
         rl = _qty(it.get("reorder_level"))
         if qty is None:
             rstate = "not_counted"
-        elif rl is not None and qty["measure"] == rl["measure"] and qty["canonical_value"] <= rl["canonical_value"]:
+        elif rl is None:
+            rstate = "ok"
+        elif qty["measure"] != rl["measure"]:
+            # a mL quantity against a kg reorder level can't be compared — reporting 'ok' here
+            # would be a false-CALM (a genuinely low stock would never alert). Surface it instead.
+            rstate = "reorder_unit_mismatch"
+        elif qty["canonical_value"] <= rl["canonical_value"]:
             rstate = "REORDER"
         else:
             rstate = "ok"
@@ -129,9 +139,10 @@ def main():
     expired = [r for r in rows if r["expiry_state"] == "EXPIRED"]
     soon = [r for r in rows if r["expiry_state"] == "expiring_soon"]
     reorder = [r for r in rows if r["reorder_state"] == "REORDER"]
+    mismatch = [r for r in rows if r["reorder_state"] == "reorder_unit_mismatch"]
     uncounted = [r for r in rows if r["reorder_state"] == "not_counted"]
     print(f"Input inventory — {len(rows)} item(s): {len(expired)} expired, {len(soon)} expiring soon, "
-          f"{len(reorder)} to reorder, {len(uncounted)} not yet counted\n")
+          f"{len(reorder)} to reorder, {len(mismatch)} unit-mismatch, {len(uncounted)} not yet counted\n")
     for r in rows:
         q = r["quantity"]
         onhand = f"{q['value']:g}{q['unit'] or ''}" if q else "—"
@@ -140,6 +151,8 @@ def main():
             flags.append(f"{r['expiry_state']} {r['expiry_date']}")
         if r["reorder_state"] == "REORDER":
             flags.append("REORDER")
+        elif r["reorder_state"] == "reorder_unit_mismatch":
+            flags.append("reorder unit mismatch — cannot compare")
         tail = ("  <- " + "; ".join(flags)) if flags else ""
         print(f"  {r['category']:12} {r['name'][:30]:30} on hand {onhand:10}{tail}")
     if issues:
