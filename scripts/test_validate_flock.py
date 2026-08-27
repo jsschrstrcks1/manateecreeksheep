@@ -413,6 +413,54 @@ def h2_prior_tests():
     return fails
 
 
+def vaccination_tests():
+    """Pins for CDT/clostridial compliance: alias matching, last-dose selection, and the
+    never / current / booster_overdue states."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    import datetime as _dt
+    _vc_spec = importlib.util.spec_from_file_location("vc", os.path.join(_here, "vaccination_check.py"))
+    vc = importlib.util.module_from_spec(_vc_spec)
+    _vc_spec.loader.exec_module(vc)
+
+    check("CDT recognized", vc._is_cdt("CDT booster") and vc._is_cdt("Covexin 8") and vc._is_cdt("CDT (1st)"))
+    check("non-clostridial not matched", not vc._is_cdt("Ivermectin") and not vc._is_cdt(""))
+
+    s = {"health": {"vaccinations": [
+        {"date": "2025-01-01", "vaccine": "CDT (1st)"},
+        {"date": "2025-02-01", "vaccine": "CDT booster"},
+        {"date": "2027-01-01", "vaccine": "CDT"},          # future — ignored at as_of
+    ]}}
+    check("last_cdt picks most recent <= as_of", vc.last_cdt(s, _dt.date(2026, 6, 1)).isoformat() == "2025-02-01")
+    check("dose count (distinct dates <= as_of)", vc._cdt_doses(s, _dt.date(2026, 6, 1)) == 2)
+    check("no CDT -> last None", vc.last_cdt({"health": {"vaccinations": [{"date": "2025-01-01", "vaccine": "Iron"}]}}) is None)
+
+    db = {"sheep": [
+        {"id": "never", "status": "alive"},
+        {"id": "current", "status": "alive", "health": {"vaccinations": [{"date": "2026-06-01", "vaccine": "CDT"}]}},
+        {"id": "overdue", "status": "alive", "health": {"vaccinations": [{"date": "2024-01-01", "vaccine": "Covexin"}]}},
+        {"id": "offprop", "status": "alive", "on_property": False, "health": {"vaccinations": []}},
+    ]}
+    rows = {r["id"]: r for r in vc.compliance(db, _dt.date(2026, 8, 27))}
+    check("never flagged", rows["never"]["status"] == "never")
+    check("recent -> current", rows["current"]["status"] == "current")
+    check("old -> booster_overdue", rows["overdue"]["status"] == "booster_overdue")
+    check("off-property excluded", "offprop" not in rows)
+    check("never sorts first", vc.compliance(db, _dt.date(2026, 8, 27))[0]["status"] == "never")
+
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    lrows = vc.compliance(live)
+    check("live: some animals never vaccinated", any(r["status"] == "never" for r in lrows))
+    check("live: most vaccinated animals current (flock keeps boosters)",
+          sum(1 for r in lrows if r["status"] == "current") > 0)
+    return fails
+
+
 def lambing_reconcile_tests():
     """Pins for the lambing-log reconciliation: exact-only dam resolution (no fuzzy guess), birth
     survival, and the pedigree cross-check states (ok / date_discrepancy / no_offspring / count)."""
@@ -1498,6 +1546,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nVaccination-compliance pins:")
+    failures += vaccination_tests()
     print("\nLambing-reconciliation pins:")
     failures += lambing_reconcile_tests()
     print("\nReview minor-fix pins:")
