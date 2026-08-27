@@ -413,6 +413,38 @@ def h2_prior_tests():
     return fails
 
 
+def parasite_scorer_tests():
+    """Regression pins for the parasite_resistance scorer crash on dict-shaped health notes —
+    a LIVE AttributeError on the real flock (score_all) before the fix. The flock's primary
+    resistance scorer must run on the real data, and must read text from either note shape."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _pr_spec = importlib.util.spec_from_file_location("pr_score", os.path.join(_here, "parasite_resistance.py"))
+    pr = importlib.util.module_from_spec(_pr_spec)
+    _pr_spec.loader.exec_module(pr)
+
+    # dict-shaped note must not crash and must read its text
+    check("dict note with parasite keyword penalized",
+          pr._weakness_subscore(False, [{"source": "x", "note": "white eyes, anemic"}]) == 85)
+    check("string note still works", pr._weakness_subscore(False, ["barber pole worm"]) == 85)
+    check("clean dict note = 100", pr._weakness_subscore(False, [{"note": "looks great"}]) == 100)
+    check("mixed string+dict notes no crash",
+          pr._weakness_subscore(False, ["parasite", {"note": "worm"}]) == 70)
+    # the whole scorer must run on the REAL flock without crashing
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    try:
+        r = pr.score_all(live)
+        check("score_all runs on the real flock (was crashing)", isinstance(r, dict) and len(r) == len(live["sheep"]))
+    except Exception as e:
+        check(f"score_all runs on the real flock (raised {type(e).__name__})", False)
+    return fails
+
+
 def ration_tests():
     """Pins for MCS-23 ration/NRC: DMI from real weight, adequacy verdicts (never false-adequate
     on an unentered requirement), and the shipped requirement table authoring no NRC values."""
@@ -1241,6 +1273,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nParasite-scorer dict-note crash-fix pins:")
+    failures += parasite_scorer_tests()
     print("\nMCS-23 ration/NRC pins:")
     failures += ration_tests()
     print("\nMCS-11 pending/done pins:")

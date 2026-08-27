@@ -301,7 +301,12 @@ def _weakness_subscore(weak_resistance, health_notes):
     parasite_note_keywords = {"parasite", "white eyes", "eyes were white", "anemic",
                               "worm", "barber pole", "low score", "low famacha"}
     for note in (health_notes or []):
-        note_lower = note.lower()
+        # health.notes entries are heterogeneous in the real flock: some are plain strings, some
+        # are dicts {"source":..., "note":...}. Extract the text either way rather than crashing
+        # on .lower() of a dict (a live AttributeError on the real data before this guard).
+        if isinstance(note, dict):
+            note = note.get("note") or note.get("text") or ""
+        note_lower = str(note).lower()
         if any(kw in note_lower for kw in parasite_note_keywords):
             score -= 15
 
