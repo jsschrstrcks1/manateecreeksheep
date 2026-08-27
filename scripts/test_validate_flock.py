@@ -413,6 +413,57 @@ def h2_prior_tests():
     return fails
 
 
+def ration_tests():
+    """Pins for MCS-23 ration/NRC: DMI from real weight, adequacy verdicts (never false-adequate
+    on an unentered requirement), and the shipped requirement table authoring no NRC values."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    _rc_spec = importlib.util.spec_from_file_location("rc", os.path.join(_here, "ration_check.py"))
+    rc = importlib.util.module_from_spec(_rc_spec)
+    _rc_spec.loader.exec_module(rc)
+
+    reqs = {"maintenance": {"dmi_pct_bodyweight": 0.02, "tdn_pct": 55, "cp_pct": 9, "ca_pct": 0.3, "p_pct": 0.2},
+            "empty": {"dmi_pct_bodyweight": 0.03, "tdn_pct": None, "cp_pct": None, "ca_pct": None, "p_pct": None}}
+
+    check("dmi = weight * pct", rc.dmi_estimate(200, "maintenance", reqs) == 4.0)
+    check("dmi non-numeric weight -> None", rc.dmi_estimate("heavy", "maintenance", reqs) is None)
+    check("dmi bool weight -> None", rc.dmi_estimate(True, "maintenance", reqs) is None)
+    check("dmi unknown class -> None", rc.dmi_estimate(200, "nope", reqs) is None)
+
+    adq = rc.ration_adequacy({"tdn": 50, "cp": 12, "ca": 0.3}, "maintenance", reqs)
+    check("deficient when below req", adq["tdn"]["status"] == "deficient" and adq["tdn"]["shortfall"] == 5)
+    check("adequate when at/above req", adq["cp"]["status"] == "adequate")
+    check("adequate boundary (exactly req)", adq["ca"]["status"] == "adequate")
+    check("not_supplied when missing", adq["p"]["status"] == "not_supplied")
+    adq2 = rc.ration_adequacy({"tdn": 90}, "maintenance", reqs)
+    check("excess when >1.5x req", adq2["tdn"]["status"] == "excess")
+    # never false-adequate on an unentered requirement
+    adq3 = rc.ration_adequacy({"tdn": 60, "cp": 14}, "empty", reqs)
+    check("unknown_requirement not adequate", adq3["tdn"]["status"] == "unknown_requirement")
+    check("unknown class -> error", "error" in rc.ration_adequacy({}, "nope", reqs))
+
+    check("parse supplied spec", rc._parse_supplied("TDN=60,CP=14") == {"tdn": 60.0, "cp": 14.0})
+
+    # flock_dmi on live weights
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    fd = rc.flock_dmi(live, "maintenance")
+    check("live flock_dmi has weighed animals", len(fd) > 0 and all(r["dmi_lb"] > 0 for r in fd))
+    check("live flock_dmi sorted desc", [r["dmi_lb"] for r in fd] == sorted((r["dmi_lb"] for r in fd), reverse=True))
+
+    # shipped requirement table authors NO NRC nutrient values (only the DMI rule-of-thumb)
+    shipped = rc.load_requirements()
+    check("shipped table has classes with DMI pct",
+          all(isinstance(c.get("dmi_pct_bodyweight"), (int, float)) for c in shipped.values()))
+    check("shipped table authors no NRC nutrient values",
+          all(c.get("tdn_pct") is None and c.get("cp_pct") is None for c in shipped.values()))
+    return fails
+
+
 def pending_done_tests():
     """Pins for MCS-11 pending/done log: the one-object lifecycle (pending -> done in place),
     validation, overdue ordering, and the read-only triage bridge with dedup."""
@@ -1190,6 +1241,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-23 ration/NRC pins:")
+    failures += ration_tests()
     print("\nMCS-11 pending/done pins:")
     failures += pending_done_tests()
     print("\nMCS-10 cohort pins:")

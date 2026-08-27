@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "purpose": "Nutrient requirements per animal class, for ration ADEQUACY checks (MCS-23). Consumed read-only by scripts/ration_check.py.",
+    "owned_by": "operator/vet — the requirement values come from the NRC 'Nutrient Requirements of Small Ruminants' (2007) tables for the animal's class, weight, and production stage. This tool AUTHORS NO requirement values; they are null until entered from NRC, and an adequacy check on a null requirement reports 'unknown', never 'adequate'.",
+    "dmi_note": "dmi_pct_bodyweight is a documented RULE OF THUMB (dry-matter intake as a fraction of body weight: ~2% maintenance up to ~4% peak lactation), tunable — NOT a substitute for the NRC intake table. It is used only to estimate expected daily dry-matter intake from real body weights; nutrient adequacy still needs the NRC requirement values.",
+    "nutrients": "tdn_pct (energy, % of DM), cp_pct (crude protein, % of DM), ca_pct (calcium), p_pct (phosphorus). Enter from NRC for each class in use.",
+    "schema_per_class": {
+      "dmi_pct_bodyweight": "rule-of-thumb DMI as fraction of body weight",
+      "tdn_pct": "NRC TDN requirement, % of DM (null until entered)",
+      "cp_pct": "NRC crude-protein requirement, % of DM (null until entered)",
+      "ca_pct": "NRC calcium requirement, % of DM (null until entered)",
+      "p_pct": "NRC phosphorus requirement, % of DM (null until entered)"
+    }
+  },
+  "classes": {
+    "maintenance":     {"dmi_pct_bodyweight": 0.020, "tdn_pct": null, "cp_pct": null, "ca_pct": null, "p_pct": null},
+    "late_gestation":  {"dmi_pct_bodyweight": 0.025, "tdn_pct": null, "cp_pct": null, "ca_pct": null, "p_pct": null},
+    "early_lactation": {"dmi_pct_bodyweight": 0.040, "tdn_pct": null, "cp_pct": null, "ca_pct": null, "p_pct": null},
+    "late_lactation":  {"dmi_pct_bodyweight": 0.030, "tdn_pct": null, "cp_pct": null, "ca_pct": null, "p_pct": null},
+    "growing_lamb":    {"dmi_pct_bodyweight": 0.040, "tdn_pct": null, "cp_pct": null, "ca_pct": null, "p_pct": null}
+  }
+}
