@@ -105,9 +105,9 @@ def transitions(db, since=None, until=None):
                 continue
             if until and d > until:
                 continue
-            out.append({"date": d.isoformat(), "sheep_id": s["id"], "pen": e.get("pen"),
+            out.append({"date": d.isoformat(), "sheep_id": s.get("id"), "pen": e.get("pen"),
                         "note": e.get("note")})
-    out.sort(key=lambda x: (x["date"], x["sheep_id"]))
+    out.sort(key=lambda x: (x["date"], x["sheep_id"] or ""))
     return out
 
 

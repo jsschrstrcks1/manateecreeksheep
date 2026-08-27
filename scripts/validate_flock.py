@@ -56,6 +56,45 @@ def validate_required_fields(sheep_list):
     return errors
 
 
+def validate_structural_types(sheep_list):
+    """Catch the STRUCTURAL type malformations that make the downstream tools crash with an opaque
+    AttributeError/TypeError instead of a clear message — the gate, so one bad hand-edit or bad
+    Sheets-sync is caught here (naming the record and field) rather than blanking a tool's whole
+    output. Fields checked are the ones tools access as dicts/lists/hashable keys."""
+    errors = []
+    DICT_FIELDS = ("health", "breeding", "measurements", "breed_composition")
+    LIST_FIELDS = ("pen_log", "shed_scores", "fat_tail_scores", "quarantine_intakes",
+                   "loss_records", "notes_history")
+    for i, sheep in enumerate(sheep_list):
+        sid = sheep.get("id") if isinstance(sheep, dict) else None
+        where = sid if sid else f"index {i}"
+        if not isinstance(sheep, dict):
+            errors.append(f"ERROR [{where}]: sheep record is not an object ({type(sheep).__name__})")
+            continue
+        if not sid or not isinstance(sid, str):
+            errors.append(f"ERROR [{where}]: id is missing or not a string ({sheep.get('id')!r})")
+        for f in ("sire_id", "dam_id"):
+            v = sheep.get(f)
+            if v is not None and not isinstance(v, str):
+                errors.append(f"ERROR [{where}]: {f} must be a string id or null, got {type(v).__name__} {v!r}")
+        for f in DICT_FIELDS:
+            v = sheep.get(f)
+            if v is not None and not isinstance(v, dict):
+                errors.append(f"ERROR [{where}]: {f} must be an object or absent, got {type(v).__name__}")
+        for f in LIST_FIELDS:
+            v = sheep.get(f)
+            if v is not None and not isinstance(v, list):
+                errors.append(f"ERROR [{where}]: {f} must be a list or absent, got {type(v).__name__}")
+        # nested health collections must be lists too (tools iterate them)
+        health = sheep.get("health")
+        if isinstance(health, dict):
+            for f in ("famacha_scores", "fec_history", "treatments", "vaccinations", "health_events"):
+                v = health.get(f)
+                if v is not None and not isinstance(v, list):
+                    errors.append(f"ERROR [{where}]: health.{f} must be a list or absent, got {type(v).__name__}")
+    return errors
+
+
 def validate_breed_percentages(sheep_list):
     """Check breed percentages sum to ~100%.
 
@@ -308,6 +347,7 @@ def main():
     elif args.check_processed_parity:
         all_issues.extend(validate_processed_parity())
     else:
+        all_issues.extend(validate_structural_types(sheep_list))
         all_issues.extend(validate_required_fields(sheep_list))
         all_issues.extend(validate_breed_percentages(sheep_list))
         all_issues.extend(validate_references(sheep_list))

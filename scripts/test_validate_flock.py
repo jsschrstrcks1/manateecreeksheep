@@ -413,6 +413,52 @@ def h2_prior_tests():
     return fails
 
 
+def edge_hardening_tests():
+    """Edge/robustness pins: the validator is the GATE that catches structural malformations
+    (which otherwise crash downstream tools with opaque errors), and the tools that can face a
+    null id degrade instead of crashing."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    hostile = [
+        {"id": "m1", "health": "not a dict", "dam_id": ["x"], "sire_id": 123,
+         "pen_log": {"date": "x"}, "loss_records": 5, "breed_composition": [1, 2]},
+        {"id": None},
+        "not even a dict",
+    ]
+    errs = vf.validate_structural_types(hostile)
+    check("validator flags non-dict health", any("health must be an object" in e for e in errs))
+    check("validator flags list dam_id", any("dam_id must be a string" in e for e in errs))
+    check("validator flags non-string sire_id", any("sire_id must be a string" in e for e in errs))
+    check("validator flags non-list pen_log", any("pen_log must be a list" in e for e in errs))
+    check("validator flags non-list loss_records", any("loss_records must be a list" in e for e in errs))
+    check("validator flags null id", any("id is missing or not a string" in e for e in errs))
+    check("validator flags non-dict record", any("not an object" in e for e in errs))
+    # nested health collection type
+    errs2 = vf.validate_structural_types([{"id": "h", "health": {"famacha_scores": "nope"}}])
+    check("validator flags non-list health.famacha_scores", any("health.famacha_scores must be a list" in e for e in errs2))
+    # real data has NO structural errors (the gate does not false-positive)
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    check("real flock has no structural-type errors", vf.validate_structural_types(live["sheep"]) == [])
+
+    # cohorts.transitions survives a null id (was a sort crash)
+    _co_spec = importlib.util.spec_from_file_location("co2", os.path.join(_here, "cohorts.py"))
+    co = importlib.util.module_from_spec(_co_spec)
+    _co_spec.loader.exec_module(co)
+    h = {"sheep": [{"id": None, "pen_log": [{"date": "2026-01-01", "pen": "P1"}]},
+                   {"id": "b", "pen_log": [{"date": "2026-01-02", "pen": "P2"}]}]}
+    try:
+        tr = co.transitions(h)
+        check("cohorts.transitions survives null id", len(tr) == 2)
+    except Exception as e:
+        check(f"cohorts.transitions survives null id (raised {type(e).__name__})", False)
+    return fails
+
+
 def flock_dashboard_tests():
     """Pins for the flock.py unified briefing: it must COMPOSE the individual tools (numbers match)
     and surface the previously-hidden severe inbreeding on the front page."""
@@ -1363,6 +1409,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nEdge-hardening (validator gate + robustness) pins:")
+    failures += edge_hardening_tests()
     print("\nFlock dashboard (composition) pins:")
     failures += flock_dashboard_tests()
     print("\nParasite-scorer dict-note crash-fix pins:")
