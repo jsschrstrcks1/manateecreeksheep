@@ -630,6 +630,12 @@ def flock_dashboard_tests():
     check("briefing reports graph clean", b["inbreeding"]["graph_clean"] is True)
     check("briefing withdrawal holds non-empty", len(b["withdrawal_holds"]) > 0)
     check("briefing cohorts present", len(b["cohorts"]) > 0)
+    # vaccination section composed and matches the source tool
+    _vc_spec = importlib.util.spec_from_file_location("vc2", os.path.join(_here, "vaccination_check.py"))
+    vc = importlib.util.module_from_spec(_vc_spec); _vc_spec.loader.exec_module(vc)
+    vax_never = sum(1 for r in vc.compliance(live, as_of) if r["status"] == "never")
+    check("briefing vaccination-never count matches vaccination_check",
+          len(b["vaccination"]["never"]) == vax_never and vax_never > 0)
     return fails
 
 

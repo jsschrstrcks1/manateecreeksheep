@@ -50,6 +50,7 @@ def briefing(db, as_of=None):
     pi = _load("pedigree_integrity")
     pdmod = _load("pending_done")
     co = _load("cohorts")
+    vc = _load("vaccination_check")
 
     # HEALTH: worst-first triage (RED/AMBER)
     triage = at.triage_flock(db, as_of)
@@ -77,6 +78,11 @@ def briefing(db, as_of=None):
     overdue = [it for it in opens if it.get("_overdue")]
     suggestions = pdmod.suggest_from_triage(db, items)
 
+    # VACCINATION: clostridial (CDT) never / booster-overdue
+    vax = vc.compliance(db, as_of)
+    vax_never = [r for r in vax if r["status"] == "never"]
+    vax_overdue = [r for r in vax if r["status"] == "booster_overdue"]
+
     # COHORTS
     cohorts = co.cohort_summary(db, as_of)
 
@@ -86,6 +92,7 @@ def briefing(db, as_of=None):
         "withdrawal_holds": withdrawal_holds,
         "inbreeding": {"graph_clean": integrity["clean"], "faults": integrity["faults_total"],
                        "high_F": high_f},
+        "vaccination": {"never": vax_never, "booster_overdue": vax_overdue},
         "tasks": {"open": len(opens), "overdue": len(overdue), "suggestions": len(suggestions)},
         "cohorts": cohorts,
     }
@@ -128,6 +135,14 @@ def main():
           + f", {len(inb['high_F'])} living animal(s) at F>=0.125 (high/severe)")
     for r in inb["high_F"][:8]:
         print(f"    F={r['F']:.3f} [{r['band']}]  {(r['name'] or r['id'])[:30]}")
+
+    vax = b["vaccination"]
+    print(f"\nVACCINATION (vaccination_check.py):  {len(vax['never'])} never CDT-vaccinated, "
+          f"{len(vax['booster_overdue'])} booster overdue")
+    for r in vax["never"][:6]:
+        print(f"    never  {(r['name'] or r['id'])[:30]}")
+    if len(vax["never"]) > 6:
+        print(f"    (+{len(vax['never'])-6} more — see vaccination_check.py)")
 
     t = b["tasks"]
     print(f"\nTASKS (pending_done.py):  {t['open']} open ({t['overdue']} overdue); "
