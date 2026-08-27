@@ -413,6 +413,59 @@ def h2_prior_tests():
     return fails
 
 
+def cohort_tests():
+    """Pins for MCS-10 time-aware cohorts: pen_as_of derivation, membership grouping, summary,
+    and transitions — all log-derived (MCS-9), stored nowhere."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    import datetime as _dt
+    _co_spec = importlib.util.spec_from_file_location("co", os.path.join(_here, "cohorts.py"))
+    co = importlib.util.module_from_spec(_co_spec)
+    _co_spec.loader.exec_module(co)
+
+    # pen_as_of: time-aware selection
+    s = {"pen_log": [{"date": None, "pen": "Pen 1"},
+                     {"date": "2026-03-01", "pen": "Pen 2"},
+                     {"date": "2026-06-01", "pen": "Pen 3"}]}
+    check("as_of before any dated move -> baseline", co.pen_as_of(s, _dt.date(2026, 1, 1)) == "Pen 1")
+    check("as_of between moves -> earlier dated", co.pen_as_of(s, _dt.date(2026, 4, 1)) == "Pen 2")
+    check("as_of after last move -> latest", co.pen_as_of(s, _dt.date(2026, 7, 1)) == "Pen 3")
+    check("scalar fallback when no log", co.pen_as_of({"pen": "Pen 9"}, _dt.date(2026, 1, 1)) == "Pen 9")
+    check("None when nothing known", co.pen_as_of({}, _dt.date(2026, 1, 1)) is None)
+
+    db = {"sheep": [
+        {"id": "a", "status": "alive", "sex": "ewe", "pen_log": [{"date": None, "pen": "Pen 1"}]},
+        {"id": "b", "status": "alive", "sex": "ram", "pen_log": [{"date": None, "pen": "Pen 1"}]},
+        {"id": "c", "status": "alive", "sex": "ewe", "pen": "Pen 2"},
+        {"id": "dead", "status": "deceased", "pen": "Pen 1"},
+        {"id": "offprop", "status": "alive", "on_property": False, "pen": "Pen 1"},
+        {"id": "nopen", "status": "alive", "sex": "ewe"},
+    ]}
+    mem = co.cohort_membership(db)
+    check("membership groups by pen", sorted(mem.get("Pen 1", [])) == ["a", "b"])
+    check("deceased excluded", "dead" not in sum(mem.values(), []))
+    check("off-property excluded", "offprop" not in sum(mem.values(), []))
+    check("unpenned bucketed not dropped", mem.get("(unpenned)") == ["nopen"])
+
+    summ = {r["cohort"]: r for r in co.cohort_summary(db)}
+    check("summary counts", summ["Pen 1"]["count"] == 2 and summ["Pen 1"]["sexes"] == {"ewe": 1, "ram": 1})
+
+    tr = co.transitions({"sheep": [{"id": "x", "pen_log": [
+        {"date": "2026-03-01", "pen": "Pen 2"}, {"date": None, "pen": "Pen 1"}]}]},
+        since=_dt.date(2026, 1, 1), until=_dt.date(2026, 12, 31))
+    check("transitions include dated, exclude undated", len(tr) == 1 and tr[0]["pen"] == "Pen 2")
+
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    lm = co.cohort_membership(live)
+    check("live: Pen 4 has charlie-ram", "charlie-ram" in lm.get("Pen 4", []))
+    return fails
+
+
 def loss_tests():
     """Pins for MCS-29 indemnity loss records: cause classification, append-only writer,
     validation, eligibility hinting, and documentation-gap surfacing."""
@@ -1071,6 +1124,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-10 cohort pins:")
+    failures += cohort_tests()
     print("\nMCS-29 indemnity-loss pins:")
     failures += loss_tests()
     print("\nMCS-25 input-inventory pins:")
