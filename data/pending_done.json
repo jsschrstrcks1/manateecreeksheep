@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "purpose": "The flock's pending/done log — MCS-11. A reminder and its record are ONE object: an item is created 'pending' with a due date, and when the work is done the SAME item becomes the record of what happened (status 'done', done_date, result). No separate to-do list and history that drift apart.",
+    "owned_by": "operator/agent — items are added as work is planned and closed as it is done. Consumed read-only by scripts/pending_done.py, which also SUGGESTS new pending items from the current triage but never auto-writes them.",
+    "lifecycle": "pending -> done (with done_date + result) | cancelled (with reason). done/cancelled items are kept, never deleted — the log is the record.",
+    "schema": {
+      "id": "stable unique id",
+      "action": "what to do (free text, e.g. 'check FEC', 'deworm', 'CDT booster')",
+      "target": "sheep id, a cohort name, or 'flock'",
+      "created": "ISO date the item was raised",
+      "due": "ISO date it is due (or null)",
+      "status": "pending | done | cancelled",
+      "done_date": "ISO date completed (done only)",
+      "result": "what happened (done only)",
+      "source": "who/what raised it (e.g. 'triage', 'operator')",
+      "notes": "free text"
+    }
+  },
+  "items": []
+}

@@ -413,6 +413,72 @@ def h2_prior_tests():
     return fails
 
 
+def pending_done_tests():
+    """Pins for MCS-11 pending/done log: the one-object lifecycle (pending -> done in place),
+    validation, overdue ordering, and the read-only triage bridge with dedup."""
+    fails = []
+
+    def check(name, cond):
+        print(f"  {'ok  ' if cond else 'FAIL'} {name}")
+        if not cond:
+            fails.append(name)
+
+    import datetime as _dt
+    _pd_spec = importlib.util.spec_from_file_location("pd", os.path.join(_here, "pending_done.py"))
+    pd = importlib.util.module_from_spec(_pd_spec)
+    _pd_spec.loader.exec_module(pd)
+
+    items = []
+    pd.record_pending(items, "t1", "check FEC", "gg", "2026-01-01", due="2026-01-10", source="triage")
+    check("record_pending appends pending", len(items) == 1 and items[0]["status"] == "pending")
+    check("record_pending drops None", "notes" not in items[0])
+
+    # the ONE-object transition: same item becomes its record
+    done = pd.mark_done(items, "t1", "2026-01-08", result="FEC 250, dewormed")
+    check("mark_done transitions in place", done is items[0] and items[0]["status"] == "done")
+    check("mark_done records done_date + result", items[0]["done_date"] == "2026-01-08" and "result" in items[0])
+    check("mark_done missing id -> None", pd.mark_done(items, "nope", "2026-01-01") is None)
+    pd.record_pending(items, "t2", "CDT booster", "flock", "2026-02-01")
+    check("cancel sets cancelled", pd.cancel(items, "t2", "not needed")["status"] == "cancelled")
+
+    # validation
+    bad = [
+        {"id": "dup", "status": "pending", "created": "2026-01-01"},
+        {"id": "dup", "status": "pending", "created": "2026-01-01"},        # duplicate id
+        {"id": "x", "status": "weird", "created": "2026-01-01"},            # bad status
+        {"id": "y", "status": "pending", "created": "nope"},               # bad created
+        {"id": "z", "status": "done", "created": "2026-01-01"},            # done, no done_date
+        {"id": "w", "status": "pending", "created": "2026-01-01", "junk": 1}]
+    iss = pd.validate_items(bad)
+    check("validator flags duplicate id", any("duplicate id" in i for i in iss))
+    check("validator flags bad status", any("status 'weird'" in i for i in iss))
+    check("validator flags bad created", any("created" in i and "unparseable" in i for i in iss))
+    check("validator flags done without done_date", any("no done_date" in i for i in iss))
+    check("validator flags unknown key", any("unknown key" in i for i in iss))
+
+    # open_items: only pending, overdue flagged, sorted
+    log = [
+        {"id": "a", "status": "pending", "created": "2026-01-01", "due": "2026-01-05"},
+        {"id": "b", "status": "pending", "created": "2026-01-01", "due": "2026-02-20"},
+        {"id": "c", "status": "pending", "created": "2026-01-01"},   # undated
+        {"id": "d", "status": "done", "created": "2026-01-01", "done_date": "2026-01-02"},
+    ]
+    opens = pd.open_items(log, as_of=_dt.date(2026, 1, 10))
+    check("open_items excludes done", all(o["status"] == "pending" for o in opens) and len(opens) == 3)
+    check("overdue flagged", opens[0]["id"] == "a" and opens[0]["_overdue"] is True)
+    check("undated sorts last", opens[-1]["id"] == "c")
+
+    # triage bridge (read-only) on live data + dedup
+    live = json.loads(open(os.path.join(_here, "..", "data", "flock_database.json")).read())
+    sug = pd.suggest_from_triage(live, [])
+    check("suggest proposes triage RED/AMBER items", len(sug) > 0
+          and all(s["priority"] in ("RED", "AMBER") for s in sug))
+    check("suggest includes a known RED ewe", any(s["target"] == "serendipity-twin-ewe" for s in sug))
+    deduped = pd.suggest_from_triage(live, [{"target": "serendipity-twin-ewe", "status": "pending"}])
+    check("suggest dedups against an open item", not any(s["target"] == "serendipity-twin-ewe" for s in deduped))
+    return fails
+
+
 def cohort_tests():
     """Pins for MCS-10 time-aware cohorts: pen_as_of derivation, membership grouping, summary,
     and transitions — all log-derived (MCS-9), stored nowhere."""
@@ -1124,6 +1190,8 @@ def main():
     failures += ewe_productivity_tests()
     print("\nMCS-27 h2-prior pins:")
     failures += h2_prior_tests()
+    print("\nMCS-11 pending/done pins:")
+    failures += pending_done_tests()
     print("\nMCS-10 cohort pins:")
     failures += cohort_tests()
     print("\nMCS-29 indemnity-loss pins:")
