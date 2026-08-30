@@ -481,3 +481,27 @@ reinforces MCS-1's offline angle), `elaclef/REPROsheep2.0_ABM` (academic dairy-s
 model — research, not a tool). **No upstream code taken from any of them.**
 
 **Soli Deo Gloria.**
+
+
+## Operator decisions on record (append-only; recalled from cognitive memory + session log, entered 2026-08-30 at Ken's direction)
+
+These are Ken's calls, recorded so no future session re-litigates or quietly forgets them.
+A decision here binds until Ken changes it; corrections are appended, never rewritten.
+
+| Date | Decision | Standing effect |
+|---|---|---|
+| 2026-05-14 | **"When the operator names a specific command, script, or file — run that exact thing."** (encoded after a careful-not-clever rebuke) | No silent substitution of "equivalents", ever |
+| 2026-05-14 (est.) | Audit/analysis tasks produce documentation only; DB fixes land as separate per-issue commits with owner approval | Established the mcs read-vs-write commit discipline |
+| standing | Selection hierarchy: FAMACHA/FEC first, hair (observed, not breed-math) second, breed composition third, meat fourth; performance beats pedigree; FAMACHA 4–5 needing treatment = cull candidate | Drives breeding-advisor + pipeline placement |
+| standing | Bulk-cleanup dates 2026-04-02 / 2026-04-06 are placeholders, never real dates — ask before treating any as an event date | 43 records held open in the questionnaire |
+| 2026-08-12 | Coat-shed, fat-tail, and per-ewe milk records "would be huge" — incl. overruling my milk-records dismissal (correction kept on MCS-21, not rewritten) | MCS-19/20/21 capture wired into the chute |
+| 2026-08-18 | Pen canon: Pens 1–6 + Tree Fort + Goose Pen = **8 pens** (Tree Fort aka chicken coop; Goose Pen aka lamb pen) | MCS-40; validator + census + chute enforce it |
+| 2026-08-18 | "I'm not running a python command in a terminal in the chute" — phone-first UI required | app/chute.html + census.html; PWA is the end-state |
+| 2026-08-18 | White-eye losses treated ivermectin-only + iron/B; Prohibit (levamisole) class switch authorized for Lara's ram lamb | Resistance hypothesis + FECRT framing follow from this |
+| 2026-08-19 | Repo privacy: "Push this once, flip later" — override authorized per-session; the flip to private stays Ken's task; gate keeps blocking until flipped | ASSERT_PRIVATE_OVERRIDE usage is bounded by this |
+| 2026-08-19 | Conflict resolution is **always toward the superset** — "that's part of my posture too" | Merge + ledger + library discipline |
+| 2026-08-19 | Reminder channel: **Atlas phone push, part of the eventual PWA** | MCS-2 delivery half configured toward web-push (MCS-34) |
+| 2026-08-19 | Farm location: "western coastal Pasco on the canals" — approximate coordinates authorized | MCS-1 weather signal LIVE at ~10km precision |
+| 2026-08-19 | Economics: feed \$0.31/lb × 1 lb/head/day; 2222 = \$600; Angus = \$250; Gigi + sister ≈ \$500 each (held until Gigi=GG + sister identity confirmed); "most others \$200–300" stays a range, never spread per-animal | MCS-13 seeds; refuse-to-invent stands |
+| 2026-08-27 | **"Lambs are not sold by lb weight here"** — per-head market | MCS-24 corrected same day; wrong per-lb model recorded, not erased |
+| 2026-08-30 | Operator decisions belong ON the ledger, from memory — this section exists by that instruction | Append new decisions here as they are made |
