@@ -7,4 +7,16 @@ REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo .)"
 if [ -x "$REPO_ROOT/.githooks/check-required-hooks.sh" ]; then
   "$REPO_ROOT/.githooks/check-required-hooks.sh" || exit 1
 fi
+
+# SECOND TIE for hard safety. The dangerous-command guard runs on the HARNESS plane
+# (PreToolUse in .claude/settings.json) and catches a command about to RUN. This catches a
+# different thing on a different plane: a catastrophic command pattern about to LAND in a
+# committed file, where it would run later under someone else's hands. They fail
+# independently, which is the point: the harness plane is silently absent in multi-root and
+# remote sessions (measured 2026-08-08, ten commits with every P0 guard inert).
+# Skips silently if node is not on the hook's PATH.
+if command -v node >/dev/null 2>&1 && [ -f "$REPO_ROOT/.claude/hooks/lib/scan-command.mjs" ]; then
+  node "$REPO_ROOT/.claude/hooks/lib/scan-command.mjs" --git-staged || exit 1
+fi
+
 exit 0
